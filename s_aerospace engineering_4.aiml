@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- AEROSPACE ENGINEERING-->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>AEROSPACE ENGINEERING *</pattern> 
+	<template><think><set name="topic">aerospace engineering</set></think><sr /></template></category>
+
+<category><pattern>AEROSPACE ENGINEERING</pattern>	
+	<template>For resources on aerospace engineering check out the <a href=" http://guides.lib.uci.edu/engr_mech_aerospace" target="_blank">Mechanical and Aerospace Engineering Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Interactions -->
+
+
+<category><pattern>AEROSPACE ENGINEERING</pattern>
+	<that>Aeronautics as a subject is included in the broader subjects of Aerospace Engineering and Earth Science Would you like resource recommendations for aerospace engineering or earth science_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+	and/or <a href=" {http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/engr_mech_aerospace" target="_blank">Mechanical and Aerospace Engineering Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>AEROSPACE ENGINEERING</pattern>
+	<that>Outer space as a subject is included in the broader subjects of Aerospace Engineering and Astronomy Would you like resource recommendations for aerospace engineering or astronomy_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+	and/or <a href=" {http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/engr_mech_aerospace" target="_blank">Mechanical and Aerospace Engineering Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>AEROSPACE ENGINEERING</pattern>
+	<that>Space simulators as a subject is included in the broader subjects of Aerospace Engineering and Environmental Engineering Would you like resource recommendations for aerospace engineering or environmental engineering_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+	and/or <a href=" {http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/engr_mech_aerospace" target="_blank">Mechanical and Aerospace Engineering Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<!-- Subject keywords-->
+	
+<category><pattern>AERODYNAMICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+			and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/engr_mech_aerospace" target="_blank">Mechanical and Aerospace Engineering Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+ 
+<category><pattern>COMMERCIAL AERONAUTICS</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>AEROSTATICS</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>AEROTHERMODYNAMICS</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>AIRDROP</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>AIRPLANES</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>AIRPORTS</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>AIRSHIPS</pattern>
+<template><srai>AERODYNAMICS</srai></template></category> 
+<category><pattern>AIRWAYS</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>ATMOSPHERIC ENTRY OF ARTIFICIAL SATELLITES</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>ASTRODYNAMICS</pattern>
+<template><srai>AERODYNAMICS</srai></template></category> 
+<category><pattern>ATMOSPHERIC ENTRY OF BALLISTIC MISSILES</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>BALLOONING</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>BALLOONS</pattern>
+<template><srai>AERODYNAMICS</srai></template></category> 
+<category><pattern>CATAPULTS</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>CONDENSATION TRAILS</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>EXPLOSIVES IN ASTRONAUTICS</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>FLIGHT</pattern>
+<template><srai>AERODYNAMICS</srai></template></category> 
+<category><pattern>FLYING MACHINES</pattern>
+<template><srai>AERODYNAMICS</srai></template></category> 
+<category><pattern>GLIDING AND SOARING</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>GROUND SUPPORT SYSTEMS</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>HELICOPTERS</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>INTERCEPTION OF AIRCRAFT</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>INTERPLANETARY VOYAGES</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>INTERSTELLAR TRAVEL</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>KITES</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>LAUNCH COMPLEXES</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>METEOROLOGY IN AERONAUTICS</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>NAVIGATION</pattern>
+<template><srai>AERODYNAMICS</srai></template></category> 
+<category><pattern>OUTER SPACE EXPLORATION</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>AERIAL EXPLORATION OF POLAR REGIONS</pattern>
+<template><srai>AERODYNAMICS</srai></template></category> 
+<category><pattern>PROJECT NEPTUNE</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>PYROTECHNICS IN ASTRONAUTICS</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>RADAR IN AERONAUTICS</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>RELATIVISTIC ROCKET MECHANICS</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>RELIGION AND ASTRONAUTICS</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>ROCKETRY</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>SPACE FLIGHT</pattern>
+<template><srai>AERODYNAMICS</srai></template></category> 
+<category><pattern>SPACE RACE</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>SPACE SHIPS</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>SPACE STATIONS</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+<category><pattern>ATMOSPHERIC ENTRY OF SPACE VEHICLES</pattern>
+<template><srai>AERODYNAMICS</srai></template></category> 
+<category><pattern>VIBRATION</pattern>
+<template><srai>AERODYNAMICS</srai></template></category>
+
+<category><pattern>AEROSPACE ENGINEERING</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+			and/or <a href=" http://uclibs.org/PID/255206" target="_blank">SAE Mobilus</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/engr_mech_aerospace" target="_blank">Mechanical and Aerospace Engineering Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>AERIAL PROPELLERS</pattern>
+<template><srai>AEROSPACE ENGINEERING</srai></template></category>
+<category><pattern>SPACE VEHICLES</pattern>
+<template><srai>AEROSPACE ENGINEERING</srai></template></category>
+<category><pattern>STABILITY OF AIRPLANES</pattern>
+<template><srai>AEROSPACE ENGINEERING</srai></template></category>
+<category><pattern>X-15 ROCKET AIRCRAFT</pattern>
+<template><srai>AEROSPACE ENGINEERING</srai></template></category>
+
+<category><pattern>FLOATING AIRPORTS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/255206" target="_blank">SAE Mobilus</a> 
+			and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/engr_mech_aerospace" target="_blank">Mechanical and Aerospace Engineering Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>ARTIFICIAL SATELLITES IN AERONAUTICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://arc.aiaa.org/search" target="_blank">Aerospace Research Central</a> 
+			and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/engr_mech_aerospace" target="_blank">Mechanical and Aerospace Engineering Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>ASTRONAUTICS</pattern>
+<template><srai>ARTIFICIAL SATELLITES IN AERONAUTICS</srai></template></category> 
+<category><pattern>BALLOON ASCENSIONS</pattern>
+<template><srai>ARTIFICIAL SATELLITES IN AERONAUTICS</srai></template></category> 
+<category><pattern>ELECTRICITY IN AERONAUTICS</pattern>
+<template><srai>ARTIFICIAL SATELLITES IN AERONAUTICS</srai></template></category> 
+<category><pattern>ELECTROMAGNETIC INTERFERENCE IN AERONAUTICS</pattern>
+<template><srai>ARTIFICIAL SATELLITES IN AERONAUTICS</srai></template></category> 
+<category><pattern>HIGH SPEED AERONAUTICS</pattern>
+<template><srai>ARTIFICIAL SATELLITES IN AERONAUTICS</srai></template></category> 
+<category><pattern>LASERS IN AERONAUTICS</pattern>
+<template><srai>ARTIFICIAL SATELLITES IN AERONAUTICS</srai></template></category> 
+
+<category><pattern>ISLAM AND ASTRONAUTICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+			and/or <a href=" http://arc.aiaa.org/search" target="_blank">Aerospace Research Central</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/engr_mech_aerospace" target="_blank">Mechanical and Aerospace Engineering Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>JUDAISM AND ASTRONAUTICS</pattern>
+<template><srai>ISLAM AND ASTRONAUTICS</srai></template></category>
+<category><pattern>LOW ALTITUDE AERONAUTICS</pattern>
+<template><srai>ISLAM AND ASTRONAUTICS</srai></template></category>
+<category><pattern>MOTION PICTURES IN AERONAUTICS</pattern>
+<template><srai>ISLAM AND ASTRONAUTICS</srai></template></category>
+<category><pattern>RADIOISOTOPES IN AERONAUTICS</pattern>
+<template><srai>ISLAM AND ASTRONAUTICS</srai></template></category>
+<category><pattern>SPACE FLIGHT TRAINING FACILITIES</pattern>
+<template><srai>ISLAM AND ASTRONAUTICS</srai></template></category>
+<category><pattern>WOMEN IN AERONAUTICS</pattern>
+<template><srai>ISLAM AND ASTRONAUTICS</srai></template></category>
+<category><pattern>WOMEN IN ASTRONAUTICS</pattern>
+<template><srai>ISLAM AND ASTRONAUTICS</srai></template></category>
+
+<category><pattern>CIVILIAN USE OF OUTER SPACE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+			and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/engr_mech_aerospace" target="_blank">Mechanical and Aerospace Engineering Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>PRIVATE FLYING</pattern>
+<template><srai>CIVILIAN USE OF OUTER SPACE</srai></template></category>
+<category><pattern>UNIDENTIFIED FLYING OBJECTS</pattern>
+<template><srai>CIVILIAN USE OF OUTER SPACE</srai></template></category>
+
+
+
+
+</aiml>

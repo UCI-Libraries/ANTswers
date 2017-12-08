@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- all about catalogs -->
+<!-- -->
+
+<!--GENERAL-->
+
+<category><pattern>BOOK</pattern>
+<template>Say: Books on * (* equals keyword or topic) and I can run a search in ANTPAC for you. Then check to see if the book is checked out or not.</template></category>
+	<category><pattern>CAN I CHECK OUT A CERTAIN BOOK</pattern>
+	<template><srai>BOOK</srai></template></category>
+	<category><pattern>BOOKS</pattern>
+	<template><srai>BOOK</srai></template></category>
+	<category><pattern>* CHECKED OUT</pattern>
+	<template><srai>BOOK</srai></template></category>
+
+<category><pattern>HOW DO I FIND OUT IF THE LIBRARY HAS A CERTAIN BOOK</pattern>
+<template>Books can be found by searching our online catalog called <a href=" http://antpac.lib.uci.edu/" target="_blank">ANTPAC</a>.</template></category> 
+	<category><pattern>HOW DO I GET BOOKS</pattern>
+	<template><srai>HOW DO I FIND OUT IF THE LIBRARY HAS A CERTAIN BOOK</srai></template></category>
+	<category><pattern>WHERE CAN I FIND RESEARCH BOOKS</pattern>
+	<template><srai>HOW DO I FIND OUT IF THE LIBRARY HAS A CERTAIN BOOK</srai></template></category>
+	<category><pattern>WHERE IS A BOOK</pattern>
+	<template><srai>HOW DO I FIND OUT IF THE LIBRARY HAS A CERTAIN BOOK</srai></template></category>
+	<category><pattern>* BOOK IS AVAILABLE AT THE LIBRARY</pattern>
+	<template><srai>HOW DO I FIND OUT IF THE LIBRARY HAS A CERTAIN BOOK</srai></template></category>
+	<category><pattern> * CHECK IF A BOOK IS CHECKED OUT</pattern>
+	<template><srai>HOW DO I FIND OUT IF THE LIBRARY HAS A CERTAIN BOOK</srai></template></category>
+	<category><pattern>IS * BOOK CHECKED OUT</pattern>
+	<template><srai>HOW DO I FIND OUT IF THE LIBRARY HAS A CERTAIN BOOK</srai></template></category>
+	<category><pattern>* CHECK IF MY BOOK IS CHECKED OUT</pattern> 
+	<template><srai>HOW DO I FIND OUT IF THE LIBRARY HAS A CERTAIN BOOK</srai></template></category>
+	
+<category><pattern>WHAT DATABASE SHOULD I USE TO SEARCH FOR UCI BOOKS</pattern>
+<template>You can find a book via <a href=" http://antpac.lib.uci.edu/" target="_blank">ANTPAC</a>.</template></category>
+
+<category><pattern>I WANT TO SEE IF YOU HAVE BOOKS</pattern>
+<template>You can find books via <a href=" http://antpac.lib.uci.edu/" target="_blank">ANTPAC</a> or if you say "books on *" (* equals topic or keyword)I can run the search for you.</template></category>
+	<category><pattern>I NEED SOME BOOKS FOR A PAPER</pattern>
+	<template><srai>I WANT TO SEE IF YOU HAVE BOOKS</srai></template></category>
+
+<category><pattern>WHERE ARE THE BOOKS</pattern>
+<template>Our books are on the shelves</template></category>
+	
+<category><pattern>FIND A BOOK</pattern>
+<template>I can help you find a book! Say: "I need a book on *" (* insert a subject or keyword).  Or, visit our <a href=" http://www.lib.uci.edu/find-book">Find a Book</a> page for more info.</template></category>
+	<category><pattern>I NEED A BOOK</pattern>
+	<template><srai>FIND A BOOK</srai></template></category>
+	<category><pattern>BOOKS</pattern>
+	<template><srai>FIND A BOOK</srai></template></category>
+	<category><pattern>I NEED TO FIND IF A BOOK *</pattern>
+	<template><srai>FIND A BOOK</srai></template></category>
+	<category><pattern>HOW DO I FIND A BOOK</pattern>
+	<template><srai>FIND A BOOK</srai></template></category>
+	<category><pattern>* FIND A BOOK</pattern>
+	<template><srai>FIND A BOOK</srai></template></category>
+	<category><pattern>* TELL IF THE LIBRARY HAS A BOOK</pattern>
+	<template><srai>FIND A BOOK</srai></template></category>
+	<category><pattern>* SEARCH FOR BOOKS THE LIBRARY HAS</pattern>
+	<template><srai>FIND A BOOK</srai></template></category>
+	<category><pattern>HOW TO FIND BOOKS</pattern>
+	<template><srai>FIND A BOOK</srai></template></category>
+	<category><pattern>HOW TO FIND BOOKS *</pattern>
+	<template><srai>FIND A BOOK</srai></template></category>
+	<category><pattern>* IF YOU HAVE THIS BOOK</pattern>
+	<template><srai>FIND A BOOK</srai></template></category>
+	<category><pattern>HOW CAN I FIND BOOKS</pattern>
+	<template><srai>FIND A BOOK</srai></template></category>
+	
+<category><pattern>IS THERE A COMPUTER I CAN USE TO SEE IF THE LIBRARY HAS A BOOK I WANT</pattern>
+<template>You can ask me, just say:  "I need a book on *" (* insert a subject or keyword).</template></category>
+
+<category><pattern>I WANT TO SEE IF YOU HAVE A BOOK</pattern>
+<template>You can find a book via <a href=" http://antpac.lib.uci.edu/" target="_blank">ANTPAC</a> or if you say "book on *" (* equals topic or keyword)I can run the search for you.</template></category>
+	<category><pattern>I WANT TO FIND A BOOK</pattern>
+	<template><srai>I WANT TO SEE IF YOU HAVE A BOOK</srai></template></category>
+	<category><pattern>MY PROFESSOR SAYS I NEED TO READ A BOOK FOR CLASS</pattern>
+	<template><srai>I WANT TO SEE IF YOU HAVE A BOOK</srai></template></category>
+	<category><pattern>WHERE CAN I FIND A BOOK</pattern>
+	<template><srai>I WANT TO SEE IF YOU HAVE A BOOK</srai></template></category>
+	<category><pattern>AHIKAR</pattern>
+	<template><srai>I WANT TO SEE IF YOU HAVE A BOOK</srai></template></category>
+	<category><pattern>AHIKAR</pattern>
+	<template><srai>I WANT TO SEE IF YOU HAVE A BOOK</srai></template></category>
+	<category><pattern>HOW TO LOCATE A BOOK</pattern>
+	<template><srai>I WANT TO SEE IF YOU HAVE A BOOK</srai></template></category>
+	
+<category><pattern>THE BOOK IS CALLED</pattern>
+<template>What is the title?</template></category>
+
+	<category><pattern> * </pattern>
+	<that>What is the title_</that>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template></category>	
+
+<category><pattern>LIBRARY CATALOGS</pattern>
+<template>Search UC Irvine Libraries and beyond using one of our <a href=" http://www.lib.uci.edu/library-catalogs" target="_blank">catalogs</a>.</template></category>
+	<category><pattern>* LIBRARY CATALOGS</pattern>
+	<template><srai>LIBRARY CATALOGS</srai></template></category>
+	<category><pattern>LIBRARY CATALOGS *</pattern>
+	<template><srai>LIBRARY CATALOGS</srai></template></category>
+	<category><pattern>* LIBRARY CATALOGS *</pattern>
+	<template><srai>LIBRARY CATALOGS</srai></template></category>
+	<category><pattern>* THE CATALOG *</pattern>
+	<template><srai>LIBRARY CATALOGS</srai></template></category>
+	<category><pattern>* THE CATALOG</pattern>
+	<template><srai>LIBRARY CATALOGS</srai></template></category>
+
+<!-- ANTPAC -->
+
+<category><pattern>ANTPAC</pattern>
+<template>ANTPAC is available here: <a href=" http://antpac.lib.uci.edu/" target="_blank">http://antpac.lib.uci.edu/</a>.</template></category> 
+	<category><pattern>* ANTPAC</pattern>
+	<template><srai>ANTPAC</srai></template></category>
+	<category><pattern>ANTPAC *</pattern>
+	<template><srai>ANTPAC</srai></template></category>
+	<category><pattern>* ANTPAC *</pattern>
+	<template><srai>ANTPAC</srai></template></category>
+	<category><pattern>WHERE IS THE LIBRARY CATALOG</pattern>
+	<template><srai>ANTPAC</srai></template></category>
+	<category><pattern>CATALOG</pattern>
+	<template><srai>ANTPAC</srai></template></category>
+	<category><pattern>* CATALOG</pattern>
+	<template><srai>ANTPAC</srai></template></category>
+	<category><pattern>CATALOG *</pattern>
+	<template><srai>ANTPAC</srai></template></category>
+	<category><pattern>* CATALOG *</pattern>
+	<template><srai>ANTPAC</srai></template></category>
+	<category><pattern>FIND BOOK</pattern>
+	<template><srai>ANTPAC</srai></template></category>
+	<category><pattern>FIND * BOOK</pattern>
+	<template><srai>ANTPAC</srai></template></category>
+	<category><pattern>* FIND * BOOK</pattern>
+	<template><srai>ANTPAC</srai></template></category>
+	<category><pattern>FIND * BOOK *</pattern>
+	<template><srai>ANTPAC</srai></template></category>
+	<category><pattern>* FIND BOOK</pattern> 
+	<template><srai>ANTPAC</srai></template></category>
+
+<category><pattern>WHAT IS ANTPAC</pattern>
+<template>ANTPAC is the UC Irvine libraries online catalog, also known as an OPAC. ANTPAC is a computerized catalog of books and other items in the UC Irvine library.</template></category>
+	<category><pattern>* WHAT IS ANTPAC</pattern>
+	<template><srai>WHAT IS ANTPAC</srai></template></category>
+	<category><pattern>WHAT IS ANTPAC *</pattern>
+	<template><srai>WHAT IS ANTPAC</srai></template></category>
+	<category><pattern>* WHAT IS ANTPAC *</pattern>
+	<template><srai>WHAT IS ANTPAC</srai></template></category>
+
+<category><pattern>DOES ANTPAC LIST INFORMATION FOR SPECIFIC ARTICLES</pattern>
+<template>No, ANTPAC does not contain information about specific articles. You should use databases to find articles. Try our <a href=" http://guides.lib.uci.edu/databases" target="_blank">Databases to Get You Started</a>.</template></category>
+
+<category><pattern>HOW DO I USE ANTPAC</pattern>
+<template>Our <a href=" https://www.lib.uci.edu/find-book">Find a Book</a> page has some tips to get you started in ANTPAC. There are also search tips and help documents available in ANTPAC to the right of the search box. For more, please <a href=" https://ask.lib.uci.edu" target="_blank">Ask a Librarian</a> for help.</template></category>
+	<category><pattern>HOW TO USE ANTPAC</pattern>
+	<template><srai>HOW DO I USE ANTPAC</srai></template></category>
+
+<category><pattern>LIST IN ANTPAC</pattern>
+<template>ANTPAC's Lists feature has many benefits but is too much for me to explain. Please <a href=" https://ask.lib.uci.edu" target="_blank">Ask a Librarian</a> for help.</template></category>
+	<category><pattern>ANTPAC LISTS</pattern>
+	<template><srai>LIST IN ANTPAC</srai></template></category>
+	<category><pattern>* ANTPAC LISTS</pattern>
+	<template><srai>LIST IN ANTPAC</srai></template></category>
+	<category><pattern>ANTPAC LISTS *</pattern>
+	<template><srai>LIST IN ANTPAC</srai></template></category>
+	<category><pattern>* ANTPAC LISTS *</pattern>
+	<template><srai>LIST IN ANTPAC</srai></template></category>
+	<category><pattern>* LIST IN ANTPAC</pattern>
+	<template><srai>LIST IN ANTPAC</srai></template></category>
+	<category><pattern>LIST IN ANTPAC *</pattern>
+	<template><srai>LIST IN ANTPAC</srai></template></category>
+	<category><pattern>* LIST IN ANTPAC *</pattern>
+	<template><srai>LIST IN ANTPAC</srai></template></category>
+
+	
+<!-- MELVYL -->  
+
+<category><pattern>MELVYL</pattern>
+<template>MELVYL is available here: <a href=" http://uci.worldcat.org/" target="_blank">http://uci.worldcat.org/</a>.</template></category> 
+	<category><pattern>* MELVYL</pattern>
+	<template><srai>MELVYL</srai></template></category>
+	<category><pattern>MELVYL *</pattern>
+	<template><srai>MELVYL</srai></template></category>
+	<category><pattern>* MELVYL *</pattern>
+	<template><srai>MELVYL</srai></template></category>
+	
+<category><pattern>SEARCH INTERLIBRARY LOAN</pattern>
+<template>Finding books that you can ILL from other libraries can be done via MELVYL. MELVYL is available here: <a href=" http://uci.worldcat.org/" target="_blank">http://uci.worldcat.org/</a>.</template></category> 
+	<category><pattern>* SEARCH INTERLIBRARY LOAN</pattern>
+	<template><srai>SEARCH INTERLIBRARY LOAN</srai></template></category>
+	<category><pattern>SEARCH INTERLIBRARY LOAN *</pattern>
+	<template><srai>SEARCH INTERLIBRARY LOAN</srai></template></category>
+	<category><pattern>* SEARCH INTERLIBRARY LOAN *</pattern>
+	<template><srai>SEARCH INTERLIBRARY LOAN</srai></template></category>
+
+<category><pattern>WHAT IS MELVYL</pattern>
+<template>MELVYL is a computerized catalog of books and other items owned by all UC libraries.</template></category>
+	<category><pattern>* WHAT IS MELVYL</pattern>
+	<template><srai>WHAT IS MELVYL</srai></template></category>
+	<category><pattern>WHAT IS MELVYL *</pattern>
+	<template><srai>WHAT IS MELVYL</srai></template></category>
+	<category><pattern>* WHAT IS MELVYL *</pattern>
+	<template><srai>WHAT IS MELVYL</srai></template></category>
+	
+<category><pattern>WHERE ON THE MELVYL SEARCH RESULTS PAGE DO I CLICK TO READ AN ELECTRONIC RESOURCE</pattern>
+<template>If it is available  at UCI, look under "Find a copy online" for either a UC-eLinks button or a direct link under "UC Irvine Libraries"</template></category>
+	<category><pattern>WHERE * MELVYL * RESULTS * CLICK * ELECTRONIC RESOURCE</pattern>
+	<template><srai>WHERE ON THE MELVYL SEARCH RESULTS PAGE DO I CLICK TO READ AN ELECTRONIC RESOURCE</srai></template></category>
+	<category><pattern>WHERE * CLICK * MELVYL * RESULTS * ELECTRONIC RESOURCE</pattern>
+	<template><srai>WHERE ON THE MELVYL SEARCH RESULTS PAGE DO I CLICK TO READ AN ELECTRONIC RESOURCE</srai></template></category>
+	<category><pattern>WHERE * MELVYL * RESULTS * CLICK * ELECTRONIC BOOK</pattern>
+	<template><srai>WHERE ON THE MELVYL SEARCH RESULTS PAGE DO I CLICK TO READ AN ELECTRONIC RESOURCE</srai></template></category>
+	<category><pattern>WHERE * CLICK * MELVYL * RESULTS * ELECTRONIC BOOK</pattern>
+	<template><srai>WHERE ON THE MELVYL SEARCH RESULTS PAGE DO I CLICK TO READ AN ELECTRONIC RESOURCE</srai></template></category>
+	<category><pattern>WHERE * MELVYL * RESULTS * CLICK * EBOOK</pattern>
+	<template><srai>WHERE ON THE MELVYL SEARCH RESULTS PAGE DO I CLICK TO READ AN ELECTRONIC RESOURCE</srai></template></category>
+	<category><pattern>WHERE * CLICK * MELVYL * RESULTS * EBOOK</pattern>
+	<template><srai>WHERE ON THE MELVYL SEARCH RESULTS PAGE DO I CLICK TO READ AN ELECTRONIC RESOURCE</srai></template></category>
+	<category><pattern>WHERE * MELVYL * RESULTS * CLICK * E-BOOK</pattern>
+	<template><srai>WHERE ON THE MELVYL SEARCH RESULTS PAGE DO I CLICK TO READ AN ELECTRONIC RESOURCE</srai></template></category>
+	<category><pattern>WHERE * CLICK * MELVYL * RESULTS * E-BOOK</pattern>
+	<template><srai>WHERE ON THE MELVYL SEARCH RESULTS PAGE DO I CLICK TO READ AN ELECTRONIC RESOURCE</srai></template></category>
+
+<category><pattern>* DOWNLOAD BOOK FROM MELVYL</pattern>
+<template>Books can only be downloaded from Melvyl if UCI owns an electronic copy due to licensing restrictions by publishers.  Check to 
+see if UCI Libraries by using our local catalog <a href=" http://antpac.lib.uci.edu/" target="_blank">ANTPAC</a>.</template></category>
+
+<!--MY ANTPAC-->
+
+<category><pattern>MYANTPAC</pattern>
+<template>The login for My ANTPAC is available <a href="https://login.uci.edu/ucinetid/webauth?return_url=https%3A%2F%2Fantpac.lib.uci.edu%2Fpatroninfo" target="_blank">here</a>.</template></category>
+	<category><pattern>* MYANTPAC</pattern>
+	<template><srai>MYANTPAC</srai></template></category>
+	<category><pattern>MYANTPAC *</pattern>
+	<template><srai>MYANTPAC</srai></template></category>
+	<category><pattern>* MYANTPAC *</pattern>
+	<template><srai>MYANTPAC</srai></template></category>
+	<category><pattern>MY ANTPAC</pattern>
+	<template><srai>MYANTPAC</srai></template></category>
+	<category><pattern>* MY ANTPAC</pattern>
+	<template><srai>MYANTPAC</srai></template></category>
+	<category><pattern>MY ANTPAC *</pattern>
+	<template><srai>MYANTPAC</srai></template></category>
+	<category><pattern>* MY ANTPAC *</pattern>
+	<template><srai>MYANTPAC</srai></template></category>
+	<category><pattern>* CHECK MY LIBRARY ACCOUNT</pattern>
+	<template><srai>MYANTPAC</srai></template></category>
+	<category><pattern>BOOKS I CHECKED OUT</pattern>
+	<template><srai>MYANTPAC</srai></template></category>
+	
+<category><pattern>it is not working for me</pattern>
+<that>The login for My ANTPAC is available_</that>
+<template>Please see the <a href="http://www.lib.uci.edu/my-antpac-self-service-options" target="_blank">My ANTPAC login help screen</a>.</template></category>
+<category><pattern>HARD COPY</pattern>
+<template>ANTswers is unable to verify resources based on electronic or print access.  Please use one of our other <a href="	http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a> services for further assistance.</template></category>
+	<category><pattern>* HARD COPY</pattern>
+	<template><srai>HARD COPY</srai></template></category>
+	<category><pattern>HARD COPY *</pattern>
+	<template><srai>HARD COPY</srai></template></category>
+	<category><pattern>* HARD COPY *</pattern>
+	<template><srai>HARD COPY</srai></template></category>
+
+<!--AUTHOR SEARCH-->
+	
+<category><pattern>BOOKS BY</pattern>
+<template>Try an author search in <a href=" http://antpac.lib.uci.edu/" target="_blank">ANTPAC</a>: use last name, first initial when searching.</template></category>
+	<category><pattern>* BOOKS BY</pattern>
+	<template><srai>BOOKS BY</srai></template></category>
+	<category><pattern>BOOKS BY *</pattern>
+	<template><srai>BOOKS BY</srai></template></category>
+	<category><pattern>* BOOKS BY *</pattern>
+	<template><srai>BOOKS BY</srai></template></category>
+
+<!--FORMATS-->
+
+<category><pattern>WHERE ARE THE PLAYS LOCATED</pattern>	
+<template>Books can be found by searching our online catalog called <a href=" http://antpac.lib.uci.edu/" target="_blank">ANTPAC</a>.</template></category> 
+	<category><pattern>LOCATION OF SCRIPTS</pattern>
+	<template><srai>WHERE ARE THE PLAYS LOCATED</srai></template></category>
+	
+<category><pattern>MUSIC SCORE</pattern>
+<template>Try an advanced keyword search in <a href=" http://antpac.lib.uci.edu/" target="_blank">ANTPAC</a>: this allows you to limit your search by material type (music score, 
+audio music, film/video).</template></category>
+	<category><pattern>* MUSIC SCORE</pattern>
+	<template><srai>MUSIC SCORE</srai></template></category>
+	<category><pattern>MUSIC SCORE *</pattern>
+	<template><srai>MUSIC SCORE</srai></template></category>
+	<category><pattern>* MUSIC SCORE *</pattern>
+	<template><srai>MUSIC SCORE</srai></template></category>
+	<category><pattern>MUSIC SHEETS</pattern>
+	<template><srai>MUSIC SCORE</srai></template></category>
+	<category><pattern>* MUSIC SHEETS</pattern>
+	<template><srai>MUSIC SCORE</srai></template></category>
+	<category><pattern>MUSIC SHEETS *</pattern>
+	<template><srai>MUSIC SCORE</srai></template></category>
+	<category><pattern>* MUSIC SHEETS *</pattern>
+	<template><srai>MUSIC SCORE</srai></template></category>
+	<category><pattern>SHEET MUSIC</pattern>
+	<template><srai>MUSIC SCORE</srai></template></category>
+	<category><pattern>* SHEET MUSIC</pattern>
+	<template><srai>MUSIC SCORE</srai></template></category>
+	<category><pattern>SHEET MUSIC *</pattern>
+	<template><srai>MUSIC SCORE</srai></template></category>
+	<category><pattern>* SHEET MUSIC *</pattern>
+	<template><srai>MUSIC SCORE</srai></template></category>
+	<category><pattern>HOW CAN I SEE IF UCI HAS A FILM</pattern>
+	<template><srai>MUSIC SCORE</srai></template></category>
+	<category><pattern>FILM</pattern>
+	<template><srai>MUSIC SCORE</srai></template></category>
+	<category><pattern>FILMS</pattern>
+	<template><srai>MUSIC SCORE</srai></template></category>
+	<category><pattern>DO YOU HAVE VIDEOS OF *</pattern>
+	<template><srai>MUSIC SCORE</srai></template></category>
+	<category><pattern>DO YOU OFFER VIDEOS OF *</pattern>
+	<template><srai>MUSIC SCORE</srai></template></category>
+	<category><pattern>DO YOU HAVE MOVIES OF *</pattern>
+	<template><srai>MUSIC SCORE</srai></template></category>
+	<category><pattern>DO YOU OFFER MOVIES OF *</pattern>
+	<template><srai>MUSIC SCORE</srai></template></category>
+
+<category><pattern>WHERE CAN I FIND SHEET MUSIC</pattern>
+<template>Sheet music can be found by searching ANTPAC. Using the <a href=" http://antpac.lib.uci.edu/search/X" target="_blank">Advanced Search</a>, search by title, keyword, or author and then limit material type to music score.</template></category>
+
+<category><pattern>PLAY SCRIPTS</pattern>
+<template>Say: Books on * (* equals keyword or topic) and I can run a search in ANTPAC for you.</template></category>
+
+<!--LANGUAGE SEARCH-->
+
+<category><pattern>BOOKS IN CHINESE</pattern>
+<template>Try an advanced search in <a href=" http://antpac.lib.uci.edu/" target="_blank">ANTPAC</a>: enter keywords and change language to Chinese.</template></category>
+	<category><pattern>* BOOKS IN CHINESE</pattern>
+	<template><srai>BOOKS IN CHINESE</srai></template></category>
+	<category><pattern>* CHINESE BOOKS</pattern>
+	<template><srai>BOOKS IN CHINESE</srai></template></category>
+
+<!--RESULTS-->
+
+<category><pattern>WHERE ON THE ANTPAC SEARCH RESULTS PAGE DO I CLICK TO READ AN ELECTRONIC RESOURCE</pattern>
+<template>You should find one or more links in the teal colored box labeled "Connect To"</template></category>
+	<category><pattern>WHERE * ANTPAC * RESULTS * CLICK * ELECTRONIC RESOURCE</pattern>
+	<template><srai>WHERE ON THE ANTPAC SEARCH RESULTS PAGE DO I CLICK TO READ AN ELECTRONIC RESOURCE</srai></template></category>
+	<category><pattern>WHERE * CLICK * ANTPAC * RESULTS * ELECTRONIC RESOURCE</pattern>
+	<template><srai>WHERE ON THE ANTPAC SEARCH RESULTS PAGE DO I CLICK TO READ AN ELECTRONIC RESOURCE</srai></template></category>
+	<category><pattern>WHERE * ANTPAC * RESULTS * CLICK * ELECTRONIC BOOK</pattern>
+	<template><srai>WHERE ON THE ANTPAC SEARCH RESULTS PAGE DO I CLICK TO READ AN ELECTRONIC RESOURCE</srai></template></category>
+	<category><pattern>WHERE * CLICK * ANTPAC * RESULTS * ELECTRONIC BOOK</pattern>
+	<template><srai>WHERE ON THE ANTPAC SEARCH RESULTS PAGE DO I CLICK TO READ AN ELECTRONIC RESOURCE</srai></template></category>
+	<category><pattern>WHERE * ANTPAC * RESULTS * CLICK * EBOOK</pattern>
+	<template><srai>WHERE ON THE ANTPAC SEARCH RESULTS PAGE DO I CLICK TO READ AN ELECTRONIC RESOURCE</srai></template></category>
+	<category><pattern>WHERE * CLICK * ANTPAC * RESULTS * EBOOK</pattern>
+	<template><srai>WHERE ON THE ANTPAC SEARCH RESULTS PAGE DO I CLICK TO READ AN ELECTRONIC RESOURCE</srai></template></category>
+	<category><pattern>WHERE * ANTPAC * RESULTS * CLICK * E-BOOK</pattern>
+	<template><srai>WHERE ON THE ANTPAC SEARCH RESULTS PAGE DO I CLICK TO READ AN ELECTRONIC RESOURCE</srai></template></category>
+	<category><pattern>WHERE * CLICK * ANTPAC * RESULTS * E-BOOK</pattern>
+	<template><srai>WHERE ON THE ANTPAC SEARCH RESULTS PAGE DO I CLICK TO READ AN ELECTRONIC RESOURCE</srai></template></category>
+	<category><pattern>* ACCESS BOOKS THAT ARE AVAILABLE ONLINE</pattern>
+	<template><srai>WHERE ON THE ANTPAC SEARCH RESULTS PAGE DO I CLICK TO READ AN ELECTRONIC RESOURCE</srai></template></category>
+	<category><pattern>* BOOK STATUS AVAILALBE ONLINE</pattern>
+	<template><srai>WHERE ON THE ANTPAC SEARCH RESULTS PAGE DO I CLICK TO READ AN ELECTRONIC RESOURCE</srai></template></category>
+	<category><pattern>* STATUS IS AVAILABLE ONLINE* HOW DO I ACCESS</pattern>
+	<template><srai>WHERE ON THE ANTPAC SEARCH RESULTS PAGE DO I CLICK TO READ AN ELECTRONIC RESOURCE</srai></template></category>
+	<category><pattern>HOW CAN I VIEW A BOOK AVAILABLE ONLINE THROUGH ANTPAC</pattern>
+	<template><srai>WHERE ON THE ANTPAC SEARCH RESULTS PAGE DO I CLICK TO READ AN ELECTRONIC RESOURCE</srai></template></category>
+	<category><pattern>* VIEW A BOOK AVAILABLE ONLINE THROUGH ANTPAC *</pattern>
+	<template><srai>WHERE ON THE ANTPAC SEARCH RESULTS PAGE DO I CLICK TO READ AN ELECTRONIC RESOURCE</srai></template></category>
+	
+
+<!--MISC-->
+
+<category><pattern>BOOK THAT IS NOT CHECK OUT</pattern>
+<template>Seek assistance from the Ask Us (Reference) Desk at Langson Library or the Check Out Desk at Ayala Science Library.</template></category>
+	<category><pattern>* BOOK THAT IS NOT CHECKED OUT</pattern>
+	<template><srai>BOOK THAT IS NOT CHECK OUT</srai></template></category>
+	<category><pattern>* BOOK THAT IS NOT CHECK OUT</pattern>
+	<template><srai>BOOK THAT IS NOT CHECK OUT</srai></template></category>
+
+<category><pattern>CAN I SEE THE DANA POINT GENERAL PLAN AT THE UCI LIBRARY</pattern>
+<template>Say "Books on *" (* = keyword or topic) to run a search in our ANTPAC catalog.</template></category>
+	<category><pattern>DO YOU HAVE THE DANA POINT GENERAL PLAN</pattern>
+	<template><srai>CAN I SEE THE DANA POINT GENERAL PLAN AT THE UCI LIBRARY</srai></template></category>
+	<category><pattern>MEXICAN BOOKS</pattern>
+	<template><srai>CAN I SEE THE DANA POINT GENERAL PLAN AT THE UCI LIBRARY</srai></template></category>
+	<category><pattern>COMPUTER ARCHITECTURE BY HENESY AND PATTERNSON</pattern>
+	<template><srai>CAN I SEE THE DANA POINT GENERAL PLAN AT THE UCI LIBRARY</srai></template></category>
+	
+<category><pattern>CAN I SEE DOCUMENTS THAT ARE LIBRARY USE ONLY</pattern>
+<template>Yes, materials that are "Library Use Only" can be used the next time you visit the library.</template></category>
+
+<category><pattern>CAN I TAKE PICTURES OF DOCUMENTS IN THE LIBRARY</pattern>
+<template>You can take pictures of documents in the general collection, many items in special collections may not be photographed and you should check with library staff prior to taking an image.</template></category>
+	
+<category><pattern>TONALISM</pattern>
+<template>I am sorry but I am not set up to be a dictionary. Say: "Books on * dictionary" (* equals topic or keyword.)</template></category>
+	<category><pattern>* TONALISM</pattern>
+	<template><srai>TONALISM</srai></template></category>
+	<category><pattern>TONALISM *</pattern>
+	<template><srai>TONALISM</srai></template></category>
+	<category><pattern>* TONALISM *</pattern>
+	<template><srai>TONALISM</srai></template></category>
+	<category><pattern>SGRAFFITTO</pattern>
+	<template><srai>TONALISM</srai></template></category>
+	<category><pattern>* SGRAFFITTO</pattern>
+	<template><srai>TONALISM</srai></template></category>
+	<category><pattern>SGRAFFITTO *</pattern>
+	<template><srai>TONALISM</srai></template></category>
+	<category><pattern>* SGRAFFITTO *</pattern>
+	<template><srai>TONALISM</srai></template></category>
+
+<category><pattern>JOURNAL</pattern>
+<template>Journals/magazines can be found via <a href=" http://antpac.lib.uci.edu/" target="_blank">ANTPAC</a>.  Hint: change Keyword to Title and Entire Collection to Journals and Serials. If you want to search for journal articles by topic, you'll need to search an article database.  Check our <a href=" http://guides.lib.uci.edu/databases" target="_blank">Databases To Get You Started</a> guide.</template></category>
+	<category><pattern>* JOURNAL</pattern>
+	<template><srai>JOURNAL</srai></template></category>
+	<category><pattern>JOURNAL *</pattern>
+	<template><srai>JOURNAL</srai></template></category>
+	<category><pattern>* JOURNAL *</pattern>
+	<template><srai>JOURNAL</srai></template></category>
+	<category><pattern>* JOURNALS</pattern>
+	<template><srai>JOURNAL</srai></template></category>
+	<category><pattern>JOURNALS *</pattern>
+	<template><srai>JOURNAL</srai></template></category>
+	<category><pattern>JOURNALS</pattern>
+	<template><srai>JOURNAL</srai></template></category>
+	<category><pattern>* JOURNALS *</pattern>
+	<template><srai>JOURNAL</srai></template></category>
+	<category><pattern>WHERE CAN I FIND MAGAZINES</pattern>
+	<template><srai>JOURNAL</srai></template></category>	
+	<category><pattern>* MAGAZINE* I MEAN</pattern>
+	<template><srai>JOURNAL</srai></template></category>	
+	<category><pattern>* ACADEMIC JOURNALS</pattern>
+	<template><srai>JOURNAL</srai></template></category>
+	<category><pattern>PEER REVIEWED JOURNALS</pattern>
+	<template><srai>JOURNAL</srai></template></category>
+	<category><pattern>* MAGAZINES</pattern>
+	<template><srai>JOURNAL</srai></template></category>
+	<category><pattern>* MAGAZINES *</pattern>
+	<template><srai>JOURNAL</srai></template></category>
+	<category><pattern>MAGAZINES *</pattern>
+	<template><srai>JOURNAL</srai></template></category>
+	<category><pattern>MAGAZINES</pattern>	
+	<template><srai>JOURNAL</srai></template></category>
+	<category><pattern>* MAGAZINE *</pattern>	
+	<template><srai>JOURNAL</srai></template></category>
+	<category><pattern>MAGAZINE *</pattern>	
+	<template><srai>JOURNAL</srai></template></category>
+	<category><pattern>* MAGAZINE</pattern>	
+	<template><srai>JOURNAL</srai></template></category>
+	<category><pattern>MAGAZINE</pattern>	
+	<template><srai>JOURNAL</srai></template></category>
+	<category><pattern>LOOKING FOR AN ARTICLE FROM</pattern>
+	<template><srai>JOURNAL</srai></template></category>
+	<category><pattern>NEW UNIVERSITY</pattern>
+	<template><srai>JOURNAL</srai></template></category>
+	<category><pattern>NEW UNIVERSITY *</pattern>
+	<template><srai>JOURNAL</srai></template></category>
+
+<category><pattern>FIND THE JOURNAL I WANTED</pattern>
+<template>ANTswers doesn't have legs and can't read ANTPAC records so I would recommend that you seek help from the Reference (Ask Us) or Check Out desk.</template></category>
+	<category><pattern>* FIND THE JOURNAL I WANTED</pattern>
+	<template><srai>FIND THE JOURNAL I WANTED</srai></template></category>
+	<category><pattern>FIND THE JOURNAL I WANTED *</pattern>
+	<template><srai>FIND THE JOURNAL I WANTED</srai></template></category>
+	<category><pattern>* FIND THE JOURNAL I WANTED *</pattern>
+	<template><srai>FIND THE JOURNAL I WANTED</srai></template></category>
+
+<category><pattern>LOOKING FOR THIS BOOK *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac>.</template></category>
+	<category><pattern>* LOOKING FOR THIS BOOK *</pattern>
+	<template><srai >LOOKING FOR THIS BOOK *</srai></template></category>
+	<category><pattern>LOOKING FOR THIS BOOK *</pattern>
+	<template><srai>LOOKING FOR THIS BOOK *</srai></template></category>
+	<category><pattern>LOOKING FOR A FILM CALLED *</pattern>
+	<template><srai>LOOKING FOR THIS BOOK *</srai></template></category>
+	<category><pattern>LOOKING FOR THIS FILM *</pattern>
+	<template><srai>LOOKING FOR THIS BOOK *</srai></template></category>
+
+<category><pattern>WHERE WOULD I FIND THIS BOOK</pattern>
+<template>Search <a href=" http://antpac.lib.uci.edu/" target="_blank">ANTPAC</a> the UCI Libraries online catalog by using keywords, titles, or author.</template></category> 
+
+<category><pattern>HOW DO I FIND A BOOK IF I HAVE THE CALL NUMBER</pattern> 
+<template>Once you have the call number, you can either take a look at our <a href=" http://www.lib.uci.edu/call-numbers" target="_blank">Guide to 
+Call Number and Subject Locations</a> to determine which floor the book is located on or you can use the floor signs near all our elevators.</template></category>                 
+
+<category><pattern>HOW DO I FIND A CALL NUMBER IN THE LIBRARY</pattern>
+<template>Call numbers for books can be found using the library catalog <a href=" http://antpac.lib.uci.edu/" target="_blank">ANTPAC</a>.</template></category>	
+
+<category><pattern>MEDICAL BOOKS</pattern>
+<template>Can you be more specific? If you want books on a particular subject, say: I want books on (insert subject) and I can run an  search for you.</template></category>
+	<category><pattern>* MEDICAL BOOKS</pattern>
+	<template><srai>MEDICAL BOOKS</srai></template></category>
+	<category><pattern>MEDICAL BOOKS *</pattern>
+	<template><srai>MEDICAL BOOKS</srai></template></category>
+	<category><pattern>* MEDICAL BOOKS *</pattern>
+	<template><srai>MEDICAL BOOKS</srai></template></category>
+	<category><pattern>BOOKS</pattern>
+	<template><srai>MEDICAL BOOKS</srai></template></category>
+	<category><pattern>BOOK</pattern>
+	<template><srai>MEDICAL BOOKS</srai></template></category>
+	
+<category><pattern>TRYING TO ACCESS A VIDEO ONLINE THROUGH MELVYL</pattern>
+<template>Okay, there could be a couple of things going on! First off is UCI listed under "Find a copy in the Library".</template></category>
+	<category><pattern>* TRYING TO ACCESS A VIDEO ONLINE THROUGH MELVYL</pattern>
+	<template><srai>TRYING TO ACCESS A VIDEO ONLINE THROUGH MELVYL</srai></template></category>
+	<category><pattern>TRYING TO ACCESS A VIDEO ONLINE THROUGH MELVYL *</pattern>
+	<template><srai>TRYING TO ACCESS A VIDEO ONLINE THROUGH MELVYL</srai></template></category>
+	<category><pattern>* TRYING TO ACCESS A VIDEO ONLINE THROUGH MELVYL *</pattern>
+	<template><srai>TRYING TO ACCESS A VIDEO ONLINE THROUGH MELVYL</srai></template></category>
+
+	<category><pattern>YES</pattern>
+	<that>Okay there could be a couple of things going on First off is UCI listed under Find a copy in the Library_</that>
+	<template>If you are off campus you may need to log in from <a href=" http://www.lib.uci.edu/connect-campus" target="_blank">	from Off-Campus</a>.  If you 
+	are on campus the film should stream fine. If you are still having issues, please <a href=" 	http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian
+	</a> for further assistance.</template></category> 
+
+	<category><pattern>NO</pattern> 
+	<that>Okay there could be a couple of things going on First off is UCI listed under Find a copy in the Library_</that>
+	<template>If we aren't listed then you will not be able to view the video, online resources are typically restricted to the campuses that purchased access. Use 
+	<a href=" 	http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a> for further assistance.</template></category>
+
+<category><pattern>HOW CAN I ACCESS THE VIDEO *</pattern>
+<template>If we own the video it will be listed in ANTPAC. Here is an ANTPAC link: <antpac><star /></antpac></template></category>	
+
+<category><pattern>HOW DO I READ THE BOOKS ONLINE</pattern>
+<template>Online books can also be found using <a href=" http://antpac.lib.uci.edu/" target="_blank">ANTPAC</a>.
+ After opening the record, click on the link under "connect to". If you are not on campus you will need to 
+ log into <a href=" http://www.lib.uci.edu/connect-campus" target="_blank">Connect from Off-Campus</a>.</template></category>
+
+ <category><pattern>HOW DO I FIND A BOOK</pattern>
+<template>Take a look at the <a href=" http://www.lib.uci.edu/sites/tutorials/BeginResearch/public/books.html" target="_blank">How Do I Find Books</a> section of the UC Irvine 
+Libraries online tutorial.</template></category>
+	<category><pattern>* HOW DO I FIND A BOOK</pattern>
+	<template><srai>HOW DO I FIND A BOOK</srai></template></category>
+	<category><pattern>HOW DO I FIND A BOOK *</pattern>
+	<template><srai>HOW DO I FIND A BOOK</srai></template></category>
+	<category><pattern>* HOW DO I FIND A BOOK *</pattern>
+	<template><srai>HOW DO I FIND A BOOK</srai></template></category>
+	<category><pattern>I NEED BOOKS</pattern>
+	<template><srai>HOW DO I FIND A BOOK</srai></template></category>
+	<category><pattern>* I NEED BOOKS</pattern>
+	<template><srai>HOW DO I FIND A BOOK</srai></template></category>
+	<category><pattern>I NEED BOOKS *</pattern>
+	<template><srai>HOW DO I FIND A BOOK</srai></template></category>
+	<category><pattern>* I NEED BOOKS *</pattern>
+	<template><srai>HOW DO I FIND A BOOK</srai></template></category>
+	<category><pattern>HOW CAN I FIND A BOOK</pattern>
+	<template><srai>HOW DO I FIND A BOOK</srai></template></category>
+	<category><pattern>HOW CAN I FIND A BOOK I NEED</pattern>
+	<template><srai>HOW DO I FIND A BOOK</srai></template></category>
+	<category><pattern>WHERE DO I FIND BOOKS</pattern>
+	<template><srai>HOW DO I FIND A BOOK</srai></template></category>
+	<category><pattern>HOW DO I USE ANTPAC</pattern>
+	<template><srai>HOW DO I FIND A BOOK</srai></template></category>
+	<category><pattern>HOW DO I LOCATE BOOKS</pattern>
+	<template><srai>HOW DO I FIND A BOOK</srai></template></category>
+	<category><pattern>HOW DO I CHECK OUT BOOKS</pattern>
+	<template><srai>HOW DO I FIND A BOOK</srai></template></category>
+	<category><pattern>HOW DO I FIND BOOKS</pattern>
+	<template><srai>HOW DO I FIND A BOOK</srai></template></category>
+	
+<category><pattern>HOW DO I FIND BOOKS WITH A CALL NUMBER</pattern>
+<template>Once you have the call number, take a look at the <a href=" http://www.lib.uci.edu/call-numbers" target="_blank">Guide to Call Number and Subject Locations</a>. The guide will help you figure out which library the book is located in and on what floor.</template></category> 
+	<category><pattern>WHERE DO I FIND THE BOOKS ONCE i HAVE THE CALL NUMBER</pattern>
+	<template><srai>HOW DO I FIND BOOKS WITH A CALL NUMBER</srai></template></category>
+	<category><pattern>I HAVE THE CALL NUMBER</pattern>	
+	<template><srai>HOW DO I FIND BOOKS WITH A CALL NUMBER</srai></template></category>
+	<category><pattern>HOW CAN I FIND E BOOKS</pattern>
+	<template><srai>HOW DO I FIND BOOKS WITH A CALL NUMBER</srai></template></category>
+
+<category><pattern>CAN I TELL FROM THIS IF THE BOOKS HAVE PICTURES</pattern>
+<template>In the record, look for the line for Description.  If after the page number you see "ill." then that means that illustrations/pictures are included.</template></category>
+
+<category><pattern>CHECKOUT TEXTBOOKS</pattern>
+<template>Are you looking for textbooks that are in our general collection or is the textbook on reserve?</template></category>
+	<category><pattern>* CHECKOUT TEXTBOOKS</pattern>
+	<template><srai>CHECKOUT TEXTBOOKS</srai></template></category>
+	<category><pattern>CHECKOUT TEXTBOOKS *</pattern>
+	<template><srai>CHECKOUT TEXTBOOKS</srai></template></category>
+	<category><pattern>* CHECKOUT TEXTBOOKS *</pattern>
+	<template><srai>CHECKOUT TEXTBOOKS</srai></template></category>
+	<category><pattern>CHECK OUT TEXTBOOKS</pattern>
+	<template><srai>CHECKOUT TEXTBOOKS</srai></template></category>
+	<category><pattern>* CHECK OUT TEXTBOOKS</pattern>
+	<template><srai>CHECKOUT TEXTBOOKS</srai></template></category>
+	<category><pattern>CHECK OUT TEXTBOOKS *</pattern>
+	<template><srai>CHECKOUT TEXTBOOKS</srai></template></category>
+	<category><pattern>* CHECK OUT TEXTBOOKS *</pattern>
+	<template><srai>CHECKOUT TEXTBOOKS</srai></template></category>
+	<category><pattern>ARE TEXTBOOKS AVAILABLE</pattern>
+	<template><srai>CHECKOUT TEXTBOOKS</srai></template></category>
+	<category><pattern>DOES LIBRARY HAVE TEXTBOOKS</pattern>
+	<template><srai>CHECKOUT TEXTBOOKS</srai></template></category>
+	
+	<category><pattern>GENERAL COLLECTION</pattern>	
+	<that>Are you looking for textbooks that are in our general collection or is the 	on reserve_</that>
+	<template>We don't generally purchase textbooks for the general collection but any textbooks we do have can be found in our catalog 
+	<a href=" http://antpac.lib.uci.edu/" target="_blank">ANTPAC</a>. (Tip: add the keyword textbook to your search)</template></category>
+
+	<category><pattern>IN GENERAL COLLECTION</pattern>	
+	<that>Are you looking for textbooks that are in our general collection or is the textbook on reserve_</that>
+	<template>We don't generally purchase textbooks for the general collection but any textbooks we do have can be found in our catalog 
+	<a href=" http://antpac.lib.uci.edu/" target="_blank">ANTPAC</a>. (Tip: add the keyword textbook to your search)</template></category>
+
+	<category><pattern>GENERAL</pattern>	
+	<that>Are you looking for textbooks that are in our general collection or is the textbook on reserve_</that>
+	<template>We don't generally purchase textbooks for the general collection but any textbooks we do have can be found in our catalog 
+	<a href=" http://antpac.lib.uci.edu/" target="_blank">ANTPAC</a>. (Tip: add the keyword textbook to your search)</template></category>
+
+	<category><pattern>RESERVE</pattern>	
+	<that>Are you looking for textbooks that are in our general collection or is the textbook on reserve_</that>	
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	
+	<category><pattern>RESERVES</pattern>	
+	<that>Are you looking for textbooks that are in our general collection or is the textbook on reserve_</that>	
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+
+<category><pattern>COURSE BOOK</pattern>
+<template>Are you looking for a course book that is in our general collection or is the textbook on reserve?</template></category>
+	<category><pattern>* COURSE BOOK</pattern>
+	<template><srai>COURSE BOOK</srai></template></category>
+	<category><pattern>COURSE BOOK *</pattern>
+	<template><srai>COURSE BOOK</srai></template></category>
+	<category><pattern>* COURSE BOOK *</pattern>
+	<template><srai>COURSE BOOK</srai></template></category>
+
+	<category><pattern>GENERAL COLLECTION</pattern>	
+	<that>Are you looking for a course book that is in our general collection or is the textbook on reserve_</that>
+	<template>We don't generally purchase course books for the general collection but any books we do have can be found in our catalog 
+	<a href=" http://antpac.lib.uci.edu/" target="_blank">ANTPAC</a>. (Tip: add the keyword textbook to your search)</template></category>
+
+	<category><pattern>GENERAL</pattern>	
+	<that>Are you looking for a course book that is in our general collection or is the textbook on reserve_</that>
+	<template>We don't generally purchase all course books for the general collection but any books we do have can be found in our catalog 
+	<a href=" http://antpac.lib.uci.edu/" target="_blank">ANTPAC</a>. (Tip: add the keyword textbook to your search)</template></category>
+
+	<category><pattern>RESERVE</pattern>	
+	<that>Are you looking for a course book that is in our general collection or is the textbook on reserve_</that>	
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	
+	<category><pattern>RESERVES</pattern>	
+	<that>Are you looking for a course book that is in our general collection or is the textbook on reserve_</that>	
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+
+<category><pattern>ISSN</pattern>	
+<template>Try a Call and Other Numbers search in <a href=" http://antpac.lib.uci.edu/" target="_blank">ANTPAC</a> then click the standard number radio button.</template></category>
+	<category><pattern>I am looking for ISSN *</pattern>
+	<template><srai>ISSN</srai></template></category>
+	<category><pattern>Where can I find ISSN *</pattern>
+	<template><srai>ISSN</srai></template></category>
+	<category><pattern>Where can I find Accession number *</pattern>
+	<template><srai>ISSN</srai></template></category>
+	
+<category><pattern>ARE TEXTBOOKS AVAILABLE TO BORROW</pattern>
+<template>The Library doesn't usually collect textbooks, but we have selected textbooks available via our Course Reserve system with older copies sometimes available in the general stacks. Try searching for the book using <a href=" http://antpac.lib.uci.edu/" target="_blank">ANTPAC</a>. Also try ANTPAC's "Course Reserve" tab for textbooks currently on reserve.</template></category>
+	<category><pattern>TEXTBOOKS AVAILABLE</pattern>
+	<template><srai>ARE TEXTBOOKS AVAILABLE TO BORROW</srai></template></category>
+	<category><pattern>* TEXTBOOKS AVAILABLE</pattern>
+	<template><srai>ARE TEXTBOOKS AVAILABLE TO BORROW</srai></template></category>
+	<category><pattern>TEXTBOOKS AVAILABLE *</pattern>
+	<template><srai>ARE TEXTBOOKS AVAILABLE TO BORROW</srai></template></category>
+	<category><pattern>_ TEXTBOOKS AVAILABLE *</pattern>
+	<template><srai>ARE TEXTBOOKS AVAILABLE TO BORROW</srai></template></category>
+
+<category><pattern>NOT CHECKED OUT</pattern>
+<template>"Not Checked Out" is a typical status message in the ANTPAC catalog. I means the item is on the shelf and available for check-out</template></category>
+
+<category><pattern>BEING PROCESSED</pattern>
+<template>"Being Processed" is a typical status message in the ANTPAC catalog. I means the item has been received and should be available to use shortly. Please ask at any Check Out Desk for more details.</template></category>
+	<category><pattern>* BEING PROCESSED</pattern>
+	<template><srai>BEING PROCESSED</srai></template></category>
+	<category><pattern>BEING PROCESSED *</pattern>
+	<template><srai>BEING PROCESSED</srai></template></category>
+	<category><pattern>_ BEING PROCESSED *</pattern>
+	<template><srai>BEING PROCESSED</srai></template></category>
+
+
+<!--LOCATION-->
+	
+<category><pattern>BOOK LOCATION</pattern>
+<template>Once you found your book in our catalog <a href=" http://antpac.lib.uci.edu/" target="_blank">ANTPAC</a>, write down the call number and then check our
+<a href=" http://beta.lib.uci.edu/call-numbers" target="_blank">Guide to Call Number and Subject Locations</a>.</template></category>
+	<category><pattern>LOCATION OF BOOK</pattern>
+	<template><srai>BOOK LOCATION</srai></template></category>
+	<category><pattern>* LOCATION OF BOOK</pattern>
+	<template><srai>BOOK LOCATION</srai></template></category>
+	<category><pattern>LOCATION OF BOOK *</pattern>
+	<template><srai>BOOK LOCATION</srai></template></category>
+	<category><pattern>* LOCATION OF BOOK *</pattern>
+	<template><srai>BOOK LOCATION</srai></template></category>
+	<category><pattern>LOCATE A BOOK</pattern>
+	<template><srai>BOOK LOCATION</srai></template></category>
+	<category><pattern>* LOCATE A BOOK</pattern>
+	<template><srai>BOOK LOCATION</srai></template></category>
+	<category><pattern>LOCATE A BOOK *</pattern>
+	<template><srai>BOOK LOCATION</srai></template></category>
+	<category><pattern>* LOCATE A BOOK *</pattern>
+	<template><srai>BOOK LOCATION</srai></template></category>
+	<category><pattern>HOW DO I FIND * BOOK AT THE LIBRARY AFTER I FIND IT ON ANTPAC</pattern>
+	<template><srai>BOOK LOCATION</srai></template></category>
+	<category><pattern>HOW DO I FIND * BOOK AT THE LIBRARY *</pattern>
+	<template><srai>BOOK LOCATION</srai></template></category>
+
+<!--ELECTRONIC-->
+
+<category><pattern>HOW DO I KNOW IF A BOOK IS AVAILABLE ONLINE</pattern>
+<template>E books records in <a href=" http://antpac.lib.uci.edu" target="_blank">ANTPAC</a> will include a link under the section "Connect to."</template></category>	
+
+<category><pattern>E BOOKS</pattern>
+<template>Use the <a href=" http://antpac.lib.uci.edu/" target="_blank">ANTPAC catalog</a>. Search by Keyword or Title and change the drop down box from Entire Collection to 
+Books and E-Books.</template></category> 
+	<category><pattern>* E BOOKS</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>E BOOKS *</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>* E BOOKS *</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>E BOOK</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>* E BOOK</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>E BOOK *</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>* E BOOK *</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>E*BOOKS</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>* E*BOOKS</pattern>
+	<template><srai>E*BOOKS</srai></template></category>
+	<category><pattern>E*BOOKS *</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>* E*BOOKS *</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>E*BOOK</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>* E*BOOK</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>E*BOOK *</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>* E*BOOK *</pattern>	
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>EBOOKS</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>* EBOOKS</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>EBOOKS *</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>* EBOOKS *</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>EBOOK</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>* EBOOK</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>EBOOK *</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>* EBOOK *</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>BOOKS ONLINE</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>ELECTRONIC BOOKS</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>ELECTRONIC BOOKS</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>ELECTRONIC BOOKS</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>ELECTRONIC BOOKS</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>DIGITAL BOOKS</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>* DIGITAL BOOKS</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>DIGITAL BOOKS *</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>* DIGITAL BOOKS *</pattern>
+	<template><srai>E BOOKS</srai></template></category>	
+	<category><pattern>ONLINE BOOKS</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>* ONLINE BOOKS</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>ONLINE BOOKS *</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>* ONLINE BOOKS *</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	<category><pattern>* ONLINE BOOK *</pattern>
+	<template><srai>E BOOKS</srai></template></category>
+	
+<category><pattern>DO YOU HAVE ANY ONLINE BOOKS</pattern>
+<template>Yes, we have many online books. They can be found using <a href=" http://antpac.lib.uci.edu/" target="_blank">ANTPAC catalog</a>. Search by Keyword or Title and change 
+the drop down box from Entire Collection to Books and E-Books. Make sure you sign in to <a href=" http://www.lib.uci.edu/connect-campus" target="_blank">Connect from Off-Campus</a> first. </template></category>
+	<category><pattern>* DO YOU HAVE ANY ONLINE BOOKS</pattern>
+	<template><srai>DO YOU HAVE ANY ONLINE BOOKS</srai></template></category>
+	<category><pattern>DO YOU HAVE ANY ONLINE BOOKS *</pattern>
+	<template><srai>DO YOU HAVE ANY ONLINE BOOKS</srai></template></category>
+	<category><pattern>* DO YOU HAVE ANY ONLINE BOOKS *</pattern>
+	<template><srai>DO YOU HAVE ANY ONLINE BOOKS</srai></template></category>
+	<category><pattern>DOES UCI LIBRARIES HAVE E BOOKS</pattern>
+	<template><srai>DO YOU HAVE ANY ONLINE BOOKS</srai></template></category>
+	<category><pattern>* DOES UCI LIBRARIES HAVE E BOOKS</pattern>
+	<template><srai>DO YOU HAVE ANY ONLINE BOOKS</srai></template></category>
+	<category><pattern>DOES UCI LIBRARIES HAVE E BOOKS *</pattern>
+	<template><srai>DO YOU HAVE ANY ONLINE BOOKS</srai></template></category>
+	<category><pattern>* DOES UCI LIBRARIES HAVE E BOOKS *</pattern>
+	<template><srai>DO YOU HAVE ANY ONLINE BOOKS</srai></template></category>
+	<category><pattern>NEED FULL ONLINE ACCESS TO A BOOK</pattern>
+	<template><srai>DO YOU HAVE ANY ONLINE BOOKS</srai></template></category>
+	<category><pattern>BOOK FULL ACCESS</pattern>
+	<template><srai>DO YOU HAVE ANY ONLINE BOOKS</srai></template></category>
+	<category><pattern>BORROW ELECTRONIC RESOURCE</pattern>
+	<template><srai>DO YOU HAVE ANY ONLINE BOOKS</srai></template></category>
+	<category><pattern>BORROW ELECTRONIC BOOK</pattern> 
+	<template><srai>DO YOU HAVE ANY ONLINE BOOKS</srai></template></category>
+	<category><pattern>ACCESS ONLINE BOOK</pattern>
+	<template><srai>DO YOU HAVE ANY ONLINE BOOKS</srai></template></category>
+	<category><pattern>ONLINE BOOK</pattern>
+	<template><srai>DO YOU HAVE ANY ONLINE BOOKS</srai></template></category>
+	<category><pattern>ONLINE TEXT</pattern>
+	<template><srai>DO YOU HAVE ANY ONLINE BOOKS</srai></template></category>
+
+
+
+</aiml>

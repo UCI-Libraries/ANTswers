@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Biology -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>BIOLOGY *</pattern>
+	<template><think><set name="topic">biology</set></think><sr /></template></category>
+
+<category><pattern>BIOLOGY</pattern>	
+	<template>For resources on biology check out the <a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a>  
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<!-- Interactions -->
+
+<category><pattern>BIOLOGY</pattern>
+	<that>Biochemistry as a subject is included in the broader subjects of Biology and Chemistry Would you like resource recommendations for biology or chemistry_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a>, 
+	<a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> and/or <a href=" http://uclibs.org/PID/17708" target="_blank">PUBMED</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>BIOLOGY</pattern>
+	<that>Bioengineering as a subject is included in the broader subjects of Biology and Biomedical Engineering Would you like resource recommendations for biology or biomedical engineering_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a>, 
+	<a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a> and/or <a href=" http://uclibs.org/PID/17708" target="_blank">PUBMED</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>BIOLOGY</pattern>
+	<that>Biolinguistics as a subject is included in the broader subjects of Biology and Linguistics Would you like resource recommendations for biology or linguistics_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a> and 
+	<a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>BIOLOGY</pattern>
+	<that>Biomathematics as a subject is included in the broader subjects of Biology and Mathematics Would you like resource recommendations for biology or Math_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a>, 
+	<a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> and/or <a href=" http://uclibs.org/PID/5796" target="_blank">MathSciNet</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>	
+
+<category><pattern>BIOLOGY</pattern>
+	<that>Biophysics as a subject is included in the broader subjects of Biology Biomedical Engineering and Physics Would you like resource recommendations for biology biomendical engineering or physics_</that>
+	<template>We would recommend that you start your search with the<a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not 
+	finding what you need  <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>BIOLOGY</pattern>
+	<that>Ecology as a subject is included in the broader subjects of Biology or Environmental Science Would you like resource recommendations for biology or environmental science_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a> and 
+	<a href=" http://uclibs.org/PID/113567" target="_blank">Ecology Abstracts</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not finding what you need  
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>BIOLOGY</pattern>
+	<that>Electronics as a subject is included in the broader subjects of Biology Earth Sciences and Electrical Engineering Would you like resource recommendations for biology earth sciences or electrical engineering_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a> and/or 
+	<a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>BIOLOGY</pattern>
+	<that>Evolution as a subject is included in the broader subjects of Biology and Philosophy Would you like resource recommendations for biology or philosophy_</that>
+	<template>We would recommend that you start your search with <a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not 
+	finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>BIOLOGY</pattern>
+	<that>Geobiology as a subject is included in the broader subjects of Biology and Earth Sciences Would you like resource recommendations for biology or earth science_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a> and 
+	<a href=" http://uclibs.org/PID/113574" target="_blank">GeoRef</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>BIOLOGY</pattern>
+	<that>Information theory as a subject is included in the broader subjects of Biology Chemistry Education Mathematics Music and Psychology Would you like resource recommendations for biology chemistry education math music or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a> and/or 
+	<a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>	
+
+<category><pattern>BIOLOGY</pattern>
+	<that>Polarity as a subject is included in the broader subjects of Biology Philosophy and Psychology Would you like resource recommendations for biology philosophy or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not 
+	finding what you need  <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>BIOLOGY</pattern>
+	<that>Population as a subject is included in the broader subjects of Biology Economics and Sociology Would you like resource recommendations for biology economics or sociology_</that>
+	<template>We would recommend that you start your search with <a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not 
+	finding what you need  <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>BIOLOGY</pattern>
+	<that>Psychobiology as a subject is included in the broader subjects of Biology and Psychology Would you like resource recommendations for biology or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a> and 
+	<a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>	
+	
+<!-- Subject keywords-->
+
+<category><pattern>ADAPTATION</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not
+	finding what you need  <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>BIOLOGY</pattern>
+<template><srai>ADAPTATION</srai></template></category>
+<category><pattern>BIOSPELEOLOGY</pattern>
+<template><srai>ADAPTATION</srai></template></category>
+<category><pattern>CHARGE TRANSFER IN BIOLOGY</pattern>
+<template><srai>ADAPTATION</srai></template></category>
+<category><pattern>CONVERGENCE</pattern>
+<template><srai>ADAPTATION</srai></template></category>
+<category><pattern>CRYOBIOLOGY</pattern>
+<template><srai>ADAPTATION</srai></template></category>
+<category><pattern>DEATH</pattern>
+<template><srai>ADAPTATION</srai></template></category>
+<category><pattern>DIVERGENCE</pattern>
+<template><srai>ADAPTATION</srai></template></category>
+<category><pattern>EXOBIOLOGY</pattern>
+<template><srai>ADAPTATION</srai></template></category>
+<category><pattern>HYBRIDIZATION</pattern>
+<template><srai>ADAPTATION</srai></template></category>
+<category><pattern>IN BIOLOGY</pattern>
+<template><srai>ADAPTATION</srai></template></category>
+<category><pattern>KARYOKINESIS</pattern>
+<template><srai>ADAPTATION</srai></template></category>
+<category><pattern>LAW AND BIOLOGY</pattern>
+<template><srai>ADAPTATION</srai></template></category>
+<category><pattern>LIFE</pattern>
+<template><srai>ADAPTATION</srai></template></category>
+<category><pattern>LIVING FOSSILS</pattern>
+<template><srai>ADAPTATION</srai></template></category>
+<category><pattern>SPACE</pattern>
+<template><srai>ADAPTATION</srai></template></category>
+<category><pattern>SPONTANEOUS GENERATION</pattern>
+<template><srai>ADAPTATION</srai></template></category>
+<category><pattern>SYMBIOSIS</pattern>
+<template><srai>ADAPTATION</srai></template></category>
+<category><pattern>VITALISM</pattern>
+<template><srai>ADAPTATION</srai></template></category>
+
+<category><pattern>EXPERIMENTAL BIOLOGY</pattern> 
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a> and 
+	<a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a>. For more resources check out the  
+	<a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not finding what you need  
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>CELLS</pattern> 
+<template><srai>EXPERIMENTAL BIOLOGY</srai></template></category> 
+<category><pattern>CHRONOBIOLOGY</pattern> 
+<template><srai>EXPERIMENTAL BIOLOGY</srai></template></category> 
+<category><pattern>DEVELOPMENTAL BIOLOGY</pattern> 
+<template><srai>EXPERIMENTAL BIOLOGY</srai></template></category> 
+<category><pattern>FERTILIZATION</pattern>  
+<template><srai>EXPERIMENTAL BIOLOGY</srai></template></category> 
+<category><pattern>GENETICS</pattern> 
+<template><srai>EXPERIMENTAL BIOLOGY</srai></template></category> 
+<category><pattern>HEREDITY</pattern> 
+<template><srai>EXPERIMENTAL BIOLOGY</srai></template></category> 
+<category><pattern>HUMAN BIOLOGY</pattern> 
+<template><srai>EXPERIMENTAL BIOLOGY</srai></template></category> 
+<category><pattern>IRRITABILITY</pattern> 
+<template><srai>EXPERIMENTAL BIOLOGY</srai></template></category> 
+<category><pattern>MICROBIOLOGY</pattern> 
+<template><srai>EXPERIMENTAL BIOLOGY</srai></template></category> 
+<category><pattern>ONTOGENY</pattern> 
+<template><srai>EXPERIMENTAL BIOLOGY</srai></template></category> 
+<category><pattern>PARASITOLOGY</pattern> 
+<template><srai>EXPERIMENTAL BIOLOGY</srai></template></category> 
+<category><pattern>PARTHENOGENESIS</pattern> 
+<template><srai>EXPERIMENTAL BIOLOGY</srai></template></category> 
+<category><pattern>PHYLOGENY</pattern> 
+<template><srai>EXPERIMENTAL BIOLOGY</srai></template></category> 
+<category><pattern>PHYSIOLOGY</pattern> 
+<template><srai>EXPERIMENTAL BIOLOGY</srai></template></category> 
+<category><pattern>PROTOPLASM</pattern> 
+<template><srai>EXPERIMENTAL BIOLOGY</srai></template></category> 
+<category><pattern>RADIOACTIVE TRACERS</pattern> 
+<template><srai>EXPERIMENTAL BIOLOGY</srai></template></category> 
+<category><pattern>RADIOBIOLOGY</pattern> 
+<template><srai>EXPERIMENTAL BIOLOGY</srai></template></category> 
+<category><pattern>RADIOISOTOPES</pattern> 
+<template><srai>EXPERIMENTAL BIOLOGY</srai></template></category> 
+<category><pattern>REGENERATION</pattern> 
+<template><srai>EXPERIMENTAL BIOLOGY</srai></template></category> 
+<category><pattern>REPRODUCTION</pattern> 
+<template><srai>EXPERIMENTAL BIOLOGY</srai></template></category> 
+<category><pattern>SEX</pattern> 
+<template><srai>EXPERIMENTAL BIOLOGY</srai></template></category> 
+<category><pattern>THERMOBIOLOGY</pattern> 
+<template><srai>EXPERIMENTAL BIOLOGY</srai></template></category> 
+<category><pattern>TRACERS</pattern> 
+<template><srai>EXPERIMENTAL BIOLOGY</srai></template></category> 
+<category><pattern>ULTRASONICS</pattern> 
+<template><srai>EXPERIMENTAL BIOLOGY</srai></template></category> 
+<category><pattern>VARIATION</pattern> 
+<template><srai>EXPERIMENTAL BIOLOGY</srai></template></category> 
+
+
+<category><pattern>BOTANY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a> and 
+	<a href=" http://uclibs.org/PID/126814" target="_blank">Agricoloa</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>PHOTOBIOLOGY</pattern>
+<template><srai>BOTANY</srai></template></category>
+<category><pattern>SOIL</pattern>
+<template><srai>BOTANY</srai></template></category>
+
+<category><pattern>BIOMASS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a> and 
+	<a href=" http://uclibs.org/PID/113567" target="_blank">Ecology Abstracts</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>MIMICRY</pattern>
+<template><srai>BIOMASS</srai></template></category>
+
+<category><pattern>EXTINCTION</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a> and 
+	<a href=" http://uclibs.org/PID/113574" target="_blank">GeoRef</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li> 
+	</condition></template></category>
+<category><pattern>PALEOBIOLOGY</pattern>
+<template><srai>EXTINCTION</srai></template></category>
+
+<category><pattern>DESERT BIOLOGY</pattern> 
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http:/uclibs.org/PID/100004" target="_blank">BIOSIS</a>, and
+	<a href=" http://uclibs.org/PID/113567" target="_blank">Ecology Abstracts</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>SEXISM</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a> and 
+	<a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>BIOELECTRONICS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a>, 
+	<a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a> and/or <a href=" http://uclibs.org/PID/17708" target="_blank">PUBMED</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not finding what you need
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+ 
+<category><pattern>CYTOLOGY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a>, 
+	<a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a> and/or <a href=" http://uclibs.org/PID/17708" target="_blank">PUBMED</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>BIOLOGICAL DIVERSITY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a>, <a href=" http://uclibs.org/PID/12610" target="_blank">
+	Web of Science</a> and/or <a href=" http://uclibs.org/PID/113567" target="_blank">Ecology Abstracts</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>CHEMICAL BIOLOGY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a>, 
+	<a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> and/or <a href=" http://uclibs.org/PID/17708" target="_blank">PUBMED</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>AQUATIC BIOLOGY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a>, and/or 
+	<a href=" http://uclibs.org/PID/113567" target="_blank">Ecology Abstracts</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>CORAL REEF BIOLOGY</pattern>
+<template><srai>AQUATIC BIOLOGY</srai></template></category>
+	
+<category><pattern>COMMUNICATION IN BIOLOGY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a>, and/or 
+	<a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>ANATOMY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a>, and/or 
+	<a href=" http://uclibs.org/PID/17708" target="_blank">PUBMED</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>NATURAL HISTORY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>ZOOLOGY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>PROPOSAL WRITING IN BIOLOGY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a>, the 
+	<a href=" http://guides.lib.uci.edu/biology" target="_blank">Research Grants Research Guide</a> and/or the 
+	<a href=" http://guides.lib.uci.edu/scientificwriting" target="_blank">Scientific Writing Research Guide</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>ANTEATERS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/12610" target="_blank">BIOSIS</a> 
+	and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+	<category><pattern>ANIMAL RIGHTS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> 
+	and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>MOLECULAR BIOLOGY PROTOCOLS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with the<a href=" http://www.cshprotocols.org/" target="_blank">Cold Spring Harbor Protocols</a> 
+	and/or <a href=" http://uclibs.org/PID/34611" target="_blank">Current Protocols</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>VIRUSES</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a> and 
+	<a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a>. For more resources check out the  
+	<a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not finding what you need  
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>VIRAL *</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a> and 
+	<a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a>. For more resources check out the  
+	<a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not finding what you need  
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>CELL DIVISION</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a> and 
+	<a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a>. For more resources check out the  
+	<a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not finding what you need  
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>MOLECULAR BIOLOGY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a>, <a href=" http://uclibs.org/PID/12610" target="_blank">
+	Web of Science</a> and/or <a href=" http://uclibs.org/PID/113567" target="_blank">Ecology Abstracts</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>LIGHT TRANSDUCTION</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a>, <a href=" http://uclibs.org/PID/12610" target="_blank">
+	Web of Science</a> and/or <a href=" http://uclibs.org/PID/113567" target="_blank">Ecology Abstracts</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+</aiml>

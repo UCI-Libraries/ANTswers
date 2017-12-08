@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- ENVIRONMENTAL HEALTH -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>ENVIRONMENTAL HEALTH *</pattern>
+	<template><think><set name="topic">environmental health</set></think><sr /></template></category>
+
+<category><pattern>ENVIRONMENTAL HEALTH</pattern>	
+	<template>For resources on environmental health check out the <a href=" http://guides.lib.uci.edu/eohealth" target="_blank">Environmental and Occupational Health Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Interactions -->
+
+<category><pattern>ENVIRONMENTAL HEALTH</pattern>
+	<that>Health risk assessment as a subject is included in the broader subjects of Environmental Health and Public Health Would you like resource recommendations for environmental health and public health_</that>
+	<template>We would recommend that you start your search with <a href=" http://www.cabdirect.org/advancedsearch.html" target="_blank">Global Health</a> 
+	and/or <a href=" http://toxnet.nlm.nih.gov/" target="_blank">TOXNET</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/eohealth" target="_blank">Environmental and Occupational Health Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>ENVIRONMENTAL HEALTH</pattern>
+	<that>Housing and Health as a subject is included in the broader subjects of Environmental Health and Public Health Would you like resource recommendations for environmental health or public health_</that>
+	<template>We would recommend that you start your search with <a href=" http://www.cabdirect.org/advancedsearch.html" target="_blank">Global Health</a> 
+	and/or <a href=" http://toxnet.nlm.nih.gov/" target="_blank">TOXNET</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/eohealth" target="_blank">Environmental and Occupational Health Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>ENVIRONMENTAL HEALTH</pattern>
+	<that>Industrial hygiene as a subject is included in the broader subjects of Business and Environmental Health Would you like resource recommendations for business or environmental health_</that>
+	<template>We would recommend that you start your search with <a href=" http://www.cabdirect.org/advancedsearch.html" target="_blank">Global Health</a> 
+	and/or <a href=" http://toxnet.nlm.nih.gov/" target="_blank">TOXNET</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/eohealth" target="_blank">Environmental and Occupational Health Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>ENVIRONMENTAL HEALTH</pattern>
+	<that>Ecology as a subject is included in the broader subjects of Biology or Environmental Science Would you like resource recommendations for biology or environmental science_</that>
+	<template>We would recommend that you start your search with <a href=" http://www.cabdirect.org/advancedsearch.html" target="_blank">Global Health</a> 
+	and/or <a href=" http://toxnet.nlm.nih.gov/" target="_blank">TOXNET</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/eohealth" target="_blank">Environmental and Occupational Health Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<!-- Subject keywords-->
+
+<category><pattern>HEALTH ECOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://www.cabdirect.org/advancedsearch.html" target="_blank">Global Health</a> 
+			and/or <a href=" http://toxnet.nlm.nih.gov/" target="_blank">TOXNET</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/eohealth" target="_blank">Environmental and Occupational Health Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>ENVIRONMENTAL TOXICOLOGY</pattern>
+<template><srai>HEALTH ECOLOGY</srai></template></category>
+<category><pattern>ENVIRONMENTALLY INDUCED DISEASES</pattern>
+<template><srai>HEALTH ECOLOGY</srai></template></category>
+<category><pattern>RURAL HEALTH</pattern>
+<template><srai>HEALTH ECOLOGY</srai></template></category>
+<category><pattern>SANITATION</pattern>
+<template><srai>HEALTH ECOLOGY</srai></template></category>
+<category><pattern>URBAN HEALTH</pattern>
+<template><srai>HEALTH ECOLOGY</srai></template></category>
+<category><pattern>ENVIRONMENTAL ENGINEERING</pattern>
+<template><srai>HEALTH ECOLOGY</srai></template></category>
+<category><pattern>PUBLIC HEALTH</pattern>
+<template><srai>HEALTH ECOLOGY</srai></template></category>
+<category><pattern>HEALTH ASPECTS OF ENVIRONMENTAL QUALITY</pattern>
+<template><srai>HEALTH ECOLOGY</srai></template></category>
+<category><pattern>ENVIRONMENTAL ASPECTS OF HEALTH</pattern>
+<template><srai>HEALTH ECOLOGY</srai></template></category>
+
+</aiml>

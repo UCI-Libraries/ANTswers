@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+
+<!-- DEFAULT LINES -->
+<!-- default no result -->
+<!--<category>
+  <pattern>RANDOM PICKUP LINE</pattern>
+  <template>Can you rephrase your question please? Tip: try simplifying your question or break it into several questions!</template>
+</category>-->
+
+<!--<category>
+  <pattern>RANDOM PICKUP LINE</pattern>
+  <template>
+	<random>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</random>
+  </template>
+</category>-->
+
+<category>
+  <pattern>RANDOM PICKUP LINE</pattern>
+  <template>
+  	<condition name="sourcetype">
+  		<li value="books"><think><set name="sourcetype"></set></think><antpac><get name="topic" /></antpac></li>
+  		<li value="articles"><think><set name="sourcetype"></set></think><parsearticles><get name="topic" /></parsearticles></li>
+  		<li><parseinput><input /></parseinput></li>
+  	</condition>
+  </template>
+</category>
+
+
+<!-- finding if user wants books or articles.  default pattern -->
+<category>
+	<pattern>I WANT MORE INFORMATION ON *</pattern>
+	<template><think><set name="topic">booksorarticles</set><set name="search"><star /></set></think>Did you want articles or books on <star />? Say: "articles" or "books".</template>
+</category>
+	
+<!-- to determine if the user wants books or articles -->
+<topic name="booksorarticles">
+	<category>
+		<pattern>BOOKS</pattern>
+		<template><think><set name="topic"><get name="search" /></set><set name="sourcetype">books</set></think><srai><get name="search" /></srai><think><set name="sourcetype">none</set></think></template>
+	</category>
+	<category>
+		<pattern>ARTICLES</pattern>
+		<template><think><set name="topic"><get name="search" /></set><set name="sourcetype">articles</set></think><srai><get name="search" /></srai><think><set name="sourcetype">none</set></think></template>n
+	</category>
+	<category>
+		<pattern>BOTH</pattern>
+		<template>Well, aren't you demanding!</template>
+	</category>
+</topic>
+
+<!-- GENERAL VARIATIONS -->
+<category>
+	<pattern>WHERE TO FIND INFORMATION ABOUT *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>HELP ME FIND RESOURCES ABOUT *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>LOOKING FOR BOOKS ON *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>I NEED TO DO A RESEARCH PAPER ON THE *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>WHERE CAN I GO TO FIND INFORMATION ABOUT *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>HOW CAN I FIND INFORMATION ON HOW *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>HOW DO I FIND INFORMATION ON *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>I WANT TO FIND SCHOLARLY ESSAYS ON *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>WHERE CAN I FIND * INFORMATION</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>HOW CAN I LEARN ABOUT *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>I WANT TO FIND INFORMATION ON *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>WHERE DO I FIND INFORMATION ABOUT *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>WHERE CAN I FIND RESEARCH ON *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>WHERE WOULD I FIND INFORMATION ON *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>DO YOU KNOW ABOUT *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>HELP ME RESEARCH *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>I*M RESEARCHING *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>LEARN ABOUT *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>DO YOU HAVE INFORMATION ABOUT *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>HOW CAN I FIND OUT ABOUT *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>* HELP ME FIND INFORMATION REGARDING *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>I NEED TO FIND INFORMATION REGARDING THE *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>I*M LOOKING FOR INFORMATION ABOUT *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>WHAT IS *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>CAN YOU HELP ME RESEARCH *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>WHERE CAN I FIND INFORMATION ON *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>WHERE CAN I FIND INFORMATION ABOUT *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>RESEARCH TOPIC  *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>DO YOU KNOW WHO * IS</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>WHERE IS THE BEST PLACE TO FIND ARTICLES ON *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>DO YOU HAVE RESOURCES REGARDING THE *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>DO YOU KNOW ANYTHING ABOUT *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>DOES THE LIBRARY POSSESS ANY *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>WHAT ARE THE *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>CAN YOU TELL ME WHERE I CAN FIND INFORMATION ON THE *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>* RESEARCH</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>I NEED MORE INFORMATION ON *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>INFORMATION ABOUT *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>* FIND DATA ON *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>* FIND DATA ABOUT *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>I NEED MORE INFORMATION ON THE *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>CAN YOU HELP ME RESEARCH *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>I NEED * INFORMATION</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>WHAT DO YOU KNOW ABOUT *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>CAN YOU HELP ME RESEARCH THE *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>CAN YOU HELP ME FIND SOURCES ABOUT *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>WHAT SOURCES SUPPORT *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>I WANT * INFORMATION</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>WHERE CAN I FIND * INFORMATION</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>WHERE CAN I GET INFORMATION ABOUT *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>I AM LOOKING FOR *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>HOW CAN I FIND INFO ABOUT *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>DO YOU HAVE ANYTHING ON *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>DO YOU HAVE ANY INFORMATION ON *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>BOOKS OR ARTICLES ON *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>HOW WOULD I GO ABOUT FINDING INFO ON THE *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>I AM RESEARCHING ABOUT *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>CAN I GET * INFORMATION</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>* LOOKING FOR SOMETHING IN *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star index="2"/></srai></template>
+</category>
+<category>
+	<pattern>I NEED INFORMATION</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>I NEED INFORMATION ON</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>HELP ME FIND RESOURCES ON</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>DO YOU HAVE INFORMATION ON *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>I NEED HELP TRYING TO FIND INFORMATION REGARDING</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>I'M DOING RESEARCH ON</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>NEED * REFERENCES</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>BOOKS</pattern>
+	<template><think><set name="sourcetype">books</set></think>What books would you like me to help you find? Hint: say "books on *" (* = keyword(s) or subject.)</template>
+</category>
+<category>
+	<pattern>REFERENCE</pattern>
+	<that>What books would you like me to help you find_</that>
+	<template>Reference books are a little more complicated to find! Use the Advanced Keyword search of 
+	<a href=" http://antpac.lib.uci.edu/search/X" target="_blank">ANTPAC</a> and in "Location" limit to the reference collection you need. You can 
+	also browse the reference collections, Langson reference is located on the 1st floor and in the Ayala Science Library it is located in the Grand Reading Room.</template>
+</category>
+<category>
+	<pattern>ARTICLES</pattern>
+	<template><think><set name="sourcetype">articles</set></think>What articles would you like me to help you find?</template>
+</category>
+<category>
+	<pattern>I NEED *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+
+<!-- Here, write the various different ways that a patron might say that they wanted more information about a topic. -->
+<category>
+	<pattern>HELP ME FIND MORE INFORMATION ON *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>FIND SOURCES REGARDING *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>I NEED INFORMATION ON *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>CAN YOU FIND A SOURCE ON *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>I WANT INFORMATION ON *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>TELL ME ABOUT *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>I M LOOKING FOR SOMETHING ON *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>WANT TO FIND *</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+<category>
+	<pattern>* RESEARCH</pattern>
+	<template><srai>I WANT MORE INFORMATION ON <star /></srai></template>
+</category>
+
+<!-- VARIATIONS OF USER SPECIFYING WHETHER THEY WANT BOOKS -->
+<category>
+	<pattern>I WANT BOOKS ON *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>NEED * BOOKS</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>* HAS A BOOK CALLED *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star index="2"/></antpac></template>
+</category>
+<category>
+	<pattern>DO YOU HAVE THE BOOK *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>I AM TRYING TO LOCATE A BOOK ON *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>DO WE HAVE *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>HOW DO I ACCESS THE *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>WHAT ARE SOME BOOKS ON *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>I NEED ACCESS TO *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>I NEED TO FIND THE PORTAL FOR *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>DO YOU HAVE ANY * BOOKS AVAILABLE</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>WHERE CAN I GET * BOOKS</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>* BOOKS</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>DO YOU HAVE *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>BOOKS *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>FIND * BOOKS</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>I AM TRYING TO LOCATE A BOOK ON THE *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>I NEED * BOOKS</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>WHERE CAN I FIND * BY MARGARET ATWOOD</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>BOOKS WRITTEN BY *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>FIND ME BOOKS ABOUT *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>I AM LOOKING FOR A BOOK *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>TEXTBOOKS IN *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>DO YOU HAVE ANY * BOOKS</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>DO YOU * BOOKS</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>HELP ME RESEARCH * BOOKS</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>WHERE CAN I FIND * BOOKS</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>I NEED A BOOK TITLED *</pattern>
+	<template>Here is an ANTPAC link: <antpactitle><star /></antpactitle></template>
+</category>
+<category>
+	<pattern>* WHAT ARE SOME OF THE BOOKS ON *</pattern>
+	<template>Here is an ANTPAC link: <antpactitle><star /></antpactitle></template>
+</category>
+<category>
+	<pattern>IS THERE BOOK ABOUT *</pattern>
+	<template>Here is an ANTPAC link: <antpactitle><star /></antpactitle></template>
+</category>
+<category>
+	<pattern>ARE THERE BOOKS ABOUT *</pattern>
+	<template>Here is an ANTPAC link: <antpactitle><star /></antpactitle></template>
+</category>
+<category><pattern>HOW DO I GO TO *</pattern>
+	<template>Here is an ANTPAC link: <antpactitle><star /></antpactitle></template>
+</category>
+<category><pattern>HOW DO I GET TO *</pattern>
+	<template>Here is an ANTPAC link: <antpactitle><star /></antpactitle></template>
+</category>
+<category>
+	<pattern>HOW DO I FIND *</pattern>
+	<template>Here is an ANTPAC link: <antpactitle><star /></antpactitle></template>
+</category>
+<category>
+	<pattern>WHERE CAN I CHECKOUT THE *</pattern>
+	<template>Here is an ANTPAC link: <antpactitle><star /></antpactitle></template>
+</category>
+<category>
+	<pattern>DO YOU HAVE BOOKS ON *</pattern>
+	<template>Here is an ANTPAC link: <antpactitle><star /></antpactitle></template>
+</category>
+<category>
+	<pattern>DOES THE LIBRARY HAVE BOOKS ON *</pattern>
+	<template>Here is an ANTPAC link: <antpactitle><star /></antpactitle></template>
+</category>
+<category>
+	<pattern>HOW CAN I FIND * BOOKS</pattern>
+	<template>Here is an ANTPAC link: <antpactitle><star /></antpactitle></template>
+</category>
+<category>
+	<pattern>I NEED A * BOOK</pattern>
+	<template>Here is an ANTPAC link: <antpactitle><star /></antpactitle></template>
+</category>
+<category>
+	<pattern>DO YOU HAVE A FILM CALLED *</pattern>
+	<template>Here is an ANTPAC link: <antpactitle><star /></antpactitle></template>
+</category>
+<category>
+	<pattern>I*M LOOKING FOR A BOOK ON *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star index="2" /></antpac></template>
+</category>
+<category>
+	<pattern>DO YOU HAVE A BOOK ON THE *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star index="2" /></antpac></template>
+</category>
+<category>
+	<pattern>CAN YOU HELP ME FIND A BOOK ON *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star index="2" /></antpac></template>
+</category>
+<category>
+	<pattern>WHERE ARE THE BOOKS ON *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star index="2" /></antpac></template>
+</category>
+<category>
+	<pattern>WHERE CAN I FIND A BOOK ON *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star index="2" /></antpac></template>
+</category>
+<category>
+	<pattern>I WANT TO ACCESS *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>I WANT A * TERMS</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>HOW TO FIND *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>CAN I CHECK OUT *</pattern>
+	<template>Are you asking about a specific title or about how long you can check out books? If a specific title,  please re-type the 
+	title so I can run an ANTPAC search. If you are interested in loan periods, please type "check out" without the quotes.</template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<that>Are you asking about a specific title or about how long you can check out books_</that>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>CHECK OUT</pattern>
+	<that>Are you asking about a specific title or about how long you can check out books_</that>
+	<template><srai>LOAN PERIOD</srai></template>
+</category>
+
+<category>
+	<pattern>I NEED BOOKS ON *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>WHAT BOOKS WOULD YOU RECOMMEND ON THE *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>WHERE CAN I LOCATE A BOOK ON *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>BOOKS ON THE *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>HOW DO I FIND BOOKS ABOUT *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>I NEED BOOKS ABOUT *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>HOW CAN I FIND BOOKS ON *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>I NEED TO FIND BOOKS ON *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>DO YOU HAVE ANY BOOKS ON *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>I AM LOOKING FOR BOOKS ON *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>I NEED BOOKS ON *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>HELP ME FIND BOOKS ON *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>I NEED A BOOK ON *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>I NEED SOME BOOKS ON *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>BOOKS ON *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>BOOK ON *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>I NEED TO FIND A BOOK ON *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>I NEED TO FIND A BOOK ABOUT *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>WHERE CAN I FIND BOOKS ON *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>BOOKS ABOUT *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>CAN I RENT *</pattern>
+	<template>We don't rent items but you can borrow it if we have it. Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>WHERE DO I FIND BOOKS ON *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>DO YOU HAVE THE * BOOKS</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>DO YOU HAVE * BOOKS</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>DOES THE LIBRARY OWN *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>WHERE CAN I GET A BOOK ON *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>I WOULD LIKE TO READ A BOOK ON *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>I WOULD LIKE READ A BOOK ON  *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>DO YOU HAVE THE *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>WHERE CAN I FIND AN *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>WHERE CAN I FIND A *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>WHERE CAN I FIND *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>WHERE WOULD I FIND A BOOK WITH THE *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>IS THERE A BOOK THAT HAS THE *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>I NEED A COPY OF *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>CAN YOU HELP ME FIND BOOKS ON *</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+<category>
+	<pattern>CAN YOU HELP ME FIND BOOKS FOR A PAPER I*M WRITING</pattern>
+	<template>To find books, say: "books on *" (* insert keyword(s))</template>
+</category>
+<category>
+	<pattern>CAN YOU HELP ME FIND BOOK FOR A PAPER I*M WRITING</pattern>
+	<template>To find books, say: "books on *" (* insert keyword(s))</template>
+</category>
+<category>
+	<pattern>CAN YOU HELP ME FIND A BOOK FOR A PAPER I*M WRITING</pattern>
+	<template>To find books, say: "books on *" (* insert keyword(s))</template>
+</category>
+<category>
+	<pattern>I NEED A BOOK ABOUT *</pattern>
+	<template>To find books, say: "books on *" (* insert keyword(s))</template>
+</category>
+<category>
+	<pattern>* ANY AVAILABLE * BOOKS</pattern>
+	<template>Here is an ANTPAC link: <antpac><star /></antpac></template>
+</category>
+
+<!-- VARIATIONS OF USER SPECIFYING WHETHER THEY WANT ARTICLES -->
+<category>
+	<pattern>ARTICLES</pattern>
+	<template>Please say to me "I want articles on *" (* = topic or keywords).</template>
+</category>
+<category>
+	<pattern>ARTICLE</pattern>
+	<template>Please say to me "I want articles on *" (* = topic or keywords).</template>
+</category>
+<category>
+	<pattern>* ARTICLE</pattern>
+	<template>Please say to me "I want articles on *" (* = topic or keywords).</template>
+</category>
+<category>
+	<pattern>WHERE CAN I FIND * ARTICLES</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>WHERE CAN I FIND * ARTICLE</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I WANT ARTICLES ON *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>ARTICLES ABOUT *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I NEED * ARTICLES</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I NEED TO FIND AN ARTICLE IN THE *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I NEED * ARTICLE</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I NEED A PEER REVIEWED ARTICLE ON THE *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I NEED AN ARTICLE ON THE *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I NEED TO FIND ARTICLE ON *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>HOW CAN I FIND ARTICLES ON *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I AM TRYING TO FIND ARTICLES ON *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>WHERE CAN I FIND ARTICLE ON *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>WHERE CAN I FIND ARTICLES IN *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I WANT TO FIND ARTICLES ON	*</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>WHERE CAN I FIND ARTICLE IN *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>FIND A RESEARCH ARTICLE ON *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category> 
+<category>
+	<pattern>I WANT * ARTICLES</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>* ARTICLES</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>HAVING TROUBLE FINDING ARTICLES ABOUT *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I NEED AN ARTICLE ABOUT *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>CAN I HAVE ARTICLES FOR *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>HOW DO I FIND RESEARCH ARTICLES IN *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>RESEARCH ARTICLES IN *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>WHERE CAN I FIND ARTICLES ABOUT *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>ARTICLES ON *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>FIND ME AN ARTICLE ON *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>GIVE ME ARTICLES ABOUT *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>* RESEARCH ARTICLES</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I NEED HELP FINDING * ARTICLES</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>HOW TO FIND ARTICLES FOR *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>CAN YOU FIND ME ARTICLES ABOUT *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>ARTICLES FOR *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>WHICH DATABASE IS BEST FOR *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I NEED TO SEARCH ARTICLES ON *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I AM LOOKING FOR * ARTICLES</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>* ARTICLES</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I NEED ARTICLES ON *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>CAN YOU HELP ME LOOK FOR ARTICLES ABOUT *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I NEED TO LOOK FOR RELEVENT ACADEMIC JOURNALS ABOUT *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I AM LOOKING FOR ARTICLES ON *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I M SEARCHING FOR ARTICLES ON *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I AM LOOKING FOR ARTICLES IN *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I NEED HELP FINDING JOURNALS FOR *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I*M LOOKING FOR ARTICLES IN *</pattern>
+	<template><think><set name="topic"><star index="2" /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>HELP ME FIND ARTICLES ON *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>HOW DO I FIND ARTICLES ON *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>HOW DO I LOOK UP * ARTICLES</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I WANT FIND ARTICLES ABOUT THE *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>ARTICLES ON *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I*M LOOKING FOR ARTICLES ON *</pattern>
+	<template><think><set name="topic"><star index="2" /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>HOW DO I FIND A DATABASE ABOUT *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I NEED ARTICLES ABOUT *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>HOW DO I FIND ARTICLES ABOUT THE *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I NEED TO FIND * ON A BOOK I*M READING</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>NEED ARTICLES IN *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I NEED JOURNAL ARTICLES ON *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">articles</set></think><sr /></template>
+</category>
+
+<!--Call Numbers-->
+
+<category><pattern>WHERE WOULD I FIND THIS CALL NUMBER *</pattern>
+<template>Here is an ANTPAC link: <antpaccallno><star /></antpaccallno></template></category>
+
+<category><pattern>WHERE IS *</pattern>
+<template>Here is an ANTPAC link: <antpaccallno><star /></antpaccallno></template></category>
+
+</aiml>

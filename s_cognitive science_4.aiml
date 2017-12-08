@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- COGNITIVE SCIENCE -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>COGNITIVE SCIENCE *</pattern>
+	<template><think><set name="topic">cognitive science</set></think><sr /></template></category>
+	
+<category><pattern>COGNITIVE SCIENCE</pattern>	
+	<template>For resources on cognitive science check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a>   
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<!-- Interactions -->
+
+<category><pattern>COGNITIVE SCIENCE</pattern>
+	<that>Artificial Intelligence as a subject is included in the broader subjects of Cognitive Science and Psychology Would you like resource recommendations for cognitive science or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> 
+	and/or <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>COGNITIVE SCIENCE</pattern>
+	<that>Cognitive neuroscience as a subject is included in the broader subjects of Cognitive Science and Psychology Would you like resource recommendations for cognitive science or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a> 
+	and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>COGNITIVE SCIENCE</pattern>
+	<that>Cognitive Psychology as a subject is included in the broader subjects of Cognitive Science and Psychology Would you like resource recommendations for cognitive science or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a> 
+	and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>COGNITIVE SCIENCE</pattern>
+	<that>Philosophy and Cognitive Science as a subject is included in the broader subjects of Cognitive Science and Psychology Would you like resource recommendations for cognitive science or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a> 
+	and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<category><pattern>COGNITIVE SCIENCE</pattern>
+	<that>Philosophy of Mind as a subject is included in the broader subjects of Cognitive Science and Philosophy Would you like resource recommendations for cognitive science or philosophy_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> 
+	and/or <a href=" http://uclibs.org/PID/113588" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+</aiml>

@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Subject interactions -->
+<!-- -->
+
+<category><pattern>WHERE CAN I FIND DATASETS</pattern>
+<template>Datasets can be found in many areas of study. Please state the subject area followed by datasets, ex. business datasets.</template></category>
+	<category><pattern>DOES UCI HAVE DATASETS ONLINE</pattern>
+	<template><srai>WHERE CAN I FIND DATASETS</srai></template></category>
+	<category><pattern>I NEED STATISTICAL DATASETS</pattern>
+	<template><srai>WHERE CAN I FIND DATASETS</srai></template></category>
+
+<!--<category><pattern>BUSINESS DATASETS</pattern>
+<template>http://libguides.lib.uci.edu/content.php?pid=16389&sid=4146619
+CENSUS DATASETS http://libguides.lib.uci.edu/content.php?pid=240613
+SOCIAL SCIENCE DATASETS http://libguides.lib.uci.edu/content.php?pid=6737
+GIS DATASETS http://libguides.lib.uci.edu/content.php?pid=19019&sid=424478
+Geographic Information Systems
+PUBLIC HEALTH http://libguides.lib.uci.edu/content.php?pid=19832&sid=1918388
+cRIMINOLOGY http://libguides.lib.uci.edu/content.php?pid=547878&sid=4519646
+PSYCHOLOGY http://libguides.lib.uci.edu/content.php?pid=14101&sid=145771-->
+
+<category><pattern>AERONAUTICS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Aeronautics as a subject is included in the broader subjects of Aerospace Engineering and Earth Science. Would you like resource recommendations for aerospace engineering or earth science?</li>
+	</condition></template></category>
+
+<category><pattern>AIR ART</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Air Art as a subject is included in the broader subjects of Art and Contemporary Art. Would you like resource recommendations for art or contemporary art?</li>
+	</condition></template></category>
+
+<category><pattern>ANESTHESIA ADJUVANTS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Anesthesia Adjuvants as a subject is included in the broader subjects of Anesthesiology and Pharmacology. Would you like resource recommendations for anesthesiology or pharmacology?</li>
+	</condition></template></category>
+	
+<category><pattern>ANTHROPOLOGICAL LINGUISTICS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Anthropological Linguistics as a subject is included in the broader subjects of Anthropology and Linguistics. Would you like resource recommendations for anthropology or linguistics?</li>
+	</condition></template></category>
+
+<category><pattern>ARCHAEOLOGY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Archaeology as a subject is included in the broader subjects of Anthropology and History. Would you like resource recommendations for anthropology or history?</li>
+	</condition></template></category>
+	
+<category><pattern>ARTIFICIAL INTELLIGENCE</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Artificial Intelligence as a subject is included in the broader subjects of Cognitive Science and Psychology. Would you like resource recommendations for cognitive science or psychology?</li>
+	</condition></template></category>
+	
+<category><pattern>ASTROGEOLOGY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Astrogeology as a subject is included in the broader subjects of Astronomy and Earth Science. Would you like resource recommendations for astronomy or earth science?</li>
+	</condition></template></category>	
+	
+<category><pattern>ASTRONAUTICS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Astronautics as a subject is included in the broader subjects of Astronomy and Earth Science. Would you like resource recommendations for astronomy or earth science?</li>
+	</condition></template></category>
+	
+<category><pattern>ASTROPHYSICS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Astrophysics as a subject is included in the broader subjects of Astronomy and Physics. Would you like resource recommendations for astronomy or physics?</li>
+	</condition></template></category>
+	
+<category><pattern>AUTONOMY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Autonomy as a subject is included in the broader subjects of Government Information and Philosophy. Would you like resource recommendations for government information or philosophy?</li>
+	</condition></template></category>	
+	
+<category><pattern>AXIOMS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Axioms as a subject is included in the broader subjects of Mathematics and Philosophy. Would you like resource recommendations for math or philosophy?</li>
+	</condition></template></category>	
+	
+<category><pattern>BELIEF AND DOUBT</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Belief and Doubt as a subject is included in the broader subjects of Philosophy and Psychology. Would you like resource recommendations for philosophy or psychology?</li>
+	</condition></template></category>		
+	
+<category><pattern>BIOCHEMISTRY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Biochemistry as a subject is included in the broader subjects of Biology and Chemistry. Would you like resource recommendations for biology or chemistry?</li>
+	</condition></template></category>	
+	
+<category><pattern>BIOENGINEERING</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Bioengineering as a subject is included in the broader subjects of Biology and Biomedical Engineering. Would you like resource recommendations for biology or biomedical engineering?</li>
+	</condition></template></category>		
+	
+<category><pattern>BIOLINGUISTICS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Biolinguistics as a subject is included in the broader subjects of Biology and Linguistics. Would you like resource recommendations for biology or linguistics?</li>
+	</condition></template></category>		
+
+<category><pattern>BIOMATHEMATICS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Biomathematics as a subject is included in the broader subjects of Biology and Mathematics. Would you like resource recommendations for biology or Math?</li>
+	</condition></template></category>	
+	
+<category><pattern>BIOPHYSICS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Biophysics as a subject is included in the broader subjects of Biology, Biomedical Engineering, and Physics. Would you like resource recommendations for biology, biomendical engineering, or physics?</li>
+	</condition></template></category>	
+	
+<category><pattern>COGNITIVE NEUROSCIENCE</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Cognitive neuroscience as a subject is included in the broader subjects of Cognitive Science and Psychology. Would you like resource recommendations for cognitive science or psychology?</li>
+	</condition></template></category>	
+	
+<category><pattern>COGNITIVE PSYCHOLOGY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Cognitive Psychology as a subject is included in the broader subjects of Cognitive Science and Psychology. Would you like resource recommendations for cognitive science or psychology?</li>
+	</condition></template></category>	
+
+<category><pattern>COLOR</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Color as a subject is included in the broader subjects of Art, Chemistry, and Philosophy. Would you like resource recommendations for art, chemistry, or philosophy?</li>
+	</condition></template></category>	
+
+<category><pattern>COMPONENTIAL ANALYSIS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Componential anlaysis as a subject is included in the broader subjects of Anthropology and Linguistics. Would you like resource recommendations for anthropology or linguistics?</li>
+	</condition></template></category>		
+	
+<category><pattern>COMPUTER ART</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Computer art as a subject is included in the broader subjects of Contemporary Art and Computer Science. Would you like resource recommendations for contemporary art or computer science?</li>
+	</condition></template></category>	
+
+<category><pattern>COMPUTER CRIMES</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Computer crimes as a subject is included in the broader subjects of Computer Science and Criminology. Would you like resource recommendations for computer science or criminology?</li>
+	</condition></template></category>	
+	
+<category><pattern>COMPUTER MUSIC</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Computer music as a subject is included in the broader subjects of Computer Science and Music. Would you like resource recommendations for computer science or music?</li>
+	</condition></template></category>	
+
+<category><pattern>CONSCIOUSNESS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Consciousness as a subject is included in the broader subjects of Philosophy and Psychology. Would you like resource recommendations for philosophy and psychology?</li>
+	</condition></template></category>
+
+<category><pattern>CONSTRUCTIVISM</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Constructivism as a subject is included in the broader subjects of Contemporary Art, Education, Philosophy, and Psychology. Would you like resource recommendations for contemporary art, education, 
+	philosophy, or psychology?</li>
+	</condition></template></category>
+	
+<category><pattern>COSMIC PHYSICS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Cosmic physics as a subject is included in the broader subjects of Astronomy and Physics. Would you like resource recommendations for astronomy or physics?</li>
+	</condition></template></category>	
+	
+<category><pattern>COSMOCHEMISTRY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Cosmochemistry as a subject is included in the broader subjects of Astronomy and Chemistry. Would you like resource recommendations for astronomy or chemistry?</li>
+	</condition></template></category>	
+
+<category><pattern>CRITICAL PEDAGOGY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Critical pedagogy as a subject is included in the broader subjects of Critical Theory and Education. Would you like resource recommendations for critical theory or education?</li>
+	</condition></template></category>
+	
+<category><pattern>CRITICISM</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Criticism as a subject is included in the broader subjects of Critical Theory, Literature, and Philosophy. Would you like resource recommendations for critical theory, literature, or philosophy?</li>
+	</condition></template></category>
+	
+<category><pattern>CUBISM</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Cubism as a subject is included in the broader subjects of Art and Contemporary Art. Would you like resource recommendations for art or contemporary art?</li>
+	</condition></template></category>
+	
+<category><pattern>CYCLES</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Cycles as a subject is included in the broader subjects of Literature and Philosophy. Would you like resource recommendations for 
+	literature or philosophy?</li></condition></template></category>	
+	
+<category><pattern>CYNICISM</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Cynicism as a subject is included in the broader subjects of Philosophy and Psychology. Would you like resource recommendations for 
+	philosophy and psychology?</li></condition></template></category>	
+	
+<category><pattern>DOCUMENATION</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Documentation as a subject is included in the broader subjects of Informatics and Library Science. Would you like resource recommendations for 
+	informatics and library science?</li></condition></template></category>
+
+<category><pattern>DRAMA</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Drama as a subject is included in the broader subjects of Classics and Literature. Would you like resource recommendations for 
+	classics or literature?</li></condition></template></category>
+
+<category><pattern>ECOLOGY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Ecology as a subject is included in the broader subjects of Biology or Environmental Science. Would you like resource recommendations for 
+	biology or environmental science?</li></condition></template></category>
+
+<category><pattern>ELECTROMECHANICAL DEVICES</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Electromechanical devices as a subject is included in the broader subjects of Electrical Engineering and Mechanical Engineering. Would you like resource recommendations for 
+	electrical engineering or mechanical engineering?</li></condition></template></category>
+
+<category><pattern>ELECTRONICS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Electronics as a subject is included in the broader subjects of Biology, Earth Sciences, and Electrical Engineering. Would you like resource recommendations for 
+	biology, earth sciences, or electrical engineering?</li></condition></template></category>
+
+<category><pattern>EVOLUTION</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Evolution as a subject is included in the broader subjects of Biology and Philosophy. Would you like resource recommendations for 
+	biology or philosophy?</li></condition></template></category>
+
+<category><pattern>EXCHANGE</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Exchange as a subject is included in the broader subjects of Business and Economics. Would you like resource recommendations for 
+	business or economics?</li></condition></template></category>
+
+<category><pattern>EXPERIENCE</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Experience as a subject is included in the broader subjects of Philosophy and Psychology. Would you like resource recommendations for 
+	philosophy or psychology?</li></condition></template></category>
+	
+<category><pattern>EXPRESSIONISM</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Expressionism as a subject is included in the broader subjects of Art and Contemporary Art. Would you like resource recommendations for 
+	art or contemporary art?</li></condition></template></category>
+
+<category><pattern>EXTRATERRESTRIAL ANTHROPOLOGY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Extraterrestrial anthropology as a subject is included in the broader subjects of Anthropology and Astronomy. Would you like resource recommendations for 
+	anthropology or astronomy?</li></condition></template></category>
+
+<category><pattern>EXTRATERRESTRIAL BASES</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Extraterrestrial bases as a subject is included in the broader subjects of Civil Engineering and Environmental Engineering. Would you like resource recommendations for 
+	civil engineering or environmental engineering?</li></condition></template></category>
+
+<category><pattern>FIELD THEORY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Field theory as a subject is included in the broader subjects of Linguistics and Physics. Would you like resource recommendations for 
+	linguistics or physics?</li></condition></template></category>
+
+<category><pattern>FUNCTIONALISM</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Functionalism as a subject is included in the broader subjects of Linguistics and Psychology. Would you like resource recommendations for 
+	linguistics or psychology?</li></condition></template></category>
+
+<category><pattern>FUTURISM</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Futurism as a subject is included in the broader subjects of Art and Contemporary Art. Would you like resource recommendations for 
+	art or contemporary art?</li></condition></template></category>
+	
+<category><pattern>GEOBIOLOGY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Geobiology as a subject is included in the broader subjects of Biology and Earth Sciences. Would you like resource recommendations for biology or earth 
+	science?</li></condition></template></category>
+
+<category><pattern>GEOCHEMISTRY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Geochemistry as a subject is included in the broader subjects of Chemistry and Earth Sciences. Would you like resource recommendations for 
+	chemistry or earth sciences?</li></condition></template></category>
+	
+<category><pattern>GEOGRAPHY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Geography as a subject is included in the broader subjects of Earth Sciences and Planning, Policy, and Design. Would you like resource recommendations for 
+	earth sciences or planning, policy, and design?</li></condition></template></category>
+	
+<category><pattern>GEOPHYSICS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Geophysics as a subject is included in the broader subjects of Earth Sciences and Physics. Would you like resource recommendations for 
+	earth sciences or physics?</li></condition></template></category>
+
+<category><pattern>GEOTHERMAL ENGINEERING</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Geothermal engineering as a subject is included in the broader subjects of Chemical Engineering and Electrical Engineering. Would you like resource recommendations for 
+	chemical engineering or electrical engineering?</li></condition></template></category>
+
+<category><pattern>GROSS NATIONAL PRODUCT</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Gross national product as a subject is included in the broader subjects of Economics and Statistics. Would you like resource recommendations for 
+	economics and statistics?</li></condition></template></category>
+
+<category><pattern>HEALTH RISK ASSESSMENT</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Health risk assessment as a subject is included in the broader subjects of Environmental Health and Public Health. Would you like resource recommendations for 
+	environmental health and public health?</li></condition></template></category>
+
+<category><pattern>HISTORICAL SOCIOLOGY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Historical sociology as a subject is included in the broader subjects of Anthropology, History, and Sociology. Would you like resource recommendations for 
+	anthropology, history, or sociology?</li></condition></template></category>
+
+<category><pattern>HOUSING AND HEALTH</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Housing and Health as a subject is included in the broader subjects of Environmental Health and Public Health. Would you like resource recommendations for 
+	environmental health or public health?</li></condition></template></category>
+
+<category><pattern>IDEOLOGY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Ideology as a subject is included in the broader subjects of Philosophy, Political Science, and Psychology. Would you like resource 
+	recommendations for philosophy, political science, or psychology?</li>
+	</condition></template></category>
+
+<category><pattern>IMAGINATION</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Imagination as a subject is included in the broader subjects of Philosophy and Psychology. Would you like resource recommendations for 
+	philosophy and psychology?</li></condition></template></category>
+
+<category><pattern>INDIVIDUALISM</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Individualism as a subject is included in the broader subjects of Economics, Political Science, and Sociology. Would you like resource recommendations for 
+	economics, political science, or sociology?</li></condition></template></category>
+
+<category><pattern>INDIVIDUATION</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Individuation as a subject is included in the broader subjects of Motion Pictures, Philosophy, and Psychology. Would you like resource recommendations for 
+	motion pictures, philosophy, or psychology?</li></condition></template></category>
+
+<category><pattern>INDUSTRIAL HYGIENE</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Industrial hygiene as a subject is included in the broader subjects of Business and Environmental Health. Would you like resource recommendations for 
+	business or environmental health?</li></condition></template></category>
+
+<category><pattern>ARTISTIC INFLUENCE</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Artistic influence as a subject is included in the broader subjects of Art and Literature. Would you like resource recommendations for 
+	art or literature?</li></condition></template></category>
+
+<category><pattern>LITERARY INFLUENCE</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Literary influence as a subject is included in the broader subjects of Art and Literature. Would you like resource recommendations for 
+	art or literature?</li></condition></template></category>	
+	
+<category><pattern>INFORMATION RESOURCES</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Information resources as a subject is included in the broader subjects of Informatics and Library Science. Would you like resource recommendations for 
+	informatics and library science?</li></condition></template></category>	
+	
+<category><pattern>INFORMATION RESOURCES</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Information resources as a subject is included in the broader subjects of Informatics and Library Science. Would you like resource recommendations for 
+	informatics and library science?</li></condition></template></category>	
+	
+<category><pattern>INFORMATION RETRIEVAL</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Information retrieval as a subject is included in the broader subjects of Informatics and Library Science. Would you like resource recommendations for 
+	informatics and library science?</li></condition></template></category>		
+	
+<category><pattern>INFORMATION SERVICES</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Information services as a subject is included in the broader subjects of Informatics and Library Science. Would you like resource recommendations for 
+	informatics and library science?</li></condition></template></category>	
+
+<category><pattern>INFORMATION THEORY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Information theory as a subject is included in the broader subjects of Biology, Chemistry, Education, Mathematics, Music, and Psychology. Would you like resource recommendations for 
+	biology, chemistry, education, math, music, or psychology?</li></condition></template></category>
+	
+<category><pattern>INSTINCT</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Instinct as a subject is included in the broader subjects of Philosophy and Psychology. Would you like resource recommendations for 
+	philosophy and psychology?</li></condition></template></category>
+
+<category><pattern>INTEREST</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Interest as a subject is included in the broader subjects of Philosophy and Psychology. Would you like resource recommendations for 
+	philosophy and psychology?</li></condition></template></category>
+	
+<category><pattern>INTUITION</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Intuition as a subject is included in the broader subjects of Philosophy and Psychology. Would you like resource recommendations for 
+	philosophy and psychology?</li></condition></template></category>
+	
+<category><pattern>THEORY OF KNOWLEDGE</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Theory of Knowledge as a subject is included in the broader subjects of Philosophy and Psychology. Would you like resource recommendations for 
+	philosophy and psychology?</li></condition></template></category>
+
+<category><pattern>LETTRISM</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Lettrism as a subject is included in the broader subjects of Art and Literature. Would you like resource recommendations for 
+	art or literature?</li></condition></template></category>
+
+<category><pattern>LOGIC</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Logic as a subject is included in the broader subjects of Philosophy and Psychology. Would you like resource recommendations for 
+	philosophy or psychology?</li></condition></template></category>
+	
+<category><pattern>MANAGERIAL ECONOMICS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Managerial economics as a subject is included in the broader subjects of Business and Economics. Would you like resource recommendations for 
+	business or economics?</li></condition></template></category>	
+	
+<category><pattern>MEDICAL INFORMATICS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Medical informatics as a subject is included in the broader subjects of Informatics and Library Science. Would you like resource recommendations for 
+	informatics or Library science?</li></condition></template></category>	
+
+<category><pattern>MELODRAMA</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Melodrama as a subject is included in the broader subjects of Drama, Motion Pictures, Music and Television. Would you like resource recommendations for 
+	drama, motion pictures, music, or television?</li></condition></template></category>
+	
+<category><pattern>MENTAL HEALTH</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Mental health as a subject is included in the broader subjects of Chicano/Latino Studies and Public Health. Would you like resource recommendations for 
+	chicano studies or public health?</li></condition></template></category>
+	
+<category><pattern>NUMERACY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Numeracy as a subject is included in the broader subjects of Mathematics and Statistics. Would you like resource recommendations for math or statistics?</li></condition></template></category>
+	
+<category><pattern>THEORY OF OPPOSITION</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Theory of Opposition as a subject is included in the broader subjects of Philosophy. Would you like resource recommendations for philosophy or psychology?</li></condition></template></category>
+	
+<category><pattern>OUTER SPACE</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Outer space as a subject is included in the broader subjects of Aerospace Engineering and Astronomy. Would you like resource recommendations for aerospace
+	engineering or astronomy?</li></condition></template></category>
+	
+<category><pattern>PERCEPTION</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Perception as a subject is included in the broader subjects of Philosophy and Psychology. Would you like resource recommendations for philosophy 
+	or psychology?</li></condition></template></category>
+	
+<category><pattern>PHARMACY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Pharmacy as a subject is included in the broader subjects of Chemistry, Medicine and Pharmacology. Would you like resource recommendations for chemistry, medicine 
+	or pharmacology?</li></condition></template></category>
+	<category><pattern>* RESEARCH ABOUT DRUGS</pattern>
+	<template><srai>PHARMACY</srai></template></category>
+	<category><pattern>DRUG RESEARCH</pattern>
+	<template><srai>PHARMACY</srai></template></category>
+
+<category><pattern>PHILOSOPHY AND COGNITIVE SCIENCE</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Philosophy and Cognitive Science as a subject is included in the broader subjects of Cognitive Science and Psychology. Would you like resource recommendations for cognitive 
+	science or psychology?</li></condition></template></category>
+	
+<category><pattern>PHILOSOPHY OF MIND</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Philosophy of Mind as a subject is included in the broader subjects of Cognitive Science and Philosophy. Would you like resource recommendations for cognitive 
+	science or philosophy?</li></condition></template></category>	
+
+<category><pattern>POLARITY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Polarity as a subject is included in the broader subjects of Biology, Philosophy, and Psychology. Would you like resource recommendations for biology, 
+	philosophy, or psychology?</li></condition></template></category>	
+
+<category><pattern>POPULATION</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Population as a subject is included in the broader subjects of Biology and Economics. Would you like resource recommendations for biology or  
+	economics?</li></condition></template></category>	
+
+<category><pattern>POWER</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Power as a subject is included in the broader subjects of Philosophy and Sociology. Would you like resource recommendations for philosophy or 
+	sociology?</li></condition></template></category>	
+
+<category><pattern>PROFIT</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Profit as a subject is included in the broader subjects of Business and Economics. Would you like resource recommendations for business or 
+	economics?</li></condition></template></category>	
+
+<category><pattern>PSYCHOBIOLOGY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Psychobiology as a subject is included in the broader subjects of Biology and Psychology. Would you like resource recommendations for biology or 
+	psychology?</li></condition></template></category>	
+
+<category><pattern>PSYCHOLINGUISTICS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Psycholinguistics as a subject is included in the broader subjects of Linguistics and Psychology. Would you like resource recommendations for linguistics 
+	or psychology?</li></condition></template></category>	
+
+<category><pattern>PUBLIC ART</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Public Art as a subject is included in the broader subjects of Art and Planning, Policy, and Design. Would you like resource recommendations for art 
+	or planning, policy, and design?</li></condition></template></category>	
+
+<category><pattern>RELIGION</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Religion as a subject is included in the broader subjects of Chicano/Latino Studies and Religious Studies. Would you like resource recommendations for 
+	chicano studies or religious studies?</li></condition></template></category>	
+
+<category><pattern>SOCIAL HISTORY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Social history as a subject is included in the broader subjects of History and Sociology. Would you like resource recommendations for history or 
+	sociology?</li></condition></template></category>	
+
+<category><pattern>SOCIAL MEDICINE</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Social medicine as a subject is included in the broader subjects of Public Health or Sociology. Would you like resource recommendations for public 
+	health or sociology?</li></condition></template></category>	
+
+<category><pattern>SOCIAL STRUCTURE</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Social Structure as a subject is included in the broader subjects of Anthropology and Sociology. Would you like resource recommendations for anthropology 
+	or sociology?</li></condition></template></category>	
+
+<category><pattern>SOCIALIZATION</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Socialization as a subject is included in the broader subjects of Education and Sociology. Would you like resource recommendations for education or 
+	sociology?</li></condition></template></category>	
+
+<category><pattern>SOCIOLINGUISTICS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Sociolinguistics as a subject is included in the broader subjects of Linguistics and Sociology. Would you like resource recommendations for linguistics 
+	or sociology?</li></condition></template></category>
+	
+<category><pattern>SPACE AND TIME</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Space and Time as a subject is included in the broader subjects of Astronomy and Philosophy. Would you like resource recommendations for astronomy or 
+	philosophy?</li></condition></template></category>
+	
+<category><pattern>SPACE MEDICINE</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Space medicine as a subject is included in the broader subjects of Astronomy and Medicine. Would you like resource recommendations for astronomy or 
+	medicine?</li></condition></template></category>
+	
+<category><pattern>SPACE SIMULATORS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Space simulators as a subject is included in the broader subjects of Aerospace Engineering and Environmental Engineering. Would you like resource 
+	recommendations for aerospace engineering or environmental engineering?</li></condition></template></category>
+	
+<category><pattern>STATICS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Statics as a subject is included in the broader subjects of Mathematics and Physics. Would you like resource recommendations for mathematics or 
+	physics?</li></condition></template></category>
+	
+<category><pattern>STATICS AND DYNAMICS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Statics and Dynamics as a subject is included in the broader subjects of Economics and Sociology. Would you like resource recommendations for economics 
+	or sociology?</li></condition></template></category>
+	
+<category><pattern>STATISTICS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Statistics as a subject is included in the broader subjects of Business and Economics. Would you like resource recommendations for business or 
+	economics?</li></condition></template></category>
+	
+<category><pattern>SURFACES</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Surfaces as a subject is included in the broader subjects of Philosophy and Physics. Would you like resource recommendations for philosophy or 
+	physics?</li></condition></template></category>
+	
+<category><pattern>SURGERY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Surgery as a subject is included in the broader subjects of Anesthesiology and Medicine. Would you like resource recommendations for anesthesiology or 
+	medicine?</li></condition></template></category>
+
+<category><pattern>THOUGHT AND THINKING</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Thought and Thinking as a subject is included in the broader subjects of Philosophy and Psychology. Would you like resource recommendations for philosophy 
+	or psychology?</li></condition></template></category>
+	
+<category><pattern>TOXICOLOGY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Toxicology as a subject is included in the broader subjects of Medicine and Pharmacology. Would you like resource recommendations for medicine or 
+	pharmacology?</li></condition></template></category>
+	
+<category><pattern>TYPOLOGY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Typology as a subject is included in the broader subjects of Linguistics and Psychology. Would you like resource recommendations for linguistics or 
+	psychology?</li></condition></template></category>
+		
+<category><pattern>UNIVERSALS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Universals as a subject is included in the broader subjects of Linguistics and Philosophy. Would you like resource recommendations for linguistics or 
+	philosophy?</li></condition></template></category>
+	
+<category><pattern>UROLOGICAL NURSING</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Urological nursing as a subject is included in the broader subjects of Nursing and Urology. Would you like resource recommendations for nursing or 
+	urology?</li></condition></template></category>
+	
+<category><pattern>VIDEO ART</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Video art as a subject is included in the broader subjects of Art, Contemporary Art, and Television. Would you like resource recommendations for art, 
+	contemporary art, or television?</li></condition></template></category>
+	
+<category><pattern>WEALTH</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Wealth as a subject is included in the broader subjects of Business and Economics. Would you like resource recommendations for business or 
+	economics?</li></condition></template></category>
+	
+<category><pattern>WILL</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Will as a subject is included in the broader subjects of Philosophy and Psychology. Would you like resource recommendations for philosophy or 
+	psychology?</li></condition></template></category>
+	
+<category><pattern>WOMEN IN INFORMATION SICENCE</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>Women in Information Science as a subject is included in the broader subjects of Informatics and Library Science. Would you like resource recommendations 
+	for informatics or library science?</li></condition></template></category>	
+
+</aiml>

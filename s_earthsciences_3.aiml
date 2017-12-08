@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!-- -->
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+
+<!-- This file has the following topics: -->
+<!-- EARTH SYSTEM SCIENCE -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>EARTH SYSTEM SCIENCE *</pattern>
+	<template><think><set name="topic">earth system science</set></think><sr /></template></category>
+	
+<category><pattern>EARTH SYSTEM SCIENCE</pattern>	
+	<template>For resources on earth system science check out the <a href=" http://guides.lib.uci.edu/earth_system_science" target="_blank">Earth System Science Research Guide</a>   
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+	
+<!-- Interactions -->
+
+<category><pattern>EARTH SCIENCE</pattern>	
+	<that>Aeronautics as a subject is included in the broader subjects of Aerospace Engineering and Earth Science Would you like resource recommendations for aerospace engineering or earth science_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+	and/or <a href=" http://uclibs.org/PID/16251" target="_blank">GeoRef</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/earth_system_science" target="_blank">Earth System Science Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.
+	</template></category>
+
+<category><pattern>EARTH SCIENCE</pattern>
+	<that>Astrogeology as a subject is included in the broader subjects of Astronomy and Earth Science Would you like resource recommendations for astronomy or earth science_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+	and/or <a href=" http://uclibs.org/PID/16251" target="_blank">GeoRef</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/earth_system_science" target="_blank">Earth System Science Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>EARTH SCIENCE</pattern>
+	<that>Astronautics as a subject is included in the broader subjects of Astronomy and Earth Science Would you like resource recommendations for astronomy or earth science_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+	and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/earth_system_science" target="_blank">Earth System Science Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>EARTH SCIENCE</pattern>
+	<that>Electronics as a subject is included in the broader subjects of Biology Earth Sciences and Electrical Engineering Would you like resource recommendations for biology earth sciences or electrical engineering_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+	and/or <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/earth_system_science" target="_blank">Earth System Science Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>EARTH SCIENCE</pattern>
+	<that>Geobiology as a subject is included in the broader subjects of Biology and Earth Sciences Would you like resource recommendations for biology or earth science_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16251" target="_blank">GeoRef</a> 
+	and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/earth_system_science" target="_blank">Earth System Science Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<category><pattern>EARTH SCIENCE</pattern>
+	<that>Geochemistry as a subject is included in the broader subjects of Chemistry and Earth Sciences Would you like resource recommendations for chemistry or earth sciences_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16251" target="_blank">GeoRef</a> 
+	and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/earth_system_science" target="_blank">Earth System Science Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>EARTH SCIENCE</pattern>
+	<that>Geography as a subject is included in the broader subjects of Earth Sciences Planning Policy and Design and Russian Studies Would you like resource recommendations for earth sciences planning policy and design or russian studies_</that>
+	<template>We would recommend that you start your search with <a href=" http://guides.lib.uci.edu/gis" target="_blank">Geographic Information Systems (GIS) Research Guide</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/earth_system_science" target="_blank">Earth System Science Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>EARTH SCIENCE</pattern>
+	<that>Geophysics as a subject is included in the broader subjects of Earth Sciences and Physics Would you like resource recommendations for earth sciences or physics_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16251" target="_blank">GeoRef</a> 
+	and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/earth_system_science" target="_blank">Earth System Science Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<!-- Subject keywords-->
+
+<category><pattern>GOLD ORES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+			and/or <a href=" http://uclibs.org/PID/16251" target="_blank">GeoRef</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/earth_system_science" target="_blank">Earth System Science Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>NATURAL GAS</pattern>
+<template><srai>ASTROGEOLOGY</srai></template></category>
+<category><pattern>PETROLEUM</pattern>
+<template><srai>ASTROGEOLOGY</srai></template></category>
+	
+<category><pattern>COMMUNICATION IN GEOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+			and/or <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/earth_system_science" target="_blank">Earth System Science Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>ARTIFICIAL SATELLITES</pattern>
+<template><srai>COMMUNICATION IN GEOLOGY</srai></template></category>
+<category><pattern>RADAR</pattern>
+<template><srai>COMMUNICATION IN GEOLOGY</srai></template></category>
+
+<category><pattern>HYDROGEOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+			and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/earth_system_science" target="_blank">Earth System Science Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>HYDROLOGY</pattern>
+<template><srai>ASTRONAUTICS</srai></template></category>
+<category><pattern>INDUSTRIAL MINERALS </pattern>
+<template><srai>ASTRONAUTICS</srai></template></category>
+<category><pattern>IRON ORES</pattern>
+<template><srai>ASTRONAUTICS</srai></template></category>
+<category><pattern>MANGANESE ORES</pattern>
+<template><srai>ASTRONAUTICS</srai></template></category>
+<category><pattern>TROILITE ORES </pattern>
+<template><srai>ASTRONAUTICS</srai></template></category>
+<category><pattern>TUNGSTEN ORES </pattern>
+<template><srai>ASTRONAUTICS</srai></template></category>
+<category><pattern>URANIUM ORES</pattern>
+<template><srai>ASTRONAUTICS</srai></template></category>
+
+<category><pattern>FORENSIC GEOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16251" target="_blank">GeoRef</a> 
+			and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/earth_system_science" target="_blank">Earth System Science Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>GEOLOGICAL CROSS SECTIONS</pattern>
+<template><srai>FORENSIC GEOLOGY</srai></template></category>
+<category><pattern>GEOLOGY</pattern>
+<template><srai>FORENSIC GEOLOGY</srai></template></category>
+<category><pattern>HISTORICAL GEOLOGY</pattern>
+<template><srai>FORENSIC GEOLOGY</srai></template></category>
+<category><pattern>OUTCROPS</pattern>
+<template><srai>FORENSIC GEOLOGY</srai></template></category>
+<category><pattern>SEDIMENTS</pattern>
+<template><srai>FORENSIC GEOLOGY</srai></template></category>
+<category><pattern>SOIL SCIENCE</pattern>
+<template><srai>FORENSIC GEOLOGY</srai></template></category>
+<category><pattern>URBAN GEOLOGY</pattern>
+<template><srai>FORENSIC GEOLOGY</srai></template></category>
+
+<category><pattern>AERIAL PHOTOGRAPHY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://guides.lib.uci.edu/gis" target="_blank">Geographic Information Systems (GIS) Research Guide</a> 
+			and/or <a href=" http://guides.lib.uci.edu/art" target="_blank">Arts Research Research Guide</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/earth_system_science" target="_blank">Earth System Science Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>PHOTOGRAPHY IN GEOLOGY</pattern>
+<template><srai>AERIAL PHOTOGRAPHY</srai></template></category>
+
+<category><pattern>METEOROLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> 
+			and/or <a href=" http://uclibs.org/PID/16251" target="_blank">GeoRef</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/earth_system_science" target="_blank">Earth System Science Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>OCEANOGRAPHY</pattern>
+<template><srai>METEOROLOGY</srai></template></category>
+<category><pattern>PHYSICAL GEOLOGY</pattern>
+<template><srai>METEOROLOGY</srai></template></category>
+<category><pattern>SUBMARINE GEOLOGY</pattern>
+<template><srai>METEOROLOGY</srai></template></category>
+
+<category><pattern>PEAT</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a> 
+			and/or <a href=" http://uclibs.org/PID/16251" target="_blank">GeoRef</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/earth_system_science" target="_blank">Earth System Science Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>COAL</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16251" target="_blank">GeoRef</a> 
+			and/or <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/earth_system_science" target="_blank">Earth System Science Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>MILITARY GEOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://guides.lib.uci.edu/history" target="_blank">History Research Guide</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/earth_system_science" target="_blank">Earth System Science Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+	
+<category><pattern>BIBLE AND GEOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://guides.lib.uci.edu/religious_studies" target="_blank">Religious Studies Research Guide</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/earth_system_science" target="_blank">Earth System Science Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+	
+<category><pattern>BITUMEN</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/250685" target="_blank">Knovel</a> 
+			and/or <a href=" http://uclibs.org/PID/16251" target="_blank">GeoRef</a> . 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/earth_system_science" target="_blank">Earth System Science Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>THERMAL ANALYSIS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> 
+			and/or <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/earth_system_science" target="_blank">Earth System Science Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>ARCHAEOLOGICAL GEOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> 
+			and/or <a href=" http://guides.lib.uci.edu/art" target="_blank">Arts Research Research Guide</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/earth_system_science" target="_blank">Earth System Science Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+	
+</aiml>

@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Online Resources -->
+<!-- -->
+
+<!--General-->
+
+<category><pattern>DATABASES</pattern>
+<template>The UC Irvine Libraries have a large number of databases and they cover numerous subjects. Take a look at our 
+<a href=" http://guides.lib.uci.edu/" target="_blank">Subject and Course Guides</a> or our 
+<a href=" http://www.lib.uci.edu/collections/databases-a-to-z.html" target="_blank">Databases A-Z</a> list.</template></category>
+	<category><pattern>* DATABASES</pattern>
+	<template><srai>DATABASES</srai></template></category>
+	<category><pattern>DATABASES *</pattern>
+	<template><srai>DATABASES</srai></template></category>
+	<category><pattern>* DATABASES *</pattern>
+	<template><srai>DATABASES</srai></template></category>
+	<category><pattern>DATABASE</pattern>
+	<template><srai>DATABASES</srai></template></category>	
+	<category><pattern>* DATABASE</pattern>
+	<template><srai>DATABASES</srai></template></category>
+	<category><pattern>DATABASE *</pattern>
+	<template><srai>DATABASES</srai></template></category>
+	<category><pattern>* DATABASE *</pattern>
+	<template><srai>DATABASES</srai></template></category>
+	<category><pattern>I NEED A DATABASE</pattern>
+	<template><srai>DATABASES</srai></template></category>
+	<category><pattern>I NEED A * DATABASE</pattern>
+	<template><srai>DATABASES</srai></template></category>
+	<category><pattern>DATA BASES</pattern>
+	<template><srai>DATABASES</srai></template></category>
+	<category><pattern>I*M LOOKING FOR RESEARCH ARTICLES</pattern>
+	<template><srai>DATABASES</srai></template></category>
+	<category><pattern>* JOURNAL ARTICLE *</pattern>
+	<template><srai>DATABASES</srai></template></category>
+	<category><pattern>RESEARCH RESOURCES</pattern>
+	<template><srai>DATABASES</srai></template></category>
+	<category><pattern>* RESEARCH RESOURCES</pattern>
+	<template><srai>DATABASES</srai></template></category>
+	<category><pattern>RESEARCH RESOURCES *</pattern>
+	<template><srai>DATABASES</srai></template></category>
+	<category><pattern>* RESEARCH RESOURCES *</pattern>
+	<template><srai>DATABASES</srai></template></category>
+
+<category><pattern>I NEED JOURNALS ON *</pattern>
+<template>It's better to look for articles in databases than to search individual journals. Say: "I need articles on..." for database recommendations.</template></category>
+	<category><pattern>I NEED A JOURNAL ON *</pattern>
+	<template><srai>I NEED JOURNALS ON <star /></srai></template></category>
+	<category><pattern>HOW DO I FIND SCHOLARLY JOURNALS</pattern>
+	<template><srai>I NEED JOURNALS ON <star /></srai></template></category>
+	<category><pattern>HOW DO I FIN SCHOLARLY JOURNALS ON *</pattern>
+	<template><srai>I NEED JOURNALS ON <star /></srai></template></category>
+	
+<category><pattern>HOW DO I FIND A DATABASE</pattern>
+<template>Databases can be found using <a href=" http://antpac.lib.uci.edu/" target="_blank">ANTPAC catalog</a>. Search by Keyword or Title and change 
+the drop down box from Entire Collection to Online/Internet Resources.</template></category>
+	<category><pattern>* HOW DO I FIND A DATABASE</pattern>
+	<template><srai>HOW DO I FIND A DATABASE</srai></template></category>
+	<category><pattern>HOW DO I FIND A DATABASE *</pattern>
+	<template><srai>HOW DO I FIND A DATABASE</srai></template></category>
+	<category><pattern>* HOW DO I FIND A DATABASE *</pattern>
+	<template><srai>HOW DO I FIND A DATABASE</srai></template></category>
+	<category><pattern>HOW CAN I FIND A DATABASE</pattern>
+	<template><srai>HOW DO I FIND A DATABASE</srai></template></category>
+	<category><pattern>* HOW CAN I FIND A DATABASE</pattern>
+	<template><srai>HOW DO I FIND A DATABASE</srai></template></category>
+	<category><pattern>HOW CAN I FIND A DATABASE *</pattern>
+	<template><srai>HOW DO I FIND A DATABASE</srai></template></category>
+	<category><pattern>* HOW CAN I FIND A DATABASE *</pattern>
+	<template><srai>HOW DO I FIND A DATABASE</srai></template></category>
+	
+<category><pattern>CAN I USE A DATABASE</pattern>
+<template>Are you a student, staff, or faculty member at UC Irvine?</template></category>
+	<category><pattern>* SIGN INTO UC LIBRARIES</pattern>
+	<template><srai>CAN I USE A DATABASE</srai></template></category>
+	<category><pattern>SIGN INTO UC LIBRARIES *</pattern>
+	<template><srai>CAN I USE A DATABASE</srai></template></category>
+	<category><pattern>* SIGN INTO UC LIBRARIES *</pattern>
+	<template><srai>CAN I USE A DATABASE</srai></template></category>
+
+	<category><pattern>STUDENT</pattern>
+	<that>Are you a student staff or faculty member at UC Irvine_</that>
+	<template>You have access to online resources (databases, ebooks, online journals, etc.) while on campus. Use 
+	<a href=" http://www.lib.uci.edu/connect-campus" target="_blank">Connect from Off-Campus</a> to access these resources from home (Off-campus).</template></category>
+
+	<category><pattern>STAFF</pattern>
+	<that>Are you a student staff or faculty member at UC Irvine_</that>
+	<template>You have access to online resources (databases, ebooks, online journals, etc.) while on campus. Use 
+	<a href=" http://www.lib.uci.edu/connect-campus" target="_blank">Connect from Off-Campus</a> to access these resources from home (Off-campus).</template></category>
+
+	<category><pattern>FACULTY</pattern>
+	<that>Are you a student staff or faculty member at UC Irvine_</that>
+	<template>You have access to online resources (databases, ebooks, online journals, etc.) while on campus. Use 
+	<a href=" http://www.lib.uci.edu/connect-campus" target="_blank">Connect from Off-Campus</a> to access these resources from home (Off-campus).</template></category>
+
+	<category><pattern>YES</pattern>
+	<that>Are you a student staff or faculty member at UC Irvine_</that>
+	<template>You have access to online resources (databases, ebooks, online journals, etc.) while on campus. Use 
+	<a href=" http://www.lib.uci.edu/connect-campus" target="_blank">Connect from Off-Campus</a> to access these resources from home (Off-campus).</template></category>
+
+	<category><pattern>NO</pattern>
+	<that>Are you a student staff or faculty member at UC Irvine_</that>
+	<template>Library resources are available for members of the public during an in-person visit to the library.</template></category>
+
+<!--A-->
+
+<category><pattern>ALEXANDER STREET</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources. To find an Alexander Street database, search 
+<a href=" http://antpac.lib.uci.edu">ANTPAC</a>for the database by its individual title.</template></category>
+
+<category><pattern>ACADEMIC SEARCH COMPLETE</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b3797950~S5" target="_blank">Academic Search Complete</a>.</template></category>
+	<category><pattern>* ACADEMIC SEARCH COMPLETE</pattern>
+	<template><srai>ACADEMIC SEARCH COMPLETE</srai></template></category>
+	<category><pattern>ACADEMIC SEARCH COMPLETE *</pattern>
+	<template><srai>ACADEMIC SEARCH COMPLETE</srai></template></category>
+	<category><pattern>* ACADEMIC SEARCH COMPLETE *</pattern>
+	<template><srai>ACADEMIC SEARCH COMPLETE</srai></template></category>
+	<category><pattern>ACADEMIC SEARCH PLUS</pattern>
+	<template><srai>ACADEMIC SEARCH COMPLETE</srai></template></category>
+	<category><pattern>* ACADEMIC SEARCH PLUS *</pattern>
+	<template><srai>ACADEMIC SEARCH COMPLETE</srai></template></category>
+	<category><pattern>ACADEMIC SEARCH</pattern>
+	<template><srai>ACADEMIC SEARCH COMPLETE</srai></template></category>
+
+<category><pattern>ACCESS WORLD NEWS</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b4270937~S7" target="_blank">Access World News</a>.</template></category>
+	<category><pattern>* ACCESS WORLD NEWS</pattern>
+	<template><srai>ACCESS WORLD NEWS</srai></template></category>
+	<category><pattern>ACCESS WORLD NEWS *</pattern>
+	<template><srai>ACCESS WORLD NEWS</srai></template></category>
+	<category><pattern>* ACCESS WORLD NEWS *</pattern>
+	<template><srai>ACCESS WORLD NEWS</srai></template></category>
+
+<category><pattern>AMERICA HISTORY AND LIFE</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b3807382~S5" target="_blank">America, History and Life</a>.</template></category>
+	<category><pattern>* AMERICA HISTORY AND LIFE</pattern>
+	<template><srai>AMERICA HISTORY AND LIFE</srai></template></category>
+	<category><pattern>AMERICA HISTORY AND LIFE *</pattern>
+	<template><srai>AMERICA HISTORY AND LIFE</srai></template></category>
+	<category><pattern>* AMERICA HISTORY AND LIFE *</pattern>
+	<template><srai>AMERICA HISTORY AND LIFE</srai></template></category>
+
+<category><pattern>ANCESTRY*COM</pattern>
+<template>I'm sorry we don't provide access to genealogy databases. You might want to check your local public library!</template></category>
+	<category><pattern>* ANCESTRY*COM</pattern>
+	<template><srai>ANCESTRY<star />COMM</srai></template></category>
+	<category><pattern>ANCESTRY*COM *</pattern>
+	<template><srai>ANCESTRY<star />COMM</srai></template></category>
+	<category><pattern>* ANCESTRY*COM *</pattern>
+	<template><srai>ANCESTRY<star />COMM</srai></template></category>
+
+<category><pattern>ARTS AND HUMANITIES CITATION INDEX</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b4507358~S5" target="_blank">Arts and Humanities Citation Index</a>.</template></category>
+	<category><pattern>* ARTS AND HUMANITIES CITATION INDEX</pattern>
+	<template><srai>ARTS AND HUMANITIES CITATION INDEX</srai></template></category>
+	<category><pattern>ARTS AND HUMANITIES CITATION INDEX *</pattern>
+	<template><srai>ARTS AND HUMANITIES CITATION INDEX</srai></template></category>
+	<category><pattern>* ARTS AND HUMANITIES CITATION INDEX *</pattern>	
+	<template><srai>ARTS AND HUMANITIES CITATION INDEX</srai></template></category>
+
+<category><pattern>ART SOURCE</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the link to 
+<a href=" http://uclibs.org/PID/33002" target="_blank">Art Source</a>.</template></category>
+	<category><pattern>* ART SOURCE</pattern>
+	<template><srai>ART SOURCE</srai></template></category>
+	<category><pattern>ART SOURCE *</pattern>
+	<template><srai>ART SOURCE</srai></template></category>
+	<category><pattern>* ART SOURCE *</pattern>
+	<template><srai>ART SOURCE</srai></template></category>
+	
+<category><pattern>ARTSTOR</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b3529738~S7" target="_blank">ARTstor</a>.</template></category>
+	<category><pattern>* ARTSTOR</pattern>
+	<template><srai>ARTSTOR</srai></template></category>
+	<category><pattern>ARTSTOR *</pattern>
+	<template><srai>ARTSTOR</srai></template></category>
+	<category><pattern>* ARTSTOR *</pattern>
+	<template><srai>ARTSTOR</srai></template></category>	
+	
+<!--B-->	
+
+<category><pattern>BIOGRAPHY REFERENCE BANK</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b3298941~S7" target="_blank">Biography Reference Bank</a>.</template></category>
+	<category><pattern>* BIOGRAPHY REFERENCE BANK</pattern>
+	<template><srai>BIOGRAPHY REFERENCE BANK</srai></template></category>
+	<category><pattern>BIOGRAPHY REFERENCE BANK *</pattern>
+	<template><srai>BIOGRAPHY REFERENCE BANK</srai></template></category>
+	<category><pattern>* BIOGRAPHY REFERENCE BANK *</pattern>
+	<template><srai>BIOGRAPHY REFERENCE BANK</srai></template></category>	
+	
+<category><pattern>BIOSIS</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b3366365~S7" target="_blank">BIOSIS Previews</a>.</template></category>
+	<category><pattern>* BIOSIS</pattern>
+	<template><srai>BIOSIS</srai></template></category>
+	<category><pattern>BIOSIS *</pattern>
+	<template><srai>BIOSIS</srai></template></category>
+	<category><pattern>* BIOSIS *</pattern>
+	<template><srai>BIOSIS</srai></template></category>
+	
+<category><pattern>BUSINESS SOURCE COMPLETE</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b3794539~S5" target="_blank">Business Source Complete</a>.</template></category>
+	<category><pattern>* BUSINESS SOURCE COMPLETE</pattern>
+	<template><srai>BUSINESS SOURCE COMPLETE</srai></template></category>
+	<category><pattern>BUSINESS SOURCE COMPLETE *</pattern>
+	<template><srai>BUSINESS SOURCE COMPLETE</srai></template></category>
+	<category><pattern>* BUSINESS SOURCE COMPLETE *</pattern>
+	<template><srai>BUSINESS SOURCE COMPLETE</srai></template></category>
+	<category><pattern>BSC</pattern>
+	<template><srai>BUSINESS SOURCE COMPLETE</srai></template></category>
+	
+<!--C-->
+
+<category><pattern>CALISPHERE</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b3345636~S7" target="_blank">Calisphere</a>.</template></category>
+	<category><pattern>* CALISPHERE</pattern>
+	<template><srai>CALISPHERE</srai></template></category>
+	<category><pattern>CALISPHERE *</pattern>
+	<template><srai>CALISPHERE</srai></template></category>
+	<category><pattern>* CALISPHERE *</pattern>
+	<template><srai>CALISPHERE</srai></template></category>
+
+<category><pattern>WHAT IS CHEMDRAW</pattern>
+<template>ChemDraw is the drawing tool of choice for chemists to create publication-ready, scientifically intelligent drawings for use in ELNs, databases and 
+publications and for querying chemical databases.</template></category>
+
+<category><pattern>COLUMBIA ENCYCLOPEDIA</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b3492067~S7" target="_blank">Columbia Encyclopedia</a>.</template></category>
+	<category><pattern>* COLUMBIA ENCYCLOPEDIA</pattern>
+	<template><srai>COLUMBIA ENCYCLOPEDIA</srai></template></category>
+	<category><pattern>COLUMBIA ENCYCLOPEDIA *</pattern>
+	<template><srai>COLUMBIA ENCYCLOPEDIA</srai></template></category>
+	<category><pattern>* COLUMBIA ENCYCLOPEDIA *</pattern>
+	<template><srai>COLUMBIA ENCYCLOPEDIA</srai></template></category>
+	
+<category><pattern>COMPENDEX</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for  
+<a href=" http://antpac.lib.uci.edu/record=b2818160~S7" target="_blank">Compendex</a>.</template></category>
+	<category><pattern>* COMPENDEX</pattern>
+	<template><srai>COMPENDEX</srai></template></category>
+	<category><pattern>COMPENDEX *</pattern>
+	<template><srai>COMPENDEX</srai></template></category>
+	<category><pattern>* COMPENDEX *</pattern>
+	<template><srai>COMPENDEX</srai></template></category>
+	
+<category><pattern>CURRENT PROTOCOLS</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for  
+<a href=" http://antpac.lib.uci.edu:80/record=b3819279~S5" target="_blank">Cold Spring Harbor Protocols</a>.</template></category>
+	<category><pattern>* CURRENT PROTOCOLS</pattern>
+	<template><srai>CURRENT PROTOCOLS</srai></template></category>
+	<category><pattern>CURRENT PROTOCOLS *</pattern>
+	<template><srai>CURRENT PROTOCOLS</srai></template></category>
+	<category><pattern>* CURRENT PROTOCOLS *</pattern>	
+	<template><srai>CURRENT PROTOCOLS</srai></template></category>
+	
+<category><pattern>CQ RESEARCHER</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b1876284~S5" target="_blank">The CQ Researcher</a>. If you are looking for the CQ Weekly, search by title in <a href=" http://antpac.lib.uci.edu/">ANTPAC</a>.</template></category>	
+	<category><pattern>* CQ RESEARCHER</pattern>
+	<template><srai>CQ RESEARCHER</srai></template></category>
+	<category><pattern>CQ RESEARCHER *</pattern>
+	<template><srai>CQ RESEARCHER</srai></template></category>
+	<category><pattern>* CQ RESEARCHER *</pattern>
+	<template><srai>CQ RESEARCHER</srai></template></category>	
+	<category><pattern>* CQ </pattern>
+	<template><srai>CQ RESEARCHER</srai></template></category>
+	<category><pattern>CQ *</pattern>
+	<template><srai>CQ RESEARCHER</srai></template></category>
+	<category><pattern>* CQ *</pattern>
+	<template><srai>CQ RESEARCHER</srai></template></category>	
+	
+<!--d-->
+
+<category><pattern>DUN AND BRADSTREET</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/search/?searchtype=tandamp;searcharg=dun+and+bradstreetandamp;sortdropdown=-andamp;searchscope=7" target="_blank">Dun and Bradstreet</a>.</template></category>	
+
+
+<!--E-->	
+
+<category><pattern>WHAT IS EBL</pattern>
+<template>EBL stands for Ebook Library, it is a web-based ebook lending platform. Say: "access EBL" for more information.</template></category>  
+
+<category><pattern>EBL</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for  
+<a href=" http://antpac.lib.uci.edu/record=b4688354~S7" target="_blank">EBL</a>.</template></category>
+	<category><pattern>* EBL</pattern>
+	<template><srai>EBL</srai></template></category>
+	<category><pattern>EBL *</pattern>
+	<template><srai>EBL</srai></template></category>
+	<category><pattern>* EBL *</pattern>
+	<template><srai>EBL</srai></template></category>
+
+<category><pattern>EBSCO</pattern>
+<template>EBSCO is the name of a database vendor for which we have purchased access to a number of Online Resources databases. Can you be more specific about 
+the name of the EBSCO database you need?</template></category>
+	<category><pattern>EBSCO</pattern>
+	<template><srai>EBSCO</srai></template></category>
+	<category><pattern>* EBSCO</pattern>
+	<template><srai>EBSCO</srai></template></category>
+	<category><pattern>EBSCO *</pattern>
+	<template><srai>EBSCO</srai></template></category>
+	<category><pattern>* EBSCO *</pattern>
+	<template><srai>EBSCO</srai></template></category>
+	<category><pattern>EBSCOHOST</pattern>
+	<template><srai>EBSCO</srai></template></category>
+	<category><pattern>* EBSCOHOST</pattern>
+	<template><srai>EBSCO</srai></template></category>
+	<category><pattern>EBSCOHOST *</pattern>
+	<template><srai>EBSCO</srai></template></category>
+	<category><pattern>* EBSCOHOST *</pattern>
+	<template><srai>EBSCO</srai></template></category>
+
+<category><pattern>ECONLIT</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for  
+<a href=" http://antpac.lib.uci.edu/record=b2902636~S7" target="_blank">EconLit</a>.</template></category>
+	<category><pattern>* ECONLIT</pattern>
+	<template><srai>ECONLIT</srai></template></category>
+	<category><pattern>ECONLIT *</pattern>
+	<template><srai>ECONLIT</srai></template></category>
+	<category><pattern>* ECONLIT *</pattern>
+	<template><srai>ECONLIT</srai></template></category>
+	
+<category><pattern>ENVIRONMENTAL SCIENCES AND POLLUTION MANAGEMENT ABSTRACTS</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for  
+<a href=" http://antpac.lib.uci.edu/record=b2573480~S7" target="_blank">Environmental Sciences andamp; Pollution Management Abstracts</a>.</template></category>
+	<category><pattern>* ENVIRONMENTAL SCIENCES AND POLLUTION MANAGEMENT ABSTRACTS</pattern>
+	<template><srai>ENVIRONMENTAL SCIENCES AND POLLUTION MANAGEMENT ABSTRACTS</srai></template></category>
+	<category><pattern>ENVIRONMENTAL SCIENCES AND POLLUTION MANAGEMENT ABSTRACTS *</pattern>
+	<template><srai>ENVIRONMENTAL SCIENCES AND POLLUTION MANAGEMENT ABSTRACTS</srai></template></category>
+	<category><pattern>* ENVIRONMENTAL SCIENCES AND POLLUTION MANAGEMENT ABSTRACTS *</pattern>
+	<template><srai>ENVIRONMENTAL SCIENCES AND POLLUTION MANAGEMENT ABSTRACTS</srai></template></category>
+
+<category><pattern>ERIC</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b2865799~S7" target="_blank">ERIC</a>.</template></category>
+	<category><pattern>* ERIC</pattern>
+	<template><srai>ERIC</srai></template></category>
+	<category><pattern>ERIC *</pattern>
+	<template><srai>ERIC</srai></template></category>
+	<category><pattern>* ERIC *</pattern>
+	<template><srai>ERIC</srai></template></category>
+	
+<category><pattern>A GOOD DATABASE FOR EDUCATION</pattern>
+<template>Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b2865799~S7" target="_blank">ERIC</a>.</template></category>
+
+<!--G-->
+
+<category><pattern>GALE VIRTUAL REFERENCE LIBRARY</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b3822628~S5" target="_blank">Gale Virtual Reference Library</a>.</template></category>
+	<category><pattern>* GALE VIRTUAL REFERENCE LIBRARY</pattern>
+	<template><srai>GALE VIRTUAL REFERENCE LIBRARY</srai></template></category>
+	<category><pattern>GALE VIRTUAL REFERENCE LIBRARY *</pattern>
+	<template><srai>GALE VIRTUAL REFERENCE LIBRARY</srai></template></category>
+	<category><pattern>* GALE VIRTUAL REFERENCE LIBRARY *</pattern>
+	<template><srai>GALE VIRTUAL REFERENCE LIBRARY</srai></template></category>
+	<category><pattern>GVRL</pattern>
+	<template><srai>GALE VIRTUAL REFERENCE LIBRARY</srai></template></category>
+	<category><pattern>* GVRL</pattern>
+	<template><srai>GALE VIRTUAL REFERENCE LIBRARY</srai></template></category>
+	<category><pattern>GVRL *</pattern>
+	<template><srai>GALE VIRTUAL REFERENCE LIBRARY</srai></template></category>
+	<category><pattern>* GVRL *</pattern>
+	<template><srai>GALE VIRTUAL REFERENCE LIBRARY</srai></template></category>
+	
+<category><pattern>GARTNER</pattern>
+<template>The UCI Libraries does not subscribe to Gartner, our business librarian recommends that you try Forrester.com. Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu:80/record=b3323963~S7" target="_blank">Forrester.com</a>.</template></category>
+	<category><pattern>* GARTNER</pattern>
+	<template><srai>GARTNER</srai></template></category>
+	<category><pattern>GARTNER *</pattern>
+	<template><srai>GARTNER</srai></template></category>
+	<category><pattern>* GARTNER *</pattern>
+	<template><srai>GARTNER</srai></template></category>
+
+<category><pattern>GOOGLE SCHOLAR</pattern>
+<template><a href=" http://scholar.google.com/" target="_blank">Google Scholar</a> provides an easy way to search for scholarly literature in many disciplines.</template></category>
+	<category><pattern>* GOOGLE SCHOLAR</pattern>
+	<template><srai>GOOGLE SCHOLAR</srai></template></category>
+	<category><pattern>GOOGLE SCHOLAR *</pattern>
+	<template><srai>GOOGLE SCHOLAR</srai></template></category>
+	<category><pattern>* GOOGLE SCHOLAR *</pattern>
+	<template><srai>GOOGLE SCHOLAR</srai></template></category>
+	
+<!--H-->
+
+<category><pattern>HISTORICAL ABSTRACTS</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b2856463~S7" target="_blank">Historical Abstracts</a>.</template></category>
+	<category><pattern>* HISTORICAL ABSTRACTS</pattern>
+	<template><srai>HISTORICAL ABSTRACTS</srai></template></category>
+	<category><pattern>HISTORICAL ABSTRACTS *</pattern>
+	<template><srai>HISTORICAL ABSTRACTS</srai></template></category>
+	<category><pattern>* HISTORICAL ABSTRACTS *</pattern>
+	<template><srai>HISTORICAL ABSTRACTS</srai></template></category>	
+
+<!--I-->
+
+<category><pattern>IBISWORLD</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu:80/record=b3298215~S7" target="_blank">IBISworld</a>.</template></category>
+	<category><pattern>* IBISWORLD</pattern>
+	<template><srai>IBISWORLD</srai></template></category>
+	<category><pattern>IBISWORLD *</pattern>
+	<template><srai>IBISWORLD</srai></template></category>
+	<category><pattern>* IBISWORLD *</pattern>
+	<template><srai>IBISWORLD</srai></template></category>
+	<category><pattern>IBIS</pattern>
+	<template><srai>IBISWORLD</srai></template></category>
+	<category><pattern>* IBIS</pattern>
+	<template><srai>IBISWORLD</srai></template></category>
+	<category><pattern>IBIS *</pattern>
+	<template><srai>IBISWORLD</srai></template></category>
+	<category><pattern>* IBIS *</pattern>
+	<template><srai>IBISWORLD</srai></template></category>
+	
+<category><pattern>IEEE XPLORE</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" ttp://antpac.lib.uci.edu:80/record=b2865769~S7" target="_blank">IEEE Xplore</a>.</template></category>
+	<category><pattern>* IEEE XPLORE</pattern>
+	<template><srai>IEEE XPLORE</srai></template></category>
+	<category><pattern>IEEE XPLORE *</pattern>
+	<template><srai>IEEE XPLORE</srai></template></category>
+	<category><pattern>* IEEE XPLORE *</pattern>
+	<template><srai>IEEE XPLORE</srai></template></category>
+	<category><pattern>IEEE XPLORE</pattern>
+	<template><srai>IEEE XPLORE</srai></template></category>
+	<category><pattern>* IEEE XPLORE</pattern>
+	<template><srai>IEEE XPLORE</srai></template></category>
+	<category><pattern>IEEE XPLORE *</pattern>
+	<template><srai>IEEE XPLORE</srai></template></category>
+	<category><pattern>* IEEE XPLORE *</pattern>
+	<template><srai>IEEE XPLORE</srai></template></category>
+
+<category><pattern>INSPEC</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b4009932~S7" target="_blank">INSPEC</a>.</template></category>
+	<category><pattern>* INSPEC</pattern>
+	<template><srai>INSPEC</srai></template></category>
+	<category><pattern>INSPEC</pattern>
+	<template><srai>INSPEC</srai></template></category>
+	<category><pattern>INSPEC</pattern>
+	<template><srai>INSPEC</srai></template></category>	
+	
+<category><pattern>INTERNATIONAL NEWSSTAND</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu:80/record=b5290878~S7" target="_blank">International Newsstand</a>.</template></category>	
+	<category><pattern>* INTERNATIONAL NEWSSTAND</pattern>
+	<template><srai>INTERNATIONAL NEWSSTAND</srai></template></category>
+	<category><pattern>INTERNATIONAL NEWSSTAND *</pattern>
+	<template><srai>INTERNATIONAL NEWSSTAND</srai></template></category>
+	<category><pattern>* INTERNATIONAL NEWSSTAND *</pattern>
+	<template><srai>INTERNATIONAL NEWSSTAND</srai></template></category>
+
+		
+<!--J-->
+
+<category><pattern>JSTOR</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b2962179~S5" target="_blank">JSTOR</a>.</template></category>
+	<category><pattern>* JSTOR</pattern>
+	<template><srai>JSTOR</srai></template></category>
+	<category><pattern>JSTOR *</pattern>
+	<template><srai>JSTOR</srai></template></category>
+	<category><pattern>* JSTOR *</pattern>
+	<template><srai>JSTOR</srai></template></category>
+	<category><pattern>J STORE</pattern>
+	<template><srai>JSTOR</srai></template></category>
+		
+<category><pattern>JOURNAL CITATION REPORTS</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b3192953~S5" target="_blank">Journal Citation Reports</a>.</template></category>
+	<category><pattern>* JOURNAL CITATION REPORTS</pattern>
+	<template><srai>JOURNAL CITATION REPORTS</srai></template></category>
+	<category><pattern>JOURNAL CITATION REPORTS *</pattern>
+	<template><srai>JOURNAL CITATION REPORTS</srai></template></category>
+	<category><pattern>* JOURNAL CITATION REPORTS *</pattern>
+	<template><srai>JOURNAL CITATION REPORTS</srai></template></category>
+		
+<!--L-->
+
+<category><pattern>LA WEEKLY</pattern>
+<template>Newspapers can be found in our catalog <a href=" http://antpac.lib.uci.edu" target="_blank">ANTPAC</a>. Hint: change the drop down menu from keyword to title.</template></category>
+	<category><pattern>* LA WEEKLY</pattern>
+	<template><srai>LA WEEKLY</srai></template></category>
+	<category><pattern>LA WEEKLY *</pattern>
+	<template><srai>LA WEEKLY</srai></template></category>
+	<category><pattern>* LA WEEKLY *</pattern>
+	<template><srai>LA WEEKLY</srai></template></category>
+	<category><pattern>VILLAGE VOICE</pattern>
+	<template><srai>LA WEEKLY</srai></template></category>
+	<category><pattern>* VILLAGE VOICE</pattern>
+	<template><srai>LA WEEKLY</srai></template></category>
+	<category><pattern>VILLAGE VOICE *</pattern>
+	<template><srai>LA WEEKLY</srai></template></category>
+	<category><pattern>* VILLAGE VOICE *</pattern>
+	<template><srai>LA WEEKLY</srai></template></category>
+	
+<category><pattern>LEXISNEXIS</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b4672848~S5" target="_blank">LexisNexis</a>.</template></category>
+	<category><pattern>* LEXISNEXIS</pattern>
+	<template><srai>LEXISNEXIS</srai></template></category>
+	<category><pattern>LEXISNEXIS *</pattern>
+	<template><srai>LEXISNEXIS</srai></template></category>
+	<category><pattern>* LEXISNEXIS *</pattern>
+	<template><srai>LEXISNEXIS</srai></template></category>
+	<category><pattern>LEXIS NEXIS</pattern>
+	<template><srai>LEXISNEXIS</srai></template></category>
+	<category><pattern>* LEXIS NEXIS</pattern>
+	<template><srai>LEXISNEXIS</srai></template></category>
+	<category><pattern>LEXIS NEXIS *</pattern>
+	<template><srai>LEXISNEXIS</srai></template></category>
+	<category><pattern>* LEXIS NEXIS *</pattern>
+	<template><srai>LEXISNEXIS</srai></template></category>
+	<category><pattern>LEXIS</pattern>
+	<template><srai>LEXISNEXIS</srai></template></category>
+	<category><pattern>* LEXIS</pattern>
+	<template><srai>LEXISNEXIS</srai></template></category>
+	<category><pattern>LEXIS *</pattern>
+	<template><srai>LEXISNEXIS</srai></template></category>
+	<category><pattern>* LEXIS *</pattern>
+	<template><srai>LEXISNEXIS</srai></template></category>		
+
+<category><pattern>LITERATURE RESOURCE CENTER</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b2865653~S7" target="_blank">Literature Resource Center</a>.</template></category>
+	<category><pattern>* LITERATURE RESOURCE CENTER</pattern>
+	<template><srai>LITERATURE RESOURCE CENTER</srai></template></category>
+	<category><pattern>LITERATURE RESOURCE CENTER *</pattern>
+	<template><srai>LITERATURE RESOURCE CENTER</srai></template></category>
+	<category><pattern>* LITERATURE RESOURCE CENTER *</pattern>	
+	<template><srai>LITERATURE RESOURCE CENTER</srai></template></category>
+
+<category><pattern>LOS ANGELES TIMES</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b2985067~S7" target="_blank">Los Angeles Times</a>.</template></category>
+	<category><pattern>* LOS ANGELES TIMES</pattern>
+	<template><srai>LOS ANGELES TIMES</srai></template></category>
+	<category><pattern>LOS ANGELES TIMES *</pattern>
+	<template><srai>LOS ANGELES TIMES</srai></template></category>
+	<category><pattern>* LOS ANGELES TIMES *</pattern>
+	<template><srai>LOS ANGELES TIMES</srai></template></category>
+	<category><pattern>* LA TIMES</pattern>
+	<template><srai>LOS ANGELES TIMES</srai></template></category>
+	<category><pattern>LA TIMES *</pattern>
+	<template><srai>LOS ANGELES TIMES</srai></template></category>
+	<category><pattern>* LA TIMES *</pattern>
+	<template><srai>LOS ANGELES TIMES</srai></template></category>
+
+<category><pattern>LYNDA</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources. However, at this time, the library does not have a subscription to Lynda.com.</template></category>
+	<category><pattern>* LYNDA</pattern>
+	<template><srai>LYNDA</srai></template></category>
+	<category><pattern>LYNDA *</pattern>
+	<template><srai>LYNDA</srai></template></category>
+	<category><pattern>* LYNDA *</pattern>
+	<template><srai>LYNDA</srai></template></category>
+	
+<!--M-->
+	
+<category><pattern>MLA INTERNATIONAL BIBLIOGRAPHY</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b3855425~S7" target="_blank">MLA International Bibliography</a>.</template></category>
+	<category><pattern>* MLA INTERNATIONAL BIBLIOGRAPHY</pattern>
+	<template><srai>MLA INTERNATIONAL BIBLIOGRAPHY</srai></template></category>
+	<category><pattern>MLA INTERNATIONAL BIBLIOGRAPHY *</pattern>
+	<template><srai>MLA INTERNATIONAL BIBLIOGRAPHY</srai></template></category>
+	<category><pattern>* MLA INTERNATIONAL BIBLIOGRAPHY *</pattern>
+	<template><srai>MLA INTERNATIONAL BIBLIOGRAPHY</srai></template></category>
+	
+<category><pattern>MYILIBRARY</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b3828448~S5" target="_blank">MyiLibrary</a>.</template></category>
+	<category><pattern>* MYILIBRARY</pattern>
+	<template><srai>MYILIBRARY</srai></template></category>
+	<category><pattern>MYILIBRARY *</pattern>
+	<template><srai>MYILIBRARY</srai></template></category>
+	<category><pattern>* MYILIBRARY *</pattern>
+	<template><srai>MYILIBRARY</srai></template></category>
+
+<!--N-->
+	
+<category><pattern>NY TIMES</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for the 
+<a href=" http://antpac.lib.uci.edu:80/record=b2950826~S4" target="_blank">New York Times</a>.</template></category>
+	<category><pattern>* NY TIMES</pattern>
+	<template><srai>NY TIMES</srai></template></category>
+	<category><pattern>NY TIMES *</pattern>
+	<template><srai>NY TIMES</srai></template></category>
+	<category><pattern>* NY TIMES *</pattern>
+	<template><srai>NY TIMES</srai></template></category>
+	<category><pattern>NEW YORK TIMES</pattern>
+	<template><srai>NY TIMES</srai></template></category>
+	<category><pattern>* NEW YORK TIMES</pattern>
+	<template><srai>NY TIMES</srai></template></category>
+	<category><pattern>NEW YORK TIMES *</pattern>
+	<template><srai>NY TIMES</srai></template></category>
+	<category><pattern>* NEW YORK TIMES *</pattern>
+	<template><srai>NY TIMES</srai></template></category>
+	<category><pattern>* NEW YORK TIME *</pattern>
+	<template><srai>NY TIMES</srai></template></category>
+
+<category><pattern>NEWSBANK</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for the 
+<a href=" http://antpac.lib.uci.edu:80/record=b4270937~S5" target="_blank">Newsbank</a>.</template></category>
+	<category><pattern>* NEWSBANK</pattern>
+	<template><srai>NEWSBANK</srai></template></category>
+	<category><pattern>NEWSBANK *</pattern>
+	<template><srai>NEWSBANK</srai></template></category>
+	<category><pattern>* NEWSBANK *</pattern>
+	<template><srai>NEWSBANK</srai></template></category>
+	
+<!--O-->	
+
+<category><pattern>OC REGISTER</pattern>
+<template>Newspapers can be found by searching ANTPAC.  Here is the ANTPAC record for the
+<a href=" http://antpac.lib.uci.edu/record=b3013226~S7" target="_blank">OC Register</a>.</template></category>
+	<category><pattern>* OC REGISTER</pattern>
+	<template><srai>OC REGISTER</srai></template></category>
+	<category><pattern>OC REGISTER *</pattern>
+	<template><srai>OC REGISTER</srai></template></category>
+	<category><pattern>* OC REGISTER *</pattern>
+	<template><srai>OC REGISTER</srai></template></category>
+	<category><pattern>OC REGISTER</pattern>
+	<template><srai>OC REGISTER</srai></template></category>
+	<category><pattern>* OC REGISTER</pattern>
+	<template><srai>OC REGISTER</srai></template></category>
+	<category><pattern>OC REGISTER *</pattern>
+	<template><srai>OC REGISTER</srai></template></category>
+	<category><pattern>* OC REGISTER *</pattern>
+	<template><srai>OC REGISTER</srai></template></category>
+	
+<category><pattern>OFF CAMPUS TRYING TO ACCESS MD CONSULT WHAT IS BETTER WEBVPN OR SOFTWARE VPN</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b3943279~S5" target="_blank">MD Consult</a>. ANTswers doesn't like to judge, you really can't go wrong whatever you choose.  The software VPN requires installation but works with all our resources the web VPN is 
+easier to use but it doesn't work with all Online Resources. See <a href=" http://www.lib.uci.edu/connect-campus" target="_blank">Connect from Off-Campus</a> for more information.</template></category>
+	<category><pattern>* OFF CAMPUS TRYING TO ACCESS MD CONSULT WHAT IS BETTER WEBVPN OR SOFTWARE VPN</pattern>
+	<template><srai>OFF CAMPUS TRYING TO ACCESS MD CONSULT WHAT IS BETTER WEBVPN OR SOFTWARE VPN</srai></template></category>
+	<category><pattern>OFF CAMPUS TRYING TO ACCESS MD CONSULT WHAT IS BETTER WEBVPN OR SOFTWARE VPN *</pattern>
+	<template><srai>OFF CAMPUS TRYING TO ACCESS MD CONSULT WHAT IS BETTER WEBVPN OR SOFTWARE VPN</srai></template></category>
+	<category><pattern>* OFF CAMPUS TRYING TO ACCESS MD CONSULT WHAT IS BETTER WEBVPN OR SOFTWARE VPN *</pattern>
+	<template><srai>OFF CAMPUS TRYING TO ACCESS MD CONSULT WHAT IS BETTER WEBVPN OR SOFTWARE VPN</srai></template></category>
+
+<category><pattern>ONLINE BOOKS</pattern>
+<template>Are you looking for general ebooks or medical ebooks?</template></category>
+
+	<category><pattern>GENERAL</pattern>
+	<that>Are you looking for general ebooks or medical ebooks_</that>
+	<template><srai>HOW CAN I FIND E BOOKS</srai></template></category>
+
+	<category><pattern>GENERAL EBOOKS</pattern>
+	<that>Are you looking for general ebooks or medical ebooks_</that>
+	<template><srai>HOW CAN I FIND E BOOKS</srai></template></category>
+	
+	<category><pattern>MEDICAL</pattern>
+	<that>Are you looking for general ebooks or medical ebooks_</that>
+	<template>Search for <a href=" http://grunigen.lib.uci.edu/online-books.html" target="_blank">online medical books</a> by author, title, title keyword, ISBN or publisher.</template></category>
+
+	<category><pattern>MEDICAL EBOOKS</pattern>
+	<that>Are you looking for general ebooks or medical ebooks_</that>
+	<template>Search for <a href=" http://grunigen.lib.uci.edu/online-books.html" target="_blank">online medical books</a> by author, title, title keyword, ISBN or publisher.</template></category>
+
+<category><pattern>ONLINE ARCHIVE OF CALIFORNIA</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b2865789~S7" target="_blank">Online Archive of California</a>.</template></category>
+	<category><pattern>* ONLINE ARCHIVE OF CALIFORNIA</pattern>
+	<template><srai>ONLINE ARCHIVE OF CALIFORNIA</srai></template></category>
+	<category><pattern>ONLINE ARCHIVE OF CALIFORNIA *</pattern>
+	<template><srai>ONLINE ARCHIVE OF CALIFORNIA</srai></template></category>
+	<category><pattern>* ONLINE ARCHIVE OF CALIFORNIA *</pattern>
+	<template><srai>ONLINE ARCHIVE OF CALIFORNIA</srai></template></category>
+
+<category><pattern>OPPOSING VIEWPOINTS</pattern>
+<template>The UC Irvine Libraries does not currently subscribe to Opposing Viewpoints. Please try 	
+<a href=" http://antpac.lib.uci.edu:80/record=b1876284~S5" target="_blank">CQ Researcher</a> for analysis of 
+current social, political, and/or economic issues.</template></category>
+	<category><pattern>* OPPOSING VIEWPOINTS</pattern>
+	<template><srai>OPPOSING VIEWPOINTS</srai></template></category>
+	<category><pattern>OPPOSING VIEWPOINTS *</pattern>
+	<template><srai>OPPOSING VIEWPOINTS</srai></template></category>
+	<category><pattern>* OPPOSING VIEWPOINTS *</pattern>
+	<template><srai>OPPOSING VIEWPOINTS</srai></template></category>
+	
+<category><pattern>OXFORD REFERENCE ONLINE</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b2894229~S7" target="_blank">Oxford Reference Online</a>.</template></category>	
+	<category><pattern>* OXFORD REFERENCE ONLINE</pattern>
+	<template><srai>OXFORD REFERENCE ONLINE</srai></template></category>
+	<category><pattern>OXFORD REFERENCE ONLINE *</pattern>
+	<template><srai>OXFORD REFERENCE ONLINE</srai></template></category>
+	<category><pattern>* OXFORD REFERENCE ONLINE *</pattern>
+	<template><srai>OXFORD REFERENCE ONLINE</srai></template></category>
+
+<!--P-->
+
+<category><pattern>PAIS INTERNATIONAL</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b2876250~S7" target="_blank">PAIS International</a>.</template></category>
+	<category><pattern>* PAIS INTERNATIONAL</pattern>
+	<template><srai>PAIS INTERNATIONAL</srai></template></category>
+	<category><pattern>PAIS INTERNATIONAL *</pattern>
+	<template><srai>PAIS INTERNATIONAL</srai></template></category>
+	<category><pattern>* PAIS INTERNATIONAL *</pattern>
+	<template><srai>PAIS INTERNATIONAL</srai></template></category>
+
+<category><pattern>PSYCHINFO</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu:80/record=b4266666~S5" target="_blank">PsycINFO</a>.</template></category>
+	<category><pattern>* PSYCHINFO</pattern>
+	<template><srai>PSYCHINFO</srai></template></category>
+	<category><pattern>PSYCHINFO *</pattern>
+	<template><srai>PSYCHINFO</srai></template></category>
+	<category><pattern>* PSYCHINFO *</pattern>
+	<template><srai>PSYCHINFO</srai></template></category>
+	
+<category><pattern>PROQUEST</pattern>
+<template>Proquest is a vendor which supplies many different types of library databases. Can you be more specific?</template></category>
+	
+<category><pattern>PROQUEST CONGRESSIONAL PUBLICATIONS</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b3081832~S5" target="_blank">Proquest Congressional Publications</a>.</template></category>	
+	<category><pattern>* PROQUEST CONGRESSIONAL PUBLICATIONS</pattern>
+	<template><srai>PROQUEST CONGRESSIONAL PUBLICATIONS</srai></template></category>
+	<category><pattern>PROQUEST CONGRESSIONAL PUBLICATIONS *</pattern>
+	<template><srai>PROQUEST CONGRESSIONAL PUBLICATIONS</srai></template></category>
+	<category><pattern>* PROQUEST CONGRESSIONAL PUBLICATIONS *</pattern>
+	<template><srai>PROQUEST CONGRESSIONAL PUBLICATIONS</srai></template></category>
+
+<category><pattern>PROQUEST DISSERTATIONS AND THESES</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b3503762~S5" target="_blank">ProQuest Dissertations and Theses</a>.</template></category>
+	<category><pattern>* PROQUEST DISSERTATIONS AND THESES</pattern>
+	<template><srai>PROQUEST DISSERTATIONS AND THESES</srai></template></category>
+	<category><pattern>PROQUEST DISSERTATIONS AND THESES *</pattern>
+	<template><srai>PROQUEST DISSERTATIONS AND THESES</srai></template></category>
+	<category><pattern>* PROQUEST DISSERTATIONS AND THESES *</pattern>
+	<template><srai>PROQUEST DISSERTATIONS AND THESES</srai></template></category>
+	
+<category><pattern>PUBMED</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b3542552~S7" target="_blank">PubMed</a>.</template></category>
+	<category><pattern>* PUBMED</pattern>
+	<template><srai>PUBMED</srai></template></category>
+	<category><pattern>PUBMED *</pattern>
+	<template><srai>PUBMED</srai></template></category>
+	<category><pattern>* PUBMED *</pattern>
+	<template><srai>PUBMED</srai></template></category>
+	<category><pattern>PUBMED CENTRAL</pattern>
+	<template><srai>PUBMED</srai></template></category>
+	<category><pattern>* PUBMED CENTRAL</pattern>
+	<template><srai>PUBMED</srai></template></category>
+	<category><pattern>PUBMED CENTRAL *</pattern>
+	<template><srai>PUBMED</srai></template></category>
+	<category><pattern>* PUBMED CENTRAL *</pattern>
+	<template><srai>PUBMED</srai></template></category>
+	<category><pattern>PMC</pattern>
+	<template><srai>PUBMED</srai></template></category>
+	<category><pattern>* PMC</pattern>
+	<template><srai>PUBMED</srai></template></category>
+	<category><pattern>PMC *</pattern>
+	<template><srai>PUBMED</srai></template></category>
+	<category><pattern>* PMC *</pattern>
+	<template><srai>PUBMED</srai></template></category>
+
+<category><pattern>POLICY ARCHIVE</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b4446278~S7" target="_blank">Policy Archive</a>.</template></category>
+	<category><pattern>* POLICY ARCHIVE</pattern>
+	<template><srai>POLICY ARCHIVE</srai></template></category>
+	<category><pattern>POLICY ARCHIVE *</pattern>
+	<template><srai>POLICY ARCHIVE</srai></template></category>
+	<category><pattern>* POLICY ARCHIVE *</pattern>
+	<template><srai>POLICY ARCHIVE</srai></template></category>
+	
+<category><pattern>PSYCHIATRYONLINE</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu:80/record=b3713207~S7" target="_blank">PsychiatryOnline</a>.</template></category>
+	<category><pattern>* PSYCHIATRYONLINE</pattern>
+	<template><srai>PSYCHIATRYONLINE</srai></template></category>
+	<category><pattern>PSYCHIATRYONLINE *</pattern>
+	<template><srai>PSYCHIATRYONLINE</srai></template></category>
+	<category><pattern>* PSYCHIATRYONLINE *</pattern>
+	<template><srai>PSYCHIATRYONLINE</srai></template></category>
+	
+<category><pattern>PROQUEST CONGRESSIONAL</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b3081832~S7" target="_blank">ProQuest Congressional</a>.</template></category>
+	<category><pattern>* PROQUEST CONGRESSIONAL</pattern>
+	<template><srai>PROQUEST CONGRESSIONAL</srai></template></category>
+	<category><pattern>PROQUEST CONGRESSIONAL *</pattern>
+	<template><srai>PROQUEST CONGRESSIONAL</srai></template></category>
+	<category><pattern>* PROQUEST CONGRESSIONAL *</pattern>
+	<template><srai>PROQUEST CONGRESSIONAL</srai></template></category>
+	
+<!--S-->
+
+<category><pattern>SCIFINDER</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b2865772~S5" target="_blank">SciFinder</a>.</template></category>
+	<category><pattern>* SCIFINDER</pattern>
+	<template><srai>SCIFINDER</srai></template></category>
+	<category><pattern>SCIFINDER *</pattern>
+	<template><srai>SCIFINDER</srai></template></category>
+	<category><pattern>* SCIFINDER *</pattern>
+	<template><srai>SCIFINDER</srai></template></category>
+	<category><pattern>SCI FINDER</pattern>
+	<template><srai>SCIFINDER</srai></template></category>
+	<category><pattern>* SCI FINDER</pattern>
+	<template><srai>SCIFINDER</srai></template></category>
+	<category><pattern>SCI FINDER *</pattern>
+	<template><srai>SCIFINDER</srai></template></category>
+	<category><pattern>* SCI FINDER *</pattern>
+	<template><srai>SCIFINDER</srai></template></category>
+
+<category><pattern>SCIENCE CITATION INDEX</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b4507358~S7" target="_blank">Science Citation Index (Web of Science)</a>.</template></category>
+	<category><pattern>* SCIENCE CITATION INDEX</pattern>
+	<template><srai>SCIENCE CITATION INDEX</srai></template></category>
+	<category><pattern>SCIENCE CITATION INDEX *</pattern>
+	<template><srai>SCIENCE CITATION INDEX</srai></template></category>
+	<category><pattern>* SCIENCE CITATION INDEX *</pattern>
+	<template><srai>SCIENCE CITATION INDEX</srai></template></category>
+
+<category><pattern>SCOPUS</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b5270331~S5" target="_blank">Scopus</a>.</template></category>
+	<category><pattern>* SCOPUS</pattern>
+	<template><srai>SCOPUS</srai></template></category>
+	<category><pattern>SCOPUS *</pattern>
+	<template><srai>SCOPUS</srai></template></category>
+	<category><pattern>* SCOPUS *</pattern>
+	<template><srai>SCOPUS</srai></template></category>
+
+<category><pattern>SIMPLYMAP</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu:80/record=b5294899~S7" target="_blank">SimplyMap</a>.</template></category>
+	<category><pattern>* SIMPLYMAP</pattern>
+	<template><srai>SIMPLYMAP</srai></template></category>
+	<category><pattern>SIMPLYMAP *</pattern>
+	<template><srai>SIMPLYMAP</srai></template></category>
+	<category><pattern>* SIMPLYMAP *</pattern>
+	<template><srai>SIMPLYMAP</srai></template></category>
+
+<category><pattern>SIRS ISSUES</pattern>
+<template>Sorry that is not a resource we have purchased.  As similar product that we do have is CQ Researcher. Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu:80/record=b1876284~S5" target="_blank">CQ Researcher</a>.</template></category> 
+	<category><pattern>* SIRS ISSUES</pattern>
+	<template><srai>SIRS ISSUES</srai></template></category>
+	<category><pattern>SIRS ISSUES *</pattern>
+	<template><srai>SIRS ISSUES</srai></template></category>
+	<category><pattern>*SIRS ISSUES *</pattern>
+	<template><srai>SIRS ISSUES</srai></template></category>
+
+<category><pattern>SOCIAL SCIENCES CITATION INDEX</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b4507358~S7" target="_blank">Social Sciences Citation Index (Web of Science)</a>.</template></category>
+	<category><pattern>* SOCIAL SCIENCES CITATION INDEX</pattern>
+	<template><srai>SOCIAL SCIENCES CITATION INDEX</srai></template></category>
+	<category><pattern>SOCIAL SCIENCES CITATION INDEX *</pattern>
+	<template><srai>SOCIAL SCIENCES CITATION INDEX</srai></template></category>
+	<category><pattern>* SOCIAL SCIENCES CITATION INDEX *</pattern>
+	<template><srai>SOCIAL SCIENCES CITATION INDEX</srai></template></category>
+	<category><pattern>SOCIAL CITATION INDEX</pattern>
+	<template><srai>SOCIAL SCIENCES CITATION INDEX</srai></template></category>
+	<category><pattern>* SOCIAL CITATION INDEX</pattern>
+	<template><srai>SOCIAL SCIENCES CITATION INDEX</srai></template></category>
+	<category><pattern>SOCIAL CITATION INDEX *</pattern>
+	<template><srai>SOCIAL SCIENCES CITATION INDEX</srai></template></category>
+	<category><pattern>* SOCIAL CITATION INDEX *</pattern>
+	<template><srai>SOCIAL SCIENCES CITATION INDEX</srai></template></category>
+	<category><pattern>SOCIAL SCIENCE JOURNAL CITATION INDEX</pattern>
+	<template><srai>SOCIAL SCIENCES CITATION INDEX</srai></template></category>
+	<category><pattern>* SOCIAL SCIENCE JOURNAL CITATION INDEX</pattern>
+	<template><srai>SOCIAL SCIENCES CITATION INDEX</srai></template></category>
+	<category><pattern>SOCIAL SCIENCE JOURNAL CITATION INDEX *</pattern>
+	<template><srai>SOCIAL SCIENCES CITATION INDEX</srai></template></category>
+	<category><pattern>* SOCIAL SCIENCE JOURNAL CITATION INDEX *</pattern>
+	<template><srai>SOCIAL SCIENCES CITATION INDEX</srai></template></category>
+
+<category><pattern>SOCIOLOGICAL ABSTRACTS</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b2865774~S7" target="_blank">Sociological Abstracts</a>.</template></category>
+	<category><pattern>* SOCIOLOGICAL ABSTRACTS</pattern>
+	<template><srai>SOCIOLOGICAL ABSTRACTS</srai></template></category>
+	<category><pattern>SOCIOLOGICAL ABSTRACTS *</pattern>
+	<template><srai>SOCIOLOGICAL ABSTRACTS</srai></template></category>
+	<category><pattern>* SOCIOLOGICAL ABSTRACTS *</pattern>
+	<template><srai>SOCIOLOGICAL ABSTRACTS</srai></template></category>
+	
+<category><pattern>STATISTICAL ABSTRACT OF THE UNITED STATES</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b4823070~S7" target="_blank">ProQuest statistical abstract of the U.S</a>.</template></category>
+	<category><pattern>* STATISTICAL ABSTRACT OF THE UNITED STATES</pattern>
+	<template><srai>STATISTICAL ABSTRACT OF THE UNITED STATES</srai></template></category>
+	<category><pattern>STATISTICAL ABSTRACT OF THE UNITED STATES *</pattern>
+	<template><srai>STATISTICAL ABSTRACT OF THE UNITED STATES</srai></template></category>
+	<category><pattern>* STATISTICAL ABSTRACT OF THE UNITED STATES *</pattern>
+	<template><srai>STATISTICAL ABSTRACT OF THE UNITED STATES</srai></template></category>
+
+<category><pattern>STATREF</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu:80/record=b3075616~S7" target="_blank">STAT!Ref</a>.</template></category>
+	<category><pattern>* STATREF</pattern>
+	<template><srai>STATREF</srai></template></category>
+	<category><pattern>STATREF *</pattern>
+	<template><srai>STATREF</srai></template></category>
+	<category><pattern>* STATREF *</pattern>
+	<template><srai>STATREF</srai></template></category>
+	<category><pattern>STAT*REF</pattern>
+	<template><srai>STATREF</srai></template></category>
+	<category><pattern>* STAT*REF</pattern>
+	<template><srai>STATREF</srai></template></category>
+	<category><pattern>STAT*REF *</pattern>
+	<template><srai>STATREF</srai></template></category>
+	<category><pattern>* STAT*REF *</pattern>
+	<template><srai>STATREF</srai></template></category>
+
+<!--U-->
+
+<category><pattern>UCI AUTHORS IN PUBMED</pattern>
+<template>Search <a href=" http://grunigen.lib.uci.edu/uci-authors-in-pubmed.html" target="_blank">UCI Authors in PubMed</a> by author, keyword, or PMID.</template></category>  
+	<category><pattern>* UCI AUTHORS IN PUBMED</pattern>
+	<template><srai>UCI AUTHORS IN PUBMED</srai></template></category>
+	<category><pattern>UCI AUTHORS IN PUBMED *</pattern>
+	<template><srai>UCI AUTHORS IN PUBMED</srai></template></category>
+	<category><pattern>* UCI AUTHORS IN PUBMED *</pattern>
+	<template><srai>UCI AUTHORS IN PUBMED</srai></template></category>
+
+<!--W-->
+
+<category><pattern>WEB OF SCIENCE</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b4507358~S5" target="_blank">Web of Science</a>.</template></category>
+	<category><pattern>* WEB OF SCIENCE</pattern>
+	<template><srai>WEB OF SCIENCE</srai></template></category>
+	<category><pattern>WEB OF SCIENCE *</pattern>
+	<template><srai>WEB OF SCIENCE</srai></template></category>
+	<category><pattern>* WEB OF SCIENCE *</pattern>
+	<template><srai>WEB OF SCIENCE</srai></template></category>
+	
+<category><pattern>CLINICAL TRIALS IN WEB OF SCIENCE</pattern>
+<template>There is no simple solution to finding clinical trials in Web of Science, you can try to add keywords such as "clinical trial," 
+"randomized," "cohort," "case study," etc. These terms would likely have to be in the title or abstract or author supplied keywords.  
+Unless you are doing a systematic review, we would recommend using <a href=" http://antpac.lib.uci.edu/record=b3542552~S7" target="_blank">PubMed</a>
+ or <a href=" http://antpac.lib.uci.edu/record=b3328873~S7" target="_blank">CINAHL</a>. If you need more help <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>!</template></category>
+	<category><pattern>* CLINICAL TRIALS IN WEB OF SCIENCE</pattern>
+	<template><srai>CLINICAL TRIALS IN WEB OF SCIENCE</srai></template></category> 
+	<category><pattern>CLINICAL TRIALS IN WEB OF SCIENCE *</pattern>	
+	<template><srai>CLINICAL TRIALS IN WEB OF SCIENCE</srai></template></category>
+	<category><pattern>* CLINICAL TRIALS IN WEB OF SCIENCE *</pattern>	
+	<template><srai>CLINICAL TRIALS IN WEB OF SCIENCE</srai></template></category>
+	
+<category><pattern>WESTLAW</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b4672816~S5" target="_blank">Westlaw</a>. Please note that Westlaw is restricted to UCI Law!</template></category>	
+	<category><pattern>* WESTLAW</pattern>
+	<template><srai>WESTLAW</srai></template></category>
+	<category><pattern>WESTLAW *</pattern>
+	<template><srai>WESTLAW</srai></template></category>
+	<category><pattern>* WESTLAW *</pattern>
+	<template><srai>WESTLAW</srai></template></category>
+
+<category><pattern>WILEY ONLINE LIBRARY</pattern>
+<template>Items in our collection that are part of the Wiley Online Library can be found in our catalog <a href=" http://antpac.lib.uci.edu" target="_blank">ANTPAC</a>. Search using: title "Wiley Online Library."  If you are off campus you will need to login via <a href=" http://www.lib.uci.edu/connect-campus" target="_blank">Connect from Off-Campus</a>.</template></category>
+	<category><pattern>* WILEY ONLINE LIBRARY</pattern>
+	<template><srai>WILEY ONLINE LIBRARY</srai></template></category>
+	<category><pattern>WILEY ONLINE LIBRARY *</pattern>
+	<template><srai>WILEY ONLINE LIBRARY</srai></template></category>
+	<category><pattern>* WILEY ONLINE LIBRARY *</pattern>
+	<template><srai>WILEY ONLINE LIBRARY</srai></template></category>
+	
+<category><pattern>WORLDCAT</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+<a href=" http://antpac.lib.uci.edu/record=b2884732~S7" target="_blank">Worldcat</a>.</template></category>	
+	<category><pattern>* WORLDCAT</pattern>
+	<template><srai>WORLDCAT</srai></template></category>
+	<category><pattern>WORLDCAT *</pattern>
+	<template><srai>WORLDCAT</srai></template></category>
+	<category><pattern>* WORLDCAT *</pattern>
+	<template><srai>WORLDCAT</srai></template></category>
+	
+<category><pattern>WORLDWIDE POLITICAL SCIENCE ABSTRACTS</pattern>
+<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for  
+<a href=" http://antpac.lib.uci.edu/record=b2873930~S7" target="_blank">Worldwide Political Science Abstracts</a>.</template></category>	
+	<category><pattern>* WORLDWIDE POLITICAL SCIENCE ABSTRACTS</pattern>
+	<template><srai>WORLDWIDE POLITICAL SCIENCE ABSTRACTS</srai></template></category>
+	<category><pattern>WORLDWIDE POLITICAL SCIENCE ABSTRACTS *</pattern>
+	<template><srai>WORLDWIDE POLITICAL SCIENCE ABSTRACTS</srai></template></category>
+	<category><pattern>* WORLDWIDE POLITICAL SCIENCE ABSTRACTS *</pattern>
+	<template><srai>WORLDWIDE POLITICAL SCIENCE ABSTRACTS</srai></template></category>
+
+</aiml>

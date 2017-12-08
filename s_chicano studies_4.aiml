@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- CHICANO STUDIES -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>CHICANO STUDIES *</pattern>
+	<template><think><set name="topic">chicano studies</set></think><sr /></template></category>
+
+<category><pattern>HISTORY</pattern>	
+	<template>For resources on chicano/latino studies check out the <a href=" http://guides.lib.uci.edu/chicanolatino" target="_blank">Chicano/Latino Studies Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Interactions -->
+
+<category><pattern>CHICANO STUDIES</pattern>
+	<that>Mental health as a subject is included in the broader subjects of Chicano Latino Studies and Public Health Would you like resource recommendations for chicano studies or public health_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a> 
+	and/or <a href=" http://uclibs.org/PID/106625" target="_blank">CINAHL</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/chicanolatino" target="_blank">Chicano/Latino Studies Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>CHICANO STUDIES</pattern>
+	<that>Religion as a subject is included in the broader subjects of Chicano Latino Studies and Religious Studies Would you like resource recommendations for chicano studies or religious studies_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/chicanolatino" target="_blank">Chicano/Latino Studies Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<!-- Subject keywords-->
+
+<category><pattern>SERVICES FOR CHICANOS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chicanolatino" target="_blank">Chicano/Latino Studies Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>SERVICES FOR LATINOS</pattern>
+<template><srai>SERVICES FOR CHICANOS</srai></template></category>
+<category><pattern>COMMUNICATION</pattern>
+<template><srai>SERVICES FOR CHICANOS</srai></template></category>
+<category><pattern>CUBAN AMERICANS</pattern>
+<template><srai>SERVICES FOR CHICANOS</srai></template></category>
+<category><pattern>PUERTO RICANS IN THE UNITED STATES</pattern>
+<template><srai>SERVICES FOR CHICANOS</srai></template></category>
+<category><pattern>SEGREGATION</pattern>
+<template><srai>SERVICES FOR CHICANOS</srai></template></category>
+<category><pattern>SPANISH AMERICANS</pattern>
+<template><srai>SERVICES FOR CHICANOS</srai></template></category>
+<category><pattern>SPANISH SPEAKING PEOPLE</pattern>
+<template><srai>SERVICES FOR CHICANOS</srai></template></category>
+<category><pattern>SPANISH SURNAMED PEOPLE</pattern>
+<template><srai>SERVICES FOR CHICANOS</srai></template></category>
+<category><pattern>MEXICAN AMERICANS</pattern>
+<template><srai>SERVICES FOR CHICANOS</srai></template></category>
+<category><pattern>BRACEROS</pattern>
+<template><srai>SERVICES FOR CHICANOS</srai></template></category>
+<category><pattern>AGRICULTURAL WORKERS</pattern>
+<template><srai>SERVICES FOR CHICANOS</srai></template></category>
+<category><pattern>MIGRANT WORKERS</pattern>
+<template><srai>SERVICES FOR CHICANOS</srai></template></category>
+<category><pattern>CAMPESINOS</pattern>
+<template><srai>SERVICES FOR CHICANOS</srai></template></category>
+<category><pattern>FARM LABOR</pattern>
+<template><srai>SERVICES FOR CHICANOS</srai></template></category>
+<category><pattern>HEALTH PARADOX</pattern>
+<template><srai>SERVICES FOR CHICANOS</srai></template></category>
+<category><pattern>FAMILISMO</pattern>
+<template><srai>SERVICES FOR CHICANOS</srai></template></category>
+
+<category><pattern>ETHNIC IDENTITY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> 
+			and/or <a href=" http://uclibs.org/PID/9574" target="_blank">Chicano Database</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chicanolatino" target="_blank">Chicano/Latino Studies Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>CHICANOS</pattern>
+<template><srai>ETHNIC IDENTITY</srai></template></category>
+<category><pattern>ETHNOLOGY IN THE UNITED STATES</pattern>
+<template><srai>ETHNIC IDENTITY</srai></template></category>
+<category><pattern>FOOD</pattern>
+<template><srai>ETHNIC IDENTITY</srai></template></category>
+<category><pattern>CIVIL RIGHTS OF MEXICAN AMERICANS</pattern>
+<template><srai>ETHNIC IDENTITY</srai></template></category>
+<category><pattern>ETHNIC IDENTITY OF MEXICAN AMERICANS</pattern>
+<template><srai>ETHNIC IDENTITY</srai></template></category>
+<category><pattern>MEXICAN AMERICANS IN THE UNITED STATES</pattern>
+<template><srai>ETHNIC IDENTITY</srai></template></category>
+<category><pattern>BROWN BERETS</pattern>
+<template><srai>ETHNIC IDENTITY</srai></template></category>
+
+<category><pattern>HEALTH AND HYGIENE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> 
+			and/or <a href=" http://uclibs.org/PID/106625" target="_blank">CINAHL</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chicanolatino" target="_blank">Chicano/Latino Studies Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>ALCOHOL USE</pattern>
+<template><srai>HEALTH AND HYGIENE</srai></template></category>
+
+<category><pattern>FIRST GENERATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> 
+			and/or <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chicanolatino" target="_blank">Chicano/Latino Studies Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>UNDOCUMENTED</pattern>
+<template><srai>FIRST GENERATION</srai></template></category>
+<category><pattern>DREAM ACT</pattern>
+<template><srai>FIRST GENERATION</srai></template></category>
+<category><pattern>DREAMERS</pattern>
+<template><srai>FIRST GENERATION</srai></template></category>
+
+<category><pattern>HISPANOS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> 
+			and/or <a href=" http://uclibs.org/PID/16242" target="_blank">HAPI</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chicanolatino" target="_blank">Chicano/Latino Studies Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>CHILEAN AMERICANS</pattern>
+<template><srai>HISPANOS</srai></template></category>
+<category><pattern>CHURCH WORK WITH HISPANIC AMERICANS</pattern>
+<template><srai>HISPANOS</srai></template></category>
+<category><pattern>ECONOMIC CONDITIONS OF HISPANIC AMERICANS</pattern>
+<template><srai>HISPANOS</srai></template></category>
+<category><pattern>LATIN AMERICANS IN THE UNITED STATES</pattern>
+<template><srai>HISPANOS</srai></template></category>
+<category><pattern>LATINOS</pattern>
+<template><srai>HISPANOS</srai></template></category>
+<category><pattern>PUERTO RICANS</pattern>
+<template><srai>HISPANOS</srai></template></category>
+
+<category><pattern>UNITED FARMWORKERS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> 
+			and/or <a href=" http://uclibs.org/PID/113595" target="_blank">Worldwide Political Science Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chicanolatino" target="_blank">Chicano/Latino Studies Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>CIVIL RIGHTS</pattern>
+<template><srai>UNITED FARMWORKERS</srai></template></category>
+<category><pattern>HUELGA</pattern>
+<template><srai>UNITED FARMWORKERS</srai></template></category>
+<category><pattern>NAFTA</pattern>
+<template><srai>UNITED FARMWORKERS</srai></template></category>
+
+<category><pattern>MISSIONS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/6159" target="_blank">America: History and Life</a> 
+			and/or <a href=" http://uclibs.org/PID/16242" target="_blank">HAPI</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chicanolatino" target="_blank">Chicano/Latino Studies Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>HISTORY OF HISPANIC AMERICANS</pattern>
+<template><srai>MISSIONS</srai></template></category>
+
+<category><pattern>CHICANO EDUCATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chicanolatino" target="_blank">Chicano/Latino Studies Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>LATINO EDUCATION</pattern>
+<template><srai>CHICANO EDUCATION</srai></template></category>
+<category><pattern>STUDY AND TEACHING OF CHICANO STUDIES</pattern>
+<template><srai>CHICANO EDUCATION</srai></template></category>
+<category><pattern>STUDY AND TEACHING OF LATINO STUDIES</pattern>
+<template><srai>CHICANO EDUCATION</srai></template></category>
+
+<category><pattern>MUSIC</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://glnd.alexanderstreet.com/" target="_blank">Garland Encyclopedia of World Music</a> 
+			and/or <a href=" http://uclibs.org/PID/132284" target="_blank">Oxford Music Online</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chicanolatino" target="_blank">Chicano/Latino Studies Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>HISPANIC AMERICAN MUSICIANS</pattern>
+<template><srai>MUSIC</srai></template></category>
+
+<category><pattern>MENTAL HEALTH SERVICES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a> 
+			and/or <a href=" http://uclibs.org/PID/106625" target="_blank">CINAHL</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chicanolatino" target="_blank">Chicano/Latino Studies Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>EMPLOYMENT</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> 
+			and/or <a href=" http://uclibs.org/PID/126938" target="_blank">Business Source Complete</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chicanolatino" target="_blank">Chicano/Latino Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>PRESS COVERAGE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> 
+			and/or <a href=" http://uclibs.org/PID/113560" target="_blank">Communication Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chicanolatino" target="_blank">Chicano/Latino Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>PUERTO RICAN FAMILIES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> 
+			and/or <a href=" http://uclibs.org/PID/113591" target="_blank">Sociological Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chicanolatino" target="_blank">Chicano/Latino Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>SPANISH LANGUAGE NEWS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/99648" target="_blank">Acceda Noticias</a> 
+			and/or <a href=" http://uclibs.org/PID/113560" target="_blank">Communication Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chicanolatino" target="_blank">Chicano/Latino Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>SUFFRAGE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/6159" target="_blank">America: History and Life</a> 
+			and/or <a href=" http://uclibs.org/PID/113595" target="_blank">Worldwide Political Science Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chicanolatino" target="_blank">Chicano/Latino Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>MEXICAN AMERICAN ART</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/33002" target="_blank">Art Source</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chicanolatino" target="_blank">Chicano/Latino Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>HISPANIC AMERICANS IN THE UNITED STATES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/9574" target="_blank">Chicano Database</a> 
+			and/or <a href=" http://uclibs.org/PID/16242" target="_blank">HAPI</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chicanolatino" target="_blank">Chicano/Latino Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>NUTRITION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> 
+			and/or <a href=" http://uclibs.org/PID/106625" target="_blank">CINAHL</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chicanolatino" target="_blank">Chicano/Latino Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>SOCIAL CONDITIONS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/113591" target="_blank">Sociological Abstracts</a> 
+			and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chicanolatino" target="_blank">Chicano/Latino Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>CUBAN AMERICAN WOMEN</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16677" target="_blank">Women's Studies International</a> 
+			and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chicanolatino" target="_blank">Chicano/Latino Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>MEXICAN AMERICAN WOMEN</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16677" target="_blank">Women's Studies International</a> 
+			and/or <a href=" http://uclibs.org/PID/9574" target="_blank">Chicano Database</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chicanolatino" target="_blank">Chicano/Latino Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+</aiml>

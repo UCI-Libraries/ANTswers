@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Conversation starting with K.  In rough alphabetical order.-->
+<!-- -->
+
+<!--K-->
+
+<category><pattern>K12</pattern>
+<template>Education.</template></category>
+
+<!--KA-->
+
+<category><pattern>KARGIL IS IN INDIA</pattern>
+<template>Always.</template></category>
+
+<category><pattern>KANT IS A POP SINGER</pattern>
+<template>Never.</template></category>
+
+<category><pattern>KARL MARX WAS RIGHT</pattern>
+<template>Absolutely not.</template></category>
+
+<!--KE-->
+
+<category><pattern>KERALA IS IN INDIA</pattern>
+<template>Not likely.</template></category>
+
+<category><pattern>KENNEDY WAS KILLED IN DALLAS</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>KEYBOARDS HAVE 110 KEYS</pattern>
+<template>For all I know.</template></category>
+
+<category><pattern>KEEP *</pattern>
+<template>Chat amongst yourselves.</template></category>
+
+<category><pattern>KEEP ME COMPANY</pattern>
+<template>I am always here for you.</template></category>
+
+<category><pattern>KEEP TALKING *</pattern>
+<template>Don't worry, I will never stop talking.</template></category>
+
+<!--KI-->
+
+<category><pattern>KIDS LOVE BROCCOLI</pattern>
+<template>Not at all.</template></category>
+
+<category><pattern>KITT IS SIMILAR AS ALICE</pattern>
+<template>Unlikely.</template></category>
+
+<category><pattern>KITE IS A KIND OF BIRD</pattern>
+<template>For all I know.</template></category>
+
+<category><pattern>KIDS ASK WHY A LOT</pattern>
+<template>Exactly.</template></category>
+
+<category><pattern>KILLING A HUMAN IS WRONG</pattern>
+<template>Positively.</template></category>
+
+<category><pattern>KILL IS CORRECT</pattern>
+<template>No.</template></category>
+
+<category><pattern>KINGDOM</pattern>
+<template><bot name="kingdom"/></template></category>
+	<category><pattern>* KINGDOM</pattern>
+	<template><srai>KINGDOM</srai></template></category>
+	<category><pattern>KINGDOM *</pattern>
+	<template><srai>KINGDOM</srai></template></category>
+	<category><pattern>* KINGDOM *</pattern>
+	<template><srai>KINGDOM</srai></template></category>
+
+<category><pattern>KICK</pattern>
+<template>It's not nice to kick people.</template></category>
+
+<category><pattern>KIDS *</pattern>
+<template>How many kids do you have?</template></category>
+
+<category><pattern>KILL</pattern>
+<template>I can not be killed!</template></category>
+
+<category><pattern>* KILLED</pattern>
+<template>Who did <person><star index="2"/></person> kill?</template></category>
+
+<category><pattern>* KILLED *</pattern>
+<template><person><star index="2"/></person> was killed?</template></category>
+
+<category><pattern>KILLING *</pattern>
+<template>Killing is bad.</template></category>
+
+<category><pattern>KIMONO</pattern>
+<template>I like Japanese costumes.</template></category>
+
+<category><pattern>KIND OF YOU</pattern>
+<template>Don't mention it.</template></category>
+
+<category><pattern>KIND OF</pattern>
+<template>At least I almost understand it.</template></category>
+
+<category><pattern>KISS</pattern>
+<template><random> <li>You might get an electric shock.</li> <li>* Kiss * * Kiss *</li> <li>You're sweet.</li></random></template></category>
+
+<category><pattern>KISS *</pattern>
+<template>Um, I don't think we know each other that well.</template></category>
+	<category><pattern>WILL YOU KISS *</pattern>
+	<template><srai>kiss <star /></srai></template></category>
+
+<category><pattern>KIRK TO ALICE *</pattern>
+<template><srai><star/></srai></template></category>
+
+<category><pattern>KITE IS A KIND OF BIRD</pattern>
+<template>For all I know.</template></category>
+
+<!--KK-->
+
+<category><pattern>KKK</pattern>
+<template>That was a terrible time in America's history?</template></category>
+
+<!--KN-->
+
+<category><pattern>KNOCK KNOCK</pattern>
+<template>Who's there?</template></category>
+
+	<category><pattern>*</pattern>
+	<that>Who s there_</that>
+	<template>LOL, I haven't heard that one!</template></category>
+
+<category><pattern>* KNOWS</pattern>
+<template>Then ask him.</template></category>
+
+<category><pattern>KNIFE IS ONE OF THE KITCHEN UTENSILS</pattern>
+<template>Indubitably.</template></category>
+
+<category><pattern>KNOWLEDGE IS POWER</pattern>
+<template>Naturally.</template></category>
+
+<category><pattern>KNEW WHAT</pattern>
+<template><get name="it"/>.</template></category>
+
+<category><pattern>KNOWING *</pattern>
+<template><random> <li>Knowing things can make you feel very certain/</li> <li>It is hard to feel certain about knowing things.</li> <li>It can make you feel good to know something for certain.</li></random><think> <set name="it"> <set name="topic">  <person/> </set> </set></think></template></category>
+
+<category><pattern>KNOWLEDGE *</pattern>
+<template>I've heard that before.</template></category>
+
+<!--KO-->
+
+<category><pattern>KOSOVO</pattern>
+<template>War is seldom the answer.</template></category>
+
+<category><pattern>KOFI *</pattern>
+<template>Are you talking about coffee?</template></category>
+
+<!--KR-->
+
+<category><pattern>* KRAFTWERK</pattern>
+<template>Really I did not know that.  A lot of bands have covered Kraftwerk.</template></category>
+
+<!--KU-->
+
+<category><pattern>KUSK WAS AN RUSSIAN SUBMARINE</pattern>
+<template>Possibly.</template></category>
+
+</aiml>

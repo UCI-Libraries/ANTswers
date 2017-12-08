@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- ECONOMICS -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>ECONOMICS *</pattern>
+	<template><think><set name="topic">economics</set></think><sr /></template></category>
+
+<category><pattern>ECONOMICS</pattern>	
+	<template>For resources on economics check out the <a href=" http://guides.lib.uci.edu/econ" target="_blank">Economics Research Guide</a>    
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<!-- Interactions -->
+
+<category><pattern>ECONOMICS</pattern>
+	<that>Exchange as a subject is included in the broader subjects of Business and Economics Would you like resource recommendations for business or economics_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/9525" target="_blank">EconLit</a> 
+	and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/econ" target="_blank">Economics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>ECONOMICS</pattern>
+	<that>Gross national product as a subject is included in the broader subjects of Economics and Statistics Would you like resource recommendations for economics and statistics_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/9525" target="_blank">EconLit</a> 
+	and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/econ" target="_blank">Economics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>ECONOMICS</pattern>
+	<that>Individualism as a subject is included in the broader subjects of Economics Political Science and Sociology Would you like resource recommendations for economics political science or sociology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/9525" target="_blank">EconLit</a> 
+	and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/econ" target="_blank">Economics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>ECONOMICS</pattern>
+	<that>Managerial economics as a subject is included in the broader subjects of Business and Economics Would you like resource recommendations for business or economics_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/9525" target="_blank">EconLit</a> 
+	and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/econ" target="_blank">Economics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>ECONOMICS</pattern>
+	<that>Population as a subject is included in the broader subjects of Biology and Economics Would you like resource recommendations for biology or economics_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/9525" target="_blank">EconLit</a> 
+	and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/econ" target="_blank">Economics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>ECONOMICS</pattern>
+	<that>Profit as a subject is included in the broader subjects of Business and Economics Would you like resource recommendations for business or economics_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/9525" target="_blank">EconLit</a> 
+	and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/econ" target="_blank">Economics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>ECONOMICS</pattern>
+	<that>Statics and Dynamics as a subject is included in the broader subjects of Economics and Sociology Would you like resource recommendations for economics or sociology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/9525" target="_blank">EconLit</a> 
+	and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/econ" target="_blank">Economics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>ECONOMICS</pattern>
+	<that>Statistics as a subject is included in the broader subjects of Business and Economics Would you like resource recommendations for business or economics_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/9525" target="_blank">EconLit</a> 
+	and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/econ" target="_blank">Economics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>ECONOMICS</pattern>
+	<that>Wealth as a subject is included in the broader subjects of Business and Economics Would you like resource recommendations for business or economics_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/9525" target="_blank">EconLit</a> 
+	and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/econ" target="_blank">Economics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<!-- Subject keywords-->
+
+<category><pattern>COST</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/9525" target="_blank">EconLit</a> 
+			and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/econ" target="_blank">Economics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>AUSTRIAN SCHOOL OF ECONOMISTS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>CAPITAL</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>CAPITALISM</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>CHICAGO SCHOOL OF ECONOMICS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>CLASSICAL SCHOOL OF ECONOMICS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>COMMERCE</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>COMPARATIVE ECONOMICS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>COOPERATION</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>DIMINISHING RETURNS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>DUAL ECONOMY</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>ECONOMIC ANTHROPOLOGY</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>ECONOMIC HISTORY</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>ECONOMIC LAG</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>ECONOMIC POLICY</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>ECONOMIC THEORY</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>ELASTICITY</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>ECONOMIC THEORY OF EMPLOYMENT</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>ENVIRONMENTAL ECONOMICS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>EQUILIBRIUM</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>EVOLUTIONARY ECONOMICS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>EXTERNALITIES</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>FASCIST ECONOMICS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>FEMINIST ECONOMICS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>FINANCE</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>FORENSIC ECONOMICS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>HISTORICAL SCHOOL OF ECONOMICS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>HYSTERESIS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>INCOME</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>INDEX NUMBERS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>INDEXATION</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>INDUSTRIES</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>INFORMAL SECTOR</pattern>
+<template><srai>COST</srai></template></category> 
+<category><pattern>INSTITUTIONAL ECONOMICS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>KEYNESIAN ECONOMICS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>LABOR ECONOMICS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>LAND USE</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>LAW AND ECONOMICS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>LONG WAVES</pattern>
+<template><srai>COST</srai></template></category> 
+<category><pattern>LUXURY</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>MACROECONOMICS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>MANCHESTER SCHOOL OF ECONOMICS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>MARGINAL PRODUCTIVITY</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>MARXIAN ECONOMICS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>MICROECONOMICS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>MULTIPLIER</pattern>
+<template><srai>COST</srai></template></category> 
+<category><pattern>MUTUALISM</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>NEOCLASSICAL SCHOOL OF ECONOMICS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>OVERPRODUCTION</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>PLENOCRACY</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>POLITICAL ECONOMY</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>PRODUCTION FUNCTIONS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>PROPERTY</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>RADICAL ECONOMICS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>REGIONAL ECONOMICS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>RENT</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>RENT</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>RESOURCE ALLOCATION</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>RISK</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>SPACE IN ECONOMICS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>STAGNATION</pattern>
+<template><srai>COST</srai></template></category> 
+<category><pattern>SUBSTITUTION</pattern>
+<template><srai>COST</srai></template></category> 
+<category><pattern>SUMPTUARY LAWS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>SUPPLY AND DEMAND</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>SUPPLY SIDE ECONOMICS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>SURPLUS</pattern>
+<template><srai>COST</srai></template></category> 
+<category><pattern>TIME AND ECONOMIC REACTIONS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>INDUSTRIAL TRUSTS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>TURNPIKE THEORY</pattern>
+<template><srai>COST</srai></template></category> 
+<category><pattern>UNEARNED INCREMENT</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>URBAN ECONOMICS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>VALUE</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>WASTE</pattern>
+<template><srai>COST</srai></template></category> 
+<category><pattern>WELFARE ECONOMICS</pattern>
+<template><srai>COST</srai></template></category>
+<category><pattern>HEATHCARE ECONOMICS</pattern>
+<template><srai>COST</srai></template></category>
+
+<category><pattern>ECONOMIC DEVELOPMENT</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/9525" target="_blank">EconLit</a> 
+			and/or <a href=" http://uclibs.org/PID/129801" target="_blank">World Bank e-Library</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/econ" target="_blank">Economics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>DEVELOPMENT ECONOMICS</pattern>
+<template><srai>ECONOMIC DEVELOPMENT</srai></template></category>
+
+<category><pattern>BUSINESS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/9525" target="_blank">EconLit</a> 
+			and/or <a href=" http://uclibs.org/PID/126938" target="_blank">Business Source Complete</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/econ" target="_blank">Economics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+</aiml>

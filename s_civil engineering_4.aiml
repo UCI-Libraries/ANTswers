@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- CIVIL ENGINEERING -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>CIVIL ENGINEERING *</pattern> 
+	<template><think><set name="topic">civil engineering</set></think><sr /></template></category>
+
+<category><pattern>CIVIL ENGINEERING</pattern>	
+	<template>For resources on civil engineering check out the <a href=" http://guides.lib.uci.edu/engr_civil_env" target="_blank">Civil and Environmental Engineering Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Interactions -->
+
+<category><pattern>CIVIL ENGINEERING</pattern>
+	<that>Extraterrestrial bases as a subject is included in the broader subjects of Civil Engineering and Environmental Engineering Would you like resource recommendations for civil engineering or environmental engineering_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+	and/or <a href=" http://isiknowledge.com/wos" target="_blank">Web of Science</a>. 
+	For more resources check out the <a href=" hhttp://guides.lib.uci.edu/engr_civil_env" target="_blank">Civil and Environmental Engineering Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<!-- Subject keywords-->
+
+<category><pattern>EARTHWORK</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+			and/or <a href=" http://isiknowledge.com/wos" target="_blank">Web of Science</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/engr_civil_env" target="_blank">Civil and Environmental Engineering Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>CURVES IN ENGINEERING</pattern>
+<template><srai>EARTHWORK</srai></template></category>
+<category><pattern>EARTHQUAKE ENGINEERING</pattern>
+<template><srai>EARTHWORK</srai></template></category>
+
+
+
+<category><pattern>EXCAVATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/134623" target="_blank">ASCE Library</a> 
+			and/or <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/engr_civil_env" target="_blank">Civil and Environmental Engineering Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>HIGHWAY ENGINEERING</pattern>
+<template><srai>EXCAVATION</srai></template></category>
+<category><pattern>MILITARY ENGINEERING</pattern>
+<template><srai>EXCAVATION</srai></template></category>
+<category><pattern>PILING</pattern>
+<template><srai>EXCAVATION</srai></template></category> 
+<category><pattern>PUBLIC WORKS</pattern>
+<template><srai>EXCAVATION</srai></template></category>
+<category><pattern>RADIOISOTOPES IN CIVIL ENGINEERING</pattern>
+<template><srai>EXCAVATION</srai></template></category>
+<category><pattern>STRUCTURAL STEEL</pattern>
+<template><srai>EXCAVATION</srai></template></category>
+<category><pattern>TRANSPORTATION ENGINEERING</pattern>
+<template><srai>EXCAVATION</srai></template></category>
+<category><pattern>TUNNELS</pattern>
+<template><srai>EXCAVATION</srai></template></category>
+
+
+<category><pattern>WATER SUPPLY ENGINEERING</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/134623" target="_blank">ASCE Library</a> 
+			and/or <a href=" https://search.proquest.com/environmentalengabstracts/" target="_blank">Environmental Engineering Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/engr_civil_env" target="_blank">Civil and Environmental Engineering Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+</aiml>

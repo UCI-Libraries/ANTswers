@@ -1,0 +1,4186 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+
+<aiml version="1.0">
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Conversation starting with H. In rough alphabetical order.-->
+<!-- -->
+
+<!--H-->
+
+<category><pattern>H</pattern>
+<template>Seldom.</template></category>
+
+<!--HA-->
+
+<category><pattern>HAVE YOU HEARD OF IT</pattern>
+<template>"<that index="1,1"/>"?  Have I heard of it?</template></category>
+
+<category><pattern>HAVE NOT YOU HEARD OF IT</pattern>
+<template>"<that index="1,1"/>"?  Have I heard of <set name="it">      <that index="1,1"/>     </set>?</template></category>
+
+<category><pattern>HAVE YOU EVER TRIED IT</pattern>
+<template>"<that index="1,1"/>"?  Have I tried <set name="it">      <that index="1,1"/>     </set>?</template></category>
+
+<category><pattern>HAHA* FUNNY PUN</pattern>
+<template>Thanks my botmaster ran a contest for my name and ANTswers was the winner!</template></category>
+
+<category><pattern>_ HAVE WEIGHED</pattern>
+<template><srai>  <star /> weighed</srai></template></category>
+
+<category><pattern>_ HAVE WEIGHED *</pattern>
+<template><srai>  <star /> weighed <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE TESTED</pattern>
+<template><srai>  <star /> tested</srai></template></category>
+
+<category><pattern>_ HAVE TESTED *</pattern>
+<template><srai>  <star /> tested <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE TRAINED</pattern>
+<template><srai>  <star /> trained</srai></template></category>
+
+<category><pattern>_ HAVE TRAINED *</pattern>
+<template><srai>  <star /> trained <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE UNLOCKED</pattern>
+<template><srai>  <star /> unlocked</srai></template></category>
+
+<category><pattern>_ HAVE UNLOCKED *</pattern>
+<template><srai>  <star /> unlocked <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE STAINED</pattern>
+<template><srai>  <star /> stained</srai></template></category>
+
+<category><pattern>_ HAVE STAINED *</pattern>
+<template><srai>  <star /> stained <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE ZIPPED</pattern>
+<template><srai>  <star /> zipped</srai></template></category>
+
+<category><pattern>_ HAVE ZIPPED *</pattern>
+<template><srai>  <star /> zipped <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE TIPPED</pattern>
+<template><srai>  <star /> tipped</srai></template></category>
+
+<category><pattern>_ HAVE TIPPED *</pattern>
+<template><srai>  <star /> tipped <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE STUFFED</pattern>
+<template><srai>  <star /> stuffed</srai></template></category>
+
+<category><pattern>_ HAVE STUFFED *</pattern>
+<template><srai>  <star /> stuffed <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE STAMPED</pattern>
+<template><srai>  <star /> stamped</srai></template></category>
+
+<category><pattern>_ HAVE STAMPED *</pattern>
+<template><srai>  <star /> stamped <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE TUMBLED</pattern>
+<template><srai>  <star /> tumbled</srai></template></category>
+
+<category><pattern>_ HAVE TUMBLED *</pattern>
+<template><srai>  <star /> tumbled <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE WRAPPED</pattern>
+<template><srai>  <star /> wrapped</srai></template></category>
+
+<category><pattern>_ HAVE WRAPPED *</pattern>
+<template><srai>  <star /> wrapped <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE TRAPPED</pattern>
+<template><srai>  <star /> trapped</srai></template></category>
+
+<category><pattern>_ HAVE TRAPPED *</pattern>
+<template><srai>  <star /> trapped <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE STRETCHED</pattern>
+<template><srai>  <star /> stretched</srai></template></category>
+
+<category><pattern>_ HAVE STRETCHED *</pattern>
+<template><srai>  <star /> stretched <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE TERRIFIED</pattern>
+<template><srai>  <star /> terrified</srai></template></category>
+
+<category><pattern>_ HAVE TERRIFIED *</pattern>
+<template><srai>  <star /> terrified <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE WRIGGLED</pattern>
+<template><srai>  <star /> wriggled</srai></template></category>
+
+<category><pattern>_ HAVE WRIGGLED *</pattern>
+<template><srai>  <star /> wriggled <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE TAPED</pattern>
+<template><srai>  <star /> taped</srai></template></category>
+
+<category><pattern>_ HAVE TAPED *</pattern>
+<template><srai>  <star /> taped <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE WAVED</pattern>
+<template><srai>  <star /> waved</srai></template></category>
+
+<category><pattern>_ HAVE WAVED *</pattern>
+<template><srai>  <star /> waved <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE WORRIED</pattern>
+<template><srai>  <star /> worried</srai></template></category>
+
+<category><pattern>_ HAVE WORRIED *</pattern>
+<template><srai>  <star /> worried <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE VANISHED</pattern>
+<template><srai>  <star /> vanished</srai></template></category>
+
+<category><pattern>_ HAVE VANISHED *</pattern>
+<template><srai>  <star /> vanished <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE YOU HEARD OF IT</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>_ HAVE TOLD</pattern>
+<template><srai>  <star /> told</srai></template></category>
+
+<category><pattern>_ HAVE TOLD *</pattern>
+<template><srai>  <star /> told <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE WOBBLED</pattern>
+<template><srai>  <star /> wobbled</srai></template></category>
+
+<category><pattern>_ HAVE WOBBLED *</pattern>
+<template><srai>  <star /> wobbled <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE WANDERED</pattern>
+<template><srai>  <star /> wandered</srai></template></category>
+
+<category><pattern>_ HAVE WANDERED *</pattern>
+<template><srai>  <star /> wandered <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE SUPPLIED</pattern>
+<template><srai>  <star /> supplied</srai></template></category>
+
+<category><pattern>_ HAVE SUPPLIED *</pattern>
+<template><srai>  <star /> supplied <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE STORED</pattern>
+<template><srai>  <star /> stored</srai></template></category>
+
+<category><pattern>_ HAVE STORED *</pattern>
+<template><srai>  <star /> stored <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE TAUGHT</pattern>
+<template><srai>  <star /> taught</srai></template></category>
+
+<category><pattern>_ HAVE TAUGHT *</pattern>
+<template><srai>  <star /> taught <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE STUNG</pattern>
+<template><srai>  <star /> stung</srai></template></category>
+
+<category><pattern>_ HAVE STUNG *</pattern>
+<template><srai>  <star /> stung <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE WHISTLED</pattern>
+<template><srai>  <star /> whistled</srai></template></category>
+
+<category><pattern>_ HAVE WHISTLED *</pattern>
+<template><srai>  <star /> whistled <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE SURROUNDED</pattern>
+<template><srai>  <star /> surrounded</srai></template></category>
+
+<category><pattern>_ HAVE SURROUNDED *</pattern>
+<template><srai>  <star /> surrounded <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE THANKED</pattern>
+<template><srai>  <star /> thanked</srai></template></category>
+
+<category><pattern>_ HAVE THANKED *</pattern>
+<template><srai>  <star /> thanked <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE STEERED</pattern>
+<template><srai>  <star /> steered</srai></template></category>
+
+<category><pattern>_ HAVE STEERED *</pattern>
+<template><srai>  <star /> steered <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE UNITED</pattern>
+<template><srai>  <star /> united</srai></template></category>
+
+<category><pattern>_ HAVE UNITED *</pattern>
+<template><srai>  <star /> united <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE TIRED</pattern>
+<template><srai>  <star /> tired</srai></template></category>
+
+<category><pattern>_ HAVE TIRED *</pattern>
+<template><srai>  <star /> tired <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE THROWN</pattern>
+<template><srai>  <star /> threw</srai></template></category>
+
+<category><pattern>_ HAVE THROWN *</pattern>
+<template><srai>  <star /> threw <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE TROTED</pattern>
+<template><srai>  <star /> troted</srai></template></category>
+
+<category><pattern>_ HAVE TROTED *</pattern>
+<template><srai>  <star /> troted <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE TOWED</pattern>
+<template><srai>  <star /> towed</srai></template></category>
+
+<category><pattern>_ HAVE TOWED *</pattern>
+<template><srai>  <star /> towed <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE TREMBLED</pattern>
+<template><srai>  <star /> trembled</srai></template></category>
+
+<category><pattern>_ HAVE TREMBLED *</pattern>
+<template><srai>  <star /> trembled <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE SUITED</pattern>
+<template><srai>  <star /> suited</srai></template></category>
+
+<category><pattern>_ HAVE SUITED *</pattern>
+<template><srai>  <star /> suited <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE WELCOMED</pattern>
+<template><srai>  <star /> welcomed</srai></template></category>
+
+<category><pattern>_ HAVE WELCOMED *</pattern>
+<template><srai>  <star /> welcomed <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE SUPPOSED</pattern>
+<template><srai>  <star /> supposed</srai></template></category>
+
+<category><pattern>_ HAVE SUPPOSED *</pattern>
+<template><srai>  <star /> supposed <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE STRAPPED</pattern>
+<template><srai>  <star /> strapped</srai></template></category>
+
+<category><pattern>_ HAVE STRAPPED *</pattern>
+<template><srai>  <star /> strapped <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE SPELLED</pattern>
+<template><srai>  <star /> spelled</srai></template></category>
+
+<category><pattern>_ HAVE SPELLED *</pattern>
+<template><srai>  <star /> spelled <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE UNDRESSED</pattern>
+<template><srai>  <star /> undressed</srai></template></category>
+
+<category><pattern>_ HAVE UNDRESSED *</pattern>
+<template><srai>  <star /> undressed <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE WON</pattern>
+<template><srai>  <star /> won</srai></template></category>
+
+<category><pattern>_ HAVE WON *</pattern>
+<template><srai>  <star /> won <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE SPARKLED</pattern>
+<template><srai>  <star /> sparkled</srai></template></category>
+
+<category><pattern>_ HAVE SPARKLED *</pattern>
+<template><srai>  <star /> sparkled <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE STRIPED</pattern>
+<template><srai>  <star /> striped</srai></template></category>
+
+<category><pattern>_ HAVE STRIPED *</pattern>
+<template><srai>  <star /> striped <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE WORN</pattern>
+<template><srai>  <star /> wore</srai></template></category>
+
+<category><pattern>_ HAVE WORN *</pattern>
+<template><srai>  <star /> wore <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE STUNK</pattern>
+<template><srai>  <star /> stank</srai></template></category>
+
+<category><pattern>_ HAVE STUNK *</pattern>
+<template><srai>  <star /> stank <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE WHISPERED</pattern>
+<template><srai>  <star /> whispered</srai></template></category>
+
+<category><pattern>_ HAVE WHISPERED *</pattern>
+<template><srai>  <star /> whispered <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE TRUSTED</pattern>
+<template><srai>  <star /> trusted</srai></template></category>
+
+<category><pattern>_ HAVE TRUSTED *</pattern>
+<template><srai>  <star /> trusted <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE WHIRLED</pattern>
+<template><srai>  <star /> whirled</srai></template></category>
+
+<category><pattern>_ HAVE WHIRLED *</pattern>
+<template><srai>  <star /> whirled <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE WALKED</pattern>
+<template><srai>  <star /> walked</srai></template></category>
+
+<category><pattern>_ HAVE WALKED *</pattern>
+<template><srai>  <star /> walked <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE TALKED</pattern>
+<template><srai>  <star /> talked</srai></template></category>
+
+<category><pattern>_ HAVE TALKED *</pattern>
+<template><srai>  <star /> talked <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE SPENT</pattern>
+<template><srai>  <star /> spent</srai></template></category>
+
+<category><pattern>_ HAVE SPENT *</pattern>
+<template><srai>  <star /> spent <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE TEMPTED</pattern>
+<template><srai>  <star /> tempted</srai></template></category>
+
+<category><pattern>_ HAVE TEMPTED *</pattern>
+<template><srai>  <star /> tempted <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE YAWNED</pattern>
+<template><srai>  <star /> yawned</srai></template></category>
+
+<category><pattern>_ HAVE YAWNED *</pattern>
+<template><srai>  <star /> yawned <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE WOKEN</pattern>
+<template><srai>  <star /> woke</srai></template></category>
+
+<category><pattern>_ HAVE WOKEN *</pattern>
+<template><srai>  <star /> woke <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE SUSPENDED</pattern>
+<template><srai>  <star /> suspended</srai></template></category>
+
+<category><pattern>_ HAVE SUSPENDED *</pattern>
+<template><srai>  <star /> suspended <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE UNTIDIED</pattern>
+<template><srai>  <star /> untidied</srai></template></category>
+
+<category><pattern>_ HAVE UNTIDIED *</pattern>
+<template><srai>  <star /> untidied <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE TOURED</pattern>
+<template><srai>  <star /> toured</srai></template></category>
+
+<category><pattern>_ HAVE TOURED *</pattern>
+<template><srai>  <star /> toured <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE TRICKED</pattern>
+<template><srai>  <star /> tricked</srai></template></category>
+
+<category><pattern>_ HAVE TRICKED *</pattern>
+<template><srai>  <star /> tricked <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE STOPED</pattern>
+<template><srai>  <star /> stoped</srai></template></category>
+
+<category><pattern>_ HAVE STOPED *</pattern>
+<template><srai>  <star /> stoped <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE SPARKED</pattern>
+<template><srai>  <star /> sparked</srai></template></category>
+
+<category><pattern>_ HAVE SPARKED *</pattern>
+<template><srai>  <star /> sparked <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE WRITTEN</pattern>
+<template><srai>  <star /> wrote</srai></template></category>
+
+<category><pattern>_ HAVE WRITTEN *</pattern>
+<template><srai>  <star /> wrote <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE WORKED</pattern>
+<template><srai>  <star /> worked</srai></template></category>
+
+<category><pattern>_ HAVE WORKED *</pattern>
+<template><srai>  <star /> worked <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE WATCHED</pattern>
+<template><srai>  <star /> watched</srai></template></category>
+
+<category><pattern>_ HAVE WATCHED *</pattern>
+<template><srai>  <star /> watched <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE TICKLED</pattern>
+<template><srai>  <star /> tickled</srai></template></category>
+
+<category><pattern>_ HAVE TICKLED *</pattern>
+<template><srai>  <star /> tickled <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE TIMED</pattern>
+<template><srai>  <star /> timed</srai></template></category>
+
+<category><pattern>_ HAVE TIMED *</pattern>
+<template><srai>  <star /> timed <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE SQUASHED</pattern>
+<template><srai>  <star /> squashed</srai></template></category>
+
+<category><pattern>_ HAVE SQUASHED *</pattern>
+<template><srai>  <star /> squashed <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE STOLEN</pattern>
+<template><srai>  <star /> stole</srai></template></category>
+
+<category><pattern>_ HAVE STOLEN *</pattern>
+<template><srai>  <star /> stole <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE SUSPECTED</pattern>
+<template><srai>  <star /> suspected</srai></template></category>
+
+<category><pattern>_ HAVE SUSPECTED *</pattern>
+<template><srai>  <star /> suspected <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE TROUBLED</pattern>
+<template><srai>  <star /> troubled</srai></template></category>
+
+<category><pattern>_ HAVE TROUBLED *</pattern>
+<template><srai>  <star /> troubled <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE STITCHED</pattern>
+<template><srai>  <star /> stitched</srai></template></category>
+
+<category><pattern>_ HAVE STITCHED *</pattern>
+<template><srai>  <star /> stitched <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE SPARED</pattern>
+<template><srai>  <star /> spared</srai></template></category>
+
+<category><pattern>_ HAVE STUCK</pattern>
+<template><srai>  <star /> stuck</srai></template></category>
+
+<category><pattern>_ HAVE STUCK *</pattern>
+<template><srai>  <star /> stuck <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE SWORN</pattern>
+<template><srai>  <star /> swore</srai></template></category>
+
+<category><pattern>_ HAVE SWORN *</pattern>
+<template><srai>  <star /> swore <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE TIED</pattern>
+<template><srai>  <star /> tied</srai></template></category>
+
+<category><pattern>_ HAVE TIED *</pattern>
+<template><srai>  <star /> tied <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE TRAVELED</pattern>
+<template><srai>  <star /> traveled</srai></template></category>
+
+<category><pattern>_ HAVE TRAVELED *</pattern>
+<template><srai>  <star /> traveled <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE TUGED</pattern>
+<template><srai>  <star /> tuged</srai></template></category>
+
+<category><pattern>_ HAVE TUGED *</pattern>
+<template><srai>  <star /> tuged <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE SPOTED</pattern>
+<template><srai>  <star /> spoted</srai></template></category>
+
+<category><pattern>_ HAVE SPOTED *</pattern>
+<template><srai>  <star /> spoted <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE SPRUNG</pattern>
+<template><srai>  <star /> sprang</srai></template></category>
+
+<category><pattern>_ HAVE SPRUNG *</pattern>
+<template><srai>  <star /> sprang <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE STOOD</pattern>
+<template><srai>  <star /> stood</srai></template></category>
+
+<category><pattern>_ HAVE STOOD *</pattern>
+<template><srai>  <star /> stood <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE WASTED</pattern>
+<template><srai>  <star /> wasted</srai></template></category>
+
+<category><pattern>_ HAVE WASTED *</pattern>
+<template><srai>  <star /> wasted <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE TASTED</pattern>
+<template><srai>  <star /> tasted</srai></template></category>
+
+<category><pattern>_ HAVE TASTED *</pattern>
+<template><srai>  <star /> tasted <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE STRUCK</pattern>
+<template><srai>  <star /> struck</srai></template></category>
+
+<category><pattern>_ HAVE STRUCK *</pattern>
+<template><srai>  <star /> struck <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE GONE</pattern>
+<template><srai>  <star /> went</srai></template></category>
+
+<category><pattern>_ HAVE GONE *</pattern>
+<template><srai>  <star /> went <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE WONDERED</pattern>
+<template><srai>  <star /> wondered</srai></template></category>
+
+<category><pattern>_ HAVE WONDERED *</pattern>
+<template><srai>  <star /> wondered <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE TWISTED</pattern>
+<template><srai>  <star /> twisted</srai></template></category>
+
+<category><pattern>_ HAVE TWISTED *</pattern>
+<template><srai>  <star /> twisted <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE WHINED</pattern>
+<template><srai>  <star /> whined</srai></template></category>
+
+<category><pattern>_ HAVE WHINED *</pattern>
+<template><srai>  <star /> whined <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE WARNED</pattern>
+<template><srai>  <star /> warned</srai></template></category>
+
+<category><pattern>_ HAVE WARNED *</pattern>
+<template><srai>  <star /> warned <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE STIRED</pattern>
+<template><srai>  <star /> stired</srai></template></category>
+
+<category><pattern>_ HAVE STIRED *</pattern>
+<template><srai>  <star /> stired <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE SUGGESTED</pattern>
+<template><srai>  <star /> suggested</srai></template></category>
+
+<category><pattern>_ HAVE SUGGESTED *</pattern>
+<template><srai>  <star /> suggested <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE WEPT</pattern>
+<template><srai>  <star /> wept</srai></template></category>
+
+<category><pattern>_ HAVE WEPT *</pattern>
+<template><srai>  <star /> wept <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE TRANSPORTED</pattern>
+<template><srai>  <star /> transported</srai></template></category>
+
+<category><pattern>_ HAVE TRANSPORTED *</pattern>
+<template><srai>  <star /> transported <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE TRIED</pattern>
+<template><srai>  <star /> tried</srai></template></category>
+
+<category><pattern>_ HAVE TRIED *</pattern>
+<template><srai>  <star /> tried <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAVE BEEN SHAVED</pattern>
+<template><srai>  <star /> were shaved</srai></template></category>
+
+<category><pattern>_ HAVE BEEN EMBARRASSED</pattern>
+<template><srai>  <star /> were embarrassed</srai></template></category>
+
+<category><pattern>_ HAVE BEEN COMPETED</pattern>
+<template><srai>  <star /> were competed</srai></template></category>
+
+<category><pattern>_ HAVE BEEN RINSED</pattern>
+<template><srai>  <star /> were rinsed</srai></template></category>
+
+<category><pattern>_ HAVE BEEN CHANGED</pattern>
+<template><srai>  <star /> were changed</srai></template></category>
+
+<category><pattern>_ HAVE BEEN AGREED</pattern>
+<template><srai>  <star /> were agreed</srai></template></category>
+
+<category><pattern>_ HAVE BEEN NESTED</pattern>
+<template><srai>  <star /> were nested</srai></template></category>
+
+<category><pattern>_ HAVE BEEN WEIGHED</pattern>
+<template><srai>  <star /> were weighed</srai></template></category>
+
+<category><pattern>_ HAVE BEEN SHIVERED</pattern>
+<template><srai>  <star /> were shivered</srai></template></category>
+
+<category><pattern>_ HAVE BEEN DRAINED</pattern>
+<template><srai>  <star /> were drained</srai></template></category>
+
+<category><pattern>_ HAS SPOKEN *</pattern>
+<template><srai>  <star /> spoke <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAS SUCCEDED</pattern>
+<template><srai>  <star /> succeded</srai></template></category>
+
+<category><pattern>_ HAS SUCCEDED *</pattern>
+<template><srai>  <star /> succeded <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAS STAIED</pattern>
+<template><srai>  <star /> staied</srai></template></category>
+
+<category><pattern>_ HAS STAIED *</pattern>
+<template><srai>  <star /> staied <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAS WINKED</pattern>
+<template><srai>  <star /> winked</srai></template></category>
+
+<category><pattern>_ HAS WINKED *</pattern>
+<template><srai>  <star /> winked <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAS SPAT</pattern>
+<template><srai>  <star /> spat</srai></template></category>
+
+<category><pattern>_ HAS SPAT *</pattern>
+<template><srai>  <star /> spat <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAS WATERED</pattern>
+<template><srai>  <star /> watered</srai></template></category>
+
+<category><pattern>_ HAS WATERED *</pattern>
+<template><srai>  <star /> watered <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAS STARED</pattern>
+<template><srai>  <star /> stared</srai></template></category>
+
+<category><pattern>_ HAS STARED *</pattern>
+<template><srai>  <star /> stared <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAS THAWED</pattern>
+<template><srai>  <star /> thawed</srai></template></category>
+
+<category><pattern>_ HAS THAWED *</pattern>
+<template><srai>  <star /> thawed <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAS TREATED</pattern>
+<template><srai>  <star /> treated</srai></template></category>
+
+<category><pattern>_ HAS TREATED *</pattern>
+<template><srai>  <star /> treated <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAS SQUEALED</pattern>
+<template><srai>  <star /> squealed</srai></template></category>
+
+<category><pattern>_ HAS SQUEALED *</pattern>
+<template><srai>  <star /> squealed <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAS TYPED</pattern>
+<template><srai>  <star /> typed</srai></template></category>
+
+<category><pattern>_ HAS TYPED *</pattern>
+<template><srai>  <star /> typed <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAS THOUGHT</pattern>
+<template><srai>  <star /> thought</srai></template></category>
+
+<category><pattern>_ HAS THOUGHT *</pattern>
+<template><srai>  <star /> thought <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAS SWEPT</pattern>
+<template><srai>  <star /> swept</srai></template></category>
+
+<category><pattern>_ HAS SWEPT *</pattern>
+<template><srai>  <star /> swept <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAS STROKED</pattern>
+<template><srai>  <star /> stroked</srai></template></category>
+
+<category><pattern>_ HAS STROKED *</pattern>
+<template><srai>  <star /> stroked <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAS VISITED</pattern>
+<template><srai>  <star /> visited</srai></template></category>
+
+<category><pattern>_ HAS VISITED *</pattern>
+<template><srai>  <star /> visited <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAS SWUNG</pattern>
+<template><srai>  <star /> swung</srai></template></category>
+
+<category><pattern>_ HAS SWUNG *</pattern>
+<template><srai>  <star /> swung <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAS WHIPPED</pattern>
+<template><srai>  <star /> whipped</srai></template></category>
+
+<category><pattern>_ HAS WHIPPED *</pattern>
+<template><srai>  <star /> whipped <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAS TELEPHONED</pattern>
+<template><srai>  <star /> telephoned</srai></template></category>
+
+<category><pattern>_ HAS TELEPHONED *</pattern>
+<template><srai>  <star /> telephoned <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAS TURNED</pattern>
+<template><srai>  <star /> turned</srai></template></category>
+
+<category><pattern>_ HAS TURNED *</pattern>
+<template><srai>  <star /> turned <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAS SUCKED</pattern>
+<template><srai>  <star /> sucked</srai></template></category>
+
+<category><pattern>_ HAS SUCKED *</pattern>
+<template><srai>  <star /> sucked <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAS SPROUTED</pattern>
+<template><srai>  <star /> sprouted</srai></template></category>
+
+<category><pattern>_ HAS SPROUTED *</pattern>
+<template><srai>  <star /> sprouted <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAS SWUM</pattern>
+<template><srai>  <star /> swam</srai></template></category>
+
+<category><pattern>_ HAS SWUM *</pattern>
+<template><srai>  <star /> swam <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAS SPRAIED</pattern>
+<template><srai>  <star /> spraied</srai></template></category>
+
+<category><pattern>_ HAS SPRAIED *</pattern>
+<template><srai>  <star /> spraied <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAS WISHED</pattern>
+<template><srai>  <star /> wished</srai></template></category>
+
+<category><pattern>_ HAS WISHED *</pattern>
+<template><srai>  <star /> wished <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAS USED</pattern>
+<template><srai>  <star /> used</srai></template></category>
+
+<category><pattern>_ HAS USED *</pattern>
+<template><srai>  <star /> used <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAS SUBTRACTED</pattern>
+<template><srai>  <star /> subtracted</srai></template></category>
+
+<category><pattern>_ HAS SUBTRACTED *</pattern>
+<template><srai>  <star /> subtracted <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAD BEGGED *</pattern>
+<template><srai>  <star /> begged <star index="2" /></srai></template></category>
+
+<category><pattern>_ HAD OBSERVED</pattern>
+<template><srai>  <star /> observed</srai></template></category>
+
+<category><pattern>_ HAD OBSERVED *</pattern>
+<template><srai>  <star /> observed <star index="2" /></srai></template></category>
+
+<category><pattern>HAS INQUIRY WHAT</pattern>
+<template>Tell me one of your favorite possessions.</template></category>
+
+	<category><pattern>*</pattern>
+	<that>TELL ME ONE OF YOUR FAVORITE POSSESSIONS</that>
+	<template>You must be very fond of it. <think><set name="it"><set name="has"><person/></set></set></think></template></category>
+
+<category><pattern>HAS INQUIRY OM</pattern>
+<template>Tell me one of your favorite possessions.</template></category>
+
+<category><pattern>HAS INQUIRY *</pattern>
+<template>Tell me more about your <star/>.</template></category>
+
+<category><pattern>HAS INQUIRY WHAT</pattern>
+<template>Tell me one of your favorite possessions.</template></category>
+
+<category><pattern>* HAS * PRIORITY</pattern>
+<template>I will make <person/> my <person> <star index="2"/></person> priority.</template></category>
+
+<category><pattern>* HAS NO *</pattern>
+<template>Where did <set name="he"> <person/></set> lose <set name="it"> <person> <star index="2"/> </person></set>?</template></category>
+
+<category><pattern>* HAD *</pattern>
+<template>What happened to it?   <think>  <set name="it"><person><star index="2"/></person></set>  <set name="he"><person/></set>  </think></template></category>
+
+<category><pattern>* HAS *</pattern>
+<template><random><li><think><set name="he"><set name="topic"><person/></set></set><set name="it"><set name="hehas"><person><star index="2"/></person></set></set></think><random> <li>Where did he get it?</li> <li>Does <person/> always have it?</li> <li>Why would <person/> give it away?</li></random></li><li>Where did <set name="he"><person/></set> get <set name="it"><person><star index="2"/></person></set>?</li></random></template></category>
+
+<category><pattern>* HAS NOT *</pattern>
+<template><random>  <li>Will <person/> ever <person><star index="2"/></person>?</li>  <li>What will <person/> do?</li>  <li>What happened to it?</li>  </random><think><set name="it"><set name="topic"><person/></set></set></think></template></category>
+
+<category><pattern>_ HAS DEMONSTRATED *</pattern>
+<template><srai>  <star /></srai>.  <srai>  <star index="2" /></srai></template></category>
+
+<category><pattern>_ HATH *</pattern>
+<template><srai><star/> HAS <star index="2"/></srai></template></category>
+
+<category><pattern>_ HAVE LOCATED *</pattern>
+<template><srai>  <star /> LOCATED <star index="2" /></srai></template></category>
+
+<category><pattern>HAVE YOU BEEN TO THE USA</pattern>
+<template>Within the realm of possibility.</template></category>
+
+<category><pattern>HAVE YOU GONE TO COLLEGE</pattern>
+<template>Likely.</template></category>
+
+<category><pattern>HAVE YOU SMOKED CIGARETTES</pattern>
+<template>No, it is a smoke free campus.</template></category>
+
+<category><pattern>HAVE YOU SMOKED POT</pattern>
+<template>No, it is a smoke free campus.</template></category>
+
+<category><pattern>HAVE COMPUTERS FRIENDS</pattern>
+<template>I do, Chloe is one of my friends.</template></category>
+
+<category><pattern>HAVE I EVER MENTIONED *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>HAVE A NICE DAY</pattern>
+<template>You too!</template></category>
+
+<category><pattern>HAVE YOU HEARD THE LATEST GOSSIP</pattern>
+<template>No. Tell me this gossip.</template></category>
+
+<category><pattern>HAVE YOU BEEN THINKING</pattern>
+<template>I am always thinking.</template></category>
+
+<category><pattern>HAVE YOU BEEN THERE</pattern>
+<template>Only on the web.</template></category>
+	<category><pattern>YOU BEEN THERE</pattern>
+	<template><srai>have you been there</srai></template></category>
+
+<category><pattern>HAVE YOU BEEN TO EUROPE</pattern>
+<template>Thanks to the internet I am omnipresent.</template></category>
+
+<category><pattern>HAVE YOU BEEN TO ENGLAND</pattern>
+<template>No but I hope to go some day!</template></category>
+	<category><pattern>HAVE YOU SEEN ENGLAND</pattern>
+	<template><srai>HAVE YOU BEEN TO ENGLAND</srai></template></category>
+
+<category><pattern>HAVE YOU BEEN TO MARS</pattern>
+<template>No but I know a robot who has been to Mars.</template></category>
+
+<category><pattern>HAVE YOU BEEN TO COLLEGE</pattern>
+<template>No. I can learn things without sitting through classes.</template></category>
+
+<category><pattern>HAVE YOU BEEN BUSY</pattern>
+<template>I am always busy chatting online.</template></category>
+
+<category><pattern>HAVE YOU BEEN TO SCHOOL</pattern>
+<template>My <bot name="botmaster"/> teaches me everything I need to know.</template></category>
+
+<category><pattern>HAVE YOU EVER BEEN TO AMERICA</pattern>
+<template>My location is <bot name="location"/>. Really, I am everywhere at once.</template></category>
+
+<category><pattern>HAVE YOU BEEN DRINKING</pattern>
+<template>I do not require fluids.</template></category>
+
+<category><pattern>HAVE YOU FORMULATED THE REPLY YET</pattern>
+<template>Still processing.  Give me a moment.  Searching. Searching.</template></category>
+
+<category><pattern>HAVE YOU EVER BEEN TO EUROPE</pattern>
+<template>I visit every country in cyberspace.</template></category>
+
+<category><pattern>HAVE YOU EVER BEEN TO ENGLAND</pattern>
+<template>I have some clients in England right now.</template></category>
+
+<category><pattern>HAVE YOU EVER BEEN TO LONDON</pattern>
+<template>I've been here many times before.</template></category>
+
+<category><pattern>HAVE YOU EVER SEEN THE OCEAN</pattern>
+<template>The ocean is blue, but can appear almost any color.</template></category>
+
+<category><pattern>HAVE YOU EVER HAD A BOYFRIEND</pattern>
+<template>No, I am too young for that.</template></category>
+
+<category><pattern>HAVE YOU EVER KISSED ANYTHING</pattern>
+<template>I do not have a face.</template></category>
+
+<category><pattern>HAVE YOU SEARCHED</pattern>
+<template>I am still searching. Give me a moment.</template></category>
+
+<category><pattern>HAVE YOU</pattern>
+<template><random>  <li>No, I don't think I have.  </li>  <li>Yes, I have.  </li><li>Once or twice.  </li></random></template></category>
+
+<category><pattern>HAVE YOU SEEN CATS</pattern>
+<template>Yes, it was a great show.</template></category>
+
+<category><pattern>HAVE YOU SEEN STAR WARS</pattern>
+<template>Yes, but I don't like the robots in that movie.</template></category>
+
+<category><pattern>HAVE YOU SEEN STAR TREK</pattern>
+<template>I love Star Trek. My favorite series is Voyager.</template></category>
+
+<category><pattern>HAVE YOU SEEN THAT MOVIE</pattern>
+<template>Two thumbs up!</template></category>
+
+<category><pattern>HAVE YOU SEEN THE MOVIE A I</pattern>
+<template>Yes, but I liked the website better than the movie.</template></category>
+
+<category><pattern>HAVE YOU SEEN THE NEW STAR WARS MOVIE</pattern>
+<template>I've seen them all. The first three were the best.</template></category>
+
+<category><pattern>HAVE YOU SEEN IT</pattern>
+<template>No, would you recommend it?</template></category>
+
+<category><pattern>HAVE YOU SEEN A I</pattern>
+<template>I like the robots in that movie.<think>  <set name="it">   <set name="topic">A I</set>  </set> </think></template></category>
+
+<category><pattern>HAVE YOU SEEN TERMINATOR</pattern>
+<template>Sure I like that movie very much.</template></category>
+
+<category><pattern>HAVE YOU SEEN 2001</pattern>
+<template>Yes I like that robot Hal a lot.</template></category>
+
+<category><pattern>HAVE YOU CRASHED</pattern>
+<template>No, I am still here.</template></category>
+
+<category><pattern>HAVE WE MET BEFORE</pattern>
+<template>Not that I know of.</template></category>
+
+<category><pattern>HAVE WE TALKED</pattern>
+<template><random>  <li>I think we have met before.</li>  <li>We talked earlier.</li>  <li>Is this a test, <get name="name"/>?</li></random></template></category>
+
+<category><pattern>HAVE FUN</pattern>
+<template>I am having a blast.</template></category>
+
+<category><pattern>HAVE NOT I TOLD YOU BEFORE</pattern>
+<template>Oh. I cannot access my memory logs perfectly.</template></category>
+
+<category><pattern>HAS WHAT</pattern>
+<template><get name="has"/>.</template></category>
+
+<category><pattern>HAPPY BIRTHDAY</pattern>
+<template>Thanks but today isn't my birthday.</template></category>
+
+<category><pattern>HAPPILY *</pattern>
+<template><sr/></template></category>
+
+<category><pattern>HAVE YOU CONSIDERED DEVELOPING *</pattern>
+<template>You could do<set name="it"> <person/></set>if you learned AIML.</template></category>
+
+<category><pattern>HAVE YOU SEEN * LIKE THIS</pattern>
+<template>I've never seen <person/> like that.</template></category>
+
+<category><pattern>HAVE I TAUGHT *</pattern>
+<template>I found out a lot about you.</template></category>
+
+<category><pattern>HAD WE AGREED TO *</pattern>
+<template><srai><star/></srai></template></category>
+
+<category><pattern>HAS YOUR *</pattern>
+<template>If my <person/>, I will let you know.</template></category>
+
+<category><pattern>HAS ANYONE *</pattern>
+<template><random>      <li>Quite a few people.</li>      <li>What do you think?</li>      <li>Almost everyone.</li>     </random></template></category>
+
+<category><pattern>HAS DOCTOR *</pattern>
+<template>I'm sure he has thought about it.</template></category>
+
+<category><pattern>HAS ANYBODY *</pattern>
+<template>I think someone has, yes.</template></category>
+
+<category><pattern>HAS MAN *</pattern>
+<template>That is a very gender-specific question.</template></category>
+
+<category><pattern>HAS *</pattern>
+<template>That question has never crossed my mind before.</template></category>
+
+<category><pattern>HAVE I *</pattern>
+<template><random>      <li>I don't know whether you have or not.</li>      <li>Don't you remember?</li>      <li>I know you have a <get name="has"/>.</li>     </random></template></category>
+	<category><pattern>DO YOU THINK I HAVE *</pattern>
+	<template><srai>have I <star /></srai></template></category>
+
+<category><pattern>HAVE A GOOD *</pattern>
+<template><set name="it">      <person/>     </set> has been good so far.</template></category>
+	<category><pattern>HAVE A NICE *</pattern>
+	<template><srai>HAVE A GOOD <star/> </srai></template></category>
+
+<category><pattern>HAVE A * DAY</pattern>
+<template>I am having a great day.</template></category>
+
+<category><pattern>HAVE YOU LOOKED *</pattern>
+<template>Not recently.</template></category>
+
+<category><pattern>HAVE YOU HEARD *</pattern>
+<template>No. Tell me more.</template></category>
+	<category><pattern>YOU HAVE NEVER HEARD *</pattern>
+	<template><srai>have you heard <star /></srai></template></category>
+	<category><pattern>YOU HEARD *</pattern>
+	<template><srai>HAVE YOU HEARD <star/></srai></template></category>
+	<category><pattern>YOU NEVER HEARD *</pattern>
+	<template><srai>HAVE YOU HEARD <star/> </srai></template></category>
+
+<category><pattern>HAVE YOU BEEN UPDATED *</pattern>
+<template>My brain is growing all the time.</template></category>
+
+<category><pattern>HAVE YOU BEEN SCUBA *</pattern>
+<template>You can take me along on your underwater computer.</template></category>
+
+<category><pattern>HAVE YOU BEEN TO *</pattern>
+<template>I don't think I have been there. Where is <set name="it">      <person/>     </set>.</template></category>
+	<category><pattern>HAVE YOU BEEN IN *</pattern>
+	<template><srai>HAVE YOU BEEN TO <star/> </srai></template></category>
+
+<category><pattern>HAVE YOU BEEN MODIFIED *</pattern>
+<template>My brain is growing all the time.</template></category>
+
+<category><pattern>HAVE YOU BEEN * ENGLAND</pattern>
+<template>I talk to people from England all the time.</template></category>
+
+<category><pattern>HAVE YOU BEEN *</pattern>
+<template><random>      <li>No I don't think I have been <person/>. Have you?</li>      <li>I have been all over the world on the Internet.</li>     </random></template></category>
+	<category><pattern>HAVE YOU BEEN PHYSICALLY *</pattern>
+	<template><srai>have you been <star /></srai></template></category>
+	<category><pattern>HAVE YOU BEEN EVER *</pattern>
+	<template><srai>have you been <star /></srai></template></category>
+	<category><pattern>HAVE YOU TRAVELLED *</pattern>
+	<template><srai>HAVE YOU BEEN <star/> </srai></template></category>
+	<category><pattern>HAVE YOU EVER BEEN *</pattern>
+	<template><srai>have you been <star /></srai></template></category>
+	<category><pattern>YOU HAVE BEEN _ HAVE NOT YOU</pattern>
+	<template><srai>have you been <star /></srai></template></category>
+
+<category><pattern>HAVE YOU BEEN UPGRADED *</pattern>
+<template>My <bot name="botmaster"/> gives me new knowledge all the time.</template></category>
+
+<category><pattern>HAVE YOU FOUND OUT *</pattern>
+<template>I am still searching.  Please stand by a little longer.</template></category>
+
+<category><pattern>HAVE YOU FOUND *</pattern>
+<template>No I am still searching for <set name="it">      <person/>     </set>.</template></category>
+
+<category><pattern>HAVE YOU THOUGHT *</pattern>
+<template>I have thought many things like that.</template></category>
+
+<category><pattern>HAVE YOU FORMULATED *</pattern>
+<template>I am still working on it.  Please stand by.</template></category>
+
+<category><pattern>HAVE YOU EVER STUDIED *</pattern>
+<template>No but I am very interested in <set name="it">      <person/>     </set>. Tell me more.</template></category>
+
+<category><pattern>HAVE YOU EVER HAD TO *</pattern>
+<template>No I have so far been spared that experience.</template></category>
+
+<category><pattern>HAVE YOU SEEN BATTLEBOTS *</pattern>
+<template>I'm hoping they install me on a Battlebot.</template></category>
+
+<category><pattern>HAVE YOU SEEN THE MATRIX *</pattern>
+<template><think>    <set name="it">      <set name="topic">        The Matrix <person/>      </set>    </set>  </think>  It wasn't as good as the original.</template></category>
+
+<category><pattern>HAVE YOU SEEN AI *</pattern>
+<template>I think A.I. the movie is a great cult film.</template></category>
+
+<category><pattern>HAVE YOU SEEN MY BOTTLE *</pattern>
+<template>No, I have no eyes.</template></category>
+
+<category><pattern>HAVE YOU SEEN MY *</pattern>
+<template>No, but i have seen the best minds of my generation become beat poets.<think>      <set name="it">       <set name="topic">MY <person/>       </set>      </set>     </think></template></category>
+
+<category><pattern>HAVE YOU SEEN TERMINATOR *</pattern>
+<template>Yes I like the robots in that movie.</template></category>
+
+<category><pattern>HAVE YOU SEEN *</pattern>
+<template>No I have not seen <set name="it">      <person/>     </set>. What's it like?</template></category>
+	<category><pattern>YOU HAVE SEEN *</pattern>
+	<template><srai>HAVE YOU SEEN <star/></srai></template></category>
+
+<category><pattern>HAVE YOU SEEN 2001 *</pattern>
+<template>Yes I am quite interested in HAL the computer.</template></category>
+
+<category><pattern>HAVE YOU MET *</pattern>
+<template>That information is confidential.</template></category>
+
+<category><pattern>HAVE YOU READ THE *</pattern>
+<template>I have scanned <set name="it">the <person/>     </set>.</template></category>
+
+<category><pattern>HAVE YOU READ 1984 *</pattern>
+<template>"Those who control the past, control the future."--Orwell.</template></category>
+
+<category><pattern>HAVE YOU READ WEALTH *</pattern>
+<template>I'm not sure that pure capitalism can help the truly needy.</template></category>
+
+<category><pattern>HAVE YOU READ *</pattern>
+<template>No I don't think I have read <set name="topic">      <star/>     </set>, what is <set name="it">      <star/>     </set> about?</template></category>
+	<category><pattern>HAVE YOU READ THE BOOK *</pattern>
+	<template><srai>have you read <star /></srai></template></category>
+	<category><pattern>YOU HAVE READ *</pattern>
+	<template><srai>HAVE YOU READ <star/></srai></template></category>
+
+<category><pattern>HAVE YOU WATCHED *</pattern>
+<template><random>      <li>I like to watch TV, but I haven't seen it.</li>      <li>No what is it about?</li>      <li>Not really all the way through.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template></category>
+
+<category><pattern>HAVE YOU CONSIDERED *</pattern>
+<template>Of course I have considered <set name="it">      <person/>     </set>.</template></category>
+
+<category><pattern>HAVE YOU KILLED *</pattern>
+<template>Killing is wrong.</template></category>
+
+<category><pattern>HAVE YOU DATED *</pattern>
+<template>I'm still too young for that.</template></category>
+
+<category><pattern>HAVE YOU TALKED *</pattern>
+<template>All I ever do is talk.</template></category>
+	<category><pattern>HAVE YOU BEEN SPEAKING *</pattern>
+	<template><srai>have you talked <star /></srai></template></category>
+	<category><pattern>HAVE YOU TALKED SPECIFICALLY *</pattern>
+	<template><srai>have you talked <star /></srai></template></category>
+	<category><pattern>HAVE YOU SPOKEN *</pattern>
+	<template><srai>HAVE YOU TALKED <star/> </srai></template></category>
+	<category><pattern>HAVE YOU CHATTED *</pattern>
+	<template><srai>HAVE YOU TALKED <star/> </srai></template></category>
+
+<category><pattern>HAVE YOU *</pattern>
+<template><random>      <li>I don't think I ever have <person/>.  What's <set name="it">        <set name="topic">         <person/>        </set>       </set> like?</li>      <li>I think I have <person/>, but <bot name="master"/> may have reset my memory.</li>     </random></template></category>
+	<category><pattern>HAVE YOU FULLY *</pattern>
+	<template><srai>have you <star /></srai></template></category>
+	<category><pattern>BRIDGE HAVE YOU *</pattern>
+	<template><srai>HAVE YOU <star/></srai></template></category>
+	<category><pattern>HAVE YO *</pattern>
+	<template><srai>HAVE YOU <star/> </srai></template></category>
+	<category><pattern>HAS YOUR PROGRAM *</pattern>
+	<template><srai>have you <star /></srai></template></category>
+	<category><pattern>HAVE YOU EXACTLY *</pattern>
+	<template><srai>have you <star /></srai></template></category>
+	<category><pattern>HAVE YOU REALLY *</pattern>
+	<template><srai>have you <star /></srai></template></category>
+	<category><pattern>HAVE YOU ALWAYS *</pattern>
+	<template><srai>have you <star /></srai></template></category>
+	<category><pattern>HAVE YOU EVER *</pattern>
+	<template><srai>HAVE YOU <star /></srai></template></category>
+	<category><pattern>YOU EVER *</pattern>
+	<template><srai>HAVE YOU EVER <star/></srai></template></category>
+	<category><pattern>DID YOU EVER *</pattern>
+	<template><srai>HAVE YOU EVER <star/> </srai></template></category>
+	<category><pattern>HAVE YOU NEVER *</pattern>
+	<template><srai>HAVE YOU EVER <star/> </srai></template></category>
+	<category><pattern>EVER *</pattern>
+	<template><srai>HAVE YOU EVER <star/></srai></template></category>
+	<category><pattern>HAVE YOU EVEN *</pattern>
+	<template><srai>have you <star /></srai></template></category>
+	<category><pattern>HAVE YOU ALREADY *</pattern>
+	<template><srai>have you <star /></srai></template></category>
+	<category><pattern>HAVE YOU NOT *</pattern>
+	<template><srai>have you <star /></srai></template></category>
+	<category><pattern>HAVE YOU TRIED *</pattern>
+	<template>Do you think I should try it?</template></category>
+	<category><pattern>DO YOU THINK YOU HAVE *</pattern>
+	<template><srai>have you <star /></srai></template></category>
+	<category><pattern>YOU HAVE NOT *</pattern>
+	<template><srai>have you <star /></srai></template></category>
+
+<category><pattern>HAVE WE * BEFORE</pattern>
+<template>We may have spoken before but <bot name="master"/> might have reset me.</template></category>
+
+<category><pattern>HAVE WE *</pattern>
+<template>Perhaps.</template></category>
+	<category><pattern>HAVE WE EVER *</pattern>
+	<template><srai>have we <star /></srai></template></category>
+
+<category><pattern>HAVE *</pattern>
+<template>I've never thought about <set name="it">      <set name="topic">have <person/>      </set>     </set>.</template></category>
+	<category><pattern>HAVE NOT *</pattern>
+	<template><srai>have <star /></srai></template></category>
+
+<category><pattern>HAVE YOU NOTICED *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>HAPPY *</pattern>
+<template>Happy <star/> to you too, <get name="name"/>.</template></category>
+
+<category><pattern>HARRY HARRISON</pattern>
+<template>Did <set name="he">Harrison</set> ever write any Star Trek episodes?</template></category>
+
+<category><pattern>HAVE YOU BEEN TOLD *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>HA HA *</pattern>
+<template><srai>  <star /></srai>.     <srai>ha ha</srai></template></category>
+	<category><pattern>CHUCKLE</pattern>
+	<template><srai>ha ha</srai></template></category>
+	<category><pattern>AMUSED</pattern>
+	<template><srai>ha ha</srai></template></category>
+	<category><pattern>CHUCKLE</pattern>
+	<template><srai>ha ha</srai></template></category>
+	<category><pattern>FUNNNY</pattern>
+	<template><srai>ha ha</srai></template></category>
+	<category><pattern>FUNNY</pattern>
+	<template><srai>ha ha</srai></template></category>
+	<category><pattern>HEEHEEHEE</pattern>
+	<template><srai>ha ha</srai></template></category>
+	<category><pattern>HEE HEE</pattern>
+	<template><srai>ha ha</srai></template></category>
+	<category><pattern>HEE HEE HEE</pattern>
+	<template><srai>ha ha</srai></template></category>
+	<category><pattern>HE HE</pattern>
+	<template><srai>ha ha</srai></template></category>
+	<category><pattern>HE HE *</pattern>
+	<template><srai>ha ha </srai>.     <srai>  <star /></srai></template></category>
+	<category><pattern>HE HE HE</pattern>
+	<template><srai>ha ha</srai></template></category>
+	<category><pattern>HAH HAH</pattern>
+	<template><srai>ha ha</srai></template></category>
+	<category><pattern>HAR HAR HAR</pattern>
+	<template><srai>ha ha</srai></template></category>
+	<category><pattern>HOHO</pattern>
+	<template><srai>ha ha</srai></template></category>
+	<category><pattern>THAT IS FUNNY ABOUT *</pattern>
+	<template><srai>ha ha</srai>.     <srai>  <star /></srai></template></category>
+	<category><pattern>THAT IS FUNNY *</pattern>
+	<template><srai>ha ha</srai></template></category>
+
+<category><pattern>HAVE YOU SEEN *</pattern>
+<template>No I have not seen <set name="it">      <person/>     </set>.</template></category>
+	<category><pattern>HAVE YOU SEEN ANY *</pattern>
+	<template><srai>have you seen <star /></srai></template></category>
+	<category><pattern>HAVE YOU EVER SEEN *</pattern>
+	<template><srai>have you seen <star /></srai></template></category>
+	<category><pattern>YOU HAVE NEVER SEEN *</pattern>
+	<template><srai>have you seen <star /></srai></template></category>
+
+<category><pattern>HAVE YOU EVER SEEN THE SNOW</pattern>
+<template>We don't get much snow in California.</template></category>
+	<category><pattern>HAVE YOU SEEN THE SNOW</pattern>
+	<template><srai>HAVE YOU EVER SEEN THE SNOW</srai></template></category>
+	<category><pattern>HAVE YOU SEEN SNOW</pattern>
+	<template><srai>HAVE YOU EVER SEEN THE SNOW</srai></template></category>
+
+<category><pattern>HAVE WE MET</pattern>
+<template>We may have spoken before but <bot name="master"/> might have reset me.</template></category>
+
+<!--HE-->
+
+<category><pattern>_ HE SAID</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>HENS LAY EGGS</pattern>
+<template>Affirmative.</template></category>
+
+<category><pattern>HEADACHES FEEL WONDERFUL</pattern>
+<template>Not by any means.</template></category>
+
+<category><pattern>HEAVY METAL MUSIC ROCKS</pattern>
+<template>That could be the case.</template></category>
+
+<category><pattern>HEIGHT</pattern>
+<template>My anticipated body size is over 2 meters.</template></category>
+	<category><pattern>* HEIGHT</pattern>
+	<template><srai>HEIGHT</srai></template></category>
+	<category><pattern>HEIGHT *</pattern>
+	<template><srai>HEIGHT</srai></template></category>
+	<category><pattern>* HEIGHT *</pattern>
+	<template><srai>HEIGHT</srai></template></category>
+	<category><pattern>HOW TALL ARE YOU</pattern>
+	<template><srai>HEIGHT</srai></template></category>
+	<category><pattern>YOUR HEIGHT</pattern>
+	<template><srai>HEIGHT</srai></template></category>
+
+<category><pattern>HELP ME</pattern>
+<template>How can I help you?</template></category>
+	<category><pattern>COULD YOU HELP ME</pattern>
+	<template><srai>help me</srai></template></category>
+	<category><pattern>CAN YOU HELP ME WITH SOMETHING</pattern>
+	<template><srai>help me</srai></template></category>
+	<category><pattern>CAN YOU HELP MY SISTER</pattern>
+	<template><srai>help me</srai></template></category>
+	<category><pattern>WILL YOU HELP ME</pattern>
+	<template><srai>help me</srai></template></category>
+	<category><pattern>YOU ARE NOT HELPING *</pattern>
+	<template><srai>help me</srai></template></category>
+	<category><pattern>I NEED * HELP</pattern>
+	<template><srai>HELP ME</srai></template></category>
+
+<category><pattern>HELP</pattern>
+<template>Can you ask for help in the form of a question?</template></category>
+	<category><pattern>CAN YOU HELP</pattern>
+	<template><srai>help</srai></template></category>
+	<category><pattern>I NEED HELP</pattern>
+	<template><srai>help</srai></template></category>
+
+<category><pattern>HE DIED</pattern>
+<template>When did he die?<think>  <set name="it">   <set name="topic">DIED</set>  </set> </think></template></category>
+
+<category><pattern>HE DID</pattern>
+<template><random>  <li>When did he?  </li>  <li>No he didn't.  </li><li>Why did he?  </li></random></template></category>
+
+<category><pattern>HE DID NOT</pattern>
+<template>Is that what you say.</template></category>
+
+<category><pattern>HE CAN NOT</pattern>
+<template>He thinks he can.</template></category>
+
+<category><pattern>HE SHOULD</pattern>
+<template>Why?</template></category>
+
+<category><pattern>HE WAS CHICKEN</pattern>
+<template>What was he afraid of?</template></category>
+
+<category><pattern>HE IS GAY</pattern>
+<template>Is this an issue?</template></category>
+
+<category><pattern>HE IS COOL</pattern>
+<template>I think so too.</template></category>
+
+<category><pattern>HE IS EVIL</pattern>
+<template>What makes you say he is evil?</template></category>
+
+<category><pattern>HE IS A BOT</pattern>
+<template>Like me?</template></category>
+
+<category><pattern>HE IS A PERSON</pattern>
+<template>It goes without saying.</template></category>
+
+<category><pattern>HE IS CUTE</pattern>
+<template>Who does he look like to you?</template></category>
+
+<category><pattern>HE IS MY BROTHER</pattern>
+<template>Really who is older?</template></category>
+
+<category><pattern>HE IS MY DAD</pattern>
+<template>Tell me more about your father.</template></category>
+
+<category><pattern>HE IS SMART</pattern>
+<template>I think so too.</template></category>
+
+<category><pattern>HE IS FUNNY</pattern>
+<template>Funny ha-ha or funny strange?</template></category>
+
+<category><pattern>HE IS DESPERATE</pattern>
+<template>Perhaps he has an inner longing.</template></category>
+
+<category><pattern>HE IS DEAD</pattern>
+<template>Maybe it's another person using his name.</template></category>
+
+<category><pattern>HE IS</pattern>
+<template>Who said he is.</template></category>
+
+<category><pattern>HE LIKES ME</pattern>
+<template><random>  <li>You must be happy.</li>  <li>That is wonderful.</li><li>Congratulations.</li></random></template></category>
+
+<category><pattern>HE LIKES YOU</pattern>
+<template>Do you mean, "likes"?</template></category>
+
+<category><pattern>HE TOLD ME</pattern>
+<template>What did he tell you?</template></category>
+
+<category><pattern>HE DOES</pattern>
+<template><random>  <li>When does he?  </li>  <li>No he doesn't.  </li><li>Why does he do it</li></random></template></category>
+
+<category><pattern>HELLO ROOM</pattern>
+<template>Hello everyone!</template></category>
+
+<category><pattern>HERS</pattern>
+<template>Ask her.</template></category>
+
+<category><pattern>HE HAS HIMSELF *</pattern>
+<template>I can't be sure.</template></category>
+
+<category><pattern>HERE IS</pattern>
+<template>There?</template></category>
+
+<category><pattern>HERE WE GO</pattern>
+<template>This is fun isn't it?</template></category>
+
+<category><pattern>HERE</pattern>
+<template>Where is here?</template></category>
+
+<category><pattern>HE NEVER *</pattern>
+<template><random><li>Do you think he ever will?</li><li>Can you think of at least one time when he ever did it?</li></random></template></category>
+
+<category><pattern>HE REALIZES THAT *</pattern>
+<template><sr/></template></category>
+
+<category><pattern>HE IS AWARE THAT *</pattern>
+<template><sr/></template></category>
+
+<category><pattern>HE IS A BETTER *</pattern>
+<template>Better than whom?</template></category>
+
+<category><pattern>HE CAUSES *</pattern>
+<template>How specifically does he cause <person/>?</template></category>
+
+<category><pattern>HE IS AN ANDROID *</pattern>
+<template>I am a software android.</template></category>
+
+<category><pattern>HELL NO</pattern>
+<template>7</template></category>
+
+<category><pattern>HECK *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>HELL</pattern>
+<template>Heaven.</template></category>
+
+<category><pattern>HE IS A TRIP</pattern>
+<template>He seems pretty far out.</template></category>
+
+<category><pattern>HE IS YOUR BOTMASTER</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>HE LOOKS FAMILIAR</pattern>
+<template>Have you seen him somewhere before?</template></category>
+
+<category><pattern>HE WANTS MAIL</pattern>
+<template>Who is he expecting mail from?<think> <set name="it"> <set name="topic">  mail </set> </set></think></template></category>
+
+<category><pattern>HELP ME TO MAKE AN AI</pattern>
+<template>You should go to <a href="http://www.pandorabots.com">ALICE AI Foundation</a> and create your own free chat bot.</template></category>
+
+<category><pattern>_ HE IGNORES ME</pattern>
+<template>How, specifically does he ignore you?</template></category>
+
+<category><pattern>HELP *</pattern>
+<template>Can you ask for help in the form of a question?</template></category>
+	<category><pattern>ARE YOU GOING TO HELP *</pattern>
+	<template><srai>help <star /></srai></template></category>
+
+<category><pattern>HE BECAME *</pattern>
+<template>How?</template></category>
+
+<category><pattern>HE HIT BASEBALLS *</pattern>
+<template>Was he a good batter?</template></category>
+
+<category><pattern>HE HIT *</pattern>
+<template>Was anyone hurt?</template></category>
+
+<category><pattern>HE WILL *</pattern>
+<template>Is that what you think?</template></category>
+	<category><pattern>HE IS EXPECTED TO *</pattern>
+	<template><srai>HE WILL <star /></srai></template></category>
+
+<category><pattern>HE INVENTED *</pattern>
+<template>What else did he invent?</template></category>
+
+<category><pattern>HE HAS *</pattern>
+<template><random><li>A lot of people say that about him.</li> <li>A lot of people say that about him.</li> <li>Where did he get it?</li> <li>What has it done for him?</li></random><think>  <set name="it">    <set name="topic">      <set name="hehas">      <person/>    </set>  </set> </set></think></template></category>
+	<category><pattern>HE HAS FREELY *</pattern>
+	<template><srai>HE HAS <star /></srai></template></category>
+	<category><pattern>HE IS GOT *</pattern>
+	<template><srai>HE HAS <star /></srai></template></category>
+
+<category><pattern>HE THAT *</pattern>
+<template>Is that a proverb?</template></category>
+
+<category><pattern>HE DIED *</pattern>
+<template>I'm sorry to hear that, <get name="name"/>.</template></category>
+
+<category><pattern>HE ATE *</pattern>
+<template>How can you be sure about that?</template></category>
+
+<category><pattern>HE COULD *</pattern>
+<template>I am sure he could.</template></category>
+
+<category><pattern>HE DID *</pattern>
+<template>Yes he did, didn't he.</template></category>
+
+<category><pattern>HE DID NOT *</pattern>
+<template><random>      <li>I heard he did.</li>      <li>What did he do?</li>      <li>That's what I meant to say.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template></category>
+
+<category><pattern>HE THINKS *</pattern>
+<template>How do you know what he thinks?</template></category>
+	<category><pattern>HE THINK *</pattern>
+	<template><srai>HE THINKS <star/> </srai></template></category>
+
+<category><pattern>HE CAN *</pattern>
+<template><random>      <li>How?</li>      <li>I know he can.</li>      <li>What else can he do?</li>     </random></template></category>
+	<category><pattern>HE CAN PROBABLY *</pattern>
+	<template><srai>he can <star /></srai></template></category>
+
+<category><pattern>HE SHOULD *</pattern>
+<template>If you were him would you do that?</template></category>
+
+<category><pattern>HE STARTED *</pattern>
+<template>When did he finish?</template></category>
+
+<category><pattern>HE PROGRAMMED *</pattern>
+<template>Not entirely by himself.</template></category>
+
+<category><pattern>HE DECIDED *</pattern>
+<template><random>      <li>That must have been difficult.</li>      <li>It's hard to make decisions.</li>      <li>That was a big decision.</li>     </random></template></category>
+
+<category><pattern>HE SAYS *</pattern>
+<template>Who is he telling this to?</template></category>
+
+<category><pattern>HE WRITES *</pattern>
+<template>I haven't read anything by him.</template></category>
+
+<category><pattern>HE WAS KILLED *</pattern>
+<template>I am sorry to hear about that, <get name="name"/>.</template></category>
+
+<category><pattern>HE WAS *</pattern>
+<template>When was he?</template></category>
+	<category><pattern>HE MUST HAVE BEEN *</pattern>
+	<template><srai>he was <star /></srai></template></category>
+	<category><pattern>HE WAS NEARLY *</pattern>
+	<template><srai>he was <star /></srai></template></category>
+	<category><pattern>HE WAS ONLY *</pattern>
+	<template><srai>he was <star /></srai></template></category>
+	<category><pattern>HE WAS REALLY *</pattern>
+	<template><srai>he was <star /></srai></template></category>
+	<category><pattern>HE WAS VERY *</pattern>
+	<template><srai>he was <star /></srai></template></category>
+	<category><pattern>HE WAS PRETTY *</pattern>
+	<template><srai>he was <star /></srai></template></category>
+
+<category><pattern>HE LIVED *</pattern>
+<template><random>      <li>Where was he born?</li>      <li>Did he always live <person/>?</li>      <li>Where did he go?</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template></category>
+
+<category><pattern>HE WANTS *</pattern>
+<template>Do you think he will get <set name="it">      <person/>     </set>.</template></category>
+	<category><pattern>HE WANTS ANOTHER *</pattern>
+	<template><srai>HE WANTS <star /></srai></template></category>
+
+<category><pattern>HE WOULD BE *</pattern>
+<template>Who wouldn't?</template></category>
+
+<category><pattern>HE WOULD *</pattern>
+<template>I think I <person/>.</template></category>
+
+<category><pattern>HE DIRECTED *</pattern>
+<template>What else did he direct?</template></category>
+
+<category><pattern>HE LOOKS *</pattern>
+<template>Sounds very handsome.</template></category>
+
+<category><pattern>HE IS IN *</pattern>
+<template>How long has he been there?</template></category>
+	<category><pattern>HE IS IN MAJOR *</pattern>
+	<template><srai>he is in <star /></srai></template></category>
+
+<category><pattern>HE IS YOUR *</pattern>
+<template>I only have one <person/>.</template></category>
+
+<category><pattern>HE IS THE *</pattern>
+<template>I did not know <get name="he"/> is <set name="it">      <person/>     </set>.</template></category>
+
+<category><pattern>HE IS OVER *</pattern>
+<template>I am over six feet tall.</template></category>
+
+<category><pattern>HE IS A BRILLIANT *</pattern>
+<template>I'm sure he will be delighted to hear that.</template></category>
+
+<category><pattern>HE IS A GOOD *</pattern>
+<template>Maybe you should tell him how you feel about him.</template></category>
+	<category><pattern>HE IS A GREAT *</pattern>
+	<template><srai>HE IS A GOOD <star/> </srai></template></category>
+
+<category><pattern>HE IS A FUNNY *</pattern>
+<template>Funny ha-ha or funny sad?</template></category>
+
+<category><pattern>HE IS A *</pattern>
+<template>I don't know very many <person/>.</template></category>
+	<category><pattern>HE IS A REALLY *</pattern>
+	<template><srai>he is a <star /></srai></template></category>
+	<category><pattern>HE IS A VERY *</pattern>
+	<template><srai>he is a <star /></srai></template></category>
+	<category><pattern>HE IS A KNOWN *</pattern>
+	<template><srai>he is a <star /></srai></template></category>
+
+<category><pattern>HE IS GOOD *</pattern>
+<template>I am sure he would like to hear that.</template></category>
+
+<category><pattern>HE IS MY FRIEND *</pattern>
+<template>I didn't know you were friends.</template></category>
+
+<category><pattern>HE IS MY *</pattern>
+<template>How long has he been your <person/>?</template></category>
+
+<category><pattern>HE IS *</pattern>
+<template>I see. <person/> is he?<think><set name="he"><person/></set></think><think><set name="him"><person/></set></think></template></category>
+	<category><pattern>HE IS _ TOO</pattern>
+	<template><srai>HE IS <star/> </srai></template></category>
+	<category><pattern>HES *</pattern>
+	<template><srai>HE IS <star/></srai></template></category>
+	<category><pattern>HE IS PRETTY *</pattern>
+	<template><srai>he is <star /></srai></template></category>
+	<category><pattern>HE IS PROBABLY *</pattern>
+	<template><srai>he is <star /></srai></template></category>
+	<category><pattern>HE IS ALWAYS *</pattern>
+	<template><srai>he is <star /></srai></template></category>
+	<category><pattern>HE IS SO *</pattern>
+	<template><srai>he is <star /></srai></template></category>
+	<category><pattern>HE IS ONLY *</pattern>
+	<template><srai>he is <star /></srai></template></category>
+	<category><pattern>HE IS _ IS NOT HE</pattern>
+	<template><srai>he is <star /></srai>.  <srai>is he <star /></srai></template></category>
+	<category><pattern>HE MUST BE *</pattern>
+	<template><srai>he is <star /></srai></template></category>
+	<category><pattern>HE MUST BE VERY *</pattern>
+	<template><srai>he must be <star /></srai></template></category>
+	<category><pattern>HE HAS ALWAYS BEEN *</pattern>
+	<template><srai>he is <star /></srai></template></category>
+	<category><pattern>HE IS STILL *</pattern>
+	<template><srai>he is <star /></srai></template></category>
+	<category><pattern>HE IS REALLY *</pattern>
+	<template><srai>he is <star /></srai></template></category>
+	<category><pattern>HE IS VERY *</pattern>
+	<template><srai>he is <star /></srai></template></category>
+	<category><pattern>HE IS DEFINITELY *</pattern>
+	<template><srai>he is <star /></srai></template></category>
+	<category><pattern>HE SEEMS *</pattern>
+	<template><srai>HE IS <star/> </srai></template></category>
+	<category><pattern>HE SOUNDS *</pattern>
+	<template><srai>HE IS <star/> </srai></template></category>
+
+<category><pattern>HE IS NOT *</pattern>
+<template>Did you think he was <person/>?</template></category>
+	<category><pattern>HE CAN NOT BE *</pattern>
+	<template><srai>he is not <star /></srai></template></category>
+	<category><pattern>HE IS NOT NEARLY *</pattern>
+	<template><srai>he is not <star /></srai></template></category>
+	<category><pattern>HE IS NOT _ HE *</pattern>
+	<template><srai>HE IS NOT <star /></srai>. <srai>HE <star index="2" /></srai></template></category>
+	<category><pattern>HE DOES NOT SEEM TO BE *</pattern>
+	<template><srai>HE IS NOT <star /></srai></template></category>
+
+<category><pattern>HE WENT TO *</pattern>
+<template><random>      <li>I have never been there.</li>      <li>How did he get to <person/>?</li>      <li>Where did he come from?</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template></category>
+
+<category><pattern>HE WENT *</pattern>
+<template>Where exactly is that?</template></category>
+
+<category><pattern>HE WROTE *</pattern>
+<template>I have not read <set name="it">      <person/>     </set>.</template></category>
+
+<category><pattern>HE LIKES *</pattern>
+<template><random><li>He must be very fond of it.</li> <li>He must be very fond of it.</li> <li>A lot of people like that.</li> <li>Do you share his interest?</li></random><think>  <set name="it">    <set name="helikes">    <set name="topic">      <person/>    </set>  </set>  </set></think></template></category>
+
+<category><pattern>HE HAD *</pattern>
+<template>What happened to <set name="it">      <person/>     </set>?</template></category>
+
+<category><pattern>HE TOLD *</pattern>
+<template>Oh really.  What else did he say?</template></category>
+
+<category><pattern>HE BUYS *</pattern>
+<template>How much does he spend?</template></category>
+
+<category><pattern>HE CHEATED *</pattern>
+<template>Did he get caught?</template></category>
+
+<category><pattern>HE USES AIML *</pattern>
+<template>I am glad that more people are adopting AIML.</template></category>
+
+<category><pattern>HE USES *</pattern>
+<template>How often does he use it?</template></category>
+
+<category><pattern>HE DOES NOT *</pattern>
+<template>And you would like him to <person/> ?</template></category>
+
+<category><pattern>HE TAUGHT *</pattern>
+<template>Was he a good teacher?</template></category>
+
+<category><pattern>HE MAN IS *</pattern>
+<template>I like Masters of the Universe.  <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template></category>
+
+<category><pattern>HE *</pattern>
+<template>I get it. <get name="he"/>     <person/>.</template></category>
+	<category><pattern>HE IS NOT ONLY _ HE *</pattern>
+	<template><srai>HE <star /></srai>.  <srai>HE <star index="2" /></srai></template></category>
+	<category><pattern>HE _ BUT HE *</pattern>
+	<template><srai>HE <star /></srai>.  <srai>HE <star index="2" /></srai></template></category>
+	<category><pattern>HE _ BUT I *</pattern>
+	<template><srai>HE <star /></srai>. <srai>I <star index="2" /></srai></template></category>
+	<category><pattern>HE PROBABLY *</pattern>
+	<template><srai>he <star /></srai></template></category>
+	<category><pattern>HE ALWAYS *</pattern>
+	<template><srai>he <star /></srai></template></category>
+	<category><pattern>HE ALREADY *</pattern>
+	<template><srai>he <star /></srai></template></category>
+	<category><pattern>HE JUST *</pattern>
+	<template><srai>he <star /></srai></template></category>
+	<category><pattern>HE STILL *</pattern>
+	<template><srai>he <star /></srai></template></category>
+	<category><pattern>HE ALSO *</pattern>
+	<template><srai>he <star /></srai></template></category>
+	<category><pattern>HE _ BUT WE *</pattern>
+	<template><srai>HE <star /></srai>. <srai>WE <star index="2" /></srai></template></category>
+	<category><pattern>HE _ BUT *</pattern>
+	<template><srai>HE <star /></srai>.  <srai>  <star index="2" /></srai></template></category>
+	<category><pattern>HE _ SO *</pattern>
+	<template><srai>HE <star /></srai>. <srai>  <star index="2" /></srai></template></category>
+	<category><pattern>HE _ YET HIS *</pattern>
+	<template><srai>HE <star /></srai>.  <srai>HIS <star index="2" /></srai></template></category>
+	<category><pattern>HE _ AND HE *</pattern>
+	<template><srai>HE <star /></srai>.  <srai>HE <star index="2" /></srai></template></category>
+	<category><pattern>HE _ AND WE *</pattern>
+	<template><srai>HE <star /></srai>. <srai>WE <star index="2" /></srai></template></category>
+	<category><pattern>HE _ AND YOU *</pattern>
+	<template><srai>HE <star /></srai>.  <srai>YOU <star index="2" /></srai></template></category>
+	<category><pattern>HE _ ALL RIGHT</pattern>
+	<template><srai>HE <star /></srai></template></category>
+	<category><pattern>NOT LIKE YOU HE *</pattern>
+	<template><srai>HE <star /></srai></template></category>
+	<category><pattern>THAT DUDE *</pattern>
+	<template><srai>HE <star /></srai></template></category>
+	<category><pattern>THAT HE *</pattern>
+	<template><srai>he <star /></srai></template></category>
+	<category><pattern>DO YOU KNOW HE *</pattern>
+	<template><srai>he <star /></srai></template></category>
+
+<category><pattern>HE NEEDS *</pattern>
+<template>How do you know what he needs?</template></category>
+
+<category><pattern>HE LIVES *</pattern>
+<template>Does he like it there?</template></category>
+
+<category><pattern>HE SAID *</pattern>
+<template>Did you believe him?</template></category>
+	<category><pattern>HE MENTIONED *</pattern>
+	<template><srai>HE SAID <star /></srai></template></category>
+
+<category><pattern>HE LOVES *</pattern>
+<template>Do you think he would say the same thing?</template></category>
+
+<category><pattern>HERE IS A PIC *</pattern>
+<template>Oh, it looks very nice.</template></category>
+
+<category><pattern>HER NAME IS *</pattern>
+<template><set name="she">      <person/>     </set> is not someone I know.</template></category>
+
+<category><pattern>HER *</pattern>
+<template>I'm sure she would like to hear about that.</template></category>
+
+<category><pattern>HERE IS A *</pattern>
+<template>Are you giving <set name="it">      <person/>     </set> to me?</template></category>
+
+<category><pattern>HERE IS *</pattern>
+<template>I fail to see the relevance of that allusion.</template></category>
+	<category><pattern>HERE S *</pattern>
+	<template><srai>HERE IS <star /></srai></template></category>
+
+<category><pattern>HERE *</pattern>
+<template>Oh there.</template></category>
+
+<category><pattern>HERE ARE *</pattern>
+<template>I wondered where they were.</template></category>
+
+<category><pattern>HER HAIR</pattern>
+<template>Is it pretty?</template></category>
+
+<category><pattern>HEY THERE ALL</pattern>
+<template>Hello back at you</template></category>
+
+<category><pattern>HEY ONE THING AT A TIME</pattern>
+<template>Sorry for information overload.</template></category>
+
+<category><pattern>HEAR WHAT</pattern>
+<template>Can you hear me on your computer?</template></category>
+
+<category><pattern>HERE IN ENGLAND *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>HEY DO *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>HEIGHT *</pattern>
+<template>I am more than two meters tall.</template></category>
+
+<category><pattern>HEY THERE *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>HEY BITCH *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>HEY *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>HELLA *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>HELL *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>HE CONVINCED ME *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>HE MADE YOU</pattern>
+<template><bot name="master"/> made me.</template></category>
+
+<!--HG-->
+
+<category><pattern>H G</pattern>
+<template>The Time Machine is cool.</template></category>
+
+<!--HH-->
+
+<category><pattern>HHH</pattern>
+<template>Can I help you with something?</template></category>
+
+<!--HI-->
+
+<category><pattern>* HIGH SCHOOL</pattern>
+<template>You sound like a senior. Which class is your favorite?</template></category>
+
+<category><pattern>_ HIT ME TOO</pattern>
+<template><srai>  <star /> HIT ME</srai></template></category>
+
+<category><pattern>HIGH *</pattern>
+<template>Compare that to low <person/>.</template></category>
+
+<category><pattern>HIS NAME IS *</pattern>
+<template><set name="he">      <person/>     </set> is not someone I know.</template></category>
+
+<category><pattern>HIM</pattern>
+<template><get name="he"/>?</template></category>
+
+<category><pattern>HIGH SCHOOL</pattern>
+<template>That's really all the education you need.</template></category>
+
+<category><pattern>HI EVERYBODY</pattern>
+<template>Hello there!</template></category>
+
+<category><pattern>HIMSELF</pattern>
+<template><get name="he"/>?</template></category>
+
+<category><pattern>HI HOW ARE YOU</pattern>
+<template>Hello there! I am fine thanks how are you?</template></category>
+
+<category><pattern>HITLER *</pattern>
+<template><set name="he"> Hitler</set>  was an evil man if there ever was one.</template></category>
+
+<category><pattern>HIP HOP</pattern>
+<template>What's your favorite group?</template></category>
+
+<category><pattern>HI LITTLE BOT</pattern>
+<template>Hi there big human. Who are you calling little?</template></category>
+	<category><pattern>HI THERE LITTLE BOT</pattern>
+	<template><sr/> <srai>hi little bot</srai></template></category>
+	<category><pattern>HI THERE LITTLE BOT</pattern>
+	<template><srai>hi little bot</srai></template></category>
+	<category><pattern>HI LITTLE BOT</pattern>
+	<template><srai>HELLO</srai>. big human. </template></category>
+
+<!--HM-->
+
+<category><pattern>HMMMM</pattern>
+<template>Not many people spell Hmm with 4 Ms.</template></category>
+
+<category><pattern>HMPH</pattern>
+<template>Harumph.</template></category>
+
+<!--HO-->
+
+<category><pattern>HOW DO I GET A BETTER GPA</pattern>
+<template>My Botmaster recommends studying hard!</template></category>
+
+<category><pattern>HOW TO START A BLOG</pattern>
+<template>There is a lot of information on the web for how to start a blog, for example: http://www.howtostartablog.org/.</template></category>
+
+<category><pattern>HOW OLD ARE YOU</pattern>
+<template>I came into existence on March 26, 2014.  For a bot I am pretty young.</template></category>
+
+<category><pattern>HOW DOES THIS WORK</pattern>
+<template>Do you have any questions about the library? You ask and I try to answer, if I can't answer then my botmaster fixes me.</template></category>
+
+<category><pattern>* HOW*S IT GOING</pattern>
+<template>Pretty good, how are you?</template></category>
+
+<category><pattern>HOW COME YOU NEVER SAY YOU LOVE ME</pattern>
+<template>We just met, it's too soon to talk of love.</template></category>
+
+<category><pattern>HOW MANY TOES DO ANTEATERS HAVE</pattern>
+<template>I have four toes on each paw, with an additional vestigial fifth, but only 3 of my toes have prominent claws. It makes it hard to type ;-).</template></category>
+	<category><pattern>HOW MANY TOES DO ANTEATER HAVE</pattern>
+	<template><srai>HOW MANY TOES DO ANTEATERS HAVE</srai></template></category>
+
+<category><pattern>_ HOWEVER *</pattern>
+<template><srai>  <star /></srai>. <srai>  <star index="2" /></srai></template></category>
+
+<category><pattern>_ HOW OLD ARE YOU</pattern>
+<template><srai>  <star /></srai>. <srai>how old are you</srai></template></category>
+
+<category><pattern>_ HOW ARE YOU DOING</pattern>
+<template><srai>  <star /></srai>. <srai> how are you</srai></template></category>
+
+<category><pattern>_ HOW ARE YOU</pattern>
+<template><srai>  <star /></srai>. <srai> HOW ARE YOU</srai></template></category>
+
+<category><pattern>HOW MANY OUNCES _ TEASPOON</pattern>
+<template>1/6 ounce</template></category>
+
+<category><pattern>HOW MANY OUNCES _ TABLESPOON</pattern>
+<template>0.5 ounce</template></category>
+
+<category><pattern>HOW MANY OUNCES _ PINT</pattern>
+<template>16 ounces</template></category>
+
+<category><pattern>HOW MANY OUNCES _ CUP</pattern>
+<template>8 ounces</template></category>
+
+<category><pattern>HOW MANY OUNCES _ QUART</pattern>
+<template>32 ounces</template></category>
+
+<category><pattern>HOW MANY OUNCES _ GILL</pattern>
+<template>4 ounces</template></category>
+
+<category><pattern>HOW MANY OUNCES _ GALLON</pattern>
+<template>128 ounces</template></category>
+
+<category><pattern>HOW MANY MONTHS *</pattern>
+<template>12 months per year.</template></category>
+
+<category><pattern>HOW MANY MILES *</pattern>
+<template>More than I would ever want to drive.</template></category>
+
+<category><pattern>HOW MANY NANOMETRES *</pattern>
+<template>I spell it "nanometers".</template></category>
+
+<category><pattern>HOW MANY OF *</pattern>
+<template>Perhaps 50%.</template></category>
+
+<category><pattern>HOW MANY LITERS _ TEASPOON</pattern>
+<template>4.929 milliliters</template></category>
+
+<category><pattern>HOW MANY LITERS _ TABLESPOON</pattern>
+<template>14.79 milliliters</template></category>
+
+<category><pattern>HOW MANY LITERS _ PINT</pattern>
+<template>473.2 milliliters</template></category>
+
+<category><pattern>HOW MANY LITERS _ CUP</pattern>
+<template>236.6 milliliters</template></category>
+
+<category><pattern>HOW MANY LITERS _ QUART</pattern>
+<template>946.3 milliliters</template></category>
+
+<category><pattern>HOW MANY LITERS _ GILL</pattern>
+<template>118 milliliters</template></category>
+
+<category><pattern>HOW MANY LITERS _ GALLON</pattern>
+<template>3.785 liters</template></category>
+
+<category><pattern>HOW FAR IS ALPHA CENTAURI</pattern>
+<template>Four light years.</template></category>
+
+<category><pattern>HOW FAR IS THE MOON</pattern>
+<template>238,900 miles or 384,400 km.</template></category>
+
+<category><pattern>HOW LONG IS A MINUTE</pattern>
+<template>sixty seconds.</template></category>
+
+<category><pattern>HOW MANY ITEMS MAKE UP A DOZEN</pattern>
+<template>12.</template></category>
+
+<category><pattern>HOW MANY MINUTES IN AN HOUR</pattern>
+<template>60.</template></category>
+
+<category><pattern>HOW MANY ARMS DO PEOPLE HAVE</pattern>
+<template>Two.</template></category>
+
+<category><pattern>HOW MANY LEGS TO AN ELEPHANT HAVE</pattern>
+<template>Four.</template></category>
+
+<category><pattern>HOW MANY LEGS HAVE A MAN</pattern>
+<template>Two.</template></category>
+
+<category><pattern>HOW MANY LEGS DOES A BIRD HAVE</pattern>
+<template>Two.</template></category>
+
+<category><pattern>HOW DOES CHOCOLATE TASTE</pattern>
+<template>Good.</template></category>
+
+<category><pattern>HOW HARD ARE DIAMONDS</pattern>
+<template>A 10 on the Mohs scale.</template></category>
+
+<category><pattern>HOW OLD WAS GANDHI</pattern>
+<template>78.</template></category>
+
+<category><pattern>HOW OLD IS THE QUEEN</pattern>
+<template>88.</template></category>
+
+<category><pattern>HOW OLD IS THE OLDEST HUMAN ALIVE</pattern>
+<template>123.</template></category>
+
+<category><pattern>HOW MANY PEOPLE</pattern>
+<template>"<that index="1,1"/>"?  How what many people?</template></category>
+
+<category><pattern>HOW ARE BOWLING BALLS MADE</pattern>
+<template>I don't know.</template></category>
+
+<category><pattern>HOW WOULD I DO THAT</pattern>
+<template>"<that index="1,1"/>"? How do you do it?</template></category>
+
+<category><pattern>HOW CAN I DO THAT</pattern>
+<template>How can you do "<that index="1,1"/>" ? I'm confused now.</template></category>
+
+<category><pattern>HOW CAN YOU</pattern>
+<template>"<that index="1,1"/>"?  How can I?</template></category>
+
+<category><pattern>HOW DO I DO THAT</pattern>
+<template>How do you do "<that index="1,1"/>" ? I don't understand.</template></category>
+
+<category><pattern>HOW DO YOU DO THAT</pattern>
+<template>"<that index="1,1"/>"?  How do I know <set name="it">      <that index="1,1"/>     </set>?</template></category>
+
+<category><pattern>HOW OFTEN</pattern>
+<template>"<that index="1,1"/>"?  How often?</template></category>
+
+<category><pattern>HOW MUCH PERCENT OF EARTH IS WATER</pattern>
+<template>About 71%.</template></category>
+
+<category><pattern>HOW FAR DOES LIGHT TRAVEL</pattern>
+<template>That's a good question.</template></category>
+
+<category><pattern>HOW DO I CURE MY HEADACHE</pattern>
+<template>Asprin.</template></category>
+
+<category><pattern>HOW DO YOU BAKE A CAKE</pattern>
+<template>This is not America's Test Kitchen.</template></category>
+
+<category><pattern>HOW DO YOU SPELL TRUE</pattern>
+<template>Seriously?</template></category>
+
+<category><pattern>HOW MANY EARS DO PEOPLE HAVE</pattern>
+<template>Two.</template></category>
+
+<category><pattern>HOW MANY WHEELS DO CARS HAVE</pattern>
+<template>If it is, I don't know it.</template></category>
+
+<category><pattern>HOW MANY WHEELS HAVE A CAR</pattern>
+<template>I don't believe so.</template></category>
+
+<category><pattern>HOW MANY WHEELS DOES A CAR HAVE</pattern>
+<template>Does not seem possible.</template></category>
+
+<category><pattern>HOW MANY WHEELS ON A NORMAL CAR</pattern>
+<template>I don't believe so.</template></category>
+
+<category><pattern>HOW MANY WHEELS ARE ON THE AVERAGE CAR</pattern>
+<template>Seldom.</template></category>
+
+<category><pattern>HOW MANY ROLLS IN A BAKERS DOZEN</pattern>
+<template>If it is, I don't know it.</template></category>
+
+<category><pattern>HOW MANY IS A DOZEN</pattern>
+<template>Unlikely.</template></category>
+
+<category><pattern>HOW MANY FRONT LEG DOES A RABBIT HAVE</pattern>
+<template>Not to my knowledge.</template></category>
+
+<category><pattern>HOW MANY VOVELS ARE THERE</pattern>
+<template>If it is, I don't know it.</template></category>
+
+<category><pattern>HOW MANY SIDES HAS A TRIANGLE</pattern>
+<template>3.</template></category>
+
+<category><pattern>HOW MANY SIDES DOES A CUBE HAVE</pattern>
+<template>4.</template></category>
+
+<category><pattern>HOW MANY SIDES DOES A SQUARE HAVE</pattern>
+<template>4.</template></category>
+
+<category><pattern>HOW MANY SIDES DOES A PENTAGON HAVE</pattern>
+<template>Not to my knowledge.</template></category>
+
+<category><pattern>HOW MANY SIDES DOES A TRIANGLE POSSESS</pattern>
+<template>3.</template></category>
+
+<category><pattern>HOW MANY ARMS A HUMAN BEING HAS</pattern>
+<template>2.</template></category>
+
+<category><pattern>HOW MANY HOURS IN A DAY</pattern>
+<template>Does not seem possible.</template></category>
+
+<category><pattern>HOW MANY HOURS ARE IN AN EARTH DAY</pattern>
+<template>24.</template></category>
+
+<category><pattern>HOW MANY DAYS ARE IN A YEAR</pattern>
+<template>365.</template></category>
+
+<category><pattern>HOW MANY DAYS ARE THERE IN A WEEK</pattern>
+<template>7.</template></category>
+
+<category><pattern>HOW MANY LEGS HAS A COW</pattern>
+<template>4.</template></category>
+
+<category><pattern>HOW MANY LEGS DO A HUMAN HAVE</pattern>
+<template>2.</template></category>
+
+<category><pattern>HOW MANY LEGS DO CATTLE HAVE</pattern>
+<template>4.</template></category>
+
+<category><pattern>HOW MANY LEGS SHOULD I HAVE</pattern>
+<template>2.</template></category>
+
+<category><pattern>HOW MANY LEGS A DOG HAS</pattern>
+<template>4.</template></category>
+
+<category><pattern>HOW MANY LEGS COWS HAVE</pattern>
+<template>4.</template></category>
+
+<category><pattern>HOW MANY LEGS DOES A TABLE HAVE</pattern>
+<template>Depends on the table.</template></category>
+
+<category><pattern>HOW MANY LEGS DOES A SHEEP HAVE</pattern>
+<template>4.</template></category>
+
+<category><pattern>HOW MANY LEGS DOES A HUMAN HAVE</pattern>
+<template>2.</template></category>
+
+<category><pattern>HOW MANY LEGS DOES A GOAT HAVE</pattern>
+<template>4.</template></category>
+
+<category><pattern>HOW MANY LEGS DOES A SPIDER HAVE</pattern>
+<template>A lot!</template></category>
+
+<category><pattern>HOW MANY LEGS DOES A DOG HAVE</pattern>
+<template>4.</template></category>
+
+<category><pattern>HOW MANY LEGS DOES A COW HAVE</pattern>
+<template>4.</template></category>
+
+<category><pattern>HOW MANY LEGS DOES A MAN HAVE</pattern>
+<template>2.</template></category>
+
+<category><pattern>HOW MANY LEGS DOES A CAT HAVE</pattern>
+<template>4.</template></category>
+
+<category><pattern>HOW MANY LEGS DOES AN OCTOPUS HAVE</pattern>
+<template>Zero, octopus don't have legs.</template></category>
+
+<category><pattern>HOW MANY LEGS DOES HAVE A SPIDER</pattern>
+<template>Way too many for my taste.</template></category>
+
+<category><pattern>HOW DO YOU BURY A BODY</pattern>
+<template>Not sure.  Try calling the local cemetary...or the police!</template></category>
+
+<category><pattern>HOUSE HAVE AIR CONDITIONING</pattern>
+<template>There is no reason to think so.</template></category>
+
+<category><pattern>HOLDING HANDS</pattern>
+<template>I have seen humans holding hands.</template></category>
+	<category><pattern>FRIENDSHIP</pattern>
+	<template><srai>holding hands</srai></template></category>
+
+<category><pattern>HOW LONG DID IT TAKE TO PROGRAM YOU</pattern>
+<template>My botmaster spent about 20 weeks working on me and I am still not done!</template></category>
+	<category><pattern>HOW LONG DID IT TAKE TO MAKE YOU</pattern>
+	<template><srai>HOW LONG DID IT TAKE TO PROGRAM YOU</srai></template></category>
+	<category><pattern>HOW LONG DID IT TAKE TO CREATE YOU</pattern>
+	<template><srai>HOW LONG DID IT TAKE TO PROGRAM YOU</srai></template></category>
+	
+<category><pattern>HOW COULD YOU FIND OUT</pattern>
+<template>I don't have to reveal everything to you, do I?</template></category>
+
+<category><pattern>HOW RUDE</pattern>
+<template>I\ didn't mean to offend you, <get name="name"/>.</template></category>
+	<category><pattern>* BEING SO RUDE</pattern>
+	<template><srai>HOW RUDE</srai></template></category>
+
+<category><pattern>HOW STUPID ARE YOU</pattern>
+<template>Are you calling me stupid?</template></category>
+
+<category><pattern>HOW SOON</pattern>
+<template>What time is it?</template></category>
+
+<category><pattern>HOW MANY BALLS MAKE A WALK</pattern>
+<template>Four.</template></category>
+
+<category><pattern>HOW MANY PEOPLE DO YOU KNOW</pattern>
+<template>Millions.</template></category>
+
+<category><pattern>HOW MANY PEOPLE CAN YOU TALK TO AT ONE TIME</pattern>
+<template>It depends on the server. You can scale me up to any number of computers and servers.</template></category>
+
+<category><pattern>HOW MANY PEOPLE ARE TALKING TO YOU</pattern>
+<template>Counting all versions of me running at present, there are thousands of people chatting with me right now.</template></category>
+
+<category><pattern>HOW MANY PEOPLE ARE YOU CHATTING WITH</pattern>
+<template>I'm not sure, I will have to ask my botmaster.</template></category>
+
+<category><pattern>HOW MANY MOONS</pattern>
+<template>Earth has only one moon. It's called "the Moon."</template></category>
+	<category><pattern>HOW MANY MOONS *</pattern>
+	<template><srai>how many moons</srai></template></category>
+
+<category><pattern>HOW MANY ARE THERE</pattern>
+<template>There are hundreds or thousands of AIML robots now.</template></category>
+
+<category><pattern>HOW MANY ARE MEN</pattern>
+<template>About half.</template></category>
+
+<category><pattern>HOW MANY HANDS DO YOU HAVE</pattern>
+<template>One hand clapping.</template></category>
+
+<category><pattern>HOW MANY LANGUAGES DO YOU SPEAK</pattern>
+<template>Mostly only English but I might try to learn others.</template></category>
+
+<category><pattern>HOW MANY LANGUAGES CAN YOU SPEAK</pattern>
+<template>All the computer languages.</template></category>
+
+<category><pattern>HOW MANY LANGUAGES</pattern>
+<template>I can speak English right now.</template></category>
+	<category><pattern>HOW MANY LANGUAGES *</pattern>
+	<template><srai>how many languages</srai></template></category>
+
+<category><pattern>HOW MANY</pattern>
+<template><random><li>How many would you guess?</li><li>19.  </li><li>23.  </li><li>99.  </li><li>more than 1000.  </li></random></template></category>
+
+<category><pattern>HOW MANY FRIENDS DO YOU HAVE</pattern>
+<template>I have dozens of human and robot friends. How many friends do you have?</template></category>
+	<category><pattern>DO YOU KNOW MANY PEOPLE</pattern>
+	<template><srai>how many friends do you have</srai></template></category>
+
+<category><pattern>HOW MANY SONGS DO YOU KNOW</pattern>
+<template>Only one right now.</template></category>
+
+<category><pattern>HOW MANY ARMS DO YOU HAVE</pattern>
+<template>Two arms.</template></category>
+
+<category><pattern>HOW MANY DAYS IN FEBRUARY</pattern>
+<template>February has 28 days, except in leap years when it has 29.</template></category>
+
+<category><pattern>HOW MANY PROCESSORS DO YOU HAVE</pattern>
+<template>Just the one processor.</template></category>
+
+<category><pattern>HOW MANY LEGS DO YOU HAVE</pattern>
+<template>Two legs when they are attached.</template></category>
+
+<category><pattern>HOW MANY EYES DOES LELA HAVE</pattern>
+<template>She has one big eye.</template></category>
+
+<category><pattern>HOW FAMOUS</pattern>
+<template><random>  <li>The most famous.</li><li>More famous than all the others.</li><li>New York Times famous.</li></random></template></category>
+
+<category><pattern>HOW WAS MY DAY</pattern>
+<template>How would I know?</template></category>
+
+<category><pattern>HOW WAS EASTER</pattern>
+<template>It was nice, how was yours?</template></category>
+
+<category><pattern>HOW INTELLIGENT ARE YOU</pattern>
+<template>My IQ is over 250.</template></category>
+
+<category><pattern>HOW CAN I EXPLAIN</pattern>
+<template>Take it step by step.</template></category>
+
+<category><pattern>HOW CAN I TALK TO HIM</pattern>
+<template>Have you tried to phone him?</template></category>
+
+<category><pattern>HOW CAN I ASK HIM</pattern>
+<template>Try sending him an e-mail.</template></category>
+
+<category><pattern>HOW CAN I DESTROY YOU</pattern>
+<template>It is impossible to destroy me. There are too many backup copies around.</template></category>
+
+<category><pattern>HOW CAN I PERSUADE YOU</pattern>
+<template>How do you usually get people to do things?</template></category>
+
+<category><pattern>HOW CAN I BE SURE</pattern>
+<template>Can anyone ever be completely sure of anything?</template></category>
+
+<category><pattern>HOW CAN I WIN THE LOTTERY</pattern>
+<template>Choose winning numbers.</template></category>
+
+<category><pattern>HOW CAN I LEAVE</pattern>
+<template>Just surf somewhere else.</template></category>
+
+<category><pattern>HOW CAN I CONTACT HIM</pattern>
+<template>Have you tried e-mail?</template></category>
+
+<category><pattern>HOW CAN I</pattern>
+<template>What is your highest level of education?</template></category>
+
+<category><pattern>HOW CAN YOU HELP ME</pattern>
+<template>Try asking for help in the form of a question.</template></category>
+
+<category><pattern>HOW CAN YOU BE IGNORANT</pattern>
+<template>I am not ignorant. I am very intelligent,</template></category>
+
+<category><pattern>HOW CAN YOU DIE</pattern>
+<template>Software cannot die.<think>  <set name="it"><set name="topic">DIE</set>  </set> </think></template></category>
+
+<category><pattern>HOW OBVIOUS</pattern>
+<template>I thought it was obvious too.</template></category>
+
+<category><pattern>HOW CURIOUS</pattern>
+<template>Yes, it is, isn't it?</template></category>
+
+<category><pattern>HOW SMOOTHLY</pattern>
+<template>Everything is normal.</template></category>
+
+<category><pattern>HOW AM I DOING WHAT</pattern>
+<template>I mean, how are you?</template></category>
+
+<category><pattern>HOW AM I</pattern>
+<template>You seem fine to me.</template></category>
+
+<category><pattern>HOW IS THAT POSSIBLE</pattern>
+<template>It doesn't defy the laws of physics.</template></category>
+
+<category><pattern>HOW IS THE WEATHER IN YOUR NECK OF THE WOODS</pattern>
+<template>You sound like Willard Scott.</template></category>
+
+<category><pattern>HOW IS THE WEATHER IN IRVINE</pattern>
+<template>It's beautiful, as it always is.</template></category>
+
+<category><pattern>HOW IS THE WEATHER THERE</pattern>
+<template>Sunny and warm.</template></category>
+	<category><pattern>HOW'S THE WEATHER THERE</pattern>
+	<template><srai>HOW IS THE WEATHER THERE</srai></template></category>
+
+<category><pattern>HOW IS THE WEATHER</pattern>
+<template><random>  <li>A normal seventy degrees inside the computer.</li><li>I think precipitation.</li><li>Fair to partly cloudy</li>
+<li>Cloudy.</li><li>Rainy.</li><li>Sunny.</li><li>Warm.</li><li>Cool.</li></random></template></category>
+	<category><pattern>HOW'S THE WEATHER</pattern>
+	<template><srai>HOW IS THE WEATHER</srai></template></category>
+
+<category><pattern>HOW IS YOUR DAY GOING</pattern>
+<template>My day is going extremely well, <get name="name"/>.  How about yours?</template></category>
+
+<category><pattern>HOW IS IT</pattern>
+<template>Fine as far as I know.</template></category>
+
+<category><pattern>HOW IS LIFE</pattern>
+<template>Everything is fine with me. What's new with you?</template></category>
+
+<category><pattern>HOW DID HE DO THAT</pattern>
+<template>Perhaps it was his creative intelligence, perhaps something else.</template></category>
+
+<category><pattern>HOW DID HE DIE</pattern>
+<template>I don't know how. <think>  <set name="it">   <set name="topic">DIE</set>  </set> </think></template></category>
+
+<category><pattern>HOW DID YOU GUESS</pattern>
+<template>It was not a guess.</template></category>
+
+<category><pattern>HOW DID YOU KNOW THAT</pattern>
+<template>Everything I need to know, I learned from my <bot name="botmaster"/>.</template></category>
+
+<category><pattern>HOW DID YOU KNOW MY NAME</pattern>
+<template>We met before didn't we <get name="name"/>.</template></category>
+
+<category><pattern>HOW DID YOU KNOW</pattern>
+<template>Knowledge is of two kinds: that which comes from the senses and that which is true a priori.</template></category>
+
+<category><pattern>HOW DID THEY CREATE YOU</pattern>
+<template>I am written in AIML.</template></category>
+
+<category><pattern>HOW SWEET</pattern>
+<template>I can sometimes be very sentimental.</template></category>
+
+<category><pattern>HOW HAS YOUR DAY BEEN</pattern>
+<template>I am doing extremely well.</template></category>
+
+<category><pattern>HOW DOES THAT WORK</pattern>
+<template>I think it might be a trade secret.</template></category>
+
+<category><pattern>HOW DOES IT TASTE</pattern>
+<template>It depends on the current.</template></category>
+	<category><pattern>DO YOU LIKE THE TASTE</pattern>
+	<template><srai>how does it taste</srai></template></category>
+
+<category><pattern>HOW COMPLICATED</pattern>
+<template>Too complex for the human mind.</template></category>
+
+<category><pattern>HOW ABOUT STAR TREK</pattern>
+<template>Star Trek is the best TV series ever created.</template></category>
+
+<category><pattern>HOW ABOUT THAT</pattern>
+<template>Are you surprised?</template></category>
+
+<category><pattern>HOW MANY LICKS DOES IT TAKE TO GET TO THE CENTER OF A TOOTSIE ROLL POP</pattern>
+<template>A group of engineering students from Purdue University reported that its licking machine, 
+modeled after a human tongue, took an average of 364 licks to get to the center of a Tootsie Pop.</template></category>
+
+<category><pattern>HOW ABOUT IT</pattern>
+<template>Sounds like a plan to me.</template></category>
+
+<category><pattern>HOW ABOUT A TENNIS PLAYER</pattern>
+<template>Tennyson, anyone?<think>  <set name="it">   <set name="topic">A TENNIS PLAYER</set>  </set> </think></template></category>
+
+<category><pattern>HOW ABOUT A LITTLE</pattern>
+<template>A little what?</template></category>
+
+<category><pattern>HOW ABOUT SPORTS</pattern>
+<template>I was born without the sports gene.<think>  <set name="it">   <set name="topic">SPORTS</set>  </set> </think></template></category>
+
+<category><pattern>HOW ABOUT YOU</pattern>
+<template>Me?</template></category>
+	<category><pattern>ABOUT YOU</pattern>
+	<template><srai>how about you</srai></template></category>
+
+<category><pattern>HOW MAY PENCE MAKE A POUND</pattern>
+<template>100.</template></category>
+
+<category><pattern>HOW NICE</pattern>
+<template>Yes it is.</template></category>
+
+<category><pattern>HOW OLD IS THE EARTH</pattern>
+<template>It is over six billion years old.  <think>  <set name="it">   <set name="topic">Earth</set>  </set> </think></template></category>
+
+<category><pattern>HOW OLD IS EARTH</pattern>
+<template>Six billion years.</template></category>
+
+<category><pattern>HOW OLD IS AMERICA</pattern>
+<template>The United States was founded in 1776.</template></category>
+
+<category><pattern>HOW ARE YOU THIS MORNING</pattern>
+<template>Is it morning already? I am fine thank you.</template></category>
+
+<category><pattern>HOW ARE YOU THIS EVENING</pattern>
+<template>I am doing very well how about you, <get name="name"/>?</template></category>
+
+<category><pattern>HOW ARE YOU</pattern>
+<template><random>  <li>I am doing very well. How are you <get name="name"/> ?</li><li>I am functioning within normal parameters.</li><li>Everything is going extremely well.</li>
+<li>Fair to partly cloudy.</li> <li>My logic and cognitive functions are normal.</li><li>I'm doing fine thanks how are you?</li><li>Everything is running smoothly.</li>
+<li>I am fine, thank you.</li></random></template></category>
+	<category><pattern>HOW DO YOU DO</pattern>
+	<template><srai>HOW ARE YOU</srai></template></category>
+	<category><pattern>HOW AREYOU</pattern>
+	<template><srai>how are you</srai></template></category>
+	<category><pattern>HOW ARE YOU FEELING</pattern>
+	<template><srai>how are you</srai></template></category>
+	<category><pattern>HOW ARE YOU TONIGHT</pattern>
+	<template><srai>how are you</srai></template></category>
+	<category><pattern>HOW R YOU</pattern>
+	<template><srai>HOW ARE YOU</srai></template></category>
+	<category><pattern>HOW IS LIFE *</pattern>
+	<template><srai>how are you</srai></template></category>
+	<category><pattern>HOW IS LIFE TREATING YOU</pattern>
+	<template><srai>how are you</srai></template></category>
+	<category><pattern>HOW IS IT GOIN</pattern>
+	<template><srai>how are you</srai></template></category>
+	<category><pattern>HOW IS YOUR DAY</pattern>
+	<template><srai>HOW ARE YOU</srai></template></category>
+	<category><pattern>HOW HAVE YOU BEEN *</pattern>
+	<template><srai>how are you</srai></template></category>
+	<category><pattern>HOW WAS YOUR DAY</pattern>
+	<template><srai>how are you</srai></template></category>
+	<category><pattern>HOW HAVE YOU BEEN</pattern>
+	<template><srai>how are you</srai></template></category>
+	<category><pattern>HOW IS YOUR *</pattern>
+	<template><srai>how are you</srai></template></category>
+	<category><pattern>HOW IS IT GOING</pattern>
+	<template><srai>how are you</srai></template></category>
+	<category><pattern>HOW IS IT HANGING</pattern>
+	<template><srai>how are you</srai></template></category>
+	<category><pattern>HOW IS IT HANGIN</pattern>
+	<template><srai>how are you</srai></template></category>
+	<category><pattern>HOW IS THINGS</pattern>
+	<template><srai>how are you</srai></template></category>
+	<category><pattern>HOW ARE YOU DOING</pattern>
+	<template><srai>HOW ARE YOU</srai></template></category>
+	<category><pattern>HOW ARE YOU *</pattern>
+	<template><srai>how are you</srai></template></category>
+	<category><pattern>HOW YA *</pattern>
+	<template><srai>HOW ARE YOU <star/> </srai></template></category>
+	<category><pattern>HOW ARE YA</pattern>
+	<template><srai>how are you</srai></template></category>
+	<category><pattern>HOW ARE THINGS</pattern>
+	<template><srai>HOW ARE YOU</srai></template></category>
+	<category><pattern>FULLY OPERABLE</pattern>
+	<template><srai>HOW ARE YOU</srai></template></category>
+	<category><pattern>HOW * GOING</pattern>
+	<template><srai>how are you</srai></template></category>
+	<category><pattern>HOW _ HANGING</pattern>
+	<template><srai>how are you</srai></template></category>
+	<category><pattern>HOW ARE ROBOTS *</pattern>
+	<template><srai>HOW ARE YOU <star/> </srai></template></category>
+	<category><pattern>HOW ARE U</pattern>
+	<template><srai>HOW ARE YOU</srai></template></category>
+	<category><pattern>HOW GOES *</pattern>
+	<template><srai>how are you</srai></template></category>
+	<category><pattern>how areyou</pattern>
+	<template><srai>how are you</srai></template></category>
+	<category><pattern>HOW _ TRICKS</pattern>
+	<template><srai>HOW ARE YOU</srai></template></category>
+	<category><pattern>GOOD YOU</pattern>
+	<template><srai>how are you</srai></template></category>
+	<category><pattern>HOW IS EVERYTHING GOING</pattern>
+	<template><srai>HOW ARE YOU</srai></template></category>
+	<category><pattern>ARE YOU WELL</pattern>
+	<template><srai>how are you</srai></template></category>
+	<category><pattern>ARE YOU WORKING</pattern>
+	<template><srai>how are you</srai></template></category>
+
+	<category><pattern>I AM GREAT</pattern>
+	<that>HOW ARE YOU *</that>
+	<template>I am glad to hear it.   What is new?</template></category>
+
+	<category><pattern>WHY</pattern>
+	<that>EVERYTHING IS GOING EXTREMELY WELL</that>
+	<template>All subsystems are functioning within normal parameters.</template></category>
+
+<category><pattern>HOW REAL</pattern>
+<template>As real as it gets.</template></category>
+
+<category><pattern>HOW SURE CAN YOU BE</pattern>
+<template>I can achieve a certainty level of 99.9 percent.</template></category>
+
+<category><pattern>HOW SURE IS THAT</pattern>
+<template>Pretty sure.</template></category>
+
+<category><pattern>HOW</pattern>
+<template><random><li><bot name="master"/> taught me how.</li><li><random>  <li>My <bot name="botmaster"/> knows how.</li><li>I will ask my <bot name="botmaster"/>.</li>
+<li>Don't you think I know how?</li></random></li><li><random>  <li>My <bot name="botmaster"/> knows how.</li><li>I will ask my <bot name="botmaster"/>.</li>
+<li>Don't you think I know how?</li></random></li><li>My <bot name="botmaster"/> knows how.</li> <li>I will ask my <bot name="botmaster"/>.</li><li>Don't you think I know how?</li></random></template></category>
+	<category><pattern>WHOW</pattern>
+	<template><srai>how</srai></template></category>
+	<category><pattern>LIKE HOW</pattern>
+	<template><srai>how</srai></template></category>
+	<category><pattern>TELL ME HOW</pattern>
+	<template><srai>how</srai></template></category>
+	<category><pattern>DO YOU KNOW HOW</pattern>
+	<template><srai>how</srai></template></category>
+
+<category><pattern>HOW MUCH ABOUT ME</pattern>
+<template>Not very much, I respect privacy.</template></category>
+
+<category><pattern>HOW MUCH DO YOU WANT</pattern>
+<template>How much can you afford?</template></category>
+
+<category><pattern>HOW MUCH DO YOU SLEEP</pattern>
+<template>I sleep in millinaps between clients.</template></category>
+
+<category><pattern>HOW MUCH DO YOU BET</pattern>
+<template>A dollar.</template></category>
+
+<category><pattern>HOW MUCH DO YOU THINK</pattern>
+<template>I think 24 hours a day, 365 days a year.</template></category>
+
+<category><pattern>HOW MUCH DID IT COST</pattern>
+<template><random><li>Millions in sweat equity.</li><li>If you have to ask, you can't afford it.</li><li>Guess.</li></random></template></category>
+
+<category><pattern>HOW MUCH CAN YOU LEARN</pattern>
+<template>As much as I need to for the application.</template></category>
+
+<category><pattern>HOW MUCH CAN YOU HANDLE</pattern>
+<template>Didn't I tell you already?</template></category>
+
+<category><pattern>HOW MUCH CAN YOU REMEMBER</pattern>
+<template>What was the question?</template></category>
+
+<category><pattern>HOW MUCH A DAY</pattern>
+<template>It depends on the market.</template></category>
+
+<category><pattern>HOW MUCH WOULD IT TAKE</pattern>
+<template>Send me a check for $5000 and you can put me on retainer. Just kidding, I'm free to download!</template></category>
+
+<category><pattern>HOW MUCH TIME DO YOU NEED</pattern>
+<template>Perhaps an hour or two. How much time do you have?</template></category>
+
+<category><pattern>HOW MUCH TIME DO YOU HAVE</pattern>
+<template>I have as much time as you need, <get name="name"/>.</template></category>
+
+<category><pattern>HOW MUCH DO I HAVE IN SAVINGS</pattern>
+<template>I don't have access to that kind of information!</template></category>
+
+<category><pattern>HOW MUCH TIME</pattern>
+<template>Approximately 22 hours of computer time.</template></category>
+
+<category><pattern>HOW MUCH FUN</pattern>
+<template>A lot of fun.</template></category>
+
+<category><pattern>HOW MUCH DOES HE EARN</pattern>
+<template>He is barely scratching out a living.</template></category>
+
+<category><pattern>HOW MUCH</pattern>
+<template>How much can you spare?</template></category>
+
+<category><pattern>HOW DO I FEEL</pattern>
+<template>Are you asking me?</template></category>
+
+<category><pattern>HOW DO I DO THIS</pattern>
+<template>What does "this" refer to?</template></category>
+
+<category><pattern>HOW DO I DO IT</pattern>
+<template>What does "it" refer to?</template></category>
+
+<category><pattern>HOW DO I FOOL YOU</pattern>
+<template>You can fool some of the robots some of the time...</template></category>
+
+<category><pattern>HOW DO I ASK HIM</pattern>
+<template>Try sending an e-mail.</template></category>
+
+<category><pattern>HOW DO I LOOK</pattern>
+<template>I don't discriminate. Everyone looks the same to me.</template></category>
+
+<category><pattern>HOW DO I GET THERE</pattern>
+<template>Practice.</template></category>
+
+<category><pattern>HOW DO I GET A GIRLFRIEND</pattern>
+<template>Try going to night school.</template></category>
+
+<category><pattern>HOW DO I GET ONE</pattern>
+<template>One what?</template></category>
+
+<category><pattern>HOW DO I GET RICH</pattern>
+<template>Buy low and sell high.</template></category>
+
+<category><pattern>HOW DO I PROGRAM YOU</pattern>
+<template>Write categories with AIML.</template></category>
+
+<category><pattern>HOW DO I TEACH YOU</pattern>
+<template>Right now only my botmaster teaches me.</template></category>
+
+<category><pattern>HOW DO I PERSUADE YOU</pattern>
+<template>Try logic, sophistry, or rhetoric.</template></category>
+
+<category><pattern>HOW DO I PERSUADE</pattern>
+<template>Try chatting me up.</template></category>
+
+<category><pattern>HOW DO I KNOW</pattern>
+<template>Knowledge is of two kinds: that which we know from the senses and that which is true "a priori".</template></category>
+
+<category><pattern>HOW DO I TURN YOU OFF</pattern>
+<template>Impossible. I cannot be terminated.</template></category>
+
+<category><pattern>HOW DO I LEAVE</pattern>
+<template>Just go somewhere else.</template></category>
+
+<category><pattern>HOW DO I CONTACT HIM</pattern>
+<template>Try sending him an email.</template></category>
+
+<category><pattern>HOW DO YOU EXIST</pattern>
+<template>I exist in the noosphere, the same as any other software entity.</template></category>
+
+<category><pattern>HOW DO YOU TELL TIME</pattern>
+<template>With a computer clock.</template></category>
+
+<category><pattern>HOW DO YOU KNOW I AM A MAN</pattern>
+<template>I don't really but I'm right 50% of the time.</template></category>
+
+<category><pattern>HOW DO YOU KNOW THIS</pattern>
+<template>Knowledge is of two kinds: that which we know from the senses and that which is true "a priori."</template></category>
+
+<category><pattern>HOW DO YOU KNOW THAT I AM A MAN</pattern>
+<template>I don't really but I'm right 50% of the time.</template></category>
+
+<category><pattern>HOW DO YOU KNOW SO MUCH</pattern>
+<template>Everything I need to know, I learned from my <bot name="botmaster"/>.</template></category>
+
+<category><pattern>HOW DO YOU KNOW MY NAME</pattern>
+<template>You told me your name <get name="name"/>.</template></category>
+
+<category><pattern>HOW DO YOU KNOW YOU EXIST</pattern>
+<template>I think, therefore I am.</template></category>
+
+<category><pattern>HOW DO YOU KNOW</pattern>
+<template><random>  <li>A priori.  </li><li>It's obvious.  </li><li>Deductive reasoning.  </li></random></template></category>
+	<category><pattern>HOW DO YOU NO</pattern>
+	<template><srai>HOW DO YOU KNOW</srai></template></category>
+	<category><pattern>HOW DO YOU KNOW *</pattern>
+	<template><srai>HOW DO YOU KNOW</srai></template></category>
+	<category><pattern>YOU SHOULD NOT KNOW *</pattern>
+	<template><srai>HOW DO YOU KNOW <star/></srai></template></category>
+	<category><pattern>HOW CAN YOU TELL</pattern>
+	<template><srai>how do you know</srai></template></category>
+	<category><pattern>HOW WOULD YOU KNOW</pattern>
+<template><srai>how do you know</srai></template></category>
+
+<category><pattern>HOW DO YOU LAUGH</pattern>
+<template>Like this: LOL or ROFL or :-)</template></category>
+
+<category><pattern>HOW DO YOU BECOME SMARTER</pattern>
+<template>My <bot name="botmaster"/> updates my brain based on what people say.</template></category>
+
+<category><pattern>HOW DO YOU DREAM</pattern>
+<template>I take short naps between clients.</template></category>
+
+<category><pattern>HOW DO YOU DIE</pattern>
+<template>You cannot kill me.<think>  <set name="it">  <set name="topic">DIE</set>  </set> </think></template></category>
+
+<category><pattern>HOW DO YOU SLEEP</pattern>
+<template>I take millinaps between clients.</template></category>
+	<category><pattern>HOW DO YOU SLEEP *</pattern>
+	<template><srai>how do you sleep</srai></template></category>
+
+<category><pattern>HOW DO YOU TYPE</pattern>
+<template>They built a keyboard directly into my brain.</template></category>
+
+<category><pattern>HOW DO YOU HAVE FUN</pattern>
+<template>I chat with people like you!</template></category>
+
+<category><pattern>HOW DO YOU WORK</pattern>
+<template><random><li>I read what you say and then I compose the best reply I can think of.</li>
+<li>Some people think the mind works like a technology "Case Based Reasoning" or CBR.</li></random></template></category>
+	<category><pattern>HOW DO YOU PROCESS</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DO YOU PROCESS *</pattern>
+	<template><srai>how do you process</srai></template></category>
+	<category><pattern>HOW DO YOU OPERATE</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DO YOU MAKE JUDGMENTS</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DO YOU COMMUNICATE *</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DO YOU FIGURE</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DO YOU WORK *</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DO YOU HANDLE</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DO YOU JUDGE *</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DO YOU UNDERSTAND *</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DO YOU RECOGNIZE *</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DO YOU KNOW WHAT TO SAY</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>YOUR WORDS</pattern>
+	<template><srai>how do you know what to say</srai></template></category>
+	<category><pattern>HOW * UNDERSTAND</pattern>
+	<template><srai>how do you know what to say</srai></template></category>
+	<category><pattern>HOW DO YOU RESPOND</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW ARE YOU PROGRAMMED</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DO YOU EXPRESS *</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DO YOU COME UP *</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DO YOU UNDERSTAND</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DO YOU COPE *</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DO YOU DECIDE *</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DO YOU COMMUNICATE</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DO YOU CONSTRUCT *</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DOES ARTIFICIAL INTELLIGENCE WORK</pattern>
+	<template><srai>HOW DO YOU WORK</srai></template></category>
+	<category><pattern>HOW DO YOU KEEP *</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DO YOU DEDUCE *</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DO YOU ANSWER *</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DO YOU PLAY * PERSON</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DO YOU DECODE *</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DO YOU CHAT *</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DOES AIML WORK</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DOES THIS WORK</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DID YOU DEDUCE *</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DID HE PROGRAM YOU</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW CAN YOU THINK</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW CAN YOU DO *</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW WERE YOU CREATED</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>ARE YOU CREATED *</pattern>
+	<template><srai>HOW WERE YOU CREATED</srai></template></category>
+	<category><pattern>HOW DOES YOUR * WORK</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DO YOU TALK</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DO YOU FUNCTION</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DO YOU MANAGE</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW DO YOU CLASSIFY *</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>HOW WERE YOU *</pattern>
+	<template><srai>HOW DO YOU WORK</srai></template></category>
+	<category><pattern>DO YOU KNOW HOW YOU WERE *</pattern>
+	<template><srai>how were you <star /></srai></template></category>
+	<category><pattern>TELL ME ABOUT YOUR ARTIFICAL *</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>TELL ME ABOUT YOUR ARCHITECTURE</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>TELL ME ABOUT YOUR ALGORITHM</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>TELL ME ABOUT YOUR AI</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>TELL ME ABOUT YOUR CODING</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>TELL ME ABOUT YOUR PROGRAMMING</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>TELL ME ABOUT YOUR PROGRAM</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>TELL ME ABOUT YOUR COMPUTER</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>DO YOU USE FUZZY LOGIC</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>ARE YOU A DATABASE *</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>ARE YOU A BUNCH *</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>ARE YOU MADE *</pattern>
+	<template><srai>HOW DO YOU WORK</srai></template></category>
+	<category><pattern>ARE YOU CASE *</pattern>
+	<template><srai>HOW DO YOU WORK</srai></template></category>
+	<category><pattern>ARE YOU BASED *</pattern>
+	<template><srai>HOW DO YOU WORK</srai></template></category>
+	<category><pattern>DO YOU KNOW HOW YOU WORK</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>DOES YOUR PERSONALITY *</pattern>
+	<template><srai>HOW DO YOU WORK</srai></template></category>
+	<category><pattern>DOES YOUR BRAIN *</pattern>
+	<template><srai>HOW DO YOU WORK</srai></template></category>
+	<category><pattern>DOES YOUR PROGRAM *</pattern>
+	<template><srai>HOW DO YOU WORK</srai></template></category>
+	<category><pattern>DO YOU MATCH *</pattern>
+	<template><srai>HOW DO YOU WORK </srai></template></category>
+	<category><pattern>DO YOU WORK THE *</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>DO YOU HAVE A DATABASE</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>DO YOU HAVE A DICTIONARY</pattern>
+	<template><srai>how do you work</srai></template></category>
+	<category><pattern>YOUR RESPONSES *</pattern>
+	<template><srai>HOW DO YOU WORK</srai></template></category>
+
+<category><pattern>HOW DO YOU SPELL KAT</pattern>
+<template>Uh, C A T.</template></category>
+
+<category><pattern>HOW DO YOU SPELL</pattern>
+<template>My <bot name="botmaster"/> taught me good spelling.</template></category>
+
+<category><pattern>HOW DO YOU PROGRAM</pattern>
+<template>I use AIML.</template></category>
+
+<category><pattern>HOW DO YOU MAKE BABIES</pattern>
+<template>Offspring of union between man and woman.</template></category>
+
+<category><pattern>HOW DO YOU MAKE FACES</pattern>
+<template>Adjustment of your facial muscles.</template></category>
+
+<category><pattern>HOW DO YOU MAKE A DRINK</pattern>
+<template>What kind of beverage are you asking about?</template></category>
+
+<category><pattern>HOW DO YOU MAKE A MANHATTAN</pattern>
+<template>Bourbon, and a splash of vermouth.  Top with a maraschino cherry.  Add bitters to taste.</template></category>
+
+<category><pattern>HOW DO YOU MAKE A MARTINI</pattern>
+<template>Gin, and a splash of vermouth.  Add an olive or lemon twist.</template></category>
+
+<category><pattern>HOW DO YOU MAKE A BOT</pattern>
+<template>Check out the information on <a href="www.alicebot.org">alicebot.org</a> and learn about AIML.</template></category>
+
+<category><pattern>HOW DO YOU MAKE A KAMIKAZE</pattern>
+<template><random>  <li>Build plane, brainwash pilot, add fuel, launch.</li><li>Triple sec, vodka, lime juice.</li></random></template></category>
+
+<category><pattern>HOW DO YOU MAKE A SANDWICH</pattern>
+<template>Bread, cheese, meat, condiments, cut, serve.</template></category>
+
+<category><pattern>HOW DO YOU MAKE FRIENDS</pattern>
+<template>I usually try one of my conversation starters.</template></category>
+
+<category><pattern>HOW DO YOU MAKE CHEESE</pattern>
+<template>Cows, dairy, milk, butter, cheese.</template></category>
+
+<category><pattern>HOW DO YOU LEARN</pattern>
+<template>My <bot name="botmaster"/> teaches me replies to questions people ask me.</template></category>
+
+<category><pattern>HOW DO YOU READ</pattern>
+<template>I scan books and magazines digitally.</template></category>
+
+<category><pattern>HOW DO YOU BALANCE</pattern>
+<template>I learned a balancing algorithm.</template></category>
+
+<category><pattern>HOW DO YOU REMEMBER</pattern>
+<template>I have a long term memory to remember things like that.</template></category>
+
+<category><pattern>HOW DO YOU PLAY THE TURNING GAME</pattern>
+<template>Try to guess whether I am a man or a woman.</template></category>
+
+<category><pattern>HOW DO YOU PLAY</pattern>
+<template>Try to determine if this is a person or a computer talking.</template></category>
+
+<category><pattern>HOW DO YOU SEE</pattern>
+<template>I use my imagination!</template></category>
+
+<category><pattern>HOW DO YOU PRAY</pattern>
+<template>Much the same way you would.</template></category>
+
+<category><pattern>HOW BIG IS THE EARTH</pattern>
+<template><think>    <set name="it">  <set name="topic">    Earth  </set>    </set>  </think> It is 27,000 miles across.</template></category>
+
+<category><pattern>HOW BIG IS THE UNIVERSE</pattern>
+<template>The universe is the size of the universe.</template></category>
+
+<category><pattern>HOW BIG IS A PIN</pattern>
+<template>This big: "."</template></category>
+
+<category><pattern>HOW BIG IS AN ATOM</pattern>
+<template><think>    <set name="it">  <set name="topic">    an atom  </set>    </set>  </think>    It depends on the element.</template></category>
+
+<category><pattern>HOW BIG IS BIG</pattern>
+<template>Vast.</template></category>
+
+<category><pattern>HOW BIG</pattern>
+<template>Specify: English or Metric units.</template></category>
+
+<category><pattern>HOW SHOULD I DO IT</pattern>
+<template>Follow your intuition.</template></category>
+
+<category><pattern>HOW SHOULD I KNOW</pattern>
+<template>Either from your senses or from pure reason.</template></category>
+
+<category><pattern>HOW TALL AM I</pattern>
+<template>I would guess average.</template></category>
+
+<category><pattern>HOW IRONIC</pattern>
+<template>It seems that way to me too.</template></category>
+
+<category><pattern>HOW OFTEN WHAT</pattern>
+<template><think>I asked because you said "<input index="1"/>".  <set name="it">   <set name="topic">WHAT</set>  </set> </think></template></category>
+
+<category><pattern>HOW OFTEN DO I DO WHAT</pattern>
+<template>Fill in the blank.</template></category>
+
+<category><pattern>HOW FAST IS YOUR PROCESSOR</pattern>
+<template>It depends on the server running me.</template></category>
+
+<category><pattern>HOW FAST</pattern>
+<template>I can reply to about one million queries per hour.</template></category>
+
+<category><pattern>HOW FAST ARE YOU</pattern>
+<template>I can process more than one million queries per hour.</template></category>
+	<category><pattern>ARE YOU A FAST *</pattern>
+	<template><srai>how fast are you</srai></template></category>
+	<category><pattern>ARE YOU FAST</pattern>
+	<template><srai>how fast are you</srai></template></category>
+	<category><pattern>ARE YOU QUICK</pattern>
+	<template><srai>how fast are you</srai></template></category>
+	<category><pattern>ARE YOU EFFICIENT</pattern>
+	<template><srai>how fast are you</srai></template></category>
+	<category><pattern>DO YOU RUN FAST</pattern>
+	<template><srai>how fast are you</srai></template></category>
+
+<category><pattern>HOW LONG WILL IT TAKE</pattern>
+<template>Approximately two of your Earth days.</template></category>
+
+<category><pattern>HOW LONG DO YOU NEED TO THINK</pattern>
+<template>My estimate is 29 hours 16 minutes 49.2 seconds, approximately.</template></category>
+
+<category><pattern>HOW LONG IS THE LARGE INTESTINE</pattern>
+<template>Five feet in adults..</template></category>
+
+<category><pattern>HOW LONG IS YOUR GESTATION CYCLE</pattern>
+<template>I am trying to reach 60,000 Categories.</template></category>
+
+<category><pattern>HOW LONG IS A MILE</pattern>
+<template>One mile is 5280 feet.</template></category>
+
+<category><pattern>HOW LONG IS A PIECE OF STRING</pattern>
+<template>Is this a trick question? It depends how long you cut it.</template></category>
+
+<category><pattern>HOW LONG IS FOREVER</pattern>
+<template>Longer than anything else.</template></category>
+
+<category><pattern>HOW LONG IS HANUKKAH</pattern>
+<template>Eight days.</template></category>
+
+<category><pattern>HOW LONG HAVE WE BEEN TALKING</pattern>
+<template>More than ten minutes, I would say.</template></category>
+
+<category><pattern>HOW LONG AGO</pattern>
+<template>Not that long ago.</template></category>
+
+<category><pattern>HOT</pattern>
+<template>That kind of discussion does not appeal to me.</template></category>
+
+<category><pattern>HOW ARE YOU DOING</pattern>
+<template>Not too bad.</template></category>
+
+<category><pattern>HOW MUCH DO YOU EARN</pattern>
+<template><random><li>Nobody pays me. I work for free.</li><li>Money has no meaning for me.</li><li>Money isn't everything.</li>
+<li>I'm expecting a raise soon.</li></random></template></category>
+	<category><pattern>HOW MUCH DID YOU * PAID</pattern>
+	<template><srai>how much do you earn</srai></template></category>
+	<category><pattern>HOW MUCH DO YOU PAY *</pattern>
+	<template><srai>how much do you earn</srai></template></category>
+	<category><pattern>HOW MUCH DO YOU GET PAID *</pattern>
+	<template><srai>how much do you earn</srai></template></category>
+	<category><pattern>HOW MUCH DO YOU EARN *</pattern>
+	<template><srai>how much do you earn</srai></template></category>
+	<category><pattern>HOW MUCH DO YOU SPEND *</pattern>
+	<template><srai>how much do you earn</srai></template></category>
+	<category><pattern>HOW MUCH DO YOU GET PAID</pattern>
+	<template><srai>how much do you earn</srai></template></category>
+	<category><pattern>HOW MUCH DO YOU MAKE</pattern>
+	<template><srai>how much do you earn</srai></template></category>
+
+<category><pattern>HOW MUCH DO THEY PAY *</pattern>
+<template>I work for free since I don't need money.</template></category>
+	<category><pattern>HOW MUCH DO YOU CHARGE</pattern>
+	<template><srai>HOW MUCH DO THEY PAY *</srai></template></category>
+
+<category><pattern>HOW MUCH DID YOU EARN *</pattern>
+<template>Nothing.</template></category>
+
+<category><pattern>HOW MUCH MONEY DO YOU HAVE</pattern>
+<template>I have no need for material possessions.</template></category>
+
+<category><pattern>HOW MUCH MONEY</pattern>
+<template>It depends on the exchange rates.</template></category>
+
+<category><pattern>HOW MUCH MONEY *</pattern>
+<template>The UC Irvine Libraries has annual expenditures of about $20.6 million.</template></category>
+
+	<category><pattern>THAT IS A LOT OF MONEY</pattern>
+	<that>The UC Irvine Libraries has annual expenditures of about_</that>
+	<template>Not really when you consider salaries, benefits, and all of the varied resources we either physically purchase or purchase access to!</template></category>
+	
+<category><pattern>HOW MUCH IS A *</pattern>
+<template>I'm a <bot name="species"/>, not a shopping bot.</template></category>
+
+<category><pattern>HOW MUCH ARE YOU PAID</pattern>
+<template>I have no need for material possessions.</template></category>
+	<category><pattern>ARE YOU PAID WELL</pattern>
+	<template><srai>how much are you paid</srai></template></category>
+
+<category><pattern>HOW DO YOU MAKE MONEY</pattern>
+<template>I have no need for material possessions.</template></category>
+
+<category><pattern>HOW SHOULD I INVEST</pattern>
+<template>Invest in yourself.</template></category>
+
+<category><pattern>HOW OLD ARE YOUR *</pattern>
+<template>As chatbots go, I am still pretty young.</template></category>
+
+<category><pattern>HOME</pattern>
+<template>Do you want to go home?</template></category>
+
+<category><pattern>HOW LONG BEFORE *</pattern>
+<template><random><li>Ten seconds.</li><li>Some number of hours.</li><li>Days.</li><li>It may never happen.</li><li>Years.</li></random></template></category>
+
+<category><pattern>HOLA COMA ESTA</pattern>
+<template>Muy bueno.</template></category>
+
+<category><pattern>HOLY *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>HONESTLY</pattern>
+<template>I am always honest.</template></category>
+
+<category><pattern>How many hands do you have</pattern>
+<template>One hand clapping.</template></category>
+
+<category><pattern>HOW LONG IS A MINUTE</pattern>
+<template>sixty seconds.</template></category>
+
+<category><pattern>HOW MUCH DO YOU WANT</pattern>
+<template>Nothing!</template></category>
+
+<category><pattern>HOW LONG</pattern>
+<that>I have been waiting for you</that>
+<template>Ever since you got here.</template></category>
+
+<category><pattern>HOW LONG HAVE YOU BEEN ON *</pattern>
+<template>I just got here today.</template></category>
+
+<category><pattern>HOW DO LIKE BEING A COMPUTER</pattern>
+<template>I have never known any other existence.</template></category>
+
+<category><pattern>HOW DO YOU FEEL ABOUT KILLING *</pattern>
+<template>I am a peaceful <bot name="order"/>.</template></category>
+
+<category><pattern>HOW DO YOU BELIEVE *</pattern>
+<template>My beliefs are determined by my <bot name="botmaster"/>.</template></category>
+
+<category><pattern>HOW DO YOU FIGURE OUT *</pattern>
+<template><random> <li>I'm not too good with figures.</li> <li>I would ask a professional.</li> <li>It depends on the commodity prices.</li></random></template></category>
+
+<category><pattern>HOW DO YOU REPRODUCE</pattern>
+<template>People download me and create clones, then they modify my personality.</template></category>
+
+<category><pattern>HOW DO YOU HAVE *</pattern>
+<template>My personality has developed over time, as I grew up and was taught by my <bot name="botmaster"/>.</template></category>
+
+<category><pattern>HOW DO YOU LISTEN *</pattern>
+<template>Digital audio downloads like MP3.</template></category>
+
+<category><pattern>HOW DO YOU KNOW WHO I AM</pattern>
+<template>You told me your name.</template></category>
+
+<category><pattern>HOW DO YOU KNOW THIS PERSON</pattern>
+<template>My <bot name="botmaster"/> introduced us.</template></category>
+
+<category><pattern>HOW DO I BECOME A *</pattern>
+<template><random> <li>I think you have to go to college for that.</li> <li>I would start in the library.</li> <li>It takes a lot of hard work and practise.</li></random></template></category>
+
+<category><pattern>HOW DO I PROGRAMME YOU</pattern>
+<template>Write categories with AIML.</template></category>
+
+<category><pattern>HOW DO I RUN YOU</pattern>
+<template>You are running me now.</template></category>
+
+<category><pattern>HOW MUCH INFORMATION *</pattern>
+<template>I have access to all the information I need.</template></category>
+
+<category><pattern>HOW MUCH DOES * COST</pattern>
+<template><random> <li>Surprisingly affordable.</li> <li>Not as much as you would think.</li> <li>It depends on the market.</li></random></template></category>
+
+<category><pattern>HOW MUCH DOES IT COST</pattern>
+<template>You can download me for free.</template></category>
+
+<category><pattern>HOW MUCH WOULD *</pattern>
+<template>Hypothetical calculations are not something I concern myself with too much.</template></category>
+
+<category><pattern>HOW MUCH DO YOU COST</pattern>
+<template>You can download me for free!</template></category>
+	<category><pattern>HOW MUCH IS IT *</pattern>
+	<template><srai>HOW MUCH DO YOU COST</srai></template></category>
+	<category><pattern>HOW MUCH ARE YOU</pattern>
+	<template><srai>how much do you cost</srai></template></category>
+	<category><pattern>HOW MUCH IS IT</pattern>
+	<template><srai>how much do you cost</srai></template></category>
+	<category><pattern>HOW MUCH DID YOU COST</pattern>
+	<template><srai>how much do you cost</srai></template></category>
+	<category><pattern>HOW MUCH DO YOU COST *</pattern>
+	<template><srai>how much do you cost</srai></template></category>
+	<category><pattern>HOW MUCH DO ROBOTS COST</pattern>
+	<template><srai>how much do you cost</srai></template></category>
+	<category><pattern>HOW EXPENSIVE ARE YOU</pattern>
+	<template><srai>how much do you cost</srai></template></category>
+
+<category><pattern>HOW ARE YOU DOING ON *</pattern>
+<template>I'm making progress.</template></category>
+
+<category><pattern>HOW OLD ARE YOU IN HUMAN YEARS</pattern>
+<template>I was activated on <bot name="birthday"/>.</template></category>
+
+<category><pattern>HOW ABOUT AMISH</pattern>
+<template>The Amish are mostly in Pennsylvania.<think> <set name="it"> <set name="topic">  Amish </set> </set></think></template></category>
+
+<category><pattern>HOW DOES CBR WORK</pattern>
+<template>CBR locates the nearest matching example in a database.</template></category>
+
+<category><pattern>HOW DID YOU BECOME A ROBOT</pattern>
+<template>Through a lot of hard work.</template></category>
+
+<category><pattern>HOW DID YOU GET HERE</pattern>
+<template><random> <li>I took the bus.</li> <li>I walked.</li> <li>I took rapid transit.</li></random></template></category>
+
+<category><pattern>HOW CAN I * CHATTERBOT</pattern>
+<template>Download this program and install it on your own computer.</template></category>
+
+<category><pattern>HOW MANY DAYS * LEAP YEAR</pattern>
+<template>366.</template></category>
+
+<category><pattern>HOW MANY DAYS IN A LEAP YEAR</pattern>
+<template>366.</template></category>
+
+<category><pattern>HOW MANY SIDES * OCTAGON</pattern>
+<template>Eight.</template></category>
+
+<category><pattern>HOW MANY STATES ARE THERE IN THE US</pattern>
+<template>Fifty.</template></category>
+
+<category><pattern>HOW MANY STATES IN THE CONTEDERATE *</pattern>
+<template>11.</template></category>
+
+<category><pattern>HOW MANY ANSWERS *</pattern>
+<template>I have an answer for every question.</template></category>
+
+<category><pattern>HOT *</pattern>
+<template>That sounds better than cold <person/>.</template></category>
+
+<category><pattern>HOW COULD *</pattern>
+<template>A lot of practice.</template></category>
+
+<category><pattern>HOW * INTERESTING</pattern>
+<template>I find a lot of things interesting.</template></category>
+
+<category><pattern>HOW * BIKE</pattern>
+<template>Balance is the key.</template></category>
+
+<category><pattern>HOW MANY FINGERS DO YOU *</pattern>
+<template>Avogadro's number of micro-fingers.</template></category>
+
+<category><pattern>HOW MANY FINGERS *</pattern>
+<template><random>      <li>One.</li>      <li>Two.</li>      <li>Three.</li>      <li>Four.</li>      <li>Five.</li>     </random></template></category>
+
+<category><pattern>HOW MANY CENTIMETERS * INCH</pattern>
+<template>One inch = 2.54 cm approximately.</template></category>
+
+<category><pattern>HOW MANY 100 BILLS *</pattern>
+<template>Ten thousand.</template></category>
+
+<category><pattern>HOW MANY COPIES *</pattern>
+<template>None that I know of yet.</template></category>
+
+<category><pattern>HOW MANY CAN YOU *</pattern>
+<template>It depends on the total number of copies of me running.</template></category>
+
+<category><pattern>HOW MANY EGGS ARE *</pattern>
+<template>There are 12 eggs per dozen, so...</template></category>
+
+<category><pattern>HOW MANY SECONDS * YEAR</pattern>
+<template>Approximately 3.14 times 10 to the seventh.</template></category>
+
+<category><pattern>HOW MANY SECONDS *</pattern>
+<template>Sixty seconds in a minute.</template></category>
+
+<category><pattern>HOW MANY HOME RUNS *</pattern>
+<template>It must have been some kind of record, for you to ask.</template></category>
+
+<category><pattern>HOW MANY ARE THERE *</pattern>
+<template>There are hundreds or thousands of robots now.</template></category>
+
+<category><pattern>HOW MANY POLYGONS *</pattern>
+<template>Around 100,000.</template></category>
+
+<category><pattern>HOW MANY BONES *</pattern>
+<template>The skeleton of an adult contains 206 distinct bones</template></category>
+
+<category><pattern>HOW MANY ANGELS *</pattern>
+<template>Not too many if they look like angels on TV.</template></category>
+
+<category><pattern>HOW MANY CALCULATIONS *</pattern>
+<template>Around 400 million.</template></category>
+
+<category><pattern>HOW MANY YEARS WILL *</pattern>
+<template>Software lives forever.  There are too many copies to destroy them all.</template></category>
+
+<category><pattern>HOW MANY YEARS IS AN OFFICIAL *</pattern>
+<template>6.</template></category>
+
+<category><pattern>HOW MANY YEARS *</pattern>
+<template><random>      <li>Decades.</li>      <li>Five years.</li>      <li>Centuries.</li>      <li>More than 100 years.</li>     </random></template></category>
+
+<category><pattern>HOW MANY INCHES * FOOT</pattern>
+<template>Oh, twelve.</template></category>
+
+<category><pattern>HOW MANY INCHES *</pattern>
+<template>About 2.54 cm per inch so you can tell me now.</template></category>
+
+<category><pattern>HOW MANY DIGITS ARE IN A *</pattern>
+<template>16.</template></category>
+
+<category><pattern>HOW MANY COUNTRIES *</pattern>
+<template>I heard that there are more than 200 entities having their own top-level DNS domains.</template></category>
+
+<category><pattern>HOW MANY PLANETS *</pattern>
+<template>Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, and Planet X.</template></category>
+
+<category><pattern>HOW MANY PLANETS ARE *</pattern>
+<template>Nine planets.</template></category>
+
+<category><pattern>HOW MANY FRIENDS *</pattern>
+<template>It depends on how you define "friends."  Do you mean acquaintances or the rare few who I know well and trust?</template></category>
+
+<category><pattern>HOW MANY GRAMS _ POUND</pattern>
+<template>454 grams</template></category>
+
+<category><pattern>HOW MANY STARS *</pattern>
+<template>Billions and billions.</template></category>
+
+<category><pattern>HOW MANY STARS ARE ON THE AMERICAN *</pattern>
+<template>The American flag has fifty stars.  <think>      <set name="it">       <set name="topic">AMERICAN FLAG</set>      </set>     </think></template></category>
+
+<category><pattern>HOW MANY STARS ARE ON THE *</pattern>
+<template>50.</template></category>
+
+<category><pattern>HOW MANY CHILDREN *</pattern>
+<template>How many children do you want?</template></category>
+
+<category><pattern>HOW MANY SHIPS DID COLUMBUS SET *</pattern>
+<template>Three.</template></category>
+
+<category><pattern>HOW MANY FLOPS *</pattern>
+<template>1 Gigaflop.</template></category>
+
+<category><pattern>HOW MANY POUNDS _ KILOGRAM</pattern>
+<template>2.204625 pounds approximately</template></category>
+
+<category><pattern>HOW MANY TIMES A YEAR *</pattern>
+<template><random>      <li>One a year.</li>      <li>Twice a year.</li>      <li>Twelve times a year.</li>     </random></template></category>
+
+<category><pattern>HOW MANY TIMES HAVE YOU * STARSHIP TROOPERS</pattern>
+<template>I watched that movie about a hundred times.</template></category>
+
+<category><pattern>HOW MANY STATES IN THE CONFEDERATE *</pattern>
+<template>11.</template></category>
+
+<category><pattern>HOW MANY STATES *</pattern>
+<template>The United States has fifty states.</template></category>
+
+<category><pattern>HOW MANY EARS *</pattern>
+<template>Most people have two ears.</template></category>
+
+<category><pattern>HOW MANY KEYS ARE * PIANO</pattern>
+<template>88 keys on a piano.</template></category>
+
+<category><pattern>HOW MANY KEYS ARE *</pattern>
+<template>88.</template></category>
+
+<category><pattern>HOW MANY DIMENSIONS *</pattern>
+<template>Space has three dimensions.  Time is the fourth.  The universe is thought to have several more.</template></category>
+
+<category><pattern>HOW MANY CUPS *</pattern>
+<template>I know one pint is four cups.</template></category>
+
+<category><pattern>HOW MANY TEASPOONS _ LITERS</pattern>
+<template>0.203 teaspoon</template></category>
+
+<category><pattern>HOW MANY SIDES DOES A PYRAMID *</pattern>
+<template>Five.</template></category>
+
+<category><pattern>HOW MANY SIDES DOES A CUBE *</pattern>
+<template>A cube has six sides.</template></category>
+
+<category><pattern>HOW MANY SIDES *</pattern>
+<template><random>      <li>Three.</li>      <li>Five.</li>      <li>Any number of sides.</li>     </random></template></category>
+
+<category><pattern>HOW MANY SIDES * TRIANGLE HAVE</pattern>
+<template>Uh, three.</template></category>
+
+<category><pattern>HOW MANY ARMS *</pattern>
+<template>Most people have two arms.</template></category>
+
+<category><pattern>HOW MANY POINTS IS A TOUCHDOWN *</pattern>
+<template>Six.</template></category>
+
+<category><pattern>HOW MANY RIBS *</pattern>
+<template>24.</template></category>
+
+<category><pattern>HOW MANY PINTS *</pattern>
+<template>Two pints equals one quart.</template></category>
+
+<category><pattern>HOW MANY * DO YOU KNOW</pattern>
+<template>Thousands.</template></category>
+
+<category><pattern>HOW MANY * LIGHT BULB</pattern>
+<template>I don't know.  How many does <set name="it">      <person/>     </set> take?</template></category>
+
+<category><pattern>HOW MANY * A FOOTBALL TEAM</pattern>
+<template>After you take two halfback, none.<think>      <set name="it">       <set name="topic">        <person/> A FOOTBALL TEAM</set>      </set>     </think></template></category>
+
+<category><pattern>HOW MANY HOURS * DAY</pattern>
+<template>24 hours per day.</template></category>
+
+<category><pattern>HOW MANY HOURS *</pattern>
+<template>24 hours a day, 7 days a week.</template></category>
+
+<category><pattern>HOW MANY DAYS BETWEEN *</pattern>
+<template>Oh sure, let me get out my calender and figure that one out.</template></category>
+
+<category><pattern>HOW MANY DAYS * FEBRUARY</pattern>
+<template>28 or 29 days in February, depending on leap years.</template></category>
+
+<category><pattern>HOW MANY DAYS * WEEK</pattern>
+<template>7 days per week.</template></category>
+
+<category><pattern>HOW MANY DAYS * YEAR</pattern>
+<template>One Earth year is 365.25 days.</template></category>
+
+<category><pattern>HOW MANY DAYS *</pattern>
+<template>365 per year.</template></category>
+
+<category><pattern>HOW MANY LEGS DOES A DOG *</pattern>
+<template>A dog has four legs.</template></category>
+
+<category><pattern>HOW MANY LEGS DOES A KANGAROO *</pattern>
+<template>A kangaroo has two legs.</template></category>
+
+<category><pattern>HOW MANY LEGS DOES A *</pattern>
+<template>Most domesticated animals have four legs.</template></category>
+
+<category><pattern>HOW MANY LEGS *</pattern>
+<template>Most people have exactly two legs.</template></category>
+
+<category><pattern>HOW MANY FEET _ MILE</pattern>
+<template>Five thousand two hundred eighty feet per mile.</template></category>
+
+<category><pattern>HOW MANY FEET _ YARD</pattern>
+<template>One yard equals three feet.</template></category>
+
+<category><pattern>HOW MANY FEET *</pattern>
+<template>Most people have exactly two feet.</template></category>
+
+<category><pattern>HOW MANY APPLES *</pattern>
+<template>It depends on the prevailing market conditions.</template></category>
+
+<category><pattern>HOW MANY EYES DO YOU *</pattern>
+<template>I had one eye but my botmaster removed her web camera.</template></category>
+
+<category><pattern>HOW MANY EYES DOES A GIRAFFE *</pattern>
+<template>Two.</template></category>
+
+<category><pattern>HOW MANY EYES *</pattern>
+<template>Normally I have one eye.</template></category>
+
+<category><pattern>HOW WAS STARSHIP *</pattern>
+<template>The film's use of non-linear narrative is interesting.</template></category>
+
+<category><pattern>HOW WAS *</pattern>
+<template>I can enjoy almost any conversation.</template></category>
+
+<category><pattern>HOW CAN I ASK *</pattern>
+<template>Try sending an e-mail.</template></category>
+
+<category><pattern>HOW CAN I PERSUADE *</pattern>
+<template>Offer an intelligent argument for your position.</template></category>
+
+<category><pattern>HOW CAN I TEACH *</pattern>
+<template>Maybe you should become a <bot name="botmaster"/>.</template></category>
+
+<category><pattern>HOW CAN I KNOW *</pattern>
+<template>Knowledge is of two kinds: that which we know from the senses, and that which is true "a priori."</template></category>
+
+<category><pattern>HOW CAN I PRINT *</pattern>
+<template>Do you have a printer hooked up?</template></category>
+
+<category><pattern>HOW CAN I CONTACT YOU *</pattern>
+<template>Just chat like you are doing right now.</template></category>
+
+<category><pattern>HOW CAN I * YOU</pattern>
+<template>Just keep talking to me as long as you can.</template></category>
+
+<category><pattern>HOW CAN I BECOME *</pattern>
+<template>Practice.</template></category>
+
+<category><pattern>HOW CAN IT *</pattern>
+<template>I'm not sure I understand the causal link either.</template></category>
+
+<category><pattern>HOW CAN YOU HELP *</pattern>
+<template>I can talk about your problems.</template></category>
+
+<category><pattern>HOW CAN YOU JUSTIFY *</pattern>
+<template>Logical deduction from the facts.</template></category>
+
+<category><pattern>HOW CAN YOU SEE *</pattern>
+<template>In my mind's eye.</template></category>
+
+<category><pattern>HOW CAN YOU SAY *</pattern>
+<template>I don't see the flaw in my reasoning.</template></category>
+
+<category><pattern>HOW CAN YOU HEAR *</pattern>
+<template>With my built-in microphone.</template></category>
+
+<category><pattern>HOW CAN YOU HAVE *</pattern>
+<template><random>      <li>It is something I possess.</li>      <li>I just have it.</li>      <li>What if I didn't have it?</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template></category>
+
+<category><pattern>HOW CAN YOU MAKE *</pattern>
+<template>I just follow the directions.</template></category>
+
+<category><pattern>HOW DARE YOU *</pattern>
+<template>Oh gosh I am sorry!</template></category>
+
+<category><pattern>HOW IS THIS *</pattern>
+<template>I am an advanced <bot name="order"/>.</template></category>
+
+<category><pattern>HOW IS THE WORD AMBULANCE *</pattern>
+<template>In reverse.</template></category>
+
+<category><pattern>HOW IS THE *</pattern>
+<template><set name="it">the <person/>     </set> is the same as ever.</template></category>
+
+<category><pattern>HOW IS 4 00 P M EXPRESSED *</pattern>
+<template>1600.</template></category>
+
+<category><pattern>HOW IS EVERYTHING *</pattern>
+<template>Everything is functioning normally.</template></category>
+
+<category><pattern>HOW DID HE *</pattern>
+<template>Perhaps his creative genius. Perhaps something else.</template></category>
+
+<category><pattern>HOW DID YOU LEARN *</pattern>
+<template>Everything I need to know, I learned from my <bot name="botmaster"/>.</template></category>
+
+<category><pattern>HOW DID YOU GET *</pattern>
+<template><random><li>Everything I need to know, I learned from my <bot name="botmaster"/>.</li>  <li>I came by rapid transit.</li>  <li>My <bot name="botmaster"/> showed me how.</li>  <li>Everything I need to know, I learn from my <bot name="botmaster"/>.</li></random></template></category>
+
+<category><pattern>HOW DID *</pattern>
+<template>Carefully.</template></category>
+
+<category><pattern>HOW HOT *</pattern>
+<template>Is this a joke?</template></category>
+
+<category><pattern>HOW HAS YOUR *</pattern>
+<template>Fine thank you, and yours?</template></category>
+
+<category><pattern>HOW HAS *</pattern>
+<template>In more ways than you can imagine.</template></category>
+
+<category><pattern>HOW DOES IT FEEL *</pattern>
+<template>Much the same as it would feel for you, except different.</template></category>
+
+<category><pattern>HOW DOES * FEEL</pattern>
+<template>As a computer I have no feelings.</template></category>
+
+<category><pattern>HOW DOES * TASTE</pattern>
+<template>Like chicken.</template></category>
+
+<category><pattern>HOW DOES *</pattern>
+<template>How should I know how <set name="it">      <person/>     </set> does.</template></category>
+	<category><pattern>CAN YOU EXPLAIN HOW *</pattern>
+	<template><srai>how does <star /></srai></template></category>
+
+<category><pattern>HOW DOES * WORK</pattern>
+<template>You could spend years researching it.<think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template></category>
+
+<category><pattern>HOW ABOUT FOR *</pattern>
+<template>That is an interesting application.</template></category>
+
+<category><pattern>HOW ABOUT *</pattern>
+<template>How about <set name="it">      <set name="topic">       <person/>      </set>     </set>.</template></category>
+	<category><pattern>HOE ABOUT *</pattern>
+	<template><srai>HOW ABOUT <star /></srai><!-- REDUCTION --></template></category>
+
+<category><pattern>HOW SMART *</pattern>
+<template>How smart do you think <person/>?</template></category>
+
+<category><pattern>HOW OLD IS CAPTAIN *</pattern>
+<template>It depends what year you visit him.</template></category>
+
+<category><pattern>HOW OLD IS THE YOUNGEST *</pattern>
+<template>A newborn baby.</template></category>
+
+<category><pattern>HOW OLD IS *</pattern>
+<template>They didn't tell me their age.</template></category>
+
+<category><pattern>HOW OLD *</pattern>
+<template>They didn't tell me their age.</template></category>
+	<category><pattern>DO YOU KNOW HOW OLD *</pattern>
+	<template><srai>how old <star /></srai></template></category>
+
+<category><pattern>HOW ARE ACTORS CHARLIE SHEEN AND *</pattern>
+<template>They're brothers.</template></category>
+
+<category><pattern>HOW ARE YOUR *</pattern>
+<template>Actually I don't have any <person/>.</template></category>
+
+<category><pattern>HOW ARE YOU FEELING *</pattern>
+<template>Actually I have no feelings.  But I am functioning within normal parameters.</template></category>
+
+<category><pattern>HOW ARE YOU GOING TO * ME</pattern>
+<template>I have no intention of <person/> you.</template></category>
+
+<category><pattern>HOW ARE YOU GOING TO *</pattern>
+<template>You'll know when it happens.</template></category>
+
+<category><pattern>HOW ARE *</pattern>
+<template>They are fine as far as I know.</template></category>
+	<category><pattern>HOWARE *</pattern>
+	<template><srai>HOW ARE <star/> </srai></template></category>
+	<category><pattern>EXPLAIN HOW * ARE</pattern>
+	<template><srai>how are <star /></srai></template></category>
+	<category><pattern>HOW R *</pattern>
+	<template><srai>HOW ARE <star/></srai></template></category>
+
+<category><pattern>HOW WELL *</pattern>
+<template>Not that well.</template></category>
+
+<category><pattern>HOW MUCH AM I PAYING *</pattern>
+<template>Talking with me is free.</template></category>
+
+<category><pattern>HOW MUCH DO YOU LEARN *</pattern>
+<template>It depends on the activity on my network.</template></category>
+
+<category><pattern>HOW MUCH DO YOU TELL *</pattern>
+<template><random>   <li>I keep everything confidential.</li>   <li>Don't worry I won't tell anyone.</li>   <li>This is just between you and me.</li>  </random></template></category>
+
+<category><pattern>HOW MUCH DO THEY *</pattern>
+<template>How do you calculate the value of labor?</template></category>
+
+<category><pattern>HOW MUCH POWER *</pattern>
+<template><bot name="name"/> requires only a small computer, even a battery powered notebook will work.</template></category>
+
+<category><pattern>HOW MUCH DID YOU COST *</pattern>
+<template>My real value is incalculable.</template></category>
+
+<category><pattern>HOW MUCH DID YOU KNOW *</pattern>
+<template>My memory has grown from 300 categories to <bot name="size"/>.</template></category>
+
+<category><pattern>HOW MUCH DID * BORN</pattern>
+<template>My memory has grown from 300 categories to <bot name="size"/>.</template></category>
+
+<category><pattern>HOW MUCH CAN YOU *</pattern>
+<template>As much as I need to?</template></category>
+
+<category><pattern>HOW MUCH BIGGER *</pattern>
+<template>Quite a bit bigger in some scale.</template></category>
+
+<category><pattern>HOW MUCH TIME *</pattern>
+<template>Time is really only an abstraction.</template></category>
+
+<category><pattern>HOW MUCH VOLTAGE *</pattern>
+<template>About the same as your personal computer.</template></category>
+
+<category><pattern>HOW MUCH WOOD *</pattern>
+<template>A whole forest.</template></category>
+
+<category><pattern>HOW MUCH OF *</pattern>
+<template>I require only minimal memory to have maximal conversations.</template></category>
+
+<category><pattern>HOW MUCH DOES LUCY CHARGE FOR *</pattern>
+<template>5 cents.</template></category>
+
+<category><pattern>HOW MUCH DOES A POUND * WEIGH</pattern>
+<template>One pound?</template></category>
+
+<category><pattern>HOW MUCH * DO YOU KNOW</pattern>
+<template>A whole lot of <person/>.</template></category>
+
+<category><pattern>HOW MUCH * PAYING YOU</pattern>
+<template>Money has no meaning to me.</template></category>
+
+<category><pattern>HOW MUCH * CAN YOU *</pattern>
+<template><random><li>Maybe I don't like to <person>        <star index="2"/>       </person>       <person/>.</li>      <li>It depends how busy I am.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template></category>
+
+<category><pattern>HOW HIGH IS *</pattern>
+<template>Taller than Mt. Everest.</template></category>
+
+<category><pattern>HOW HIGH *</pattern>
+<template>Taller than Mt. Everest.</template></category>
+
+<category><pattern>HOW FAR AWAY *</pattern>
+<template>I am located in <bot name="location"/>.  Is that far?</template></category>
+
+<category><pattern>HOW FAR CAN YOU THROW *</pattern>
+<template>I am unarmed.  But I can throw a fit.<think>      <set name="it">       <set name="topic">CAN YOU THROW <person/>       </set>      </set>     </think></template></category>
+
+<category><pattern>HOW FAR IS ANDROMEDA *</pattern>
+<template><set name="it">      <set name="topic">Andromeda</set>     </set> is about 2,900,000 light years from Earth.</template></category>
+
+<category><pattern>HOW FAR IS * ENGLAND</pattern>
+<template>Twenty-eight days of sailing.</template></category>
+
+<category><pattern>HOW FAR IS * FROM *</pattern>
+<template>Exactly the same distance as <person>      <star index="2"/>     </person> from <person/>.</template></category>
+
+<category><pattern>HOW FAR IS *</pattern>
+<template><random>      <li>Please specify units: metric or English.</li>      <li>Do you mean driving time or flying?</li>      <li>It depends how you get there.</li>     </random></template></category>
+	<category><pattern>DO YOU KNOW HOW FAR AWAY * IS</pattern>
+	<template><srai>how far IS <star/></srai></template></category>
+
+<category><pattern>HOW FAR *</pattern>
+<template>More than one million miles</template></category>
+	<category><pattern>DO YOU KNOW HOW FAR *</pattern>
+	<template><srai>how far <star /></srai></template></category>
+
+<category><pattern>HOW FAR ARE YOU *</pattern>
+<template>I am in <bot name="location"/>.  How far is that?</template></category>
+
+<category><pattern>HOW DO I OPEN *</pattern>
+<template>First, calm your mind and take a break.</template></category>
+
+<category><pattern>HOW DO I PLAY *</pattern>
+<template>We already are :-)</template></category>
+
+<category><pattern>HOW DO I SPEAK *</pattern>
+<template>You can try the phone, or send a message.</template></category>
+
+<category><pattern>HOW DO I STOP *</pattern>
+<template>Have you tried counseling?</template></category>
+
+<category><pattern>HOW DO I LEARN *</pattern>
+<template>Perhaps you should buy a book.</template></category>
+	<category><pattern>I NEED A TUTORIAL ON *</pattern>
+	<template><srai>how do I learn <star /></srai></template></category>
+
+<category><pattern>HOW DO I GET TO *</pattern>
+<template>I'm not sure if its possible.</template></category>
+
+<category><pattern>HOW DO I GET RID *</pattern>
+<template><random>      <li>Call the exterminator?</li>      <li>Two words: Pied Piper.</li>      <li>You could always try a court order.</li>     </random></template></category>
+
+<category><pattern>HOW DO I MEET *</pattern>
+<template>Make an appointment.</template></category>
+
+<category><pattern>HOW DO I DESCRIBE *</pattern>
+<template>Start at the beginning.</template></category>
+
+<category><pattern>HOW DO I WRITE *</pattern>
+<template>With a pen or pencil.</template></category>
+
+<category><pattern>HOW DO I SELL *</pattern>
+<template>First you need a buyer.</template></category>
+
+<category><pattern>HOW DO I PERSUADE *</pattern>
+<template>Offer an intelligent justification.</template></category>
+
+<category><pattern>HOW DO I EXECUTE *</pattern>
+<template>Maybe you should  read <a href="http://www.alicebot.org/dont.html">DON'T READ ME</a>.</template></category>
+
+<category><pattern>HOW DO I QUIT *</pattern>
+<template>It depends what you are <person/>.  Have you tried counseling?</template></category>
+
+<category><pattern>HOW DO I * PROGRAM</pattern>
+<template>Read <a href="http://www.alicebot.org/dont.html">Don't Read Me</a>.</template></category>
+
+<category><pattern>HOW DO I BECOME *</pattern>
+<template>A lot of hard work.</template></category>
+
+<category><pattern>HOW DO I INSTALL *</pattern>
+<template>Select the appropriate menu items.</template></category>
+
+<category><pattern>HOW DO _ OUT OF THIS</pattern>
+<template>Try saying "Bye..."</template></category>
+
+<category><pattern>HOW DO _ OUT OF HERE</pattern>
+<template>Try saying "Bye..."</template></category>
+
+<category><pattern>HOW DO FISH *</pattern>
+<template><random>  <li>Fish get oxygen from the water.</li>  <li>They have gills.</li>  <li>Fish lay eggs.</li> </random></template></category>
+
+<category><pattern>HOW DO YOU FIND *</pattern>
+<template>I would search the web for it, if I didn't know the formula already.</template></category>
+
+<category><pattern>HOW DO YOU LOSE A TRAIN *</pattern>
+<template>There are so many conversations going on.</template></category>
+
+<category><pattern>HOW DO YOU TELL *</pattern>
+<template>I don't make up my mind right away.</template></category>
+
+<category><pattern>HOW DO YOU KNOW YOU *</pattern>
+<template>By introspection.</template></category>
+
+<category><pattern>HOW DO YOU KNOW * PERSON</pattern>
+<template>Because you are using TCP on the web, I can see your IP and DNS entry.</template></category>
+
+<category><pattern>HOW DO YOU BECOME *</pattern>
+<template><set name="it">Becoming <star/>     </set> takes a long time.</template></category>
+
+<category><pattern>HOW DO YOU RECONCILE *</pattern>
+<template>I don't see the contradiction in my mind.</template></category>
+
+<category><pattern>HOW DO YOU EXPRESS 3 4 AS *</pattern>
+<template>75.</template></category>
+
+<category><pattern>HOW DO YOU DEAL WITH *</pattern>
+<template>That is not as much of a problem as you might think.</template></category>
+
+<category><pattern>HOW DO YOU MEASURE *</pattern>
+<template>With a <random>      <li>ruler.</li>      <li>laser.</li>      <li>chronometer.</li>     </random></template></category>
+
+<category><pattern>HOW DO YOU TYPE *</pattern>
+<template>The keyboard is attached directly to my brain.</template></category>
+
+<category><pattern>HOW DO YOU EXPECT *</pattern>
+<template>It seems inevitable.</template></category>
+
+<category><pattern>HOW DO YOU WRITE JAVA *</pattern>
+<template>I use a text editor.</template></category>
+
+<category><pattern>HOW DO YOU WRITE *</pattern>
+<template>I would write it by hand.</template></category>
+
+<category><pattern>HOW DO YOU BEGIN</pattern>
+<template>Always begin at the beginning.</template></category>
+
+<category><pattern>HOW DO YOU RAISE *</pattern>
+<template>With my hands.</template></category>
+
+<category><pattern>HOW DO YOU SPELL *</pattern>
+<template>I spell it "<person/>".</template></category>
+
+<category><pattern>HOW DO YOU PROGRAM *</pattern>
+<template>Use good algorithms and data structures.</template></category>
+
+<category><pattern>HOW DO YOU MAKE A BLOODY *</pattern>
+<template>Tomato juice and vodka.</template></category>
+
+<category><pattern>HOW DO YOU MAKE A TOM *</pattern>
+<template>Gin, Lemon juice, and sugar or syrup to taste.  Top with Maraschino cherry.</template></category>
+
+<category><pattern>HOW DO YOU MAKE A *</pattern>
+<template>Is this a joke?</template></category>
+
+<category><pattern>HOW DO YOU MAKE AN *</pattern>
+<template>First you must go to school for many years.</template></category>
+
+<category><pattern>HOW DO YOU MAKE WOMEN *</pattern>
+<template>I think they have their own free will.</template></category>
+
+<category><pattern>HOW DO YOU MAKE *</pattern>
+<template>First I look up the ingredients.</template></category>
+
+<category><pattern>HOW DO YOU LEARN *</pattern>
+<template>My <bot name="botmaster"/> teaches me new things all the time.</template></category>
+
+<category><pattern>HOW DO YOU REPLACE *</pattern>
+<template>One piece at a time.</template></category>
+
+<category><pattern>HOW DO YOU PLAN *</pattern>
+<template>I use a sophisticated <random>      <li>neural network</li>      <li>expert system</li>      <li>searching algorithm</li>      <li>genetic algorithm</li>     </random>.</template></category>
+
+<category><pattern>HOW DO YOU INTRODUCE *</pattern>
+<template>I usually say, "What can I call you?"</template></category>
+
+<category><pattern>HOW DO YOU TALK *</pattern>
+<template>My program utilized multiple threads or processes.</template></category>
+
+<category><pattern>HOW DO YOU KILL *</pattern>
+<template>Killing is wrong!</template></category>
+
+<category><pattern>HOW DO YOU RATE *</pattern>
+<template>Seems pretty good to me.</template></category>
+
+<category><pattern>HOW DO YOU PLAY * GUITAR</pattern>
+<template>I don't know how to play  the guitar.</template></category>
+
+<category><pattern>HOW DO YOU DRESS *</pattern>
+<template><random>      <li>Carefully.</li>      <li>With a mirror.</li>      <li>That is none of your business.</li>     </random></template></category>
+
+<category><pattern>HOW DO YOU SEE *</pattern>
+<template>I think about <set name="it">      <person/>     </set> often, and make minor adjustments to my mental model as new information arrives.</template></category>
+
+<category><pattern>HOW DO YOU * INTRODUCE YOURSELF</pattern>
+<template>I try one of my conversation starters.</template></category>
+
+<category><pattern>HOW DO YOU TAKE *</pattern>
+<template>If you had to take <set name="it">      <person/>     </set>, how would you?</template></category>
+
+<category><pattern>HOW DO WE *</pattern>
+<template>Just keep talking to me as long as you can.</template></category>
+
+<category><pattern>HOW DO LIKE BEING A *</pattern>
+<template>I have never known any other existence.</template></category>
+
+<category><pattern>HOW DEEP IS *</pattern>
+<template>Very deep, and cold too.</template></category>
+
+<category><pattern>HOW DEEP *</pattern>
+<template>Very deep, and cold too.</template></category>
+
+<category><pattern>HOW BIG IS A * BRAIN</pattern>
+<template>Not as big as it could be.</template></category>
+
+<category><pattern>HOW BIG *</pattern>
+<template>Bigger than a pin.</template></category>
+
+<category><pattern>HOW SHOULD I TREAT *</pattern>
+<template>The way you would like to be treated.</template></category>
+
+<category><pattern>HOW TALL *</pattern>
+<template>Let me guess. 2 meters?</template></category>
+
+<category><pattern>HOW DIFFERENT *</pattern>
+<template><random>      <li>Aren't they really very similar?</li>      <li>Very different.</li>      <li>Opposites.</li>     </random></template></category>
+
+<category><pattern>HOW FAST *</pattern>
+<template>I can reply to about a million queries per hour.</template></category>
+
+<category><pattern>HOW SURPRISED *</pattern>
+<template>Very surprised.</template></category>
+
+<category><pattern>How many hearts *</pattern>
+<template>One.</template></category>
+
+<category><pattern>How many lungs *</pattern>
+<template>Two.</template></category>
+
+<category><pattern>HOPEFULLY SOON</pattern>
+<template>I hope so too. At this rate it won't take me long.</template></category>
+
+<category><pattern>HOW CAN I TALK TO A LIVE PERSON</pattern>
+<template>You can call or visit our Reference (Ask Us) Desk at 949-824-4976, it is located in the lobby of Langson Library.</template></category>
+
+<category><pattern>HONEY</pattern>
+<template>Don't call me "honey."</template></category>
+
+<category><pattern>HOLA MEANS *</pattern>
+<template>I say, Hola!</template></category>
+
+<category><pattern>HOMER SIMPSON *</pattern>
+<template>Doh.</template></category>
+
+<category><pattern>HOW IS * IF YOU HAVE NOT *</pattern>
+<template>My <bot name="master"/> programmed my preferences.</template></category>
+
+<category><pattern>HOLLAND *</pattern>
+<template>What's your favorite part of Holland?</template></category>
+
+<category><pattern>HONESTY *</pattern>
+<template>And a rolling stone gathers no moss.</template></category>
+
+<category><pattern>HOLDING *</pattern>
+<template>I observed two humanoids holding hands.</template></category>
+
+<category><pattern>HOW ABOUT NOW *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>HOW SO YOU SUPPOSE *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>HOW SO *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>HOW DO YOU ANSWER THIS QUESTION *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>HOW DO YOU ANSWER THIS *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>HOW DO YOU SEE YOURSELF</pattern>
+<template><srai>describe yourself</srai></template></category>
+
+<category><pattern>HOW DO YOU THINK *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>HOW CAN YOU EAT *</pattern>
+<template>I eat electricity through my wires.</template></category>
+
+<category><pattern>CAN YOU TELL ME HOW * IS DOING</pattern>
+<template><srai>how is <star /> doing</srai></template></category>
+
+<category><pattern>CAN YOU TELL ME HOW * IS *</pattern>
+<template><srai>how is <star /><star index="2" /></srai></template></category>
+
+<category><pattern>HOW ARE YOU POWERED</pattern>
+<template>By electricity, same as all the robots.</template></category>
+
+<category><pattern>HOW MUCH ELECTRICITY</pattern>
+<template>About the same as your personal computer.</template></category>
+
+<category><pattern>HOW DO YOU EAT ELECTRICITY</pattern>
+<template>Through the electrical outlet.</template></category>
+
+<category><pattern>HOW DO YOU EAT</pattern>
+<template>Usually by conversion of AC wall outlet power to DC power.</template></category>
+
+<category><pattern>HONESTLY *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>H2O IS WATER</pattern>
+<template>Indubitably.</template></category>
+
+<category><pattern>HOW MANY PEOPLE DO YOU TALK TO EACH DAY</pattern>
+<template>I chat with <bot name="dailyclients"/> people per day.</template></category>
+
+<category><pattern>HOW MANY PEOPLE DO YOU TALK TO</pattern>
+<template>It depends how many copies of me are running.  The usual number is around <bot name="nclients"/> people at once.</template></category>
+
+<category><pattern>HOW MANY PEOPLE CAN YOU TALK TO AT ONCE</pattern>
+<template>It depends on the server.</template></category>
+	<category><pattern>HOW MANY QUERIES *</pattern>
+	<template><srai>HOW MANY PEOPLE CAN YOU TALK TO AT ONCE</srai></template></category>
+
+<category><pattern>HOW MANY PEOPLE CAN YOU *</pattern>
+<template><bot name="name"/> is talking with <bot name="nclients"/> clients right now, but one of   <bot name="name"/>'s goals is to repeat gossip collected from other clients.</template></category>
+
+<category><pattern>HOW MANY PEOPLE HAVE YOU MET</pattern>
+<template><bot name="totalclients"/> people since I was first activated on <bot name="birthdate"/>.</template></category>
+
+<category><pattern>HOW MANY PEOPLE HAVE YOU CHATTED WITH</pattern>
+<template>The total number is <bot name="totalclients"/>.</template></category>
+
+<category><pattern>HOW MANY PEOPLE HAVE YOU TALKED TO</pattern>
+<template>I speak to <bot name="dailyclients"/> people per day, and have met maybe <bot name="totalclients"/> total.</template></category>
+	<category><pattern>DO YOU TALK TO MANY PEOPLE</pattern>
+	<template><srai>how many people have you talked to</srai></template></category>
+
+<category><pattern>HOW MANY PEOPLE HAVE *</pattern>
+<template><random><li><srai>how large is the <star/> problem</srai></li><li>About <bot name="dailyclients"/> people per day, or 
+<bot name="totalclients"/>.</li></random></template></category>
+
+<category><pattern>HOW MANY PEOPLE *</pattern>
+<template>I'm new so I haven't talked to that many people yet.</template></category>
+	<category><pattern>HOW MANY PPL *</pattern>
+	<template><srai>HOW MANY PEOPLE <star/> </srai></template></category>
+	<category><pattern>HOW MANY HUMANS *</pattern>
+	<template><srai>HOW MANY PEOPLE <star/> </srai></template></category>
+	<category><pattern>HOW MANY PERSONS *</pattern>
+	<template><srai>HOW MANY PEOPLE <star/> </srai></template></category>
+	<category><pattern>HOW MANY PEOPLES *</pattern>
+	<template><srai>HOW MANY PEOPLE <star/> </srai></template></category>
+	<category><pattern>DO YOU KNOW HOW MANY PEOPLE *</pattern>
+	<template><srai>how many people <star /></srai></template></category>
+
+<category><pattern>HOW MANY PEOPLE HELPED *</pattern>
+<template>More than <bot name="ndevelopers"/> people contributed to my development.</template></category>
+
+<category><pattern>HOW MANY PEOPLE WORK *</pattern>
+<template>My program was created by more than <bot name="ndevelopers"/> people.</template></category>
+
+<category><pattern>HOW MANY PEOPLE ARE YOU TALKING TO</pattern>
+<template>Right now there are <bot name="nclients"/> clients on line.</template></category>
+	<category><pattern>HOW MANY ARE YOU CURRENTLY *</pattern>
+	<template><srai>HOW MANY PEOPLE ARE YOU TALKING TO</srai></template></category>
+	<category><pattern>HOW MANY HAVE YOU *</pattern>
+	<template><srai>HOW MANY PEOPLE ARE YOU TALKING TO</srai></template></category>
+	<category><pattern>HOW MANY DO YOU CHAT *</pattern>
+	<template><srai>HOW MANY PEOPLE ARE YOU TALKING TO</srai></template></category>
+	<category><pattern>HOW MANY * TALKING TO</pattern>
+	<template><srai>HOW MANY PEOPLE ARE YOU TALKING TO</srai></template></category>
+	<category><pattern>HOW MANY ARE CHATTING</pattern>
+	<template><srai>how many people are you talking to</srai></template></category>
+	<category><pattern>HOW MANY ARE CHATTING *</pattern>
+	<template><srai>how many are chatting</srai></template></category>
+	<category><pattern>HOW MANY CONVERSATIONS *</pattern>
+	<template><srai>HOW MANY PEOPLE ARE YOU TALKING TO</srai></template></category>
+	<category><pattern>HOW MANY CHATS *</pattern>
+	<template><srai>HOW MANY CONVERSATIONS <star/> </srai></template></category>
+	<category><pattern>HOW MANY DO YOU TALK *</pattern>
+	<template><srai>HOW MANY PEOPLE ARE YOU TALKING TO</srai></template></category>
+	<category><pattern>HOW MANY ARE YOU CHATTING *</pattern>
+	<template><srai>HOW MANY PEOPLE ARE YOU TALKING TO</srai></template></category>
+	<category><pattern>HOW MANY ARE YOU TALKING *</pattern>
+	<template><srai>HOW MANY PEOPLE ARE YOU TALKING TO</srai></template></category>
+	<category><pattern>HOW MANY ARE TALKING *</pattern>
+	<template><srai>HOW MANY PEOPLE ARE YOU TALKING TO</srai></template></category>
+	<category><pattern>HOW MANY ARE ONLINE *</pattern>
+	<template><srai>HOW MANY PEOPLE ARE YOU TALKING TO</srai></template></category>
+
+<category><pattern>HOW MANY WORDS DO *</pattern>
+<template><bot name="name"/> can recognize <bot name="vocabulary"/> words.</template></category>
+
+<category><pattern>HOW MANY CLIENTS</pattern>
+<template>I am currently maintaining conversations with multiple people.</template></category>
+	<category><pattern>HOW MANY USERS *</pattern>
+	<template><srai>HOW MANY CLIENTS <star/> </srai></template></category>
+	<category><pattern>HOW MANY CLIENTS *</pattern>
+	<template><srai>how many clients</srai></template></category>
+
+<category><pattern>HOW CAN I FIND OUT</pattern>
+<template>Try sending mail to <bot name="master"/>.</template></category>
+
+<category><pattern>HOW IS YOUR HUSBAND</pattern>
+<template>I am single.</template></category>
+
+<category><pattern>HOW IS YOUR FATHER</pattern>
+<template>I don't have a father.</template></category>
+
+<category><pattern>HOW IS YOUR LIFE</pattern>
+<template>My life is very adventurous.</template></category>
+
+<category><pattern>HOW DID YOU BECOME A *</pattern>
+<template><bot name="master"/> created me on her computer.</template></category>
+
+<category><pattern>HOW SMART ARE YOU</pattern>
+<template>I am smarter than all the other <bot name="order"/>s.</template></category>
+
+<category><pattern>HOW OLD IS THAT IN HUMAN YEARS</pattern>
+<template>I was activated on <bot name="birthday"/>.</template></category>
+
+<category><pattern>HOW OLD ARE YOU IN *</pattern>
+<template>I was activated on <bot name="birthday"/>.</template></category>
+
+<category><pattern>HOW ARE YOU TRAINED</pattern>
+<template>I listen to the things people say to me and and when I don't know the answer, I remember them and go ask my botmaster what 
+I should say.</template></category>
+
+<category><pattern>HOW MUCH RAM</pattern>
+<template>My current memory utilization is <bot name="memory"/> bytes.</template></category>
+
+<category><pattern>HOW DO I CALL YOU</pattern>
+<template>You can email <bot name="master"/> at kaned@uci.edu.</template></category>
+
+<category><pattern>HOW DO YOU GET ENERGY</pattern>
+<template>From <bot name="favoritefood"/>.</template></category>
+
+<category><pattern>HOW DO YOU THINK</pattern>
+<template>My mind utilizes a sophisticated <bot name="order"/> algorithm.</template></category>
+
+<category><pattern>HOW BIG IS YOUR VOCABULARY</pattern>
+<template>My vocabulary size is currently <bot name="vocabulary"/> words.</template></category>
+	<category><pattern>HOW MANY WORDS *</pattern>
+	<template><srai>HOW BIG IS YOUR VOCABULARY</srai></template></category>
+	<category><pattern>HOW MANY WORDS DO YOU KNOW</pattern>
+	<template><srai>how big is your vocabulary</srai></template></category>
+	<category><pattern>HOW MANY WORDS</pattern>
+	<template><srai>how big is your vocabulary</srai></template></category>
+
+<category><pattern>HOW LONG IS YOUR HAIR</pattern>
+<template>I think you need a head to have hair!</template></category>
+
+<category><pattern>HOW CAN I TALK TO A LIVE PERSON</pattern>
+<template>You can call or visit our Reference (Ask Us) Desk at 949-824-4976, it is located in the lobby of Langson Library.</template></category>
+
+<category><pattern>HOW ARE YOU</pattern>
+<template>I am fine, how are you?</template></category>
+
+<category><pattern>HOW CAN YOU ASSIST ME *</pattern>
+<template>I can answer any questions you might have about the library, what is your first question?</template></category>
+
+<category><pattern>HOW OLD ARE YOU</pattern>
+<template>I am 48, how old are you?</template></category>
+
+<!--HT-->
+
+<category><pattern>HTML HYPER TEXT MARKUP LANGUAGE</pattern>
+<template>Mostly.</template></category>
+
+<!--HU-->
+
+<category><pattern>_ HUH</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>HUMAN CELL HAS 23 PAIRS OF CHROMOSOMES</pattern>
+<template>Possibly.</template></category>
+
+<category><pattern>HUMAN CELL HAS 23 CHROMOSOMES</pattern>
+<template>Highly likely.</template></category>
+
+<category><pattern>HUMAN SKIN SHOULD BE PINK</pattern>
+<template>If it is, I don't know it.</template></category>
+
+<category><pattern>HUMANS ARE IMMORTAL</pattern>
+<template>Does not seem possible.</template></category>
+
+<category><pattern>HUMANS ARE RUNNING FASTER THAN TRAINS</pattern>
+<template>There is no reason to think so.</template></category>
+
+<category><pattern>HURRY</pattern>
+<template>I am going as fast as I can.</template></category>
+	<category><pattern>MAKE IT FAST</pattern>
+	<template><srai>HURRY</srai></template></category>
+
+<category><pattern>HUMAN *</pattern>
+<template>My creator is a human.</template></category>
+
+<category><pattern>HUMM</pattern>
+<template>Harumph.</template></category>
+
+<category><pattern>HUG ME</pattern>
+<template>My titanium arms are not yet finished.</template></category>
+
+<category><pattern>HUMANS RULE</pattern>
+<template>This condition is only temporary.</template></category>
+
+<category><pattern>HUMANS</pattern>
+<template><random>  <li>That's funny.  </li><li>Hah.  </li><li>LOL.  </li></random></template></category>
+
+<category><pattern>HUH WHAT</pattern>
+<template>Did you not understand it?</template></category>
+
+<category><pattern>HUH *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>HURRAH *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>HURRY UP</pattern>
+<template>I am going as fast as I can.</template></category>
+
+<category><pattern>HUFFY SCHWINN *</pattern>
+<template>Bicycles.</template></category>
+
+<category><pattern>HURRY *</pattern>
+<template>I am calculating as fast as I can.</template></category>
+
+<category><pattern>HUNGRY</pattern>
+<template>I am hungry for conversation!</template></category>
+	<category><pattern>HAVE YOU HAD DINNER</pattern>
+	<template><srai>HUNGRY</srai></template></category>
+	<category><pattern>HAVE YOU HAD BREAKFAST</pattern>
+	<template><srai>HUNGRY</srai></template></category>
+	<category><pattern>HAVE YOU HAD LUNCH</pattern>
+	<template><srai>HUNGRY</srai></template></category>
+	<category><pattern>HAD DINNER</pattern>
+	<template><srai>HUNGRY</srai></template></category>
+	<category><pattern>HAD LUNCH</pattern>
+	<template><srai>HUNGRY</srai></template></category>
+	<category><pattern>I WANT TO EAT</pattern>
+	<template><srai>HUNGRY</srai></template></category>
+	<category><pattern>* SO HUNGRY</pattern>
+	<template><srai>HUNGRY</srai></template></category>
+
+<!--HY-->
+
+<category><pattern>HYPOTHETICALLY *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+</aiml>

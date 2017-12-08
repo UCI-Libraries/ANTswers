@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- COMPARATIVE LITERATURE -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>COMPARATIVE LITERATURE *</pattern>
+	<template><think><set name="topic">comparative literature</set></think><sr /></template></category>
+	
+<category><pattern>COMPARATIVE LITERATURE</pattern>	
+	<template>For resources on comparative literature check out the <a href=" http://guides.lib.uci.edu/comparative_literature" target="_blank">Comparative Literature Research Guide</a>  
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Subject keywords-->
+
+<category><pattern>COMPARING LITERATURE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://www.csa.com/htbin/dbrng.cgi?username=uciandamp;access=uci324andamp;db=mla-set-candamp;adv=1" target="_blank">MLA International Bibliography</a> 
+			and/or <a href=" http://uclibs.org/PID/8191" target="_blank">Literature Online (LION)</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/comparative_literature" target="_blank">Comparative Literature Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>CHINESE AND EUROPEAN</pattern>
+<template><srai>COMPARING LITERATURE</srai></template></category>
+<category><pattern>CHINESE AND WESTERN</pattern>
+<template><srai>COMPARING LITERATURE</srai></template></category>
+<category><pattern>CLASSICAL AND MODERN</pattern>
+<template><srai>COMPARING LITERATURE</srai></template></category>
+<category><pattern>COMPARATIVE LITERATURE</pattern>
+<template><srai>COMPARING LITERATURE</srai></template></category>
+<category><pattern>ENGLISH AND GERMAN</pattern>
+<template><srai>COMPARING LITERATURE</srai></template></category>
+<category><pattern>ENGLISH AND SCOTTISH</pattern>
+<template><srai>COMPARING LITERATURE</srai></template></category>
+<category><pattern>EUROPEAN AND CHINESE</pattern>
+<template><srai>COMPARING LITERATURE</srai></template></category>
+<category><pattern>EUROPEAN AND KAZAKH</pattern>
+<template><srai>COMPARING LITERATURE</srai></template></category>
+<category><pattern>GERMAN AND AMERICAN</pattern>
+<template><srai>COMPARING LITERATURE</srai></template></category>
+<category><pattern>GERMAN AND ENGLISH</pattern>
+<template><srai>COMPARING LITERATURE</srai></template></category>
+<category><pattern>JAPANESE AND WESTERN</pattern>
+<template><srai>COMPARING LITERATURE</srai></template></category>
+<category><pattern>HISTORY AND CRITICISM</pattern>
+<template><srai>COMPARING LITERATURE</srai></template></category>
+<category><pattern>MODERN AND CLASSICAL</pattern>
+<template><srai>COMPARING LITERATURE</srai></template></category>
+<category><pattern>ORIENTAL AND WESTERN</pattern>
+<template><srai>COMPARING LITERATURE</srai></template></category>
+<category><pattern>SCOTTISH AND ENGLISH</pattern>
+<template><srai>COMPARING LITERATURE</srai></template></category>
+<category><pattern>THEMES</pattern>
+<template><srai>COMPARING LITERATURE</srai></template></category>
+<category><pattern>MOTIVES</pattern>
+<template><srai>COMPARING LITERATURE</srai></template></category>
+<category><pattern>WESTERN AND CHINESE</pattern>
+<template><srai>COMPARING LITERATURE</srai></template></category>
+<category><pattern>WESTERN AND JAPANESE</pattern>
+<template><srai>COMPARING LITERATURE</srai></template></category>
+<category><pattern>WESTERN AND ORIENTAL</pattern>
+<template><srai>COMPARING LITERATURE</srai></template></category>
+	
+</aiml>

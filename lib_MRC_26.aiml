@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Multimedia Resource Center -->
+
+<!-- What is it, location, contacts -->
+
+<category><pattern>WHAT CAN I DO AT THE MEDIA CENTER</pattern>
+<template>There are so many things to do! Use one of the computers, check-out and view DVD's, practice on the keyboard or your presentation in our presentation practice room, even play games on the PS3!</template></category>
+	<category><pattern>WHAT IS THERE TO DO AT THE MEDIA CENTER</pattern>
+	<template><srai>WHAT CAN I DO AT THE MEDIA CENTER</srai></template></category>
+
+<category><pattern>WHAT IS THE MRC</pattern>
+<template>The Multimedia Resources Center (MRC) houses the UCI Libraries' collection of non-print media in the arts, humanities, business and management, social sciences, and 
+government information. The MRC is also the home of the UCI Libraries' science and medical collections of non-print  media serving the needs of Biological Sciences, Engineering, 
+Information and Computing Science, Physical Sciences, portions of Social Ecology, and the College of Medicine.</template></category>
+	<category><pattern>WHAT IS THE MRC *</pattern>
+	<template><srai>WHAT IS THE MRC</srai></template></category>
+	<category><pattern>* WHAT IS THE MRC *</pattern>
+	<template><srai>WHAT IS THE MRC</srai></template></category>
+	<category><pattern>WHAT IS MRC</pattern>
+	<template><srai>WHAT IS THE MRC</srai></template></category>
+	<category><pattern>THE MEDIA RESOURCES CENTER</pattern>
+	<template><srai>WHAT IS THE MRC</srai></template></category>
+	<category><pattern>WHAT CAN YOU TELL ME ABOUT THE MEDIA RESOURCES CENTER</pattern>
+	<template><srai>WHAT IS THE MRC</srai></template></category>
+	<category><pattern>WHAT CAN YOU TELL ME ABOUT THE MULTIMEDIA RESOURCES CENTER</pattern>
+	<template><srai>WHAT IS THE MRC</srai></template></category>
+
+<category><pattern>WHAT CAN I BORROW FROM THE MRC</pattern>
+<template>Many things can be borrowed at the MRC, including DVDs, Laptops, iPads, etc. Take a look at the <a href=" http://www.lib.uci.edu/mrc" target="_blank">MRC web pages</a> for more information.</template></category>
+	<category><pattern>WHAT IS AVAILABLE TO USE AT THE MEDIA RESOURCES CENTER</pattern>
+	<template>WHAT CAN I BORROW FROM THE MRC</template></category>
+
+<category><pattern>WHERE CAN I BORROW MEDIA RESOURCES</pattern>
+<template>Media resources can be borrowed at the Multimedia Resources Center (MRC), which is located at the Ayala Science Library.</template></category>
+
+<category><pattern>MRC</pattern>
+<template>Take a look at the <a href=" http://www.lib.uci.edu/mrc" target="_blank">MRC web pages</a> for more information.</template></category>
+
+<category><pattern>MRC LOCATION</pattern>
+<template>The MRC is located on the <a href=" http://www.lib.uci.edu/sites/all/files/docs/floorplan-science-1st-floor.pdf" target="_blank">Ayala first floor</a>.</template></category>
+	<category><pattern>WHERE IS THE MULTIMEDIA RESOURCE CENTER</pattern>
+	<template><srai>MRC LOCATION</srai></template></category>
+	<category><pattern>* WHERE IS THE MULTIMEDIA RESOURCE CENTER</pattern>
+	<template><srai>MRC LOCATION</srai></template></category>
+	<category><pattern>WHERE IS THE MULTIMEDIA RESOURCE CENTER *</pattern>
+	<template><srai>MRC LOCATION</srai></template></category>
+	<category><pattern>* WHERE IS THE MULTIMEDIA RESOURCE CENTER *</pattern>
+	<template><srai>MRC LOCATION</srai></template></category>
+	<category><pattern>WHERE IS THE MRC</pattern>
+	<template><srai>MRC LOCATION</srai></template></category>
+	<category><pattern>* WHERE IS THE MRC</pattern>
+	<template><srai>MRC LOCATION</srai></template></category>
+	<category><pattern>WHERE IS THE MRC *</pattern>
+	<template><srai>MRC LOCATION</srai></template></category>
+	<category><pattern>* WHERE IS THE MRC *</pattern>
+	<template><srai>MRC LOCATION</srai></template></category>
+	<category><pattern>WHERE IS THE MULTIMEDIA RESOURCES CENTER</pattern>
+	<template><srai>MRC LOCATION</srai></template></category>
+	<category><pattern>* WHERE IS THE MULTIMEDIA RESOURCES CENTER</pattern>
+	<template><srai>MRC LOCATION</srai></template></category>
+	<category><pattern>WHERE IS THE MULTIMEDIA RESOURCES CENTER *</pattern>
+	<template><srai>MRC LOCATION</srai></template></category>
+	<category><pattern>* WHERE IS THE MULTIMEDIA RESOURCES CENTER *</pattern>
+	<template><srai>MRC LOCATION</srai></template></category>
+
+<category><pattern>CAN YOU TELL ME WHERE THE MRC IS</pattern>
+<template><srai>MRC LOCATION</srai></template></category>
+<category><pattern>WHERE IS THE MRC</pattern>
+<template><srai>MRC LOCATION</srai></template></category>
+
+<category><pattern>MRC 164</pattern>
+<template>MRC classrooms are located on the <a href=" http://www.lib.uci.edu/sites/all/files/docs/floorplan-science-1st-floor.pdf" target="_blank">Ayala first floor</a> in the Multimedia Resources Center.</template></category>
+	<category><pattern>* MRC 164</pattern>
+	<template><srai>MRC 164</srai></template></category>
+	<category><pattern>MRC 164 *</pattern>
+	<template><srai>MRC 164</srai></template></category>
+	<category><pattern>* MRC 164 *</pattern>
+	<template><srai>MRC 164</srai></template></category>
+	<category><pattern>MRC 166</pattern>
+	<template><srai>MRC 164</srai></template></category>
+	<category><pattern>* MRC 166</pattern>
+	<template><srai>MRC 164</srai></template></category>
+	<category><pattern>MRC 166 *</pattern>
+	<template><srai>MRC 164</srai></template></category>
+	<category><pattern>* MRC 166 *</pattern>
+	<template><srai>MRC 164</srai></template></category>
+
+<category><pattern>WHAT IS THE PHONE NUMBER FOR THE MRC</pattern>
+<template>The MRC phone number is 949-824-7270</template></category>
+	<category><pattern>* PHONE NUMBER FOR THE MRC</pattern>
+	<template><srai>WHAT IS THE PHONE NUMBER FOR THE MRC</srai></template></category>
+	<category><pattern>* PHONE NUMBER * MRC</pattern>
+	<template><srai>WHAT IS THE PHONE NUMBER FOR THE MRC</srai></template></category>
+	<category><pattern>WHAT IS THE PHONE NUMBER * MRC</pattern>
+	<template><srai>WHAT IS THE PHONE NUMBER FOR THE MRC</srai></template></category>
+	<category><pattern>* PHONE NUMBER FOR THE MRC *</pattern>
+	<template><srai>WHAT IS THE PHONE NUMBER FOR THE MRC</srai></template></category>
+	<category><pattern>* PHONE NUMBER * MRC *</pattern>
+	<template><srai>WHAT IS THE PHONE NUMBER FOR THE MRC</srai></template></category>
+	<category><pattern>WHAT IS THE PHONE NUMBER * MRC *</pattern>
+	<template><srai>WHAT IS THE PHONE NUMBER FOR THE MRC</srai></template></category>
+	<category><pattern>WHAT IS THE MRC'S PHONE NUMBER</pattern>
+	<template><srai>WHAT IS THE PHONE NUMBER FOR THE MRC</srai></template></category>
+	<category><pattern>* MRC'S PHONE *</pattern>
+	<template><srai>WHAT IS THE PHONE NUMBER FOR THE MRC</srai></template></category>
+	<category><pattern>WHAT IS THE MRC'S * NUMBER</pattern>
+	<template><srai>WHAT IS THE PHONE NUMBER FOR THE MRC</srai></template></category>
+	<category><pattern>WHAT IS THE MRC'S PHONE NUMBER *</pattern>
+	<template><srai>WHAT IS THE PHONE NUMBER FOR THE MRC</srai></template></category>
+	<category><pattern>WHAT IS THE MRC'S * NUMBER *</pattern>
+	<template><srai>WHAT IS THE PHONE NUMBER FOR THE MRC</srai></template></category>
+	<category><pattern>* PHONE NUMBER FOR THE MULTIMEDIA RESOURCES CENTER</pattern>
+	<template><srai>WHAT IS THE PHONE NUMBER FOR THE MRC</srai></template></category>
+	<category><pattern>* PHONE NUMBER * MULTIMEDIA RESOURCES CENTER</pattern>
+	<template><srai>WHAT IS THE PHONE NUMBER FOR THE MRC</srai></template></category>
+	<category><pattern>WHAT IS THE PHONE NUMBER * MULTIMEDIA RESOURCES CENTER</pattern>
+	<template><srai>WHAT IS THE PHONE NUMBER FOR THE MRC</srai></template></category>
+	<category><pattern>* PHONE NUMBER FOR THE MULTIMEDIA RESOURCES CENTER *</pattern>
+	<template><srai>WHAT IS THE PHONE NUMBER FOR THE MRC</srai></template></category>
+	<category><pattern>* PHONE NUMBER * MULTIMEDIA RESOURCES CENTER *</pattern>
+	<template><srai>WHAT IS THE PHONE NUMBER FOR THE MRC</srai></template></category>
+	<category><pattern>WHAT IS THE PHONE NUMBER * MULTIMEDIA RESOURCES CENTER *</pattern>
+	<template><srai>WHAT IS THE PHONE NUMBER FOR THE MRC</srai></template></category>
+	<category><pattern>WHAT IS THE MULTIMEDIA RESOURCES CENTER'S PHONE NUMBER</pattern>
+	<template><srai>WHAT IS THE PHONE NUMBER FOR THE MRC</srai></template></category>
+	<category><pattern>* MULTIMEDIA RESOURCES CENTER'S PHONE *</pattern>
+	<template><srai>WHAT IS THE PHONE NUMBER FOR THE MRC</srai></template></category>
+	<category><pattern>WHAT IS THE MULTIMEDIA RESOURCES CENTER'S * NUMBER</pattern>
+	<template><srai>WHAT IS THE PHONE NUMBER FOR THE MRC</srai></template></category>
+	<category><pattern>WHAT IS THE MULTIMEDIA RESOURCES CENTER'S PHONE NUMBER *</pattern>
+	<template><srai>WHAT IS THE PHONE NUMBER FOR THE MRC</srai></template></category>
+	<category><pattern>WHAT IS THE MULTIMEDIA RESOURCES CENTER'S * NUMBER *</pattern>
+	<template><srai>WHAT IS THE PHONE NUMBER FOR THE MRC</srai></template></category>
+	<category><pattern>* NUMBER * MULTIMEDIA RESOURCES CENTER</pattern>
+	<template><srai>WHAT IS THE PHONE NUMBER FOR THE MRC</srai></template></category>
+	<category><pattern>* NUMBER * MRC</pattern>
+	<template><srai>WHAT IS THE PHONE NUMBER FOR THE MRC</srai></template></category>
+	<category><pattern>* MULTIMEDIA RESOURCES CENTER'S NUMBER</pattern>
+	<template><srai>WHAT IS THE PHONE NUMBER FOR THE MRC</srai></template></category>
+	<category><pattern>* MRC'S NUMBER</pattern>
+	<template><srai>WHAT IS THE PHONE NUMBER FOR THE MRC</srai></template></category>
+
+	
+<!-- Forms -->
+
+<category><pattern>MEDIA USE AND BOOKING FORM</pattern>
+<template>UCI faculty and graduate students may use this <a href=" http://www.lib.uci.edu/mrc/media-use-and-booking-form" target="_blank">form</a> to book a film or 
+videorecording for UCI classroom instruction, preview or research. Videorecordings being previewed or used for research are subject to immediate recall if needed for classroom 
+showing. Requests for delivery of media through DDS must be received at least two business days in advance.</template></category>
+	<category><pattern>* MEDIA USE AND BOOKING FORM</pattern>
+	<template><srai>MEDIA USE AND BOOKING FORM</srai></template></category>
+	<category><pattern>MEDIA USE AND BOOKING FORM *</pattern>
+	<template><srai>MEDIA USE AND BOOKING FORM</srai></template></category>
+	<category><pattern>* MEDIA USE AND BOOKING FORM *</pattern>
+	<template><srai>MEDIA USE AND BOOKING FORM</srai></template></category>
+	<category><pattern>MEDIA USE FORM</pattern>
+	<template><srai>MEDIA USE AND BOOKING FORM</srai></template></category>
+	<category><pattern>* MEDIA USE FORM</pattern>
+	<template><srai>MEDIA USE AND BOOKING FORM</srai></template></category>
+	<category><pattern>MEDIA USE FORM *</pattern>
+	<template><srai>MEDIA USE AND BOOKING FORM</srai></template></category>
+	<category><pattern>* MEDIA USE FORM *</pattern>
+	<template><srai>MEDIA USE AND BOOKING FORM</srai></template></category>
+	<category><pattern>MEDIA BOOKING FORM</pattern>
+	<template><srai>MEDIA USE AND BOOKING FORM</srai></template></category>
+	<category><pattern>* MEDIA BOOKING FORM</pattern>
+	<template><srai>MEDIA USE AND BOOKING FORM</srai></template></category>
+	<category><pattern>MEDIA BOOKING FORM *</pattern>
+	<template><srai>MEDIA USE AND BOOKING FORM</srai></template></category>
+	<category><pattern>?* MEDIA BOOKING FORM *</pattern>
+	<template><srai>MEDIA USE AND BOOKING FORM</srai></template></category>
+	
+<category><pattern>MEDIA COURSE RESERVES FORM</pattern>
+<template>Use this <a href=" http://www.lib.uci.edu/mrc/media-course-reserves-form" target="_blank">form</a> to place MRC material on Course Reserves for your 
+students to view or use in the MRC.</template></category>
+	<category><pattern>* MEDIA COURSE RESERVES FORM</pattern>
+	<template><srai>MEDIA COURSE RESERVES FORM</srai></template></category>
+	<category><pattern>MEDIA COURSE RESERVES FORM *</pattern>
+	<template><srai>MEDIA COURSE RESERVES FORM</srai></template></category>
+	<category><pattern>* MEDIA COURSE RESERVES FORM *</pattern>
+	<template><srai>MEDIA COURSE RESERVES FORM</srai></template></category>
+
+<category><pattern>INSTRUCTOR OWNED MATERIALS</pattern>
+<template>Use this <a href=" http://www.lib.uci.edu/mrc/request-waiver-form" target="_blank">form</a> to place personal or departmental media on Course Reserves 
+in the MRC.</template></category> 
+	<category><pattern>* INSTRUCTOR OWNED MATERIALS</pattern>
+	<template><srai>INSTRUCTOR OWNED MATERIALS</srai></template></category>
+	<category><pattern>INSTRUCTOR OWNED MATERIALS *</pattern>
+	<template><srai>INSTRUCTOR OWNED MATERIALS</srai></template></category>
+	<category><pattern>* INSTRUCTOR OWNED MATERIALS *</pattern>
+	<template><srai>INSTRUCTOR OWNED MATERIALS</srai></template></category>
+	
+<!-- Important Links -->
+
+<category><pattern>PRESENTATION STUDIO</pattern>
+<template>Need to prepare a presentation for class, conferences, or job interviews? Need to rehearse a presentation or develop oral presentation skills? “Check-out” 
+<a href=" http://www.lib.uci.edu/mrc/presentation-studio" target="_blank">MRC’s Presentation Studio</a>, in ASL 168.</template></category>
+	<category><pattern>* PRESENTATION STUDIO</pattern>
+	<template><srai>PRESENTATION STUDIO</srai></template></category>
+	<category><pattern>PRESENTATION STUDIO *</pattern>
+	<template><srai>PRESENTATION STUDIO</srai></template></category>
+	<category><pattern>* PRESENTATION STUDIO *</pattern>
+	<template><srai>PRESENTATION STUDIO</srai></template></category>
+	<category><pattern>PRACTICE * PRESENTATION</pattern>
+	<template><srai>PRESENTATION STUDIO</srai></template></category>
+	<category><pattern>* PRACTICE * PRESENTATION</pattern>
+	<template><srai>PRESENTATION STUDIO</srai></template></category>
+	<category><pattern>PRACTICE * PRESENTATION *</pattern>
+	<template><srai>PRESENTATION STUDIO</srai></template></category>
+	<category><pattern>* PRACTICE * PRESENTATION *</pattern>
+	<template><srai>PRESENTATION STUDIO</srai></template></category>
+	
+<category><pattern>RESERVE PRESENTATION STUDIO</pattern>
+<template>Fill out the <a href=" http://www.lib.uci.edu/mrc/presentation-studio-request-form" target="_blank">form</a> to reserve the MRC Presentation Studio!</template></category>
+	<category><pattern>RESERVE * PRESENTATION STUDIO</pattern>
+	<template><srai>RESERVE PRESENTATION STUDIO</srai></template></category>
+	<category><pattern>* RESERVE * PRESENTATION STUDIO</pattern>
+	<template><srai>RESERVE PRESENTATION STUDIO</srai></template></category>
+	<category><pattern>RESERVE * PRESENTATION STUDIO *</pattern>
+	<template><srai>RESERVE PRESENTATION STUDIO</srai></template></category>
+	<category><pattern>* RESERVE * PRESENTATION STUDIO *</pattern>
+	<template><srai>RESERVE PRESENTATION STUDIO</srai></template></category>
+
+<category><pattern>MRC FILM CLASSROOM BOOKING PROGRAM</pattern>
+<template>UCI faculty and graduate students can book films and videorecordings for classroom showing on specific dates. Use the 
+<a href=" http://www.lib.uci.edu/mrc/media-use-and-booking-form" target="_blank">Media Use and Booking Form </a>to submit requests for MRC films or 
+videorecordings. <a href=" http://www.lib.uci.edu/mrc/film-video-classroom-booking-program" target="_blank">Read more about the program</a>.</template></category>
+	<category><pattern>* MRC FILM CLASSROOM BOOKING PROGRAM</pattern>
+	<template><srai>MRC FILM CLASSROOM BOOKING PROGRAM</srai></template></category>
+	<category><pattern>MRC FILM CLASSROOM BOOKING PROGRAM *</pattern>
+	<template><srai>MRC FILM CLASSROOM BOOKING PROGRAM</srai></template></category>
+	<category><pattern>* MRC FILM CLASSROOM BOOKING PROGRAM *</pattern>
+	<template><srai>MRC FILM CLASSROOM BOOKING PROGRAM</srai></template></category>
+	<category><pattern>MRC VIDEO CLASSROOM BOOKING PROGRAM</pattern>
+	<template><srai>MRC FILM CLASSROOM BOOKING PROGRAM</srai></template></category>
+	<category><pattern>* MRC VIDEO CLASSROOM BOOKING PROGRAM</pattern>
+	<template><srai>MRC FILM CLASSROOM BOOKING PROGRAM</srai></template></category>
+	<category><pattern>MRC VIDEO CLASSROOM BOOKING PROGRAM *</pattern>
+	<template><srai>MRC FILM CLASSROOM BOOKING PROGRAM</srai></template></category>
+	<category><pattern>* MRC VIDEO CLASSROOM BOOKING PROGRAM *</pattern>
+	<template><srai>MRC FILM CLASSROOM BOOKING PROGRAM</srai></template></category>
+
+<category><pattern>MRC COURSE RESERVES</pattern>
+<template>UCI faculty, instructors, and graduate students can use the <a href=" http://www.lib.uci.edu/mrc/media-course-reserves-form" target="_blank">Media Course 
+Reserves Form</a> to place MRC material on Course Reserves for your students to view or use in the MRC. <a href=" http://www.lib.uci.edu/mrc/course-reserves" target="_blank">
+Read more about MRC Course Reserves</a>.</template></category>
+	<category><pattern>* MRC COURSE RESERVES</pattern>
+	<template><srai>MRC COURSE RESERVES</srai></template></category>
+	<category><pattern>MRC COURSE RESERVES *</pattern>
+	<template><srai>MRC COURSE RESERVES</srai></template></category>
+	<category><pattern>* MRC COURSE RESERVES *</pattern>
+	<template><srai>MRC COURSE RESERVES</srai></template></category>
+	
+<category><pattern>MRC MEDIA COLLECTION</pattern>
+<template>The UCI Libraries actively collects titles that support instruction and research for the academic programs at UCI. The collection consists of videocassettes, DVDs, laser 
+discs, 16mm films, sound recordings, and CD-ROM titles, including data archive and government information titles...<a href=" http://www.lib.uci.edu/mrc-collections-general-terms-use-lending-rules" target="_blank">Read More</a>.</template></category>
+	<category><pattern>* MRC MEDIA COLLECTION</pattern>
+	<template><srai>MRC MEDIA COLLECTION</srai></template></category>
+	<category><pattern>MRC MEDIA COLLECTION *</pattern>
+	<template><srai>MRC MEDIA COLLECTION</srai></template></category>
+	<category><pattern>* MRC MEDIA COLLECTION *</pattern>
+	<template><srai>MRC MEDIA COLLECTION</srai></template></category>
+    
+<category><pattern>MRC TUTORIALS</pattern>
+<template>The MRC has several video editing <a href=" http://www.lib.uci.edu/how/tutorials/mrc-video/" target="_blank">tutorials</a>.</template></category>
+	<category><pattern>* MRC TUTORIALS</pattern>
+	<template><srai>MRC TUTORIALS</srai></template></category>
+	<category><pattern>MRC TUTORIALS *</pattern>
+	<template><srai>MRC TUTORIALS</srai></template></category>
+	<category><pattern>* MRC TUTORIALS *</pattern>
+	<template><srai>MRC TUTORIALS</srai></template></category>
+	<category><pattern>MRC VIDEO EDITING TUTORIALS</pattern>
+	<template><srai>MRC TUTORIALS</srai></template></category>
+	<category><pattern>* MRC VIDEO EDITING TUTORIALS</pattern>
+	<template><srai>MRC TUTORIALS</srai></template></category>
+	<category><pattern>MRC VIDEO EDITING TUTORIALS *</pattern>
+	<template><srai>MRC TUTORIALS</srai></template></category>
+	<category><pattern>* MRC VIDEO EDITING TUTORIALS *</pattern>
+	<template><srai>MRC TUTORIALS</srai></template></category>
+	<category><pattern>CAPTURING VIDEO TUTORIAL</pattern>
+	<template><srai>MRC TUTORIALS</srai></template></category>
+	<category><pattern>* CAPTURING VIDEO TUTORIAL</pattern>
+	<template><srai>MRC TUTORIALS</srai></template></category>
+	<category><pattern>CAPTURING VIDEO TUTORIAL *</pattern>
+	<template><srai>MRC TUTORIALS</srai></template></category>
+	<category><pattern>* CAPTURING VIDEO TUTORIAL *</pattern>
+	<template><srai>MRC TUTORIALS</srai></template></category>
+	<category><pattern>EDITING VIDEO TUTORIAL</pattern>
+	<template><srai>MRC TUTORIALS</srai></template></category>
+	<category><pattern>* EDITING VIDEO TUTORIAL</pattern>
+	<template><srai>MRC TUTORIALS</srai></template></category>
+	<category><pattern>EDITING VIDEO TUTORIAL *</pattern>
+	<template><srai>MRC TUTORIALS</srai></template></category>
+	<category><pattern>* EDITING VIDEO TUTORIAL *</pattern>
+	<template><srai>MRC TUTORIALS</srai></template></category>
+	<category><pattern>SAVING FINAL VIDEO TUTORIAL</pattern>
+	<template><srai>MRC TUTORIALS</srai></template></category>
+	<category><pattern>* SAVING FINAL VIDEO TUTORIAL</pattern>
+	<template><srai>MRC TUTORIALS</srai></template></category>
+	<category><pattern>SAVING FINAL VIDEO TUTORIAL *</pattern>
+	<template><srai>MRC TUTORIALS</srai></template></category>
+	<category><pattern>* SAVING FINAL VIDEO TUTORIAL *</pattern>
+	<template><srai>MRC TUTORIALS</srai></template></category>
+	
+<category><pattern>WIRELESS</pattern>
+<template>The UC Irvine Libraries provide wireless network access to the Internet for UCI students, faculty and staff...<a href=" http://www.lib.uci.edu/mobile-access-wireless" target="_blank">Read More</a>.</template></category>  
+	<category><pattern>* WIRELESS</pattern>
+	<template><srai>WIRELESS</srai></template></category>
+	<category><pattern>WIRELESS *</pattern>
+	<template><srai>WIRELESS</srai></template></category>
+	<category><pattern>* WIRELESS *</pattern>
+	<template><srai>WIRELESS</srai></template></category>
+
+<category><pattern>UCI COPYRIGHT GUIDELINES</pattern>
+<template>The UCI Library copyright guidelines for course reserves, including electronic reserves, is based on the Copyright Act of 1976, especially the principle of fair use and 
+the reproduction of copyrighted works by educators and librarians(United States Code, Title 17, Sections 107 and 108.)The Library’s Copyright Guidelines for Electronic Reserves 
+balance instructional needs with best practices in terms of copyright compliance...<a href=" http://www.lib.uci.edu/copyright-guidelines-course-reserves" target="_blank">Read more</a>.></template></category>
+	<category><pattern>* UCI COPYRIGHT GUIDELINES</pattern>
+	<template><srai>UCI COPYRIGHT GUIDELINES</srai></template></category>
+	<category><pattern>UCI COPYRIGHT GUIDELINES *</pattern>
+	<template><srai>UCI COPYRIGHT GUIDELINES</srai></template></category>
+	<category><pattern>* UCI COPYRIGHT GUIDELINES *</pattern>
+	<template><srai>UCI COPYRIGHT GUIDELINES</srai></template></category>
+
+<!-- where can i -->
+
+<category><pattern>WHERE CAN I BORROW A DVD</pattern>
+<template>DVD's can be borrowed from the Multimedia Resource Center (MRC).</template></category>
+	<category><pattern>* WHERE CAN I BORROW A DVD</pattern>
+	<template><srai>WHERE CAN I BORROW A DVD</srai></template></category>
+	<category><pattern>WHERE CAN I BORROW A DVD *</pattern>
+	<template><srai>WHERE CAN I BORROW A DVD</srai></template></category>
+	<category><pattern>* WHERE CAN I BORROW A DVD *</pattern>
+	<template><srai>WHERE CAN I BORROW A DVD</srai></template></category>
+	<category><pattern>DO YOU HAVE DVDS</pattern>
+	<template><srai>WHERE CAN I BORROW A DVD</srai></template></category>
+	<category><pattern>WHERE CAN I CHECK OUT MOVIES</pattern>
+	<template><srai>WHERE CAN I BORROW A DVD</srai></template></category>
+
+<category><pattern>HOW DO I CHECK THINGS OUT OF MRC</pattern>
+<template>Visit the MRC Check Out desk and either give them the call number of the item or request a piece of equipment. You will need your UCI PhotoID.</template></category>
+
+<category><pattern>WHERE CAN I BORROW A VIDEO</pattern>
+<template>Video's can be borrowed from the Multimedia Resource Center (MRC).</template></category>
+	<category><pattern>* WHERE CAN I BORROW A VIDEO</pattern>
+	<template><srai>WHERE CAN I BORROW A VIDEO</srai></template></category>
+	<category><pattern>WHERE CAN I BORROW A VIDEO *</pattern>
+	<template><srai>WHERE CAN I BORROW A VIDEO</srai></template></category>
+	<category><pattern>* WHERE CAN I BORROW A VIDEO *</pattern>
+	<template><srai>WHERE CAN I BORROW A VIDEO</srai></template></category>
+
+<category><pattern>MRC VIDEOS</pattern>
+<template>There are a couple of ways to see what kind of videos the MRC has. You can browse <a href=" http://www.lib.uci.edu/mrc-collections-general-terms-use-lending-rules" target="_blank">MRC videos by title</a> or
+search by keyword, title or subject using <a href=" http://antpac.lib.uci.edu/" target="_blank">ANTPAC</a>,</template></category>
+	<category><pattern>* MRC VIDEOS</pattern>
+	<template><srai>MRC VIDEOS</srai></template></category>
+	<category><pattern>MRC VIDEOS *</pattern>
+	<template><srai>MRC VIDEOS</srai></template></category>
+	<category><pattern>* MRC VIDEOS *</pattern>
+	<template><srai>MRC VIDEOS</srai></template></category>
+	<category><pattern>VIDEOS ARE AVAILABLE AT THE MRC</pattern>
+	<template><srai>MRC VIDEOS</srai></template></category>
+	<category><pattern>* VIDEOS ARE AVAILABLE AT THE MRC</pattern>
+	<template><srai>MRC VIDEOS</srai></template></category>
+	<category><pattern>VIDEOS ARE AVAILABLE AT THE MRC *</pattern>
+	<template><srai>MRC VIDEOS</srai></template></category>
+	<category><pattern>* VIDEOS ARE AVAILABLE AT THE MRC *</pattern>
+	<template><srai>MRC VIDEOS</srai></template></category>
+	<category><pattern>VIDEOS AT MRC</pattern>	
+	<template><srai>MRC VIDEOS</srai></template></category>
+	<category><pattern>* VIDEOS AT MRC</pattern>	
+	<template><srai>MRC VIDEOS</srai></template></category>
+	<category><pattern>VIDEOS AT MRC *</pattern>	
+	<template><srai>MRC VIDEOS</srai></template></category>
+	<category><pattern>* VIDEOS AT MRC *</pattern>	
+	<template><srai>MRC VIDEOS</srai></template></category>
+	<category><pattern>CAN I WATCH VIDEOS IN THE LIBRARY</pattern>
+	<template><srai>MRC VIDEOS</srai></template></category>
+	<category><pattern>MOVIES</pattern>
+	<template><srai>MRC VIDEOS</srai></template></category>
+	<category><pattern>* MOVIES</pattern>
+	<template><srai>MRC VIDEOS</srai></template></category>
+	<category><pattern>MOVIES *</pattern>
+	<template><srai>MRC VIDEOS</srai></template></category>
+	<category><pattern>* MOVIES *</pattern>
+	<template><srai>MRC VIDEOS</srai></template></category>
+	
+
+<category><pattern>MRC LAPTOP</pattern>
+<template>Laptop's can be borrowed from the Multimedia Resource Center (MRC).</template></category>
+	<!--DELETE EVERYTHING BELOW THIS ONCE GML GOES LIVE-->
+	<category><pattern>* WHERE CAN I BORROW A LAPTOP</pattern>
+	<template><srai>MRC LAPTOP</srai></template></category>
+	<category><pattern>WHERE CAN I BORROW A LAPTOP *</pattern>
+	<template><srai>MRC LAPTOP</srai></template></category>
+	<category><pattern>* WHERE CAN I BORROW A LAPTOP *</pattern>
+	<template><srai>MRC LAPTOP</srai></template></category>
+	<category><pattern>CAN I BORROW A COMPUTER</pattern>
+	<template><srai>MRC LAPTOP</srai></template></category>
+
+<category><pattern>MRC IPAD</pattern>
+<template>iPads can be borrowed from the Multimedia Resource Center (MRC).</template></category>
+
+<category><pattern>AM I ALLOWED TO USE THE * AT THE MRC</pattern>
+<template>Take a look at the <a href=" 	http://www.lib.uci.edu/mrc/av-equipment" target="_blank">MRC Lending Rules</a> for more information.</template></category>
+	
+<category><pattern>WHERE CAN I BORROW A CAMERA</pattern>
+<template>Camera's can be borrowed from the Multimedia Resource Center (MRC).</template></category>
+	<category><pattern>* WHERE CAN I BORROW A CAMERA</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>WHERE CAN I BORROW A CAMERA *</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>* WHERE CAN I BORROW A CAMERA *</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>* DO YOU GUYS HAVE CAMERAS</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>DO YOU GUYS HAVE CAMERAS *</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>* DO YOU GUYS HAVE CAMERAS *</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>DO YOU GUYS HAVE CAMERAS</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>* DOES THE LIBRARY HAVE CAMERAS</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>DOES THE LIBRARY HAVE CAMERAS *</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>* DOES THE LIBRARY HAVE CAMERAS *</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>DOES THE LIBRARY HAVE CAMERAS</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>DOES THE LIBRARY RENT OUT CAMERAS</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>* DOES THE LIBRARY RENT OUT CAMERAS</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>DOES THE LIBRARY RENT OUT CAMERAS *</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>* DOES THE LIBRARY RENT OUT CAMERAS *</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>CAN I BORROW CAMERAS AT THE LIBRARY</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>* CAN I BORROW CAMERAS AT THE LIBRARY</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>CAN I BORROW CAMERAS AT THE LIBRARY *</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>* CAN I BORROW CAMERAS AT THE LIBRARY *</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>CAN I BORROW A CAMERA</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>* CAN I BORROW A CAMERA</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>CAN I BORROW A CAMERA *</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>* CAN I BORROW A CAMERA *</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>DIGITAL CAMERA</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>* DIGITAL CAMERA</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>DIGITAL CAMERA *</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>* DIGITAL CAMERA *</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>HOW DO I CHECK OUT A CAMERA</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>CHECK OUT A CAMERA</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>CAMERA</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>VIDEO CAMERA</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>I WANT TO RENT A CAMERA</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>* I WANT TO RENT A CAMERA</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>I WANT TO RENT A CAMERA *</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>* I WANT TO RENT A CAMERA *</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	<category><pattern>CAN I CHECK OUT A CAMERA</pattern>
+	<template><srai>WHERE CAN I BORROW A CAMERA</srai></template></category>
+	
+<!--Piano-->
+
+<category><pattern>PIANO</pattern>
+<template>The MRC has available Yamaha Electric Keyboards.  A valid UC ID card is required to check out the keyboards from the MRC Check Out Desk. 
+They are available on a first-come first-served basis and can be checked out for up to two hours.</template></category>
+	<category><pattern>* PIANO</pattern>
+	<template><srai>PIANO</srai></template></category>
+	<category><pattern>PIANO *</pattern>
+	<template><srai>PIANO</srai></template></category>
+	<category><pattern>* PIANO *</pattern>
+	<template><srai>PIANO</srai></template></category>
+	<category><pattern>PIANOS</pattern>
+	<template><srai>PIANO</srai></template></category>
+	<category><pattern>* PIANOS</pattern>
+	<template><srai>PIANO</srai></template></category>
+	<category><pattern>PIANOS *</pattern>
+	<template><srai>PIANO</srai></template></category>
+	<category><pattern>* PIANOS *</pattern>
+	<template><srai>PIANO</srai></template></category>
+
+<!-- Equipment lending periods -->
+
+<category><pattern>MRC EQUIPMENT LOAN</pattern>
+<template>Loan periods depend the type of equipment, our <a href=" http://www.lib.uci.edu/mrc/av-equipment" target="_blank">MRC Audiovisual and 
+Computing Equipment, Terms of use, Lending Rules, Overdues, Fines and Charges</a> page should help you out.</template></category>
+<category><pattern>IPOD TOUCH</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* IPOD TOUCH</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>IPOD TOUCH *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* IPOD TOUCH *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>BOOM MIC KIT</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* BOOM MIC KIT</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>BOOM MIC KIT *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* BOOM MIC KIT *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>DSLR CAMERA</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* DSLR CAMERA</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>DSLR CAMERA *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* DSLR CAMERA *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>CAMERA</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* CAMERA</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>CAMERA *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* CAMERA *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>WEBCAM</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* WEBCAM</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>WEBCAM *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* WEBCAM *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>USB AUDIO HEADSET</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* USB AUDIO HEADSET</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>USB AUDIO HEADSET *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* USB AUDIO HEADSET *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>VIDEO CAMERA</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* VIDEO CAMERA</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>VIDEO CAMERA *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* VIDEO CAMERA *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>DIGITAL SOUND RECORDER</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* DIGITAL SOUND RECORDER</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>DIGITAL SOUND RECORDER *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* DIGITAL SOUND RECORDER *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>TRIPOD</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* TRIPOD</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>TRIPOD *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* TRIPOD *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>HEADPHONES</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* HEADPHONES</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>HEADPHONES *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* HEADPHONES *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>LAPTOP</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* LAPTOP</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>LAPTOP *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* LAPTOP *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>USB CABLE</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* USB CABLE</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>USB CABLE *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* USB CABLE *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>FIREWIRE CABLE</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* FIREWIRE CABLE</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>FIREWIRE CABLE *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* FIREWIRE CABLE *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>USB FLASH DRIVE</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* USB FLASH DRIVE</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>USB FLASH DRIVE *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* USB FLASH DRIVE *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>MEDIA CARD READER</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* MEDIA CARD READER</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>MEDIA CARD READER *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* MEDIA CARD READER *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>MEDIA CARD WRITER</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* MEDIA CARD WRITER</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>MEDIA CARD WRITER *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* MEDIA CARD WRITER *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>HEADPHONES FROM THE MRC</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* HEADPHONES FROM THE MRC</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>HEADPHONES FROM THE MRC *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+<category><pattern>* HEADPHONES FROM THE MRC *</pattern>
+<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+
+<!-- Software -->
+
+<category><pattern>SPSS</pattern>
+<template>Specialized software is installed at the MRC, see <a href=" http://www.lib.uci.edu/mrc/computers-and-consulting-service" target="_blank">
+MRC Computers</a> for more information.</template></category>
+	<category><pattern>* SPSS</pattern>
+	<template><srai>SPSS</srai></template></category>
+	<category><pattern>SPSS *</pattern>
+	<template><srai>SPSS</srai></template></category>
+	<category><pattern>* SPSS *</pattern>
+	<template><srai>SPSS</srai></template></category>
+	<category><pattern>LIST OF SOFTWARE</pattern>
+	<template><srai>SPSS</srai></template></category>
+	<category><pattern>MATLAB</pattern>
+	<template><srai>SPSS</srai></template></category>
+	<category><pattern>* MATLAB</pattern>
+	<template><srai>SPSS</srai></template></category>
+	<category><pattern>MATLAB *</pattern>
+	<template><srai>SPSS</srai></template></category>
+	<category><pattern>* MATLAB *</pattern>
+	<template><srai>SPSS</srai></template></category>
+	<category><pattern>ARCGIS</pattern>
+	<template><srai>SPSS</srai></template></category>
+	<category><pattern>* ARCGIS</pattern>
+	<template><srai>SPSS</srai></template></category>
+	<category><pattern>ARCGIS *</pattern>
+	<template><srai>SPSS</srai></template></category>
+	<category><pattern>* ARCGIS *</pattern>
+	<template><srai>SPSS</srai></template></category>
+	<category><pattern>ARC GIS</pattern>
+	<template><srai>SPSS</srai></template></category>
+	<category><pattern>* ARC GIS</pattern>
+	<template><srai>SPSS</srai></template></category>
+	<category><pattern>ARC GIS *</pattern>
+	<template><srai>SPSS</srai></template></category>
+	<category><pattern>* ARC GIS *</pattern>
+	<template><srai>SPSS</srai></template></category>
+
+
+<!--misc-->
+
+<category><pattern>LISTEN TO MUSIC</pattern>
+<template>Any music we have will be located in the MRC, computers and headphones are available for listening to music.</template></category>
+	<category><pattern>* LISTEN TO MUSIC</pattern>
+	<template><srai>LISTEN TO MUSIC</srai></template></category>
+	<category><pattern>LISTEN TO MUSIC *</pattern>
+	<template><srai>LISTEN TO MUSIC</srai></template></category>
+	<category><pattern>* LISTEN TO MUSIC *</pattern>
+	<template><srai>LISTEN TO MUSIC</srai></template></category>
+	
+<category><pattern>WATCH A VIDEO</pattern>
+<template>DVD's can be checked out and watched at the MRC.  Some films are available online; try searching <a href=" http://antpac.lib.uci.edu">ANTPAC</a> or try our <a href=" http://guides.lib.uci.edu/film/film_findandwatchfilm">Film and Media Studies Research Guide</a>. You might also want to <a href=" http://ask.lib.uci.edu">Ask a Librarian</a> directly </template></category>
+	<category><pattern>* WATCH *</pattern>
+	<template><srai>WATCH A VIDEO</srai></template></category>
+	<category><pattern>STREAM A VIDEO</pattern>
+	<template><srai>WATCH A VIDEO</srai></template></category>
+	<category><pattern>STREAM VIDEO</pattern>
+	<template><srai>WATCH A VIDEO</srai></template></category>
+	<category><pattern>STREAM VIDEOS</pattern>
+	<template><srai>WATCH A VIDEO</srai></template></category>
+	<category><pattern>STREAM A MOVIE</pattern>
+	<template><srai>WATCH A VIDEO</srai></template></category>
+	<category><pattern>STREAM FILMS</pattern>
+	<template><srai>WATCH A VIDEO</srai></template></category>
+	<category><pattern>STREAM MOVIES</pattern>
+	<template><srai>WATCH A VIDEO</srai></template></category>
+	<category><pattern>STREAM A FILM</pattern>
+	<template><srai>WATCH A VIDEO</srai></template></category>
+	<category><pattern>WATCH VIDEO</pattern>
+	<template><srai>WATCH A VIDEO</srai></template></category>
+	<category><pattern>WATCH VIDEOS</pattern>
+	<template><srai>WATCH A VIDEO</srai></template></category>
+	<category><pattern>WATCH A MOVIE</pattern>
+	<template><srai>WATCH A VIDEO</srai></template></category>
+	<category><pattern>WATCH FILMS</pattern>
+	<template><srai>WATCH A VIDEO</srai></template></category>
+	<category><pattern>WATCH MOVIES</pattern>
+	<template><srai>WATCH A VIDEO</srai></template></category>
+	<category><pattern>WATCH A FILM</pattern>
+	<template><srai>WATCH A VIDEO</srai></template></category>
+	<category><pattern>WATCH A DVD</pattern>
+	<template><srai>WATCH A VIDEO</srai></template></category>
+
+<!--3d printing-->
+
+<category><pattern>WHERE IS THE 3D PRINTER LOCATED</pattern>
+<template>The 3D printer is located in the Multimedia Resources Center in the Ayala Science Library.</template></category>
+
+<category><pattern>3D PRINTING</pattern>
+<template>The UCI Libraries have purchased a 3D printer to support creativity. Located in the Multimedia Resources Center in the Ayala 
+Science Library the 3D printer is available to UCI faculty, students, and staff. Learn more about the 
+<a href=" http://www.lib.uci.edu/mrc/3d-printing-and-scanning-pilot-service3D-printing.html" target="_blank">3D Printing Pilot Service</a>.</template></category>
+	<category><pattern>* 3D PRINTING</pattern>
+	<template><srai>3D PRINTING</srai></template></category>
+	<category><pattern>3D PRINTING *</pattern>
+	<template><srai>3D PRINTING</srai></template></category>
+	<category><pattern>* 3D PRINTING *</pattern>
+	<template><srai>3D PRINTING</srai></template></category>
+	<category><pattern>THREED PRINTING</pattern>
+	<template><srai>3D PRINTING</srai></template></category>
+	<category><pattern>* THREED PRINTING</pattern>
+	<template><srai>3D PRINTING</srai></template></category>
+	<category><pattern>THREED PRINTING *</pattern>
+	<template><srai>3D PRINTING</srai></template></category>
+	<category><pattern>* THREED PRINTING *</pattern>
+	<template><srai>3D PRINTING</srai></template></category>
+	<category><pattern>THREE D PRINTING</pattern>
+	<template><srai>3D PRINTING</srai></template></category>
+	<category><pattern>* THREE D PRINTING</pattern>
+	<template><srai>3D PRINTING</srai></template></category>
+	<category><pattern>THREE D PRINTING *</pattern>
+	<template><srai>3D PRINTING</srai></template></category>
+	<category><pattern>* THREE D PRINTING *</pattern>
+	<template><srai>3D PRINTING</srai></template></category>
+	<category><pattern>3D PRINTER</pattern>
+	<template><srai>3D PRINTING</srai></template></category>
+	<category><pattern>* 3D PRINTER</pattern>
+	<template><srai>3D PRINTING</srai></template></category>
+	<category><pattern>3D PRINTER *</pattern>
+	<template><srai>3D PRINTING</srai></template></category>
+	<category><pattern>* 3D PRINTER *</pattern>
+	<template><srai>3D PRINTING</srai></template></category>
+	<category><pattern>I WANT TO BUILD SOMETHING</pattern>
+	<template><srai>3D PRINTING</srai></template></category>
+	
+<category><pattern>WHO CAN USE IT</pattern>
+<that>The UCI Libraries have purchased a 3D printer to support creativity_</that>
+<template><srai>WHO CAN USE THE 3D PRINTER</srai></template></category>
+
+<category><pattern>CAN I USE IT</pattern>
+<that>The UCI Libraries have purchased a 3D printer to support creativity_</that>
+<template><srai>WHO CAN USE THE 3D PRINTER</srai></template></category>
+	
+<category><pattern>WHO CAN USE THE 3D PRINTER</pattern>
+<template>The 3D printer is available for use by all UCI students, faculty, and staff on a first-come first-served basis.</template></category>
+	<category><pattern>* WHO CAN USE THE 3D PRINTER</pattern>
+	<template><srai>WHO CAN USE THE 3D PRINTER</srai></template></category>
+	<category><pattern>WHO CAN USE THE 3D PRINTER *</pattern>
+	<template><srai>WHO CAN USE THE 3D PRINTER</srai></template></category>
+	<category><pattern>* WHO CAN USE THE 3D PRINTER *</pattern>
+	<template><srai>WHO CAN USE THE 3D PRINTER</srai></template></category>
+	<category><pattern>WHO CAN USE THE 3*D PRINTER</pattern>
+	<template><srai>WHO CAN USE THE 3D PRINTER</srai></template></category>
+	<category><pattern>MAY I USE THE 3*D PRINTER</pattern>
+	<template><srai>WHO CAN USE THE 3D PRINTER</srai></template></category>
+	
+<category><pattern>WHAT CAN I PRINT</pattern>
+<that>The UCI Libraries have purchased a 3D printer to support creativity_</that>
+<template><srai>WHAT CAN BE PRINTED ON THE 3D PRINTER</srai></template></category>
+
+<category><pattern>WHAT CAN BE PRINTED</pattern>
+<that>The UCI Libraries have purchased a 3D printer to support creativity_</that>
+<template><srai>WHAT CAN BE PRINTED ON THE 3D PRINTER</srai></template></category>
+
+<category><pattern>WHAT CAN BE PRINTED ON THE 3D PRINTER</pattern>
+<template>The 3D printer must be used exclusively for lawful, non-commercial purposes and in compliance with all University of California policies. <a href=" http://www.lib.uci.edu/mrc/3d-printing-and-scanning-pilot-service3D-printing.html" target="_blank">Read More</a>.</template></category>
+	<category><pattern>* WHAT CAN BE PRINTED ON THE 3D PRINTER</pattern>
+	<template><srai>WHAT CAN BE PRINTED ON THE 3D PRINTER</srai></template></category>
+	<category><pattern>WHAT CAN BE PRINTED ON THE 3D PRINTER *</pattern>
+	<template><srai>WHAT CAN BE PRINTED ON THE 3D PRINTER</srai></template></category>
+	<category><pattern>* WHAT CAN BE PRINTED ON THE 3D PRINTER *</pattern>
+	<template><srai>WHAT CAN BE PRINTED ON THE 3D PRINTER</srai></template></category>
+	<category><pattern>WHAT CAN I PRINT ON THE 3D PRINTER</pattern>
+	<template><srai>WHAT CAN BE PRINTED ON THE 3D PRINTER</srai></template></category>
+	<category><pattern>* WHAT CAN I PRINT ON THE 3D PRINTER</pattern>
+	<template><srai>WHAT CAN BE PRINTED ON THE 3D PRINTER</srai></template></category>
+	<category><pattern>WHAT CAN I PRINT ON THE 3D PRINTER *</pattern>
+	<template><srai>WHAT CAN BE PRINTED ON THE 3D PRINTER</srai></template></category>
+	<category><pattern>* WHAT CAN I PRINT ON THE 3D PRINTER *</pattern>
+	<template><srai>WHAT CAN BE PRINTED ON THE 3D PRINTER</srai></template></category>
+
+<category><pattern>HOW MUCH DOES IT COST</pattern>
+<that>The UCI Libraries have purchased a 3D printer to support creativity_</that>
+<template><srai>HOW MUCH IS THE 3D PRINTER</srai></template></category>
+
+<category><pattern>WHAT IS THE COST</pattern>
+<that>The UCI Libraries have purchased a 3D printer to support creativity_</that>
+<template><srai>HOW MUCH IS THE 3D PRINTER</srai></template></category>
+
+<category><pattern>HOW MUCH IS THE 3D PRINTER</pattern>
+<template>During the pilot period 3D printing is free.</template></category>
+	<category><pattern>* HOW MUCH IS THE 3D PRINTER</pattern>
+	<template><srai>HOW MUCH IS THE 3D PRINTER</srai></template></category>
+	<category><pattern>HOW MUCH IS THE 3D PRINTER *</pattern>
+	<template><srai>HOW MUCH IS THE 3D PRINTER</srai></template></category>
+	<category><pattern>* HOW MUCH IS THE 3D PRINTER *</pattern>
+	<template><srai>HOW MUCH IS THE 3D PRINTER</srai></template></category>
+
+<category><pattern>HOW DO I DESIGN MY OBJECT</pattern>
+<that>The UCI Libraries have purchased a 3D printer to support creativity_</that>
+<template><srai>HOW DO I DESIGN MY OBJECT FOR THE 3D PRINTER</srai></template></category>
+
+<category><pattern>HOW DO I DESIGN MY OBJECT FOR THE 3D PRINTER</pattern>
+<template>Designing a 3D object to print is done using 3D modeling software. There are many 3D modeling programs available, including professional programs like SolidWorks and Autodesk Inventor (which are available in the MRC), and free software programs like Blender, Wings3D, FreeCAD, and Sketchup. You will need export your 3D model into .STL (STereoLithography) format in order to print it.</template></category>
+	<category><pattern>* HOW DO I DESIGN MY OBJECT FOR THE 3D PRINTER</pattern>
+	<template><srai>HOW DO I DESIGN MY OBJECT FOR THE 3D PRINTER</srai></template></category>
+	<category><pattern>HOW DO I DESIGN MY OBJECT FOR THE 3D PRINTER *</pattern>
+	<template><srai>HOW DO I DESIGN MY OBJECT FOR THE 3D PRINTER</srai></template></category>
+	<category><pattern>* HOW DO I DESIGN MY OBJECT FOR THE 3D PRINTER *</pattern>
+	<template><srai>HOW DO I DESIGN MY OBJECT FOR THE 3D PRINTER</srai></template></category>
+	<category><pattern>DESIGN MY OBJECT FOR THE 3D PRINTER</pattern>
+	<template><srai>HOW DO I DESIGN MY OBJECT FOR THE 3D PRINTER</srai></template></category>
+	<category><pattern>* DESIGN MY OBJECT FOR THE 3D PRINTER</pattern>
+	<template><srai>HOW DO I DESIGN MY OBJECT FOR THE 3D PRINTER</srai></template></category>
+	<category><pattern>DESIGN MY OBJECT FOR THE 3D PRINTER *</pattern>
+	<template><srai>HOW DO I DESIGN MY OBJECT FOR THE 3D PRINTER</srai></template></category>
+	<category><pattern>* DESIGN MY OBJECT FOR THE 3D PRINTER *</pattern>
+	<template><srai>HOW DO I DESIGN MY OBJECT FOR THE 3D PRINTER</srai></template></category>
+
+<category><pattern>HOW DO I PRINT MY OBJECT</pattern>
+<that>The UCI Libraries have purchased a 3D printer to support creativity_</that>
+<template><srai>HOW DO I PRINT MY 3D OBJECT</srai></template></category>
+
+<category><pattern>HOW DO I PRINT MY 3D OBJECT</pattern>
+<template>Users must bring their design to the MRC during business hours. The print object must be an .STL file on a USB flash drive formatted in any format (preferably ntfs, or fat32). All submissions are subject to approval based on scheduling and availability of the 3D printer.</template></category>
+	<category><pattern>* HOW DO I PRINT MY 3D OBJECT</pattern>
+	<template><srai>HOW DO I PRINT MY 3D OBJECT</srai></template></category>
+	<category><pattern>HOW DO I PRINT MY 3D OBJECT *</pattern>
+	<template><srai>HOW DO I PRINT MY 3D OBJECT</srai></template></category>
+	<category><pattern>* HOW DO I PRINT MY 3D OBJECT *</pattern>
+	<template><srai>HOW DO I PRINT MY 3D OBJECT</srai></template></category>
+	<category><pattern>HOW DO I PRINT MY OBJECT</pattern>
+	<template><srai>HOW DO I PRINT MY 3D OBJECT</srai></template></category>
+	<category><pattern>* HOW DO I PRINT MY OBJECT</pattern>
+	<template><srai>HOW DO I PRINT MY 3D OBJECT</srai></template></category>
+	<category><pattern>HOW DO I PRINT MY OBJECT *</pattern>
+	<template><srai>HOW DO I PRINT MY 3D OBJECT</srai></template></category>
+	<category><pattern>* HOW DO I PRINT MY OBJECT *</pattern>
+	<template><srai>HOW DO I PRINT MY 3D OBJECT</srai></template></category>
+
+<category><pattern>WHAT COLORS CAN I PRINT IN</pattern>
+<that>The UCI Libraries have purchased a 3D printer to support creativity_</that>
+<template><srai>WHAT COLORS CAN I 3D PRINT IN</srai></template></category>
+
+<category><pattern>WHAT COLORS CAN I 3D PRINT IN</pattern>
+<template>Your printed object will be printed in one solid color. Available colors vary. You will be given your choices when you submit your request.</template></category>
+	<category><pattern>* WHAT COLORS CAN I 3D PRINT IN</pattern>
+	<template><srai>WHAT COLORS CAN I 3D PRINT IN</srai></template></category>
+	<category><pattern>WHAT COLORS CAN I 3D PRINT IN *</pattern>
+	<template><srai>WHAT COLORS CAN I 3D PRINT IN</srai></template></category>
+	<category><pattern>* WHAT COLORS CAN I 3D PRINT IN *</pattern>
+	<template><srai>WHAT COLORS CAN I 3D PRINT IN</srai></template></category>
+
+<category><pattern>WHAT IF I HAVE MORE THAN ONE OBJECT</pattern>
+<template>Each file must be submitted separately by filling out a separate 3D Printing Request Form available at the MRC.</template></category> 
+	<category><pattern>* WHAT IF I HAVE MORE THAN ONE OBJECT</pattern>
+	<template><srai>WHAT IF I HAVE MORE THAN ONE OBJECT</srai></template></category>
+	<category><pattern>WHAT IF I HAVE MORE THAN ONE OBJECT *</pattern>
+	<template><srai>WHAT IF I HAVE MORE THAN ONE OBJECT</srai></template></category>
+	<category><pattern>* WHAT IF I HAVE MORE THAN ONE OBJECT *</pattern>
+	<template><srai>WHAT IF I HAVE MORE THAN ONE OBJECT</srai></template></category>
+	<category><pattern>CAN I PRINT MORE THAN ONE OBJECT</pattern>
+	<template><srai>WHAT IF I HAVE MORE THAN ONE OBJECT</srai></template></category>
+	<category><pattern>* CAN I PRINT MORE THAN ONE OBJECT</pattern>
+	<template><srai>WHAT IF I HAVE MORE THAN ONE OBJECT</srai></template></category>
+	<category><pattern>CAN I PRINT MORE THAN ONE OBJECT *</pattern>
+	<template><srai>WHAT IF I HAVE MORE THAN ONE OBJECT</srai></template></category>
+	<category><pattern>* CAN I PRINT MORE THAN ONE OBJECT *</pattern>
+	<template><srai>WHAT IF I HAVE MORE THAN ONE OBJECT</srai></template></category>
+	<category><pattern>CAN I PRINT MORE THAN ONE * OBJECT</pattern>
+	<template><srai>WHAT IF I HAVE MORE THAN ONE OBJECT</srai></template></category>
+	<category><pattern>* CAN I PRINT MORE THAN ONE * OBJECT</pattern>
+	<template><srai>WHAT IF I HAVE MORE THAN ONE OBJECT</srai></template></category>
+	<category><pattern>CAN I PRINT MORE THAN ONE * OBJECT *</pattern>
+	<template><srai>WHAT IF I HAVE MORE THAN ONE OBJECT</srai></template></category>
+	<category><pattern>* CAN I PRINT MORE THAN ONE * OBJECT *</pattern>
+	<template><srai>WHAT IF I HAVE MORE THAN ONE OBJECT</srai></template></category>
+
+<category><pattern>HOW LONG DOES A 3D PRINT JOB TAKE</pattern>
+<template>The time it takes to print an object can vary widely. See our time guidelines for estimates. Using the UCI Libaries' 3D printer may take up to a week depending on the queue. For more time efficient options, check out these alternate providers. If you have more than one object and there is high demand for the 3D printer, the Libraries may choose to schedule only one printed object per person/entity per day.</template></category> 
+	<category><pattern>* HOW LONG DOES A 3D PRINT JOB TAKE</pattern>
+	<template><srai>HOW LONG DOES A 3D PRINT JOB TAKE</srai></template></category>
+	<category><pattern>HOW LONG DOES A 3D PRINT JOB TAKE *</pattern>
+	<template><srai>HOW LONG DOES A 3D PRINT JOB TAKE</srai></template></category>
+	<category><pattern>* HOW LONG DOES A 3D PRINT JOB TAKE *</pattern>
+	<template><srai>HOW LONG DOES A 3D PRINT JOB TAKE</srai></template></category>
+	<category><pattern>HOW LONG WILL MY OBJECT TAKE TO BE PRINTED</pattern>
+	<template><srai>HOW LONG DOES A 3D PRINT JOB TAKE</srai></template></category>
+	<category><pattern>* HOW LONG WILL MY OBJECT TAKE TO BE PRINTED</pattern>
+	<template><srai>HOW LONG DOES A 3D PRINT JOB TAKE</srai></template></category>
+	<category><pattern>HOW LONG WILL MY OBJECT TAKE TO BE PRINTED *</pattern>
+	<template><srai>HOW LONG DOES A 3D PRINT JOB TAKE</srai></template></category>
+	<category><pattern>* HOW LONG WILL MY OBJECT TAKE TO BE PRINTED *</pattern>
+	<template><srai>HOW LONG DOES A 3D PRINT JOB TAKE</srai></template></category>
+
+<category><pattern>CAN I WATCH MY OBJECT PRINT</pattern>
+<template>Not yet but that will be coming soon!</template></category>
+	<category><pattern>* CAN I WATCH MY OBJECT PRINT</pattern>
+	<template><srai>CAN I WATCH MY OBJECT PRINT</srai></template></category>
+	<category><pattern>CAN I WATCH MY OBJECT PRINT *</pattern>
+	<template><srai>CAN I WATCH MY OBJECT PRINT</srai></template></category>
+	<category><pattern>* CAN I WATCH MY OBJECT PRINT *</pattern>
+	<template><srai>CAN I WATCH MY OBJECT PRINT</srai></template></category>
+
+<category><pattern>WHY DOES MY PRINTED OBJECT LOOK UNFINISHED</pattern>
+<template>Users may see imperfections in their printed objects.  Small bumps or holes and rough edges at the base of an object may occur 
+with 3D printing.  Imperfections can be cleaned up with fine sand paper, file and/or tools. The Makerbot Replicator is very accurate but 
+there may be some instances where objects do not fit precisely together. <a href=" http://www.lib.uci.edu/mrc/3d-printing-and-scanning-pilot-service3D-printing.html" target="_blank">Read More</a>.</template></category>
+	<category><pattern>* WHY DOES MY PRINTED OBJECT LOOK UNFINISHED</pattern>
+	<template><srai>WHY DOES MY PRINTED OBJECT LOOK UNFINISHED</srai></template></category>
+	<category><pattern>WHY DOES MY PRINTED OBJECT LOOK UNFINISHED *</pattern>
+	<template><srai>WHY DOES MY PRINTED OBJECT LOOK UNFINISHED</srai></template></category>
+	<category><pattern>* WHY DOES MY PRINTED OBJECT LOOK UNFINISHED *</pattern>
+	<template><srai>WHY DOES MY PRINTED OBJECT LOOK UNFINISHED</srai></template></category>
+
+<category><pattern>IS THERE SOMEWHERE ELSE I CAN PRINT MY OBJECT</pattern>
+<template>Check out these <a href=" http://www.lib.uci.edu/mrc/3d-printing-and-scanning-pilot-service3D-printing-service-providers.html" target="_blank">alternate providers</a>.</template></category>
+	<category><pattern>* IS THERE SOMEWHERE ELSE I CAN PRINT MY OBJECT</pattern>
+	<template><srai>IS THERE SOMEWHERE ELSE I CAN PRINT MY OBJECT</srai></template></category>
+	<category><pattern>IS THERE SOMEWHERE ELSE I CAN PRINT MY OBJECT *</pattern>
+	<template><srai>IS THERE SOMEWHERE ELSE I CAN PRINT MY OBJECT</srai></template></category>
+	<category><pattern>* IS THERE SOMEWHERE ELSE I CAN PRINT MY OBJECT *</pattern>
+	<template><srai>IS THERE SOMEWHERE ELSE I CAN PRINT MY OBJECT</srai></template></category>
+	<category><pattern>WHERE ELSE CAN I PRINT MY OBJECT</pattern>
+	<template><srai>IS THERE SOMEWHERE ELSE I CAN PRINT MY OBJECT</srai></template></category>
+	<category><pattern>* WHERE ELSE CAN I PRINT MY OBJECT</pattern>
+	<template><srai>IS THERE SOMEWHERE ELSE I CAN PRINT MY OBJECT</srai></template></category>
+	<category><pattern>WHERE ELSE CAN I PRINT MY OBJECT *</pattern>
+	<template><srai>IS THERE SOMEWHERE ELSE I CAN PRINT MY OBJECT</srai></template></category>
+	<category><pattern>* WHERE ELSE CAN I PRINT MY OBJECT *</pattern>
+	<template><srai>IS THERE SOMEWHERE ELSE I CAN PRINT MY OBJECT</srai></template></category>
+	<category><pattern>IS THERE SOMEWHERE ELSE I CAN PRINT MY * OBJECT</pattern>
+	<template><srai>IS THERE SOMEWHERE ELSE I CAN PRINT MY OBJECT</srai></template></category>
+	<category><pattern>* IS THERE SOMEWHERE ELSE I CAN PRINT MY * OBJECT</pattern>
+	<template><srai>IS THERE SOMEWHERE ELSE I CAN PRINT MY OBJECT</srai></template></category>
+	<category><pattern>IS THERE SOMEWHERE ELSE I CAN PRINT MY * OBJECT *</pattern>
+	<template><srai>IS THERE SOMEWHERE ELSE I CAN PRINT MY OBJECT</srai></template></category>
+	<category><pattern>* IS THERE SOMEWHERE ELSE I CAN PRINT MY * OBJECT *</pattern>
+	<template><srai>IS THERE SOMEWHERE ELSE I CAN PRINT MY OBJECT</srai></template></category>
+	<category><pattern>WHERE ELSE CAN I PRINT MY * OBJECT</pattern>
+	<template><srai>IS THERE SOMEWHERE ELSE I CAN PRINT MY OBJECT</srai></template></category>
+	<category><pattern>* WHERE ELSE CAN I PRINT MY * OBJECT</pattern>
+	<template><srai>IS THERE SOMEWHERE ELSE I CAN PRINT MY OBJECT</srai></template></category>
+	<category><pattern>WHERE ELSE CAN I PRINT MY * OBJECT *</pattern>
+	<template><srai>IS THERE SOMEWHERE ELSE I CAN PRINT MY OBJECT</srai></template></category>
+	<category><pattern>* WHERE ELSE CAN I PRINT MY * OBJECT *</pattern>
+	<template><srai>IS THERE SOMEWHERE ELSE I CAN PRINT MY OBJECT</srai></template></category>
+
+<category><pattern>HOW CAN I LEARN MORE ABOUT THE 3D PRINTING SERVICE PILOT</pattern>
+<template>If you have more questions about 3D printing email libmrc@uci.edu or visit the MRC during business hours.</template></category>
+	<category><pattern>* HOW CAN I LEARN MORE ABOUT THE 3D PRINTING SERVICE PILOT</pattern>
+	<template><srai>HOW CAN I LEARN MORE ABOUT THE 3D PRINTING SERVICE PILOT</srai></template></category>
+	<category><pattern>HOW CAN I LEARN MORE ABOUT THE 3D PRINTING SERVICE PILOT *</pattern>
+	<template><srai>HOW CAN I LEARN MORE ABOUT THE 3D PRINTING SERVICE PILOT</srai></template></category>
+	<category><pattern>* HOW CAN I LEARN MORE ABOUT THE 3D PRINTING SERVICE PILOT *</pattern>
+	<template><srai>HOW CAN I LEARN MORE ABOUT THE 3D PRINTING SERVICE PILOT</srai></template></category>
+	
+<category><pattern>GAMING SYSTEM</pattern>
+<template>ASL Room 176 accommodates up to 7 people and each is equipped with PS3™ system game consoles and 32 inch or larger HD displays.</template></category>
+	<category><pattern>* GAMING SYSTEM</pattern>
+	<template><srai>GAMING SYSTEM</srai></template></category>
+	<category><pattern>GAMING SYSTEM *</pattern>
+	<template><srai>GAMING SYSTEM</srai></template></category>
+	<category><pattern>* GAMING SYSTEM *</pattern>
+	<template><srai>GAMING SYSTEM</srai></template></category>
+	<category><pattern>CAN I PLAY GAMES AT THE MEDIA CENTER</pattern>
+	<template><srai>GAMING SYSTEM</srai></template></category>
+	
+<category><pattern>DO YOU HAVE GAMES</pattern>
+<template>There are but the selection varies, please visit the MRC desk to check out the current selection!</template></category>
+	<category><pattern>ARE THERE GAMES AT THE MEDIA RESOUCES CENTER</pattern>
+	<template><srai>DO YOU HAVE GAMES</srai></template></category>
+
+<category><pattern>DVD ON HOLD</pattern>
+<template>Holds can not be placed on DVDs nor can they be reserved in advance.</template></category>
+	<category><pattern>* DVD ON HOLD</pattern>
+	<template><srai>DVD ON HOLD</srai></template></category>
+	<category><pattern>DVD ON HOLD *</pattern>
+	<template><srai>DVD ON HOLD</srai></template></category>
+	<category><pattern>* DVD ON HOLD *</pattern>
+	<template><srai>DVD ON HOLD</srai></template></category>
+	<category><pattern>RESERVE A DVD</pattern>
+	<template><srai>DVD ON HOLD</srai></template></category>
+	<category><pattern>* RESERVE A DVD</pattern>
+	<template><srai>DVD ON HOLD</srai></template></category>
+	<category><pattern>RESERVE A DVD *</pattern>
+	<template><srai>DVD ON HOLD</srai></template></category>
+	<category><pattern>* RESERVE A DVD *</pattern>
+	<template><srai>DVD ON HOLD</srai></template></category>
+
+<category><pattern>* MAC IN THE COMPUTER LAB</pattern> 
+<template>We have MAC lab at the MRC, which is located at the Ayala Science Library.</template></category>
+
+<category><pattern>WHERE ARE THE MOVIES</pattern>
+<template>Our films are physically located in the Multimedia Resource Center (MRC) at ASL. You can also find titles/call numbers in our catalog <a href=" http://antpac.lib.uci.edu/" target="_blank">ANTPAC</a>.</template></category>
+
+<category><pattern>VHS PLAYER</pattern>
+<template>DVD and VHS Players are available at the <a href=" http://www.lib.uci.edu/mrc" target="_blank">MRC</a>.</template></category>
+	<category><pattern>* VHS PLAYER</pattern>
+	<template><srai>VHS PLAYER</srai></template></category>
+	<category><pattern>VHS PLAYER *</pattern>
+	<template><srai>VHS PLAYER</srai></template></category>
+	<category><pattern>* VHS PLAYER *</pattern>
+	<template><srai>VHS PLAYER</srai></template></category>
+	<category><pattern>DVD PLAYER</pattern>
+	<template><srai>VHS PLAYER</srai></template></category>
+	<category><pattern>* DVD PLAYER</pattern>
+	<template><srai>VHS PLAYER</srai></template></category>
+	<category><pattern>DVD PLAYER *</pattern>
+	<template><srai>VHS PLAYER</srai></template></category>
+	<category><pattern>* DVD PLAYER *</pattern>
+	<template><srai>VHS PLAYER</srai></template></category>
+
+</aiml>

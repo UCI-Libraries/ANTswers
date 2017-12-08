@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- ENVIRONMENTAL SCIENCE -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>ENVIRONMENTAL SCIENCE *</pattern> 
+	<template><think><set name="topic">ENVIRONMENTAL SCIENCE</set></think><sr /></template></category>
+
+<category><pattern>ENVIRONMENTAL SCIENCE</pattern>	
+	<template>For resources on environmental science check out the <a href=" http://guides.lib.uci.edu/env_sci" target="_blank">Environmental Sciences Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<!-- Interactions -->
+
+<category><pattern>ENVIRONMENTAL SCIENCE</pattern>
+	<that>Ecology as a subject is included in the broader subjects of Biology or Environmental Science Would you like resource recommendations for biology or environmental science_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> 
+	and/or <a href=" http://uclibs.org/PID/126814" target="_blank">Agricola</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/env_sci" target="_blank">Environmental Sciences Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<!-- Subject keywords-->
+
+<category><pattern>ENVIRONMENTAL MANAGEMENT</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> 
+			and/or <a href=" http://uclibs.org/PID/126814" target="_blank">Agricola</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/env_sci" target="_blank">Environmental Sciences Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>COMMUNICATION IN THE ENVIRONMENTAL SCIENCES</pattern>
+<template><srai>ENVIRONMENTAL MANAGEMENT</srai></template></category>
+<category><pattern>ENVIRONMENTAL MANAGEMENT</pattern>
+<template><srai>ENVIRONMENTAL MANAGEMENT</srai></template></category>
+<category><pattern>ENVIRONMENTAL PROTECTION</pattern>
+<template><srai>ENVIRONMENTAL MANAGEMENT</srai></template></category>
+<category><pattern>BEARS HIBERNATING</pattern>
+<template><srai>ENVIRONMENTAL MANAGEMENT</srai></template></category>
+<category><pattern>SUSTAINABILITY</pattern>
+<template><srai>ENVIRONMENTAL MANAGEMENT</srai></template></category>
+<category><pattern>AIR POLLUTION</pattern>
+<template><srai>ENVIRONMENTAL MANAGEMENT</srai></template></category>
+<category><pattern>STATISTICS ON AIR POLLUTION</pattern>
+<template><srai>ENVIRONMENTAL MANAGEMENT</srai></template></category>
+<category><pattern>STATISTICS AIR POLLUTION</pattern>
+<template><srai>ENVIRONMENTAL MANAGEMENT</srai></template></category>
+<category><pattern>RUNOFF</pattern>
+<template><srai>ENVIRONMENTAL MANAGEMENT</srai></template></category>
+<category><pattern>POLLUTION</pattern>
+<template><srai>ENVIRONMENTAL MANAGEMENT</srai></template></category>
+<category><pattern>* POLLUTION</pattern>
+<template><srai>ENVIRONMENTAL MANAGEMENT</srai></template></category>
+<category><pattern>POLLUTION *</pattern>
+<template><srai>ENVIRONMENTAL MANAGEMENT</srai></template></category>
+<category><pattern>* POLLUTION *</pattern>
+<template><srai>ENVIRONMENTAL MANAGEMENT</srai></template></category>
+<category><pattern>OVERFISHING</pattern>
+<template><srai>ENVIRONMENTAL MANAGEMENT</srai></template></category>
+<category><pattern>FISHING METHODS</pattern>
+<template><srai>ENVIRONMENTAL MANAGEMENT</srai></template></category>
+<category><pattern>CONSUMPTION AND CLIMATE CHANGE</pattern>
+<template><srai>ENVIRONMENTAL MANAGEMENT</srai></template></category>
+<category><pattern>CONSUMPTION AND ITS EFFECT ON CLIMATE CHANGE</pattern>
+<template><srai>ENVIRONMENTAL MANAGEMENT</srai></template></category>
+<category><pattern>CONSUMPTION CONTRIBUTING TO WASTE</pattern>
+<template><srai>ENVIRONMENTAL MANAGEMENT</srai></template></category>
+<category><pattern>GREAT BARRIER REEF</pattern>
+<template><srai>ENVIRONMENTAL MANAGEMENT</srai></template></category>
+
+</aiml>

@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- ENVIRONMENTAL SCIENCE -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>FILM AND MEDIA STUDIES *</pattern> 
+	<template><think><set name="topic">FILM AND MEDIA STUDIES</set></think><sr /></template></category>
+
+<category><pattern>FILM AND MEDIA STUDIES</pattern>	
+	<template>For resources on Film and Media Studies check out the <a href=" http://libguides.lib.uci.edu/film" target="_blank">Film and Media Studies Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/services/ask/ask-a-librarian.html" target="_blank">Ask a Librarian</a>.</template></category>
+
+
+<!-- Subject keywords-->
+
+<category><pattern>MASS MEDIA</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://antpac.lib.uci.edu:80/record=b1812941~S4 " target="_blank">Communication Abstracts</a> 
+			and/or <a href=" http://uclibs.org/PID/1980" target="_blank">JSTOR</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/env_sci" target="_blank">Environmental Sciences Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/services/ask/ask-a-librarian.html" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>AFRICA IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>AFRO AMERICANS IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>AGED IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>AIDS IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>ALBANIA IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>ALCOHOLISM IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>ANIMALS IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>APARTHEID IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>ARAB COUNTRIES IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>ARMED FORCES AND MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>CENTRAL ASIA IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>ASIAN AMERICANS AND MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>ASTRONAUTICS IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>AUSTRALIAN ABORIGINES IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>AUTOMOBILES IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>BLACK ENGLISH IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>BLACK MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>BLACKS AND MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>BLACKS IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>BULGARIA IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>CANADA IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>CHARACTERS IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>CHARACTERISTICS IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>CHILDRENS MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>EFFECTS OF MASS MEDIA ON COLLECTIVE BARGAINING</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>COMMUNISM AND MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>CONGO IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>CRIME IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>CRIMINAL INVESTIGATION IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>CYBORGS IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>DEATH IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>DETECTIVES IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>DEVELOPING COUNTRIES IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>DEVIANT BEHAVIOR IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>DINOSAURS IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>DOCUMENTARY MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>DRUGS AND MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>EDUCATION IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>EL SALVADOR IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>ETHNIC MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>EUROPEAN UNION IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>FAMILY IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>FAMINES IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>FANTASY IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>FRENCH CANADIANS AND MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>GENETICS IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>GEOGRAPHICAL MYTHS IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>EAST GERMANY IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>WEST GERMANY IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>GOSSIP IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>GREEK AMERICANS AND MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>HAITIAN AMERICANS AND MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>HEALERS IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>HEALTH IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>HEROES IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>HISPANIC AMERICANS AND MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>SHERLOCK HOLMES IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>HORROR IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>HOUSING LAW IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>IMAGINARY PLACES IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>INDIAN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>INTELLIGENCE LEVELS IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>ISLAM IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>ITALIAN AMERICANS IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>ITALIANS IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>JAPAN IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>SOUTH KOREA IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>LATIN AMERICA IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>LOCAL MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>MEN IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>MENS MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>MENTAL ILLNESS IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>MEXICO IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>MICKEY MOUSE IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>MIDDLE EAST IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>MONSTERS IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>MOTION PICTURES</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>MURDER IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>NATIONAL CHARACTERISTICS IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>NEWSPAPERS</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>NORTHERN IRELAND IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>NURSES IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>OPERATION DESERT SHIELD IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>OPPRESSION IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>PINOCCHIO IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>POLICE AND MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>POLICE IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>POPEYE IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>PRISONERS OF WAR IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>PRISONS IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>RADIO BROADCASTING</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>RAPE IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>RITUAL ABUSE IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>SCANDALS IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>SEX DIFFERENCES IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>SEX IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>SEX ROLE IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>SEXISM IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>SOCIAL CLASSES IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>SOCIAL PROBLEMS IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>STEREOTYPE IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>SUPERMAN IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>TARZAN IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>TEENAGERS IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>TELEVISION BROADCASTING</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>TERRORISM AND MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>TERRORISM IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>TRADE UNIONS AND MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>VICTIMS OF CRIMES IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>VILLAINS IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>VIOLENCE IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>VOYAGES IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>IMAGINARY IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>WAR IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>WEST IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>WOMEN IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>WOMEN IN THE MASS MEDIA INDUSTRY</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>WOMENS MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+<category><pattern>YOUTH IN MASS MEDIA</pattern>
+<template><srai>MASS MEDIA</srai></template></category>
+
+<category><pattern>FILM</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/31080" target="_blank">Performing Arts Periodicals Database</a> 
+			and/or <a href=" http://uclibs.org/PID/1980" target="_blank">JSTOR</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/env_sci" target="_blank">Environmental Sciences Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/services/ask/ask-a-librarian.html" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>AFRICAN AMERICANS IN MOTION PICTURES</pattern>
+<template><srai>FILM</srai></template></category>
+<category><pattern>AFRICAN AMERICANS IN THE MOTION PICTURE INDUSTRY</pattern>
+<template><srai>FILM</srai></template></category>
+<category><pattern>BASEBALL FILMS</pattern>
+<template><srai>FILM</srai></template></category>
+<category><pattern>CINEMATOGRAPHY</pattern>
+<template><srai>FILM</srai></template></category>
+<category><pattern>DOCUMENTARY FILMS</pattern>
+<template><srai>FILM</srai></template></category>
+<category><pattern>ALRED HITCHCOCK</pattern>
+<template><srai>FILM</srai></template></category>
+<category><pattern>MOTION PICTURE ACTORS AND ACTRESSES</pattern>
+<template><srai>FILM</srai></template></category>
+<category><pattern>MOTION PICTURE ACTING</pattern>
+<template><srai>FILM</srai></template></category>
+<category><pattern>MOTION PICTURE INDUSTRY UNITED STATES</pattern>
+<template><srai>FILM</srai></template></category>
+<category><pattern>MOTION PICTURE PRODUCERS AND DIRECTORS</pattern>
+<template><srai>FILM</srai></template></category>
+<category><pattern>MOTION PICTURES</pattern>
+<template><srai>FILM</srai></template></category>
+<category><pattern>MOTION PICTURE CATALOGS</pattern>
+<template><srai>FILM</srai></template></category>
+<category><pattern>MOTION PICTURE CENSORSHIP</pattern>
+<template><srai>FILM</srai></template></category>
+<category><pattern>MOTION PICTURE FRENCH</pattern>
+<template><srai>FILM</srai></template></category>
+<category><pattern>MOTION PICTURE INDIA</pattern>
+<template><srai>FILM</srai></template></category>
+<category><pattern>MORAL AND ETHICAL ASPECTS OF MOTION PICTURES</pattern>
+<template><srai>FILM</srai></template></category>
+<category><pattern>MOTION PICTURE PERIODICALS</pattern>
+<template><srai>FILM</srai></template></category>
+<category><pattern>MOTION PICTURE PRODUCTION AND DIRECTION</pattern>
+<template><srai>FILM</srai></template></category>
+<category><pattern>MOTION PICTURE REVIEWS</pattern>
+<template><srai>FILM</srai></template></category>
+<category><pattern>MOTION PICTURES UNITED STATES</pattern>
+<template><srai>FILM</srai></template></category>
+<category><pattern>MOTION PICTURES AND LITERATURE</pattern>
+<template><srai>FILM</srai></template></category>
+<category><pattern>MOTION PICTURES IN PROPAGANDA</pattern>
+<template><srai>FILM</srai></template></category>
+<category><pattern>PSYCHOANALYSIS AND MOTION PICTURES</pattern>
+<template><srai>FILM</srai></template></category>
+<category><pattern>STARDOM</pattern>
+<template><srai>FILM</srai></template></category>
+<category><pattern>VIOLENCE IN MOTION PICTURES</pattern>
+<template><srai>FILM</srai></template></category>
+<category><pattern>WESTERN FILMS</pattern>
+<template><srai>FILM</srai></template></category>
+<category><pattern>MOTION PICTURES AND THE WAR</pattern>
+<template><srai>FILM</srai></template></category>
+
+<category><pattern>LIBRARIES AND MASS MEDIA</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://antpac.lib.uci.edu:80/record=b1812941~S4" target="_blank">Communication Abstracts</a> 
+			and/or <a href=" http://search.ebscohost.com/login.aspx?authtype=ip,uidandamp;profile=ehostandamp;defaultdb=lxh" target="_blank">Library Information Science and Technology Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/env_sci" target="_blank">Environmental Sciences Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/services/ask/ask-a-librarian.html" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+</aiml>

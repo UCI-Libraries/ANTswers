@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- CRITICAL THEORY -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>CRITICAL THEORY *</pattern>
+	<template><think><set name="topic">critical theory</set></think><sr /></template></category>
+	
+<category><pattern>CRITICAL THEORY</pattern>	
+	<template>For resources on critical theory check out the <a href=" http://guides.lib.uci.edu/critical_theory" target="_blank">Critical Theory Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+	<category><pattern>* CRITICAL THEORY</pattern>
+	<template><srai>CRITICAL THEORY</srai></template></category>
+	<category><pattern>* CRITICAL THEORY *</pattern>
+	<template><srai>CRITICAL THEORY</srai></template></category>
+
+<!-- Interactions -->
+
+<category><pattern>CRITIQUE</pattern>
+	<that>Critical pedagogy as a subject is included in the broader subjects of Critical Theory and Education Would you like resource recommendations for critical theory or education_</that>
+	<template>We would recommend that you start your search with <a href=" http://www.csa.com/htbin/dbrng.cgi?username=uciandamp;access=uci324andamp;db=mla-set-candamp;adv=1" target="_blank">MLA International Bibliography</a> 
+	and/or <a href=" http://litguide.press.jhu.edu/" target="_blank">Johns Hopkins Guide to Literary Theory and Criticism</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/critical_theory" target="_blank">Critical Theory Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>CRITIQUE</pattern>
+	<that>Criticism as a subject is included in the broader subjects of Critical Theory Literature and Philosophy Would you like resource recommendations for critical theory literature or philosophy_</that>
+	<template>We would recommend that you start your search with <a href=" http://www.csa.com/htbin/dbrng.cgi?username=uciandamp;access=uci324andamp;db=mla-set-candamp;adv=1" target="_blank">MLA International Bibliography</a> 
+	and/or <a href=" http://litguide.press.jhu.edu/" target="_blank">Johns Hopkins Guide to Literary Theory and Criticism</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/critical_theory" target="_blank">Critical Theory Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<!-- Subject keywords-->
+
+<category><pattern>CRITIQUE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://www.csa.com/htbin/dbrng.cgi?username=uciandamp;access=uci324andamp;db=mla-set-candamp;adv=1" target="_blank">MLA International Bibliography</a> 
+			and/or <a href=" http://litguide.press.jhu.edu/" target="_blank">Johns Hopkins Guide to Literary Theory and Criticism</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/critical_theory" target="_blank">Critical Theory Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>CRITICAL THEORY</pattern>
+<template><srai>CRITIQUE</srai></template></category>
+<category><pattern>CRITICAL THEORY</pattern>
+<template><srai>CRITIQUE</srai></template></category>
+<category><pattern>CRITIQUE CULTURE</pattern>
+<template><srai>CRITIQUE</srai></template></category>
+<category><pattern>MODERN PHILOSOPHY</pattern>
+<template><srai>CRITIQUE</srai></template></category>
+<category><pattern>POPULAR EDUCATION</pattern>
+<template><srai>CRITIQUE</srai></template></category>
+<category><pattern>CRITIQUE SOCIETY</pattern>
+<template><srai>CRITIQUE</srai></template></category>
+<category><pattern>* LITERARY CRITICISM</pattern>
+<template><srai>CRITIQUE</srai></template></category>
+
+</aiml>

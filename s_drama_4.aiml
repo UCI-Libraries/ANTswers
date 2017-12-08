@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Drama -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>DRAMA *</pattern>
+	<template><think><set name="topic">drama</set></think><sr /></template></category>
+
+<category><pattern>DRAMA</pattern>	
+	<template>For resources on drama check out the <a href=" http://guides.lib.uci.edu/drama" target="_blank">Drama Research Guide</a>   
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<!-- Interactions -->
+Melodrama
+<category><pattern>DRAMA CRITICISM</pattern>
+	<that>Melodrama as a subject is included in the broader subjects of Drama Motion Pictures Music and Television Would you like resource recommendations for drama motion pictures music or television_</that>
+	<template>We would recommend that you start your search with <a href=" http://infotrac.galegroup.com/itweb/univca20?db=LCO" target="_blank">Drama Criticism</a> 
+	and the <a href=" http://uclibs.org/PID/31080" target="_blank">International Index to the Performing Arts Full Text</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/drama" target="_blank">Drama Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<!-- Subject keywords-->
+
+<category><pattern>RELIGIOUS DRAMA</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://infotrac.galegroup.com/itweb/univca20?db=LCO" target="_blank">Drama Criticism</a> and 
+	<a href=" http://uclibs.org/PID/105587" target="_blank">ATLA</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/drama" target="_blank">Drama 
+	Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>LITURGY AND DRAMA</pattern>
+<template><srai>RELIGIOUS DRAMA</srai></template></category>
+<category><pattern>RELIGION AND DRAMA</pattern>
+<template><srai>RELIGIOUS DRAMA</srai></template></category>
+<category><pattern>RELIGION IN DRAMA</pattern>
+<template><srai>RELIGIOUS DRAMA</srai></template></category>
+<category><pattern>RELIGIOUS DRAMA</pattern>
+<template><srai>RELIGIOUS DRAMA</srai></template></category>
+
+<category><pattern>HISTORICAL DRAMA</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://infotrac.galegroup.com/itweb/univca20?db=LCO" target="_blank">Drama Criticism</a>,
+			<a href=" http://uclibs.org/PID/12775" target="_blank">Historical Abstracts</a>, and <a href=" http://uclibs.org/PID/6159" target="_blank">America 
+			History and Life</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/drama" target="_blank">Drama Research Guide</a> and if you are 
+			not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>DRAMA CRITICISM</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://infotrac.galegroup.com/itweb/univca20?db=LCO" target="_blank">Drama Criticism</a> 
+			and the <a href=" http://uclibs.org/PID/31080" target="_blank">International Index to the Performing Arts Full Text</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/drama" target="_blank">Drama Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>ACTING FOR TELEVISION</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>BIOGRAPHICAL DRAMA</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>CLOWNING</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>COMEDY</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>COMMEDIA DELL'ARTE</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>DIDACTIC DRAMA</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>DOMESTIC DRAMA</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>DRAMES A CLEF</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>ENSEMBLE THEATER</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>EQUESTRIAN DRAMA</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>EXPERIMENTAL DRAMA</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>GESTURE</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>IMPERSONATION</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>IMPROVISATION ACTING</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>INTERLUDES</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>MASQUES</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>METHOD ACTING</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>MIME</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>MONODRAMAS</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>MORALITIES</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>MULTIPLE ROLE ACTING</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>PANTOMIME</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>PASTORAL DRAMA</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>PROMPTBOOKS</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>PSYCHODRAMA</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>SOCIODRAMA</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>SOLILOQUY</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>STAGE FENCING</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>STAGE FIGHTING</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>STICHOMYTHIA</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>TRAGEDY</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>TRAGICOMEDY</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>VERSE DRAMA</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+<category><pattern>YOUNG ADULT DRAMA</pattern>
+<template><srai>DRAMA CRITICISM</srai></template></category>
+
+<category><pattern>FARCE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://infotrac.galegroup.com/itweb/univca20?db=LCO" target="_blank">Drama Criticism</a> 
+			and the <a href=" http://uclibs.org/PID/113654" target="_blank">Play Index</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/drama" target="_blank">Drama Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>FARCES</pattern>
+<template><srai>FARCE</srai></template></category>
+<category><pattern>FOLK DRAMA</pattern>
+<template><srai>FARCE</srai></template></category>
+<category><pattern>PLAYS IN PROGRESS</pattern>
+<template><srai>FARCE</srai></template></category>
+
+<category><pattern>JEWISH DRAMA</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://infotrac.galegroup.com/itweb/univca20?db=LCO" target="_blank">Drama Criticism</a> 
+			and <a href=" http://jnul.huji.ac.il/rambi/" target="_blank">RAMBI: Index of Articles on Jewish Studies</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/drama" target="_blank">Drama Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>PLAYS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/113654" target="_blank">Play Index</a> and 
+			<a href=" http://infotrac.galegroup.com/itweb/univca20?db=LCO" target="_blank">Drama Criticism</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/drama" target="_blank">Drama Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>AMATEUR PLAYS</pattern>
+<template><srai>PLAYS</srai></template></category>
+<category><pattern>CARNIVAL PLAYS</pattern>
+<template><srai>PLAYS</srai></template></category>
+<category><pattern>CHILDREN'S PLAYS</pattern>
+<template><srai>PLAYS</srai></template></category>
+<category><pattern>CHRISTMAS PLAYS</pattern>
+<template><srai>PLAYS</srai></template></category>
+<category><pattern>DETECTIVE PLAYS</pattern>
+<template><srai>PLAYS</srai></template></category>
+<category><pattern>MYSTERY PLAYS</pattern>
+<template><srai>PLAYS</srai></template></category>
+<category><pattern>FAIRY PLAYS</pattern>
+<template><srai>PLAYS</srai></template></category>
+<category><pattern>GHOST PLAYS</pattern>
+<template><srai>PLAYS</srai></template></category>
+<category><pattern>HORROR PLAYS</pattern>
+<template><srai>PLAYS</srai></template></category>
+<category><pattern>MONOLOGUE</pattern>
+<template><srai>PLAYS</srai></template></category>
+<category><pattern>MYSTERIES</pattern>
+<template><srai>PLAYS</srai></template></category>
+<category><pattern>MIRACLE PLAYS</pattern>
+<template><srai>PLAYS</srai></template></category>
+<category><pattern>ONE ACT PLAYS</pattern>
+<template><srai>PLAYS</srai></template></category>
+<category><pattern>PASSION PLAYS</pattern>
+<template><srai>PLAYS</srai></template></category>
+<category><pattern>POLITICAL PLAYS</pattern>
+<template><srai>PLAYS</srai></template></category>
+<category><pattern>PROLOGUES</pattern>
+<template><srai>PLAYS</srai></template></category>
+<category><pattern>EPILOGUES</pattern>
+<template><srai>PLAYS</srai></template></category>
+<category><pattern>PUPPET PLAYS</pattern>
+<template><srai>PLAYS</srai></template></category>
+<category><pattern>RADIO PLAYS</pattern>
+<template><srai>PLAYS</srai></template></category>
+<category><pattern>SCIENCE FICTION PLAYS</pattern>
+<template><srai>PLAYS</srai></template></category>
+<category><pattern>STAGE ADAPTATIONS</pattern>
+<template><srai>PLAYS</srai></template></category>
+<category><pattern>TELEVISION PLAYS</pattern>
+<template><srai>PLAYS</srai></template></category>
+
+<category><pattern>MOTION PICTURE PLAYS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/113654" target="_blank">Play Index</a> and the 
+			<a href=" http://uclibs.org/PID/31080" target="_blank">International Index to the Performing Arts Full Text</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/drama" target="_blank">Drama Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>OPERA</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16255" target="_blank">RILM: Abstracts of Musical Literature</a> 
+			and <a href=" http://uclibs.org/PID/113654" target="_blank">Play Index</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/drama" target="_blank">Drama Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>MOTION PICTURE ACTING</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with the <a href=" http://uclibs.org/PID/31080" target="_blank">International Index to the Performing 
+			Arts Full Text</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/drama" target="_blank">Drama Research Guide</a> and if you are not 
+			finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>MOVEMENT ACTING</pattern>
+<template><srai>MOTION PICTURE ACTING</srai></template></category>
+<category><pattern>WOMEN IN DRAMA</pattern>
+<template><srai>MOTION PICTURE ACTING</srai></template></category>
+<category><pattern>THEATER</pattern>
+<template><srai>MOTION PICTURE ACTING</srai></template></category>
+
+</aiml>
+
+
+

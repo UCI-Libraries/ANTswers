@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- LATIN AMERICAN STUDIES -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>LATIN AMERICAN STUDIES *</pattern>
+	<template><think><set name="topic">latin american studies</set></think><sr /></template></category>
+
+<category><pattern>LATIN AMERICAN STUDIES</pattern>	
+	<template>For resources on latin american studies check out the <a href=" http://guides.lib.uci.edu/latinamerican" target="_blank">Latin American Studies Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+	<category><pattern>MEXICAN SOURCES</pattern>
+	<template><srai>LATIN AMERICAN STUDIES</srai></template></category>
+	<category><pattern>* MEXICAN SOURCES</pattern>
+	<template><srai>LATIN AMERICAN STUDIES</srai></template></category>
+	<category><pattern>MEXICAN SOURCES *</pattern>
+	<template><srai>LATIN AMERICAN STUDIES</srai></template></category>
+	<category><pattern>* MEXICAN SOURCES *</pattern>
+	<template><srai>LATIN AMERICAN STUDIES</srai></template></category>
+
+<category><pattern>LATIN AMERICAN FICTION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/83591" target="_blank">MLA international bibliography</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/latinamerican" target="_blank">Latin American Studies Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>CHILEAN POETRY</pattern>
+<template><srai>LATIN AMERICAN FICTION</srai></template></category>
+<category><pattern>SALVADORAN FICTION</pattern>
+<template><srai>LATIN AMERICAN FICTION</srai></template></category>
+<category><pattern>SPAIN LITERATURE</pattern>
+<template><srai>LATIN AMERICAN FICTION</srai></template></category>
+	
+<category><pattern>CUBA AND PERU</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://www.europaworld.com/" target="_blank">Europa World Plus</a> 
+			and/or <a href=" http://uclibs.org/PID/12775" target="_blank">Historical Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/latinamerican" target="_blank">Latin American Studies Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>CUBA</pattern>
+<template><srai>CUBA AND PERU</srai></template></category>
+<category><pattern>HISTORY OF CUBA</pattern>
+<template><srai>CUBA AND PERU</srai></template></category>
+<category><pattern>PERU</pattern>
+<template><srai>CUBA AND PERU</srai></template></category>
+<category><pattern>SOCIAL CONDITIONS IN PERU</pattern>
+<template><srai>CUBA AND PERU</srai></template></category>
+<category><pattern>LATIN AMERICA</pattern>
+<template><srai>CUBA AND PERU</srai></template></category>
+<category><pattern>HISTORY OF LATIN AMERICA</pattern>
+<template><srai>CUBA AND PERU</srai></template></category>
+<category><pattern>SPAIN</pattern>
+<template><srai>CUBA AND PERU</srai></template></category>
+	
+<category><pattern>BRAZILIAN COOKING</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> 
+			and/or <a href=" http://uclibs.org/PID/12775" target="_blank">Historical Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/latinamerican" target="_blank">Latin American Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>MEXICAN ART</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/33002" target="_blank">Art Full Text</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/latinamerican" target="_blank">Latin American Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>ECONOMIC CONDITIONS IN LATIN AMERICA</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://www.europaworld.com/" target="_blank">Europa World Plus</a> 
+			and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/latinamerican" target="_blank">Latin American Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>POLITICS IN LATIN AMERICA</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://www.europaworld.com/" target="_blank">Europa World Plus</a> 
+			and/or <a href=" http://uclibs.org/PID/113595" target="_blank">Worldwide Political Science Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/latinamerican" target="_blank">Latin American Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	<category><pattern>GOVERNMENT IN LATIN AMERICA</pattern>
+	<template><srai>POLITICS IN LATIN AMERICA</srai></template></category>
+
+<category><pattern>POPULAR MUSIC IN DOMINCAN REPUBLIC</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://glnd.alexanderstreet.com/" target="_blank">Garland Encyclopedia of World Music</a> 
+			and/or <a href=" http://uclibs.org/PID/132284" target="_blank">Oxford Music Online</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/latinamerican" target="_blank">Latin American Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>LATIN AMERICAN CULTURE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12775" target="_blank">Historical Abstracts</a> 
+			and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/latinamerican" target="_blank">Latin American Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>LATIN AMERICA CIVILIZATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12775" target="_blank">Historical Abstracts</a> 
+			and/or <a href=" http://www.europaworld.com/" target="_blank">Europa World Plus</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/latinamerican" target="_blank">Latin American Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>LATIN AMERICAN STUDIES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12775" target="_blank">Historical Abstracts</a> 
+			and/or <a href=" http://uclibs.org/PID/113595" target="_blank">Worldwide Political Science Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/latinamerican" target="_blank">Latin American Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>ARGENTINE DRAMA</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://search.ebscohost.com/login.aspx?authtype=ip,uidandamp;profile=ehostandamp;defaultdb=ibh" target="_blank">	International Bibliography of Theatre and Dance</a> 
+			and/or <a href=" http://uclibs.org/PID/31080" target="_blank">International index to the performing arts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/latinamerican" target="_blank">Latin American Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>MEXICAN LITERATURE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/83591" target="_blank">MLA international bibliography</a> 
+			and/or <a href=" http://uclibs.org/PID/16242" target="_blank">HAPI</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/latinamerican" target="_blank">Latin American Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+	
+<category><pattern>LATIN AMERICA RELATIONS WITH THE UNITED STATES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/113595" target="_blank">Worldwide Political Science Abstracts</a> 
+			and/or <a href=" http://uclibs.org/PID/12775" target="_blank">Historical Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/latinamerican" target="_blank">Latin American Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+		
+</aiml>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- CHEMICAL ENGINEERING -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>CHEMICAL ENGINEERING *</pattern> 
+	<template><think><set name="topic">chemical engineering</set></think><sr /></template></category>
+
+<category><pattern>CHEMICAL ENGINEERING</pattern>	
+	<template>For resources on chemical engineering check out the <a href=" http://guides.lib.uci.edu/engr_chem" target="_blank">Chemical Engineering Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Interactions -->	
+
+<category><pattern>CHEMICAL ENGINEERING</pattern>
+	<that>Geothermal engineering as a subject is included in the broader subjects of Chemical Engineering and Electrical Engineering Would you like resource recommendations for chemical engineering or electrical engineering_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+	and/or <a href=" http://uclibs.org/PID/12129" target="_blank">Kirk-Othmer Encyclopedia of Chemical Technology</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/engr_chem" target="_blank">Chemical Engineering Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<!-- Subject keywords-->
+
+<category><pattern>BIOTECHNOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+			and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/engr_chem" target="_blank">Chemical Engineering Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>PROTECTIVE ATMOSPHERES</pattern>
+<template><srai>BIOTECHNOLOGY</srai></template></category>
+	
+<category><pattern>BIOCHEMICAL ENGINEERING</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+			and/or <a href=" http://uclibs.org/PID/12129" target="_blank">Kirk-Othmer Encyclopedia of Chemical Technology</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/engr_chem" target="_blank">Chemical Engineering Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>CHEMICAL PLANTS</pattern>
+<template><srai>BIOCHEMICAL ENGINEERING</srai></template></category>
+<category><pattern>CHEMICAL PROCESSES</pattern>
+<template><srai>BIOCHEMICAL ENGINEERING</srai></template></category>
+<category><pattern>GAS ENGINEERING</pattern>
+<template><srai>BIOCHEMICAL ENGINEERING</srai></template></category>
+<category><pattern>HANDLING OF ACIDS</pattern>
+<template><srai>BIOCHEMICAL ENGINEERING</srai></template></category>
+<category><pattern>LEACHING</pattern>
+<template><srai>BIOCHEMICAL ENGINEERING</srai></template></category>
+<category><pattern>MATERIALS SCIENCE</pattern>
+<template><srai>BIOCHEMICAL ENGINEERING</srai></template></category>
+<category><pattern>MIXING</pattern>
+<template><srai>BIOCHEMICAL ENGINEERING</srai></template></category>
+<category><pattern>MOLDING</pattern>
+<template><srai>BIOCHEMICAL ENGINEERING</srai></template></category>
+<category><pattern>MOLECULAR SIEVES</pattern>
+<template><srai>BIOCHEMICAL ENGINEERING</srai></template></category>
+<category><pattern>RECYCLE OPERATIONS</pattern>
+<template><srai>BIOCHEMICAL ENGINEERING</srai></template></category> 
+<category><pattern>TRANSPORTATION OF ACIDS</pattern>
+<template><srai>BIOCHEMICAL ENGINEERING</srai></template></category>
+<category><pattern>ZONE MELTING</pattern>
+<template><srai>BIOCHEMICAL ENGINEERING</srai></template></category>
+
+<category><pattern>MOTION PICTURES IN CHEMICAL ENGINEERING</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+			and/or <a href=" https://www.youtube.com/" target="_blank">YouTube</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/engr_chem" target="_blank">Chemical Engineering Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+</aiml>

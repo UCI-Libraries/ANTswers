@@ -1,0 +1,1091 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Grunigen Medical Library -->
+<!-- -->
+
+<!--General-->
+
+	<!--For directions, see lib_directions-->
+
+
+<category><pattern>GML</pattern>
+<template>What would you like to know about GML?</template></category>
+	<category><pattern>* GML</pattern>
+	<template><srai>GML</srai></template></category>
+	<category><pattern>GML *</pattern>
+	<template><srai>GML</srai></template></category>
+	<category><pattern>* GML *</pattern>
+	<template><srai>GML</srai></template></category>
+	
+
+<!--Databases (Resources Tab)-->
+	<!--For databases, see lib_databases for standardized format-->
+
+	<category><pattern>ACCESSMEDICINE</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+	<a href=" http://antpac.lib.uci.edu/record=b3272535~S5" target="_blank">AccessMedicine</a>.</template></category>
+		<category><pattern>* ACCESSMEDICINE</pattern>
+		<template><srai>ACCESSMEDICINE</srai></template></category>
+		<category><pattern>ACCESSMEDICINE *</pattern>
+		<template><srai>ACCESSMEDICINE</srai></template></category>
+		<category><pattern>* ACCESSMEDICINE *</pattern>
+		<template><srai>ACCESSMEDICINE</srai></template></category>
+		<category><pattern>ACCESS MEDICINE</pattern>
+		<template><srai>ACCESSMEDICINE</srai></template></category>
+		<category><pattern>* ACCESS MEDICINE</pattern>
+		<template><srai>ACCESSMEDICINE</srai></template></category>
+		<category><pattern>ACCESS MEDICINE *</pattern>
+		<template><srai>ACCESSMEDICINE</srai></template></category>
+		<category><pattern>* ACCESS MEDICINE *</pattern>
+		<template><srai>ACCESSMEDICINE</srai></template></category>
+		
+		<category><pattern>ACCESSMEDICINE ON IPAD</pattern>
+		<template>The AccessMedicine case files and videos will not work on an iPad. You must access them with a desktop or laptop.</template></category> 
+		<category><pattern>* ACCESSMEDICINE ON IPAD</pattern>
+		<template><srai>ACCESSMEDICINE ON IPAD</srai></template></category>
+		<category><pattern>ACCESSMEDICINE ON IPAD *</pattern>
+		<template><srai>ACCESSMEDICINE ON IPAD</srai></template></category>
+		<category><pattern>* ACCESSMEDICINE ON IPAD *</pattern>
+		<template><srai>ACCESSMEDICINE ON IPAD</srai></template></category>
+		<category><pattern>ACCESSMEDICINE ON * IPAD</pattern>
+		<template><srai>ACCESSMEDICINE ON IPAD</srai></template></category>
+		<category><pattern>* ACCESSMEDICINE ON * IPAD</pattern>
+		<template><srai>ACCESSMEDICINE ON IPAD</srai></template></category>
+		<category><pattern>ACCESSMEDICINE ON * IPAD *</pattern>
+		<template><srai>ACCESSMEDICINE ON IPAD</srai></template></category>
+		<category><pattern>* ACCESSMEDICINE ON * IPAD *</pattern>
+		<template><srai>ACCESSMEDICINE ON IPAD</srai></template></category>
+		
+		<category><pattern>ACCOUNT FOR ACCESSMEDICINE</pattern>
+		<template>If you have not yet created an account, click on the "Don't have a MyAccess account?" and complete the form and create a username and password.  Otherwise just enter the username and password that you created in the past.</template></category> 
+		<category><pattern>* ACCOUNT FOR ACCESSMEDICINE</pattern>
+		<template><srai>ACCOUNT FOR ACCESSMEDICINE</srai></template></category>
+		<category><pattern>ACCOUNT FOR ACCESSMEDICINE *</pattern>
+		<template><srai>ACCOUNT FOR ACCESSMEDICINE</srai></template></category>
+		<category><pattern>* ACCOUNT FOR ACCESSMEDICINE *</pattern>
+		<template><srai>ACCOUNT FOR ACCESSMEDICINE</srai></template></category>
+		<category><pattern>ACCESSMEDICINE ACCOUNT</pattern>
+		<template><srai>ACCOUNT FOR ACCESSMEDICINE</srai></template></category>
+		<category><pattern>* ACCESSMEDICINE ACCOUNT</pattern>
+		<template><srai>ACCOUNT FOR ACCESSMEDICINE</srai></template></category>
+		<category><pattern>ACCESSMEDICINE ACCOUNT *</pattern>
+		<template><srai>ACCOUNT FOR ACCESSMEDICINE</srai></template></category>
+		<category><pattern>* ACCESSMEDICINE ACCOUNT *</pattern>
+		<template><srai>ACCOUNT FOR ACCESSMEDICINE</srai></template></category>
+	
+	<category><pattern>ACCESSSCIENCE</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+	<a href=" http://antpac.lib.uci.edu/record=b3189648~S5" target="_blank">AccessScience</a>.</template></category>
+		<category><pattern>* ACCESSMEDICINE</pattern>
+		<template><srai>ACCESSSCIENCE</srai></template></category>
+		<category><pattern>ACCESSMEDICINE *</pattern>
+		<template><srai>ACCESSSCIENCE</srai></template></category>
+		<category><pattern>* ACCESSMEDICINE *</pattern>
+		<template><srai>ACCESSSCIENCE</srai></template></category>
+		<category><pattern>ACCESS SCIENCE</pattern>
+		<template><srai>ACCESSSCIENCE</srai></template></category>
+		<category><pattern>* ACCESS SCIENCE</pattern>
+		<template><srai>ACCESSSCIENCE</srai></template></category>
+		<category><pattern>ACCESS SCIENCE *</pattern>
+		<template><srai>ACCESSSCIENCE</srai></template></category>
+		<category><pattern>* ACCESS SCIENCE *</pattern>
+		<template><srai>ACCESSSCIENCE</srai></template></category>
+
+	<category><pattern>ACCESSSURGERY</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+	<a href=" http://antpac.lib.uci.edu/record=b4508445~S5" target="_blank">AccessSurgery</a>.</template></category>
+		<category><pattern>* ACCESSSURGERY</pattern>
+		<template><srai>ACCESSSURGERY</srai></template></category>
+		<category><pattern>ACCESSSURGERY *</pattern>
+		<template><srai>ACCESSSURGERY</srai></template></category>
+		<category><pattern>* ACCESSSURGERY *</pattern>
+		<template><srai>ACCESSSURGERY</srai></template></category>
+		<category><pattern>ACCESS SURGERY</pattern>
+		<template><srai>ACCESSSURGERY</srai></template></category>
+		<category><pattern>* ACCESS SURGERY</pattern>
+		<template><srai>ACCESSSURGERY</srai></template></category>
+		<category><pattern>ACCESS SURGERY *</pattern>
+		<template><srai>ACCESSSURGERY</srai></template></category>
+		<category><pattern>* ACCESS SURGERY *</pattern>
+		<template><srai>ACCESSSURGERY</srai></template></category>
+			
+	<category><pattern>ACP JOURNAL CLUB</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+	<a href=" http://antpac.lib.uci.edu/record=b3959105~S5" target="_blank">ACP Journal Club</a>.</template></category>
+		<category><pattern>* ACP JOURNAL CLUB</pattern>
+		<template><srai>ACP JOURNAL CLUB</srai></template></category>
+		<category><pattern>ACP JOURNAL CLUB *</pattern>
+		<template><srai>ACP JOURNAL CLUB</srai></template></category>
+		<category><pattern>* ACP JOURNAL CLUB *</pattern>
+		<template><srai>ACP JOURNAL CLUB</srai></template></category>	
+		
+	<category><pattern>ANATOMY TV</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+	<a href=" http://antpac.lib.uci.edu/record=b4458815~S5" target="_blank">Anatomy TV</a>.</template></category>
+		<category><pattern>* ANATOMY TV</pattern>
+		<template><srai>ANATOMY TV</srai></template></category>
+		<category><pattern>ANATOMY TV *</pattern>
+		<template><srai>ANATOMY TV</srai></template></category>
+		<category><pattern>* ANATOMY TV *</pattern>
+		<template><srai>ANATOMY TV</srai></template></category>	
+
+	<category><pattern>BATES VISUAL GUIDE TO PHYSICAL EXAMINATION</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+	<a href=" http://antpac.lib.uci.edu/record=b5128254~S7" target="_blank">Bates Visual Guide to Physical Examination</a>.</template></category>
+		<category><pattern>* BATES VISUAL GUIDE TO PHYSICAL EXAMINATION</pattern>
+		<template><srai>BATES VISUAL GUIDE TO PHYSICAL EXAMINATION</srai></template></category>
+		<category><pattern>BATES VISUAL GUIDE TO PHYSICAL EXAMINATION *</pattern>
+		<template><srai>BATES VISUAL GUIDE TO PHYSICAL EXAMINATION</srai></template></category>
+		<category><pattern>* BATES VISUAL GUIDE TO PHYSICAL EXAMINATION *</pattern>
+		<template><srai>BATES VISUAL GUIDE TO PHYSICAL EXAMINATION</srai></template></category>
+		<category><pattern>BATES VISUAL GUIDE</pattern>
+		<template><srai>BATES VISUAL GUIDE TO PHYSICAL EXAMINATION</srai></template></category>
+		<category><pattern>* BATES VISUAL GUIDE</pattern>
+		<template><srai>BATES VISUAL GUIDE TO PHYSICAL EXAMINATION</srai></template></category>
+		<category><pattern>BATES VISUAL GUIDE *</pattern>
+		<template><srai>BATES VISUAL GUIDE TO PHYSICAL EXAMINATION</srai></template></category>
+		<category><pattern>* BATES VISUAL GUIDE *</pattern>
+		<template><srai>BATES VISUAL GUIDE TO PHYSICAL EXAMINATION</srai></template></category>
+
+	<!--Biosis, see lib_databases-->
+		
+	<category><pattern>BIOMED CENTRAL</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+	<a href=" http://antpac.lib.uci.edu/record=b3298941~S7" target="_blank">BioMed Central</a>.</template></category>
+		<category><pattern>* BIOMED CENTRAL</pattern>
+		<template><srai>BIOMED CENTRAL</srai></template></category>
+		<category><pattern>BIOMED CENTRAL *</pattern>
+		<template><srai>BIOMED CENTRAL</srai></template></category>
+		<category><pattern>* BIOMED CENTRAL *</pattern>
+		<template><srai>BIOMED CENTRAL</srai></template></category>	
+		
+	<category><pattern>CDC WONDER</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+	<a href=" http://antpac.lib.uci.edu:80/record=b2921343~S5" target="_blank">CDC Wonder</a>.</template></category>
+		<category><pattern>* CDC WONDER</pattern>
+		<template><srai>CDC WONDER</srai></template></category>
+		<category><pattern>CDC WONDER *</pattern>
+		<template><srai>CDC WONDER</srai></template></category>
+		<category><pattern>* CDC WONDER *</pattern>
+		<template><srai>CDC WONDER</srai></template></category>
+
+	<category><pattern>CINAHL</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+	<a href=" http://antpac.lib.uci.edu/record=b3328873~S7" target="_blank">CINAHL</a>.</template></category>
+		<category><pattern>* CINAHL</pattern>
+		<template><srai>CINAHL</srai></template></category>
+		<category><pattern>CINAHL *</pattern>
+		<template><srai>CINAHL</srai></template></category>
+		<category><pattern>* CINAHL *</pattern>
+		<template><srai>CINAHL</srai></template></category>
+
+	<category><pattern>COCHRANE LIBRARY</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for  
+	<a href=" http://antpac.lib.uci.edu/record=b2818160~S7" target="_blank">Cochrane Library</a>.</template></category>
+		<category><pattern>* COCHRANE LIBRARY</pattern>
+		<template><srai>COCHRANE LIBRARY</srai></template></category>
+		<category><pattern>COCHRANE LIBRARY *</pattern>
+		<template><srai>COCHRANE LIBRARY</srai></template></category>
+		<category><pattern>* COCHRANE LIBRARY *</pattern>
+		<template><srai>COCHRANE LIBRARY</srai></template></category>
+
+	<category><pattern>CLINICALTRIALS*GOV</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+	<a href=" http://antpac.lib.uci.edu/record=b3277593~S5" target="_blank">ClinicalTrials.gove</a>.</template></category>
+		<category><pattern>CLINICALTRIALS*GOV *</pattern>
+		<template><srai>CLINICALTRIALS<star />GOV</srai></template></category>
+		<category><pattern>* CLINICALTRIALS*GOV</pattern>
+		<template><srai>CLINICALTRIALS<star />GOV</srai></template></category>
+		<category><pattern>* CLINICALTRIALS*GOV *</pattern>
+		<template><srai>CLINICALTRIALS<star />GOV</srai></template></category>
+		<category><pattern>CLINICAL TRIALS*GOV</pattern>
+		<template><srai>CLINICALTRIALS<star />GOV</srai></template></category>
+		<category><pattern>* CLINICAL TRIALS*GOV</pattern>
+		<template><srai>CLINICALTRIALS<star />GOV</srai></template></category>
+		<category><pattern>CLINICAL TRIALS*GOV *</pattern>
+		<template><srai>CLINICALTRIALS<star />GOV</srai></template></category>
+		<category><pattern>* CLINICAL TRIALS*GOV *</pattern>
+		<template><srai>CLINICALTRIALS<star />GOV</srai></template></category>
+
+	<category><pattern>MEDICAL DICTIONARIES</pattern>
+	<template>Search for medical dictionaries in the Grunigen <a href=" http://grunigen.lib.uci.edu/online-books-search.html?searchfor=dictionary" target="_blank">Online Boosk Search</a>.</template></category>
+		<category><pattern>* MEDICAL DICTIONARIES</pattern>
+		<template><srai>MEDICAL DICTIONARIES</srai></template></category>
+		<category><pattern>MEDICAL DICTIONARIES *</pattern>
+		<template><srai>MEDICAL DICTIONARIES</srai></template></category>
+		<category><pattern>* MEDICAL DICTIONARIES *</pattern>
+		<template><srai>MEDICAL DICTIONARIES</srai></template></category>
+	
+	<!--Ebooks, see lib_databases-->
+	
+	<category><pattern>ENVIRONMENT AND SAFETY LIBRARY</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for  
+	<a href=" http://antpac.lib.uci.edu/record=b4757441~S7" target="_blank">Environment and Saftey Library</a>.</template></category>
+		<category><pattern>* ENVIRONMENT AND SAFETY LIBRARY</pattern>
+		<template><srai>ENVIRONMENT AND SAFETY LIBRARY</srai></template></category>
+		<category><pattern>ENVIRONMENT AND SAFETY LIBRARY *</pattern>
+		<template><srai>ENVIRONMENT AND SAFETY LIBRARY</srai></template></category>
+		<category><pattern>* ENVIRONMENT AND SAFETY LIBRARY *</pattern>
+		<template><srai>ENVIRONMENT AND SAFETY LIBRARY</srai></template></category>	
+
+	<category><pattern>FACTS AND COMPARISONS 4*0</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+	<a href=" http://antpac.lib.uci.edu/record=b3301171~S5" target="_blank">Facts and Comparisons 4.0</a>.</template></category>
+		<category><pattern>* FACTS AND COMPARISONS 4*0</pattern>
+		<template><srai>FACTS AND COMPARISONS 4*0</srai></template></category>
+		<category><pattern>FACTS AND COMPARISONS 4*0 *</pattern>
+		<template><srai>FACTS AND COMPARISONS 4*0</srai></template></category>
+		<category><pattern>* FACTS AND COMPARISONS 4*0 *</pattern>
+		<template><srai>FACTS AND COMPARISONS 4*0</srai></template></category>	
+		<category><pattern>FACTS AND COMPARISONS</pattern>
+		<template><srai>FACTS AND COMPARISONS 4*0</srai></template></category>	
+		<category><pattern>* FACTS AND COMPARISONS</pattern>
+		<template><srai>FACTS AND COMPARISONS 4*0</srai></template></category>	
+		<category><pattern>FACTS AND COMPARISONS *</pattern>
+		<template><srai>FACTS AND COMPARISONS 4*0</srai></template></category>	
+		<category><pattern>* FACTS AND COMPARISONS *</pattern>
+		<template><srai>FACTS AND COMPARISONS 4*0</srai></template></category>	
+
+	<category><pattern>GARD</pattern>
+	<template>Search for Rare or Genetic Diseases using <a href=" http://antpac.lib.uci.edu/record=b3191657~S5" target="_blank">GARD Rare Diseases Information Center</a>.</template></category>
+		<category><pattern>* GARD</pattern>
+		<template><srai>GARD</srai></template></category>
+		<category><pattern>GARD *</pattern>
+		<template><srai>GARD</srai></template></category>
+		<category><pattern>* GARD *</pattern>
+		<template><srai>GARD</srai></template></category>
+
+	<category><pattern>GENETICS HOME REFERENCE</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+	<a href=" http://antpac.lib.uci.edu/record=b3358722~S5" target="_blank">Genetics Home Reference</a>.</template></category>
+		<category><pattern>* GENETICS HOME REFERENCE</pattern>
+		<template><srai>GENETICS HOME REFERENCE</srai></template></category>
+		<category><pattern>GENETICS HOME REFERENCE *</pattern>
+		<template><srai>GENETICS HOME REFERENCE</srai></template></category>
+		<category><pattern>* GENETICS HOME REFERENCE *</pattern>
+		<template><srai>GENETICS HOME REFERENCE</srai></template></category>
+
+	<category><pattern>GIDEON</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+	<a href=" http://antpac.lib.uci.edu/record=b3191657~S5" target="_blank">GIDEON</a>.</template></category>
+		<category><pattern>* GIDEON</pattern>
+		<template><srai>GIDEON</srai></template></category>
+		<category><pattern>GIDEON *</pattern>
+		<template><srai>GIDEON</srai></template></category>
+		<category><pattern>* GIDEON *</pattern>
+		<template><srai>GIDEON</srai></template></category>
+
+	<category><pattern>GLOBAL HEALTH</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+	<a href=" http://antpac.lib.uci.edu/record=b4842023~S5" target="_blank">Global Health</a>.</template></category>
+		<category><pattern>* GLOBAL HEALTH</pattern>
+		<template><srai>GLOBAL HEALTH</srai></template></category>
+		<category><pattern>GLOBAL HEALTH *</pattern>
+		<template><srai>GLOBAL HEALTH</srai></template></category>
+		<category><pattern>* GLOBAL HEALTH *</pattern>
+		<template><srai>GLOBAL HEALTH</srai></template></category>
+			
+	<!--Google Scholar, see lib_datbases-->
+	<!--Journal Citation Reports, see lib_databases-->
+
+	<category><pattern>LAB TRAINING LIBRARY</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+	<a href=" http://antpac.lib.uci.edu/record=b3050051~S5" target="_blank">Lab Training Library</a>.</template></category>
+		<category><pattern>* LAB TRAINING LIBRARY</pattern>
+		<template><srai>LAB TRAINING LIBRARY</srai></template></category>
+		<category><pattern>LAB TRAINING LIBRARY *</pattern>
+		<template><srai>LAB TRAINING LIBRARY</srai></template></category>
+		<category><pattern>* LAB TRAINING LIBRARY *</pattern>
+		<template><srai>LAB TRAINING LIBRARY</srai></template></category>
+		
+	<category><pattern>MD CONSULT</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+	<a href=" http://antpac.lib.uci.edu/record=b3943279~S5" target="_blank">MD Consult</a>.</template></category>
+		<category><pattern>* MD CONSULT</pattern>
+		<template><srai>MD CONSULT</srai></template></category>
+		<category><pattern>MD CONSULT *</pattern>
+		<template><srai>MD CONSULT</srai></template></category>
+		<category><pattern>* MD CONSULT *</pattern>
+		<template><srai>MD CONSULT</srai></template></category>	
+
+	<category><pattern>MEDICAL LETTER</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+	<a href=" http://antpac.lib.uci.edu/record=b1823205~S5" target="_blank">Medical Letter</a>.</template></category>
+		<category><pattern>* MEDICAL LETTER</pattern>
+		<template><srai>MEDICAL LETTER</srai></template></category>
+		<category><pattern>MEDICAL LETTER *</pattern>
+		<template><srai>MEDICAL LETTER</srai></template></category>
+		<category><pattern>* MEDICAL LETTER *</pattern>
+		<template><srai>MEDICAL LETTER</srai></template></category>
+		
+	<category><pattern>MEDLINEPLUS</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+	<a href=" http://antpac.lib.uci.edu/record=b3110579~S7" target="_blank">MedlinePlus</a>.</template></category>
+		<category><pattern>* MEDLINEPLUS</pattern>
+		<template><srai>MEDLINEPLUS</srai></template></category>
+		<category><pattern>MEDLINEPLUS *</pattern>
+		<template><srai>MEDLINEPLUS</srai></template></category>
+		<category><pattern>* MEDLINEPLUS *</pattern>
+		<template><srai>MEDLINEPLUS</srai></template></category>
+		
+	<category><pattern>MEDPIX</pattern>
+	<template> <a href=" http://grunigen.lib.uci.edu/core-resources" target="_blank">MedPix</a> is listed on the Grunigen Medical Library list of Core Resources.</template></category>
+		<category><pattern>* MEDPIX</pattern>
+		<template><srai>MEDPIX</srai></template></category>
+		<category><pattern>MEDPIX *</pattern>
+		<template><srai>MEDPIX</srai></template></category>
+		<category><pattern>* MEDPIX *</pattern>
+		<template><srai>MEDPIX</srai></template></category>
+
+	<category><pattern>MEDSCAPE</pattern>
+	<template> <a href=" http://grunigen.lib.uci.edu/core-resources" target="_blank">Medscape</a> is listed on the Grunigen Medical Library list of Core Resources.</template></category>
+		<category><pattern>* MEDSCAPE</pattern>
+		<template><srai>MEDSCAPE</srai></template></category>
+		<category><pattern>MEDSCAPE *</pattern>
+		<template><srai>MEDSCAPE</srai></template></category>
+		<category><pattern>* MEDSCAPE *</pattern>
+		<template><srai>MEDSCAPE</srai></template></category>
+
+	<category><pattern>MICROMEDEX</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+	<a href=" http://antpac.lib.uci.edu:80/record=b2907729~S5" target="_blank">Micromedex</a>.</template></category>
+		<category><pattern>* MICROMEDEX</pattern>
+		<template><srai>MICROMEDEX</srai></template></category>
+		<category><pattern>MICROMEDEX *</pattern>
+		<template><srai>MICROMEDEX</srai></template></category>
+		<category><pattern>* MICROMEDEX *</pattern>
+		<template><srai>MICROMEDEX</srai></template></category>
+
+	<!--MYiLibrary, see lib_databases-->
+
+	<category><pattern>NATIONAL GUIDELINE CLEARINGHOUSE</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for the 
+	<a href=" http://antpac.lib.uci.edu/record=b3181367~S5" target="_blank">National Guideline Clearinghouse</a>.</template></category>
+		<category><pattern>* NATIONAL GUIDELINE CLEARINGHOUSE</pattern>
+		<template><srai>NATIONAL GUIDELINE CLEARINGHOUSE</srai></template></category>
+		<category><pattern>NATIONAL GUIDELINE CLEARINGHOUSE *</pattern>
+		<template><srai>NATIONAL GUIDELINE CLEARINGHOUSE</srai></template></category>
+		<category><pattern>* NATIONAL GUIDELINE CLEARINGHOUSE *</pattern>
+		<template><srai>NATIONAL GUIDELINE CLEARINGHOUSE</srai></template></category>
+
+	<category><pattern>NATURAL MEDICINES</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for the 
+	<a href=" http://antpac.lib.uci.edu/record=b3206736~S5" target="_blank">Natural Medicines</a>.</template></category>
+		<category><pattern>* NATURAL MEDICINES</pattern>
+		<template><srai>NATURAL MEDICINES</srai></template></category>
+		<category><pattern>NATURAL MEDICINES *</pattern>
+		<template><srai>NATURAL MEDICINES</srai></template></category>
+		<category><pattern>* NATURAL MEDICINES *</pattern>
+		<template><srai>NATURAL MEDICINES</srai></template></category>		
+			
+	<category><pattern>NATURAL STANDARD</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for the 
+	<a href=" http://antpac.lib.uci.edu/record=b3101624~S5" target="_blank">Natural Standard</a>.</template></category>
+		<category><pattern>* NATURAL STANDARD</pattern>
+		<template><srai>NATURAL STANDARD</srai></template></category>
+		<category><pattern>NATURAL STANDARD *</pattern>
+		<template><srai>NATURAL STANDARD</srai></template></category>
+		<category><pattern>* NATURAL STANDARD *</pattern>
+		<template><srai>NATURAL STANDARD</srai></template></category>		
+
+	<category><pattern>NLM DRUG INFORMATION PORTAL</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for the 
+	<a href=" http://antpac.lib.uci.edu/record=b3879523~S5" target="_blank">NLM Drug Information Portal</a>.</template></category>
+		<category><pattern>* NLM DRUG INFORMATION PORTAL</pattern>
+		<template><srai>NLM DRUG INFORMATION PORTAL</srai></template></category>
+		<category><pattern>NLM DRUG INFORMATION PORTAL *</pattern>
+		<template><srai>NLM DRUG INFORMATION PORTAL</srai></template></category>
+		<category><pattern>* NLM DRUG INFORMATION PORTAL *</pattern>
+		<template><srai>NLM DRUG INFORMATION PORTAL</srai></template></category>
+		<category><pattern>NLM * PORTAL</pattern>
+		<template><srai>NLM DRUG INFORMATION PORTAL</srai></template></category>
+		<category><pattern>* NLM * PORTAL</pattern>
+		<template><srai>NLM DRUG INFORMATION PORTAL</srai></template></category>
+		<category><pattern>NLM * PORTAL *</pattern>
+		<template><srai>NLM DRUG INFORMATION PORTAL</srai></template></category>
+		<category><pattern>* NLM * PORTAL *</pattern>
+		<template><srai>NLM DRUG INFORMATION PORTAL</srai></template></category>
+
+	<category><pattern>NLM GATEWAY</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for the 
+	<a href=" http://antpac.lib.uci.edu/record=b3285831~S5" target="_blank">NLM Gateway</a>.</template></category>
+		<category><pattern>* NLM GATEWAY</pattern>
+		<template><srai>NLM GATEWAY</srai></template></category>
+		<category><pattern>NLM GATEWAY *</pattern>
+		<template><srai>NLM GATEWAY</srai></template></category>
+		<category><pattern>* NLM GATEWAY *</pattern>
+		<template><srai>NLM GATEWAY</srai></template></category>
+
+	<category><pattern>NURSING CONSULT</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for the 
+	<a href=" http://antpac.lib.uci.edu/record=b3497427~S5" target="_blank">Nursing Consult</a>.</template></category>
+		<category><pattern>* NURSING CONSULT</pattern>
+		<template><srai>NURSING CONSULT</srai></template></category>
+		<category><pattern>NURSING CONSULT *</pattern>
+		<template><srai>NURSING CONSULT</srai></template></category>
+		<category><pattern>* NURSING CONSULT *</pattern>
+		<template><srai>NURSING CONSULT</srai></template></category>
+
+	<category><pattern>PHARMACIST*S LETTER</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+	<a href=" http://antpac.lib.uci.edu/record=b3715251~S5" target="_blank">Pharmacist's Letter</a>.</template></category>
+		<category><pattern>* PHARMACIST*S LETTER</pattern>
+		<template><srai>PHARMACIST<star />S LETTER</srai></template></category>
+		<category><pattern>PHARMACIST*S LETTER *</pattern>
+		<template><srai>PHARMACIST<star />S LETTER</srai></template></category>
+		<category><pattern>* PHARMACIST*S LETTER *</pattern>
+		<template><srai>PHARMACIST<star />S LETTER</srai></template></category>
+		<category><pattern>PHARMACISTS LETTER</pattern>
+		<template><srai>PHARMACIST<star />S LETTER</srai></template></category>
+		<category><pattern>* PHARMACISTS LETTER</pattern>
+		<template><srai>PHARMACIST<star />S LETTER</srai></template></category>
+		<category><pattern>PHARMACISTS LETTER *</pattern>
+		<template><srai>PHARMACIST<star />S LETTER</srai></template></category>
+		<category><pattern>* PHARMACISTS LETTER *</pattern>
+		<template><srai>PHARMACIST<star />S LETTER</srai></template></category>		
+
+	<category><pattern>PLOS ONE</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+	<a href=" http://antpac.lib.uci.edu/record=b3814031~S5" target="_blank">PLoS One</a>.</template></category>
+		<category><pattern>* PLOS ONE</pattern>
+		<template><srai>PLOS ONE</srai></template></category>
+		<category><pattern>PLOS ONE *</pattern>
+		<template><srai>PLOS ONE</srai></template></category>
+		<category><pattern>* PLOS ONE *</pattern>
+		<template><srai>PLOS ONE</srai></template></category>
+
+	<category><pattern>PSYCHIATRY ONLINE</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+	<a href=" http://antpac.lib.uci.edu/record=b3713207~S5" target="_blank">Psychiatry Online</a>.</template></category>
+		<category><pattern>* PSYCHIATRY ONLINE</pattern>
+		<template><srai>PSYCHIATRY ONLINE</srai></template></category>
+		<category><pattern>PSYCHIATRY ONLINE *</pattern>
+		<template><srai>PSYCHIATRY ONLINE</srai></template></category>
+		<category><pattern>* PSYCHIATRY ONLINE *</pattern>
+		<template><srai>PSYCHIATRY ONLINE</srai></template></category>
+		
+	<!--Psychinfo, see lib_databases-->
+
+	<!--PubMed, see lib_databases-->
+
+	<category><pattern>PUBMED DIETARY SUPPLEMENT</pattern>
+	<template>Here is the link for the <a href=" http://ods.od.nih.gov/Research/PubMed_Dietary_Supplement_Subset.aspx" target="_blank">PubMed Dietary Supplement</a>.</template></category>
+		<category><pattern>* PUBMED DIETARY SUPPLEMENT</pattern>
+		<template><srai>PUBMED DIETARY SUPPLEMENT</srai></template></category>
+		<category><pattern>PUBMED DIETARY SUPPLEMENT *</pattern>
+		<template><srai>PUBMED DIETARY SUPPLEMENT</srai></template></category>
+		<category><pattern>* PUBMED DIETARY SUPPLEMENT *</pattern>
+		<template><srai>PUBMED DIETARY SUPPLEMENT</srai></template></category>
+
+	<!--Scopus, see lib_databases-->
+
+	<!--StatRef, see lib_databases-->
+
+	<category><pattern>STAT*REF NURSING</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+	<a href=" http://antpac.lib.uci.edu:80/record=b3543570~S7" target="_blank">Stat!Ref Nursing</a>.</template></category>
+		<category><pattern>* STAT*REF NURSING</pattern>
+		<template><srai>STAT*REF NURSING</srai></template></category>
+		<category><pattern>STAT*REF NURSING *</pattern>
+		<template><srai>STAT*REF NURSING</srai></template></category>
+		<category><pattern>* STAT*REF NURSING *</pattern>
+		<template><srai>STAT*REF NURSING</srai></template></category>
+	
+	<category><pattern>THIEME</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+	<a href=" http://antpac.lib.uci.edu/record=b3716462~S5" target="_blank">Thieme Electronic Book Library</a>.</template></category>
+		<category><pattern>* THIEME</pattern>
+		<template><srai>THIEME</srai></template></category>
+		<category><pattern>THIEME *</pattern>
+		<template><srai>THIEME</srai></template></category>
+		<category><pattern>* THIEME *</pattern>
+		<template><srai>THIEME</srai></template></category>
+
+	<category><pattern>TRIP PLUS</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+	<a href=" http://antpac.lib.uci.edu/record=b3191803~S5" target="_blank">Trip Plus</a>.</template></category>
+		<category><pattern>* TRIP PLUS</pattern>
+		<template><srai>TRIP PLUS</srai></template></category>
+		<category><pattern>TRIP PLUS *</pattern>
+		<template><srai>TRIP PLUS</srai></template></category>
+		<category><pattern>* TRIP PLUS *</pattern>
+		<template><srai>TRIP PLUS</srai></template></category>
+
+	<category><pattern>UPTODATE</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+	<a href=" http://antpac.lib.uci.edu/record=b2897689~S5" target="_blank">UpToDate</a>.</template></category>
+		<category><pattern>* UPTODATE</pattern>
+		<template><srai>UPTODATE</srai></template></category>
+		<category><pattern>UPTODATE *</pattern>
+		<template><srai>UPTODATE</srai></template></category>
+		<category><pattern>* UPTODATE *</pattern>
+		<template><srai>UPTODATE</srai></template></category>
+		<category><pattern>UP TO DATE</pattern>
+		<template><srai>UPTODATE</srai></template></category>
+		<category><pattern>* UP TO DATE</pattern>
+		<template><srai>UPTODATE</srai></template></category>
+		<category><pattern>UP TO DATE *</pattern>
+		<template><srai>UPTODATE</srai></template></category>
+		<category><pattern>* UP TO DATE *</pattern>
+		<template><srai>UPTODATE</srai></template></category>
+
+	<category><pattern>VISUALDX</pattern>
+	<template>Online Resources can be found by searching ANTPAC and limiting to Online/Internet Resources.  Here is the ANTPAC record for 
+	<a href=" http://antpac.lib.uci.edu/record=b4470522~S5" target="_blank">VisualDX</a>.</template></category>
+		<category><pattern>* VISUALDX</pattern>
+		<template><srai>VISUALDX</srai></template></category>
+		<category><pattern>VISUALDX *</pattern>
+		<template><srai>VISUALDX</srai></template></category>
+		<category><pattern>* VISUALDX *</pattern>
+		<template><srai>VISUALDX</srai></template></category>
+		<category><pattern>VISUAL DX</pattern>
+		<template><srai>VISUALDX</srai></template></category>
+		<category><pattern>* VISUAL DX</pattern>
+		<template><srai>VISUALDX</srai></template></category>
+		<category><pattern>VISUAL DX *</pattern>
+		<template><srai>VISUALDX</srai></template></category>
+		<category><pattern>* VISUAL DX *</pattern>
+		<template><srai>VISUALDX</srai></template></category>	
+
+	<category><pattern>VISUALDX MOBILE APP DOWNLOAD</pattern>
+	<template>Take a look at the <a href=" http://guides.lib.uci.edu/pda" target="_blank">Mobile Resources in Medicine</a> home tab for the section on VisualDX.</template></category>
+		<category><pattern>* VISUALDX MOBILE APP DOWNLOAD</pattern>
+		<template><srai>VISUALDX MOBILE APP DOWNLOAD</srai></template></category>
+		<category><pattern>VISUALDX MOBILE APP DOWNLOAD *</pattern>
+		<template><srai>VISUALDX MOBILE APP DOWNLOAD</srai></template></category>
+		<category><pattern>* VISUALDX MOBILE APP DOWNLOAD *</pattern>
+		<template><srai>VISUALDX MOBILE APP DOWNLOAD</srai></template></category>
+		<category><pattern>VISUALDX MOBILE DOWNLOAD</pattern>
+		<template><srai>VISUALDX MOBILE APP DOWNLOAD</srai></template></category>
+		<category><pattern>* VISUALDX MOBILE DOWNLOAD</pattern>
+		<template><srai>VISUALDX MOBILE APP DOWNLOAD</srai></template></category>
+		<category><pattern>VISUALDX MOBILE DOWNLOAD *</pattern>
+		<template><srai>VISUALDX MOBILE APP DOWNLOAD</srai></template></category>
+		<category><pattern>* VISUALDX MOBILE DOWNLOAD *</pattern>
+		<template><srai>VISUALDX MOBILE APP DOWNLOAD</srai></template></category>
+
+	<!--Wed of Science, see lib_databases-->
+
+<!--LibGuides (Resources Tab)-->
+	<!--For LibGuides, see lib_guides for standardized format-->
+	
+	<category><pattern>COMPLIMENTARY AND ALTERNATIVE MEDICINE</pattern>
+	<template>Check out our <a href=" http://guides.lib.uci.edu/ebcam" target="_blank">Complimentary and Alternative Medicine (CAM) Libguide</a>.</template></category>
+		<category><pattern>* COMPLIMENTARY AND ALTERNATIVE MEDICINE</pattern>
+		<template><srai>COMPLIMENTARY AND ALTERNATIVE MEDICINE</srai></template></category>
+		<category><pattern>COMPLIMENTARY AND ALTERNATIVE MEDICINE *</pattern>
+		<template><srai>COMPLIMENTARY AND ALTERNATIVE MEDICINE</srai></template></category>
+		<category><pattern>* COMPLIMENTARY AND ALTERNATIVE MEDICINE *</pattern>
+		<template><srai>COMPLIMENTARY AND ALTERNATIVE MEDICINE</srai></template></category>
+		<category><pattern>CAM</pattern>
+		<template><srai>COMPLIMENTARY AND ALTERNATIVE MEDICINE</srai></template></category>
+		<category><pattern>* CAM</pattern>
+		<template><srai>COMPLIMENTARY AND ALTERNATIVE MEDICINE</srai></template></category>
+		<category><pattern>CAM *</pattern>
+		<template><srai>COMPLIMENTARY AND ALTERNATIVE MEDICINE</srai></template></category>
+		<category><pattern>* CAM *</pattern>
+		<template><srai>COMPLIMENTARY AND ALTERNATIVE MEDICINE</srai></template></category>
+		<category><pattern>COMPLIMENTARY MEDICINE</pattern>
+		<template><srai>COMPLIMENTARY AND ALTERNATIVE MEDICINE</srai></template></category>
+		<category><pattern>* COMPLIMENTARY MEDICINE</pattern>
+		<template><srai>COMPLIMENTARY AND ALTERNATIVE MEDICINE</srai></template></category>
+		<category><pattern>COMPLIMENTARY MEDICINE *</pattern>
+		<template><srai>COMPLIMENTARY AND ALTERNATIVE MEDICINE</srai></template></category>
+		<category><pattern>* COMPLIMENTARY MEDICINE *</pattern>
+		<template><srai>COMPLIMENTARY AND ALTERNATIVE MEDICINE</srai></template></category>
+		<category><pattern>ALTERNATIVE MEDICINE</pattern>
+		<template><srai>COMPLIMENTARY AND ALTERNATIVE MEDICINE</srai></template></category>
+		<category><pattern>* ALTERNATIVE MEDICINE</pattern>
+		<template><srai>COMPLIMENTARY AND ALTERNATIVE MEDICINE</srai></template></category>
+		<category><pattern>ALTERNATIVE MEDICINE *</pattern>
+		<template><srai>COMPLIMENTARY AND ALTERNATIVE MEDICINE</srai></template></category>
+		<category><pattern>* ALTERNATIVE MEDICINE *</pattern>
+		<template><srai>COMPLIMENTARY AND ALTERNATIVE MEDICINE</srai></template></category>
+
+	<category><pattern>CLINICIANS TOOLKIT</pattern>
+	<template>Check out our <a href=" http://guides.lib.uci.edu/clinicianstoolkit" target="_blank">Clinician's Toolkit Libguide</a>.</template></category>
+		<category><pattern>* CLINICIANS TOOLKIT</pattern>
+		<template><srai>CLINICIANS TOOLKIT</srai></template></category>
+		<category><pattern>CLINICIANS TOOLKIT *</pattern>
+		<template><srai>CLINICIANS TOOLKIT</srai></template></category>
+		<category><pattern>* CLINICIANS TOOLKIT *</pattern>
+		<template><srai>CLINICIANS TOOLKIT</srai></template></category>
+		
+	<category><pattern>CONSUMER HEALTH</pattern>
+		<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>Check out our <a href=" http://guides.lib.uci.edu/consumerhealth" target="_blank">Consumer Health Libguide</a>.</li></condition></template></category>
+		<category><pattern>* CONSUMER HEALTH</pattern>
+		<template><srai>CONSUMER HEALTH</srai></template></category>
+		<category><pattern>CONSUMER HEALTH *</pattern>
+		<template><srai>CONSUMER HEALTH</srai></template></category>
+		<category><pattern>* CONSUMER HEALTH *</pattern>
+		<template><srai>CONSUMER HEALTH</srai></template></category>
+
+	<category><pattern>EVIDENCE BASED MEDICINE</pattern>
+	<template>Check out our <a href=" http://guides.lib.uci.edu/ebm" target="_blank">Evidence-Based Medicine LibGuide</a>.</template></category>
+		<category><pattern>* EVIDENCE BASED MEDICINE</pattern>
+		<template><srai>EVIDENCE BASED MEDICINE</srai></template></category>
+		<category><pattern>EVIDENCE BASED MEDICINE *</pattern>
+		<template><srai>EVIDENCE BASED MEDICINE</srai></template></category>
+		<category><pattern>* EVIDENCE BASED MEDICINE *</pattern>
+		<template><srai>EVIDENCE BASED MEDICINE</srai></template></category>
+
+	<category><pattern>MEDICAL STUDENT COURSE GUIDE</pattern>
+	<template>Check out our <a href=" http://guides.lib.uci.edu/MS_courseguide" target="_blank">Medical Student Course Guide</a>.</template></category>
+		<category><pattern>* MEDICAL STUDENT COURSE GUIDE</pattern>
+		<template><srai>MEDICAL STUDENT COURSE GUIDE</srai></template></category>
+		<category><pattern>MEDICAL STUDENT COURSE GUIDE *</pattern>
+		<template><srai>MEDICAL STUDENT COURSE GUIDE</srai></template></category>
+		<category><pattern>* MEDICAL STUDENT COURSE GUIDE *</pattern>
+		<template><srai>MEDICAL STUDENT COURSE GUIDE</srai></template></category>
+		
+	<category><pattern>MOBILE RESOURCES IN MEDICINE</pattern>
+	<template>Check out our <a href=" http://guides.lib.uci.edu/pda" target="_blank">Mobile Resources in Medicine LibGuide</a>.</template></category>
+		<category><pattern>* MOBILE RESOURCES IN MEDICINE</pattern>
+		<template><srai>MOBILE RESOURCES IN MEDICINE</srai></template></category>
+		<category><pattern>MOBILE RESOURCES IN MEDICINE *</pattern>
+		<template><srai>MOBILE RESOURCES IN MEDICINE</srai></template></category>
+		<category><pattern>* MOBILE RESOURCES IN MEDICINE *</pattern>
+		<template><srai>MOBILE RESOURCES IN MEDICINE</srai></template></category>
+		<category><pattern>MEDICINE MOBILE RESOURCES</pattern>
+		<template><srai>MOBILE RESOURCES IN MEDICINE</srai></template></category>
+		<category><pattern>* MEDICINE MOBILE RESOURCES</pattern>
+		<template><srai>MOBILE RESOURCES IN MEDICINE</srai></template></category>
+		<category><pattern>MEDICINE MOBILE RESOURCES *</pattern>
+		<template><srai>MOBILE RESOURCES IN MEDICINE</srai></template></category>
+		<category><pattern>* MEDICINE MOBILE RESOURCES *</pattern>
+		<template><srai>MOBILE RESOURCES IN MEDICINE</srai></template></category>
+		<category><pattern>MEDICAL MOBILE RESOURCES</pattern>
+		<template><srai>MOBILE RESOURCES IN MEDICINE</srai></template></category>
+		<category><pattern>* MEDICAL MOBILE RESOURCES</pattern>
+		<template><srai>MOBILE RESOURCES IN MEDICINE</srai></template></category>
+		<category><pattern>MEDICAL MOBILE RESOURCES *</pattern>
+		<template><srai>MOBILE RESOURCES IN MEDICINE</srai></template></category>
+		<category><pattern>* MEDICAL MOBILE RESOURCES *</pattern>
+		<template><srai>MOBILE RESOURCES IN MEDICINE</srai></template></category>
+		<category><pattern>MEDICAL MOBILE APPS</pattern>
+		<template><srai>MOBILE RESOURCES IN MEDICINE</srai></template></category>
+		<category><pattern>* MEDICAL MOBILE APPS</pattern>
+		<template><srai>MOBILE RESOURCES IN MEDICINE</srai></template></category>
+		<category><pattern>MEDICAL MOBILE APPS *</pattern>
+		<template><srai>MOBILE RESOURCES IN MEDICINE</srai></template></category>
+		<category><pattern>* MEDICAL MOBILE APPS *</pattern>
+		<template><srai>MOBILE RESOURCES IN MEDICINE</srai></template></category>
+		<category><pattern>MOBILE RESOURCES FOR MEDICINE</pattern>
+		<template><srai>MOBILE RESOURCES IN MEDICINE</srai></template></category>
+		<category><pattern>* MOBILE RESOURCES FOR MEDICINE</pattern>
+		<template><srai>MOBILE RESOURCES IN MEDICINE</srai></template></category>
+		<category><pattern>MOBILE RESOURCES FOR MEDICINE *</pattern>
+		<template><srai>MOBILE RESOURCES IN MEDICINE</srai></template></category>
+		<category><pattern>* MOBILE RESOURCES FOR MEDICINE *</pattern>
+		<template><srai>MOBILE RESOURCES IN MEDICINE</srai></template></category>
+	
+		<category><pattern>SPECIALTY BOARD MAINTENANCE OF CREDENTIALS</pattern>
+		<template>Check out our <a href=" http://guides.lib.uci.edu/moc" target="_blank">Specialty Board Maintenance of Credentials LibGuide</a>.</template></category>
+		
+	<!--Anesthesiology, Medicine, Nursing, Urology; see subject files-->
+		
+<!--Hours-->
+
+	<!--For hours, see lib_hours-->
+
+<!--Services-->
+
+
+<category><pattern>TRANSFER TO GML</pattern>
+<template>Do you need to transfer a book/media or a journal/article?</template></category>
+	<category><pattern>* TRANSFER TO GML</pattern>
+	<template><srai>TRANSFER TO GML</srai></template></category>
+	<category><pattern>TRANSFER TO GML *</pattern>
+	<template><srai>TRANSFER TO GML</srai></template></category>
+	<category><pattern>* TRANSFER TO GML *</pattern>
+	<template><srai>TRANSFER TO GML</srai></template></category>
+	<category><pattern>TRANSFER * FROM AYALA TO GML</pattern>
+	<template><srai>TRANSFER TO GML</srai></template></category>
+	<category><pattern>* TRANSFER * FROM AYALA TO GML</pattern>
+	<template><srai>TRANSFER TO GML</srai></template></category>
+	<category><pattern>TRANSFER * FROM AYALA TO GML *</pattern>
+	<template><srai>TRANSFER TO GML</srai></template></category>
+	<category><pattern>* TRANSFER * FROM AYALA TO GML *</pattern>
+	<template><srai>TRANSFER TO GML</srai></template></category>
+	<category><pattern>TRANSFER * FROM LANGSON TO GML</pattern>
+	<template><srai>TRANSFER TO GML</srai></template></category>
+	<category><pattern>* TRANSFER * FROM LANGSON TO GML</pattern>
+	<template><srai>TRANSFER TO GML</srai></template></category>
+	<category><pattern>TRANSFER * FROM LANGSON TO GML *</pattern>
+	<template><srai>TRANSFER TO GML</srai></template></category>
+	<category><pattern>* TRANSFER * FROM LANGSON TO GML *</pattern>
+	<template><srai>TRANSFER TO GML</srai></template></category>
+	<category><pattern>* BOOK SENT FROM THE GRUNIGEN MEDICAL LIBRARY *</pattern>
+	<template><srai>TRANSFER TO GML</srai></template></category>
+
+	<category><pattern>BOOK</pattern>
+	<that>Do you need to transfer a book media or a journal article_</that>
+	<template>Please provide as much citation information as possible when filling out the <a href=" http://www.lib.uci.edu/ill-transfer-book-request" target="_blank">ILL Transfer Book Request</a>.</template></category> 
+
+	<category><pattern>A BOOK</pattern>
+	<that>Do you need to transfer a book media or a journal article_</that>
+	<template>Please provide as much citation information as possible when filling out the <a href=" http://www.lib.uci.edu/ill-transfer-book-request" target="_blank">ILL Transfer Book Request</a>.</template></category> 
+
+	<category><pattern>MEDIA</pattern>
+	<that>Do you need to transfer a book media or a journal article_</that>
+	<template>Please provide as much citation information as possible when filling out the <a href=" http://www.lib.uci.edu/ill-transfer-book-request" target="_blank">ILL Transfer Book Request</a>.</template></category> 
+
+	<category><pattern>BOOK*MEDIA</pattern>
+	<that>Do you need to transfer a book media or a journal article_</that>
+	<template>Please provide as much citation information as possible when filling out the <a href=" http://www.lib.uci.edu/ill-transfer-book-request" target="_blank">ILL Transfer Book Request</a>.</template></category> 
+
+	<category><pattern>JOURNAL</pattern>
+	<that>Do you need to transfer a book media or a journal article_</that>
+	<template>Please provide as much citation information as possible when filling out the <a href=" http://www.lib.uci.edu/ill-transfer-article-request" target="_blank">ILL Transfer Article Request</a>.</template></category> 
+
+	<category><pattern>ARTICLE</pattern>
+	<that>Do you need to transfer a book media or a journal article_</that>
+	<template>Please provide as much citation information as possible when filling out the <a href=" http://www.lib.uci.edu/ill-transfer-article-request" target="_blank">ILL Transfer Article Request</a>.</template></category> 
+
+	<category><pattern>JOURNAL*ARTICLE</pattern>
+	<that>Do you need to transfer a book media or a journal article_</that>
+	<template>Please provide as much citation information as possible when filling out the <a href=" http://www.lib.uci.edu/ill-transfer-article-request" target="_blank">ILL Transfer Article Request</a>.</template></category> 
+
+<category><pattern>REQUEST A GML BOOK</pattern> 
+<template>Document Delivery Service (DDS) provides for the delivery of articles and books to eligible UC Irvine faculty and graduate students at the 
+UC Irvine Medical Center. A current library card is required. There is a fee for this service. Fees are recharged to participating departments. Do you need a book or an article?</template></category>
+	<category><pattern>REQUEST A BOOK * GML</pattern> 
+	<template><srai>REQUEST A GML BOOK</srai></template></category>
+	<category><pattern>* REQUEST A BOOK * GML</pattern>
+	<template><srai>REQUEST A GML BOOK</srai></template></category>
+	<category><pattern>REQUEST A BOOK * GML *</pattern>
+	<template><srai>REQUEST A GML BOOK</srai></template></category>
+	<category><pattern>* REQUEST A BOOK * GML *</pattern>
+	<template><srai>REQUEST A GML BOOK</srai></template></category>
+	<category><pattern>REQUEST AN ARTICLE * GML</pattern>
+	<template><srai>REQUEST A GML BOOK</srai></template></category>
+	<category><pattern>* REQUEST AN ARTICLE * GML</pattern>
+	<template><srai>REQUEST A GML BOOK</srai></template></category>
+	<category><pattern>REQUEST AN ARTICLE * GML *</pattern>
+	<template><srai>REQUEST A GML BOOK</srai></template></category>
+	<category><pattern>* REQUEST AN ARTICLE * GML *</pattern>
+	<template><srai>REQUEST A GML BOOK</srai></template></category>
+		
+<category><pattern>BOOK</pattern>
+<that>Document Delivery Service DDS provides for the delivery of articles and books to eligible UC Irvine faculty and graduate students at the 
+UC Irvine Medical Center A current library card is required There is a fee for this service Fees are recharged to participating departments Do you need a book or an article_</that>
+<template>Use <a href=" http://ucelinks.cdlib.org:8888/sfx_local/cgi/core/citation-linker.cgi?rft.genre=book" target="_blank">this form</a> to request a book through DDS.</template></category>
+
+<category><pattern>ARTICLE</pattern>
+<that>Document Delivery Service DDS provides for the delivery of articles and books to eligible UC Irvine faculty and graduate students at the 
+UC Irvine Medical Center A current library card is required There is a fee for this service Fees are recharged to participating departments Do you need a book or an article_</that>
+<template>Use <a href=" http://ucelinks.cdlib.org:8888/sfx_local/cgi/core/citation-linker.cgi?rft.genre=article" target="_blank">this form</a> to request an article through DDS.</template></category>
+
+<category><pattern>NOT AFFILIATED WITH UC IRVINE HOW CAN I BORROW</pattern>
+<template>Interlibrary Loans for those not affiliated with UC Irvine must be placed by their local public or hospital library.</template></category>
+	<category><pattern>NOT AFFILIATED WITH UC IRVINE HOW CAN I BORROW</pattern>
+	<template><srai>NOT AFFILIATED WITH UC IRVINE HOW CAN I BORROW</srai></template></category>
+	<category><pattern>NOT AFFILIATED WITH UC IRVINE HOW CAN I BORROW</pattern>
+	<template><srai>NOT AFFILIATED WITH UC IRVINE HOW CAN I BORROW</srai></template></category>
+	<category><pattern>NOT AFFILIATED WITH UC IRVINE HOW CAN I BORROW</pattern>
+	<template><srai>NOT AFFILIATED WITH UC IRVINE HOW CAN I BORROW</srai></template></category>
+
+<category><pattern>LOANSOME DOC</pattern>
+<template>The <a href=" http://www.nlm.nih.gov/pubs/factsheets/loansome_doc.html" target="_blank">Loansome Doc</a> service allows PubMed and NLM Gateway users to order documents found in MEDLINE. This service is for Health care professionals not affiliated with UC Irvine.</template></category>
+	<category><pattern>* LOANSOME DOC</pattern>
+	<template><srai>LOANSOME DOC</srai></template></category>
+	<category><pattern>LOANSOME DOC *</pattern>
+	<template><srai>LOANSOME DOC</srai></template></category>
+	<category><pattern>* LOANSOME DOC *</pattern>
+	<template><srai>LOANSOME DOC</srai></template></category>
+
+<category><pattern>REGISTER FOR LOANSOME DOC</pattern>
+<template><a href=" https://docline.gov/loansome/registerbegin.cfm" target="_blank">Click here to register for Loansome Doc</a> or contact the Grunigen Medical Library.</template></category>
+	<category><pattern>* REGISTER FOR LOANSOME DOC</pattern>
+	<template><srai>REGISTER FOR LOANSOME DOC</srai></template></category>
+	<category><pattern>REGISTER FOR LOANSOME DOC *</pattern>
+	<template><srai>REGISTER FOR LOANSOME DOC</srai></template></category>
+	<category><pattern>* REGISTER FOR LOANSOME DOC *</pattern>
+	<template><srai>REGISTER FOR LOANSOME DOC</srai></template></category>
+	<category><pattern>SIGN UP FOR LOANSOME DOC</pattern>
+	<template><srai>REGISTER FOR LOANSOME DOC</srai></template></category>
+	<category><pattern>* SIGN UP FOR LOANSOME DOC</pattern>
+	<template><srai>REGISTER FOR LOANSOME DOC</srai></template></category>
+	<category><pattern>SIGN UP FOR LOANSOME DOC *</pattern>
+	<template><srai>REGISTER FOR LOANSOME DOC</srai></template></category>
+	<category><pattern>* SIGN UP FOR LOANSOME DOC *</pattern>
+	<template><srai>REGISTER FOR LOANSOME DOC</srai></template></category>
+
+<category><pattern>WHAT IS LOANSOME DOC</pattern>
+<template>Loansome Doc is the method by which Health care professionals not affiliated with UC Irvine may order journal articles.</template></category>
+	<category><pattern>* WHAT IS LOANSOME DOC</pattern>
+	<template><srai>WHAT IS LOANSOME DOC</srai></template></category>
+	<category><pattern>WHAT IS LOANSOME DOC *</pattern>
+	<template><srai>WHAT IS LOANSOME DOC</srai></template></category>
+	<category><pattern>* WHAT IS LOANSOME DOC *</pattern>
+	<template><srai>WHAT IS LOANSOME DOC</srai></template></category>
+
+<category><pattern>GML COMPUTERS</pattern>
+<template>The Grunigen Medical Library (GML) offers state-of-the-art computing, multimedia, and videconferencing equipment, 
+facilities, and services. GML maintains a technology-enhanced classroom and a technology-enhanced conference room for meetings, 
+videoconferences, multimedia presentation, and instruction. For more information view the <a href=" http://grunigen.lib.uci.edu/computing" target="_blank">GML Computing page</a>.</template></category>
+	<category><pattern>* GML COMPUTERS</pattern>
+	<template><srai>GML COMPUTERS</srai></template></category>
+	<category><pattern>GML COMPUTERS *</pattern>
+	<template><srai>GML COMPUTERS</srai></template></category>
+	<category><pattern>* GML COMPUTERS *</pattern>
+	<template><srai>GML COMPUTERS</srai></template></category>
+	<category><pattern>COMPUTERS * GML</pattern>
+	<template><srai>GML COMPUTERS</srai></template></category>
+	<category><pattern>* COMPUTERS * GML</pattern>
+	<template><srai>GML COMPUTERS</srai></template></category>
+	<category><pattern>COMPUTERS * GML *</pattern>
+	<template><srai>GML COMPUTERS</srai></template></category>
+	<category><pattern>* COMPUTERS * GML *</pattern>
+	<template><srai>GML COMPUTERS</srai></template></category>
+	<category><pattern>GRUNIGEN COMPUTERS</pattern>
+	<template><srai>GML COMPUTERS</srai></template></category>
+	<category><pattern>* GRUNIGEN COMPUTERS</pattern>
+	<template><srai>GML COMPUTERS</srai></template></category>
+	<category><pattern>GRUNIGEN COMPUTERS *</pattern>
+	<template><srai>GML COMPUTERS</srai></template></category>
+	<category><pattern>* GRUNIGEN COMPUTERS *</pattern>
+	<template><srai>GML COMPUTERS</srai></template></category>
+	<category><pattern>COMPUTERS * GRUNIGEN</pattern>
+	<template><srai>GML COMPUTERS</srai></template></category>
+	<category><pattern>* COMPUTERS * GRUNIGEN</pattern>
+	<template><srai>GML COMPUTERS</srai></template></category>
+	<category><pattern>COMPUTERS * GRUNIGEN *</pattern>
+	<template><srai>GML COMPUTERS</srai></template></category>
+	<category><pattern>* COMPUTERS * GRUNIGEN *</pattern>	
+	<template><srai>GML COMPUTERS</srai></template></category>
+	
+<category><pattern>BORROW A LAPTOP</pattern>
+<template>Are you located on main campus or at GML?</template></category>
+	<category><pattern>* BORROW A LAPTOP</pattern>
+	<template><srai>BORROW A LAPTOP</srai></template></category>
+	<category><pattern>BORROW A LAPTOP *</pattern>
+	<template><srai>BORROW A LAPTOP</srai></template></category>
+	<category><pattern>* BORROW A LAPTOP *</pattern>
+	<template><srai>BORROW A LAPTOP</srai></template></category>
+	<category><pattern>BORROW A COMPUTER</pattern>
+	<template><srai>BORROW A LAPTOP</srai></template></category>
+	<category><pattern>* BORROW A COMPUTER</pattern>
+	<template><srai>BORROW A LAPTOP</srai></template></category>
+	<category><pattern>BORROW A COMPUTER *</pattern>
+	<template><srai>BORROW A LAPTOP</srai></template></category>
+	<category><pattern>* BORROW A COMPUTER *</pattern>
+	<template><srai>BORROW A LAPTOP</srai></template></category>
+
+		<category><pattern>MAIN CAMPUS</pattern>
+		<that>Are you located on main campus or at GML_</that>
+		<template><srai>MRC LAPTOP</srai></template></category>
+
+		<category><pattern>MAIN</pattern>
+		<that>Are you located on main campus or at GML_</that>
+		<template><srai>MRC LAPTOP</srai></template></category>
+
+		<category><pattern>GML</pattern>
+		<that>Are you located on main campus or at GML_</that>
+		<template>GML also offers a laptop and an iPad loan service, making wireless laptops and iPads available to UCI faculty, staff, 
+		and students with valid library card and UCInetID. For questions regarding computing at GML please call 714-456-5583.</template></category>
+		
+<category><pattern>BORROW AN IPAD</pattern>
+<template>Are you located on main campus or at GML?</template></category>
+	<category><pattern>* BORROW AN IPAD</pattern>
+	<template><srai>BORROW AN IPAD</srai></template></category>
+	<category><pattern>BORROW AN IPAD *</pattern>
+	<template><srai>BORROW AN IPAD</srai></template></category>
+	<category><pattern>* BORROW AN IPAD *</pattern>
+	<template><srai>BORROW AN IPAD</srai></template></category>
+
+		<category><pattern>MAIN CAMPUS</pattern>
+		<that>Are you located on main campus or at GML_</that>
+		<template><srai>MRC IPAD</srai></template></category>
+
+		<category><pattern>MAIN</pattern>
+		<that>Are you located on main campus or at GML_</that>
+		<template><srai>MRC IPAD</srai></template></category>
+		
+		<category><pattern>GML</pattern>
+		<that>Are you located on main campus or at GML_</that>
+		<template>GML also offers a laptop and an iPad loan service, making wireless laptops and iPads available to UCI faculty, staff, 
+		and students with valid library card and UCInetID. For questions regarding computing at GML please call 714-456-5583.</template></category>
+
+<category><pattern>LONG CAN I CHECK OUT AN IPAD</pattern>
+<template>Are you located on main campus or at GML?</template></category>
+	<category><pattern>* LONG CAN I CHECK OUT AN IPAD</pattern>
+	<template><srai>LONG CAN I CHECK OUT AN IPAD</srai></template></category>
+	<category><pattern>LONG CAN I CHECK OUT AN IPAD *</pattern>
+	<template><srai>LONG CAN I CHECK OUT AN IPAD</srai></template></category>
+	<category><pattern>* LONG CAN I CHECK OUT AN IPAD *</pattern>
+	<template><srai>LONG CAN I CHECK OUT AN IPAD</srai></template></category>
+	<category><pattern>LONG CAN I CHECK OUT A COMPUTER</pattern>
+	<template><srai>LONG CAN I CHECK OUT AN IPAD</srai></template></category>
+	<category><pattern>* LONG CAN I CHECK OUT A COMPUTER</pattern>
+	<template><srai>LONG CAN I CHECK OUT AN IPAD</srai></template></category>
+	<category><pattern>LONG CAN I CHECK OUT A COMPUTER *</pattern>
+	<template><srai>LONG CAN I CHECK OUT AN IPAD</srai></template></category>
+	<category><pattern>* LONG CAN I CHECK OUT A COMPUTER *</pattern>
+	<template><srai>LONG CAN I CHECK OUT AN IPAD</srai></template></category>
+
+		<category><pattern>MAIN CAMPUS</pattern>
+		<that>Are you located on main campus or at GML_</that>
+		<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+
+		<category><pattern>MAIN</pattern>
+		<that>Are you located on main campus or at GML_</that>
+		<template><srai>MRC EQUIPMENT LOAN</srai></template></category>
+		
+		<category><pattern>GML</pattern>
+		<that>Are you located on main campus or at GML_</that>
+		<template>All GML equipment have a 72 hour loan period with no renewals. For more information: <a href=" 	http://grunigen.lib.uci.edu/equipment-loans" target="_blank">GML Equipment Terms of Use</a>.</template></category>
+
+<category><pattern>EVIDENCE BASED INSTRUCTION</pattern>
+<template>The UC Irvine Health Sciences Education Team teaches evidence-based healthcare literature research classes and workshops at the Ayala Science Library and Grunigen Medical Library. Take a look at the <a href=" http://www.lib.uci.edu/evidence-based-instruction" target="_blank">Evidence-Based Instruction</a> page for more information.</template></category>
+	<category><pattern>* EVIDENCE BASED INSTRUCTION</pattern>
+	<template><srai>EVIDENCE BASED INSTRUCTION</srai></template></category>
+	<category><pattern>EVIDENCE BASED INSTRUCTION *</pattern>
+	<template><srai>EVIDENCE BASED INSTRUCTION</srai></template></category>
+	<category><pattern>* EVIDENCE BASED INSTRUCTION *</pattern>
+	<template><srai>EVIDENCE BASED INSTRUCTION</srai></template></category>
+
+<category><pattern>GML INSTRUCTIONAL WORKSHOPS</pattern>
+<template>The Grunigen Medical Library offers <a href=" http://grunigen.lib.uci.edu/services/workshops/instructional-workshops.html" target="_blank">instructional workshops</a> in conducting online research, managing bibliographic citations, copyright issues in instruction and research, and more.</template></category>
+	<category><pattern>* GML INSTRUCTIONAL WORKSHOPS</pattern>
+	<template><srai>GML INSTRUCTIONAL WORKSHOPS</srai></template></category>
+	<category><pattern>GML INSTRUCTIONAL WORKSHOPS *</pattern>
+	<template><srai>GML INSTRUCTIONAL WORKSHOPS</srai></template></category>
+	<category><pattern>* GML INSTRUCTIONAL WORKSHOPS *</pattern>
+	<template><srai>GML INSTRUCTIONAL WORKSHOPS</srai></template></category>
+
+<category><pattern>RESERVE A ROOM</pattern>
+<template>Are you located on GML or main campus?</template></category>
+	<category><pattern>* RESERVE A ROOM</pattern>
+	<template><srai>RESERVE A ROOM</srai></template></category>
+	<category><pattern>RESERVE A ROOM *</pattern>
+	<template><srai>RESERVE A ROOM</srai></template></category>
+	<category><pattern>* RESERVE A ROOM *</pattern>
+	<template><srai>RESERVE A ROOM</srai></template></category>
+
+		<category><pattern>MAIN CAMPUS</pattern>
+		<that>Are you located on GML or main campus_</that>
+		<template><srai>RESERVE A MAIN CAMPUS ROOM</srai></template></category>
+
+		<category><pattern>MAIN</pattern>
+		<that>Are you located on GML or main campus_</that>
+		<template><srai>RESERVE A MAIN CAMPUS ROOM</srai></template></category>
+		
+		<category><pattern>GML</pattern>
+		<that>Are you located on GML or main campus_</that>
+		<template>Rooms at GML can be reserved. For more information: <a href=" http://grunigen.lib.uci.edu/reserve-room" target="_blank">Reserve A Room</a>.</template></category>
+	
+<!--About GML-->
+
+<category><pattern>HISTORY OF GML</pattern>
+<template>The current medical library that occupies the 1st floor of the Forest J. Grunigen, M.D. Library and Medical Education Center building was completed in 1984. <a href=" http://grunigen.lib.uci.edu/history" target="_blank">Read More</a>.</template></category>
+	<category><pattern>* HISTORY OF GML</pattern>
+	<template><srai>HISTORY OF GML</srai></template></category>
+	<category><pattern>HISTORY OF GML *</pattern>
+	<template><srai>HISTORY OF GML</srai></template></category>
+	<category><pattern>* HISTORY OF GML *</pattern>
+	<template><srai>HISTORY OF GML</srai></template></category>
+
+<category><pattern>FOREST GRUNIGEN</pattern>
+<template>Forest Grunigen was born in Sequoia National Park, California on July 31, 1905. <a href=" http://grunigen.lib.uci.edu/Forest-Grunigen" target="_blank">Read Full Bio</a>.</template></category>
+	<category><pattern>* FOREST GRUNIGEN</pattern>
+	<template><srai>FOREST GRUNIGEN</srai></template></category>
+	<category><pattern>FOREST GRUNIGEN *</pattern>
+	<template><srai>FOREST GRUNIGEN</srai></template></category>
+	<category><pattern>* FOREST GRUNIGEN *</pattern>
+	<template><srai>FOREST GRUNIGEN</srai></template></category>
+	<category><pattern>FOREST * GRUNIGEN</pattern>
+	<template><srai>FOREST GRUNIGEN</srai></template></category>
+	<category><pattern>* FOREST * GRUNIGEN</pattern>
+	<template><srai>FOREST GRUNIGEN</srai></template></category>
+	<category><pattern>FOREST * GRUNIGEN *</pattern>
+	<template><srai>FOREST GRUNIGEN</srai></template></category>
+	<category><pattern>* FOREST * GRUNIGEN *</pattern>
+	<template><srai>FOREST GRUNIGEN</srai></template></category>
+
+<category><pattern>READ POSTER</pattern>
+<template>Take a look at our <a href=" 	http://grunigen.lib.uci.edu/nlw-poster-archive" target="_blank">National Library Week Poster Archive</a>.</template></category>
+	<category><pattern>* READ POSTER</pattern>
+	<template><srai>READ POSTER</srai></template></category>
+	<category><pattern>READ POSTER *</pattern>
+	<template><srai>READ POSTER</srai></template></category>
+	<category><pattern>* READ POSTER *</pattern>
+	<template><srai>READ POSTER</srai></template></category>
+	<category><pattern>READ POSTERS</pattern>
+	<template><srai>READ POSTER</srai></template></category>
+	<category><pattern>* READ POSTERS</pattern>
+	<template><srai>READ POSTER</srai></template></category>
+	<category><pattern>READ POSTERS *</pattern>
+	<template><srai>READ POSTER</srai></template></category>
+	<category><pattern>* READ POSTERS *</pattern>
+	<template><srai>READ POSTER</srai></template></category>
+
+<category><pattern>GML FLOORPLAN</pattern>
+<template>Here is the <a href=" http://www.lib.uci.edu/sites/all/files/docs/floorplan-gml-1st-floor.pdf" target="_blank">Grunigen Medical Library Floorplan</a>.</template></category>
+	<category><pattern>* GML FLOORPLAN</pattern>
+	<template><srai>GML FLOORPLAN</srai></template></category>
+	<category><pattern>GML FLOORPLAN *</pattern>
+	<template><srai>GML FLOORPLAN</srai></template></category>
+	<category><pattern>* GML FLOORPLAN *</pattern>
+	<template><srai>GML FLOORPLAN</srai></template></category>
+	<category><pattern>MAP OF GML</pattern>
+	<template><srai>GML FLOORPLAN</srai></template></category>
+	<category><pattern>* MAP OF GML</pattern>
+	<template><srai>GML FLOORPLAN</srai></template></category>
+	<category><pattern>MAP OF GML *</pattern>
+	<template><srai>GML FLOORPLAN</srai></template></category>
+	<category><pattern>* MAP OF GML *</pattern>
+	<template><srai>GML FLOORPLAN</srai></template></category>
+
+<!--Bathroom, see lib_directions-->
+
+<category><pattern>GML SECOND FLOOR</pattern>
+<template>Are you in Ayala, Langson, or GML?</template></category>
+	<category><pattern>HOW DO YOU GET TO THE SECOND FLOOR</pattern>
+	<template><srai>GML SECOND FLOOR</srai></template></category>
+	<category><pattern>* HOW DO YOU GET TO THE SECOND FLOOR</pattern>
+	<template><srai>GML SECOND FLOOR</srai></template></category>
+	<category><pattern>HOW DO YOU GET TO THE SECOND FLOOR *</pattern>
+	<template><srai>GML SECOND FLOOR</srai></template></category>
+	<category><pattern>* HOW DO YOU GET TO THE SECOND FLOOR *</pattern>
+	<template><srai>GML SECOND FLOOR</srai></template></category>
+	<category><pattern>HOW DO YOU GET TO THE SECOND STORY</pattern>
+	<template><srai>GML SECOND FLOOR</srai></template></category>
+	<category><pattern>* HOW DO YOU GET TO THE SECOND STORY</pattern>
+	<template><srai>GML SECOND FLOOR</srai></template></category>
+	<category><pattern>HOW DO YOU GET TO THE SECOND STORY *</pattern>
+	<template><srai>GML SECOND FLOOR</srai></template></category>
+	<category><pattern>* HOW DO YOU GET TO THE SECOND STORY *</pattern>
+	<template><srai>GML SECOND FLOOR</srai></template></category>
+
+	<category><pattern>AYALA</pattern>
+	<that>Are you in Ayala_</that>
+	<template>The Ayala entrance in on the 1st floor, go up the stairs or take the elevator to the 2nd floor.</template></category>
+	
+	<category><pattern>LANGSON</pattern>
+	<that>Are you in Ayala_</that>
+	<template>The Langson entrance is on the second floor. Take the stairs or elevator.</template></category>
+	
+	<category><pattern>GML</pattern>
+	<that>Are you in Ayala_</that>
+	<template>To get to the second floor, head out of the library entrance and go left past the library windows.  The elevators is on the left and stairs are on the right.</template></category>
+
+<!--UCIMC-->
+	
+<category><pattern>GRUNIGEN MEDICAL LIBRARY POLICIES</pattern>
+<template>Take a look at our <a href=" http://grunigen.lib.uci.edu/docs/gml-room-reservation-policy.pdf" target="_blank">Grunigen Medical Library Room Policies</a> page.</template></category>
+	<category><pattern>* GRUNIGEN MEDICAL LIBRARY POLICIES</pattern>
+	<template><srai>GRUNIGEN MEDICAL LIBRARY POLICIES</srai></template></category>
+	<category><pattern>GRUNIGEN MEDICAL LIBRARY POLICIES *</pattern>
+	<template><srai>GRUNIGEN MEDICAL LIBRARY POLICIES</srai></template></category>
+	<category><pattern>* GRUNIGEN MEDICAL LIBRARY POLICIES *</pattern>
+	<template><srai>GRUNIGEN MEDICAL LIBRARY POLICIES</srai></template></category>
+
+</aiml>

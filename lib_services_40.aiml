@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Library Services -->
+<!-- -->
+
+<!-- RCS -->
+
+<category><pattern>HOW DO I SCHEDULE AN RCS APPOINTMENT</pattern>
+<template><a href=" http://www.lib.uci.edu/request-research-consultation" target="_blank">RCS appointments</a> can be scheduled via the RCS form.  Select one 
+of the appointment type options (online or in-person) and then follow the prompts for submitting your request.</template></category>
+	<category><pattern>* HOW DO I SCHEDULE AN RCS APPOINTMENT</pattern>
+	<template><srai>HOW DO I SCHEDULE AN RCS APPOINTMENT</srai></template></category>
+	<category><pattern>HOW DO I SCHEDULE AN RCS APPOINTMENT *</pattern>
+	<template><srai>HOW DO I SCHEDULE AN RCS APPOINTMENT</srai></template></category>
+	<category><pattern>* HOW DO I SCHEDULE AN RCS APPOINTMENT *</pattern>
+	<template><srai>HOW DO I SCHEDULE AN RCS APPOINTMENT</srai></template></category>
+	<category><pattern>I WANT TO SCHEDULE AN RCS APPOINTMENT</pattern>
+	<template><srai>HOW DO I SCHEDULE AN RCS APPOINTMENT</srai></template></category>
+	<category><pattern>* I WANT TO SCHEDULE AN RCS APPOINTMENT</pattern>
+	<template><srai>HOW DO I SCHEDULE AN RCS APPOINTMENT</srai></template></category>
+	<category><pattern>I WANT TO SCHEDULE AN RCS APPOINTMENT *</pattern>
+	<template><srai>HOW DO I SCHEDULE AN RCS APPOINTMENT</srai></template></category>
+	<category><pattern>* I WANT TO SCHEDULE AN RCS APPOINTMENT *</pattern>
+	<template><srai>HOW DO I SCHEDULE AN RCS APPOINTMENT</srai></template></category>
+	<category><pattern>I WANT TO SCHEDULE RCS</pattern>
+	<template><srai>HOW DO I SCHEDULE AN RCS APPOINTMENT</srai></template></category>
+	<category><pattern>* I WANT TO SCHEDULE RCS</pattern>
+	<template><srai>HOW DO I SCHEDULE AN RCS APPOINTMENT</srai></template></category>
+	<category><pattern>I WANT TO SCHEDULE RCS *</pattern>
+	<template><srai>HOW DO I SCHEDULE AN RCS APPOINTMENT</srai></template></category>
+	<category><pattern>* I WANT TO SCHEDULE RCS *</pattern>
+	<template><srai>HOW DO I SCHEDULE AN RCS APPOINTMENT</srai></template></category>
+	<category><pattern>* RESEARCH CONSULTATION SERVICE</pattern>
+	<template><srai>HOW DO I SCHEDULE AN RCS APPOINTMENT</srai></template></category>
+	<category><pattern>BOOK A LIBRARIAN</pattern>
+	<template><srai>HOW DO I SCHEDULE AN RCS APPOINTMENT</srai></template></category>
+	<category><pattern>ONE ON ONE</pattern> 
+	<template><srai>HOW DO I SCHEDULE AN RCS APPOINTMENT</srai></template></category>
+	
+<category><pattern>RCS NOW</pattern>
+<template><a href=" http://www.lib.uci.edu/request-research-consultation" target="_blank">RCSNow</a> can be scheduled via the RCS form.  Select the appointment 
+type: in-person. Then the scheduling option: select from pre-set appointment times.</template></category>
+	<category><pattern>* RCS NOW</pattern>
+	<template><srai>RCS NOW</srai></template></category>
+	<category><pattern>RCS NOW *</pattern>
+	<template><srai>RCS NOW</srai></template></category>
+	<category><pattern>* RCS NOW *</pattern>
+	<template><srai>RCS NOW</srai></template></category>
+	<category><pattern>RCSNOW</pattern>
+	<template><srai>RCS NOW</srai></template></category>
+	<category><pattern>* RCSNOW</pattern>
+	<template><srai>RCS NOW</srai></template></category>
+	<category><pattern>RCSNOW *</pattern>
+	<template><srai>RCS NOW</srai></template></category>
+	<category><pattern>* RCSNOW *</pattern>
+	<template><srai>RCS NOW</srai></template></category>
+
+<category><pattern>MAKE AN APPOINTMENT WITH A LIBRARIAN</pattern>
+<template>Appointments with a librarian can be scheduled via the <a href=" http://www.lib.uci.edu/request-research-consultation" target="_blank">RCS form</a>.</template></category>
+	<category><pattern>* MAKE AN APPOINTMENT WITH A LIBRARIAN</pattern>
+	<template><srai>MAKE AN APPOINTMENT WITH A LIBRARIAN</srai></template></category>
+	<category><pattern>MAKE AN APPOINTMENT WITH A LIBRARIAN *</pattern>
+	<template><srai>MAKE AN APPOINTMENT WITH A LIBRARIAN</srai></template></category>
+	<category><pattern>* MAKE AN APPOINTMENT WITH A LIBRARIAN *</pattern>
+	<template><srai>MAKE AN APPOINTMENT WITH A LIBRARIAN</srai></template></category>
+	<category><pattern>HOW DO I SCHEDULE AN APPOINTMENT WITH A LIBRARIAN</pattern>
+	<template><srai>MAKE AN APPOINTMENT WITH A LIBRARIAN</srai></template></category>
+	<category><pattern>* HOW DO I SCHEDULE AN APPOINTMENT WITH A LIBRARIAN</pattern>
+	<template><srai>MAKE AN APPOINTMENT WITH A LIBRARIAN</srai></template></category>
+	<category><pattern>HOW DO I SCHEDULE AN APPOINTMENT WITH A LIBRARIAN *</pattern>
+	<template><srai>MAKE AN APPOINTMENT WITH A LIBRARIAN</srai></template></category>
+	<category><pattern>* HOW DO I SCHEDULE AN APPOINTMENT WITH A LIBRARIAN *</pattern>
+	<template><srai>MAKE AN APPOINTMENT WITH A LIBRARIAN</srai></template></category>
+
+<category><pattern>LINK TO SCHEDULE AN APPOINTMENT</pattern>
+<template>The link to schedule a RCS appointment is <a href=" http://www.lib.uci.edu/request-research-consultation" target="_blank">http://www.lib.uci.edu/request-research-consultation</a>.</template></category>
+	<category><pattern>* LINK TO SCHEDULE AN APPOINTMENT</pattern>
+	<template><srai>LINK TO SCHEDULE AN APPOINTMENT</srai></template></category>
+	<category><pattern>LINK TO SCHEDULE AN APPOINTMENT *</pattern>
+	<template><srai>LINK TO SCHEDULE AN APPOINTMENT</srai></template></category>
+	<category><pattern>* LINK TO SCHEDULE AN APPOINTMENT *</pattern>
+	<template><srai>LINK TO SCHEDULE AN APPOINTMENT</srai></template></category>
+
+<category><pattern>HELP ME DO RESEARCH</pattern>
+<template>I can help you look up books or point you to databases but if you need in-depth research help you should <a href=" 	http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	<category><pattern>HELP WITH RESEARCH</pattern>
+	<template><srai>HELP ME DO RESEARCH</srai></template></category>
+	<category><pattern>GET RESEARCH ASSISTANCE</pattern>
+	<template><srai>HELP ME DO RESEARCH</srai></template></category>
+	<category><pattern>CAN YOU HELP ME CONDUCT RESEARCH</pattern>
+	<template><srai>HELP ME DO RESEARCH</srai></template></category>
+	<category><pattern>* I NEED HELP RESEARCHING</pattern>
+	<template><srai>HELP ME DO RESEARCH</srai></template></category>
+	<category><pattern>* I NEED HELP RESEARCHING *</pattern>
+	<template><srai>HELP ME DO RESEARCH</srai></template></category>
+	<category><pattern>I NEED HELP FINDING STATISTICS</pattern>
+	<template><srai>HELP ME DO RESEARCH</srai></template></category>
+	
+<category><pattern>HELP WITH RCS</pattern>
+<template>What kind of help do you need?</template></category>
+
+<category><pattern>CANCEL MY APPOINTMENT WITH A LIBRARIAN</pattern>
+<template>Please call the Langson Library reference desk (Ask Us) at 949-824-4976 to cancel your research consultation.</template></category>
+	<category><pattern>* CANCEL MY APPOINTMENT WITH A LIBRARIAN</pattern>
+	<template><srai>CANCEL MY APPOINTMENT WITH A LIBRARIAN</srai></template></category>
+	<category><pattern>CANCEL MY APPOINTMENT WITH A LIBRARIAN *</pattern>
+	<template><srai>CANCEL MY APPOINTMENT WITH A LIBRARIAN</srai></template></category>
+	<category><pattern>* CANCEL MY APPOINTMENT WITH A LIBRARIAN *</pattern>
+	<template><srai>CANCEL MY APPOINTMENT WITH A LIBRARIAN</srai></template></category>
+	<category><pattern>CANCEL MY RESEARCH CONSULTATION APPOINTMENT</pattern>
+	<template><srai>CANCEL MY APPOINTMENT WITH A LIBRARIAN</srai></template></category>
+	<category><pattern>* CANCEL MY RESEARCH CONSULTATION APPOINTMENT</pattern>
+	<template><srai>CANCEL MY APPOINTMENT WITH A LIBRARIAN</srai></template></category>
+	<category><pattern>CANCEL MY RESEARCH CONSULTATION APPOINTMENT *</pattern>
+	<template><srai>CANCEL MY APPOINTMENT WITH A LIBRARIAN</srai></template></category>
+	<category><pattern>* CANCEL MY RESEARCH CONSULTATION APPOINTMENT *</pattern>
+	<template><srai>CANCEL MY APPOINTMENT WITH A LIBRARIAN</srai></template></category>
+
+<category><pattern>I HAVE AN APPOINTMENT WITH A LIBRARIAN</pattern>
+<template>Is your research consultation located at Ayala or Langson?</template></category>
+	<category><pattern>* I HAVE AN APPOINTMENT WITH A LIBRARIAN</pattern>
+	<template><srai>I HAVE AN APPOINTMENT WITH A LIBRARIAN</srai></template></category>
+	<category><pattern>I HAVE AN APPOINTMENT WITH A LIBRARIAN *</pattern>
+	<template><srai>I HAVE AN APPOINTMENT WITH A LIBRARIAN</srai></template></category>
+	<category><pattern>* I HAVE AN APPOINTMENT WITH A LIBRARIAN *</pattern>
+	<template><srai>I HAVE AN APPOINTMENT WITH A LIBRARIAN</srai></template></category>
+	<category><pattern>WHERE DO I GO TO MEET THE LIBRARIAN</pattern>
+	<template><srai>I HAVE AN APPOINTMENT WITH A LIBRARIAN</srai></template></category>
+	<category><pattern>* WHERE DO I GO TO MEET THE LIBRARIAN</pattern>
+	<template><srai>I HAVE AN APPOINTMENT WITH A LIBRARIAN</srai></template></category>
+	<category><pattern>WHERE DO I GO TO MEET THE LIBRARIAN *</pattern>
+	<template><srai>I HAVE AN APPOINTMENT WITH A LIBRARIAN</srai></template></category>
+	<category><pattern>* WHERE DO I GO TO MEET THE LIBRARIAN *</pattern>
+	<template><srai>I HAVE AN APPOINTMENT WITH A LIBRARIAN</srai></template></category>
+	
+<category><pattern>HOW DO I TALK TO A LIBRARIAN</pattern>
+<template>The easiest way to speak to a librarian is to visit the Langson Library Reference (Ask Us) Desk or call them at (949) 824-4976!</template></category>
+	<category><pattern>* HOW DO I TALK TO A LIBRARIAN</pattern>
+	<template><srai>HOW DO I TALK TO A LIBRARIAN</srai></template></category>
+	<category><pattern>HOW DO I TALK TO A LIBRARIAN *</pattern>
+	<template><srai>HOW DO I TALK TO A LIBRARIAN</srai></template></category>
+	<category><pattern>* HOW DO I TALK TO A LIBRARIAN *</pattern>
+	<template><srai>HOW DO I TALK TO A LIBRARIAN</srai></template></category>
+	<category><pattern>* CALL A LIBRARIAN</pattern>
+	<template><srai>HOW DO I TALK TO A LIBRARIAN</srai></template></category>
+		
+<category><pattern>AYALA</pattern>
+<that>Is your research consultation located at Ayala or Langson_</that>
+<template>Ayala research consultations meet at the reference (Ask Us) desk that is located up the stairs and then go through the glass doors straight in front of you.</template></category>
+	
+<category><pattern>LANGSON</pattern>
+<that>Is your research consultation located at Ayala or Langson_</that>
+<template>Langson research consultations meet at the reference(Ask us) desk, it is located on the main (entry) floor of the library.</template></category>
+		
+		
+<!-- VPN -->
+
+<category><pattern>WHAT IS VPN</pattern>
+<template>VPN stands for Virtual Private Network. In order to use library resources you must be "authenticated" (recognized as a valid user) by the UCI campus network.</template></category> 
+	<category><pattern>WHAT IS THE VPN</pattern>
+	<template><srai>WHAT IS VPN</srai></template></category>
+	<category><pattern>WHEN DOING RESEARCH FROM HOME I NEED TO BE *</pattern>
+	<template><srai>WHAT IS VPN</srai></template></category>
+	<category><pattern>AUTHORIZED TO USE</pattern>
+	<template><srai>WHAT IS VPN</srai></template></category>
+	<category><pattern>* ACCESS ALL LIBRARIES ONLINE RESOURCES</pattern>
+	<template><srai>WHAT IS VPN</srai></template></category>
+	<category><pattern>* ACCESS TO THE DATABASES FROM HOME *</pattern>
+	<template><srai>WHAT IS VPN</srai></template></category>
+	<category><pattern>* ACCESS THE DATABASES FROM HOME *</pattern>
+	<template><srai>WHAT IS VPN</srai></template></category>
+
+	<category><pattern>HOW DO I USE IT</pattern>
+	<that>In order to use library resources you must be authenticated recognized as a valid user by the UCI campus network_</that>
+	<template>Take a look at this <a href=" http://www.oit.uci.edu/vpn/" target="_blank">OIT page</a> for more information on how to use the VPN.</template></category>
+	<category><pattern>HOW DO I ACCESS * DATABASE FROM HOME</pattern>
+	<template><srai>HOW DO I USE IT</srai></template></category>
+	<category><pattern>HOW DO I ACCESS * DATABASES FROM HOME</pattern>
+	<template><srai>HOW DO I USE IT</srai></template></category>
+	<category><pattern>* ACCESS * DATABASE FROM HOME</pattern>
+	<template><srai>HOW DO I USE IT</srai></template></category>
+	<category><pattern>* ACCESS * DATABASES FROM HOME</pattern>
+	<template><srai>HOW DO I USE IT</srai></template></category>
+	<category><pattern>* LOG INTO A DATABASE</pattern>
+	<template><srai>HOW DO I USE IT</srai></template></category>
+	<category><pattern>LOGIN TO EBSCOHOST</pattern>
+	<template><srai>HOW DO I USE IT</srai></template></category>
+	<category><pattern>* LOGGING IN</pattern> 
+	<template><srai>HOW DO I USE IT</srai></template></category>
+	<category><pattern>OFF CAMPUS</pattern>
+	<template><srai>HOW DO I USE IT</srai></template></category>
+	<category><pattern>* ONLINE RESOURCE</pattern>
+	<template><srai>HOW DO I USE IT</srai></template></category>
+	<category><pattern>* DOWNLOAD ELECTRONIC BOOKS</pattern>
+	<template><srai>HOW DO I USE IT</srai></template></category>
+	<category><pattern>_ FROM OFF CAMPUS</pattern>
+	<template><srai>HOW DO I USE IT</srai></template></category>
+
+<category><pattern>WHO CAN USE CONNECT FROM OFF CAMPUS</pattern>	
+<template>Remote access to the UCI Libraries' licensed online resources is available to current UC Irvine students, faculty and staff.</template></category>	
+
+<category><pattern>HOW DO I DOWNLOAD THE VPN</pattern>
+<template>The <a href=" http://www.lib.uci.edu/connect-campus" target="_blank">Connect from Off-Campus</a> page has a tutorial on how to download the VPN!</template></category>
+
+<category><pattern>I NEED REMOTE ACCESS</pattern>
+<template>Remote access to the UCI Libraries' licensed online resources is available to current UC Irvine students, faculty and staff.</template></category>	
+
+<category><pattern>WHAT IS BETTER WEBVPN OR SOFTWARE VPN</pattern>
+<template>ANTswers doesn't like to judge, you really can't go wrong whatever you choose.  The software VPN requires installation but works with all our resources the web VPN is 
+easier to use but it doesn't work with all databases. See <a href=" http://www.lib.uci.edu/connect-campus" target="_blank">Connect from Off-Campus</a> for more information.</template></category>
+
+<category><pattern>HOW DO I LOG ON FROM OFF CAMPUS</pattern>
+<template>Information on how to log on from off campus is available here: <a href=" http://www.lib.uci.edu/connect-campus" target="_blank">Connect from Off-Campus</a>.</template></category>
+	<category><pattern>* HOW DO I LOG ON FROM OFF CAMPUS</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>HOW DO I LOG ON FROM OFF CAMPUS *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* HOW DO I LOG ON FROM OFF CAMPUS *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>HOW DO I CONNECT FROM OFF CAMPUS</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* HOW DO I CONNECT FROM OFF CAMPUS</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>HOW DO I CONNECT FROM OFF CAMPUS *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* HOW DO I CONNECT FROM OFF CAMPUS *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>HOW DO I LOG IN TO A LIBRARY DATABASE</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>LOG IN</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* REMOTE ACCESS</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>HOW DO I VPN</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* VPN</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* LOG IN *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* USERNAME AND PASSWORD</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* USER NAMES AND PASSWORDS</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* LOGIN *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* LOGON *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>FULL TUNNEL</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* FULL TUNNEL</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>FULL TUNNEL *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* FULL TUNNEL *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>FULLTUNNEL</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* FULLTUNNEL</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>FULLTUNNEL *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* FULLTUNNEL *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>FULL-TUNNEL</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* FULL-TUNNEL</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>FULL-TUNNEL *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* FULL-TUNNEL *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* ACCESS THE * COLLECTION FROM HOME</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* ACCESS THE DATABASE WHEN I AM NOT ON CAMPUS</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>	
+	<category><pattern>* LOG INTO A DATABASE</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* LOG IN *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>LOG*IN</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* LOG*IN</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>LOG*IN *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* LOG*IN *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* PASSWORDS *</pattern> 
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>SIGN IN</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* SIGN IN</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>SIGN IN *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* SIGN IN *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* LOG IN INTO THE DATABASE</pattern> 
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>WHAT IS THE LOGIN FOR *</pattern> 
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>HOW DO I LOG ONTO CISCO</pattern> 
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>HOW DO I * CISCO</pattern> 
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* HOW DO I LOG ONTO CISCO</pattern> 
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* HOW DO I * CISCO</pattern> 
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>HOW DO I LOG ONTO CISCO *</pattern> 
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>HOW DO I * CISCO *</pattern> 
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>REMOTE ACCESS</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* CONNECT REMOTELY</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* REMOTE CONNECTION</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>CONNECTION FROM * CAMPUS</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>VPN CONNECTION</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>OFF CAMPUS LOG IN</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* LOG INTO</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* LOG INTO THESE UCI DATABASES</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>WHAT ID AND PASSWORD SHOULD I USE TO LOG INTO EBSCOHOST</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>WHAT ID AND PASSWORD * TO LOG INTO EBSCOHOST</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* HOW DO WE LOG IN *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>HOW TO LOG IN ON	</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* UNABLE TO LOGIN *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>WHY AM I RESTRICTED</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* IS RESTRICTED</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>I CANNOT ACCESS *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* LOG INTO *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* PROGRAM TO BE ABLE TO ACCESS SOURCES FROM HOME *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* PROGRAM TO BE ABLE TO ACCESS SOURCES FROM HOME</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* PROGRAM * TO ACCESS SOURCES FROM HOME *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* PROGRAM TO ACCESS SOURCES FROM HOME *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* PROGRAM TO ACCESS SOURCES FROM HOME</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* HOW DO I ACCESS LIBRARY CONTENT FROM OFF SITE *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* HOW DO I ACCESS LIBRARY CONTENT FROM OFF SITE</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>HOW DO I ACCESS LIBRARY CONTENT FROM OFF SITE *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>HOW DO I ACCESS LIBRARY CONTENT FROM OFF SITE</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>HOW * I ACCESS LIBRARY CONTENT FROM OFF SITE</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>HOW DO I ACCESS LIBRARY CONTENT FROM OFFSITE</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* HOW CAN I CONNECT TO LIBRARY RESOURCES OUTSIDE CAMPUS *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* HOW CAN I CONNECT TO LIBRARY RESOURCES OUTSIDE CAMPUS</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>HOW CAN I CONNECT TO LIBRARY RESOURCES OUTSIDE CAMPUS *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>HOW CAN I CONNECT TO LIBRARY RESOURCES OUTSIDE CAMPUS</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>HOW * I CONNECT TO LIBRARY RESOURCES OUTSIDE CAMPUS</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* HOW DO I ACCESS * OUTSIDE CAMPUS *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* HOW DO I ACCESS * OUTSIDE CAMPUS</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>HOW DO I ACCESS * OUTSIDE CAMPUS *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>HOW DO I ACCESS * OUTSIDE CAMPUS</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* HOW DO I ACCESS * AWAY FROM THE UCI CAMPUS *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* HOW DO I ACCESS * AWAY FROM THE UCI CAMPUS</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>HOW DO I ACCESS * AWAY FROM THE UCI CAMPUS *</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>HOW DO I ACCESS * AWAY FROM THE UCI CAMPUS</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>HOW * I ACCESS * AWAY FROM THE UCI CAMPUS</pattern>
+	<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+	
+<category><pattern>* LOG INTO THE VPN AGENT</pattern> 
+<template>The OIT VPN page at http://www.oit.uci.edu/vpn/ has information on how to configure and log into the software VPN for Windows, Mac, and Linux.</template></category>	
+	
+<category><pattern>HOW DO I LOG INTO VPN</pattern>
+<template>Information on how to log into the VPN is available here: <a href=" http://www.lib.uci.edu/connect-campus" target="_blank">Connect from Off-Campus</a>.</template></category>
+	<category><pattern>* HOW DO I LOG INTO VPN</pattern>
+	<template><srai>HOW DO I LOG INTO VPN</srai></template></category>
+	<category><pattern>HOW DO I LOG INTO VPN *</pattern>
+	<template><srai>HOW DO I LOG INTO VPN</srai></template></category>
+	<category><pattern>* HOW DO I LOG INTO VPN *</pattern>
+	<template><srai>HOW DO I LOG INTO VPN</srai></template></category>
+	<category><pattern>VPN</pattern>
+	<template><srai>HOW DO I LOG INTO VPN</srai></template></category>
+	<category><pattern>VPN</pattern>
+	<template><srai>HOW DO I LOG INTO VPN</srai></template></category>
+	<category><pattern>VPN</pattern>
+	<template><srai>HOW DO I LOG INTO VPN</srai></template></category>
+	<category><pattern>VPN</pattern>
+	<template><srai>HOW DO I LOG INTO VPN</srai></template></category>
+	<category><pattern>HOW DO I GET A VPN</pattern>
+	<template><srai>HOW DO I LOG INTO VPN</srai></template></category>
+	<category><pattern>I cannot connect to the Databases</pattern>
+	<template><srai>HOW DO I LOG INTO VPN</srai></template></category>
+	<category><pattern>HOW DO I LOG ONTO EBSCO HOST</pattern>
+	<template><srai>HOW DO I LOG INTO VPN</srai></template></category>
+	<category><pattern>* UCI ID NOT WORK ON ACADEMIC SEARCH COMPLETE</pattern>
+	<template><srai>HOW DO I LOG INTO VPN</srai></template></category>
+	<category><pattern>HOW DO I LOG IN TO *</pattern>
+	<template><srai>HOW DO I LOG INTO VPN</srai></template></category>
+	<category><pattern>LOG INTO A DATABASE</pattern>
+	<template><srai>HOW DO I LOG INTO VPN</srai></template></category>
+	<category><pattern>* LOG INTO A DATABASE</pattern>
+	<template><srai>HOW DO I LOG INTO VPN</srai></template></category>
+	<category><pattern>LOG INTO A DATABASE *</pattern>
+	<template><srai>HOW DO I LOG INTO VPN</srai></template></category>
+	<category><pattern>* LOG INTO A DATABASE *</pattern>
+	<template><srai>HOW DO I LOG INTO VPN</srai></template></category>
+	<category><pattern>* CANNOT I LOG IN *</pattern>
+	<template><srai>HOW DO I LOG INTO VPN</srai></template></category>
+	<category><pattern>* ACCESS THE DATABASES FROM HOME</pattern>
+	<template><srai>HOW DO I LOG INTO VPN</srai></template></category>
+	<category><pattern>* ACCESS DATABASES FROM HOME</pattern>
+	<template><srai>HOW DO I LOG INTO VPN</srai></template></category>
+	<category><pattern>* SIGN INTO EBSCOHOST</pattern>
+	<template><srai>HOW DO I LOG INTO VPN</srai></template></category>
+	
+<category><pattern>I CANNOT LOG IN TO A DATABASE</pattern>
+<template>Are you currently located on or off campus?</template></category>
+	<category><pattern>* I CANNOT LOG IN TO A DATABASE</pattern>
+	<template><srai>I CANNOT LOG IN TO A DATABASE</srai></template></category>
+	<category><pattern>I CANNOT LOG IN TO A DATABASE *</pattern>
+	<template><srai>I CANNOT LOG IN TO A DATABASE</srai></template></category>
+	<category><pattern>* I CANNOT LOG IN TO A DATABASE *</pattern>
+	<template><srai>I CANNOT LOG IN TO A DATABASE</srai></template></category>
+	<category><pattern>I CANNOT LOG INTO *</pattern>
+	<template><srai>I CANNOT LOG IN TO A DATABASE</srai></template></category>
+	<category><pattern>HOW DO I CONNECT TO A DATABASE</pattern> 
+	<template><srai>I CANNOT LOG IN TO A DATABASE</srai></template></category>
+	<category><pattern>HOW DO I UNLOCK JSTOR ACCESS</pattern>
+	<template><srai>I CANNOT LOG IN TO A DATABASE</srai></template></category>
+	<category><pattern>* PASSWORD TO USE EBSCOHOST</pattern>
+	<template><srai>I CANNOT LOG IN TO A DATABASE</srai></template></category>
+	<category><pattern>* ACCESS A ONLINE BOOK</pattern>
+	<template><srai>I CANNOT LOG IN TO A DATABASE</srai></template></category>
+	<category><pattern>* ACCESS AN ONLINE BOOK</pattern>
+	<template><srai>I CANNOT LOG IN TO A DATABASE</srai></template></category>
+	<category><pattern>ACCESS ONLINE BOOK</pattern>
+	<template><srai>I CANNOT LOG IN TO A DATABASE</srai></template></category>
+	<category><pattern>I CANNOT SIGN IN ONLINE</pattern>
+	<template><srai>I CANNOT LOG IN TO A DATABASE</srai></template></category>
+	<category><pattern>UCI ID NOT WORKING ONLINE</pattern>
+	<template><srai>I CANNOT LOG IN TO A DATABASE</srai></template></category>	
+	
+		<category><pattern>ON CAMPUS</pattern>
+		<that>Are you currently located on or off campus_</that>
+		<template>It is possible that there is an issue with the database/resource, contact the Ask Us Desk at 949-824-4976 for further help.</template></category>
+
+		<category><pattern>ON</pattern>
+		<that>Are you currently located on or off campus_</that>
+		<template>It is possible that there is an issue with the database/resource, contact the Ask Us Desk at 949-824-4976 for further help.</template></category>
+
+		<category><pattern>OFF CAMPUS</pattern>
+		<that>Are you currently located on or off campus_</that>
+		<template>Have you logged into Connect from off-campus?</template></category>
+		
+		<category><pattern>OFF</pattern>
+		<that>Are you currently located on or off campus_</that>
+		<template>Have you logged into Connect from off-campus?</template></category>
+
+		<category><pattern>YES</pattern>
+		<that>Have you logged into Connect from off campus_</that>
+		<template>It is possible that there is an issue with the database/resource, contact the Ask Us Desk at 949-824-4976 for further help.</template></category>
+
+		<category><pattern>NO</pattern>
+		<that>Have you logged into Connect from off campus_</that>
+		<template>Go ahead and log in at <a href=" http://www.lib.uci.edu/connect-campus" target="_blank">Connect from Off-Campus</a>.  If you are still having issues 
+		please contact the Ask Us Desk at 949-824-4976 for further help.</template></category>
+
+<category><pattern>UNABLE TO CONNECT</pattern>
+<template>Are you using your UCINetID and password? Please answer Yes or No.</template></category>
+	<category><pattern>* LOGIN NOT WORKING</pattern>
+	<template><srai>UNABLE TO CONNECT</srai></template></category>
+	<category><pattern>I AM UNABLE TO CONNECT FROM OFF*CAMPUS*</pattern>
+	<template><srai>UNABLE TO CONNECT</srai></template></category>
+
+	<category><pattern>YES</pattern>
+	<that>Are you using your UCINetID and password_</that>
+	<template>There might be an issue with your UCINetID or password. For further assistance, call OIT at (949) 824-2222.</template></category>
+
+	<category><pattern>NO</pattern>
+	<that>Are you using your UCINetID and password_</that>
+	<template>Try your UCINetID and password to login. If you are still having trouble contact the Ask Us Desk at 949-824-4976 for further help.</template></category>
+
+<category><pattern>* DATABASES * VPN *</pattern>
+<template>The <a href=" http://www.lib.uci.edu/connect-campus" target="_blank">Connect from Off-Campus</a> page has the list of resources that do not work with the web VPN. The software VPN works will all our databases.</template></category>
+
+<category><pattern>DATABASES ARE ASKING FOR A LOGIN</pattern>
+<template>If you have already logged into the VPN please contact OIT at 949-824-2222.  If you have not logged in yet, please visit the <a href=" http://www.lib.uci.edu/connect-campus" target="_blank">Connect from Off-Campus</a> page.</template></category>
+	<category><pattern>I cannot seem to be able to geth through to them</pattern>
+	<template><srai>DATABASES ARE ASKING FOR A LOGIN</srai></template></category>
+	<category><pattern>* DATABASES ARE ASKING FOR A LOGIN</pattern>
+	<template><srai>DATABASES ARE ASKING FOR A LOGIN</srai></template></category>
+	<category><pattern>DATABASES ARE ASKING FOR A LOGIN *</pattern>
+	<template><srai>DATABASES ARE ASKING FOR A LOGIN</srai></template></category>
+	<category><pattern>I AM NOT ABLE TO SIGN INTO PROQUEST FOR PSYCHINFO *</pattern>
+	<template><srai>DATABASES ARE ASKING FOR A LOGIN</srai></template></category>
+	<category><pattern>* ALREADY CONNECTED TO THE VPN *</pattern>
+	<template><srai>DATABASES ARE ASKING FOR A LOGIN</srai></template></category>
+	<category><pattern>* TROUBLE CONNECTING TO THE LIBRARY USING MY UCI ID</pattern>
+	<template><srai>DATABASES ARE ASKING FOR A LOGIN</srai></template></category>
+	<category><pattern>* DATABASES WHICH REQUIRE A LOG IN</pattern>
+	<template><srai>DATABASES ARE ASKING FOR A LOGIN</srai></template></category>
+	<category><pattern>* IT IS NOT LETTING ME IN</pattern> 
+	<template><srai>DATABASES ARE ASKING FOR A LOGIN</srai></template></category>
+	<category><pattern>* IT STILL REQUIRES ME TO LOGIN</pattern>
+	<template><srai>DATABASES ARE ASKING FOR A LOGIN</srai></template></category>
+	<category><pattern>* VPN CLIENT INSTALLED ON MY LAPTOP *</pattern>
+	<template><srai>DATABASES ARE ASKING FOR A LOGIN</srai></template></category>
+	
+<category><pattern>AUTHENTICATION ERROR CODE 101</pattern>	
+<template>Please contact OIT at 949-824-2222.</template></category>
+
+<category><pattern>USERNAME AND PASSWORD</pattern>
+<template>If you are being asked to provide a username and password for one of our online resources, first login via <a href=" http://www.lib.uci.edu/connect-campus" target="_blank">Connect from Off-Campus</a> and then navigate back to the online resource.</template></category>
+	<category><pattern>* USERNAME AND PASSWORD</pattern>
+	<template><srai>USERNAME AND PASSWORD</srai></template></category>
+	<category><pattern>USERNAME AND PASSWORD *</pattern>
+	<template><srai>USERNAME AND PASSWORD</srai></template></category>
+	<category><pattern>* USERNAME AND PASSWORD *</pattern>
+	<template><srai>USERNAME AND PASSWORD</srai></template></category>
+	
+<category><pattern>HOW DO I ACCESS THE RESEARCH DATABASES</pattern>
+<template>Research databases can be found via <a href=" http://antpac.lib.uci.edu/" target="_blank">ANTPAC</a>. If you are off campus login via <a href=" http://www.lib.uci.edu/connect-campus" target="_blank">Connect from Off-Campus</a> and then navigate back to the online resource.</template></category>
+
+
+<!-- Interlibrary loan -->
+
+
+<category><pattern>CAN I BORROW A BOOK FROM ANOTHER LIBRARY</pattern>
+<template>Books can be borrowed from other libraries through a service called Interlibrary Loan (ILL). First check to see if the UC Irvine Libraries has the item using 
+<a href=" http://antpac.lib.uci.edu/" target="_blank">ANTPAC</a> prior to <a href=" http://ucelinks.cdlib.org:8888/citation/sfx_local" target="_blank">making a request</a>.</template></category>
+	<category><pattern>* CAN I BORROW A BOOK FROM ANOTHER LIBRARY</pattern>
+	<template><srai>CAN I BORROW A BOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>CAN I BORROW A BOOK FROM ANOTHER LIBRARY *</pattern>
+	<template><srai>CAN I BORROW A BOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>* CAN I BORROW A BOOK FROM ANOTHER LIBRARY *</pattern>
+	<template><srai>CAN I BORROW A BOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>HOW CAN I GET A BOOK NOT AT UCI</pattern>
+	<template><srai>CAN I BORROW A BOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>HOW DO I GET A BOOK AT UCLA</pattern>
+	<template><srai>CAN I BORROW A BOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>HOW DO I REQUEST A BOOK THAT UCLA OWNS</pattern>
+	<template><srai>CAN I BORROW A BOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>HOW DO I REQUEST A BOOK FROM ANOTHER SCHOOL</pattern>	
+	<template><srai>CAN I BORROW A BOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>HOW TO INTERLIBRARY LOAN</pattern>
+	<template><srai>CAN I BORROW A BOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>REQUEST A BOOK</pattern> 
+	<template><srai>CAN I BORROW A BOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>REQUEST A BOOK</pattern> 
+	<template><srai>CAN I BORROW A BOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>REQUEST NEW BOOK</pattern>
+	<template><srai>CAN I BORROW A BOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>* REQUEST A BOOK *</pattern> 
+	<template><srai>CAN I BORROW A BOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>BORROW BOOK FROM ANOTHER LIBRARY	</pattern> 
+	<template><srai>CAN I BORROW A BOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>BORROW BOOK FROM OUTSIDE LIBRARY</pattern> 
+	<template><srai>CAN I BORROW A BOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>* BORROW A BOOK FROM ANOTHER LIBRARY</pattern>
+	<template><srai>CAN I BORROW A BOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>* REQUEST A BOOK</pattern>
+	<template><srai>CAN I BORROW A BOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>REQUESTS</pattern>
+	<template><srai>CAN I BORROW A BOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>LOANS FROM NON*UC LIBRARIES</pattern>
+	<template><srai>CAN I BORROW A BOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>* ACCESS BOOKS FROM ANOTHER UC CAMPUS</pattern>
+	<template><srai>CAN I BORROW A BOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>* I WANT TO BORROW A BOOK VIA ILL *</pattern>
+	<template><srai>CAN I BORROW A BOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>* I WANT TO BORROW A BOOK VIA ILL</pattern>
+	<template><srai>CAN I BORROW A BOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>I WANT TO BORROW A BOOK VIA ILL *</pattern>
+	<template><srai>CAN I BORROW A BOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>I WANT TO BORROW A BOOK VIA ILL</pattern>
+	<template><srai>CAN I BORROW A BOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>* I WANT TO BORROW A BOOK VIA INTERLIBRARY LOAN *</pattern>
+	<template><srai>CAN I BORROW A BOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>* I WANT TO BORROW A BOOK VIA INTERLIBRARY LOAN</pattern>
+	<template><srai>CAN I BORROW A BOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>I WANT TO BORROW A BOOK VIA INTERLIBRARY LOAN *</pattern>
+	<template><srai>CAN I BORROW A BOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>I WANT TO BORROW A BOOK VIA INTERLIBRARY LOAN</pattern>
+	<template><srai>CAN I BORROW A BOOK FROM ANOTHER LIBRARY</srai></template></category>
+	
+<category><pattern>DEPARTMENT QUESTION</pattern>
+<template>You can use your program, department, or school.</template></category>
+	<category><pattern>* DEPARTMENT QUESTION ON THE INTERLIBRARY LOAN</pattern>
+	<template><srai>DEPARTMENT QUESTION</srai></template></category>
+	<category><pattern>* ASKS FOR MY DEPARTMENT</pattern> 
+	<template><srai>DEPARTMENT QUESTION</srai></template></category>
+	<category><pattern>WHAT DO I PUT FOR DEPARTMENT</pattern>
+	<template><srai>DEPARTMENT QUESTION</srai></template></category>
+	<category><pattern>* ASKED FOR MY DEPARTMENT</pattern>
+	<template><srai>DEPARTMENT QUESTION</srai></template></category>
+		
+<category><pattern>INTERLIBRARY LOAN</pattern>
+<template>The <a href=" http://www.lib.uci.edu/interlibrary-loan" target="_blank">Interlibrary Loan (ILL) service</a> enables UCI students, faculty, and staff to 
+borrow materials from other libraries that are not available at the UCI Libraries.</template></category>
+	<category><pattern>* INTERLIBRARY LOAN</pattern>
+	<template><srai>INTERLIBRARY LOAN</srai></template></category>
+	<category><pattern>INTERLIBRARY LOAN *</pattern>
+	<template><srai>INTERLIBRARY LOAN</srai></template></category>
+	<category><pattern>* INTERLIBRARY LOAN *</pattern>
+	<template><srai>INTERLIBRARY LOAN</srai></template></category>
+	<category><pattern>ILL</pattern>
+	<template><srai>INTERLIBRARY LOAN</srai></template></category>
+	<category><pattern>* ILL</pattern>
+	<template><srai>INTERLIBRARY LOAN</srai></template></category>
+	<category><pattern>ILL *</pattern>
+	<template><srai>INTERLIBRARY LOAN</srai></template></category>
+	<category><pattern>* ILL *</pattern>
+	<template><srai>INTERLIBRARY LOAN</srai></template></category>
+	<category><pattern>INTER*LIBRARY LOANS</pattern>
+	<template><srai>INTERLIBRARY LOAN</srai></template></category>
+	<category><pattern>INTER*LIBRARY LOAN</pattern>
+	<template><srai>INTERLIBRARY LOAN</srai></template></category>
+	<category><pattern>* INTER*LIBRARY LOAN</pattern>
+	<template><srai>INTERLIBRARY LOAN</srai></template></category>
+	<category><pattern>INTER*LIBRARY LOAN *</pattern>
+	<template><srai>INTERLIBRARY LOAN</srai></template></category>
+	<category><pattern>* INTER*LIBRARY LOAN *</pattern>
+	<template><srai>INTERLIBRARY LOAN</srai></template></category>
+	<category><pattern>* CHECKOUT BOOKS FROM OTHER UC CAMPUSES</pattern>
+	<template><srai>INTERLIBRARY LOAN</srai></template></category>
+	<category><pattern>* LIKE TO REQUEST AN ARTICLE THAT IS NOT AVAILABLE ONLINE</pattern>
+	<template><srai>INTERLIBRARY LOAN</srai></template></category>
+	
+<category><pattern>WHO * USE INTERLIBRARY LOAN</pattern>
+<template>UC faculty, staff, and currently registered students have <a href=" http://www.lib.uci.edu/interlibrary-loan" target="_blank">interlibrary loan privileges</a>. A valid UC Irvine library card is required. Requests for instructional and research purposes only will be honored. All 
+non-UC users should contact their local public library, workplace library, or the ILL unit of their college or university for Interlibrary Loan assistance.</template></category>
+	<category><pattern>* WHO * USE INTERLIBRARY LOAN</pattern>
+	<template><srai>WHO * USE INTERLIBRARY LOAN</srai></template></category>
+	<category><pattern>WHO * USE INTERLIBRARY LOAN *</pattern>
+	<template><srai>WHO * USE INTERLIBRARY LOAN</srai></template></category>
+	<category><pattern>* WHO * USE INTERLIBRARY LOAN *</pattern>
+	<template><srai>WHO * USE INTERLIBRARY LOAN</srai></template></category>
+	<category><pattern>* I M NOT A STUDENT HOW DO I ILL *</pattern>
+	<template><srai>WHO * USE INTERLIBRARY LOAN</srai></template></category>
+	<category><pattern>* I M NOT A STUDENT HOW DO I ILL</pattern>
+	<template><srai>WHO * USE INTERLIBRARY LOAN</srai></template></category>
+	<category><pattern>I M NOT A STUDENT HOW DO I ILL *</pattern>
+	<template><srai>WHO * USE INTERLIBRARY LOAN</srai></template></category>
+	<category><pattern>I M NOT A STUDENT HOW DO I ILL</pattern>
+	<template><srai>WHO * USE INTERLIBRARY LOAN</srai></template></category>
+
+<category><pattern>WHAT CAN I REQUEST ON INTERLIBRARY LOAN</pattern>
+<template>Books, articles, videos, dissertations, and government documents can be borrowed through <a href=" http://www.lib.uci.edu/interlibrary-loan" target="_blank">ILL</a> depending on availability and the lending library.</template></category> 
+
+<category><pattern>WHAT IS THE STATUS OF MY INTERLIBRARY LOAN REQUEST</pattern>
+<template>You can manage your ILL account using <a href=" https://ucill.vdxhost.com/zportal/zengine?VDXaction=LoginPage" target="_blank">My ILL Requests</a></template></category>
+
+<category><pattern>WHO CAN HELP ME WITH INTER*LIBRARY LOANS</pattern>
+<template>Library staff at Reference (ASK US) Desk can help you with Interlibrary Loan.  You can drop-in to the main floor of Langson Library (<a href=" http://www.lib.uci.edu/hours" target="_blank">Hours</a>)or give them a call at 949-824-4976.</template></category>
+
+<category><pattern>WHAT IS THE GRACE PERIOD FOR INTERLIBRARY LOANS</pattern>
+<template>There is no grace period for Interlibrary Loans because the due date is set by the lending library. More information on <a href="http://www.lib.uci.edu/interlibrary-loan-faq#overdue">overdue Interlibrary Loans</a></template></category>
+
+<category><pattern>* GOES TO AN ERROR PAGE</pattern>
+<template>If you are off campus you need to login to the VPN, if the issue is an ebook double check to ensure the book isn't being used by another patron.</template></category>
+
+<category><pattern>CAN I BORROW AN EBOOK FROM ANOTHER LIBRARY</pattern>
+<template>Current ebook licensing agreements don't allow for interlibrary borrowing or use at this time.</template></category>
+	<category><pattern>* EBOOKS * ILL *</pattern>
+	<template><srai>CAN I BORROW AN EBOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>* EBOOKS * ANOTHER LIBRARY *</pattern>
+	<template><srai>CAN I BORROW AN EBOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>* EBOOKS * WORLDCAT LIBRARY *</pattern>
+	<template><srai>CAN I BORROW AN EBOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>* EBOOKS * INTERLIBRARY LOAN *</pattern>
+	<template><srai>CAN I BORROW AN EBOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>* ILL * EBOOKS *</pattern>
+	<template><srai>CAN I BORROW AN EBOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>* ANOTHER LIBRARY * EBOOKS *</pattern>
+	<template><srai>CAN I BORROW AN EBOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>* INTERLIBRARY LOAN * EBOOKS *</pattern>
+	<template><srai>CAN I BORROW AN EBOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>* EBOOK * ILL *</pattern>
+	<template><srai>CAN I BORROW AN EBOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>* EBOOK * ANOTHER LIBRARY *</pattern>
+	<template><srai>CAN I BORROW AN EBOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>* EBOOK * WORLDCAT LIBRARY *</pattern>
+	<template><srai>CAN I BORROW AN EBOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>* EBOOK * INTERLIBRARY LOAN *</pattern>
+	<template><srai>CAN I BORROW AN EBOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>* ILL * EBOOK *</pattern>
+	<template><srai>CAN I BORROW AN EBOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>* ANOTHER LIBRARY * EBOOK *</pattern>
+	<template><srai>CAN I BORROW AN EBOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>* INTERLIBRARY LOAN * EBOOK *</pattern>
+	<template><srai>CAN I BORROW AN EBOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>* DOWNLOAD * EBOOK * ANOTHER LIBRARY *</pattern>
+	<template><srai>CAN I BORROW AN EBOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>* DOWNLOAD * EBOOK * WORLDCAT LIBRARY</pattern>
+	<template><srai>CAN I BORROW AN EBOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>* DOWNLOAD * EBOOK * INTERLIBRARY LOAN *</pattern>
+	<template><srai>CAN I BORROW AN EBOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>* ILL * DOWNLOAD * EBOOK *</pattern>
+	<template><srai>CAN I BORROW AN EBOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>* ANOTHER LIBRARY * DOWNLOAD * EBOOK *</pattern>
+	<template><srai>CAN I BORROW AN EBOOK FROM ANOTHER LIBRARY</srai></template></category>
+	<category><pattern>* INTERLIBRARY LOAN * DOWNLOAD * EBOOK *</pattern>
+	<template><srai>CAN I BORROW AN EBOOK FROM ANOTHER LIBRARY</srai></template></category>
+
+<category><pattern>HOW DO I TRANSFER A BOOK FROM GRUNIGEN TO LANGSON</pattern>
+<template>You can transfer a book from the Grunigen Medical Library to the Langson or Ayala Libraries (or vice-versa) using the <a href=" http://www.lib.uci.edu/ill-transfer-book-request">ILL Transfer Book Request</a> form.</template></category>
+	<category><pattern>HOW DO I TRANSFER A BOOK FROM GRUNIGEN TO AYALA</pattern>
+	<template><srai>HOW DO I TRANSFER A BOOK FROM GRUNIGEN TO LANGSON</srai></template></category>
+	<category><pattern>HOW DO I TRANSFER A BOOK FROM GRUNIGEN LIBRARY TO LANGSON LIBRARY</pattern>
+	<template><srai>HOW DO I TRANSFER A BOOK FROM GRUNIGEN TO LANGSON</srai></template></category>
+	<category><pattern>HOW DO I TRANSFER A BOOK FROM GRUNIGEN LIBRARY TO AYALA LIBRARY</pattern>
+	<template><srai>HOW DO I TRANSFER A BOOK FROM GRUNIGEN TO LANGSON</srai></template></category>
+	<category><pattern>HOW DO I TRANSFER A BOOK FROM THE GRUNIGEN LIBRARY TO THE LANGSON LIBRARY</pattern>
+	<template><srai>HOW DO I TRANSFER A BOOK FROM GRUNIGEN TO LANGSON</srai></template></category>
+	<category><pattern>HOW DO I TRANSFER A BOOK FROM THE GRUNIGEN LIBRARY TO THE AYALA SCIENCE LIBRARY</pattern>
+	<template><srai>HOW DO I TRANSFER A BOOK FROM GRUNIGEN TO LANGSON</srai></template></category>
+	<category><pattern>HOW * TRANSFER A BOOK FROM GRUNIGEN * LANGSON *</pattern>
+	<template><srai>HOW DO I TRANSFER A BOOK FROM GRUNIGEN TO LANGSON</srai></template></category>
+	<category><pattern>HOW * TRANSFER A BOOK FROM GRUNIGEN * AYALA *</pattern>
+	<template><srai>HOW DO I TRANSFER A BOOK FROM GRUNIGEN TO LANGSON</srai></template></category>
+	<category><pattern>* BOOK FROM GRUNIGEN * LANGSON *</pattern>
+	<template><srai>HOW DO I TRANSFER A BOOK FROM GRUNIGEN TO LANGSON</srai></template></category>
+	<category><pattern>* BOOK FROM GRUNIGEN * AYALA *</pattern>
+	<template><srai>HOW DO I TRANSFER A BOOK FROM GRUNIGEN TO LANGSON</srai></template></category>
+	
+<category><pattern>WHAT IS THE ASK A LIBRARIAN SERVICE</pattern>
+<template>Ask a Librarian encompasses all of the libraries reference services.  There are many ways to contact us, take a look at the 
+<a href=" 	http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a> page to check out your options!</template></category>
+	<category><pattern>* WHAT IS THE ASK A LIBRARIAN SERVICE</pattern>
+	<template><srai>WHAT IS THE ASK A LIBRARIAN SERVICE</srai></template></category>
+	<category><pattern>WHAT IS THE ASK A LIBRARIAN SERVICE *</pattern>
+	<template><srai>WHAT IS THE ASK A LIBRARIAN SERVICE</srai></template></category>
+	<category><pattern>* WHAT IS THE ASK A LIBRARIAN SERVICE *</pattern>
+	<template><srai>WHAT IS THE ASK A LIBRARIAN SERVICE</srai></template></category>
+	<category><pattern>REFERENCE SERVICE</pattern>
+	<template><srai>WHAT IS THE ASK A LIBRARIAN SERVICE</srai></template></category>
+	<category><pattern>REFERENCE</pattern>
+	<template><srai>WHAT IS THE ASK A LIBRARIAN SERVICE</srai></template></category>
+	<category><pattern>WHERE CAN I FIND A LIBRARIAN</pattern>
+	<template><srai>WHAT IS THE ASK A LIBRARIAN SERVICE</srai></template></category>
+
+<category><pattern>ASK A LIBRARIAN CHAT SERVICE AT MIDNIGHT</pattern>
+<template>The Ask a Librarian chat service is staffed 24 hours a day, 7 days a week.</template></category>
+	<category><pattern>* ASK A LIBRARIAN CHAT SERVICE AT MIDNIGHT</pattern>
+	<template><srai>ASK A LIBRARIAN CHAT SERVICE AT MIDNIGHT</srai></template></category>
+	<category><pattern>ASK A LIBRARIAN CHAT SERVICE AT MIDNIGHT *</pattern>
+	<template><srai>ASK A LIBRARIAN CHAT SERVICE AT MIDNIGHT</srai></template></category>
+	<category><pattern>* ASK A LIBRARIAN CHAT SERVICE AT MIDNIGHT *</pattern>
+	<template><srai>ASK A LIBRARIAN CHAT SERVICE AT MIDNIGHT</srai></template></category>
+
+<category><pattern>FAX</pattern>
+<template>We don't have a public fax machine. Try the FedEx in the University Town Center (UTC).</template></category>
+	<category><pattern>* FAX</pattern>
+	<template><srai>FAX</srai></template></category>
+	<category><pattern>FAX *</pattern>
+	<template><srai>FAX</srai></template></category>
+	<category><pattern>* FAX *</pattern>
+	<template><srai>FAX</srai></template></category>
+	<category><pattern>FAXING</pattern>
+	<template><srai>FAX</srai></template></category>
+	<category><pattern>* FAXING</pattern>
+	<template><srai>FAX</srai></template></category>
+	<category><pattern>FAXING *</pattern>
+	<template><srai>FAX</srai></template></category>
+	<category><pattern>* FAXING *</pattern>
+	<template><srai>FAX</srai></template></category>
+	
+<category><pattern>WIFI</pattern>
+<template>Information on how to set up your laptop with wireless is available on the 
+<a href=" http://www.lib.uci.edu/mobile-access-wireless" target="_blank">Mobile Access page</a>.</template></category>
+	<category><pattern>* WIFI</pattern>
+	<template><srai>WIFI</srai></template></category>
+	<category><pattern>WIFI *</pattern>
+	<template><srai>WIFI</srai></template></category>
+	<category><pattern>* WIFI *</pattern>
+	<template><srai>WIFI</srai></template></category>
+	<category><pattern>WI FI</pattern>
+	<template><srai>WIFI</srai></template></category>
+	<category><pattern>* WI FI</pattern>
+	<template><srai>WIFI</srai></template></category>
+	<category><pattern>WI FI *</pattern>
+	<template><srai>WIFI</srai></template></category>
+	<category><pattern>* WI FI *</pattern>
+	<template><srai>WIFI</srai></template></category>
+	<category><pattern>CAN I GET ONLINE WITH MY LAPTOP</pattern>
+	<template><srai>WIFI</srai></template></category>
+	<category><pattern>IS THERE WIRELESS FOR MY LAPTOP</pattern>
+	<template><srai>WIFI</srai></template></category>
+	<category><pattern>CAN THE PUBLIC USE THE CAMPUS INTERNET FOR FREE</pattern>
+	<template><srai>WIFI</srai></template></category>	
+	<category><pattern>WIFI PASSWORD</pattern>
+	<template><srai>WIFI</srai></template></category>
+	
+<category><pattern>DIGITAL SCHOLARSHIP SERVICES</pattern>
+<template>The UCI Libraries <a href=" http://previous.lib.uci.edu/dss/index.html" target="_blank">Digital Scholarship Service</a> helps the 
+UC Irvine community publish, share and preserve the digital products of research.</template></category>
+	<category><pattern>* DIGITAL SCHOLARSHIP SERVICES</pattern>
+	<template><srai>DIGITAL SCHOLARSHIP SERVICES</srai></template></category>
+	<category><pattern>DIGITAL SCHOLARSHIP SERVICES *</pattern>
+	<template><srai>DIGITAL SCHOLARSHIP SERVICES</srai></template></category>
+	<category><pattern>* DIGITAL SCHOLARSHIP SERVICES *</pattern>
+	<template><srai>DIGITAL SCHOLARSHIP SERVICES</srai></template></category>
+	<category><pattern>* DIGITAL SCHOLARSHIP</pattern>
+	<template><srai>DIGITAL SCHOLARSHIP SERVICES</srai></template></category>
+	<category><pattern>DIGITAL SCHOLARSHIP *</pattern>
+	<template><srai>DIGITAL SCHOLARSHIP SERVICES</srai></template></category>
+	<category><pattern>* DIGITAL SCHOLARSHIP *</pattern>
+	<template><srai>DIGITAL SCHOLARSHIP SERVICES</srai></template></category>
+	<category><pattern>DIGITAL SCHOLARSHIP</pattern>
+	<template><srai>DIGITAL SCHOLARSHIP SERVICES</srai></template></category>
+
+<category><pattern>ASK A LIBRARIAN</pattern>
+<template>Need help finding information? Can't figure out how to begin your research? <a href=" 	http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>!</template></category>
+	<category><pattern>* ASK A LIBRARIAN</pattern>
+	<template><srai>ASK A LIBRARIAN</srai></template></category>
+	<category><pattern>ASK A LIBRARIAN *</pattern>
+	<template><srai>ASK A LIBRARIAN</srai></template></category>
+	<category><pattern>* ASK A LIBRARIAN *</pattern>
+	<template><srai>ASK A LIBRARIAN</srai></template></category>
+	<category><pattern>RESEARCH HELP</pattern> 
+	<template><srai>ASK A LIBRARIAN</srai></template></category>
+	<category><pattern>* HELP WITH RESEARCH</pattern> 
+	<template><srai>ASK A LIBRARIAN</srai></template></category>
+	
+<category><pattern>DDS</pattern>
+<template><a href=" http://www.lib.uci.edu/document-delivery-service" target="_blank">Document Delivery Service (DDS)</a> delivers library materials to eligible 
+UCI faculty, graduate students, and administrators on campus and at selected locations at the UCI Medical Center.</template></category>
+<category><pattern>* DDS</pattern>
+	<template><srai>DDS</srai></template></category>
+	<category><pattern>DDS *</pattern>
+	<template><srai>DDS</srai></template></category>
+	<category><pattern>* DDS *</pattern>
+	<template><srai>DDS</srai></template></category>
+	<category><pattern>DOCUMENT DELIVERY SERVICE</pattern>
+	<template><srai>DDS</srai></template></category>
+	<category><pattern>* DOCUMENT DELIVERY SERVICE</pattern>
+	<template><srai>DDS</srai></template></category>
+	<category><pattern>DOCUMENT DELIVERY SERVICE *</pattern>
+	<template><srai>DDS</srai></template></category>
+	<category><pattern>* DOCUMENT DELIVERY SERVICE *</pattern>
+	<template><srai>DDS</srai></template></category>
+	<category><pattern>* HAVE A BOOK PICKED UP	*</pattern>
+	<template><srai>DDS</srai></template></category>
+
+<category><pattern>DOCUMENT DELIVERY SERVICE PICKUP</pattern>
+<template>You can schedule a Document Delivery Pickup via our <a href=" http://www.lib.uci.edu/document-delivery-service" target="_blank">Document Delivery Service (DDS)</a> page.</template></category>
+	<category><pattern>SCHEDULE A PICKUP</pattern>
+	<template><srai>DOCUMENT DELIVERY SERVICE PICKUP</srai></template></category>
+	<category><pattern>SCHEDULE A * PICKUP</pattern>
+	<template><srai>DOCUMENT DELIVERY SERVICE PICKUP</srai></template></category>
+	<category><pattern>* SCHEDULE A PICKUP</pattern>
+	<template><srai>DOCUMENT DELIVERY SERVICE PICKUP</srai></template></category>
+	<category><pattern>* SCHEDULE A * PICKUP</pattern>
+	<template><srai>DOCUMENT DELIVERY SERVICE PICKUP</srai></template></category>
+	<category><pattern>SCHEDULE A PICKUP *</pattern>
+	<template><srai>DOCUMENT DELIVERY SERVICE PICKUP</srai></template></category>
+	<category><pattern>SCHEDULE A * PICKUP *</pattern>
+	<template><srai>DOCUMENT DELIVERY SERVICE PICKUP</srai></template></category>
+	<category><pattern>* SCHEDULE A PICKUP *</pattern>
+	<template><srai>DOCUMENT DELIVERY SERVICE PICKUP</srai></template></category>
+	<category><pattern>* SCHEDULE A * PICKUP *</pattern>
+	<template><srai>DOCUMENT DELIVERY SERVICE PICKUP</srai></template></category>
+	<category><pattern>SCHEDULE A PICK*UP</pattern>
+	<template><srai>DOCUMENT DELIVERY SERVICE PICKUP</srai></template></category>
+	<category><pattern>SCHEDULE A * PICK*UP</pattern>
+	<template><srai>DOCUMENT DELIVERY SERVICE PICKUP</srai></template></category>
+	<category><pattern>* SCHEDULE A PICK*UP</pattern>
+	<template><srai>DOCUMENT DELIVERY SERVICE PICKUP</srai></template></category>
+	<category><pattern>* SCHEDULE A * PICK*UP</pattern>
+	<template><srai>DOCUMENT DELIVERY SERVICE PICKUP</srai></template></category>
+	<category><pattern>SCHEDULE A PICK*UP *</pattern>
+	<template><srai>DOCUMENT DELIVERY SERVICE PICKUP</srai></template></category>
+	<category><pattern>SCHEDULE A * PICK*UP *</pattern>
+	<template><srai>DOCUMENT DELIVERY SERVICE PICKUP</srai></template></category>
+	<category><pattern>* SCHEDULE A PICK*UP *</pattern>
+	<template><srai>DOCUMENT DELIVERY SERVICE PICKUP</srai></template></category>
+	<category><pattern>* SCHEDULE A * PICK*UP *</pattern>
+	<template><srai>DOCUMENT DELIVERY SERVICE PICKUP</srai></template></category>
+
+<category><pattern>HOW DO I CONNECT FROM OFF CAMPUS</pattern>
+<template>Information on how to log on from off campus is available here: <a href=" http://www.lib.uci.edu/connect-campus" target="_blank">Connect from Off-Campus</a>.</template></category>
+	<category><pattern>* OFF CAMPUS *</pattern>
+	<template><srai>HOW DO I CONNECT FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* OFF CAMPUS</pattern>
+	<template><srai>HOW DO I CONNECT FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>HOW DO I CONNECT FROM HOME</pattern>
+	<template><srai>HOW DO I CONNECT FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* CONNECT FROM HOME</pattern>
+	<template><srai>HOW DO I CONNECT FROM OFF CAMPUS</srai></template></category>
+	<category><pattern>* CONNECT FROM HOME *</pattern>
+	<template><srai>HOW DO I CONNECT FROM OFF CAMPUS</srai></template></category>
+
+<category><pattern>MAC</pattern>
+<that>Information on how to log on from off campus_</that>
+<template>Take a look at the UCI OIT page on how to install and configure the Software VPN for Mac at http://www.oit.uci.edu/kb/vpn-mac/.</template></category>
+
+<category><pattern>* MAC *</pattern>
+<that>Information on how to log on from off campus_</that>
+<template>Take a look at the UCI OIT page on how to install and configure the Software VPN for Mac at http://www.oit.uci.edu/kb/vpn-mac/.</template></category>
+
+<category><pattern>* MAC</pattern>
+<that>Information on how to log on from off campus_</that>
+<template>Take a look at the UCI OIT page on how to install and configure the Software VPN for Mac at http://www.oit.uci.edu/kb/vpn-mac/.</template></category>
+
+<category><pattern>OFFLINE</pattern>
+<template>Do you mean off campus?</template></category>
+
+	<category><pattern>YES</pattern>
+	<that>Do you mean off campus_</that>
+	<template><srai>HOW DO I CONNECT FROM OFF CAMPUS</srai></template></category>
+
+	<category><pattern>NO</pattern>
+	<that>Do you mean off campus_</that>
+	<template>Then I don't know what you mean!</template></category>
+	
+<category><pattern>IT WAS ASKING ME TO SIGN IN AND PAY</pattern>
+<template>Are you currently on or off campus?</template></category>
+
+	<category><pattern>ON CAMPUS</pattern>
+	<that>Are you currently on or off campus_</that>
+	<template>There could be an issue with the resource, please contact the Reference (Ask Us) Desk at(949) 824-4976.</template></category>
+	
+	<category><pattern>ON</pattern>
+	<that>Are you currently on or off campus_</that>
+	<template>There could be an issue with the resource, please contact the Reference (Ask Us) Desk at(949) 824-4976.</template></category>
+	
+	<category><pattern>OFF CAMPUS</pattern>
+	<that>Are you currently on or off campus_</that>
+	<template>Did you log into Connect From Off-Campus?</template></category>
+	
+	<category><pattern>OFF</pattern>
+	<that>Are you currently on or off campus_</that>
+	<template>Did you log into Connect From Off-Campus?</template></category>
+	
+	<category><pattern>YES</pattern>
+	<that>Did you log into Connect From Off Campus_</that>
+	<template>There could be an issue with your installation, please call OIT at (949) 824-2222 for further assistance.</template></category>
+
+	<category><pattern>NO</pattern>
+	<that>Did you log into Connect From Off Campus_</that>
+	<template>Log in via <a href=" http://www.lib.uci.edu/connect-campus" target="_blank">Connect From Off-Campus</a> and then retry accessing the resource.</template></category>
+
+	<category><pattern>EBSCOHOST NOT WORKING</pattern>
+<template>The EBSCOhost databases are experiencing technical problems and searches are timing out intermittently.  EBSCOhost is aware of and is 
+working on resolving the problem and hopes to have access restored later today.</template></category>  
+	<category><pattern>* EBSCOHOST NOT WORKING *</pattern>
+	<template><srai>EBSCOHOST NOT WORKING</srai></template></category>
+	<category><pattern>EBSCOHOST NOT WORKING *</pattern>
+	<template><srai>EBSCOHOST NOT WORKING</srai></template></category>
+	<category><pattern>* EBSCOHOST NOT WORKING</pattern>
+	<template><srai>EBSCOHOST NOT WORKING</srai></template></category>		
+	
+<category><pattern>HOW DO I GET ACCESS TO ONLINE CONTENT</pattern>
+<template>Can you be more specific? Do you need information on the VPN? Access to ANTPAC?</template></category>
+
+<category><pattern>VPN</pattern>
+<that>Can you be more specific Do you need information on the VPN_</that>
+<template><srai>HOW DO I LOG ON FROM OFF CAMPUS</srai></template></category>
+
+<category><pattern>CANCEL A RESERVATION</pattern>
+<template>It depends on the service! For an RCS call the Ask Us Desk at 824-4976, for the practice presentation room call the MRC at 
+824-7072, and for reserves or a hold call the ASL Check Out Desk at 824-3692 or the LL Check Out Desk at 824-6842.</template></category>
+
+<category><pattern>WHO CAN HELP ME WITH RESEARCH</pattern>
+<template>Reference librarians can help you with your research! All of our services are available at <a href=" 	http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	<category><pattern>* WHO CAN HELP ME WITH RESEARCH</pattern>
+	<template><srai>WHO CAN HELP ME WITH RESEARCH</srai></template></category>
+	<category><pattern>WHO CAN HELP ME WITH RESEARCH *</pattern>
+	<template><srai>WHO CAN HELP ME WITH RESEARCH</srai></template></category>
+	<category><pattern>* WHO CAN HELP ME WITH RESEARCH *</pattern>
+	<template><srai>WHO CAN HELP ME WITH RESEARCH</srai></template></category>
+	<category><pattern>WHERE CAN I GET * HELP</pattern>
+	<template><srai>WHO CAN HELP ME WITH RESEARCH</srai></template></category>
+	<category><pattern>HOW CAN I GET HELP</pattern>
+	<template><srai>WHO CAN HELP ME WITH RESEARCH</srai></template></category>
+	<category><pattern>HELP</pattern>
+	<template><srai>WHO CAN HELP ME WITH RESEARCH</srai></template></category>
+	<category><pattern>HOW DO I GET HELP</pattern>
+	<template><srai>WHO CAN HELP ME WITH RESEARCH</srai></template></category>
+	
+<category><pattern>HOW CAN I CONTACT A LIBRARIAN</pattern>
+<template>Librarians can be contacted through our <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a> service or check 
+our <a href=" http://www.lib.uci.edu/subject-librarians" target="_blank">librarian contact list</a> if you need a subject specialist.</template></category>
+	<category><pattern>* HOW CAN I CONTACT A LIBRARIAN</pattern>
+	<template><srai>HOW CAN I CONTACT A LIBRARIAN</srai></template></category>
+	<category><pattern>HOW CAN I CONTACT A LIBRARIAN *</pattern>
+	<template><srai>HOW CAN I CONTACT A LIBRARIAN</srai></template></category>
+	<category><pattern>* HOW CAN I CONTACT A LIBRARIAN *</pattern>
+	<template><srai>HOW CAN I CONTACT A LIBRARIAN</srai></template></category>
+	<category><pattern>HOW CAN I GET HELP FROM A LIBRARIAN</pattern>
+	<template><srai>HOW CAN I CONTACT A LIBRARIAN</srai></template></category>
+	<category><pattern>* HOW CAN I GET HELP FROM A LIBRARIAN</pattern>
+	<template><srai>HOW CAN I CONTACT A LIBRARIAN</srai></template></category>
+	<category><pattern>HOW CAN I GET HELP FROM A LIBRARIAN *</pattern>
+	<template><srai>HOW CAN I CONTACT A LIBRARIAN</srai></template></category>
+	<category><pattern>* HOW CAN I GET HELP FROM A LIBRARIAN *</pattern>	
+	<template><srai>HOW CAN I CONTACT A LIBRARIAN</srai></template></category>
+	<category><pattern>HOW CAN I SPEAK TO A LIBRARIAN</pattern>
+	<template><srai>HOW CAN I CONTACT A LIBRARIAN</srai></template></category>
+	<category><pattern>LIBRARIAN</pattern>
+	<template><srai>HOW CAN I CONTACT A LIBRARIAN</srai></template></category>
+	<category><pattern>CAN I SPEAK TO A LIBRARIAN</pattern>
+	<template><srai>HOW CAN I CONTACT A LIBRARIAN</srai></template></category>
+
+<category><pattern>COLLABORATION ZONE</pattern>
+<template>The Collaboration Zone is a configurable space for group projects on the 3rd floor of the Langson Library. Find more information <a href=" 	https://www.lib.uci.edu/langson-library-collaboration-zone" target="_blank">here</a>.</template></category>
+	<category><pattern>_ COLLABORATION ZONE</pattern>
+	<template><srai>COLLABORATION ZONE</srai></template></category>
+	<category><pattern>COLLABORATION ZONE *</pattern>
+	<template><srai>COLLABORATION ZONE</srai></template></category>
+	<category><pattern>* COLLABORATION ZONE *</pattern>
+	<template><srai>COLLABORATION ZONE</srai></template></category>
+	<category><pattern>COLLABORATION ROOM</pattern>
+	<template><srai>COLLABORATION ZONE</srai></template></category>
+	<category><pattern>_ COLLABORATION ROOM</pattern>
+	<template><srai>COLLABORATION ZONE</srai></template></category>
+	<category><pattern>COLLABORATION ROOM *</pattern>
+	<template><srai>COLLABORATION ZONE</srai></template></category>
+	<category><pattern>* COLLABORATION ROOM *</pattern>
+	<template><srai>COLLABORATION ZONE</srai></template></category>
+
+	
+</aiml>

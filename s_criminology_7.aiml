@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- CRIMINOLOGY -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>CRIMINOLOGY *</pattern>
+	<template><think><set name="topic">criminology</set></think><sr /></template></category>
+
+<category><pattern>* CRIMINOLOGY *</pattern>
+	<template><think><set name="topic">criminology</set></think><sr /></template></category>
+	
+<category><pattern>CRIMINOLOGY</pattern>	
+	<template>For resources on criminology check out the <a href=" http://guides.lib.uci.edu/criminology" target="_blank">Criminology, Law and Society Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<category><pattern>LAW</pattern>	
+	<template>For resources on law and criminology check out the <a href=" http://guides.lib.uci.edu/criminology" target="_blank">Criminology, Law and Society Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Interactions -->
+
+<category><pattern>CRIMINOLOGY</pattern>
+	<that>Computer crimes as a subject is included in the broader subjects of Computer Science and Criminology Would you like resource recommendations for computer science or criminology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/236462" target="_blank">ProQuest Criminal Justice</a> 
+	and/or <a href=" http://uclibs.org/PID/113563" target="_blank">Criminal Justice Abstracts</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/criminology" target="_blank">Criminology, Law and Society Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<!-- Subject keywords-->
+
+<category><pattern>CRIME</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/113563" target="_blank">Criminal Justice Abstracts</a> 
+			and/or <a href=" http://uclibs.org/PID/236462" target="_blank">ProQuest Criminal Justice</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/criminology" target="_blank">Criminology, Law and Society Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>ALCOHOLISM AND CRIME</pattern>
+<template><srai>CRIME</srai></template></category> 
+<category><pattern>COMMERCIAL CRIMES</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>CRIMES</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>CRIMES OF PASSION</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>CRIMES WITHOUT VICTIMS</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>CRIMINAL JUSTICE</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>CRIMINALS</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>DELINQUENCY</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>DRUG ABUSE AND CRIME</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>EDUCATION AND CRIME</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>EMPLOYEE CRIMES</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>FEAR OF CRIME</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>FELONIES</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>FEMINIST CRIMINOLOGY</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>FIREARMS AND CRIME</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>HATE CRIMES</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>HYPNOTISM AND CRIME</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>ILLEGITIMACY AND CRIME</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>IMPOSTORS AND IMPOSTURE</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>JUVENILE DELINQUENCY</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>MASS MEDIA AND CRIME</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>MENTALLY HANDICAPPED AND CRIME</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>MISDEMEANORS</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>NARCOTICS AND CRIME</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>OCCULT CRIME</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>ORGANIZED CRIME</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>PARAPSYCHOLOGY AND CRIME</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>PHYSICALLY HANDICAPPED AND CRIME</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>READING DISABILITY AND CRIME</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>RECIDIVISM</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>RURAL CRIMES</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>SEX CRIMES</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>SUBURBAN CRIMES</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>SWINDLERS AND SWINDLING</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>TRANSNATIONAL CRIME</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>UNEMPLOYMENT AND CRIME</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>URBAN CRIME</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>VIOLENT CRIMES</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>WAR AND CRIME</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>WHITE COLLAR CRIMES</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>CRIMINOLOGY</pattern>
+<template><srai>CRIME</srai></template></category>
+<category><pattern>WEBER*S LAW</pattern>
+<template><srai>CRIME</srai></template></category>
+	
+<category><pattern>CITY CRIME</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/236462" target="_blank">ProQuest Criminal Justice</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/criminology" target="_blank">Criminology, Law and Society Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>MASS INCARCERATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/criminology" target="_blank">Criminology, Law and Society Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	<category><pattern>HUMAN TRAFFICKING</pattern>
+	<template><srai>MASS INCARCERATION</srai></template></category>
+	<category><pattern>HUMAN TRAFFICKERS</pattern>
+	<template><srai>MASS INCARCERATION</srai></template></category>
+	<category><pattern>JAMIE CHUNG</pattern>
+	<template><srai>MASS INCARCERATION</srai></template></category>
+	<category><pattern>LETHAL INJECTION</pattern>
+	<template><srai>MASS INCARCERATION</srai></template></category>
+	<category><pattern>LETHAL INJECTION *</pattern>
+	<template><srai>MASS INCARCERATION</srai></template></category>
+	<category><pattern>LICENSING PREVENTION *</pattern>
+	<template><srai>MASS INCARCERATION</srai></template></category>
+
+<category><pattern>RAPE IN MILITARIES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/criminology" target="_blank">Criminology, Law and Society Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	<category><pattern>RAPE IN MILITARY</pattern>
+	<template><srai>RAPE IN MILITARIES</srai></template></category>
+	
+</aiml>

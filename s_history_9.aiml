@@ -1,0 +1,223 @@
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- History -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>HISTORY *</pattern>
+	<template><think><set name="topic">history</set></think><sr /></template></category>
+
+<category><pattern>HISTORY</pattern>	
+	<template>For resources on history check out the <a href=" http://guides.lib.uci.edu/history" target="_blank">History Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Interactions -->
+
+<category><pattern>HISTORY</pattern>
+	<that>Archaeology as a subject is included in the broader subjects of Anthropology and History Would you like resource recommendations for anthropology or history_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>, 
+	<a href=" http://www.anthrosource.net/" target="_blank">AnthroSource</a>, and <a href=" http://uclibs.org/PID/1980" target="_blank">JSTOR</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/history" target="_blank">History Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>HISTORY</pattern>
+	<that>Historical sociology as a subject is included in the broader subjects of Anthropology History and Sociology Would you like resource recommendations for anthropology history or sociology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12775" target="_blank">Historical Abstracts</a> and 
+	<a href=" http://uclibs.org/PID/6159" target="_blank">America History and Life</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/history" target="_blank">History Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>HISTORY RESOURCES</pattern>
+	<that>Social history as a subject is included in the broader subjects of History and Sociology Would you like resource recommendations for history or sociology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12775" target="_blank">Historical Abstracts</a> and 
+	<a href=" http://uclibs.org/PID/6159" target="_blank">America History and Life</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/history" target="_blank">History Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<!-- Subject keywords-->
+
+<category><pattern>ARCHITECTURE AND HISTORY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/105528" target="_blank">Avery Index</a>,  
+			<a href=" http://uclibs.org/PID/12775" target="_blank">Historical Abstracts</a>, and <a href=" http://uclibs.org/PID/1980" target="_blank">JSTOR</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/history" target="_blank">History Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>HISTORY RESOURCES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12775" target="_blank">Historical Abstracts</a> and 
+			<a href=" http://uclibs.org/PID/6159" target="_blank">America History and Life</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/history" target="_blank">History Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>ANIMALS AND HISTORY</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>BATTLES</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>CONSPIRACIES</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>CONSTITUTIONAL HISTORY</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>COUPS D'ETAT</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>DIPLOMACY</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>DIPLOMATICS</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>DISEASES AND HISTORY</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>FOLKLORE AND HISTORY</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>GENEALOGY</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>HISTORIC SITES</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>HISTORICAL REENACTMENTS</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>LANGUAGE AND HISTORY</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>MASSACRES</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>MIGRATIONS OF NATIONS</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>MILITARY HISTORY</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>NAVAL HISTORY</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>NUMISMATICS</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>PERSONALITY AND HISTORY</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>PHYSICAL ANTHROPOLOGY AND HISTORY</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>PLANTS AND HISTORY</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>PROTOHISTORY</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>PUBLIC HISTORY</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>REVOLUTIONS</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>RIOTS</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>SCANDALS</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>SEALS</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>NUMISMATICS</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>SEX AND HISTORY</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>SOCIAL SCIENCES AND HISTORY</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>TEMPERANCE MOVEMENT</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>* TEMPERANCE MOVEMENT</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>PROHIBITION ERA</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+<category><pattern>HOLOCAUST</pattern>
+<template><srai>HISTORY RESOURCES</srai></template></category>
+
+<category><pattern>BIOGRAPHY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12775" target="_blank">Historical Abstracts</a>, 
+			<a href=" http://uclibs.org/PID/6159" target="_blank">America History and Life</a>, <a href=" http://infotrac.galegroup.com/itweb/univca20?db=GVRL" target="_blank">Gale Virtual Reference Library</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/history" target="_blank">History Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>CHURCH HISTORY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12775" target="_blank">Historical Abstracts</a> and 
+			<a href=" http://uclibs.org/PID/105587" target="_blank">ATLA Religion Database</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/history" target="_blank">History Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>HISTORICAL FICTION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12775" target="_blank">Historical Abstracts</a> and 
+			<a href=" http://uclibs.org/PID/83591" target="_blank">MLA International Bibliography</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/history" target="_blank">History Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>LITERATURE AND HISTORY</pattern>
+<template><srai>HISTORICAL FICTION</srai></template></category>
+
+<category><pattern>MOTION PICTURES AND HISTORY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12775" target="_blank">Historical Abstracts</a> and 
+			<a href=" http://uclibs.org/PID/105490" target="_blank">International Index to Film Periodicals</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/history" target="_blank">History Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>POLITICAL RESTORATIONS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12775" target="_blank">Historical Abstracts</a> and 
+			<a href=" http://uclibs.org/PID/99693" target="_blank">Worldwide Political Science Abstracts</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/history" target="_blank">History Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	<category><pattern>RACISM IN BRITAIN</pattern>
+	<template><srai>POLITICAL RESTORATIONS</srai></template></category>
+	<category><pattern>RACISM IN BRITAIN *</pattern>
+	<template><srai>POLITICAL RESTORATIONS</srai></template></category>
+	<category><pattern>* IRANIAN REVOLUTION</pattern>
+	<template><srai>POLITICAL RESTORATIONS</srai></template></category>
+	<category><pattern>* IRANIAN REVOLUTION *</pattern>
+	<template><srai>POLITICAL RESTORATIONS</srai></template></category>
+
+<category><pattern>WORLD HISTORY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12775" target="_blank">Historical Abstracts</a> and 
+			<a href=" http://uclibs.org/PID/1980" target="_blank">JSTOR</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/history" target="_blank">History Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	<category><pattern>BYZANTINE EMPIRE</pattern>
+	<template><srai>WORLD HISTORY</srai></template></category>
+	<category><pattern>INDUSTRIAL REVOLUTION</pattern>
+	<template><srai>WORLD HISTORY</srai></template></category>
+	
+<category><pattern>HISTORICAL TELEVISION PROGRAMS</pattern> 
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with the <a href=" http://uclibs.org/PID/31080" target="_blank">International Index to The Performing Arts Full Text
+			</a> and <a href=" http://uclibs.org/PID/105490" target="_blank">FIAF: International Film Archive Database</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/history" target="_blank">History Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>TELEVISION AND HISTORY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/31080" target="_blank">International Index to The Performing Arts Full Text</a> and 
+			<a href=" http://uclibs.org/PID/105490" target="_blank">FIAF: International Film Archive Database</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/history" target="_blank">History Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>ARCHAEOLOGY AND HISTORY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1980" target="_blank">JSTOR</a> and 
+			<a href=" http://www.anthrosource.net/" target="_blank">AnthroSource</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/history" target="_blank">History Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+</aiml>

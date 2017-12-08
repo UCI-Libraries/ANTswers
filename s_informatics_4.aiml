@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- INFORMATICS -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>INFORMATICS *</pattern> 
+	<template><think><set name="topic">INFORMATICS</set></think><sr /></template></category>
+
+<category><pattern>INFORMATICS</pattern>	
+	<template>For resources on informatics check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Interactions -->
+
+<category><pattern>INFORMATICS</pattern>
+	<that>Documentation as a subject is included in the broader subjects of Informatics and Library Science Would you like resource recommendations for informatics and library science_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> 
+	and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<category><pattern>INFORMATICS</pattern>
+	<that>Information resources as a subject is included in the broader subjects of Informatics and Library Science Would you like resource recommendations for informatics and library science_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> 
+	and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<category><pattern>INFORMATICS</pattern>
+	<that>Information retrieval as a subject is included in the broader subjects of Informatics and Library Science Would you like resource recommendations for informatics and library science_</that>
+	<template>We would recommend that you start your search with <a href=" http://aisel.aisnet.org/" target="_blank">AISel Digital Library</a> 
+	and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<category><pattern>INFORMATICS</pattern>
+	<that>Information services as a subject is included in the broader subjects of Informatics and Library Science Would you like resource recommendations for informatics and library science_</that>
+	<template>We would recommend that you start your search with <a href=" http://aisel.aisnet.org/" target="_blank">AISel Digital Library</a>  
+	and/or <a href=" hhttps://www.scopus.com/" target="_blank">Scopus</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<category><pattern>INFORMATICS</pattern>
+	<that>Library science as a subject is included in the broader subjects of Informatics and Library Science Would you like resource recommendations for informatics or library science_</that>
+	<template>We would recommend that you start your search with <a href=" http://search.ebscohost.com/login.aspx?authtype=ip,uidandamp;profile=ehostandamp;defaultdb=lxh" target="_blank">LISTA</a> 
+	and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<category><pattern>INFORMATICS</pattern>
+	<that>Medical informatics as a subject is included in the broader subjects of Informatics and Library Science Would you like resource recommendations for informatics or Library science_</that>
+	<template>We would recommend that you start your search with <a href=" hhttps://www.scopus.com" target="_blank">Scopus</a> 
+	and/or <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<category><pattern>INFORMATICS</pattern>
+	<that>Women in Information Science as a subject is included in the broader subjects of Informatics and Library Science Would you like resource recommendations for informatics or library science_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> 
+	and/or <a href=" http://uclibs.org/PID/283501" target="_blank">ACM Digital Library</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<!-- Subject keywords-->
+
+<category><pattern>AGRICULTURAL INFORMATICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126814" target="_blank">Agricola</a> 
+			and/or <a href=" https://www.scopus.com/" target="_blank">Scopus</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>COMPUTATIONAL INFORMATICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/283501" target="_blank">ACM Digital Library</a> 
+			and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>PERVASIVE INFORMATICS</pattern>
+<template><srai>COMPUTATIONAL INFORMATICS</srai></template></category>
+
+<category><pattern>BIODIVERSITY INFORMATICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" https://search.proquest.com/environmentalscience" target="_blank">Agricultural and Environmental Sciences Database </a> 
+			and/or <a href=" https://www.scopus.com" target="_blank">Scopus</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>FOREST INFORMATICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" https://search.proquest.com/environmentalscience" target="_blank">Agricultural and Environmental Sciences Database </a> 
+			and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>COMMUNICATION IN INFORMATION SCIENCE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://aisel.aisnet.org/" target="_blank">AISel Digital Library</a> 
+			and/or <a href=" http://uclibs.org/PID/113560" target="_blank">Communication Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>IRRIGATION INFORMATICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://ascelibrary.org/" target="_blank">ASCE Library</a> 
+			and/or <a href=" https://search.proquest.com/environmentalscience" target="_blank">Agricultural and Environmental Sciences Database</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>BIOIMAGE INFORMATICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a> 
+			and/or <a href=" https://www.scopus.com" target="_blank">Scopus</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>BUSINESS INFORMATICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" hhttp://uclibs.org/PID/126938" target="_blank">Business Source Complete</a> 
+			and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>INFORMATICS ENGINEERING</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" hhttp://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+			and/or <a href=" http://uclibs.org/PID/6940" target="_blank">IEEE Xplore</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>ENGINEERING INFORMATICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" hhttp://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+			and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>EDUCATION INFORMATICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/37518" target="_blank">Education Source</a> 
+			and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+			For more resources check out the <a href=" https://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>LEGAL INFORMATICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://infotrac.galegroup.com/itweb/ucirvine?db=LT" target="_blank">LegalTrac</a> 
+			and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>MATERIALS INFORMATICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/97288" target="_blank">MRS Online </a> 
+			and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>BIOINFORMATICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> 
+			and/or <a href=" https://www.scopus.com" target="_blank">Scopus</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>CONSUMER HEALTH INFORMATICS</pattern>
+<template><srai>BIOINFORMATICS</srai></template></category>
+<category><pattern>HEALTH INFORMATICS</pattern>
+<template><srai>BIOINFORMATICS</srai></template></category>	
+
+<category><pattern>MUSIC INFORMATICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/272440" target="_blank">RILM</a> 
+			and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>CHEMINFORMATICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/224435" target="_blank">SciFinder Scholar</a> 
+			and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>LABORATORY INFORMATICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" https://www.scopus.com" target="_blank">Scopus</a> 
+			and/or <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a>. 
+			For more resources check out the <a href=" https://guides.lib.uci.edu/biology" target="_blank">Biology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>DISEASE INFORMATICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" https://www.scopus.com" target="_blank">Scopus</a> 
+			and/or <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>COMMUNITY INFORMATICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> 
+			and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>SOCIAL INFORMATICS</pattern>
+<template><srai>COMMUNITY INFORMATICS</srai></template></category>
+<category><pattern>IMAGING INFORMATICS</pattern>
+<template><srai>COMMUNITY INFORMATICS</srai></template></category>
+<category><pattern>PUBLIC HEALTH INFORMATICS</pattern>
+<template><srai>COMMUNITY INFORMATICS</srai></template></category>
+
+<category><pattern>TECHNICAL INFORMATCS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> 
+			and/or <a href=" http://uclibs.org/PID/283501" target="_blank">ACM Digital Library</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>ENVIRONMENTAL INFORMATICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> 
+			and/or <a href=" https://search.proquest.com/environmentalscience" target="_blank">Agricultural and Environmental Sciences Database</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>INFORMATION SCIENCE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> 
+			and/or <a href=" http://aisel.aisnet.org/" target="_blank">AISeL Digital Library</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>EVOLUTIONARY INFORMATICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> 
+			and/or <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>ECOINFORMATICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> 
+			and/or <a href=" http://uclibs.org/PID/9525" target="_blank">EconLit</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>GEOINFORMATICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> 
+			and/or <a href=" http://uclibs.org/PID/16251" target="_blank">GeoRef</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>TRANSLATIONAL RESEARCH INFORMATICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> 
+			and/or <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>ARCHIVAL INFORMATICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> 
+			and/or <a href=" https://www.scopus.com" target="_blank">Scopus</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>DEVELOPMENT INFORMATICS</pattern>
+<template><srai>ARCHIVAL INFORMATICS</srai></template></category>
+<category><pattern>NEUROINFORMATICS</pattern>
+<template><srai>ARCHIVAL INFORMATICS</srai></template></category>
+<category><pattern>TRANSLATIONAL RESEARCH INFORMATICS</pattern>
+<template><srai>ARCHIVAL INFORMATICS</srai></template></category>
+
+
+<category><pattern>TRANSLATIONAL RESEARCH INFORMATICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> 
+			and/or <a href=" https://search.proquest.com/waterresources/advanced?accountid=14509" target="_blank">Water Resources Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/Informatics" target="_blank">Informatics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	<category><pattern>HYDROINFORMATICS</pattern>
+	<template><srai>TRANSLATIONAL RESEARCH INFORMATICS</srai></template></category>
+	
+</aiml>

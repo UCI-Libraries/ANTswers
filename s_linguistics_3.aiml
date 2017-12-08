@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- LINGUISTICS -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>LINGUISTICS *</pattern>
+	<template><think><set name="topic">linguistics</set></think><sr /></template></category>
+
+<category><pattern>LINGUISTICS</pattern>	
+	<template>For resources on linguistics check out the <a href=" http://guides.lib.uci.edu/linguistics" target="_blank">Linguistics Research Guide</a>  
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   
+	</template></category>
+	
+<!-- Interactions -->
+
+<category><pattern>LINGUISTICS</pattern>
+	<that>Anthropological Linguistics as a subject is included in the broader subjects of Anthropology and Linguistics Would you like resource recommendations for anthropology or linguistics_</that>
+	<template>We would recommend that you start your search with <a href=" http://search.proquest.com/llba/advanced" target="_blank">Linguistics and Language Behavior Abstracts (LLBA)</a> 
+	and/or <a href=" http://uclibs.org/PID/113580" target="_blank">MLA International Bibliography</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/linguistics" target="_blank">Linguistics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>LINGUISTICS</pattern>
+	<that>Biolinguistics as a subject is included in the broader subjects of Biology and Linguistics Would you like resource recommendations for biology or linguistics_</that>
+	<template>We would recommend that you start your search with <a href=" http://search.proquest.com/llba/advanced" target="_blank">Linguistics and Language Behavior Abstracts (LLBA)</a> 
+	and/or <a href=" http://uclibs.org/PID/113580" target="_blank">MLA International Bibliography</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/linguistics" target="_blank">Linguistics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>LINGUISTICS</pattern>
+	<that>Componential anlaysis as a subject is included in the broader subjects of Anthropology and Linguistics Would you like resource recommendations for anthropology or linguistics_</that>
+	<template>We would recommend that you start your search with <a href=" http://search.proquest.com/llba/advanced" target="_blank">Linguistics and Language Behavior Abstracts (LLBA)</a> 
+	and/or <a href=" http://uclibs.org/PID/113580" target="_blank">MLA International Bibliography</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/linguistics" target="_blank">Linguistics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>LINGUISTICS</pattern>
+	<that>Field theory as a subject is included in the broader subjects of Linguistics and Physics Would you like resource recommendations for linguistics or physics_</that>
+	<template>We would recommend that you start your search with <a href=" http://search.proquest.com/llba/advanced" target="_blank">Linguistics and Language Behavior Abstracts (LLBA)</a> 
+	and/or <a href=" http://uclibs.org/PID/113580" target="_blank">MLA International Bibliography</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/linguistics" target="_blank">Linguistics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>LINGUISTICS</pattern>
+	<that>Functionalism as a subject is included in the broader subjects of Linguistics and Psychology Would you like resource recommendations for linguistics or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://search.proquest.com/llba/advanced" target="_blank">Linguistics and Language Behavior Abstracts (LLBA)</a> 
+	and/or <a href=" http://uclibs.org/PID/113580" target="_blank">MLA International Bibliography</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/linguistics" target="_blank">Linguistics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>LINGUISTICS</pattern>
+	<that>Psycholinguistics as a subject is included in the broader subjects of Linguistics and Psychology Would you like resource recommendations for linguistics or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://search.proquest.com/llba/advanced" target="_blank">Linguistics and Language Behavior Abstracts (LLBA)</a> 
+	and/or <a href=" http://uclibs.org/PID/113580" target="_blank">MLA International Bibliography</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/linguistics" target="_blank">Linguistics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>LINGUISTICS</pattern>
+	<that>Sociolinguistics as a subject is included in the broader subjects of Linguistics and Sociology Would you like resource recommendations for linguistics or sociology_</that>
+	<template>We would recommend that you start your search with <a href=" http://search.proquest.com/llba/advanced" target="_blank">Linguistics and Language Behavior Abstracts (LLBA)</a> 
+	and/or <a href=" http://uclibs.org/PID/113580" target="_blank">MLA International Bibliography</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/linguistics" target="_blank">Linguistics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>LINGUISTICS</pattern>
+	<that>Typology as a subject is included in the broader subjects of Linguistics and Psychology Would you like resource recommendations for linguistics or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://search.proquest.com/llba/advanced" target="_blank">Linguistics and Language Behavior Abstracts (LLBA)</a> 
+	and/or <a href=" http://uclibs.org/PID/113580" target="_blank">MLA International Bibliography</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/linguistics" target="_blank">Linguistics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>LINGUISTICS</pattern>
+	<that>Universals as a subject is included in the broader subjects of Linguistics and Philosophy Would you like resource recommendations for linguistics or philosophy_</that>
+	<template>We would recommend that you start your search with <a href=" http://search.proquest.com/llba/advanced" target="_blank">Linguistics and Language Behavior Abstracts (LLBA)</a> 
+	and/or <a href=" http://uclibs.org/PID/113580" target="_blank">MLA International Bibliography</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/linguistics" target="_blank">Linguistics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<!-- Subject keywords-->
+
+<category><pattern>WORD</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://search.proquest.com/llba/advanced" target="_blank">Linguistics and Language Behavior Abstracts (LLBA)</a> 
+			and/or <a href=" http://uclibs.org/PID/113580" target="_blank">MLA International Bibliography</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/linguistics" target="_blank">Linguistics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>ANAPHORA</pattern>
+<template><srai>WORD</srai></template></category> 
+<category><pattern>APPLIED LINGUISTICS</pattern>
+<template><srai>WORD</srai></template></category>  
+<category><pattern>ARCHAISMS</pattern>
+<template><srai>WORD</srai></template></category> 
+<category><pattern>AREAL LINGUISTICS</pattern>
+<template><srai>WORD</srai></template></category>
+<category><pattern>AUTOSEGMENTAL THEORY</pattern>
+<template><srai>WORD</srai></template></category> 
+<category><pattern>BINARY PRINCIPLE</pattern>
+<template><srai>WORD</srai></template></category> 
+<category><pattern>CLASSIFIERS</pattern>
+<template><srai>WORD</srai></template></category> 
+<category><pattern>CODE SWITCHING</pattern>
+<template><srai>WORD</srai></template></category>  
+<category><pattern>CONNOTATION</pattern>
+<template><srai>WORD</srai></template></category> 
+<category><pattern>CONTRASTIVE LINGUISTICS</pattern>
+<template><srai>WORD</srai></template></category>
+<category><pattern>DEEP STRUCTURE</pattern>
+<template><srai>WORD</srai></template></category> 
+<category><pattern>DEFINITENESS</pattern>
+<template><srai>WORD</srai></template></category> 
+<category><pattern>DIGLOSSIA</pattern>
+<template><srai>WORD</srai></template></category> 
+<category><pattern>EMPHASIS</pattern>
+<template><srai>WORD</srai></template></category>  
+<category><pattern>FORENSIC LINGUISTICS</pattern>
+<template><srai>WORD</srai></template></category>  
+<category><pattern>FORMALIZATION</pattern>
+<template><srai>WORD</srai></template></category> 
+<category><pattern>GENERICALNESS</pattern>
+<template><srai>WORD</srai></template></category> 
+<category><pattern>GOVERNMENT BINDING THEORY</pattern>
+<template><srai>WORD</srai></template></category> 
+<category><pattern>COMPARATIVE GRAMMAR</pattern>
+<template><srai>WORD</srai></template></category>
+<category><pattern>GENERAL GRAMMAR</pattern>
+<template><srai>WORD</srai></template></category>
+<category><pattern>GRAMMATICALITY</pattern>
+<template><srai>WORD</srai></template></category> 
+<category><pattern>GRAPHEMICS</pattern>
+<template><srai>WORD</srai></template></category> 
+<category><pattern>HESITATION FORM</pattern>
+<template><srai>WORD</srai></template></category> 
+<category><pattern>HIERARCHY</pattern>
+<template><srai>WORD</srai></template></category> 
+<category><pattern>HISTORICAL LINGUISTICS</pattern>
+<template><srai>WORD</srai></template></category>
+<category><pattern>IDIOMS</pattern>
+<template><srai>WORD</srai></template></category>
+<category><pattern>JUNCTURE</pattern>
+<template><srai>WORD</srai></template></category> 
+<category><pattern>LINGUISTIC MODELS</pattern>
+<template><srai>WORD</srai></template></category> 
+<category><pattern>MARKEDNESS</pattern>
+<template><srai>WORD</srai></template></category> 
+<category><pattern>MATHEMATICAL LINGUISTICS</pattern>
+<template><srai>WORD</srai></template></category>
+<category><pattern>MINIMAL PAIR</pattern>
+<template><srai>WORD</srai></template></category> 
+<category><pattern>MODALITY</pattern>
+<template><srai>WORD</srai></template></category> 
+<category><pattern>NEUROLINGUISTICS</pattern>
+<template><srai>WORD</srai></template></category> 
+<category><pattern>PARALINGUISTICS</pattern>
+<template><srai>WORD</srai></template></category>
+<category><pattern>PARALLELISM</pattern>
+<template><srai>WORD</srai></template></category> 
+<category><pattern>PEJORATION</pattern>
+<template><srai>WORD</srai></template></category> 
+<category><pattern>PHONETICS</pattern>
+<template><srai>WORD</srai></template></category>
+<category><pattern>PROSODIC ANALYSIS</pattern>
+<template><srai>WORD</srai></template></category> 
+<category><pattern>REDUNDANCY</pattern>
+<template><srai>WORD</srai></template></category> 
+<category><pattern>REGISTER</pattern>
+<template><srai>WORD</srai></template></category>  
+<category><pattern>SPEECH ACTS</pattern>
+<template><srai>WORD</srai></template></category> 
+<category><pattern>STRUCTURAL LINGUISTICS</pattern>
+<template><srai>WORD</srai></template></category>
+<category><pattern>SUBSTRATUM</pattern>
+<template><srai>WORD</srai></template></category> 
+<category><pattern>SURFACE STRUCTURE</pattern>
+<template><srai>WORD</srai></template></category> 
+<category><pattern>TRANSMUTATION</pattern>
+<template><srai>WORD</srai></template></category>  
+	
+</aiml>

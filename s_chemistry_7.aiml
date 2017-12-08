@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- CHEMISTRY -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>CHEMISTRY *</pattern>
+	<template><think><set name="topic">chemistry</set></think><sr /></template></category>
+	
+<category><pattern>CHEMISTRY</pattern>	
+	<template>For resources on chemistry check out the <a href=" http://guides.lib.uci.edu/chemistry" target="_blank">Chemistry Research Guide</a>   
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+	<category><pattern>CHEMISTRY INFORMATION</pattern>
+	<template><srai>CHEMISTRY</srai></template></category>
+	<category><pattern>CHEMISTRY TOPICS</pattern>
+	<template><srai>CHEMISTRY</srai></template></category>
+
+<!-- Interactions -->
+
+<category><pattern>PHARMACY</pattern>
+	<that>Biochemistry as a subject is included in the broader subjects of Biology and Chemistry Would you like resource recommendations for biology or chemistry_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed*</a> 
+	and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/chemistry" target="_blank">Chemistry Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>	
+	
+<category><pattern>DILUTION</pattern>
+	<that>Color as a subject is included in the broader subjects of Art Chemistry and Philosophy Would you like resource recommendations for art chemistry or philosophy_</that>
+	<template>We would recommend that you start your search with <a href=" http://www.knovel.com/" target="_blank">Knovel</a> 
+	and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/chemistry" target="_blank">Chemistry Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>COSMOCHEMISTRY</pattern>
+	<that>Cosmochemistry as a subject is included in the broader subjects of Astronomy and Chemistry Would you like resource recommendations for astronomy or chemistry_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a> 
+	and/or <a href=" http://uclibs.org/PID/16251" target="_blank">GeoRef</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/chemistry" target="_blank">Chemistry Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>ASSAYING</pattern>
+	<that>Geochemistry as a subject is included in the broader subjects of Chemistry and Earth Sciences Would you like resource recommendations for chemistry or earth sciences_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16251" target="_blank">GeoRef</a> 
+	and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/chemistry" target="_blank">Chemistry Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>	
+	
+<category><pattern>INFORMATION THEORY IN CHEMSITRY</pattern>
+	<that>Information theory as a subject is included in the broader subjects of Biology Chemistry Education Mathematics Music and Psychology Would you like resource recommendations for biology chemistry education math music or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a> 
+	and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/chemistry" target="_blank">Chemistry Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>	
+
+<category><pattern>PHARMACEUTICAL CHEMISTRY</pattern>
+	<that>Pharmacy as a subject is included in the broader subjects of Chemistry Medicine and Pharmacology Would you like resource recommendations for chemistry medicine or pharmacology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed*</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/chemistry" target="_blank">Chemistry Research Guide</a> or the <a href=" http://guides.lib.uci.edu/pharmsci" target="_blank">Pharmaceutical Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<!-- Subject keywords-->
+
+<category><pattern>FIRE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+			and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chemistry" target="_blank">Chemistry Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>ENVIRONMENTAL CHEMISTY</pattern>
+<template><srai>FIRE</srai></template></category>
+<category><pattern>FOUNDRY CHEMISTRY</pattern>
+<template><srai>FIRE</srai></template></category>
+<category><pattern>PHOTOGRAPHIC CHEMISTRY</pattern>
+<template><srai>FIRE</srai></template></category>
+
+<category><pattern>ASSAYING</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16251" target="_blank">GeoRef</a> 
+			and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chemistry" target="_blank">Chemistry Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>CARBON DATING</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chemistry" target="_blank">Chemistry Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>DILUTION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://www.knovel.com/" target="_blank">Knovel</a> 
+			and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chemistry" target="_blank">Chemistry Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>ACIDS</pattern>
+<template><srai>DILUTION</srai></template></category>
+<category><pattern>BASES</pattern>
+<template><srai>DILUTION</srai></template></category>
+<category><pattern>COACERVATION</pattern>
+<template><srai>DILUTION</srai></template></category>
+<category><pattern>CONDENSATION</pattern>
+<template><srai>DILUTION</srai></template></category>
+<category><pattern>ELECTRIC DISCHARGE LIGHTING</pattern>
+<template><srai>DILUTION</srai></template></category>
+<category><pattern>EVAPORATION</pattern>
+<template><srai>DILUTION</srai></template></category>
+<category><pattern>SALTS</pattern>
+<template><srai>DILUTION</srai></template></category>
+
+<category><pattern>PHARMACEUTICAL CHEMISTRY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed*</a> 
+			and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chemistry" target="_blank">Chemistry Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>TOXILOGICAL CHEMISTRY</pattern>
+<template><srai>PHARMACEUTICAL CHEMISTRY</srai></template></category>
+<category><pattern>CHEMISTRY OF VIRUSES</pattern>
+<template><srai>PHARMACEUTICAL CHEMISTRY</srai></template></category>
+
+<category><pattern>STEREOCHEMISTRY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> 
+			and/or <a href=" https://scifinder.cas.org/" target="_blank">SciFinder Web (login)</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chemistry" target="_blank">Chemistry Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>HOT ATOM CHEMISTRY</pattern>
+<template><srai>STEREOCHEMISTRY</srai></template></category>
+<category><pattern>INORGANIC CHEMISTRY</pattern>
+<template><srai>STEREOCHEMISTRY</srai></template></category>
+<category><pattern>ORGANIC CHEMISTRY</pattern>
+<template><srai>STEREOCHEMISTRY</srai></template></category>
+<category><pattern>PHYSICAL CHEMISTRY</pattern>
+<template><srai>STEREOCHEMISTRY</srai></template></category>
+<category><pattern>PLASMA CHEMISTRY</pattern>
+<template><srai>STEREOCHEMISTRY</srai></template></category>
+<category><pattern>SOLUTION CHEMISTRY</pattern>
+<template><srai>STEREOCHEMISTRY</srai></template></category>
+<category><pattern>THEORETICAL CHEMISTRY</pattern>
+<template><srai>STEREOCHEMISTRY</srai></template></category>
+<category><pattern>ESTERIFICATION *</pattern>
+<template><srai>STEREOCHEMISTRY</srai></template></category>
+<category><pattern>ESTERIFICATION </pattern>
+<template><srai>STEREOCHEMISTRY</srai></template></category>
+
+<category><pattern>ALCHEMY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> 
+			and/or <a href=" http://guides.lib.uci.edu/history" target="_blank">History</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chemistry" target="_blank">Chemistry Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>WOMEN IN CHEMISTRY</pattern>
+<template><srai>ALCHEMY</srai></template></category>
+
+<category><pattern>SANITARY CHEMISTRY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> 
+			and/or <a href=" http://www.knovel.com/" target="_blank">Knovel</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chemistry" target="_blank">Chemistry Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>TECHNICAL CHEMISTRY</pattern>
+<template><srai>SANITARY CHEMISTRY</srai></template></category>
+
+<category><pattern>AGRICULTURAL CHEMISTRY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126814" target="_blank">Agricola</a> 
+			and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chemistry" target="_blank">Chemistry Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>COMPUTUATION IN CHEMISTY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+			and/or <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chemistry" target="_blank">Chemistry Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>CRYSTALLIZATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a> 
+			and/or <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chemistry" target="_blank">Chemistry Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>INFORMATION THEORY IN CHEMSITRY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a> 
+			and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chemistry" target="_blank">Chemistry Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>DENTAL CHEMISTRY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chemistry" target="_blank">Chemistry Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+
+<category><pattern>SCIFINDER SCHOLAR</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" https://scifinder.cas.org/" target="_blank">SciFinder Web (login)</a> 
+			and/or <a href=" http://uclibs.org/PID/132375" target="_blank">SciFinder Scholar Web (registration details)</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chemistry" target="_blank">Chemistry Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>FORENSIC CHEMISTRY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> 
+			and/or <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chemistry" target="_blank">Chemistry Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>MASKING CHEMISTRY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chemistry" target="_blank">Chemistry Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>CHEMISTRY OF VIRUSES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/chemistry" target="_blank">Chemistry Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+</aiml>

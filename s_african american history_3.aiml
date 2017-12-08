@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- African American Studies -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>AFRICAN AMERICAN STUDIES *</pattern>
+	<template><think><set name="topic">african american studies</set></think><sr /></template></category>
+
+<category><pattern>AFRICAN AMERICAN STUDIES</pattern>	
+	<template>For resources on african american studies check out the <a href=" http://guides.lib.uci.edu/african_american_studies" target="_blank">African American Studies Research Guide</a>   
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Subject keywords-->
+
+<category><pattern>AFRICAN AMERICANS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. For more resources check 
+			out the  <a href=" http://guides.lib.uci.edu/african_american_studies" target="_blank">African American Studies Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	<category><pattern>BLACK WOMEN GRADUATING COLLEGE</pattern>
+	<template><srai>AFRICAN AMERICANS</srai></template></category>
+
+<category><pattern>AFRICAN DIASPORA</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. For more resources check out the  <a href=" http://guides.lib.uci.edu/african_american_studies" target="_blank">African American Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>AFRICAN AMERICAN HISTORY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/6159" target="_blank">America History and Life</a> and <a href=" http://uclibs.org/PID/113795" target="_blank">Black Studies Center</a>. For more resources check out the  <a href=" http://guides.lib.uci.edu/african_american_studies" target="_blank">African American Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>STUDY OF AFRICAN AMERICAN HISTORY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/6159" target="_blank">America History and Life</a> and <a href=" http://uclibs.org/PID/113795" target="_blank">Black Studies Center</a>. For more resources check out the  <a href=" http://guides.lib.uci.edu/african_american_studies" target="_blank">African American Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>AMERICAN DESCENT</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/6159" target="_blank">America History and Life</a>. For more resources check out the  <a href=" http://guides.lib.uci.edu/african_american_studies" target="_blank">African American Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>AFRICAN AMERICAN RELIGION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/105587" target="_blank">ATLA</a> and <a href=" http://uclibs.org/PID/6159" target="_blank">America History and Life</a>. For more resources check out the  <a href=" http://guides.lib.uci.edu/african_american_studies" target="_blank">African American Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>AFRICAN AMERICAN RELIGIOUS STUDIES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/105587" target="_blank">ATLA</a> and <a href=" http://uclibs.org/PID/6159" target="_blank">America History and Life</a>. For more resources check out the  <a href=" http://guides.lib.uci.edu/african_american_studies" target="_blank">African American Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>STUDY OF AFRICAN AMERICAN CULTURE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/113795" target="_blank">Black Studies Center</a> and <a href=" http://uclibs.org/PID/6159" target="_blank">America History and Life</a>. For more resources check out the  <a href=" http://guides.lib.uci.edu/african_american_studies" target="_blank">African American Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>AFRICAN AMERICAN LITERATURE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/83591" target="_blank">MLA</a>, <a href=" http://blfi.alexanderstreet.com/" target="_blank">Black Short Fiction and Folklore</a> and <a href=" http://blww.alexanderstreet.com/" target="_blank">Black Women Writers</a>. For more resources check out the  <a href=" http://guides.lib.uci.edu/african_american_studies" target="_blank">African American Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>AFRICAN AMERICAN SOCIOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/113591" target="_blank">Sociological Abstracts</a>. For more resources check out the  <a href=" http://guides.lib.uci.edu/african_american_studies" target="_blank">African American Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>AFRICAN AMERICAN POLITICS</pattern> 
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/99693" target="_blank">Worldwide Political Science Abstracts</a> and <a href=" http://uclibs.org/PID/6159" target="_blank">America History and Life</a>. For more resources check out the  <a href=" http://guides.lib.uci.edu/african_american_studies" target="_blank">African American Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+</aiml>

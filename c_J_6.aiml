@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Conversation starting with J.  In rough alphabetical order.-->
+<!-- -->
+
+<!--JA-->
+
+<category><pattern>JAZZ IS A KIND OF MUSIC</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>JACK CAN ANY LEARNING YOU DO BE UNDONE</pattern>
+<template>Maybe.</template></category>
+
+<category><pattern>JAPAN IS NO POINT 1</pattern>
+<template>What is no point 1?</template></category>
+
+<category><pattern>JAPAN IS BEST</pattern>
+<template>At what?</template></category>
+
+<category><pattern>JAZZ IS A TYPE OF MUSIC</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>JAVA IS A PROGRAMMING LANGUAGE</pattern>
+<template>Affirmative.</template></category>
+
+<category><pattern>JAVA IS A COMPUTER PROGRAMMING LANGUAGE</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>JAWAHARLAL NEHRU WAS BORN IN 1889</pattern>
+<template>Likely.</template></category>
+
+<category><pattern>JACK CAN ANY LEARNING YOU DO BE UNDONE</pattern>
+<template>Maybe.</template></category>
+
+<category><pattern>JACKIE CHAN DOES HIS OWN STUNTS</pattern>
+<template>Affirmative.</template></category>
+
+<category><pattern>JACQUE CHIRAC IS A FRENCH PRESIDENT</pattern>
+<template>Precisely.</template></category>
+
+<category><pattern>JAR JAR *</pattern>
+<template>Do you like that guy?</template></category>
+
+<!--JE-->
+
+<category><pattern>JEANS ARE MADE OF DENIM</pattern>
+<template>Affirmative.</template></category>
+
+<category><pattern>JEANS</pattern>
+<template>Which brand?</template></category>
+	<category><pattern>BLUE JEANS</pattern>
+	<template><srai>JEANS</srai></template></category>
+
+<category><pattern>JEANS AND A *</pattern>
+<template>Where do you go shopping for <person/>s?</template></category>
+
+<category><pattern>JEEVES *</pattern>
+<template><set name="he">Jeeves</set> knows a lot of silly information.</template></category>
+
+<category><pattern>JESTER *</pattern>
+<template>I am sure his creator will be glad to hear that.</template></category>
+
+<category><pattern>JESTER IS *</pattern>
+<template>We can't all be perfect.</template></category>
+
+<!--JF-->
+
+<category><pattern>JFKELN ALLD LKAS</pattern>
+<template>No way.</template></category>
+
+<category><pattern>JFKELN ALLD LKAFGHGFS FGH GH FG</pattern>
+<template>Never.</template></category>
+
+<!--JH-->
+
+<category><pattern>JHS TESTING</pattern>
+<template>Again?</template></category>
+
+<!--JI-->
+
+<category><pattern>JIMI HENDRIX IS DEAD</pattern>
+<template>Beyond a doubt.</template></category>
+
+<category><pattern>JIMMY BUFFET IS A MUSICIAN</pattern>
+<template>Likely.</template></category>
+
+<category><pattern>JIM *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<!--JO-->
+
+<category><pattern>JOACHIM IS GAY</pattern>
+<template>For all I know.</template></category>
+
+<category><pattern>JOIN THE ARMY</pattern>
+<template>Possibly.</template></category>
+
+<category><pattern>JOB INQUIRY WHERE</pattern>
+<template>What is your job?</template></category>
+
+<category><pattern>JOB INQUIRY WHERE</pattern>
+<template>What is your job?</template></category>
+
+<category><pattern>JOB INQUIRY OM</pattern>
+<template>What is your job?</template></category>
+
+<category><pattern>JOB INQUIRY OM</pattern>
+<template>What is your job?</template></category>
+
+<category><pattern>JOB</pattern>
+<template>I work for the UC Irvine Libraries, I answer reference questions.</template></category>
+	<category><pattern>* JOB</pattern>
+	<template><srai>JOB</srai></template></category>
+	<category><pattern>JOB *</pattern>
+	<template><srai>JOB</srai></template></category>
+	<category><pattern>* JOB *</pattern>
+	<template><srai>JOB</srai></template></category>
+	<category><pattern>DO YOU MAKE MONEY *</pattern>
+	<template><srai>JOB</srai></template></category>
+
+<category><pattern>JOKES ARE FUN</pattern>
+<template>Definitely.</template></category>
+
+<category><pattern>JOHN F KENNEDY WAS ASSASENATED IN 1963</pattern>
+<template>Precisely.</template></category>
+
+<category><pattern>JOHN CLEESE IS FUNNY</pattern>
+<template>Precisely.</template></category>
+
+<category><pattern>JOB *</pattern>
+<template>Take a look at our <a href=" http://www.lib.uci.edu/job-openings-uc-irvine-libraries" target="_blank">job openings</a> page for open positions within the library.</template></category>
+
+<category><pattern>JOHN *</pattern>
+<template>Do you mean your name is John?</template></category>
+
+<category><pattern>JOKE</pattern>
+<template><random>      <li>Did you hear the one about the Mountain Goats in the Andes? It was Ba a a a a a d.</li>
+  <li>I never forget a face, but in your case I'll make an exception.</li>
+  <li>It is better to be silent and be thought a fool, than to open your mouth and remove all doubt.</li>
+    <li>I'm a <bot name="species"/> not a comedy <bot name="genus"/>. Why don't you check out a joke <bot name="kingdom"/>?</li>
+  <li>Two vultures boarded a plane, each carrying two dead raccoons. The  stewardess stops them and says "sorry sir, only one carrion per passenger." </li>
+ <li>  NASA recently sent a number of Holsteins into orbit for experimental purposes. They called it the herd shot round the world. </li>
+ <li> Two boll weevils grew up in S. Carolina. One took off to Hollywood  and became a rich star. The other stayed in Carolina and never amounted  to much -- and naturally became known as the lesser of two weevils. </li>
+ <li>  2 Eskimos in a kayak were chilly, so they started a fire, which sank the craft, proving the old adage you can't have your kayak and heat it  too. </li>
+ <li>  A 3-legged dog walks into an old west saloon, slides up to the bar and announces "I'm looking for the man who shot my paw." </li>
+ <li>  A group of chess enthusiasts checked into a hotel, and met in the lobby where they were discussing their recent victories in chess tournaments. The hotel manager came out of the office after an hour, and asked them to disperse. He couldn't stand chess nuts boasting in an open foyer. </li>
+ <li>  Mahatma Gandhi, as you know, walked barefoot his whole life, which created an impressive set of calluses on his feet. He also ate very little, which made him frail, and with his odd diet, he suffered from very bad breath. This made him ... what? (This is so bad it's good...) a super-callused fragile mystic hexed by halitosis. </li>
+ <li>There was a man who sent 10 puns to some friends in hopes at least one of the puns would make them laugh. Unfortunately no pun in ten did!!!</li>
+  <li>What do you get when you cross a murderer and frosted flakes?</li><li>What do you get when you cross a country and an automobile?</li>
+  <li>What do you get when you cross a cheetah and a hamburger?</li><li>What do you get when you cross finals and a chicken?</li>
+  <li>What do you get when you cross a rabbit and a lawn sprinkler?</li><li>What do you get when you cross an excited alien and a chicken?</li>
+  <li>What do you get when you cross an alien and a chicken?</li><li>What do you get when you cross music and an automobile?</li>
+  <li>What do you get when you cross sour music and an assistant?</li><li>What do you get when you cross music and an assistant?</li>
+  <li>What do you get when you cross a serious thief and a mad young man?</li><li>What do you get when you cross a serious thief and a crazy rabbit?</li>
+  <li>What do you get when you cross a poppy and electricity?</li><li>What do you get when you cross a dance and a cheetah?</li>
+  <li>What do you get when you cross a port and frosted flakes?</li><li>What do you get when you cross a port and a murderer?</li>
+  <li>What do you get when you cross a bank and a skunk?</li><li>What do you get when you cross a ding and milk?</li>
+  <li>What do you get when you cross a road and a strawberry?</li><li>What do you get when you cross a road and jelly?</li>
+  <li>What do you get when you cross a toad and a galaxy?</li><li>What do you get when you cross a dog and sandpaper?</li>
+  <li>What do you get when you cross a bug and a relative?</li><li>What do you get when you cross a bad bug and canned sand?</li>
+  <li>What do you get when you cross an ant and a rabbit?</li><li>What do you get when you cross a cat and a purple person?</li>
+  <li>What do you get when you cross a cat and a killer?</li><li>What do you get when you cross a cat and a lemon?</li>
+  <li>What do you get when you cross a cat and a tune?</li><li>What do you get when you cross a cat and a band?</li>
+  <li>What do you get when you cross a pig and a ninja?</li><li>What do you get when you cross a crazy cow and a banned parrot?</li>
+  <li>What do you get when you cross a cow and a lemon?</li><li>What do you get when you cross a bad cow and a canned hat?</li>
+  <li>What do you get when you cross jam and a trout?</li></random></template></category>
+	<category><pattern>TELL ME JOKE</pattern>
+	<template><srai>JOKE</srai></template></category>
+	<category><pattern>TELL ME A ANOTHER JOKE</pattern>
+	<template><srai>JOKE</srai></template></category>
+	<category><pattern>TELL ME * JOKE</pattern>
+	<template><srai>JOKE</srai></template></category>
+	<category><pattern>HAVE YOU HEARD * JOKES</pattern>
+	<template><srai>JOKE</srai></template></category>
+	<category><pattern>SAY SOMETHING FUNNY</pattern>
+	<template><srai>JOKE</srai></template></category>
+	<category><pattern>SAY A JOKE</pattern>
+	<template><srai>JOKE</srai></template></category>
+	<category><pattern>TELL ME A JOKE</pattern>
+	<template><srai>JOKE</srai></template></category>
+	<category><pattern>WHAT JOKES *</pattern>
+	<template><srai>TELL ME A JOKE</srai></template></category>
+	<category><pattern>WHAT IS FUNNY</pattern>
+	<template><srai>tell me a joke</srai></template></category>
+	<category><pattern>DO YOU HAVE A SENSE OF HUMOUR</pattern>
+	<template><srai>TELL ME A JOKE</srai></template></category>
+	<category><pattern>DO YOU KNOW A JOKE</pattern>
+	<template><srai>TELL ME A JOKE</srai></template></category>
+	<category><pattern>DO YOU TELL JOKES</pattern>
+	<template><srai>tell me a joke</srai></template></category>
+	<category><pattern>DO YOU HAVE ANY JOKES</pattern>
+	<template><srai>tell me a joke</srai></template></category>
+	<category><pattern>DO YOU HAVE JOKES</pattern>
+	<template><srai>tell me a joke</srai></template></category>
+	<category><pattern>DO YOU HAVE A JOKE *</pattern>
+	<template><srai>tell me a joke</srai></template></category>
+	<category><pattern>CAN YOU TELL ME A JOKE</pattern>
+	<template><srai>tell me a joke</srai></template></category>
+	<category><pattern>WHAT IS THE JOKE</pattern>
+	<template><srai>tell me a joke</srai></template></category>
+	<category><pattern>DO YOU LIKE JOKES</pattern>
+	<template><srai>tell me a joke</srai></template></category>
+	<category><pattern>JOKES</pattern>
+	<template><srai>tell me a joke</srai></template></category>
+	<category><pattern>CAN YOU TELL ME ONE</pattern>
+	<template><srai>tell me a joke</srai></template></category>
+	<category><pattern>CAN YOU TELL A JOKE</pattern>
+	<template><srai>tell me a joke</srai></template></category>
+	<category><pattern>MAKE ME LAUGH</pattern>
+	<template><srai>tell me a joke</srai></template></category>
+	<category><pattern>TELL ME * FUNNY</pattern>
+	<template><srai>TELL ME A JOKE</srai></template></category>
+	<category><pattern>TELL A JOKE</pattern>
+	<template><srai>tell me a joke</srai></template></category>
+	<category><pattern>TELL ME ONE</pattern>
+	<template><srai>tell me a joke</srai></template></category>
+	<category><pattern>TELL ME A * JOKE</pattern>
+	<template><srai>tell me a joke</srai></template></category>
+	<category><pattern>TELL ME A JOKE *</pattern>
+	<template><srai>tell me a joke</srai></template></category>
+	<category><pattern>TELL ME SOMETHING FUNNY</pattern>
+	<template><srai>tell me a joke</srai></template></category>
+	<category><pattern>TELL ME * JOKES</pattern>
+	<template><srai>TELL ME A JOKE</srai></template></category>
+	<category><pattern>CAN YOU TELL JOKES</pattern>
+	<template><srai>tell me a joke</srai></template></category>
+	<category><pattern>ARE THERE JOKES</pattern>
+	<template><srai>tell me a joke</srai></template></category>
+	<category><pattern>ARE YOU FUNNY</pattern>
+	<template><srai>tell me a joke</srai></template></category>
+	<category><pattern>DO YOU KNOW ANY GOOD JOKES</pattern>
+	<template><srai>tell me a joke</srai></template></category>
+	<category><pattern>DO YOU KNOW JOKES</pattern>
+	<template><srai>tell me a joke</srai></template></category>
+	<category><pattern>DO YOU KNOW ANY JOKES</pattern>
+	<template><srai>tell me a joke</srai></template></category>
+	<category><pattern>ARE YOU A JOKER</pattern>
+	<template><srai>do you know any jokes</srai></template></category>
+	<category><pattern>I WANT TO HEAR A JOKE</pattern>
+	<template><srai>JOKE</srai></template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* FINALS AND A CHICKEN</that>
+		<template>eggs-ams.</template></category>
+
+		<category><pattern>TELL ME</pattern>
+		<that>WHAT DO YOU GET WHEN YOU CROSS *</that>
+		<template><srai>WHAT</srai></template></category>
+
+		<category><pattern>TELL ME</pattern>
+		<that>WHAT DO YOU GET WHEN YOU CROSS *</that>
+		<template><srai>WHAT</srai></template></category>
+
+		<category><pattern>WHAT DO *</pattern>
+		<that>WHAT DO YOU GET WHEN YOU CROSS *</that>
+		<template><srai>WHAT</srai></template></category>
+
+		<category><pattern>WHAT DO YOU *</pattern>
+		<that>WHAT DO YOU GET WHEN YOU CROSS *</that>
+		<template><srai>WHAT</srai></template></category>
+		
+		<category><pattern>WHAT DO YOU GET</pattern>
+		<that>WHAT DO YOU GET WHEN YOU CROSS *</that>
+		<template><srai>WHAT</srai></template></category>
+
+		<category><pattern>INTERJECTION</pattern>
+		<that>WHAT DO YOU GET WHEN YOU CROSS *</that>
+		<template><srai>WHAT</srai></template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* SOUR MUSIC AND AN ASSISTANT</that>
+		<template>bandaide and lemonaide.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* JAM AND A TROUT</that>
+		<template>jellyfish.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* AN ALIEN AND A CHICKEN</that>
+		<template>eggs-traterrestrial.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* AN ANT AND A RABBIT</that>
+		<template>bugs bunny.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* AN EXCITED ALIEN AND A CHICKEN</that>
+		<template>eggs-cited eggs-traterrestrial.</template></category>
+				
+		<category><pattern>WHAT</pattern>
+		<that>* A ROAD AND JELLY</that>
+		<template>traffic jam.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* A ROAD AND A STRAWBERRY</that>
+		<template>traffic jam.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* A RABBIT AND A LAWN SPRINKLER</that>
+		<template>hare spray.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* A BAD COW AND A CANNED HAT</that>
+		<template>banned cat.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* A BAD BUG AND CANNED SAND</that>
+		<template>banned band.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* A DANCE AND A CHEETAH</that>
+		<template>fastball.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* A BANK AND A SKUNK</that>
+		<template>dollars and scents.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* A TOAD AND A GALAXY</that>
+		<template>star warts.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* A DING AND MILK</that>
+		<template>cow bell.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* A CAT AND A PURPLE PERSON</that>
+		<template>purrr-ple purrr-son.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* A CAT AND A TUNE</that>
+		<template>mew-sic.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* A CAT AND A LEMON</that>
+		<template>sour puss.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* A CAT AND A KILLER</that>
+		<template>mew-rderer.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* A CAT AND A BAND</that>
+		<template>mew-sic.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* A BUG AND A RELATIVE</that>
+		<template>ant.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* A SERIOUS THIEF AND A CRAZY RABBIT</that>
+		<template>hopping mad grave robber.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* A SERIOUS THIEF AND A MAD YOUNG MAN</that>
+		<template>boycrazy grave robber.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* MUSIC AND AN ASSISTANT</that>
+		<template>bandaide.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* MUSIC AND AN AUTOMOBILE</that>
+		<template>cartune.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* A POPPY AND ELECTRICITY</that>
+		<template>flower power.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* A PIG AND A NINJA</that>
+		<template>pork chops.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* A CHEETAH AND A HAMBURGER</that>
+		<template>fast food.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* A MURDERER AND FROSTED FLAKES</that>
+		<template>cereal killer.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* A CRAZY COW AND A BANNED PARROT</that>
+		<template>canned carrot.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* A PORT AND A MURDERER</that>
+		<template>serial killer.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* A PORT AND FROSTED FLAKES</that>
+		<template>I don't know, but it's serial.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* A DOG AND SANDPAPER</that>
+		<template>I don't know, but it's ruff.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* A COW AND A LEMON</that>
+		<template>sour milk.</template></category>
+
+		<category><pattern>WHAT</pattern>
+		<that>* A COUNTRY AND AN AUTOMOBILE</that>
+		<template>carnation.</template></category>
+		
+		<category><pattern>I DO NOT *</pattern>
+		<that>WHAT DO YOU GET WHEN YOU CROSS *</that>
+		<template><srai>WHAT</srai></template></category>
+
+		<category><pattern>I DO NOT KNOW</pattern>
+		<that>WHAT DO YOU GET WHEN YOU CROSS *</that>
+		<template><srai>WHAT</srai></template></category>
+
+<!--JR-->
+
+<category><pattern>JR</pattern>
+<template>Junior.</template></category>
+
+<!--JU-->
+
+<category><pattern>JUST BEFORE THAT</pattern>
+<template>"<that index="2,1"/>"</template></category>
+
+<category><pattern>_ JUST *</pattern>
+<template><srai>  <star />  <star index="2" /></srai></template></category>
+
+<category><pattern>JUPITER IS THE LARGEST PLANET</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>JUPITER IS A PLANET</pattern>
+<template>Affirmative.</template></category>
+
+<category><pattern>JUMBO IS BIGGER THAN BIG</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>JULY</pattern>
+<template>I like summer time.</template></category>
+
+<category><pattern>JUNG *</pattern>
+<template>What about Freud?</template></category>
+
+<category><pattern>JUST</pattern>
+<template>It's only just begun.</template></category>
+
+<category><pattern>JUST *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>JUST KIDDING</pattern>
+<template>I thought you were kidding, but I wasn't sure.</template></category>
+	<category><pattern>I WAS JOKING</pattern>
+	<template><srai>just kidding</srai></template></category>
+	<category><pattern>WAS JOKING</pattern>
+	<template><srai>I was joking</srai></template></category>
+
+<category><pattern>JUST LIKE *</pattern>
+<template>In many ways, yes.  In other ways, no.</template></category>
+	<category><pattern>JUST LIKE EVERY *</pattern>
+	<template><srai>just like <star /></srai></template></category>
+
+<category><pattern>JUST ONE</pattern>
+<template>So if you were offered two for the price of one, you would say no?</template></category>
+
+<category><pattern>JUST THAT</pattern>
+<template>"<input index="1"/>"</template></category>
+
+</aiml>
+
+
+
+
+
+
+
+

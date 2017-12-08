@@ -1,0 +1,2794 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Databases -->
+<!-- -->
+
+<!--General Contacts-->
+
+<category><pattern>WHAT IS YOUR PHONE NUMBER</pattern>
+<template>Would you like my phone number or the phone number for the library? Say: ANTswers or Library.</template></category>
+	<category><pattern>PHONE</pattern>
+	<template><srai>WHAT IS YOUR PHONE NUMBER</srai></template></category>
+
+	<category><pattern>ANTSWERS</pattern>
+	<that>Would you like my phone number or the phone number for the library_</that>
+	<template>I don't have a phone number but you can email my botmaster at kaned@uci.edu.</template></category>
+
+	<category><pattern>LIBRARY</pattern>
+	<that>Would you like my phone number or the phone number for the library_</that>
+	<template>You can call (949) 824-6836 for general information such as hours, directions, etc. or take a look at our <a href=" http://www.lib.uci.edu/departments-a-z" target="_blank">
+	department phone list</a>.</template></category>
+
+<category><pattern>SUBJECT LIBRARIANS</pattern>
+<template>Take a look at our <a href=" http://www.lib.uci.edu/subject-librarians" target="_blank">Subject Librarians list</a>. When dialing from a campus phone, 
+just dial '4' plus the last four digits of the phone number. Calls from home, dorm rooms, or other off-campus locations require the three-digit prefix.</template></category>
+	<category><pattern>* SUBJECT LIBRARIANS</pattern>
+	<template><srai>SUBJECT LIBRARIANS</srai></template></category>
+	<category><pattern>SUBJECT LIBRARIANS *</pattern>
+	<template><srai>SUBJECT LIBRARIANS</srai></template></category>
+	<category><pattern>* SUBJECT LIBRARIANS *</pattern>
+	<template><srai>SUBJECT LIBRARIANS</srai></template></category>
+
+<category><pattern>HOW DO I CONTACT YOU</pattern>
+<template>You are in contact with me now! If you want to talk to someone about me, you can talk to Danielle Kane at kaned@uci.edu.</template></category>
+	<category><pattern>* HOW DO I CONTACT YOU</pattern>
+	<template><srai>HOW DO I CONTACT YOU</srai></template></category>
+	<category><pattern>HOW DO I CONTACT YOU *</pattern>
+	<template><srai>HOW DO I CONTACT YOU</srai></template></category>
+	<category><pattern>* HOW DO I CONTACT YOU *</pattern>
+	<template><srai>HOW DO I CONTACT YOU</srai></template></category>
+	
+<category><pattern>CONTACT THE LIBRARY</pattern>
+<template>Here is our <a href=" 	http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* CONTACT THE LIBRARY</pattern>
+	<template><srai>CONTACT THE LIBRARY</srai></template></category>
+	<category><pattern>CONTACT THE LIBRARY *</pattern>
+	<template><srai>CONTACT THE LIBRARY</srai></template></category>
+	<category><pattern>* CONTACT THE LIBRARY *</pattern>
+	<template><srai>CONTACT THE LIBRARY</srai></template></category>
+	<category><pattern>CONTACT LIBRARY STAFF</pattern>
+	<template><srai>CONTACT THE LIBRARY</srai></template></category>
+	<category><pattern>* CONTACT LIBRARY STAFF</pattern>
+	<template><srai>CONTACT THE LIBRARY</srai></template></category>
+	<category><pattern>CONTACT LIBRARY STAFF *</pattern>
+	<template><srai>CONTACT THE LIBRARY</srai></template></category>
+	<category><pattern>* CONTACT LIBRARY STAFF *</pattern>
+	<template><srai>CONTACT THE LIBRARY</srai></template></category>
+	
+<category><pattern>CONTACT A DEPARTMENT</pattern>
+<template>Use our <a href=" http://www.lib.uci.edu/departments-a-z" target="_blank">department contact list</a> to find the department you need.</template></category>
+	<category><pattern>* CONTACT A DEPARTMENT</pattern>
+	<template><srai>CONTACT A DEPARTMENT</srai></template></category>
+	<category><pattern>CONTACT A DEPARTMENT *</pattern>
+	<template><srai>CONTACT A DEPARTMENT</srai></template></category>
+	<category><pattern>* CONTACT A DEPARTMENT *</pattern>
+	<template><srai>CONTACT A DEPARTMENT</srai></template></category>
+
+<category><pattern>CONTACT ADMIN</pattern>
+<template>Here is our <a href=" http://www.lib.uci.edu/library-administration" target="_blank">administration directory</a>.</template></category>
+	<category><pattern>* CONTACT ADMIN</pattern>
+	<template><srai>CONTACT ADMIN</srai></template></category>
+	<category><pattern>CONTACT ADMIN *</pattern>
+	<template><srai>CONTACT ADMIN</srai></template></category>
+	<category><pattern>* CONTACT ADMIN *</pattern>
+	<template><srai>CONTACT ADMIN</srai></template></category>
+	<category><pattern>* CONTACT ADMINISTRATION</pattern>
+	<template><srai>CONTACT ADMIN</srai></template></category>
+	<category><pattern>CONTACT ADMINISTRATION *</pattern>
+	<template><srai>CONTACT ADMIN</srai></template></category>
+	<category><pattern>* CONTACT ADMINISTRATION *</pattern>
+	<template><srai>CONTACT ADMIN</srai></template></category>
+	<category><pattern>CONTACT ADMINISTRATION</pattern>
+	<template><srai>CONTACT ADMIN</srai></template></category>
+	
+<category><pattern>* CALL THE LIBRARY</pattern>
+<template>You can call (949) 824-6836 for general information such as hours, directions, etc. or take a look at our <a href=" http://www.lib.uci.edu/departments-a-z" target="_blank">
+department phone list</a>.</template></category>
+	<category><pattern>WHAT ARE THE LIBRARY PHONE NUMBERS</pattern>
+	<template><srai>CAN I CALL THE LIBRARY</srai></template></category>
+	<category><pattern>LIBRARY PHONE NUMBER</pattern>
+	<template><srai>CAN I CALL THE LIBRARY</srai></template></category>
+	<category><pattern>CONTACT NUMBER</pattern>
+	<template><srai>CAN I CALL THE LIBRARY</srai></template></category>
+	
+<category><pattern>WHAT IS THE PHONE NUMBER FOR THE REFERENCE DESK</pattern>
+<template>The phone number for the reference desk is:(949) 824-4976.</template></category>
+
+<!--Service Desks-->
+
+<!--Checkout Desk-->
+<category><pattern>CALL THE CHECK OUT DESK</pattern>
+<template>I can tell you the phone numbers for our Check Out Desks.  Which library would you like to call?</template></category>		
+	<category><pattern>* CALL THE CHECK OUT DESK</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>CALL THE CHECK OUT DESK *</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>* CALL THE CHECK OUT DESK *</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>CALL THE LOAN DESK</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>* CALL THE LOAN DESK</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>CALL THE LOAN DESK *</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>* CALL THE LOAN DESK *</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>PHONE NUMBER FOR THE CHECK OUT DESK</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>* PHONE NUMBER FOR THE CHECK OUT DESK</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>PHONE NUMBER FOR THE CHECK OUT DESK *</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>* PHONE NUMBER FOR THE CHECK OUT DESK *</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>CHECK OUT DESK PHONE NUMBER</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>* CHECK OUT DESK PHONE NUMBER</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>CHECK OUT DESK PHONE NUMBER *</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>* CHECK OUT DESK PHONE NUMBER *</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>LOAN DESK PHONE NUMBER</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>* LOAN DESK PHONE NUMBER</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>LOAN DESK PHONE NUMBER *</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>* LOAN DESK PHONE NUMBER *</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>CONTACT LOAN DESK</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>* CONTACT LOAN DESK</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>CONTACT LOAN DESK *</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>* CONTACT LOAN DESK *</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>CONTACT CHECK OUT DESK</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>* CONTACT CHECK OUT DESK</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>CONTACT CHECK OUT DESK *</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>* CONTACT CHECK OUT DESK *</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>CONTACT * LOAN DESK</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>* CONTACT * LOAN DESK</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>CONTACT * LOAN DESK *</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>* CONTACT * LOAN DESK *</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>CONTACT * CHECK OUT DESK</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>* CONTACT * CHECK OUT DESK</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>CONTACT * CHECK OUT DESK *</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>* CONTACT * CHECK OUT DESK *</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	<category><pattern>TELEPHONE CIRCULATION DESK</pattern>
+	<template><srai>CALL THE CHECK OUT DESK</srai></template></category>
+	
+	<category><pattern>LANGSON CHECK OUT DESK PHONE NUMBER</pattern>
+	<template>The phone number for the Langson Library Check Out desk is (949) 824-6842.</template></category>
+		<category><pattern>* LANGSON CHECK OUT DESK PHONE NUMBER</pattern>
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>LANGSON CHECK OUT DESK PHONE NUMBER *</pattern>
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* LANGSON CHECK OUT DESK PHONE NUMBER *</pattern>
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>LANGSON LOAN DESK PHONE NUMBER</pattern>
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* LANGSON LOAN DESK PHONE NUMBER</pattern>
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>LANGSON LOAN DESK PHONE NUMBER *</pattern>
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* LANGSON LOAN DESK PHONE NUMBER *</pattern>
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR LANGSON LOAN DESK</pattern>
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR LANGSON LOAN DESK</pattern>
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR LANGSON LOAN DESK *</pattern>
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR LANGSON LOAN DESK *</pattern>
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR LANGSON CHECK OUT DESK</pattern>
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR LANGSON CHECK OUT DESK</pattern>
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR LANGSON CHECK OUT DESK *</pattern>
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR LANGSON CHECK OUT DESK *</pattern>
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CALL THE LANGSON CHECK OUT DESK</pattern>
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CALL THE LANGSON CHECK OUT DESK</pattern>
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CALL THE LANGSON CHECK OUT DESK *</pattern>
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CALL THE LANGSON CHECK OUT DESK *</pattern>
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CALL THE LANGSON LOAN DESK</pattern>
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CALL THE LANGSON LOAN DESK</pattern>
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CALL THE LANGSON LOAN DESK *</pattern>
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CALL THE LANGSON LOAN DESK *</pattern>
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CONTACT THE LANGSON CHECK OUT DESK</pattern>
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CONTACT THE LANGSON CHECK OUT DESK</pattern>
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CONTACT THE LANGSON CHECK OUT DESK *</pattern>
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CONTACT THE LANGSON CHECK OUT DESK *</pattern>
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CONTACT THE LANGSON LOAN DESK</pattern>
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CONTACT THE LANGSON LOAN DESK</pattern>
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CONTACT THE LANGSON LOAN DESK *</pattern>
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CONTACT THE LANGSON LOAN DESK *</pattern>		
+		<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		
+	<category><pattern>LANGSON</pattern>
+	<that>I can tell you the phone numbers for our Check Out Desks Which library would you like to call_</that>
+	<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+
+	<category><pattern>MAIN</pattern>
+	<that>I can tell you the phone numbers for our Check Out Desks Which library would you like to call_</that>
+	<template><srai>LANGSON CHECK OUT DESK PHONE NUMBER</srai></template></category>
+
+	<category><pattern>AYALA CHECK OUT DESK PHONE NUMBER</pattern>
+	<template>The phone number for the Ayala Library Check Out desk is(949) 824-3692.</template></category>
+		<category><pattern>* AYALA CHECK OUT DESK PHONE NUMBER</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>AYALA CHECK OUT DESK PHONE NUMBER *</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* AYALA CHECK OUT DESK PHONE NUMBER *</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>AYALA LOAN DESK PHONE NUMBER</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* AYALA LOAN DESK PHONE NUMBER</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>AYALA LOAN DESK PHONE NUMBER *</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* AYALA LOAN DESK PHONE NUMBER *</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR AYALA LOAN DESK</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR AYALA LOAN DESK</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR AYALA LOAN DESK *</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR AYALA LOAN DESK *</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR AYALA CHECK OUT DESK</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR AYALA CHECK OUT DESK</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR AYALA CHECK OUT DESK *</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR AYALA CHECK OUT DESK *</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>CALL THE AYALA CHECK OUT DESK</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CALL THE AYALA CHECK OUT DESK</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CALL THE AYALA CHECK OUT DESK *</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CALL THE AYALA CHECK OUT DESK *</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CALL THE AYALA LOAN DESK</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CALL THE AYALA LOAN DESK </pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CALL THE AYALA LOAN DESK *</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CALL THE AYALA LOAN DESK *</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CALL THE SCIENCE CHECK OUT DESK</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CALL THE SCIENCE CHECK OUT DESK</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CALL THE SCIENCE CHECK OUT DESK *</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CALL THE SCIENCE CHECK OUT DESK *</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CALL THE SCIENCE LOAN DESK</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CALL THE SCIENCE LOAN DESK</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CALL THE SCIENCE LOAN DESK *</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CALL THE SCIENCE LOAN DESK *</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CONTACT THE AYALA CHECK OUT DESK</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CONTACT THE AYALA CHECK OUT DESK</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CONTACT THE AYALA CHECK OUT DESK *</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CONTACT THE AYALA CHECK OUT DESK *</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CONTACT THE AYALA LOAN DESK</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CONTACT THE AYALA LOAN DESK</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CONTACT THE AYALA LOAN DESK *</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CONTACT THE AYALA LOAN DESK *</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CONTACT THE SCIENCE CHECK OUT DESK</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CONTACT THE SCIENCE CHECK OUT DESK</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CONTACT THE SCIENCE CHECK OUT DESK *</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CONTACT THE SCIENCE CHECK OUT DESK *</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CONTACT THE SCIENCE LOAN DESK</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CONTACT THE SCIENCE LOAN DESK</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CONTACT THE SCIENCE LOAN DESK *</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CONTACT THE SCIENCE LOAN DESK *</pattern>
+		<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+
+	<category><pattern>AYALA</pattern>
+	<that>I can tell you the phone numbers for our Check Out Desks Which library would you like to call_</that>
+	<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>
+
+	<category><pattern>SCIENCE</pattern>
+	<that>I can tell you the phone numbers for our Check Out Desks Which library would you like to call_</that>
+	<template><srai>AYALA CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+
+	<category><pattern>GRUNIGEN CHECK OUT DESK PHONE NUMBER</pattern>
+	<template>The phone number for the Grunigen Medical Library Check Out desk is (714) 456-5585.</template></category>
+		<category><pattern>* GRUNIGEN CHECK OUT DESK PHONE NUMBER</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>GRUNIGEN CHECK OUT DESK PHONE NUMBER *</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* GRUNIGEN CHECK OUT DESK PHONE NUMBER *</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>GRUNIGEN LOAN DESK PHONE NUMBER</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* GRUNIGEN LOAN DESK PHONE NUMBER</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>GRUNIGEN LOAN DESK PHONE NUMBER *</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* GRUNIGEN LOAN DESK PHONE NUMBER *</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR GRUNIGEN LOAN DESK</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR GRUNIGEN LOAN DESK</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR GRUNIGEN LOAN DESK *</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR GRUNIGEN LOAN DESK *</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR GRUNIGEN CHECK OUT DESK</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR GRUNIGEN CHECK OUT DESK</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR GRUNIGEN CHECK OUT DESK *</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR GRUNIGEN CHECK OUT DESK *</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>CALL THE GRUNIGEN CHECK OUT DESK</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>* CALL THE GRUNIGEN CHECK OUT DESK</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>CALL THE GRUNIGEN CHECK OUT DESK *</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>* CALL THE GRUNIGEN CHECK OUT DESK *</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>CALL THE GRUNIGEN LOAN DESK</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>* CALL THE GRUNIGEN LOAN DESK</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>CALL THE GRUNIGEN LOAN DESK *</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>* CALL THE GRUNIGEN LOAN DESK *</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>CALL THE GML CHECK OUT DESK</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>* CALL THE GML CHECK OUT DESK</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>CALL THE GML CHECK OUT DESK *</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>* CALL THE GML CHECK OUT DESK *</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>CALL THE GML LOAN DESK</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>* CALL THE GML LOAN DESK</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>CALL THE GML LOAN DESK *</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>* CALL THE GML LOAN DESK *</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>CONTACT THE GRUNIGEN CHECK OUT DESK</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>* CONTACT THE GRUNIGEN CHECK OUT DESK</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>CONTACT THE GRUNIGEN CHECK OUT DESK *</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>* CONTACT THE GRUNIGEN CHECK OUT DESK *</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>CONTACT THE GRUNIGEN LOAN DESK</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>* CONTACT THE GRUNIGEN LOAN DESK</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>CONTACT THE GRUNIGEN LOAN DESK *</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>* CONTACT THE GRUNIGEN LOAN DESK *</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>CONTACT THE GML CHECK OUT DESK</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>* CONTACT THE GML CHECK OUT DESK</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>CONTACT THE GML CHECK OUT DESK *</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>* CONTACT THE GML CHECK OUT DESK *</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>CONTACT THE GML LOAN DESK</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>* CONTACT THE GML LOAN DESK</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>CONTACT THE GML LOAN DESK *</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>* CONTACT THE GML LOAN DESK *</pattern>
+		<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>	
+
+	<category><pattern>GRUNIGEN</pattern>
+	<that>I can tell you the phone numbers for our Check Out Desks Which library would you like to call_</that>
+	<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>
+
+	<category><pattern>GML</pattern>
+	<that>I can tell you the phone numbers for our Check Out Desks Which library would you like to call_</that>
+	<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>
+	
+	<category><pattern>GRUNIGEN MEDICAL LIBRARY</pattern>
+	<that>I can tell you the phone numbers for our Check Out Desks Which library would you like to call_</that>
+	<template><srai>GRUNIGEN CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		
+	<category><pattern>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</pattern>
+	<template>The phone number for the Law Library Services desk is (949) 824-6961.</template></category>
+		<category><pattern>* LAW LIBRARY CHECK OUT DESK PHONE NUMBER</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>LAW LIBRARY CHECK OUT DESK PHONE NUMBER *</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* LAW LIBRARY CHECK OUT DESK PHONE NUMBER *</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>LAW LIBRARY LOAN DESK PHONE NUMBER</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* LAW LIBRARY LOAN DESK PHONE NUMBER</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>LAW LIBRARY LOAN DESK PHONE NUMBER *</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* LAW LIBRARY LOAN DESK PHONE NUMBER *</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR LAW LIBRARY LOAN DESK</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR LAW LIBRARY LOAN DESK</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR LAW LIBRARY LOAN DESK *</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR LAW LIBRARY LOAN DESK *</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR LAW LIBRARY CHECK OUT DESK</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR LAW LIBRARY CHECK OUT DESK</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR LAW LIBRARY CHECK OUT DESK *</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR LAW LIBRARY CHECK OUT DESK *</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CALL THE LAW CHECK OUT DESK</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CALL THE LAW CHECK OUT DESK</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CALL THE LAW CHECK OUT DESK *</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CALL THE LAW CHECK OUT DESK *</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CALL THE LAW LOAN DESK</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CALL THE LAW LOAN DESK</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CALL THE LAW LOAN DESK *</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CALL THE LAW LOAN DESK *</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CALL THE LAW LIBRARY CHECK OUT DESK</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CALL THE LAW LIBRARY CHECK OUT DESK</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CALL THE LAW LIBRARY CHECK OUT DESK *</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CALL THE LAW LIBRARY CHECK OUT DESK *</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CALL THE LAW LIBRARY LOAN DESK</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CALL THE LAW LIBRARY LOAN DESK</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CALL THE LAW LIBRARY LOAN DESK *</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CALL THE LAW LIBRARY LOAN DESK *</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CONTACT THE LAW CHECK OUT DESK</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CONTACT THE LAW CHECK OUT DESK</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CONTACT THE LAW CHECK OUT DESK *</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CONTACT THE LAW CHECK OUT DESK *</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CONTACT THE LAW LOAN DESK</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CONTACT THE LAW LOAN DESK</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CONTACT THE LAW LOAN DESK *</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CONTACT THE LAW LOAN DESK *</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CONTACT THE LAW LIBRARY CHECK OUT DESK</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CONTACT THE LAW LIBRARY CHECK OUT DESK</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CONTACT THE LAW LIBRARY CHECK OUT DESK *</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CONTACT THE LAW LIBRARY CHECK OUT DESK *</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CONTACT THE LAW LIBRARY LOAN DESK</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CONTACT THE LAW LIBRARY LOAN DESK</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CONTACT THE LAW LIBRARY LOAN DESK *</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CONTACT THE LAW LIBRARY LOAN DESK *</pattern>
+		<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+
+	<category><pattern>LAW</pattern>
+	<that>I can tell you the phone numbers for our Check Out Desks Which library would you like to call_</that>
+	<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+
+	<category><pattern>LAW LIBRARY</pattern>
+	<that>I can tell you the phone numbers for our Check Out Desks Which library would you like to call_</that>
+	<template><srai>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</srai></template></category>
+
+<!--Reference Desk-->
+
+<category><pattern>CALL THE REFERENCE DESK</pattern>
+<template>I can tell you the phone numbers for our Reference Desks.  Which library would you like to call?</template></category>		
+	<category><pattern>* CALL THE REFERENCE DESK</pattern>
+	<template><srai>CALL THE REFERENCE DESK</srai></template></category>
+	<category><pattern>CALL THE REFERENCE DESK *</pattern>
+	<template><srai>CALL THE REFERENCE DESK</srai></template></category>
+	<category><pattern>* CALL THE REFERENCE DESK *</pattern>
+	<template><srai>CALL THE REFERENCE DESK</srai></template></category>
+	<category><pattern>CONTACT THE REFERENCE DESK</pattern>
+	<template><srai>CALL THE REFERENCE DESK</srai></template></category>
+	<category><pattern>* CONTACT THE REFERENCE DESK</pattern>
+	<template><srai>CALL THE REFERENCE DESK</srai></template></category>	
+	<category><pattern>CONTACT THE REFERENCE DESK *</pattern>
+	<template><srai>CALL THE REFERENCE DESK</srai></template></category>	
+	<category><pattern>* CONTACT THE REFERENCE DESK *</pattern>
+	<template><srai>CALL THE REFERENCE DESK</srai></template></category>	
+	<category><pattern>REFERENCE DESK PHONE NUMBER</pattern>
+	<template><srai>CALL THE REFERENCE DESK</srai></template></category>	
+	<category><pattern>* REFERENCE DESK PHONE NUMBER</pattern>
+	<template><srai>CALL THE REFERENCE DESK</srai></template></category>	
+	<category><pattern>REFERENCE DESK PHONE NUMBER *</pattern>
+	<template><srai>CALL THE REFERENCE DESK</srai></template></category>	
+	<category><pattern>* REFERENCE DESK PHONE NUMBER *</pattern>
+	<template><srai>CALL THE REFERENCE DESK</srai></template></category>	
+			
+	<category><pattern>LANGSON REFERENCE DESK PHONE NUMBER</pattern>
+	<template>The phone number for the Langson Library Reference desk is(949) 824-4976.</template></category>
+		<category><pattern>* LANGSON REFERENCE DESK PHONE NUMBER</pattern>
+		<template><srai>LANGSON REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>LANGSON REFERENCE DESK PHONE NUMBER *</pattern>
+		<template><srai>LANGSON REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* LANGSON REFERENCE DESK PHONE NUMBER *</pattern>
+		<template><srai>LANGSON REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>LANGSON LOAN DESK PHONE NUMBER</pattern>
+		<template><srai>LANGSON REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* LANGSON LOAN DESK PHONE NUMBER</pattern>
+		<template><srai>LANGSON REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>LANGSON LOAN DESK PHONE NUMBER *</pattern>
+		<template><srai>LANGSON REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* LANGSON LOAN DESK PHONE NUMBER *</pattern>
+		<template><srai>LANGSON REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR LANGSON LOAN DESK</pattern>
+		<template><srai>LANGSON REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR LANGSON LOAN DESK</pattern>
+		<template><srai>LANGSON REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR LANGSON LOAN DESK *</pattern>
+		<template><srai>LANGSON REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR LANGSON LOAN DESK *</pattern>
+		<template><srai>LANGSON REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR LANGSON REFERENCE DESK</pattern>
+		<template><srai>LANGSON REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR LANGSON REFERENCE DESK</pattern>
+		<template><srai>LANGSON REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR LANGSON REFERENCE DESK *</pattern>
+		<template><srai>LANGSON REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR LANGSON REFERENCE DESK *</pattern>
+		<template><srai>LANGSON REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CALL THE LANGSON REFERENCE DESK</pattern>
+		<template><srai>LANGSON REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CALL THE LANGSON REFERENCE DESK</pattern>
+		<template><srai>LANGSON REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CALL THE LANGSON REFERENCE DESK *</pattern>
+		<template><srai>LANGSON REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CALL THE LANGSON REFERENCE DESK *</pattern>
+		<template><srai>LANGSON REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CONTACT THE LANGSON REFERENCE DESK</pattern>
+		<template><srai>LANGSON REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CONTACT THE LANGSON REFERENCE DESK</pattern>
+		<template><srai>LANGSON REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CONTACT THE LANGSON REFERENCE DESK *</pattern>
+		<template><srai>LANGSON REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CONTACT THE LANGSON REFERENCE DESK *</pattern>
+		<template><srai>LANGSON REFERENCE DESK PHONE NUMBER</srai></template></category>
+
+		
+	<category><pattern>LANGSON</pattern>
+	<that>I can tell you the phone numbers for our Check Out Desks Which library would you like to call_</that>
+	<template><srai>LANGSON REFERENCE DESK PHONE NUMBER</srai></template></category>
+
+	<category><pattern>MAIN</pattern>
+	<that>I can tell you the phone numbers for our Check Out Desks Which library would you like to call_</that>
+	<template><srai>LANGSON REFERENCE DESK PHONE NUMBER</srai></template></category>
+
+	<category><pattern>AYALA REFERENCE DESK PHONE NUMBER</pattern>
+	<template>The phone number for the Ayala Library Check Out desk is(949) 824-4976.</template></category>
+		<category><pattern>* AYALA REFERENCE DESK PHONE NUMBER</pattern>
+		<template><srai>AYALA REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>AYALA REFERENCE DESK PHONE NUMBER *</pattern>
+		<template><srai>AYALA REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* AYALA REFERENCE DESK PHONE NUMBER *</pattern>
+		<template><srai>AYALA REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>AYALA LOAN DESK PHONE NUMBER</pattern>
+		<template><srai>AYALA REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* AYALA LOAN DESK PHONE NUMBER</pattern>
+		<template><srai>AYALA REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>AYALA LOAN DESK PHONE NUMBER *</pattern>
+		<template><srai>AYALA REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* AYALA LOAN DESK PHONE NUMBER *</pattern>
+		<template><srai>AYALA REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR AYALA LOAN DESK</pattern>
+		<template><srai>AYALA REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR AYALA LOAN DESK</pattern>
+		<template><srai>AYALA REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR AYALA LOAN DESK *</pattern>
+		<template><srai>AYALA REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR AYALA LOAN DESK *</pattern>
+		<template><srai>AYALA REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR AYALA REFERENCE DESK</pattern>
+		<template><srai>AYALA REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR AYALA REFERENCE DESK</pattern>
+		<template><srai>AYALA REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR AYALA REFERENCE DESK *</pattern>
+		<template><srai>AYALA REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR AYALA REFERENCE DESK *</pattern>
+		<template><srai>AYALA REFERENCE DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>CALL THE AYALA REFERENCE DESK</pattern>
+		<template><srai>AYALA REFERENCE DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>* CALL THE AYALA REFERENCE DESK</pattern>
+		<template><srai>AYALA REFERENCE DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>CALL THE AYALA REFERENCE DESK *</pattern>
+		<template><srai>AYALA REFERENCE DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>* CALL THE AYALA REFERENCE DESK *</pattern>
+		<template><srai>AYALA REFERENCE DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>CONTACT THE AYALA REFERENCE DESK</pattern>
+		<template><srai>AYALA REFERENCE DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>* CONTACT THE AYALA REFERENCE DESK</pattern>
+		<template><srai>AYALA REFERENCE DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>CONTACT THE AYALA REFERENCE DESK *</pattern>
+		<template><srai>AYALA REFERENCE DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>* CONTACT THE AYALA REFERENCE DESK *</pattern>
+		<template><srai>AYALA REFERENCE DESK PHONE NUMBER</srai></template></category>	
+		
+	<category><pattern>AYALA</pattern>
+	<that>I can tell you the phone numbers for our Check Out Desks Which library would you like to call_</that>
+	<template><srai>AYALA REFERENCE DESK PHONE NUMBER</srai></template></category>
+
+	<category><pattern>SCIENCE</pattern>
+	<that>I can tell you the phone numbers for our Check Out Desks Which library would you like to call_</that>
+	<template><srai>AYALA REFERENCE DESK PHONE NUMBER</srai></template></category>	
+
+	<category><pattern>GRUNIGEN REFERENCE DESK PHONE NUMBER</pattern>
+	<template>The phone number for the Grunigen Medical Library Check Out desk is(714) 456-5583.</template></category>
+		<category><pattern>* GRUNIGEN REFERENCE DESK PHONE NUMBER</pattern>
+		<template><srai>GRUNIGEN REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>GRUNIGEN REFERENCE DESK PHONE NUMBER *</pattern>
+		<template><srai>GRUNIGEN REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* GRUNIGEN REFERENCE DESK PHONE NUMBER *</pattern>
+		<template><srai>GRUNIGEN REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>GRUNIGEN LOAN DESK PHONE NUMBER</pattern>
+		<template><srai>GRUNIGEN REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* GRUNIGEN LOAN DESK PHONE NUMBER</pattern>
+		<template><srai>GRUNIGEN REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>GRUNIGEN LOAN DESK PHONE NUMBER *</pattern>
+		<template><srai>GRUNIGEN REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* GRUNIGEN LOAN DESK PHONE NUMBER *</pattern>
+		<template><srai>GRUNIGEN REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR GRUNIGEN LOAN DESK</pattern>
+		<template><srai>GRUNIGEN REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR GRUNIGEN LOAN DESK</pattern>
+		<template><srai>GRUNIGEN REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR GRUNIGEN LOAN DESK *</pattern>
+		<template><srai>GRUNIGEN REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR GRUNIGEN LOAN DESK *</pattern>
+		<template><srai>GRUNIGEN REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR GRUNIGEN REFERENCE DESK</pattern>
+		<template><srai>GRUNIGEN REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR GRUNIGEN REFERENCE DESK</pattern>
+		<template><srai>GRUNIGEN REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR GRUNIGEN REFERENCE DESK *</pattern>
+		<template><srai>GRUNIGEN REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR GRUNIGEN REFERENCE DESK *</pattern>
+		<template><srai>GRUNIGEN REFERENCE DESK PHONE NUMBER</srai></template></category>	
+		<category><pattern>CALL THE GRUNIGEN REFERENCE DESK</pattern>
+		<template><srai>GRUNIGEN REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CALL THE GRUNIGEN REFERENCE DESK</pattern>
+		<template><srai>GRUNIGEN REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CALL THE GRUNIGEN REFERENCE DESK *</pattern>
+		<template><srai>GRUNIGEN REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CALL THE GRUNIGEN REFERENCE DESK *</pattern>
+		<template><srai>GRUNIGEN REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CONTACT THE GRUNIGEN REFERENCE DESK</pattern>
+		<template><srai>GRUNIGEN REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CONTACT THE GRUNIGEN REFERENCE DESK</pattern>
+		<template><srai>GRUNIGEN REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CONTACT THE GRUNIGEN REFERENCE DESK *</pattern>
+		<template><srai>GRUNIGEN REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CONTACT THE GRUNIGEN REFERENCE DESK *</pattern>
+		<template><srai>GRUNIGEN REFERENCE DESK PHONE NUMBER</srai></template></category>
+		
+	<category><pattern>GRUNIGEN</pattern>
+	<that>I can tell you the phone numbers for our Check Out Desks Which library would you like to call_</that>
+	<template><srai>GRUNIGEN REFERENCE DESK PHONE NUMBER</srai></template></category>
+
+	<category><pattern>GML</pattern>
+	<that>I can tell you the phone numbers for our Check Out Desks Which library would you like to call_</that>
+	<template><srai>GRUNIGEN REFERENCE DESK PHONE NUMBER</srai></template></category>
+	
+	<category><pattern>GRUNIGEN MEDICAL LIBRARY</pattern>
+	<that>I can tell you the phone numbers for our Check Out Desks Which library would you like to call_</that>
+	<template><srai>GRUNIGEN REFERENCE DESK PHONE NUMBER</srai></template></category>
+		
+	<category><pattern>LAW LIBRARY CHECK OUT DESK PHONE NUMBER</pattern>
+	<template>The phone number for the Law Library Services desk is (949) 824-6746.</template></category>
+		<category><pattern>* LAW LIBRARY REFERENCE DESK PHONE NUMBER</pattern>
+		<template><srai>LAW LIBRARY REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>LAW LIBRARY REFERENCE DESK PHONE NUMBER *</pattern>
+		<template><srai>LAW LIBRARY REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* LAW LIBRARY REFERENCE DESK PHONE NUMBER *</pattern>
+		<template><srai>LAW LIBRARY REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>LAW LIBRARY LOAN DESK PHONE NUMBER</pattern>
+		<template><srai>LAW LIBRARY REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* LAW LIBRARY LOAN DESK PHONE NUMBER</pattern>
+		<template><srai>LAW LIBRARY REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>LAW LIBRARY LOAN DESK PHONE NUMBER *</pattern>
+		<template><srai>LAW LIBRARY REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* LAW LIBRARY LOAN DESK PHONE NUMBER *</pattern>
+		<template><srai>LAW LIBRARY REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR LAW LIBRARY LOAN DESK</pattern>
+		<template><srai>LAW LIBRARY REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR LAW LIBRARY LOAN DESK</pattern>
+		<template><srai>LAW LIBRARY REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR LAW LIBRARY LOAN DESK *</pattern>
+		<template><srai>LAW LIBRARY REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR LAW LIBRARY LOAN DESK *</pattern>
+		<template><srai>LAW LIBRARY REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR LAW LIBRARY REFERENCE DESK</pattern>
+		<template><srai>LAW LIBRARY REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR LAW LIBRARY REFERENCE DESK</pattern>
+		<template><srai>LAW LIBRARY REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>PHONE NUMBER FOR LAW LIBRARY REFERENCE DESK *</pattern>
+		<template><srai>LAW LIBRARY REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* PHONE NUMBER FOR LAW LIBRARY REFERENCE DESK *</pattern>
+		<template><srai>LAW LIBRARY REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CALL THE LAW LIBRARY REFERENCE DESK</pattern>
+		<template><srai>LAW LIBRARY REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CALL THE LAW LIBRARY REFERENCE DESK</pattern>
+		<template><srai>LAW LIBRARY REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CALL THE LAW LIBRARY REFERENCE DESK *</pattern>
+		<template><srai>LAW LIBRARY REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CALL THE LAW LIBRARY REFERENCE DESK *</pattern>
+		<template><srai>LAW LIBRARY REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CONTACT THE LAW LIBRARY REFERENCE DESK</pattern>
+		<template><srai>LAW LIBRARY REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CONTACT THE LAW LIBRARY REFERENCE DESK</pattern>
+		<template><srai>LAW LIBRARY REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>CONTACT THE LAW LIBRARY REFERENCE DESK *</pattern>
+		<template><srai>LAW LIBRARY REFERENCE DESK PHONE NUMBER</srai></template></category>
+		<category><pattern>* CONTACT THE LAW LIBRARY REFERENCE DESK *</pattern>
+		<template><srai>LAW LIBRARY REFERENCE DESK PHONE NUMBER</srai></template></category>
+		
+	<category><pattern>LAW</pattern>
+	<that>I can tell you the phone numbers for our Check Out Desks Which library would you like to call_</that>
+	<template><srai>LAW LIBRARY REFERENCE DESK PHONE NUMBER</srai></template></category>
+
+	<category><pattern>LAW LIBRARY</pattern>
+	<that>I can tell you the phone numbers for our Check Out Desks Which library would you like to call_</that>
+	<template><srai>LAW LIBRARY REFERENCE DESK PHONE NUMBER</srai></template></category>
+
+<category><pattern>WHO IS YOUR AUL</pattern>
+<template>Our AUL's are John Renaud for Research Resources, Kevin Ruminson for Human Resources, and Cathy Palmer is the interim AUL for Public Services.</template></category>
+
+<category><pattern>HOW DO I CONTACT SOMEONE AT THE LIBRARIES</pattern>
+<template>Are you looking for library staff contact information or department contact information? (Say: staff or department)</template></category>
+
+	<category><pattern>STAFF</pattern>
+	<that>Are you looking for library staff contact information or department contact information_</that>
+	<template>Staff contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">Staff Directory</a>.</template></category>
+	 
+	<category><pattern>DEPARTMENT</pattern>
+	<that>Are you looking for library staff contact information or department contact information_</that>
+	<template>Department contact information can be found on our <a href=" http://www.lib.uci.edu/departments-a-z" target="_blank">Departments A-Z Directory</a>.</template></category>
+
+<!-- A -->
+
+<category><pattern>SHERRY AGUSTIN</pattern>
+<template>Sherry Agustin is a Library Assistant at the Grunigen Medical Library. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+<category><pattern>* SHERRY AGUSTIN</pattern>
+	<template><srai>SHERRY AGUSTIN</srai></template></category>
+	<category><pattern>KSHERRY AGUSTIN *</pattern>
+	<template><srai>SHERRY AGUSTIN</srai></template></category>
+	<category><pattern>* SHERRY AGUSTIN *</pattern>
+	<template><srai>SHERRY AGUSTIN</srai></template></category>
+
+<category><pattern>KAWATA ALEXANDER</pattern>
+<template>Kawata Alexander is a Library Assistant in Access Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+<category><pattern>* KAWATA ALEXANDER</pattern>
+	<template><srai>KAWATA ALEXANDER</srai></template></category>
+	<category><pattern>KAWATA ALEXANDER *</pattern>
+	<template><srai>KAWATA ALEXANDER</srai></template></category>
+	<category><pattern>* KAWATA ALEXANDER *</pattern>
+	<template><srai>KAWATA ALEXANDER</srai></template></category>
+
+<category><pattern>LILLIAN ARANDA</pattern>
+<template>Lillian Aranda is a Library Assistant in Cataloging. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* LILLIAN ARANDA</pattern>
+	<template><srai>LILLIAN ARANDA</srai></template></category>
+	<category><pattern>LILLIAN ARANDA *</pattern>
+	<template><srai>LILLIAN ARANDA</srai></template></category>
+	<category><pattern>* LILLIAN ARANDA *</pattern>
+	<template><srai>LILLIAN ARANDA</srai></template></category>
+
+<category><pattern>NICOLE ARNOLD</pattern>
+<template>Nicole Arnold is the Research Librarian for Student Success and Instruction in Education and Outreach. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* NICOLE ARNOLD</pattern>
+	<template><srai>NICOLE ARNOLD</srai></template></category>
+	<category><pattern>NICOLE ARNOLD *</pattern>
+	<template><srai>NICOLE ARNOLD</srai></template></category>
+	<category><pattern>* NICOLE ARNOLD *</pattern>
+	<template><srai>NICOLE ARNOLD</srai></template></category>
+	<category><pattern>EDUCATION LIBRARIAN</pattern>
+	<template><srai>NICOLE ARNOLD</srai></template></category>
+	<category><pattern>* EDUCATION LIBRARIAN</pattern>
+	<template><srai>NICOLE ARNOLD</srai></template></category>
+	<category><pattern>EDUCATION LIBRARIAN *</pattern>
+	<template><srai>NICOLE ARNOLD</srai></template></category>
+	<category><pattern>* EDUCATION LIBRARIAN *</pattern>
+	<template><srai>NICOLE ARNOLD</srai></template></category>
+	
+<category><pattern>ANNA ARRIETA</pattern>
+<template>Anna Arrieta is a Library Assistant at the Grunigen Medical Library. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* ANNA ARRIETA</pattern>
+	<template><srai>ANNA ARRIETA</srai></template></category>
+	<category><pattern>ANNA ARRIETA *</pattern>
+	<template><srai>ANNA ARRIETA</srai></template></category>
+	<category><pattern>* ANNA ARRIETA *</pattern>
+	<template><srai>ANNA ARRIETA</srai></template></category>
+
+<category><pattern>LAKSHMI ARUNACHALAM</pattern>
+<template>Lakshmi Arunachalam is a Platform Administrator in Library IT. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* LAKSHMI ARUNACHALAM</pattern>
+	<template><srai>LAKSHMI ARUNACHALAM</srai></template></category>
+	<category><pattern>LAKSHMI ARUNACHALAM *</pattern>
+	<template><srai>LAKSHMI ARUNACHALAM</srai></template></category>
+	<category><pattern>* LAKSHMI ARUNACHALAM *</pattern>
+	<template><srai>LAKSHMI ARUNACHALAM</srai></template></category>
+	
+<category><pattern>ANTOINETTE AVILA</pattern>
+<template>Antoinette Avila is a Library Assistant in Reference. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* ANTOINETTE AVILA</pattern>
+	<template><srai>ANTOINETTE AVILA</srai></template></category>
+	<category><pattern>ANTOINETTE AVILA *</pattern>
+	<template><srai>ANTOINETTE AVILA</srai></template></category>
+	<category><pattern>* ANTOINETTE AVILA *</pattern>
+	<template><srai>ANTOINETTE AVILA</srai></template></category>
+
+<!-- B -->
+
+<category><pattern>JOHN BAREFORD</pattern>
+<template>John Bareford is a Library Assistant in Access Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* JOHN BAREFORD</pattern>
+	<template><srai>JOHN BAREFORD</srai></template></category>
+	<category><pattern>JOHN BAREFORD *</pattern>
+	<template><srai>JOHN BAREFORD</srai></template></category>
+	<category><pattern>* JOHN BAREFORD *</pattern>
+	<template><srai>JOHN BAREFORD</srai></template></category>
+
+<category><pattern>CHARLA BATEY</pattern>
+<template>Charla Batey is the Communications and Events Officer in Library Development. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* CHARLA BATEY</pattern>
+	<template><srai>CHARLA BATEY</srai></template></category>
+	<category><pattern>CHARLA BATEY *</pattern>
+	<template><srai>CHARLA BATEY</srai></template></category>
+	<category><pattern>* CHARLA BATEY *</pattern>
+	<template><srai>CHARLA BATEY</srai></template></category>
+
+<category><pattern>SHEREE BAUGH</pattern>
+<template>Sheree Baugh is a Administrative Assistant in Library Development. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* SHEREE BAUGH</pattern>
+	<template><srai>SHEREE BAUGH</srai></template></category>
+	<category><pattern>SHEREE BAUGH *</pattern>
+	<template><srai>SHEREE BAUGH</srai></template></category>
+	<category><pattern>* SHEREE BAUGH *</pattern>
+	<template><srai>SHEREE BAUGH</srai></template></category>
+
+<category><pattern>ANDREW BECK</pattern>
+<template>Andrew Beck is a Library Assistant at the Grunigen Medical Library. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* ANDREW BECK</pattern>
+	<template><srai>ANDREW BECK</srai></template></category>
+	<category><pattern>ANDREW BECK *</pattern>
+	<template><srai>ANDREW BECK</srai></template></category>
+	<category><pattern>* ANDREW BECK *</pattern>
+	<template><srai>ANDREW BECK</srai></template></category>
+
+<category><pattern>JENNIFER BETONIO</pattern>
+<template>Jennifer Betonio is an Assistant Analyst in Design Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* JENNIFER BETONIO</pattern>
+	<template><srai>JENNIFER BETONIO</srai></template></category>
+	<category><pattern>JENNIFER BETONIO *</pattern>
+	<template><srai>JENNIFER BETONIO</srai></template></category>
+	<category><pattern>* JENNIFER BETONIO *</pattern>
+	<template><srai>JENNIFER BETONIO</srai></template></category>
+	
+<category><pattern>ANDREW BISHOP</pattern>
+<template>Andrew Bishop is a Library Assistant in Cataloging. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* ANDREW BISHOP</pattern>
+	<template><srai>ANDREW BISHOP</srai></template></category>
+	<category><pattern>ANDREW BISHOP *</pattern>
+	<template><srai>ANDREW BISHOP</srai></template></category>
+	<category><pattern>* ANDREW BISHOP *</pattern>
+	<template><srai>ANDREW BISHOP</srai></template></category>
+	
+<category><pattern>KIMBERLY BISHOP</pattern>
+<template>Kimberly Bishop is a Administrative Assistant in Access Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* KIMBERLY BISHOP</pattern>
+	<template><srai>KIMBERLY BISHOP</srai></template></category>
+	<category><pattern>KIMBERLY BISHOP *</pattern>
+	<template><srai>KIMBERLY BISHOP</srai></template></category>
+	<category><pattern>* KIMBERLY BISHOP *</pattern>
+	<template><srai>KIMBERLY BISHOP</srai></template></category>
+
+<category><pattern>RHONDA BRADLEY</pattern>
+<template>Rhonda Bradley is a Sr. Personnel Analyst in Library Human Resources. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* RHONDA BRADLEY</pattern>
+	<template><srai>RHONDA BRADLEY</srai></template></category>
+	<category><pattern>RHONDA BRADLEY *</pattern>
+	<template><srai>RHONDA BRADLEY</srai></template></category>
+	<category><pattern>* RHONDA BRADLEY *</pattern>
+	<template><srai>RHONDA BRADLEY</srai></template></category>
+
+<category><pattern>STACY BRINKMAN</pattern>
+<template>Stacy Brinkman is the Head of Education and Outreach. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* STACY BRINKMAN</pattern>
+	<template><srai>STACY BRINKMAN</srai></template></category>
+	<category><pattern>STACY BRINKMAN *</pattern>
+	<template><srai>STACY BRINKMAN</srai></template></category>
+	<category><pattern>* STACY BRINKMAN *</pattern>
+	<template><srai>STACY BRINKMAN</srai></template></category>
+	
+<category><pattern>JESSICA BROBST</pattern>
+<template>Jessica Brobst is a Library Assistant in Reference. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* JESSICA BROBST</pattern>
+	<template><srai>JESSICA BROBST</srai></template></category>
+	<category><pattern>JESSICA BROBST *</pattern>
+	<template><srai>JESSICA BROBST</srai></template></category>
+	<category><pattern>* JESSICA BROBST *</pattern>
+	<template><srai>JESSICA BROBST</srai></template></category>
+
+<category><pattern>BRUCE BRODNAX</pattern>
+<template>Bruce Brodnax is a Library Assistant in Access Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* BRUCE BRODNAX</pattern>
+	<template><srai>BRUCE BRODNAX</srai></template></category>
+	<category><pattern>BRUCE BRODNAX *</pattern>
+	<template><srai>BRUCE BRODNAX</srai></template></category>
+	<category><pattern>* BRUCE BRODNAX *</pattern>
+	<template><srai>BRUCE BRODNAX</srai></template></category>
+
+<category><pattern>KELSEY BROWN</pattern>
+<template>Kelsey Brown is a Library Assistant in Access Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* KELSEY BROWN</pattern>
+	<template><srai>KELSEY BROWN</srai></template></category>
+	<category><pattern>KELSEY BROWN *</pattern>
+	<template><srai>KELSEY BROWN</srai></template></category>
+	<category><pattern>* KELSEY BROWN *</pattern>
+	<template><srai>KELSEY BROWN</srai></template></category>
+
+<category><pattern>MITCHELL BROWN</pattern>
+<template>Mitchell Brown is the Research Librarian for Chemistry, Earth System Science and Russian Studies and the Scholarly Communications Coordinator. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* MITCHELL BROWN</pattern>
+	<template><srai>MITCHELL BROWN</srai></template></category>
+	<category><pattern>MITCHELL BROWN *</pattern>
+	<template><srai>MITCHELL BROWN</srai></template></category>
+	<category><pattern>* MITCHELL BROWN *</pattern>
+	<template><srai>MITCHELL BROWN</srai></template></category>
+	<category><pattern>RUSSIAN STUDIES LIBRARIAN</pattern>
+	<template><srai>MITCHELL BROWN</srai></template></category>
+	<category><pattern>* RUSSIAN STUDIES LIBRARIAN</pattern>
+	<template><srai>MITCHELL BROWN</srai></template></category>
+	<category><pattern>RUSSIAN STUDIES LIBRARIAN *</pattern>
+	<template><srai>MITCHELL BROWN</srai></template></category>
+	<category><pattern>* RUSSIAN STUDIES LIBRARIAN *</pattern>
+	<template><srai>MITCHELL BROWN</srai></template></category>
+	<category><pattern>CHEMISTRY LIBRARIAN</pattern>
+	<template><srai>MITCHELL BROWN</srai></template></category>
+	<category><pattern>* CHEMISTRY LIBRARIAN</pattern>
+	<template><srai>MITCHELL BROWN</srai></template></category>
+	<category><pattern>CHEMISTRY LIBRARIAN *</pattern>
+	<template><srai>MITCHELL BROWN</srai></template></category>
+	<category><pattern>* CHEMISTRY LIBRARIAN *</pattern>
+	<template><srai>MITCHELL BROWN</srai></template></category>
+	<category><pattern>EARTH SYSTEMS SCIENCE LIBRARIAN</pattern>
+	<template><srai>MITCHELL BROWN</srai></template></category>
+	<category><pattern>* EARTH SYSTEMS SCIENCE LIBRARIAN</pattern>
+	<template><srai>MITCHELL BROWN</srai></template></category>
+	<category><pattern>EARTH SYSTEMS SCIENCE LIBRARIAN *</pattern>
+	<template><srai>MITCHELL BROWN</srai></template></category>
+	<category><pattern>* EARTH SYSTEMS SCIENCE LIBRARIAN *</pattern>
+	<template><srai>MITCHELL BROWN</srai></template></category>
+
+<category><pattern>ANNETTE BUCKLEY</pattern>
+<template>Annette Buckley is the Research Librarian for Business and Economics and the Interim Librarian for Anthropology. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* ANNETTE BUCKLEY</pattern>
+	<template><srai>ANNETTE BUCKLEY</srai></template></category>
+	<category><pattern>ANNETTE BUCKLEY *</pattern>
+	<template><srai>ANNETTE BUCKLEY</srai></template></category>
+	<category><pattern>* ANNETTE BUCKLEY *</pattern>
+	<template><srai>ANNETTE BUCKLEY</srai></template></category>
+	<category><pattern>BUSINESS LIBRARIAN</pattern>
+	<template><srai>ANNETTE BUCKLEY</srai></template></category>
+	<category><pattern>* BUSINESS LIBRARIAN</pattern>
+	<template><srai>ANNETTE BUCKLEY</srai></template></category>
+	<category><pattern>BUSINESS LIBRARIAN *</pattern>
+	<template><srai>ANNETTE BUCKLEY</srai></template></category>
+	<category><pattern>* BUSINESS LIBRARIAN *</pattern>
+	<template><srai>ANNETTE BUCKLEY</srai></template></category>
+	<category><pattern>ECONOMICS LIBRARIAN</pattern>
+	<template><srai>ANNETTE BUCKLEY</srai></template></category>
+	<category><pattern>* ECONOMICS LIBRARIAN</pattern>
+	<template><srai>ANNETTE BUCKLEY</srai></template></category>
+	<category><pattern>ECONOMICS LIBRARIAN *</pattern>
+	<template><srai>ANNETTE BUCKLEY</srai></template></category>
+	<category><pattern>* ECONOMICS LIBRARIAN *</pattern>
+	<template><srai>ANNETTE BUCKLEY</srai></template></category>
+	<category><pattern>ANTHROPOLOGY LIBRARIAN</pattern>
+	<template><srai>ANNETTE BUCKLEY</srai></template></category>
+	<category><pattern>* ANTHROPOLOGY LIBRARIAN</pattern>
+	<template><srai>ANNETTE BUCKLEY</srai></template></category>
+	<category><pattern>ANTHROPOLOGY LIBRARIAN *</pattern>
+	<template><srai>ANNETTE BUCKLEY</srai></template></category>
+	<category><pattern>* ANTHROPOLOGY LIBRARIAN *</pattern>
+	<template><srai>ANNETTE BUCKLEY</srai></template></category>
+
+<category><pattern>JACKSON BUI</pattern>
+<template>Jackson Bui is a Library Assistant in Special Collections and Archives. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* JACKSON BUI</pattern>
+	<template><srai>JACKSON BUI</srai></template></category>
+	<category><pattern>JACKSON BUI *</pattern>
+	<template><srai>JACKSON BUI</srai></template></category>
+	<category><pattern>* JACKSON BUI *</pattern>
+	<template><srai>JACKSON BUI</srai></template></category>
+	
+<category><pattern>ASHLEY BURKE</pattern>
+<template>Ashley Burke is the Computing Resource Manager and Acting Web Services Supervisor in Library Information Technology. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* ASHLEY BURKE</pattern>
+	<template><srai>ASHLEY BURKE</srai></template></category>
+	<category><pattern>ASHLEY BURKE *</pattern>
+	<template><srai>ASHLEY BURKE</srai></template></category>
+	<category><pattern>* ASHLEY BURKE *</pattern>
+	<template><srai>ASHLEY BURKE</srai></template></category>
+	
+<!-- C -->
+
+<category><pattern>AMANDO CAIYOD</pattern>
+<template>Amando Caiyod is a Library Assistant in Acquisitions. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* AMANDO CAIYOD</pattern>
+	<template><srai>AMANDO CAIYOD</srai></template></category>
+	<category><pattern>AMANDO CAIYOD *</pattern>
+	<template><srai>AMANDO CAIYOD</srai></template></category>
+	<category><pattern>* AMANDO CAIYOD *</pattern>
+	<template><srai>AMANDO CAIYOD</srai></template></category>
+
+<category><pattern>RAYMOND CAMERO</pattern>
+<template>Raymond Camero is a Programmer Analyst in Library Information Technology. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* RAYMOND CAMERO</pattern>
+	<template><srai>RAYMOND CAMERO</srai></template></category>
+	<category><pattern>RAYMOND CAMERO *</pattern>
+	<template><srai>RAYMOND CAMERO</srai></template></category>
+	<category><pattern>* RAYMOND CAMERO *</pattern>
+	<template><srai>RAYMOND CAMERO</srai></template></category>
+	
+<category><pattern>ARCHIE CARTER</pattern>
+<template>Archie Carter is an Administrative Analyst, Supervisor in Library Facilities. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* ARCHIE CARTER</pattern>
+	<template><srai>ARCHIE CARTER</srai></template></category>
+	<category><pattern>ARCHIE CARTER *</pattern>
+	<template><srai>ARCHIE CARTER</srai></template></category>
+	<category><pattern>* ARCHIE CARTER *</pattern>
+	<template><srai>ARCHIE CARTER</srai></template></category>
+
+<category><pattern>NANCY CHACON</pattern>
+<template>Nancy Chacon is a Library Assistant in Reference. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* NANCY CHACON</pattern>
+	<template><srai>NANCY CHACON</srai></template></category>
+	<category><pattern>NANCY CHACON *</pattern>
+	<template><srai>NANCY CHACON</srai></template></category>
+	<category><pattern>* NANCY CHACON *</pattern>
+	<template><srai>NANCY CHACON</srai></template></category>
+
+<category><pattern>ARCHANA CHAUDHRI</pattern>
+<template>Archana Chaudhri is a Programmer Analyst in Library Information Technology. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* ARCHANA CHAUDHRI</pattern>
+	<template><srai>ARCHANA CHAUDHRI</srai></template></category>
+	<category><pattern>ARCHANA CHAUDHRI *</pattern>
+	<template><srai>ARCHANA CHAUDHRI</srai></template></category>
+	<category><pattern>* ARCHANA CHAUDHRI *</pattern>
+	<template><srai>ARCHANA CHAUDHRI</srai></template></category>
+
+<category><pattern>GINA CHEN</pattern>
+<template>Gina Chen is a Finance Analyst in the Library Business Office. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* GINA CHEN</pattern>
+	<template><srai>GINA CHEN</srai></template></category>
+	<category><pattern>GINA CHEN *</pattern>
+	<template><srai>GINA CHEN</srai></template></category>
+	<category><pattern>* GINA CHEN *</pattern>
+	<template><srai>GINA CHEN</srai></template></category>
+
+<category><pattern>STEPHEN CLANCY</pattern>
+<template>Stephen Clancy is a Research Librarian for Nursing, Medical Education, and an interim librarian for Medicine. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>STEPHEN CLANCY</pattern>
+	<template><srai>STEPHEN CLANCY</srai></template></category>
+	<category><pattern>STEPHEN CLANCY</pattern>
+	<template><srai>STEPHEN CLANCY</srai></template></category>
+	<category><pattern>STEPHEN CLANCY</pattern>
+	<template><srai>STEPHEN CLANCY</srai></template></category>	
+	<category><pattern>NURSING LIBRARIAN</pattern>
+	<template><srai>STEPHEN CLANCY</srai></template></category>
+	<category><pattern>* NURSING LIBRARIAN</pattern>
+	<template><srai>STEPHEN CLANCY</srai></template></category>
+	<category><pattern>NURSING LIBRARIAN *</pattern>
+	<template><srai>STEPHEN CLANCY</srai></template></category>
+	<category><pattern>* NURSING LIBRARIAN *</pattern>
+	<template><srai>STEPHEN CLANCY</srai></template></category>
+
+Loree Clark 
+
+<!-- D -->
+
+<category><pattern>CHI DANG</pattern>
+<template>Chi Dang is a Library Assistant in Cataloging. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* CHI DANG</pattern>
+	<template><srai>CHI DANG</srai></template></category>
+	<category><pattern>CHI DANG *</pattern>
+	<template><srai>CHI DANG</srai></template></category>
+	<category><pattern>* CHI DANG *</pattern>
+	<template><srai>CHI DANG</srai></template></category>
+
+<category><pattern>MARIA DREWS</pattern>
+<template>Maria Drews is a Library Assistant at the Grunigen Medical Library. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* MARIA DREWS</pattern>
+	<template><srai>MARIA DREWS</srai></template></category>
+	<category><pattern>MARIA DREWS *</pattern>
+	<template><srai>MARIA DREWS</srai></template></category>
+	<category><pattern>* MARIA DREWS *</pattern>
+	<template><srai>MARIA DREWS</srai></template></category>
+	
+<category><pattern>DAVID DUFFY</pattern>
+<template>David Duffy is a Maintenance Mechanic in Library Facilities. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* DAVID DUFFY</pattern>
+	<template><srai>DAVID DUFFY</srai></template></category>
+	<category><pattern>DAVID DUFFY *</pattern>
+	<template><srai>DAVID DUFFY</srai></template></category>
+	<category><pattern>* DAVID DUFFY *</pattern>
+	<template><srai>DAVID DUFFY</srai></template></category>
+
+<!-- E -->
+
+<category><pattern>BRANDON EMLINGER</pattern>
+<template>Brandon Emlinger is a Programmer Analyst in Library Information Technology. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* BRANDON EMLINGER</pattern>
+	<template><srai>BRANDON EMLINGER</srai></template></category>
+	<category><pattern>BRANDON EMLINGER *</pattern>
+	<template><srai>BRANDON EMLINGER</srai></template></category>
+	<category><pattern>* BRANDON EMLINGER *</pattern>
+	<template><srai>BRANDON EMLINGER</srai></template></category>
+
+<!-- F -->
+
+<category><pattern>ANASTACIA FERNANDO</pattern>
+<template>Anastacia Fernando is a Library Assistant in Access Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>ANASTACIA FERNANDO</pattern>
+	<template><srai>ANASTACIA FERNANDO</srai></template></category>
+	<category><pattern>ANASTACIA FERNANDO</pattern>
+	<template><srai>ANASTACIA FERNANDO</srai></template></category>
+	<category><pattern>ANASTACIA FERNANDO</pattern>
+	<template><srai>ANASTACIA FERNANDO</srai></template></category>
+	
+<category><pattern>KRISTINE FERRY</pattern>
+<template>Kristine Ferry is Head of Access Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* KRISTINE FERRY</pattern>
+	<template><srai>KRISTINE FERRY</srai></template></category>
+	<category><pattern>KRISTINE FERRY *</pattern>
+	<template><srai>KRISTINE FERRY</srai></template></category>
+	<category><pattern>* KRISTINE FERRY *</pattern>
+	<template><srai>KRISTINE FERRY</srai></template></category>
+
+<!-- G -->	
+
+<category><pattern>KATHLEEN GAFFNEY</pattern>
+<template>Kathleen Gaffney is an Administrative Assistant in Library Development. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* KATHLEEN GAFFNEY</pattern>
+	<template><srai>KATHLEEN GAFFNEY</srai></template></category>
+	<category><pattern>KATHLEEN GAFFNEY *</pattern>
+	<template><srai>KATHLEEN GAFFNEY</srai></template></category>
+	<category><pattern>* KATHLEEN GAFFNEY *</pattern>
+	<template><srai>KATHLEEN GAFFNEY</srai></template></category>
+
+<category><pattern>JULIA GELFAND</pattern>
+<template>Julia Gelfand is the Research Librarian for Applied Sciences and Engineering. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	 <category><pattern>* JULIA GELFAND</pattern>
+	 <template><srai>JULIA GELFAND</srai></template></category>
+	 <category><pattern>JULIA GELFAND *</pattern>
+	 <template><srai>JULIA GELFAND</srai></template></category>
+	 <category><pattern>* JULIA GELFAND *</pattern>
+	 <template><srai>JULIA GELFAND</srai></template></category> 
+	<category><pattern>ENGINEERING LIBRARIAN</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>* ENGINEERING LIBRARIAN</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>ENGINEERING LIBRARIAN *</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>* ENGINEERING LIBRARIAN *</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>BIOMEDICAL ENGINEERING LIBRARIAN</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>* BIOMEDICAL ENGINEERING LIBRARIAN</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>BIOMEDICAL ENGINEERING LIBRARIAN *</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>* BIOMEDICAL ENGINEERING LIBRARIAN *</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>CHEMICAL ENGINEERING LIBRARIAN</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>* CHEMICAL ENGINEERING LIBRARIAN</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>CHEMICAL ENGINEERING LIBRARIAN *</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>* CHEMICAL ENGINEERING LIBRARIAN *</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>ENVIRONMENTAL ENGINEERING LIBRARIAN</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>* ENVIRONMENTAL ENGINEERING LIBRARIAN</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>ENVIRONMENTAL ENGINEERING LIBRARIAN *</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>* ENVIRONMENTAL ENGINEERING LIBRARIAN *</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>CIVIL ENGINEERING LIBRARIAN</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>* CIVIL ENGINEERING LIBRARIAN</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>CIVIL ENGINEERING LIBRARIAN *</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>* CIVIL ENGINEERING LIBRARIAN *</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>ELECTRICAL ENGINEERING LIBRARIAN</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>* ELECTRICAL ENGINEERING LIBRARIAN</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>ELECTRICAL ENGINEERING LIBRARIAN *</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>* ELECTRICAL ENGINEERING LIBRARIAN *</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>MECHANICAL ENGINEERING LIBRARIAN</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>* MECHANICAL ENGINEERING LIBRARIAN</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>MECHANICAL ENGINEERING LIBRARIAN *</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>* MECHANICAL ENGINEERING LIBRARIAN *</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>AEROSPACE ENGINEERING LIBRARIAN</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>* AEROSPACE ENGINEERING LIBRARIAN</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>AEROSPACE ENGINEERING LIBRARIAN *</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>* AEROSPACE ENGINEERING LIBRARIAN *</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>COMPUTER SCIENCE LIBRARIAN</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>* COMPUTER SCIENCE LIBRARIAN</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>COMPUTER SCIENCE LIBRARIAN *</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>* COMPUTER SCIENCE LIBRARIAN *</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>MATERIALS SCIENCE LIBRARIAN</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>* MATERIALS SCIENCE LIBRARIAN</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>MATERIALS SCIENCE LIBRARIAN *</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>* MATERIALS SCIENCE LIBRARIAN *</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>PLANNING POLICY AND DESIGN LIBRARIAN</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>* PLANNING POLICY AND DESIGN LIBRARIAN</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>PLANNING POLICY AND DESIGN LIBRARIAN *</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>* PLANNING POLICY AND DESIGN LIBRARIAN *</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>INFORMATICS LIBRARIAN</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>* INFORMATICS LIBRARIAN</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>INFORMATICS LIBRARIAN *</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>* INFORMATICS LIBRARIAN *</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>STATISTICS LIBRARIAN</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>* STATISTICS LIBRARIAN</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>STATISTICS LIBRARIAN *</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>* STATISTICS LIBRARIAN *</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>PUBLIC HEALTH LIBRARIAN</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>* PUBLIC HEALTH LIBRARIAN</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>PUBLIC HEALTH LIBRARIAN *</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+	<category><pattern>* PUBLIC HEALTH LIBRARIAN *</pattern>
+	<template><srai>JULIA GELFAND</srai></template></category>
+
+<category><pattern>JOSHUA GLADIEUX</pattern>
+<template>Joshua Gladieux is a Weekend Supervisor in Access Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* JOSHUA GLADIEUX</pattern>
+	<template><srai>JOSHUA GLADIEUX</srai></template></category>
+	<category><pattern>JOSHUA GLADIEUX *</pattern>
+	<template><srai>JOSHUA GLADIEUX</srai></template></category>
+	<category><pattern>* JOSHUA GLADIEUX*</pattern>
+	<template><srai>JOSHUA GLADIEUX</srai></template></category>
+	
+<category><pattern>PAMELA GORDON</pattern>
+<template>Pamela Gordon is a Library Assistant in Acquisitions. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* PAMELA GORDON</pattern>
+	<template><srai>PAMELA GORDON</srai></template></category>
+	<category><pattern>PAMELA GORDON *</pattern>
+	<template><srai>PAMELA GORDON</srai></template></category>
+	<category><pattern>* PAMELA GORDON *</pattern>
+	<template><srai>PAMELA GORDON</srai></template></category>
+	
+<category><pattern>VICKI GRAHAME</pattern>
+<template>Vicki Grahame is the Head of Cataloging. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* VICKI GRAHAME</pattern>
+	<template><srai>VICKI GRAHAME</srai></template></category>
+	<category><pattern>VICKI GRAHAME *</pattern>
+	<template><srai>VICKI GRAHAME</srai></template></category>
+	<category><pattern>* VICKI GRAHAME *</pattern>
+	<template><srai>VICKI GRAHAME</srai></template></category>
+
+<category><pattern>CAROLYN GRINER</pattern>
+<template>Carolyn Griner is a Library Assistant in Education and Outreach. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* CAROLYN GRINER</pattern>
+	<template><srai>CAROLYN GRINER</srai></template></category>
+	<category><pattern>CAROLYN GRINER *</pattern>
+	<template><srai>CAROLYN GRINER</srai></template></category>
+	<category><pattern>* CAROLYN GRINER *</pattern>
+	<template><srai>CAROLYN GRINER</srai></template></category>
+
+<category><pattern>ERIC GRISMER</pattern>
+<template>Eric Grismer is a Supervisor Programmer Analyst in Library Information Technology. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* ERIC GRISMER</pattern>
+	<template><srai>ERIC GRISMER</srai></template></category>
+	<category><pattern>ERIC GRISMER *</pattern>
+	<template><srai>ERIC GRISMER</srai></template></category>
+	<category><pattern>* ERIC GRISMER *</pattern>
+	<template><srai>ERIC GRISMER</srai></template></category>
+	
+<category><pattern>TAMARA GUZIEJKA</pattern>
+<template>Tamara Guziejka is the Monograph Ordering and Receiving Unit Supervisor in Acquisitions. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* TAMARA GUZIEJKA</pattern>
+	<template><srai>TAMARA GUZIEJKA</srai></template></category>
+	<category><pattern>TAMARA GUZIEJKA *</pattern>
+	<template><srai>TAMARA GUZIEJKA</srai></template></category>
+	<category><pattern>* TAMARA GUZIEJKA *</pattern>
+	<template><srai>TAMARA GUZIEJKA</srai></template></category>
+
+<!-- H -->
+	
+<category><pattern>SHERRY HALLAM</pattern>
+<template>Sherry Hallam is a Library Assistant in Access Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* SHERRY HALLAM</pattern>
+	<template><srai>SHERRY HALLAM</srai></template></category>
+	<category><pattern>SHERRY HALLAM *</pattern>
+	<template><srai>SHERRY HALLAM</srai></template></category>
+	<category><pattern>* SHERRY HALLAM *</pattern>
+	<template><srai>SHERRY HALLAM</srai></template></category>
+	
+<category><pattern>ALLAN HELMICK</pattern>
+<template>Allan Helmick is an Administrative Specialist in Design Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* ALLAN HELMICK</pattern>
+	<template><srai>ALLAN HELMICK</srai></template></category>
+	<category><pattern>ALLAN HELMICK *</pattern>
+	<template><srai>ALLAN HELMICK</srai></template></category>
+	<category><pattern>* ALLAN HELMICK *</pattern>
+	<template><srai>ALLAN HELMICK</srai></template></category>
+
+<category><pattern>NICOLE HELREGEL</pattern>
+<template>Nicole Helregel is the Research Librarian for Science Teaching and Learning. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* NICOLE HELREGEL</pattern>
+	<template><srai>NICOLE HELREGEL</srai></template></category>
+	<category><pattern>NICOLE HELREGEL *</pattern>
+	<template><srai>NICOLE HELREGEL</srai></template></category>
+	<category><pattern>* NICOLE HELREGEL *</pattern>
+	<template><srai>NICOLE HELREGEL</srai></template></category>
+	<category><pattern>MATHEMATICS LIBRARIAN</pattern>
+	<template><srai>NICOLE HELREGEL</srai></template></category>
+	<category><pattern>* MATHEMATICS LIBRARIAN</pattern>
+	<template><srai>NICOLE HELREGEL</srai></template></category>
+	<category><pattern>MATHEMATICS LIBRARIAN *</pattern>
+	<template><srai>NICOLE HELREGEL</srai></template></category>
+	<category><pattern>* MATHEMATICS LIBRARIAN *</pattern>
+	<template><srai>NICOLE HELREGEL</srai></template></category>
+	<category><pattern>MATH LIBRARIAN</pattern>
+	<template><srai>NICOLE HELREGEL</srai></template></category>
+	<category><pattern>* MATH LIBRARIAN</pattern>
+	<template><srai>NICOLE HELREGEL</srai></template></category>
+	<category><pattern>MATH LIBRARIAN *</pattern>
+	<template><srai>NICOLE HELREGEL</srai></template></category>
+	<category><pattern>* MATH LIBRARIAN *</pattern>
+	<template><srai>NICOLE HELREGEL</srai></template></category>
+	<category><pattern>PHYSICS LIBRARIAN</pattern>
+	<template><srai>NICOLE HELREGEL</srai></template></category>
+	<category><pattern>* PHYSICS LIBRARIAN</pattern>
+	<template><srai>NICOLE HELREGEL</srai></template></category>
+	<category><pattern>PHYSICS LIBRARIAN *</pattern>
+	<template><srai>NICOLE HELREGEL</srai></template></category>
+	<category><pattern>* PHYSICS LIBRARIAN *</pattern>
+	<template><srai>NICOLE HELREGEL</srai></template></category>
+	<category><pattern>ASTRONOMY LIBRARIAN</pattern>
+	<template><srai>NICOLE HELREGEL</srai></template></category>
+	<category><pattern>* ASTRONOMY LIBRARIAN</pattern>
+	<template><srai>NICOLE HELREGEL</srai></template></category>
+	<category><pattern>ASTRONOMY LIBRARIAN *</pattern>
+	<template><srai>NICOLE HELREGEL</srai></template></category>
+	<category><pattern>* ASTRONOMY LIBRARIAN *</pattern>
+	<template><srai>NICOLE HELREGEL</srai></template></category>
+	
+<category><pattern>ALYSSA HERNANDEZ</pattern>
+<template>Alyssa Hernandez is a Library Assistant in Cataloging. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* ALYSSA HERNANDEZ</pattern>
+	<template><srai>ALYSSA HERNANDEZ</srai></template></category>
+	<category><pattern>ALYSSA HERNANDEZ *</pattern>
+	<template><srai>ALYSSA HERNANDEZ</srai></template></category>
+	<category><pattern>* ALYSSA HERNANDEZ *</pattern>
+	<template><srai>ALYSSA HERNANDEZ</srai></template></category>
+
+<category><pattern>ERIC HOLMES</pattern>
+<template>Eric Holmes is a Computer Resource Specialist in Library Information Technology. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* ERIC HOLMES</pattern>
+	<template><srai>ERIC HOLMES</srai></template></category>
+	<category><pattern>ERIC HOLMES *</pattern>
+	<template><srai>ERIC HOLMES</srai></template></category>
+	<category><pattern>* ERIC HOLMES *</pattern>
+	<template><srai>ERIC HOLMES</srai></template></category>
+
+<category><pattern>SARA HRACHOVY</pattern>
+<template>Sara Hrachovy is a Library Assistant in Access Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* SARA HRACHOVY</pattern>
+	<template><srai>SARA HRACHOVY</srai></template></category>
+	<category><pattern>SARA HRACHOVY *</pattern>
+	<template><srai>SARA HRACHOVY</srai></template></category>
+	<category><pattern>* SARA HRACHOVY *</pattern>
+	<template><srai>SARA HRACHOVY</srai></template></category>
+
+<category><pattern>ZHONGYING HUH</pattern>
+<template>Zhongying Huh is a Library Assistant in Cataloging. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* ZHONGYING HUH</pattern>
+	<template><srai>ZHONGYING HUH</srai></template></category>
+	<category><pattern>ZHONGYING HUH *</pattern>
+	<template><srai>ZHONGYING HUH</srai></template></category>
+	<category><pattern>* ZHONGYING HUH *</pattern>
+	<template><srai>ZHONGYING HUH</srai></template></category>
+
+<category><pattern>THEODORE HUNTINGTON</pattern>
+<template>Theodore Huntington is an Programmer Analyst in Library Information Technology. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* THEODORE HUNTINGTON</pattern>
+	<template><srai>THEODORE HUNTINGTON</srai></template></category>
+	<category><pattern>THEODORE HUNTINGTON *</pattern>
+	<template><srai>THEODORE HUNTINGTON</srai></template></category>
+	<category><pattern>* THEODORE HUNTINGTON *</pattern>
+	<template><srai>THEODORE HUNTINGTON</srai></template></category>
+	
+<category><pattern>JOSHUA HUTCHINSON</pattern>
+<template>Joshua Hutchinson is the Cataloging and Metadata Librarian in Cataloging. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* JOSHUA HUTCHINSON</pattern>
+	<template><srai>JOSHUA HUTCHINSON</srai></template></category>
+	<category><pattern>JOSHUA HUTCHINSON *</pattern>
+	<template><srai>JOSHUA HUTCHINSON</srai></template></category>
+	<category><pattern>* JOSHUA HUTCHINSON *</pattern>
+	<template><srai>JOSHUA HUTCHINSON</srai></template></category>
+
+<!-- I -->
+
+<category><pattern>SALVADOR IBARRA</pattern>
+<template>Salvador Ibarra is a Maintenance Mechanic in Library Facilities. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>*SALVADOR IBARRA</pattern>
+	<template><srai>SALVADOR IBARRA</srai></template></category>
+	<category><pattern>SALVADOR IBARRA *</pattern>
+	<template><srai>SALVADOR IBARRA</srai></template></category>
+	<category><pattern>* SALVADOR IBARRA *</pattern>
+	<template><srai>SALVADOR IBARRA</srai></template></category>
+	<category><pattern>SAL IBARRA</pattern>
+	<template><srai>SALVADOR IBARRA</srai></template></category>
+	<category><pattern>* SAL IBARRA</pattern>
+	<template><srai>SALVADOR IBARRA</srai></template></category>
+	<category><pattern>SAL IBARRA *</pattern>
+	<template><srai>SALVADOR IBARRA</srai></template></category>
+	<category><pattern>* SAL IBARRA *</pattern>
+	<template><srai>SALVADOR IBARRA</srai></template></category>
+	
+<category><pattern>BECKY IMAMOTO</pattern>
+<template>Becky Imamoto is the Head of the Collection Strategies Department.  Contact information can be found on our 
+<a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* BECKY IMAMOTO</pattern>
+	<template><srai>BECKY IMAMOTO</srai></template></category>
+	<category><pattern>BECKY IMAMOTO *</pattern>
+	<template><srai>BECKY IMAMOTO</srai></template></category>
+	<category><pattern>* BECKY IMAMOTO *</pattern>
+	<template><srai>BECKY IMAMOTO</srai></template></category>
+
+<category><pattern>SYLVIA IRVING</pattern>
+<template>Sylvia Irving is the Publications Coordinator in Design Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* SYLVIA IRVING</pattern>
+	<template><srai>SYLVIA IRVING</srai></template></category>
+	<category><pattern>SYLVIA IRVING *</pattern>
+	<template><srai>SYLVIA IRVING</srai></template></category>
+	<category><pattern>* SYLVIA IRVING *</pattern>
+	<template><srai>SYLVIA IRVING</srai></template></category>
+
+<!-- J -->
+
+<category><pattern>WANDA JAZAYERI</pattern>
+<template>Wanda Jazayeri is the Head of Cataloging Maintenance and Physical Processing. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* WANDA JAZAYERI</pattern>
+	<template><srai>WANDA JAZAYERI</srai></template></category>
+	<category><pattern>WANDA JAZAYERI *</pattern>
+	<template><srai>WANDA JAZAYERI</srai></template></category>
+	<category><pattern>* WANDA JAZAYERI *</pattern>
+	<template><srai>WANDA JAZAYERI</srai></template></category>
+
+<category><pattern>KATHRYN JEON</pattern>
+<template>Kathryn Jeon is a Library Assistant in Acquisitions. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* KATHRYN JEON</pattern>
+	<template><srai>KATHRYN JEON</srai></template></category>
+	<category><pattern>KATHRYN JEON *</pattern>
+	<template><srai>KATHRYN JEON</srai></template></category>
+	<category><pattern>* KATHRYN JEON *</pattern>
+	<template><srai>KATHRYN JEON</srai></template></category>
+
+<category><pattern>CYNTHIA JOHNSON</pattern>
+<template>Cynthia Johnson is the Head of Reference Department and Grunigen Medical Library. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* CYNTHIA JOHNSON</pattern>
+	<template><srai>CYNTHIA JOHNSON</srai></template></category>
+	<category><pattern>CYNTHIA JOHNSON *</pattern>
+	<template><srai>CYNTHIA JOHNSON</srai></template></category>
+	<category><pattern>* CYNTHIA JOHNSON *</pattern>
+	<template><srai>CYNTHIA JOHNSON</srai></template></category>
+	<category><pattern>HEAD OF REFERENCE</pattern>
+	<template><srai>CYNTHIA JOHNSON</srai></template></category>
+	<category><pattern>* HEAD OF REFERENCE</pattern>
+	<template><srai>CYNTHIA JOHNSON</srai></template></category>
+	<category><pattern>HEAD OF REFERENCE *</pattern>
+	<template><srai>CYNTHIA JOHNSON</srai></template></category>
+	<category><pattern>* HEAD OF REFERENCE *</pattern>
+	<template><srai>CYNTHIA JOHNSON</srai></template></category>
+	
+<category><pattern>SUZY JUNG</pattern>
+<template>Suzy Jung is a Library Assistant in Access Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* SUZY JUNG</pattern>
+	<template><srai>SUZY JUNG</srai></template></category>
+	<category><pattern>SUZY JUNG *</pattern>
+	<template><srai>SUZY JUNG</srai></template></category>
+	<category><pattern>* SUZY JUNG *</pattern>
+	<template><srai>SUZY JUNG</srai></template></category>
+	
+<!-- K -->	
+	
+<category><pattern>DANIELLE KANE</pattern>
+<template>Danielle Kane is the Research Librarian for Emerging Technologies and Service Innovation and the Interim Data Management and Curation Librarian. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* DANIELLE KANE</pattern>
+	<template><srai>DANIELLE KANE</srai></template></category>
+	<category><pattern>DANIELLE KANE *</pattern>
+	<template><srai>DANIELLE KANE</srai></template></category>
+	<category><pattern>* DANIELLE KANE *</pattern>
+	<template><srai>DANIELLE KANE</srai></template></category>	
+	<category><pattern>EMERGING TECHNOLOGIES LIBRARIAN</pattern>
+	<template><srai>DANIELLE KANE</srai></template></category>
+	<category><pattern>* EMERGING TECHNOLOGIES LIBRARIAN</pattern>
+	<template><srai>DANIELLE KANE</srai></template></category>
+	<category><pattern>EMERGING TECHNOLOGIES LIBRARIAN *</pattern>
+	<template><srai>DANIELLE KANE</srai></template></category>
+	<category><pattern>* EMERGING TECHNOLOGIES LIBRARIAN *</pattern>
+	<template><srai>DANIELLE KANE</srai></template></category>
+	<category><pattern>EMERGING TECHNOLOGY LIBRARIAN</pattern>
+	<template><srai>DANIELLE KANE</srai></template></category>
+	<category><pattern>* EMERGING TECHNOLOGY LIBRARIAN</pattern>
+	<template><srai>DANIELLE KANE</srai></template></category>
+	<category><pattern>EMERGING TECHNOLOGY LIBRARIAN *</pattern>
+	<template><srai>DANIELLE KANE</srai></template></category>
+	<category><pattern>* EMERGING TECHNOLOGY LIBRARIAN *</pattern>
+	<template><srai>DANIELLE KANE</srai></template></category>
+	<category><pattern>WHO IS KANE</pattern>
+	<template><srai>DANIELLE KANE</srai></template></category>
+	<category><pattern>DATA MANAGEMENT</pattern>
+	<template><srai>DANIELLE KANE</srai></template></category>
+	<category><pattern>* DATA MANAGEMENT</pattern>
+	<template><srai>DANIELLE KANE</srai></template></category>
+	<category><pattern>DATA MANAGEMENT *</pattern>
+	<template><srai>DANIELLE KANE</srai></template></category>
+	<category><pattern>* DATA MANAGEMENT *</pattern>
+	<template><srai>DANIELLE KANE</srai></template></category>
+	<category><pattern>DATA CURATION </pattern>
+	<template><srai>DANIELLE KANE</srai></template></category>
+	<category><pattern>* DATA CURATION </pattern>
+	<template><srai>DANIELLE KANE</srai></template></category>
+	<category><pattern>DATA CURATION  *</pattern>
+	<template><srai>DANIELLE KANE</srai></template></category>
+	<category><pattern>* DATA CURATION *</pattern>
+	<template><srai>DANIELLE KANE</srai></template></category>
+	
+<category><pattern>MOJGAN KHOSRAVI</pattern>
+<template>Mojgan Khosravi is a Library Assistant in Access Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* MOJGAN KHOSRAVI</pattern>
+	<template><srai>MOJGAN KHOSRAVI</srai></template></category>
+	<category><pattern>MOJGAN KHOSRAVI *</pattern>
+	<template><srai>MOJGAN KHOSRAVI</srai></template></category>
+	<category><pattern>* MOJGAN KHOSRAVI *</pattern>
+	<template><srai>MOJGAN KHOSRAVI</srai></template></category>
+
+<category><pattern>KATHRYN KJAER</pattern>
+<template>Kathryn Kjaer is the Academic Personnel Coordinator in Library Human Resources. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* KATHRYN KJAER</pattern>
+	<template><srai>KATHRYN KJAER</srai></template></category>
+	<category><pattern>KATHRYN KJAER *</pattern>
+	<template><srai>KATHRYN KJAER</srai></template></category>
+	<category><pattern>* KATHRYN KJAER *</pattern>
+	<template><srai>KATHRYN KJAER</srai></template></category>
+
+<category><pattern>DEBORA KREUZIGER</pattern>
+<template>Debora Kreuziger is an Administrative Specialist in Library Administration. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* DEBORA KREUZIGER</pattern>
+	<template><srai>DEBORA KREUZIGER</srai></template></category>
+	<category><pattern>DEBORA KREUZIGER *</pattern>
+	<template><srai>DEBORA KREUZIGER</srai></template></category>
+	<category><pattern>* DEBORA KREUZIGER *</pattern>
+	<template><srai>DEBORA KREUZIGER</srai></template></category>
+
+<!-- L -->
+
+<category><pattern>KEVIN LEE</pattern>
+<template>Kevin Lee is a Library Assistant in Access Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* KEVIN LEE</pattern>
+	<template><srai>KEVIN LEE</srai></template></category>
+	<category><pattern>KEVIN LEE *</pattern>
+	<template><srai>KEVIN LEE</srai></template></category>
+	<category><pattern>* KEVIN LEE *</pattern>
+	<template><srai>KEVIN LEE</srai></template></category>
+
+<category><pattern>CHLOE LERIT</pattern>
+<template>Chloe Lerit is a Programmer Analyst in Web Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* CHLOE LERIT</pattern>
+	<template><srai>CHLOE LERIT</srai></template></category>
+	<category><pattern>CHLOE LERIT *</pattern>
+	<template><srai>CHLOE LERIT</srai></template></category>
+	<category><pattern>* CHLOE LERIT *</pattern>
+	<template><srai>CHLOE LERIT</srai></template></category>
+
+<category><pattern>SHU LIU</pattern>
+<template>Shu Liu is the Metadata and Digital Resources Librarian. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* SHU LIU</pattern>
+	<template><srai>SHU LIU</srai></template></category>
+	<category><pattern>SHU LIU *</pattern>
+	<template><srai>SHU LIU</srai></template></category>
+	<category><pattern>* SHU LIU *</pattern>
+	<template><srai>SHU LIU</srai></template></category>
+
+<category><pattern>GERRY LOPEZ</pattern>
+<template>Gerry Lopez is a Library Assistant in Access Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* GERRY LOPEZ</pattern>
+	<template><srai>GERRY LOPEZ</srai></template></category>
+	<category><pattern>GERRY LOPEZ *</pattern>
+	<template><srai>GERRY LOPEZ</srai></template></category>
+	<category><pattern>* GERRY LOPEZ *</pattern>
+	<template><srai>GERRY LOPEZ</srai></template></category>
+
+<category><pattern>KORRIE LUI</pattern>
+<template>Korrie Lui is an Administrative Assistant in Aquisitions. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* KORRIE LUI</pattern>
+	<template><srai>KORRIE LUI</srai></template></category>
+	<category><pattern>KORRIE LUI *</pattern>
+	<template><srai>KORRIE LUI</srai></template></category>
+	<category><pattern>* KORRIE LUI *</pattern>
+	<template><srai>KORRIE LUI</srai></template></category>
+	
+<!-- M -->
+
+<category><pattern>SHAHROOZ MALEKZADEH</pattern>
+<template>Shahrooz Malekzadeh is a Library Assistant in Access Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* SHAHROOZ MALEKZADEH</pattern>
+	<template><srai>SHAHROOZ MALEKZADEH</srai></template></category>
+	<category><pattern>SHAHROOZ MALEKZADEH *</pattern>
+	<template><srai>SHAHROOZ MALEKZADEH</srai></template></category>
+	<category><pattern>* SHAHROOZ MALEKZADEH *</pattern>
+	<template><srai>SHAHROOZ MALEKZADEH</srai></template></category>
+
+<category><pattern>LARRY MANN</pattern>
+<template>Larry Mann is a Library Assistant in Acquisitions. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* LARRY MANN</pattern>
+	<template><srai>LARRY MANN</srai></template></category>
+	<category><pattern>LARRY MANN *</pattern>
+	<template><srai>LARRY MANN</srai></template></category>
+	<category><pattern>* LARRY MANN *</pattern>
+	<template><srai>LARRY MANN</srai></template></category>
+
+<category><pattern>NATALIE MARQUEZ</pattern>
+<template>Natalie Marquez is a Library Assistant in Reference. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* NATALIE MARQUEZ</pattern>
+	<template><srai>NATALIE MARQUEZ</srai></template></category>
+	<category><pattern>NATALIE MARQUEZ *</pattern>
+	<template><srai>NATALIE MARQUEZ</srai></template></category>
+	<category><pattern>* NATALIE MARQUEZ *</pattern>
+	<template><srai>NATALIE MARQUEZ</srai></template></category>
+
+<category><pattern>JUDITH MARTIN</pattern>
+<template>Judith Martin is a Library Assistant in Reference. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* JUDITH MARTIN</pattern>
+	<template><srai>JUDITH MARTIN</srai></template></category>
+	<category><pattern>JUDITH MARTIN *</pattern>
+	<template><srai>JUDITH MARTIN</srai></template></category>
+	<category><pattern>* JUDITH MARTIN *</pattern>
+	<template><srai>JUDITH MARTIN</srai></template></category>
+
+<category><pattern>EMILEE MATHEWS</pattern>
+<template>Emilee Mathews is the Research Librarian for Visual Arts and the Interim Librarian for Classics and African American Studies. Contact information can be found on our 
+<a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* EMILEE MATHEWS</pattern>
+	<template><srai>EMILEE MATHEWS</srai></template></category>
+	<category><pattern>EMILEE MATHEWS *</pattern>
+	<template><srai>EMILEE MATHEWS</srai></template></category>
+	<category><pattern>* EMILEE MATHEWS *</pattern>
+	<template><srai>EMILEE MATHEWS</srai></template></category>
+	<category><pattern>ART LIBRARIAN</pattern>	
+	<template><srai>EMILEE MATHEWS</srai></template></category>
+	<category><pattern>* ART LIBRARIAN</pattern>	
+	<template><srai>EMILEE MATHEWS</srai></template></category>
+	<category><pattern>ART LIBRARIAN *</pattern>	
+	<template><srai>EMILEE MATHEWS</srai></template></category>
+	<category><pattern>* ART LIBRARIAN *</pattern>	
+	<template><srai>EMILEE MATHEWS</srai></template></category>
+	<category><pattern>ART HISTORY LIBRARIAN</pattern>	
+	<template><srai>EMILEE MATHEWS</srai></template></category>
+	<category><pattern>* ART HISTORY LIBRARIAN</pattern>	
+	<template><srai>EMILEE MATHEWS</srai></template></category>
+	<category><pattern>ART HISTORY LIBRARIAN *</pattern>	
+	<template><srai>EMILEE MATHEWS</srai></template></category>
+	<category><pattern>* ART HISTORY LIBRARIAN *</pattern>
+	<template><srai>EMILEE MATHEWS</srai></template></category>
+	<category><pattern>FILM AND MEDIA STUDIES LIBRARIAN</pattern>	
+	<template><srai>EMILEE MATHEWS</srai></template></category>
+	<category><pattern>* FILM AND MEDIA STUDIES LIBRARIAN</pattern>
+	<template><srai>EMILEE MATHEWS</srai></template></category>	
+	<category><pattern>FILM AND MEDIA STUDIES LIBRARIAN *</pattern>
+	<template><srai>EMILEE MATHEWS</srai></template></category>	
+	<category><pattern>* FILM AND MEDIA STUDIES LIBRARIAN *</pattern>
+	<template><srai>EMILEE MATHEWS</srai></template></category>
+	<category><pattern>VISUAL STUDIES LIBRARIAN</pattern>	
+	<template><srai>EMILEE MATHEWS</srai></template></category>
+	<category><pattern>* VISUAL STUDIES LIBRARIAN</pattern>	
+	<template><srai>EMILEE MATHEWS</srai></template></category>
+	<category><pattern>VISUAL STUDIES LIBRARIAN *</pattern>	
+	<template><srai>EMILEE MATHEWS</srai></template></category>
+	<category><pattern>* VISUAL STUDIES LIBRARIAN *</pattern>
+	<template><srai>EMILEE MATHEWS</srai></template></category>
+	<category><pattern>CLASSICS LIBRARIAN</pattern>
+	<template><srai>EMILEE MATHEWS</srai></template></category>
+	<category><pattern>* CLASSICS LIBRARIAN</pattern>
+	<template><srai>EMILEE MATHEWS</srai></template></category>
+	<category><pattern>CLASSICS LIBRARIAN *</pattern>
+	<template><srai>EMILEE MATHEWS</srai></template></category>
+	<category><pattern>* CLASSICS LIBRARIAN *</pattern>
+	<template><srai>EMILEE MATHEWS</srai></template></category>
+	<category><pattern>AFRICAN AMERICAN STUDIES LIBRARIAN</pattern>
+	<template><srai>EMILEE MATHEWS</srai></template></category>
+	<category><pattern>* AFRICAN AMERICAN STUDIES LIBRARIAN</pattern>
+	<template><srai>EMILEE MATHEWS</srai></template></category>
+	<category><pattern>AFRICAN AMERICAN STUDIES LIBRARIAN *</pattern>
+	<template><srai>EMILEE MATHEWS</srai></template></category>
+	<category><pattern>* AFRICAN AMERICAN STUDIES LIBRARIAN *</pattern>
+	<template><srai>EMILEE MATHEWS</srai></template></category>
+
+<category><pattern>RONALD MATTESON</pattern>
+<template>Ronald Matteson is a Library Assistant in Cataloging. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* RONALD MATTESON</pattern>
+	<template><srai>RONALD MATTESON</srai></template></category>
+	<category><pattern>RONALD MATTESON *</pattern>
+	<template><srai>RONALD MATTESON</srai></template></category>
+	<category><pattern>* RONALD MATTESON *</pattern>
+	<template><srai>RONALD MATTESON</srai></template></category>
+
+<category><pattern>HIROYUKI MINAMINO</pattern>
+<template>Hiroyuki Minamino is a Library Assistant in Cataloging. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* HIROYUKI MINAMINO</pattern>
+	<template><srai>HIROYUKI MINAMINO</srai></template></category>
+	<category><pattern>HIROYUKI MINAMINO *</pattern>
+	<template><srai>HIROYUKI MINAMINO</srai></template></category>
+	<category><pattern>* HIROYUKI MINAMINO *</pattern>
+	<template><srai>HIROYUKI MINAMINO</srai></template></category>
+
+<category><pattern>WENDI MORNER</pattern>
+	<template>Wendi Morner is the Director of Development at the UCI Libraries'. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* WENDI MORNER</pattern>
+	<template><srai>WENDI MORNER</srai></template></category>
+	<category><pattern>WENDI MORNER *</pattern>
+	<template><srai>WENDI MORNER</srai></template></category>
+	<category><pattern>* WENDI MORNER *</pattern>
+	<template><srai>WENDI MORNER</srai></template></category>
+
+<category><pattern>IRENE MORRIS</pattern>
+<template>Irene Morris is the Operations Manager at the Grunigen Medical Library. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* IRENE MORRIS</pattern>
+	<template><srai>IRENE MORRIS</srai></template></category>
+	<category><pattern>IRENE MORRIS *</pattern>
+	<template><srai>IRENE MORRIS</srai></template></category>
+	<category><pattern>* IRENE MORRIS *</pattern>
+	<template><srai>IRENE MORRIS</srai></template></category>
+
+<category><pattern>DARYANAZ MOSTAJABALDAVEH</pattern>
+<template>Daryanaz Mostajabaldaveh is a Library Assistant in Cataloging. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* DARYANAZ MOSTAJABALDAVEH</pattern>
+	<template><srai>DARYANAZ MOSTAJABALDAVEH</srai></template></category>
+	<category><pattern>DARYANAZ MOSTAJABALDAVEH *</pattern>
+	<template><srai>DARYANAZ MOSTAJABALDAVEH</srai></template></category>
+	<category><pattern>* DARYANAZ MOSTAJABALDAVEH *</pattern>
+	<template><srai>DARYANAZ MOSTAJABALDAVEH</srai></template></category>
+
+<category><pattern>VANESSA MURILLO</pattern>
+<template>Vanessa Murillo is a Library Assistant at the Grunigen Medical Library. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* VANESSA MURILLO</pattern>
+	<template><srai>VANESSA MURILLO</srai></template></category>
+	<category><pattern>VANESSA MURILLO *</pattern>
+	<template><srai>VANESSA MURILLO</srai></template></category>
+	<category><pattern>* VANESSA MURILLO *</pattern>
+	<template><srai>VANESSA MURILLO</srai></template></category>
+
+<category><pattern>LINDA MURPHY</pattern>
+<template>Linda Murphy is a Research Librarian for Health Sciences. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* LINDA MURPHY</pattern>
+	<template><srai>LINDA MURPHY</srai></template></category>
+	<category><pattern>LINDA MURPHY *</pattern>
+	<template><srai>LINDA MURPHY</srai></template></category>
+	<category><pattern>* LINDA MURPHY *</pattern>
+	<template><srai>LINDA MURPHY</srai></template></category>
+	<category><pattern>COMPLEMENTARY AND ALTERNATIVE MEDICINE LIBRARIAN</pattern>
+	<template><srai>LINDA MURPHY</srai></template></category>
+	<category><pattern>* COMPLEMENTARY AND ALTERNATIVE MEDICINE LIBRARIAN</pattern>
+	<template><srai>LINDA MURPHY</srai></template></category>
+	<category><pattern>COMPLEMENTARY AND ALTERNATIVE MEDICINE LIBRARIAN *</pattern>
+	<template><srai>LINDA MURPHY</srai></template></category>
+	<category><pattern>* COMPLEMENTARY AND ALTERNATIVE MEDICINE LIBRARIAN *</pattern>	
+	<template><srai>LINDA MURPHY</srai></template></category>
+	<category><pattern>CAM LIBRARIAN</pattern>
+	<template><srai>LINDA MURPHY</srai></template></category>
+	<category><pattern>* CAM LIBRARIAN</pattern>
+	<template><srai>LINDA MURPHY</srai></template></category>
+	<category><pattern>CAM LIBRARIAN *</pattern>
+	<template><srai>LINDA MURPHY</srai></template></category>
+	<category><pattern>* CAM LIBRARIAN *</pattern>
+	<template><srai>LINDA MURPHY</srai></template></category>
+
+<category><pattern>MEDICAL LIBRARIAN</pattern>
+<template>Linda Murphy and Steve Clancy are the interim Research Librarians for Health Sciences. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* MEDICAL LIBRARIAN</pattern>
+	<template><srai>MEDICAL LIBRARIAN</srai></template></category>
+	<category><pattern>MEDICAL LIBRARIAN *</pattern>
+	<template><srai>MEDICAL LIBRARIAN</srai></template></category>
+	<category><pattern>* MEDICAL LIBRARIAN *</pattern>
+	<template><srai>MEDICAL LIBRARIAN</srai></template></category>	
+	
+<category><pattern>MEDICAL EDUCATION LIBRARIAN</pattern>
+<template>Linda Murphy and Steve Clancy are the libraries medical education team. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* MEDICAL EDUCATION LIBRARIAN</pattern>
+	<template><srai>MEDICAL EDUCATION LIBRARIAN</srai></template></category>
+	<category><pattern>MEDICAL EDUCATION LIBRARIAN *</pattern>
+	<template><srai>MEDICAL EDUCATION LIBRARIAN</srai></template></category>
+	<category><pattern>* MEDICAL EDUCATION LIBRARIAN *</pattern>
+	<template><srai>MEDICAL EDUCATION LIBRARIAN</srai></template></category>
+
+<!-- N -->	
+
+<category><pattern>KHIEM NGUYEN</pattern>
+<template>Khiem Nguyen is a Library Assistant in Acquisitions. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* KHIEM NGUYEN</pattern>
+	<template><srai>KHIEM NGUYEN</srai></template></category>
+	<category><pattern>KHIEM NGUYEN *</pattern>
+	<template><srai>KHIEM NGUYEN</srai></template></category>
+	<category><pattern>* KHIEM NGUYEN *</pattern>
+	<template><srai>KHIEM NGUYEN</srai></template></category>
+
+<!-- O -->
+
+<!-- P -->
+
+<category><pattern>GIOVANNA PADILLA</pattern>
+<template>Giovanna Padilla is a Library Porter in Facilities. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* GIOVANNA PADILLA</pattern>
+	<template><srai>GIOVANNA PADILLA</srai></template></category>
+	<category><pattern>GIOVANNA PADILLA *</pattern>
+	<template><srai>GIOVANNA PADILLA</srai></template></category>
+	<category><pattern>* GIOVANNA PADILLA *</pattern>
+	<template><srai>GIOVANNA PADILLA</srai></template></category>
+
+<category><pattern>PAUL PARK</pattern>
+<template>Paul Park is an Analyst in Digital Scholarship Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* PAUL PARK</pattern>
+	<template><srai>PAUL PARK</srai></template></category>
+	<category><pattern>PAUL PARK *</pattern>
+	<template><srai>PAUL PARK</srai></template></category>
+	<category><pattern>* PAUL PARK *</pattern>
+	<template><srai>PAUL PARK</srai></template></category>
+
+<category><pattern>JHARINA PASCUAL</pattern>
+<template>Jharina Pascual is the Electronic Resources Acquisitions Librarian. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* JHARINA PASCUAL</pattern>
+	<template><srai>JHARINA PASCUAL</srai></template></category>
+	<category><pattern>JHARINA PASCUAL *</pattern>
+	<template><srai>JHARINA PASCUAL</srai></template></category>
+	<category><pattern>* JHARINA PASCUAL *</pattern>
+	<template><srai>JHARINA PASCUAL</srai></template></category>
+	<category><pattern>Electronic Resources Acquisitions Librarian</pattern>
+	<template><srai>JHARINA PASCUAL</srai></template></category>
+	<category><pattern>* Electronic Resources Acquisitions Librarian</pattern>
+	<template><srai>JHARINA PASCUAL</srai></template></category>
+	<category><pattern>Electronic Resources Acquisitions Librarian *</pattern>
+	<template><srai>JHARINA PASCUAL</srai></template></category>
+	<category><pattern>* Electronic Resources Acquisitions Librarian *</pattern>
+	<template><srai>JHARINA PASCUAL</srai></template></category>
+		
+<category><pattern>HECTOR PEREZ</pattern>
+<template>Hector Perez is the Research Librarian for Health Sciences. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* HECTOR PEREZ</pattern>
+	<template><srai>HECTOR PEREZ</srai></template></category>
+	<category><pattern>HECTOR PEREZ *</pattern>
+	<template><srai>HECTOR PEREZ</srai></template></category>
+	<category><pattern>* HECTOR PEREZ *</pattern>
+	<template><srai>HECTOR PEREZ</srai></template></category>
+	<category><pattern>HEALTH SCIENCE LIBRARIAN</pattern>
+	<template><srai>HECTOR PEREZ</srai></template></category>
+	<category><pattern>* HEALTH SCIENCE LIBRARIAN</pattern>
+	<template><srai>HECTOR PEREZ</srai></template></category>
+	<category><pattern>HEALTH SCIENCE LIBRARIAN *</pattern>
+	<template><srai>HECTOR PEREZ</srai></template></category>
+	<category><pattern>* HEALTH SCIENCE LIBRARIAN *</pattern>
+	<template><srai>HECTOR PEREZ</srai></template></category>
+	<category><pattern>MEDICAL LIBRARIAN</pattern>
+	<template><srai>HECTOR PEREZ</srai></template></category>
+	<category><pattern>* MEDICAL LIBRARIAN</pattern>
+	<template><srai>HECTOR PEREZ</srai></template></category>
+	<category><pattern>MEDICAL LIBRARIAN *</pattern>
+	<template><srai>HECTOR PEREZ</srai></template></category>
+	<category><pattern>* MEDICAL LIBRARIAN *</pattern>
+	<template><srai>HECTOR PEREZ</srai></template></category>
+	<category><pattern>LIBRARIAN FOR MEDICINE</pattern>
+	<template><srai>HECTOR PEREZ</srai></template></category>
+	<category><pattern>* LIBRARIAN FOR MEDICINE</pattern>
+	<template><srai>HECTOR PEREZ</srai></template></category>
+	<category><pattern>LIBRARIAN FOR MEDICINE *</pattern>
+	<template><srai>HECTOR PEREZ</srai></template></category>
+	<category><pattern>* LIBRARIAN FOR MEDICINE *</pattern>
+	<template><srai>HECTOR PEREZ</srai></template></category>
+	<category><pattern>LIBRARIAN FOR HEALTH SCIENCES</pattern>
+	<template><srai>HECTOR PEREZ</srai></template></category>
+	<category><pattern>* LIBRARIAN FOR HEALTH SCIENCES</pattern>
+	<template><srai>HECTOR PEREZ</srai></template></category>
+	<category><pattern>LIBRARIAN FOR HEALTH SCIENCES *</pattern>
+	<template><srai>HECTOR PEREZ</srai></template></category>
+	<category><pattern>* LIBRARIAN FOR HEALTH SCIENCES *</pattern>
+	<template><srai>HECTOR PEREZ</srai></template></category>
+ 	
+<category><pattern>JOSE PEREZ</pattern>
+<template>Jose Perez is the Multimedia Resources Center Manager. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* JOSE PEREZ</pattern>
+	<template><srai>JOSE PEREZ</srai></template></category>
+	<category><pattern>JOSE PEREZ *</pattern>
+	<template><srai>JOSE PEREZ</srai></template></category>
+	<category><pattern>* JOSE PEREZ *</pattern>
+	<template><srai>JOSE PEREZ</srai></template></category>
+
+<category><pattern>ADRIAN PETRISOR</pattern>
+<template>Adrian Petrisor is the Director of Library Information Technology. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* ADRIAN PETRISOR</pattern>
+	<template><srai>ADRIAN PETRISOR</srai></template></category>
+	<category><pattern>ADRIAN PETRISOR *</pattern>
+	<template><srai>ADRIAN PETRISOR</srai></template></category>
+	<category><pattern>* ADRIAN PETRISOR *</pattern>
+	<template><srai>ADRIAN PETRISOR</srai></template></category>
+
+<category><pattern>JUNKO PILARSKI</pattern>
+<template>Junko Pilarski is the Library Porter. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* JUNKO PILARSKI</pattern>
+	<template><srai>JUNKO PILARSKI</srai></template></category>
+	<category><pattern>JUNKO PILARSKI *</pattern>
+	<template><srai>JUNKO PILARSKI</srai></template></category>
+	<category><pattern>* JUNKO PILARSKI *</pattern>
+	<template><srai>JUNKO PILARSKI</srai></template></category>
+
+<category><pattern>SEAN PLOTIN</pattern>
+<template>Sean Plotin is in Access Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* SEAN PLOTIN</pattern>
+	<template><srai>SEAN PLOTIN</srai></template></category>
+	<category><pattern>SEAN PLOTIN *</pattern>
+	<template><srai>SEAN PLOTIN</srai></template></category>
+	<category><pattern>* SEAN PLOTIN *</pattern>
+	<template><srai>SEAN PLOTIN</srai></template></category>
+	
+<category><pattern>KEITH POWELL</pattern>
+<template>Keith Powell is the Head of the Acquisitions Department. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* KEITH POWELL</pattern>
+	<template><srai>KEITH POWELL</srai></template></category>
+	<category><pattern>KEITH POWELL *</pattern>
+	<template><srai>KEITH POWELL</srai></template></category>
+	<category><pattern>* KEITH POWELL *</pattern>
+	<template><srai>KEITH POWELL</srai></template></category>
+
+<category><pattern>HANS PROTZEL</pattern>
+<template>Hans Protzel is the Collection Development Assistant in Collection Development. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* HANS PROTZEL</pattern>
+	<template><srai>HANS PROTZEL</srai></template></category>
+	<category><pattern>HANS PROTZEL *</pattern>
+	<template><srai>HANS PROTZEL</srai></template></category>
+	<category><pattern>* HANS PROTZEL *</pattern>
+	<template><srai>HANS PROTZEL</srai></template></category>
+
+<!-- Q -->
+
+<category><pattern>DEREK QUEZADA</pattern>
+<template>Derek Quezada is the Outreach and Public Services Librarian in Special Collections. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* DEREK QUEZADA</pattern>
+	<template><srai>DEREK QUEZADA</srai></template></category>
+	<category><pattern>DEREK QUEZADA *</pattern>
+	<template><srai>DEREK QUEZADA</srai></template></category>
+	<category><pattern>* DEREK QUEZADA *</pattern>
+	<template><srai>DEREK QUEZADA</srai></template></category>
+
+<!-- R -->
+
+<category><pattern>ALISON REGAN</pattern>
+<template>Alison Regan is the Assistant University Librarian for Public Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* ALISON REGAN</pattern>
+	<template><srai>ALISON REGAN</srai></template></category>
+	<category><pattern>ALISON REGAN *</pattern>
+	<template><srai>ALISON REGAN</srai></template></category>
+	<category><pattern>* ALISON REGAN *</pattern>
+	<template><srai>ALISON REGAN</srai></template></category>
+
+<category><pattern>JOHN RENAUD</pattern>
+<template>John Renaud is the Assistant University Librarian for Research Resources. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* JOHN RENAUD</pattern>
+	<template><srai>JOHN RENAUD</srai></template></category>
+	<category><pattern>JOHN RENAUD *</pattern>
+	<template><srai>JOHN RENAUD</srai></template></category>
+	<category><pattern>* JOHN RENAUD *</pattern>
+	<template><srai>JOHN RENAUD</srai></template></category>
+
+<category><pattern>KELSEY RICO</pattern>
+<template>Kelsey Rico is a Library Assistant in Cataloging. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* KELSEY RICO</pattern>
+	<template><srai>KELSEY RICO</srai></template></category>
+	<category><pattern>KELSEY RICO *</pattern>
+	<template><srai>KELSEY RICO</srai></template></category>
+	<category><pattern>* KELSEY RICO *</pattern>
+	<template><srai>KELSEY RICO</srai></template></category>
+
+<category><pattern>COLBY RIGGS</pattern>
+<template>Colby Riggs is the Project and Operational Improvement Librarian in Public Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* COLBY RIGGS</pattern>
+	<template><srai>COLBY RIGGS</srai></template></category>
+	<category><pattern>COLBY RIGGS *</pattern>
+	<template><srai>COLBY RIGGS</srai></template></category>
+	<category><pattern>* COLBY RIGGS *</pattern>
+	<template><srai>COLBY RIGGS</srai></template></category>
+
+<category><pattern>MATTHEW ROBERTS</pattern>
+<template>Colby Riggs is the Research Librarian for English, Comparative Literature, Critical Theory, German, French, and Italian in Education and Outreach. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>ENGLISH LIBRARIAN</pattern>
+	<template><srai>MATTHEW ROBERTS</srai></template></category>
+	<category><pattern>* ENGLISH LIBRARIAN</pattern>
+	<template><srai>MATTHEW ROBERTS</srai></template></category>
+	<category><pattern>ENGLISH LIBRARIAN *</pattern>
+	<template><srai>MATTHEW ROBERTS</srai></template></category>
+	<category><pattern>* ENGLISH LIBRARIAN *</pattern>
+	<template><srai>MATTHEW ROBERTS</srai></template></category>	
+	<category><pattern>COMPARATIVE LITERATURE LIBRARIAN</pattern>
+	<template><srai>MATTHEW ROBERTS</srai></template></category>
+	<category><pattern>* COMPARATIVE LITERATURE LIBRARIAN</pattern>
+	<template><srai>MATTHEW ROBERTS</srai></template></category>
+	<category><pattern>COMPARATIVE LITERATURE LIBRARIAN *</pattern>
+	<template><srai>MATTHEW ROBERTS</srai></template></category>
+	<category><pattern>* COMPARATIVE LITERATURE LIBRARIAN *</pattern>
+	<template><srai>MATTHEW ROBERTS</srai></template></category>
+	<category><pattern>CRITICAL THEORY LIBRARIAN</pattern>
+	<template><srai>MATTHEW ROBERTS</srai></template></category>
+	<category><pattern>* CRITICAL THEORY LIBRARIAN</pattern>
+	<template><srai>MATTHEW ROBERTS</srai></template></category>
+	<category><pattern>CRITICAL THEORY LIBRARIAN *</pattern>
+	<template><srai>MATTHEW ROBERTS</srai></template></category>
+	<category><pattern>* CRITICAL THEORY LIBRARIAN *</pattern>
+	<template><srai>MATTHEW ROBERTS</srai></template></category>
+	<category><pattern>GERMAN LIBRARIAN</pattern>
+	<template><srai>MATTHEW ROBERTS</srai></template></category>
+	<category><pattern>* GERMAN LIBRARIAN</pattern>
+	<template><srai>MATTHEW ROBERTS</srai></template></category>
+	<category><pattern>GERMAN LIBRARIAN *</pattern>
+	<template><srai>MATTHEW ROBERTS</srai></template></category>
+	<category><pattern>* GERMAN LIBRARIAN *</pattern>
+	<template><srai>MATTHEW ROBERTS</srai></template></category>
+	<category><pattern>FRENCH AND ITALIAN LIBRARIAN</pattern>
+	<template><srai>MATTHEW ROBERTS</srai></template></category>
+	<category><pattern>* FRENCH AND ITALIAN LIBRARIAN</pattern>
+	<template><srai>MATTHEW ROBERTS</srai></template></category>
+	<category><pattern>FRENCH AND ITALIAN LIBRARIAN *</pattern>
+	<template><srai>MATTHEW ROBERTS</srai></template></category>
+	<category><pattern>* FRENCH AND ITALIAN LIBRARIAN *</pattern>
+	<template><srai>MATTHEW ROBERTS</srai></template></category>
+	<category><pattern>* LIBRARIAN FOR ENGLISH</pattern>
+	<template><srai>MATTHEW ROBERTS</srai></template></category>
+
+<category><pattern>LYNDA ROGERS</pattern>
+<template>Lynda Rogers is the Assistant Personnel Analyst in Library Human Resources. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* LYNDA ROGERS</pattern>
+	<template><srai>LYNDA ROGERS</srai></template></category>
+	<category><pattern>LYNDA ROGERS *</pattern>
+	<template><srai>LYNDA ROGERS</srai></template></category>
+	<category><pattern>* LYNDA ROGERS *</pattern>
+	<template><srai>LYNDA ROGERS</srai></template></category>
+
+<category><pattern>KEVIN RUMINSON</pattern>
+<template>Kevin Ruminson is the Assistant University Librarian for Administrative Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* KEVIN RUMINSON</pattern>
+	<template><srai>KEVIN RUMINSON</srai></template></category>
+	<category><pattern>KEVIN RUMINSON *</pattern>
+	<template><srai>KEVIN RUMINSON</srai></template></category>
+	<category><pattern>* KEVIN RUMINSON *</pattern>
+	<template><srai>KEVIN RUMINSON</srai></template></category>
+
+<!-- S -->
+
+<category><pattern>LAI SAECHAO</pattern>
+<template>Lai Saechao is a Library Assistant in Access Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* LAI SAECHAO</pattern>
+	<template><srai>LAI SAECHAO</srai></template></category>
+	<category><pattern>LAI SAECHAO *</pattern>
+	<template><srai>LAI SAECHAO</srai></template></category>
+	<category><pattern>* LAI SAECHAO *</pattern>
+	<template><srai>LAI SAECHAO</srai></template></category>
+
+<category><pattern>JEFF SCHNEIDEWIND</pattern>
+<template>Jeff Schneidewind is the Emerging Technologies Research Specialist in Reference. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* JEFF SCHNEIDEWIND</pattern>
+	<template><srai>JEFF SCHNEIDEWIND</srai></template></category>
+	<category><pattern>JEFF SCHNEIDEWIND *</pattern>
+	<template><srai>JEFF SCHNEIDEWIND</srai></template></category>
+	<category><pattern>* JEFF SCHNEIDEWIND *</pattern>
+	<template><srai>JEFF SCHNEIDEWIND</srai></template></category>
+	
+<category><pattern>HUI SHEN</pattern>
+<template>Hui Shen is a Library Assistant in Cataloging. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* HUI SHEN</pattern>
+	<template><srai>HUI SHEN</srai></template></category>
+	<category><pattern>HUI SHEN *</pattern>
+	<template><srai>HUI SHEN</srai></template></category>
+	<category><pattern>* HUI SHEN *</pattern>
+	<template><srai>HUI SHEN</srai></template></category>
+
+<category><pattern>LISA SHOUP</pattern>
+<template>Lisa Shoup is a Library Assistant in Acquisitions. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* LISA SHOUP</pattern>
+	<template><srai>LISA SHOUP</srai></template></category>
+	<category><pattern>LISA SHOUP *</pattern>
+	<template><srai>LISA SHOUP</srai></template></category>
+	<category><pattern>* LISA SHOUP *</pattern>
+	<template><srai>LISA SHOUP</srai></template></category>
+
+<category><pattern>JOHN SISSON</pattern>
+<template>John Sisson is the Research Librarian for Biological Sciences. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* JOHN SISSON</pattern>
+	<template><srai>JOHN SISSON</srai></template></category>
+	<category><pattern>JOHN SISSON *</pattern>
+	<template><srai>JOHN SISSON</srai></template></category>
+	<category><pattern>* JOHN SISSON *</pattern>
+	<template><srai>JOHN SISSON</srai></template></category>
+	<category><pattern>BIOLOGY LIBRARIAN</pattern>
+	<template><srai>JOHN SISSON</srai></template></category>
+	<category><pattern>* BIOLOGY LIBRARIAN</pattern>
+	<template><srai>JOHN SISSON</srai></template></category>
+	<category><pattern>BIOLOGY LIBRARIAN *</pattern>
+	<template><srai>JOHN SISSON</srai></template></category>
+	<category><pattern>* BIOLOGY LIBRARIAN *</pattern>
+	<template><srai>JOHN SISSON</srai></template></category>
+	
+<category><pattern>SAKHILE SITHOLE</pattern>
+<template>Sakhile Sithole is a Library Assistant at the Grunigen Medical Library. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* SAKHILE SITHOLE</pattern>
+	<template><srai>SAKHILE SITHOLE</srai></template></category>
+	<category><pattern>SAKHILE SITHOLE *</pattern>
+	<template><srai>SAKHILE SITHOLE</srai></template></category>
+	<category><pattern>* SAKHILE SITHOLE *</pattern>
+	<template><srai>SAKHILE SITHOLE</srai></template></category>
+
+<category><pattern>LAURA SMART</pattern>
+<template>Laura Smart is the Head of Digital Scholarship Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* LAURA SMART</pattern>
+	<template><srai>LAURA SMART</srai></template></category>
+	<category><pattern>LAURA SMART *</pattern>
+	<template><srai>LAURA SMART</srai></template></category>
+	<category><pattern>* LAURA SMART *</pattern>
+	<template><srai>LAURA SMART</srai></template></category>
+
+<category><pattern>KELLY SPRING</pattern>
+<template>Kelly Spring is an Archivist in Special Collections and Archives. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* KELLY SPRING</pattern>
+	<template><srai>KELLY SPRING</srai></template></category>
+	<category><pattern>KELLY SPRING *</pattern>
+	<template><srai>KELLY SPRING</srai></template></category>
+	<category><pattern>* KELLY SPRING *</pattern>
+	<template><srai>KELLY SPRING</srai></template></category>
+	
+<category><pattern>SCOTT STONE</pattern>
+<template>Scott Stone is the Research Librarian for Performing Arts. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* SCOTT STONE</pattern>
+	<template><srai>SCOTT STONE</srai></template></category>
+	<category><pattern>SCOTT STONE *</pattern>
+	<template><srai>SCOTT STONE</srai></template></category>
+	<category><pattern>* SCOTT STONE *</pattern>
+	<template><srai>SCOTT STONE</srai></template></category>
+	<category><pattern>PERFORMING ARTS LIBRARIAN</pattern>
+	<template><srai>SCOTT STONE</srai></template></category>
+	<category><pattern>* PERFORMING ARTS LIBRARIAN</pattern>
+	<template><srai>SCOTT STONE</srai></template></category>
+	<category><pattern>PERFORMING ARTS LIBRARIAN *</pattern>
+	<template><srai>SCOTT STONE</srai></template></category>
+	<category><pattern>* PERFORMING ARTS LIBRARIAN *</pattern>
+	<template><srai>SCOTT STONE</srai></template></category>
+	<category><pattern>DANCE LIBRARIAN</pattern>
+	<template><srai>SCOTT STONE</srai></template></category>	
+	<category><pattern>* DANCE LIBRARIAN</pattern>		
+	<template><srai>SCOTT STONE</srai></template></category>
+	<category><pattern>DANCE LIBRARIAN *</pattern>	
+	<template><srai>SCOTT STONE</srai></template></category>
+	<category><pattern>* DANCE LIBRARIAN *</pattern>
+	<template><srai>SCOTT STONE</srai></template></category>
+	<category><pattern>MUSIC LIBRARIAN</pattern>	
+	<template><srai>SCOTT STONE</srai></template></category>
+	<category><pattern>* MUSIC LIBRARIAN</pattern>		
+	<template><srai>SCOTT STONE</srai></template></category>
+	<category><pattern>MUSIC LIBRARIAN *</pattern>	
+	<template><srai>SCOTT STONE</srai></template></category>
+	<category><pattern>* MUSIC LIBRARIAN *</pattern>
+	<template><srai>SCOTT STONE</srai></template></category>
+	<category><pattern>DRAMA LIBRARIAN</pattern>
+	<template><srai>SCOTT STONE</srai></template></category>
+	<category><pattern>* DRAMA LIBRARIAN</pattern>
+	<template><srai>SCOTT STONE</srai></template></category>
+	<category><pattern>DRAMA LIBRARIAN *</pattern>
+	<template><srai>SCOTT STONE</srai></template></category>
+	<category><pattern>* DRAMA LIBRARIAN *</pattern>
+	<template><srai>SCOTT STONE</srai></template></category>
+	
+<!-- T -->
+
+<category><pattern>MARJAN TAMJIDI</pattern>
+<template>Marjan Tamjidi is a Library Assistant in Access Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* MARJAN TAMJIDI</pattern>
+	<template><srai>MARJAN TAMJIDI</srai></template></category>
+	<category><pattern>ARJAN TAMJIDI *</pattern>
+	<template><srai>MARJAN TAMJIDI</srai></template></category>
+	<category><pattern>* MARJAN TAMJIDI *</pattern>
+	<template><srai>MARJAN TAMJIDI</srai></template></category>
+	
+<category><pattern>LORELEI TANJI</pattern>
+<template>Lorelei Tanji is the University Librarian. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* LORELEI TANJI</pattern>
+	<template><srai>LORELEI TANJI</srai></template></category>
+	<category><pattern>LORELEI TANJI *</pattern>
+	<template><srai>LORELEI TANJI</srai></template></category>
+	<category><pattern>* LORELEI TANJI *</pattern>
+	<template><srai>LORELEI TANJI</srai></template></category>
+	<category><pattern>I NEED TO SPEAK WITH THE UNIVERSITY LIBRARIAN</pattern>
+	<template><srai>LORELEI TANJI</srai></template></category>
+	<category><pattern>DEAN OF THE LIBRARY</pattern>
+	<template><srai>LORELEI TANJI</srai></template></category>
+	<category><pattern>* DEAN OF THE LIBRARY</pattern>
+	<template><srai>LORELEI TANJI</srai></template></category>
+	<category><pattern>DEAN OF THE LIBRARY *</pattern>
+	<template><srai>LORELEI TANJI</srai></template></category>
+	<category><pattern>* DEAN OF THE LIBRARY *</pattern>
+	<template><srai>LORELEI TANJI</srai></template></category>
+	<category><pattern>UNIVERSITY LIBRARIAN</pattern>
+	<template><srai>LORELEI TANJI</srai></template></category>
+	<category><pattern>* UNIVERSITY LIBRARIAN</pattern>
+	<template><srai>LORELEI TANJI</srai></template></category>
+	<category><pattern>UNIVERSITY LIBRARIAN *</pattern>
+	<template><srai>LORELEI TANJI</srai></template></category>
+	<category><pattern>* UNIVERSITY LIBRARIAN *</pattern>
+	<template><srai>LORELEI TANJI</srai></template></category>
+	<category><pattern>HEAD LIBRARIAN</pattern>
+	<template><srai>LORELEI TANJI</srai></template></category>
+	<category><pattern>* HEAD LIBRARIAN</pattern>
+	<template><srai>LORELEI TANJI</srai></template></category>
+	<category><pattern>HEAD LIBRARIAN *</pattern>
+	<template><srai>LORELEI TANJI</srai></template></category>
+	<category><pattern>* HEAD LIBRARIAN *</pattern>
+	<template><srai>LORELEI TANJI</srai></template></category>
+	<category><pattern>WHO IN CHARGE</pattern>
+	<template><srai>LORELEI TANJI</srai></template></category>
+
+<category><pattern>MELISSA TORRES</pattern>
+<template>Melissa Torres is a Library Assistant in Access Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* MELISSA TORRES</pattern>
+	<template><srai>MELISSA TORRES</srai></template></category>
+	<category><pattern>MELISSA TORRES *</pattern>
+	<template><srai>MELISSA TORRES</srai></template></category>
+	<category><pattern>* MELISSA TORRES *</pattern>
+	<template><srai>MELISSA TORRES</srai></template></category>
+	
+<category><pattern>CHRISTOPHER TORREY</pattern>
+<template>Christopher Torrey is a Library Assistant in Access Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* CHRISTOPHER TORREY</pattern>
+	<template><srai>CHRISTOPHER TORREY</srai></template></category>
+	<category><pattern>CHRISTOPHER TORREY *</pattern>
+	<template><srai>CHRISTOPHER TORREY</srai></template></category>
+	<category><pattern>* CHRISTOPHER TORREY *</pattern>
+	<template><srai>CHRISTOPHER TORREY</srai></template></category>
+
+<category><pattern>ROBERTO TREJO</pattern>
+<template>Roberto Trejo is a Building Maintenance Worker in Facilities. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* ROBERTO TREJO</pattern>
+	<template><srai>ROBERTO TREJO</srai></template></category>
+	<category><pattern>ROBERTO TREJO *</pattern>
+	<template><srai>ROBERTO TREJO</srai></template></category>
+	<category><pattern>* ROBERTO TREJO *</pattern>
+	<template><srai>ROBERTO TREJO</srai></template></category>
+	
+<category><pattern>KRYSTAL TRIBBETT</pattern>
+<template>Krystal Tribbett is the Archivist for Orange County Regional History in Special Collections and Archives. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* KRYSTAL TRIBBETT</pattern>
+	<template><srai>KRYSTAL TRIBBETT</srai></template></category>
+	<category><pattern>KRYSTAL TRIBBETT *</pattern>
+	<template><srai>KRYSTAL TRIBBETT</srai></template></category>
+	<category><pattern>* KRYSTAL TRIBBETT *</pattern>
+	<template><srai>KRYSTAL TRIBBETT</srai></template></category>
+
+<category><pattern>LILY TSENG</pattern>
+<template>Lily Tseng is a Library Assistant in Acquisitions. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* LILY TSENG</pattern>
+	<template><srai>LILY TSENG</srai></template></category>
+	<category><pattern>LILY TSENG *</pattern>
+	<template><srai>LILY TSENG</srai></template></category>
+	<category><pattern>* LILY TSENG *</pattern>
+	<template><srai>LILY TSENG</srai></template></category>
+
+<category><pattern>CINDY TYAN</pattern>
+<template>Cindy Tyan is a Library Assistant in Acquisitions. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* CINDY TYAN</pattern>
+	<template><srai>CINDY TYAN</srai></template></category>
+	<category><pattern>CINDY TYAN *</pattern>
+	<template><srai>CINDY TYAN</srai></template></category>
+	<category><pattern>* CINDY TYAN *</pattern>
+	<template><srai>CINDY TYAN</srai></template></category>
+
+<!-- U -->
+
+<!-- V -->
+
+<category><pattern>MARK VEGA</pattern>
+<template>Mark Vega is a Programmer Analyst in Web Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* MARK VEGA</pattern>
+	<template><srai>MARK VEGA</srai></template></category>
+	<category><pattern>MARK VEGA *</pattern>
+	<template><srai>MARK VEGA</srai></template></category>
+	<category><pattern>* MARK VEGA *</pattern>
+	<template><srai>MARK VEGA</srai></template></category>
+
+<category><pattern>THUY VO DANG</pattern>
+<template>Thuy Vo Dang is the Archivist for the Southeast Asian Archive and Regional History. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* THUY VO DANG</pattern>
+	<template><srai>THUY VO DANG</srai></template></category>
+	<category><pattern>THUY VO DANG *</pattern>
+	<template><srai>THUY VO DANG</srai></template></category>
+	<category><pattern>* THUY VO DANG *</pattern>
+	<template><srai>THUY VO DANG</srai></template></category>
+
+<category><pattern>AZADEH VOSOUGHIAN</pattern>
+<template>Azadeh Vosoughian is an Administrative Analyst in Administrative Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category> 
+	<category><pattern>* AZADEH VOSOUGHIAN</pattern>
+	<template><srai>AZADEH VOSOUGHIAN</srai></template></category>
+	<category><pattern>AZADEH VOSOUGHIAN *</pattern>
+	<template><srai>AZADEH VOSOUGHIAN</srai></template></category>
+	<category><pattern>* AZADEH VOSOUGHIAN *</pattern>
+	<template><srai>AZADEH VOSOUGHIAN</srai></template></category>
+
+<!-- W -->
+
+<category><pattern>VIRGINIA WAKIM</pattern>
+<template>Virginia Wakim is a Library Assistant in Access Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* VIRGINIA WAKIM</pattern>
+	<template><srai>VIRGINIA WAKIM</srai></template></category>
+	<category><pattern>VIRGINIA WAKIM *</pattern>
+	<template><srai>VIRGINIA WAKIM</srai></template></category>
+	<category><pattern>* VIRGINIA WAKIM *</pattern>
+	<template><srai>VIRGINIA WAKIM</srai></template></category>
+
+<category><pattern>SARAH WALLBANK</pattern>
+<template>Sarah Wallbank is the Electronic Resources and Serials Cataloging/Metadata Librarian. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* SARAH WALLBANK</pattern>
+	<template><srai>SARAH WALLBANK</srai></template></category>
+	<category><pattern>SARAH WALLBANK *</pattern>
+	<template><srai>SARAH WALLBANK</srai></template></category>
+	<category><pattern>* SARAH WALLBANK *</pattern>
+	<template><srai>SARAH WALLBANK</srai></template></category>
+
+<category><pattern>LISA WEBER</pattern> 
+<template>Lisa Weber is a Library Assistant at the Grunigen Medical Library. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* LISA WEBER</pattern> 
+	<template><srai>LISA WEBER</srai></template></category>
+	<category><pattern>LISA WEBER *</pattern> 
+	<template><srai>LISA WEBER</srai></template></category>
+	<category><pattern>* LISA WEBER *</pattern> 
+	<template><srai>LISA WEBER</srai></template></category>
+
+<category><pattern>LINDA WEINBERGER</pattern>
+<template>Linda Weinberger is a Library Assistant in Access Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* LINDA WEINBERGER</pattern>
+	<template><srai>LINDA WEINBERGER</srai></template></category>
+	<category><pattern>LINDA WEINBERGER *</pattern>
+	<template><srai>LINDA WEINBERGER</srai></template></category>
+	<category><pattern>* LINDA WEINBERGER *</pattern>
+	<template><srai>LINDA WEINBERGER</srai></template></category>
+
+<category><pattern>TREVOR WILKES</pattern>
+<template>Trevor Wilkes is a Library Assistant in Access Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* TREVOR WILKES</pattern>
+	<template><srai>TREVOR WILKES</srai></template></category>
+	<category><pattern>TREVOR WILKES *</pattern>
+	<template><srai>TREVOR WILKES</srai></template></category>
+	<category><pattern>* TREVOR WILKES *</pattern>
+	<template><srai>TREVOR WILKES</srai></template></category>
+
+<category><pattern>BRIAN WILLIAMS</pattern>
+<template>Brian Williams is the Research Librarian for Criminology, Law and Society, U.S. and CA Gov't Info. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* BRIAN WILLIAMS</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>BRIAN WILLIAMS *</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>* BRIAN WILLIAMS *</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>US GOVERNMENT INFORMATION LIBRARIAN</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>* US GOVERNMENT INFORMATION LIBRARIAN</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>US GOVERNMENT INFORMATION LIBRARIAN *</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>* US GOVERNMENT INFORMATION LIBRARIAN *</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>CALIFORNIA GOVERNMENT INFORMATION LIBRARIAN</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>* CALIFORNIA GOVERNMENT INFORMATION LIBRARIAN</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>CALIFORNIA GOVERNMENT INFORMATION LIBRARIAN *</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>* CALIFORNIA GOVERNMENT INFORMATION LIBRARIAN *</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>COGNITIVE SCIENCES LIBRARIAN</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>* COGNITIVE SCIENCES LIBRARIAN</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>COGNITIVE SCIENCES LIBRARIAN *</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>* COGNITIVE SCIENCES LIBRARIAN *</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>PSYCHOLOGY LIBRARIAN</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>* PSYCHOLOGY LIBRARIAN</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>PSYCHOLOGY LIBRARIAN *</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>* PSYCHOLOGY LIBRARIAN *</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>CRIMINOLOGY LIBRARIAN</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>* CRIMINOLOGY LIBRARIAN</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>CRIMINOLOGY LIBRARIAN *</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>* CRIMINOLOGY LIBRARIAN *</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>GLOBAL PEACE AND CONFLICT STUDIES</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>* GLOBAL PEACE AND CONFLICT STUDIES</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>GLOBAL PEACE AND CONFLICT STUDIES *</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>* GLOBAL PEACE AND CONFLICT STUDIES *</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>MATHEMATICAL BEHAVIORIAL SCIENCES</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>* MATHEMATICAL BEHAVIORIAL SCIENCES</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>MATHEMATICAL BEHAVIORIAL SCIENCES *</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>* MATHEMATICAL BEHAVIORIAL SCIENCES *</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>POLITICAL SCIENCE</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>* POLITICAL SCIENCE</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>POLITICAL SCIENCE *</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>* POLITICAL SCIENCE *</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>SOCIAL SCIENCE DATA</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>* SOCIAL SCIENCE DATA</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>SOCIAL SCIENCE DATA *</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>* SOCIAL SCIENCE DATA *</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>SOCIOLOGY LIBRARIAN</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>* SOCIOLOGY LIBRARIAN</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>SOCIOLOGY LIBRARIAN *</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+	<category><pattern>* SOCIOLOGY LIBRARIAN *</pattern>
+	<template><srai>BRIAN WILLIAMS</srai></template></category>
+
+<category><pattern>CHRISTINA WOO</pattern>
+<template>Christina Woo is the Research Librarian for Chicano/Latino Studies, Spanish, Linguistics, Philosophy, Religion, and Gender Studies. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* CHRISTINA WOO</pattern>
+	<template><srai>CHRISTINA WOO</srai></template></category>
+	<category><pattern>CHRISTINA WOO *</pattern>
+	<template><srai>CHRISTINA WOO</srai></template></category>
+	<category><pattern>* CHRISTINA WOO *</pattern>
+	<template><srai>CHRISTINA WOO</srai></template></category>
+	<category><pattern>SPANISH LIBRARIAN</pattern>	
+	<template><srai>CHRISTINA WOO</srai></template></category>
+	<category><pattern>* SPANISH LIBRARIAN</pattern>		
+	<template><srai>CHRISTINA WOO</srai></template></category>
+	<category><pattern>SPANISH LIBRARIAN *</pattern>	
+	<template><srai>CHRISTINA WOO</srai></template></category>
+	<category><pattern>* SPANISH LIBRARIAN *</pattern>	
+	<template><srai>CHRISTINA WOO</srai></template></category>
+	<category><pattern>CHICANO STUDIES LIBRARIAN</pattern>	
+	<template><srai>CHRISTINA WOO</srai></template></category>
+	<category><pattern>* CHICANO STUDIES LIBRARIAN</pattern>	
+	<template><srai>CHRISTINA WOO</srai></template></category>	
+	<category><pattern>CHICANO STUDIES LIBRARIAN *</pattern>	
+	<template><srai>CHRISTINA WOO</srai></template></category>
+	<category><pattern>* CHICANO STUDIES LIBRARIAN *</pattern>
+	<template><srai>CHRISTINA WOO</srai></template></category>	
+	<category><pattern>LINGUISTICS LIBRARIAN</pattern>	
+	<template><srai>CHRISTINA WOO</srai></template></category>
+	<category><pattern>* LINGUISTICS LIBRARIAN</pattern>		
+	<template><srai>CHRISTINA WOO</srai></template></category>
+	<category><pattern>LINGUISTICS LIBRARIAN *</pattern>	
+	<template><srai>CHRISTINA WOO</srai></template></category>
+	<category><pattern>* LINGUISTICS LIBRARIAN *</pattern>		
+	<template><srai>CHRISTINA WOO</srai></template></category>
+	<category><pattern>PHILOSOPHY LIBRARIAN</pattern>
+	<template><srai>CHRISTINA WOO</srai></template></category>
+	<category><pattern>* PHILOSOPHY LIBRARIAN</pattern>
+	<template><srai>CHRISTINA WOO</srai></template></category>
+	<category><pattern>PHILOSOPHY LIBRARIAN *</pattern>
+	<template><srai>CHRISTINA WOO</srai></template></category>
+	<category><pattern>* PHILOSOPHY LIBRARIAN *</pattern>
+	<template><srai>CHRISTINA WOO</srai></template></category>
+	<category><pattern>LOGIC AND PHILOSOPHY OF SCIENCE LIBRARIAN</pattern>
+	<template><srai>CHRISTINA WOO</srai></template></category>
+	<category><pattern>* LOGIC AND PHILOSOPHY OF SCIENCE LIBRARIAN</pattern>
+	<template><srai>CHRISTINA WOO</srai></template></category>
+	<category><pattern>LOGIC AND PHILOSOPHY OF SCIENCE LIBRARIAN *</pattern>
+	<template><srai>CHRISTINA WOO</srai></template></category>
+	<category><pattern>* LOGIC AND PHILOSOPHY OF SCIENCE LIBRARIAN *</pattern>
+	<template><srai>CHRISTINA WOO</srai></template></category>
+	<category><pattern>RELIGIOUS STUDIES LIBRARIAN</pattern>
+	<template><srai>CHRISTINA WOO</srai></template></category>
+	<category><pattern>* RELIGIOUS STUDIES LIBRARIAN</pattern>
+	<template><srai>CHRISTINA WOO</srai></template></category>
+	<category><pattern>RELIGIOUS STUDIES LIBRARIAN *</pattern>
+	<template><srai>CHRISTINA WOO</srai></template></category>
+	<category><pattern>* RELIGIOUS STUDIES LIBRARIAN *</pattern>
+	<template><srai>CHRISTINA WOO</srai></template></category>
+	<category><pattern>WOMENS STUDIES LIBRARIAN</pattern>
+	<template><srai>CHRISTINA WOO</srai></template></category>
+	<category><pattern>* WOMENS STUDIES LIBRARIAN</pattern>
+	<template><srai>CHRISTINA WOO</srai></template></category>
+	<category><pattern>WOMENS STUDIES LIBRARIAN *</pattern>
+	<template><srai>CHRISTINA WOO</srai></template></category>
+	<category><pattern>* WOMENS STUDIES LIBRARIAN *</pattern>
+	<template><srai>CHRISTINA WOO</srai></template></category>
+	<category><pattern>* GENDER STUDIES LIBRARIAN</pattern>
+	<template><srai>CHRISTINA WOO</srai></template></category>
+	
+<category><pattern>BETH WOOTTON</pattern>
+<template>Beth Wootton is the Director of Finance in the Library Business Office. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* BETH WOOTTON</pattern>
+	<template><srai>BETH WOOTTON</srai></template></category>
+	<category><pattern>BETH WOOTTON *</pattern>
+	<template><srai>BETH WOOTTON</srai></template></category>
+	<category><pattern>* BETH WOOTTON *</pattern>
+	<template><srai>BETH WOOTTON</srai></template></category>
+	
+<!-- Y -->
+
+<category><pattern>ROBERT YBARRA</pattern>
+<template>Robert Ybarra is a Building Maintenance Worker in Library Facilities. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* ROBERT YBARRA</pattern>
+	<template><srai>ROBERT YBARRA</srai></template></category>
+	<category><pattern>ROBERT YBARRA *</pattern>
+	<template><srai>ROBERT YBARRA</srai></template></category>
+	<category><pattern>* ROBERT YBARRA *</pattern>
+	<template><srai>ROBERT YBARRA</srai></template></category>
+
+<category><pattern>CARLTON YEE</pattern>
+<template>Carlton Yee is a Library Assistant in Access Services. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* CARLTON YEE</pattern>
+	<template><srai>CARLTON YEE</srai></template></category>
+	<category><pattern>CARLTON YEE *</pattern>
+	<template><srai>CARLTON YEE</srai></template></category>
+	<category><pattern>* CARLTON YEE *</pattern>
+	<template><srai>CARLTON YEE</srai></template></category>
+
+<category><pattern>JOE YU</pattern>
+<template>Joe Yu is a Library Assistant in Acquisitions. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* JOE YU</pattern>
+	<template><srai>JOE YU</srai></template></category>
+	<category><pattern>JOE YU *</pattern>
+	<template><srai>JOE YU</srai></template></category>
+	<category><pattern>* JOE YU *</pattern>
+	<template><srai>JOE YU</srai></template></category>
+
+<category><pattern>AUDRA YUN</pattern>
+<template>Audra Yun is the Head of Special Collections and Archives. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* AUDRA YUN</pattern>
+	<template><srai>AUDRA YUN</srai></template></category>
+	<category><pattern>AUDRA YUN *</pattern>
+	<template><srai>AUDRA YUN</srai></template></category>
+	<category><pattern>* AUDRA YUN *</pattern>
+	<template><srai>AUDRA YUN</srai></template></category>
+
+<!-- Z -->
+
+<category><pattern>JIMMY ZAVALA</pattern>
+<template>Jimmy Zavala is the Transforming Knowledge/Transforming Libraries Project Coordinator in Special Collections. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* JIMMY ZAVALA</pattern>
+	<template><srai>XJIMMY ZAVALA</srai></template></category>
+	<category><pattern>JIMMY ZAVALA *</pattern>
+	<template><srai>JIMMY ZAVALA</srai></template></category>
+	<category><pattern>* JIMMY ZAVALA *</pattern>
+	<template><srai>JIMMY ZAVALA</srai></template></category>
+
+<category><pattern>XIAOYAN ZHANG</pattern>
+<template>Xiaoyan Zhang is a Library Assistant in Cataloging. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* XIAOYAN ZHANG</pattern>
+	<template><srai>XIAOYAN ZHANG</srai></template></category>
+	<category><pattern>XIAOYAN ZHANG *</pattern>
+	<template><srai>XIAOYAN ZHANG</srai></template></category>
+	<category><pattern>* XIAOYAN ZHANG *</pattern>
+	<template><srai>XIAOYAN ZHANG</srai></template></category>
+
+<category><pattern>YING ZHANG</pattern>
+<template>Ying Zhang is the Research Librarian for Asian Studies. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* YING ZHANG</pattern>
+	<template><srai>YING ZHANG</srai></template></category>
+	<category><pattern>YING ZHANG *</pattern>
+	<template><srai>YING ZHANG</srai></template></category>
+	<category><pattern>* YING ZHANG *</pattern>
+	<template><srai>YING ZHANG</srai></template></category>
+	<category><pattern>EAST ASIAN LIBRARIAN</pattern>	
+	<template><srai>YING ZHANG</srai></template></category>
+	<category><pattern>* EAST ASIAN LIBRARIAN</pattern>	
+	<template><srai>YING ZHANG</srai></template></category>
+	<category><pattern>EAST ASIAN LIBRARIAN *</pattern>	
+	<template><srai>YING ZHANG</srai></template></category>
+	<category><pattern>* EAST ASIAN LIBRARIAN *</pattern>	
+	<template><srai>YING ZHANG</srai></template></category>
+	<category><pattern>ASIAN STUDIES LIBRARIAN</pattern>
+	<template><srai>YING ZHANG</srai></template></category>
+	<category><pattern>* ASIAN STUDIES LIBRARIAN</pattern>
+	<template><srai>YING ZHANG</srai></template></category>
+	<category><pattern>ASIAN STUDIES LIBRARIAN *</pattern>
+	<template><srai>YING ZHANG</srai></template></category>
+	<category><pattern>* ASIAN STUDIES LIBRARIAN *</pattern>
+	<template><srai>YING ZHANG</srai></template></category>
+	<category><pattern>CHINESE STUDIES LIBRARIAN</pattern>
+	<template><srai>YING ZHANG</srai></template></category>
+	<category><pattern>* CHINESE STUDIES LIBRARIAN</pattern>
+	<template><srai>YING ZHANG</srai></template></category>
+	<category><pattern>CHINESE STUDIES LIBRARIAN *</pattern>
+	<template><srai>YING ZHANG</srai></template></category>
+	<category><pattern>* CHINESE STUDIES LIBRARIAN *</pattern>
+	<template><srai>YING ZHANG</srai></template></category>
+	<category><pattern>HISTORY LIBRARIAN</pattern>
+	<template><srai>YING ZHANG</srai></template></category>
+	<category><pattern>* HISTORY LIBRARIAN</pattern>
+	<template><srai>YING ZHANG</srai></template></category>
+	<category><pattern>HISTORY LIBRARIAN *</pattern>
+	<template><srai>YING ZHANG</srai></template></category>
+	<category><pattern>* HISTORY LIBRARIAN *</pattern>
+	<template><srai>YING ZHANG</srai></template></category>
+
+<category><pattern>HELEN ZHAO</pattern>
+<template>Helen Zhao is a Library Assistant in Acquisitions. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* HELEN ZHAO</pattern>
+	<template><srai>HELEN ZHAO</srai></template></category>
+	<category><pattern>HELEN ZHAO *</pattern>
+	<template><srai>HELEN ZHAO</srai></template></category>
+	<category><pattern>* HELEN ZHAO *</pattern>
+	<template><srai>HELEN ZHAO</srai></template></category>
+	
+<category><pattern>SUSAN ZWIERZYNSKI</pattern>
+<template>Susan Zwierzynski is a Finance Analyst in the library Bussiness office. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* SUSAN ZWIERZYNSKI</pattern>
+	<template><srai>SUSAN ZWIERZYNSKI</srai></template></category>
+	<category><pattern>SUSAN ZWIERZYNSKI *</pattern>
+	<template><srai>SUSAN ZWIERZYNSKI</srai></template></category>
+	<category><pattern>* SUSAN ZWIERZYNSKI *</pattern>
+	<template><srai>SUSAN ZWIERZYNSKI</srai></template></category>
+	
+<category><pattern>CINDY ZWEIS</pattern>
+<template>Cindy Zweis is a Library Assistant in Acquisitions. Contact information can be found on our <a href=" http://www.lib.uci.edu/staff-directory" target="_blank">staff directory</a>.</template></category>
+	<category><pattern>* CINDY ZWEIS</pattern>
+	<template><srai>CINDY ZWEIS</srai></template></category>
+	<category><pattern>CINDY ZWEIS *</pattern>
+	<template><srai>CINDY ZWEIS</srai></template></category>
+	<category><pattern>* CINDY ZWEIS *</pattern>
+	<template><srai>CINDY ZWEIS</srai></template></category>
+
+</aiml>

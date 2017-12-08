@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Contemporary Art -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>CONTEMPORARY ART *</pattern>
+	<template><think><set name="topic">Contemporary Art</set></think><sr /></template></category>
+	
+<category><pattern>CONTEMPORARY ART</pattern>	
+	<template>For resources on contemporary art check out the <a href=" http://guides.lib.uci.edu/contemporaryarts" target="_blank">Contemporary Arts Research Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Interactions -->
+
+<category><pattern>CONTEMPORARY ART</pattern>
+	<that>Air Art as a subject is included in the broader subjects of Art and Contemporary Art Would you like resource recommendations for art or contemporary art_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/113462" target="_blank">Art Bibliographies Modern</a> and/or 
+	<a href=" http://uclibs.org/PID/33002" target="_blank">Art andamp; Architecture Source</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/contemporaryarts" target="_blank">Contemporary Arts Research Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>CONTEMPORARY ART</pattern>
+	<that>Computer art as a subject is included in the broader subjects of Contemporary Art and Computer Science Would you like resource recommendations for contemporary art or computer science_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/113462" target="_blank">Art Bibliographies Modern</a> and/or 
+	<a href=" http://uclibs.org/PID/33002" target="_blank">Art andamp; Architecture Source</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/contemporaryarts" target="_blank">Contemporary Arts Research Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>CONTEMPORARY ART</pattern>
+	<that>Constructivism as a subject is included in the broader subjects of Contemporary Art Education Philosophy and Psychology Would you like resource recommendations for contemporary art education philosophy or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/113462" target="_blank">Art Bibliographies Modern</a> and/or 
+	<a href=" http://uclibs.org/PID/33002" target="_blank">Art andamp; Architecture Source</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/contemporaryarts" target="_blank">Contemporary Arts Research Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<category><pattern>CONTEMPORARY ART</pattern>
+	<that>Cubism as a subject is included in the broader subjects of Art and Contemporary Art Would you like resource recommendations for art or contemporary art_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/113462" target="_blank">Art Bibliographies Modern</a> and/or 
+	<a href=" http://uclibs.org/PID/33002" target="_blank">Art andamp; Architecture Source</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/contemporaryarts" target="_blank">Contemporary Arts Research Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+		
+<category><pattern>CONTEMPORARY ART</pattern>
+	<that>Expressionism as a subject is included in the broader subjects of Art and Contemporary Art Would you like resource recommendations for art or contemporary art_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/113462" target="_blank">Art Bibliographies Modern</a> and/or 
+	<a href=" http://uclibs.org/PID/33002" target="_blank">Art andamp; Architecture Source</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/contemporaryarts" target="_blank">Contemporary Arts Research Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+		
+<category><pattern>CONTEMPORARY ART</pattern>
+	<that>Futurism as a subject is included in the broader subjects of Art and Contemporary Art Would you like resource recommendations for art or contemporary art_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/113462" target="_blank">Art Bibliographies Modern</a> and/or 
+	<a href=" http://uclibs.org/PID/33002" target="_blank">Art andamp; Architecture Source</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/contemporaryarts" target="_blank">Contemporary Arts Research Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>CONTEMPORARY ART</pattern>
+	<that>Video art as a subject is included in the broader subjects of Art Contemporary Art and Television Would you like resource recommendations for art contemporary art or television_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/113462" target="_blank">Art Bibliographies Modern</a> and/or 
+	<a href=" http://uclibs.org/PID/33002" target="_blank">Art andamp; Architecture Source</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/contemporaryarts" target="_blank">Contemporary Arts Research Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<!-- Subject keywords-->
+		
+<category><pattern>CONTEMP ART</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/113462" target="_blank">Art Bibliographies Modern</a> and/or 
+			<a href=" http://uclibs.org/PID/33002" target="_blank">Art andamp; Architecture Source</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/contemporaryarts" target="_blank">Contemporary Arts Research Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>AFFICHISTES</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>ART DECO</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>MODERN ART</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>ARTISTS BOOKS</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>ASSEMBLAGE</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>BODY ART</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>CONCEPTUAL ART</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>CONCRETE ART</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>EARTHWORKS</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>ECLECTICISM IN ART</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>ENVIRONMENT</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>FAUVISM</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>FIGURATIVE ART</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>FIGURATIVE EXPRESSIONISM</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>FLUXUS</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>FOUND OBJECTS</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>HAPPENING</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>INSTALLATIONS</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>KINETIC ART</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>LETTER PICTURES</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>MAIL ART</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>METAPHYSICAL SCHOOL</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>MINIMAL ART</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>MODERNISM</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>MULTIPLE ART</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>NARRATIVE ART</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>NEOPLASTICISM</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>NEOROMANTICISM</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>NEW OBJECTIVITY</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>OPTICAL ART</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>ORPHISM </pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>PHOTO REALISM</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>POP ART</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>POST-IMPRESSIONISM</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>PROCESS ART</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>PSYCHEDELIC ART</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>PURISM </pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>RADIO ART</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>RELIEF </pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>RUBBER STAMP ART</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>SERIAL ART</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>SOCIAL REALISM</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>SPATIALISM </pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>TYPEWRITER ART</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>VORTICISM</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+<category><pattern>CONTEMPORARY ART</pattern>
+<template><srai>CONTEMP ART</srai></template></category>
+
+</aiml>

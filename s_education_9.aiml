@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Education -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>EDUCATION *</pattern>
+	<template><think><set name="topic">education</set></think><sr /></template></category>
+
+<category><pattern>EDUCATION</pattern>	
+	<template>For resources on education check out the <a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+	<category><pattern>EDUCATION ARTICLE</pattern>
+	<template><srai>EDUCATION</srai></template></category>
+<!-- Interactions -->
+
+<category><pattern>EDUCATION</pattern>
+	<that>Constructivism as a subject is included in the broader subjects of Contemporary Art Education Philosophy and Psychology Would you like resource recommendations for contemporary art education philosophy or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>EDUCATION</pattern>
+	<that>Critical pedagogy as a subject is included in the broader subjects of Critical Theory and Education Would you like resource recommendations for critical theory or education_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<category><pattern>EDUCATION</pattern>
+	<that>Information theory as a subject is included in the broader subjects of Biology Chemistry Education Mathematics Music and Psychology Would you like resource recommendations for biology chemistry education math music or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a> and/or 
+	<a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<category><pattern>EDUCATION</pattern>
+	<that>Socialization as a subject is included in the broader subjects of Education and Sociology Would you like resource recommendations for education or sociology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a> and/or 
+	<a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<!-- Subject keywords-->
+
+<category><pattern>BASIC EDUCATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a> and/or 
+			<a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>HOMOSEXUALITY AND EDUCATION</pattern>
+<template><srai>BASIC EDUCATION</srai></template></category>
+<category><pattern>PARENTS ASSOCIATIONS</pattern>
+<template><srai>BASIC EDUCATION</srai></template></category>
+<category><pattern>TEACHERS ASSOCIATIONS</pattern>
+<template><srai>BASIC EDUCATION</srai></template></category>
+<category><pattern>POSTAGE STAMPS IN EDUCATION</pattern>
+<template><srai>BASIC EDUCATION</srai></template></category>
+<category><pattern>POSTMODERNISM AND EDUCATION</pattern>
+<template><srai>BASIC EDUCATION</srai></template></category>
+<category><pattern>SEXUAL HARASSMENT IN EDUCATION</pattern>
+<template><srai>BASIC EDUCATION</srai></template></category>
+<category><pattern>SOCIALISM AND EDUCATIONS</pattern>
+<template><srai>BASIC EDUCATION</srai></template></category>
+<category><pattern>TECHNICAL EDUCATIONS</pattern>
+<template><srai>BASIC EDUCATION</srai></template></category>
+<category><pattern>TRADE UNIONS AND EDUCATION</pattern>
+<template><srai>BASIC EDUCATION</srai></template></category>
+<category><pattern>VOLUNTEER WORKERS IN EDUCATION</pattern>
+<template><srai>BASIC EDUCATION</srai></template></category>
+<category><pattern>WAR AND EDUCATION</pattern>
+<template><srai>BASIC EDUCATION</srai></template></category>
+<category><pattern>PARENTAL INVOLVMENT</pattern>
+<template><srai>BASIC EDUCATION</srai></template></category>
+<category><pattern>INDIAN BOARDER SCHOOLS</pattern>
+<template><srai>BASIC EDUCATION</srai></template></category>
+<category><pattern>EDUCATIONAL ATTAINMENT</pattern>
+<template><srai>BASIC EDUCATION</srai></template></category>
+
+<category><pattern>COMMUNITY EDUCATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>CONFUCIANISM AND EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>CONSUMER EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>CONTINUING EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>DISCRIMINATION IN EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>DISTANCE EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>DOMESTIC EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>EFFECT OF EDUCATION ON ECONOMIC DEVELOPMENT</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>EDUCABILITY</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>ELEMENTARY EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>SECONDARY EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>EDUCATORS</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>ELECTRONIC MAIL SYSTEMS IN EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>EMPLOYER SUPPORTED EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>ENVIRONMENTAL EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>FASCISM AND EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>FEMINISM AND EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>FOLKLORE AND EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>FOREIGN STUDY</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>FORMAL DISCIPLINE</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>FUNDAMENTAL EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>GENERAL EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>GENERAL SEMANTICS</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>GROUP GUIDANCE IN EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>GROUP WORK IN EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>HIGH TECHNOLOGY AND EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>HINDUISM AND EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>HOME AND SCHOOL</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>HOME SCHOOLING</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>HOWARD PLAN</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>HUMAN RESOURCE DEVELOPMENT</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>HUMANE EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>INCLUSIVE EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>EDUCATION ASPECTS INDUSTRIAL MUSEUMS</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>INDUSTRY AND EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>INFORMATION SUPERHIGHWAY IN EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>INSTRUCTION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>INSTRUCTIONAL SYSTEMS</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>INTERNATIONAL EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>INTERNET IN EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>ISLAMIC EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>EFFECT OF EDUCATION ON LABOR SUPPLY</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>LANGUAGE AND EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>LANGUAGE EXPERIENCE APPROACH IN EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>LEARNING</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>LEARNING AND SCHOLARSHIP</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>LITERACY</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>MAINSTREAMING IN EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>MAPS IN EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>MENTAL DISCIPLINE</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>MENTORING IN EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>MICROFORMS IN EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>MIDDLE CLASS EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>MILITARY EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>MINING SCHOOLS AND EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>MONITORIAL SYSTEM OF EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>MORAL EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>MULTICULTURAL EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>MUSIC IN EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>NATIONALISM AND EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>NATIVE LANGUAGE AND EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>NATURE STUDY</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>NAVAL EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>OCCUPATIONAL TRAINING</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>OUTDOOR EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>OVERPRESSURE</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>PAPERBACKS IN EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>PEASANTRY</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>PHYSICAL EDUCATION AND TRAINING</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>PICTURE BOOKS FOR CHILDREN</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>PICTURES IN EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>POST COMPULSORY EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>POSTERS IN EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>POSTSECONDARY EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>PRINTING IN EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>PROGRESSIVE EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>PROPOSAL WRITING IN EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>PUPPET THEATER IN EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>RADIO IN EDUCATION</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+<category><pattern>RESOURCE PROGRAMS</pattern>
+<template><srai>COMMUNITY EDUCATION</srai></template></category>
+
+<category><pattern>EDUCATION OF NOBILITY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12775" target="_blank">Historical Abstracts</a> and/or 
+			<a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>BURNOUT</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>, 
+			<a href=" http://uclibs.org/PID/126938" target="_blank">Business Source Complete</a> and/or <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>SEX DIFFERENCES IN EDUCATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a> and/or 
+			<a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/education" target="_blank">
+			Education Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.
+			</li>
+	</condition></template></category>		
+
+<category><pattern>TRAINING</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a> and/or 
+			<a href=" http://uclibs.org/PID/126938" target="_blank">Business Source Complete</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>PRIVATIZATION IN EDUCATION</pattern>
+<template><srai>TRAINING</srai></template></category>
+<category><pattern>VOCATIONAL EDUCATION</pattern>
+<template><srai>TRAINING</srai></template></category>
+<category><pattern>EFFECT OF EDUCATION ON WAGES</pattern>
+<template><srai>TRAINING</srai></template></category>
+
+<category><pattern>UNIVERSITY EXTENSION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a> and/or 
+			<a href=" http://uclibs.org/PID/37518" target="_blank">Education Source</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>ABILITY GROUPING IN EDUCATION</pattern>
+<template><srai>UNIVERSITY EXTENSION</srai></template></category>
+<category><pattern>COMPETENCY BASED EDUCATION</pattern>
+<template><srai>UNIVERSITY EXTENSION</srai></template></category>
+<category><pattern>TELECOMMUNICATION IN EDUCATION</pattern>
+<template><srai>UNIVERSITY EXTENSION</srai></template></category>
+<category><pattern>TELEPHONE IN EDUCAION</pattern>
+<template><srai>UNIVERSITY EXTENSION</srai></template></category>
+<category><pattern>TELEVISION IN EDUCATION</pattern>
+<template><srai>UNIVERSITY EXTENSION</srai></template></category>
+<category><pattern>UNIVERSITIES AND COLLEGES</pattern>
+<template><srai>UNIVERSITY EXTENSION</srai></template></category>
+<category><pattern>VIDEO TAPES IN EDUCATION</pattern>
+<template><srai>UNIVERSITY EXTENSION</srai></template></category>
+<category><pattern>WORD PROCESSING IN EDUCATION</pattern>
+<template><srai>UNIVERSITY EXTENSION</srai></template></category>
+
+<category><pattern>UNIVERSITY EXTENSION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a> and/or 
+			<a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>AFFECTIVE EDUCATION</pattern>
+<template><srai>UNIVERSITY EXTENSION</srai></template></category>
+<category><pattern>COEDUCATION</pattern>
+<template><srai>UNIVERSITY EXTENSION</srai></template></category>
+<category><pattern>COMMUNICATION IN EDUCATION</pattern>
+<template><srai>UNIVERSITY EXTENSION</srai></template></category>
+<category><pattern>EARLY CHILDHOOD EDUCATION</pattern>
+<template><srai>UNIVERSITY EXTENSION</srai></template></category>
+<category><pattern>INFORMATION THEORY IN EDUCATION</pattern>
+<template><srai>UNIVERSITY EXTENSION</srai></template></category>
+<category><pattern>PSYCHOLOGY OF LEARNING</pattern>
+<template><srai>UNIVERSITY EXTENSION</srai></template></category>
+<category><pattern>PEDAGOGY</pattern>
+<template><srai>UNIVERSITY EXTENSION</srai></template></category>
+	
+<category><pattern>CULTURE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. For more resources check 
+			out the <a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>BUDDHISM AND EDUCATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>, 
+			<a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a> and/or <a href=" http://uclibs.org/PID/105587" target="_blank">ATLA Religion Database</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you 
+			need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>BUSSINESS EDUCATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126938" target="_blank">Business Source Complete</a> and/or 
+			<a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/education" target="_blank">
+			Education Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian
+			</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>CAREER EDUCATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126938" target="_blank">Business Source Complete</a>, 
+			<a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a> and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>SCHOOL CHOICE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a>, 
+			<a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> and/or <a href=" http://uclibs.org/PID/37518" target="_blank">Education Full Text
+			</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you 
+			need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>CITY SCHOOL</pattern>
+<template><srai>SCHOOL CHOICE</srai></template></category>
+<category><pattern>STATE SCHOOL</pattern>
+<template><srai>SCHOOL CHOICE</srai></template></category>
+<category><pattern>SOUND RECORDINGS IN EDUCATION</pattern>
+<template><srai>SCHOOL CHOICE</srai></template></category>
+
+<category><pattern>COMMUNIST EDUCATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a>, 
+			<a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> and/or 
+			<a href=" http://uclibs.org/PID/12775" target="_blank">Historical Abstracts</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>SEXISM IN EDUCATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a>, 
+			<a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> and/or 
+			<a href=" http://uclibs.org/PID/113591" target="_blank">Sociological Abstracts</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>WOMEN IN EDUCATION</pattern>
+<template><srai>SEXISM IN EDUCATION</srai></template></category>
+
+<category><pattern>CLASSICAL EDUCATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a> and/or 
+			<a href=" http://uclibs.org/PID/6159" target="_blank">America, History and Life</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>LYCEUMS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a>, 
+			<a href=" http://uclibs.org/PID/6159" target="_blank">America, History and Life</a> and/or 
+			<a href=" http://uclibs.org/PID/37518" target="_blank">Education Source</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>CHAUTAUQUAS</pattern>
+<template><srai>LYCEUMS</srai></template></category>
+
+<category><pattern>CHEATING</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a> and/or 
+			<a href=" http://uclibs.org/PID/99649" target="_blank">Access World News</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>CHEATING</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a> and/or 
+			<a href=" http://uclibs.org/PID/99649" target="_blank">Access World News</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>RELIGIOUS EDUCATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a> and/or 
+			<a href=" http://uclibs.org/PID/105587" target="_blank">ATLA Religion Database</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>STUDENTS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a>, 
+			<a href=" http://uclibs.org/PID/37518" target="_blank">Education Source</a> and/or 
+			<a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>ADULT EDUCATION</pattern>
+<template><srai>STUDENTS</srai></template></category>
+<category><pattern>SCHOOLS</pattern>
+<template><srai>STUDENTS</srai></template></category>
+<category><pattern>EDUCATIONAL ASPECTS OF SCIENCE MUSEUMS</pattern>
+<template><srai>STUDENTS</srai></template></category>
+<category><pattern>TEACHERS</pattern>
+<template><srai>STUDENTS</srai></template></category>
+<category><pattern>TEACHING</pattern>
+<template><srai>STUDENTS</srai></template></category>
+<category><pattern>EDUCATIONAL ASPECTS OF ZOOS</pattern>
+<template><srai>STUDENTS</srai></template></category>
+
+<category><pattern>MASS MEDIA IN EDUCATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a> and/or 
+			<a href=" http://uclibs.org/PID/113560" target="_blank">Communication Abstracts</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>CASE METHOD</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a> and/or 
+			<a href=" http://guides.lib.uci.edu/education/doingresearch" target="_blank">Doing Research tab of the Education Research Guide</a>. For more resources check out the 
+			<a href=" hhttp://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>CASE STUDY</pattern>
+<template><srai>CASE METHOD</srai></template></category>
+<category><pattern>CASE STUDY RESEARCH</pattern>
+<template><srai>CASE METHOD</srai></template></category>
+	
+<category><pattern>YOUTH EDUCATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a>, 
+			<a href=" http://uclibs.org/PID/37518" target="_blank">Education Source</a> and/or <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+<category><pattern>COMPENSATORY EDUCATION</pattern>
+<template><srai>YOUTH EDUCATION</srai></template></category>
+
+<category><pattern>CHURCH AND EDUCATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a>, 
+			<a href=" http://uclibs.org/PID/37518" target="_blank">Education Source</a> and/or <a href=" http://uclibs.org/PID/6159" target="_blank">America, History and 
+			Life</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what 
+			you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+
+<category><pattern>AUDIOTAPES IN EDUCATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a>, 
+			<a href=" http://uclibs.org/PID/37518" target="_blank">Education Source</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are 
+			not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>PHOTOGRAHPHY IN EDUCATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a> and/or 
+			<a href=" http://uclibs.org/PID/33002" target="_blank">Art Source</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>EDUCATIONAL ASPECTS OF ART MUSEUMS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a>, 
+			<a href=" http://uclibs.org/PID/33002" target="_blank">Art Source</a> and/or <a href=" http://uclibs.org/PID/131308" target="_blank">MasterFILE Premier</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>EDUCATIONAL ASPECTS OF MUSEUMS</pattern>
+<template><srai>EDUCATIONAL ASPECTS OF ART MUSEUMS</srai></template></category>	
+
+<category><pattern>BOOKS IN EDUCATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a> and/or 
+			<a href=" http://search.ebscohost.com/login.aspx?authtype=ip,uidandamp;profile=ehostandamp;defaultdb=lxh" target="_blank">LISTA</a>. For more resources check out 
+			the <a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>PERIODICALS IN EDUCATION</pattern>
+<template><srai>BOOKS IN EDUCATION</srai></template></category>
+<category><pattern>SERIAL PUBLICATIONS IN EDUCATION</pattern>
+<template><srai>BOOKS IN EDUCATION</srai></template></category>
+
+<category><pattern>ARCHIVES AND EDUCATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a>, 
+			<a href=" http://search.ebscohost.com/login.aspx?authtype=ip,uidandamp;profile=ehostandamp;defaultdb=lxh" target="_blank">LISTA</a> and/or 
+			<a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>ART IN EDUCATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a>, 
+			<a href=" http://uclibs.org/PID/131308" target="_blank">MasterFILE Premier</a> and/or <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>AREA STUDIES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a> and/or 
+			<a href=" http://uclibs.org/PID/131308" target="_blank">MasterFILE Premier</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>HEALTH EDUCATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a>, 
+			<a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> and/or <a href=" http://uclibs.org/PID/106625" target="_blank">CINAHL</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>EDUCATION OF CHILDREN</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a>, 
+			<a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a> and/or 
+			<a href=" http://uclibs.org/PID/37518" target="_blank">Education Source</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you 
+			need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+
+<category><pattern>SPECIAL EDUCATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a>, 
+			<a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a> and/or 
+			<a href=" http://uclibs.org/PID/37518" target="_blank">Education Source</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+
+<category><pattern>ROLE PLAYING</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a>, 
+			<a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a> and/or 
+			<a href=" http://uclibs.org/PID/113591" target="_blank">Sociological Abstracts</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>ROLE PLAYING</pattern>
+	<template><condition name="sourcetype">
+			<li value="books">For books, we recommend you search ANTPAC Catalog.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a>, 
+			<a href=" http://uclibs.org/PID/113591" target="_blank">Sociological Abstracts</a> and/or 
+			<a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+</aiml>

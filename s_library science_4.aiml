@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- LIBRARY SCIENCE -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>LIBRARY SCIENCE *</pattern> 
+	<template><think><set name="topic">LIBRARY SCIENCE</set></think><sr /></template></category>
+
+<category><pattern>LIBRARY SCIENCE</pattern>	
+	<template>For resources on library science check out the <a href=" http://guides.lib.uci.edu/lib_sci" target="_blank">Library and Information Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	<category><pattern>LIBRARY SCIENCES</pattern>
+	<template><srai>LIBRARY SCIENCE</srai></template></category>
+
+<!-- Interactions -->
+
+<category><pattern>LIBRARY SCIENCE</pattern>
+	<that>Documentation as a subject is included in the broader subjects of Informatics and Library Science Would you like resource recommendations for informatics and library science_</that>
+	<template>We would recommend that you start your search with <a href=" http://ieeexplore.ieee.org/Xplore/home.jsp" target="_blank">IEEE Xplore</a> 
+	and/or <a href=" https://dl.acm.org/dl.cfm" target="_blank">ACM Digital Library</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/lib_sci" target="_blank">Library and Information Science Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>LIBRARY SCIENCE</pattern>
+	<that>Information resources as a subject is included in the broader subjects of Informatics and Library Science Would you like resource recommendations for informatics and library science_</that>
+	<template>We would recommend that you start your search with <a href=" http://ieeexplore.ieee.org/Xplore/home.jsp" target="_blank">IEEE Xplore</a> 
+	and/or <a href=" http://www.emeraldinsight.com/info/products_services/AtoZList.jsp" target="_blank">Emerald</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/lib_sci" target="_blank">Library and Information Science Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<category><pattern>LIBRARY SCIENCE</pattern>
+	<that>Information retrieval as a subject is included in the broader subjects of Informatics and Library Science Would you like resource recommendations for informatics and library science_</that>
+	<template>We would recommend that you start your search with <a href=" http://search.epnet.com/login.aspx?profile=ehostandamp;defaultdb=lxh" target="_blank">LISTA (Library Information Science and Technology Abstracts)</a> 
+	and/or <a href=" https://dl.acm.org/dl.cfm" target="_blank">ACM Digital Library</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/lib_sci" target="_blank">Library and Information Science Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<category><pattern>LIBRARY SCIENCE</pattern>
+	<that>Information services as a subject is included in the broader subjects of Informatics and Library Science Would you like resource recommendations for informatics and library science_</that>
+	<template>We would recommend that you start your search with <a href=" http://search.epnet.com/login.aspx?profile=ehostandamp;defaultdb=lxh" target="_blank">LISTA (Library Information Science and Technology Abstracts)</a> 
+	and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/lib_sci" target="_blank">Library and Information Science Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<category><pattern>LIBRARY SCIENCE</pattern>
+	<that>Library science as a subject is included in the broader subjects of Informatics and Library Science Would you like resource recommendations for informatics or library science_</that>
+	<template>We would recommend that you start your search with <a href=" http://search.epnet.com/login.aspx?profile=ehostandamp;defaultdb=lxh" target="_blank">LISTA (Library Information Science and Technology Abstracts)</a> 
+	and/or <a href=" http://www.emeraldinsight.com/info/products_services/AtoZList.jsp" target="_blank">Emerald</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/lib_sci" target="_blank">Library and Information Science Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<category><pattern>LIBRARY SCIENCE</pattern>
+	<that>Medical informatics as a subject is included in the broader subjects of Informatics and Library Science Would you like resource recommendations for informatics or Library science_</that>
+	<template>We would recommend that you start your search with <a href=" https://www.scopus.com" target="_blank">Scopus</a> 
+	and/or <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/lib_sci" target="_blank">Library and Information Science Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<category><pattern>LIBRARY SCIENCE</pattern>
+	<that>Women in Information Science as a subject is included in the broader subjects of Informatics and Library Science Would you like resource recommendations for informatics or library science_</that>
+	<template>We would recommend that you start your search with <a href=" http://search.epnet.com/login.aspx?profile=ehostandamp;defaultdb=lxh" target="_blank">LISTA (Library Information Science and Technology Abstracts)</a> 
+	and/or <a href=" http://www.emeraldinsight.com/info/products_services/AtoZList.jsp" target="_blank">Emerald</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/lib_sci" target="_blank">Library and Information Science Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<!-- Subject keywords-->
+
+<category><pattern>TEAM LIBRARIANSHIP</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://search.epnet.com/login.aspx?profile=ehostandamp;defaultdb=lxh" target="_blank">LISTA (Library Information Science and Technology Abstracts)</a> 
+			and/or <a href=" http://www.emeraldinsight.com/info/products_services/AtoZList.jsp" target="_blank">Emerald</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/lib_sci" target="_blank">Library and Information Science Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>AUDIOVISUAL LIBRARY SERVICE</pattern>
+<template><srai>TEAM LIBRARIANSHIP</srai></template></category>
+<category><pattern>COMMUNICATION IN INFORMATION SCIENCE</pattern>
+<template><srai>TEAM LIBRARIANSHIP</srai></template></category>
+<category><pattern>OPEN AND CLOSED SHELVES</pattern>
+<template><srai>TEAM LIBRARIANSHIP</srai></template></category>
+<category><pattern>PROCESSING</pattern>
+<template><srai>TEAM LIBRARIANSHIP</srai></template></category>
+<category><pattern>PROPOSAL WRITING IN LIBRARY SCIENCE</pattern>
+<template><srai>TEAM LIBRARIANSHIP</srai></template></category>
+<category><pattern>WOMEN IN LIBRARY SCIENCE</pattern>
+<template><srai>TEAM LIBRARIANSHIP</srai></template></category>
+
+<category><pattern>THEATER LIBRARIANSHIP</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://search.epnet.com/login.aspx?profile=ehostandamp;defaultdb=lxh" target="_blank">LISTA (Library Information Science and Technology Abstracts)</a> 
+			and/or <a href=" http://antpac.lib.uci.edu:80/record=b1826275~S7" target="_blank">MLA Bibliography</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/lib_sci" target="_blank">Library and Information Science Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>RECATALOGING</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://search.epnet.com/login.aspx?profile=ehostandamp;defaultdb=lxh" target="_blank">LISTA (Library Information Science and Technology Abstracts)</a> 
+			and/or <a href=" http://www.tandfonline.com/" target="_blank">Taylor and Francis Journals Online</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/lib_sci" target="_blank">Library and Information Science Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>RECLASSIFICATION</pattern>
+<template><srai>RECATALOGING</srai></template></category>
+
+<category><pattern>MUSIC LIBRARIANSHIP</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://search.epnet.com/login.aspx?profile=ehostandamp;defaultdb=lxh" target="_blank">LISTA (Library Information Science and Technology Abstracts)</a> 
+			and/or <a href=" http://uclibs.org/PID/272440" target="_blank">RILM</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/lib_sci" target="_blank">Library and Information Science Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>COMMUNICATION IN INFORMATION SCIENCE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" https://dl.acm.org/dl.cfm" target="_blank">ACM Digital Library</a> 
+			and/or <a href=" http://search.ebscohost.com/login.aspx?authtype=ip,uidandamp;profile=ehostandamp;defaultdb=lxh" target="_blank">LISTA (Library Information Science and Technology Abstracts) </a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/lib_sci" target="_blank">Library and Information Science Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>COLLECTANEA FILES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://antpac.lib.uci.edu:80/record=b1826275~S7" target="_blank">MLA Bibliography</a> 
+			and/or <a href=" http://apps.webofknowledge.com/WOS_GeneralSearch_input.do?product=WOSandamp;search_mode=GeneralSearchandamp;SID=3A7s7nNiqZG9aGrHxHhandamp;preferencesSaved=" target="_blank">Web of Science</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/lib_sci" target="_blank">Library and Information Science Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>COMMUNICATION IN LIBRARY SCIENCE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://antpac.lib.uci.edu:80/record=b1826275~S7" target="_blank">MLA Bibliography</a> 
+			and/or <a href=" http://apps.webofknowledge.com/WOS_GeneralSearch_input.do?product=WOSandamp;search_mode=GeneralSearchandamp;SID=3A7s7nNiqZG9aGrHxHhandamp;preferencesSaved=" target="_blank">Web of Science</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/lib_sci" target="_blank">Library and Information Science Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>COMPARATIVE LIBRARIANSHIP</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://search.epnet.com/login.aspx?profile=ehostandamp;defaultdb=lxh" target="_blank">LISTA (Library Information Science and Technology Abstracts)</a> 
+			and/or <a href=" https://www.scopus.com" target="_blank">Scopus</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/lib_sci" target="_blank">Library and Information Science Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>INTERNATIONAL LIBRARIANSHIP</pattern>
+<template><srai>COMPARATIVE LIBRARIANSHIP</srai></template></category>
+<category><pattern>MINORITIES IN LIBRARY SCIENCE</pattern>
+<template><srai>COMPARATIVE LIBRARIANSHIP</srai></template></category>
+
+</aiml>

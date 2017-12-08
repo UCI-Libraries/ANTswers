@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Business -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>BUSINESS *</pattern>
+	<template><think><set name="topic">business</set></think><sr /></template></category>
+	
+<category><pattern>BUSINESS</pattern>	
+	<template>For resources on business check out the <a href=" http://guides.lib.uci.edu/business" target="_blank">Business Research Guide</a>  
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Interactions -->
+
+<category><pattern>BUSINESS</pattern>
+	<that>Exchange as a subject is included in the broader subjects of Business and Economics Would you like resource recommendations for business or economics_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126938" target="_blank">Business Source Complete</a>. For more resources check 
+	out the <a href=" http://guides.lib.uci.edu/business" target="_blank">Business Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>BUSINESS</pattern>
+	<that>Industrial hygiene as a subject is included in the broader subjects of Business and Environmental Health Would you like resource recommendations for business or environmental health_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126938" target="_blank">Business Source Complete</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/business" target="_blank">Business Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>BUSINESS</pattern>
+	<that>Managerial economics as a subject is included in the broader subjects of Business and Economics Would you like resource recommendations for business or economics_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126938" target="_blank">Business Source Complete</a>. For more resources check 
+	out the <a href=" http://guides.lib.uci.edu/business" target="_blank">Business Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>BUSINESS</pattern>
+	<that>Profit as a subject is included in the broader subjects of Business and Economics Would you like resource recommendations for business or economics_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126938" target="_blank">Business Source Complete</a>. For more resources check 
+	out the <a href=" http://guides.lib.uci.edu/business" target="_blank">Business Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>STATISTICS</pattern>
+	<that>Statistics as a subject is included in the broader subjects of Business and Economics Would you like resource recommendations for business or economics_</that>
+	<template>We would recommend that you start your search with the<a href=" http://guides.lib.uci.edu/economics" target="_blank">Economics Research Guide</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/business" target="_blank">Business Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>WEALTH</pattern>
+	<that>Wealth as a subject is included in the broader subjects of Business and Economics Would you like resource recommendations for business or economics_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126938" target="_blank">Business Source Complete</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/business" target="_blank">Business Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<!-- Subject keywords-->
+
+<!--Business Source Complete-->
+	
+<category><pattern>TRUST ADMINISTRATION</pattern>
+<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" hhttp://uclibs.org/PID/126938" target="_blank">Business Source Complete</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/business" target="_blank">Business Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	<category><pattern>INTERSTATE COMMERCE</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>BLACK MARKET</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>SALES MANAGEMENT</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>TURNOVER</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>	
+	<category><pattern>COMPETITION</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>BUSINESS ENTERPRISES</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>BREAK EVEN ANALYSIS</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>BUDGET IN BUSINESS</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>MASS MEDIA AND BUSINESS</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>CUSTOMER RELATIONS</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>SUCCESS IN BUSINESS</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>PRODUCTION STANDARDS</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>	
+	<category><pattern>SELLING</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>PRODUCTION CONTROL</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>BIG BUSINESS</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>BUSINESS LOSSES</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>FAIRS</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>GOODWILL</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>HUMOR IN BUSINESS</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>INDUSTRIAL EFFICIENCY</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>MENTORING IN BUSINESS</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>	
+	<category><pattern>PROMOTERS</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>MANAGEMENT SERVICE INDUSTRIES</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>SEX ORIENTED BUSINESSES</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>SHIFT SYSTEMS</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>PRODUCTION MANAGEMENT</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>RETAIL TRADE</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>BUSINESS INTELLIGENCE</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>CREATIVE ABILITY IN BUSINESS</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>PROPOSAL WRITING IN BUSINESS</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>INDUSTRIAL PROCUREMENT</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>MATERIALS MANAGEMENT</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>MANAGEMENT AUDIT</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>RELATED PARTY TRANSACTIONS</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>ASSEMBLY LINE METHODS</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>	
+	<category><pattern>SOCIAL RESPONSIBILITY OF BUSINESS</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+	<category><pattern>SMALL BUSINESS MANAGEMENT</pattern>
+	<template><srai>TRUST ADMINISTRATION</srai></template></category>
+  
+<category><pattern>MANAGEMENT</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126938" target="_blank">Business Source Complete</a> 
+			and/or <a href=" http://pubsonline.informs.org/loi/mnsc" target="_blank">Management Science</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/business" target="_blank">Business Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+	
+<category><pattern>WHOLESALE TRADE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126938" target="_blank">Business Source Complete</a> 
+			and/or <a href=" http://www.fedstats.gov/" target="_blank">FedStats:  Gateway to statistics from U.S. Federal agencies</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/business" target="_blank">Business Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+
+<category><pattern>MARKETING</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with the <a href=" http://guides.lib.uci.edu/business/marketing/brands" target="_blank">Business Research Guide - Marketing</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/business" target="_blank">Business Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>ELECTRONIC COMMERCE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://guides.lib.uci.edu/business/popular/it_technology" target="_blank">Business Research Guide - Popular - IT</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>REAL ESTATE BUSINESS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with the<a href=" http://guides.lib.uci.edu/business/popular/realestate_construction" target="_blank">Business Research Guide - Popular - Real Estate and Construction</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>HEALTHCARE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with the <a href=" http://guides.lib.uci.edu/business/popular/healthcare" target="_blank">Business Research Guide - Popular - Healthcare</a>  
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>ECONOMICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with the <a href=" http://guides.lib.uci.edu/economics" target="_blank">Economics Research Guide</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/business" target="_blank">Business Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>NIELSEN RATINGS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://guides.lib.uci.edu/business/marketing/advertising" target="_blank">Business Research Guide - Advertising</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+	<category><pattern>ADVERTISING</pattern>
+	<template><srai>NIELSEN RATINGS</srai></template></category>
+
+<category><pattern>CREDIT RATINGS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://guides.lib.uci.edu/business/finance/credit" target="_blank">Business Research Guide - Finance</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	<category><pattern>BOOKKEEPING</pattern>
+	<template><srai>CREDIT RATINGS</srai></template></category>
+	<category><pattern>SEC FILINGS</pattern>
+	<template><srai>CREDIT RATINGS</srai></template></category>
+	<category><pattern>ACCOUNTING</pattern>
+	<template><srai>CREDIT RATINGS</srai></template></category>
+	<category><pattern>CONTROLLERSHIP</pattern>
+	<template><srai>CREDIT RATINGS</srai></template></category>
+	<category><pattern>TAX</pattern>
+	<template><srai>CREDIT RATINGS</srai></template></category>
+	<category><pattern>BENCHMARKS</pattern>
+	<template><srai>CREDIT RATINGS</srai></template></category>
+	<category><pattern>RATIO ANALYSIS</pattern>
+	<template><srai>CREDIT RATINGS</srai></template></category>
+	<category><pattern>RATIOS</pattern>
+	<template><srai>CREDIT RATINGS</srai></template></category>	
+	<category><pattern>STOCK PRICES</pattern>
+	<template><srai>CREDIT RATINGS</srai></template></category>
+	<category><pattern>* STOCK PRICES</pattern>
+	<template><srai>CREDIT RATINGS</srai></template></category>
+
+<category><pattern>SMALL BUSINESS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://guides.lib.uci.edu/business/entrepeneurs/support" target="_blank">Business Research Guide - Entrepreneurship</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	<category><pattern>BUSINESS PLANS</pattern>
+	<template><srai>SMALL BUSINESS</srai></template></category>
+	<category><pattern>PRIVATE EQUITY</pattern>
+	<template><srai>SMALL BUSINESS</srai></template></category>
+	<category><pattern>ENTREPENEURSHIP</pattern>
+	<template><srai>SMALL BUSINESS</srai></template></category>
+	<category><pattern>VENTURE CAPITAL</pattern>	
+	<template><srai>SMALL BUSINESS</srai></template></category>
+
+<category><pattern>COMMODITIES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://guides.lib.uci.edu/business/global/country" target="_blank">Business Research Guide - Global</a>  
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	<category><pattern>INTERNATIONAL TRADE</pattern>
+	<template><srai>COMMODITIES</srai></template></category>
+	<category><pattern>FOREIGN TRADE AND EMPLOYMENT</pattern>
+	<template><srai>COMMODITIES</srai></template></category>
+
+<category><pattern>CAREER EXPLORATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://guides.lib.uci.edu/business/people/careers" target="_blank">Business Research Guide - People</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	<category><pattern>MARKET RESEARCH</pattern>
+	<template><srai>CAREER EXPLORATION</srai></template></category>
+	<category><pattern>LIFESTYLES</pattern>
+	<template><srai>CAREER EXPLORATION</srai></template></category>	
+	<category><pattern>PSYCHOGRAPHICS</pattern>
+	<template><srai>CAREER EXPLORATION</srai></template></category>		
+	<category><pattern>EXECUTIVES</pattern>
+	<template><srai>CAREER EXPLORATION</srai></template></category>	
+	<category><pattern>TURNOVER</pattern>
+	<template><srai>CAREER EXPLORATION</srai></template></category>
+	<category><pattern>FACTORY MANAGEMENT</pattern>
+	<template><srai>CAREER EXPLORATION</srai></template></category>
+	<category><pattern>CORPORATE GOVERNANCE</pattern>
+	<template><srai>CAREER EXPLORATION</srai></template></category>
+	<category><pattern>DELEGATION OF AUTHORITY</pattern>
+ 	<template><srai>CAREER EXPLORATION</srai></template></category>
+	<category><pattern>MANAGEMENT BY EXCEPTION</pattern>
+	<template><srai>CAREER EXPLORATION</srai></template></category>
+	<category><pattern>MANAGEMENT COMMITTEES</pattern>
+	<template><srai>CAREER EXPLORATION</srai></template></category>
+	<category><pattern>MANAGEMENT GAMES</pattern>
+	<template><srai>CAREER EXPLORATION</srai></template></category>
+	<category><pattern>MANAGEMENT RIGHTS</pattern>
+	<template><srai>CAREER EXPLORATION</srai></template></category>
+	<category><pattern>NEGOTIATION IN BUSINESS</pattern>
+	<template><srai>CAREER EXPLORATION</srai></template></category>	
+	<category><pattern>MATRIX ORGANIZATION</pattern>
+	<template><srai>CAREER EXPLORATION</srai></template></category>
+
+	
+<category><pattern>COMPANY LISTINGS</pattern>
+	<template>For resources on business check out the <a href=" http://guides.lib.uci.edu/business/company/lists" target="_blank">Business Research Guide - Company</a>.  
+	If you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	<category><pattern>* COMPANY LISTINGS</pattern>
+	<template><srai>COMPANY LISTINGS</srai></template></category>
+	<category><pattern>COMPANY LISTINGS *</pattern>
+	<template><srai>COMPANY LISTINGS</srai></template></category>
+	<category><pattern>* COMPANY LISTINGS *</pattern>
+	<template><srai>COMPANY LISTINGS</srai></template></category>
+	<category><pattern>DIRECTORY OF COMPANIES</pattern>
+	<template><srai>COMPANY LISTINGS</srai></template></category>
+	<category><pattern>* DIRECTORY OF COMPANIES</pattern>
+	<template><srai>COMPANY LISTINGS</srai></template></category>
+	<category><pattern>DIRECTORY OF COMPANIES *</pattern>
+	<template><srai>COMPANY LISTINGS</srai></template></category>
+	<category><pattern>* DIRECTORY OF COMPANIES *</pattern>
+	<template><srai>COMPANY LISTINGS</srai></template></category>
+	<category><pattern>ANALYST REPORTS</pattern>
+	<template><srai>COMPANY LISTINGS</srai></template></category>
+	<category><pattern>ANNUAL REPORTS</pattern>
+	<template><srai>COMPANY LISTINGS</srai></template></category>
+	<category><pattern>ORGANIZATION CHARTS</pattern>
+	<template><srai>COMPANY LISTINGS</srai></template></category>
+	<category><pattern>COMPANY PROFILES</pattern>
+	<template><srai>COMPANY LISTINGS</srai></template></category>
+	<category><pattern>COMPANY FINANCIALS</pattern>
+	<template><srai>COMPANY LISTINGS</srai></template></category>
+	<category><pattern>NONPROFITS</pattern>
+	<template><srai>COMPANY LISTINGS</srai></template></category>
+	<category><pattern>BETTER BUSINESS BUREAUS</pattern>
+	<template><srai>COMPANY LISTINGS</srai></template></category>
+	<category><pattern>ACQUSITIONS</pattern>
+	<template><srai>COMPANY LISTINGS</srai></template></category>
+	<category><pattern>MERGERS</pattern>
+	<template><srai>COMPANY LISTINGS</srai></template></category>	
+	<category><pattern>COMPANY INFORMATION</pattern>
+	<template><srai>COMPANY LISTINGS</srai></template></category>	
+	<category><pattern>* COMPANY INFORMATION</pattern>
+	<template><srai>COMPANY LISTINGS</srai></template></category>	
+	<category><pattern>BUSINESS LOGISTICS</pattern>
+	<template><srai>COMPANY LISTINGS</srai></template></category>	
+	<category><pattern>PHYSICAL DISTRIBUTION OF GOODS</pattern>
+	<template><srai>COMPANY LISTINGS</srai></template></category>	
+
+<category><pattern>INDUSTRY REPORTS</pattern>
+<template><condition name="sourcetype"> 
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with the<a href=" http://guides.lib.uci.edu/business/industry/research" target="_blank">Business Research Guide - Industry</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	<category><pattern>MARKET TRENDS</pattern>
+	<template><srai>INDUSTRY REPORTS</srai></template></category>
+	<category><pattern>INDUSTRY OVERVIEWS</pattern>
+	<template><srai>INDUSTRY REPORTS</srai></template></category>
+	<category><pattern>MARKET SHARE *</pattern>
+	<template><srai>INDUSTRY REPORTS</srai></template></category>
+	<category><pattern>MARKET SHARE</pattern>
+	<template><srai>INDUSTRY REPORTS</srai></template></category>
+	<category><pattern>MARKETS</pattern>
+	<template><srai>INDUSTRY REPORTS</srai></template></category>
+	<category><pattern>MARKET SIZE</pattern>
+	<template><srai>INDUSTRY REPORTS</srai></template></category>
+
+</aiml>

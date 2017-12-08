@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- BIOMEDICAL ENGINEERING -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>BIOMEDICAL ENGINEERING *</pattern> 
+	<template><think><set name="topic">biomedical engineering</set></think><sr /></template></category>
+
+<category><pattern>BIOMEDICAL ENGINEERING</pattern>	
+	<template>For resources on biomedical engineering check out the <a href=" http://guides.lib.uci.edu/engr_biomed" target="_blank">Biomedical Engineering Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Interactions -->
+
+<category><pattern>BIOMEDICAL ENGINEERING</pattern>
+	<that>Bioengineering as a subject is included in the broader subjects of Biology and Biomedical Engineering. Would you like resource recommendations for biology or biomedical engineering_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> 
+	and/or <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/engr_biomed" target="_blank">Biomedical Engineering Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>BIOMEDICAL ENGINEERING</pattern>
+	<that>Biophysics as a subject is included in the broader subjects of Biology Biomedical Engineering and Physics Would you like resource recommendations for biology biomedical engineering or physics_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> 
+	and/or <a href=" http://uclibs.org/PID/100004" target="_blank">Biosis</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/engr_biomed" target="_blank">Biomedical Engineering Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<!-- Subject keywords-->
+
+<category><pattern>BIOMEDICAL MATERIALS</pattern>
+<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://mio.asminternational.org/mmd/" target="_blank">Materials for Medical Devices Database</a> 
+			and/or <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/engr_biomed" target="_blank">Biomedical Engineering Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+</condition></template></category>
+
+<category><pattern>MEDICINE</pattern>
+<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> 
+	and/or <a href=" http://uclibs.org/PID/100004" target="_blank">Biosis</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/engr_biomed" target="_blank">Biomedical Engineering Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>BIOMEDICAL TECHNICIANS</pattern>
+<template><srai>MEDICINE</srai></template></category>
+<category><pattern>PHYSIOLOGICAL APPARATUS</pattern>
+<template><srai>MEDICINE</srai></template></category>
+
+<category><pattern>ENGINEERING DEPARTMENTS IN HOSPITALS</pattern>
+<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> 
+	and/or <a href=" http://uclibs.org/PID/126938" target="_blank">Business Source Complete</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/engr_biomed" target="_blank">Biomedical Engineering Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>MEDICAL INSTRUMENTS AND APPARATUS</pattern>
+<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> 
+	and/or <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/engr_biomed" target="_blank">Biomedical Engineering Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>MYOELECTRIC PROSTHESIS</pattern>
+<template><srai>MEDICAL INSTRUMENTS AND APPARATUS</srai></template></category>
+
+<category><pattern>REHABILITATION TECHNOLOGY</pattern>
+<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> 
+	and/or <a href=" http://uclibs.org/PID/126493" target="_blank">Ergonomics Abstracts</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/engr_biomed" target="_blank">Biomedical Engineering Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>CARDIOVASCULAR IMPLANTS</pattern>
+<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> 
+	and/or <a href=" http://mio.asminternational.org/mmd/" target="_blank">Materials for Medical Devices Database</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/engr_biomed" target="_blank">Biomedical Engineering Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>ELECTRONICS IN SPACE MEDICINE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+			and/or <a href=" http://uclibs.org/PID/6940" target="_blank">IEEE Xplore</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/engr_biomed" target="_blank">Biomedical Engineering Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+</condition></template></category>
+	
+<category><pattern>MEDICAL ELECTRONICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/6940" target="_blank">IEEE Xplore</a> 
+			and/or <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/engr_biomed" target="_blank">Biomedical Engineering Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+</condition></template></category>
+
+</aiml>

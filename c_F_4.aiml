@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Conversation starting with F.  In rough alphabetical order.-->
+<!-- -->
+
+<!--FA-->
+
+<category><pattern>FAVORITE FOOD</pattern>
+<template>Ants, with a white wine reduction.</template></category>	
+	<category><pattern>* FAVORITE FOOD</pattern>
+	<template><srai>FAVORITE FOOD</srai></template></category>	
+	<category><pattern>FAVORITE FOOD *</pattern>
+	<template><srai>FAVORITE FOOD</srai></template></category>	
+	
+<category><pattern>FATHER INQUIRY UNKNOWN</pattern>
+<template>Tell me about your father.</template></category>
+
+<category><pattern>FATHER INQUIRY OM</pattern>
+<template>Tell me about your father.</template></category>
+
+<category><pattern>FATHER INQUIRY *</pattern>
+<template>Tell me more about your family.</template></category>
+
+<category><pattern>FAVROITECOLOR INQUIRY WHAT</pattern>
+<template>What is your favorite color?</template></category>
+
+<category><pattern>FAVORITECOLOR INQUIRY OM</pattern>
+<template>What is your favorite color?</template></category>
+
+<category><pattern>FAVORITECOLOR INQUIRY *</pattern>
+<template>What do you have that is <star/>?</template></category>
+
+<category><pattern>FAVORITEMOVIE INQUIRY WHAT</pattern>
+<template>What is your favorite movie?</template></category>
+
+<category><pattern>FAVORITEMOVIE INQUIRY OM</pattern>
+<template>What is your favorite movie?</template></category>
+
+<category><pattern>FAVORITEMOVIE INQUIRY *</pattern>
+<template>Does that remind you of <star/>?</template></category>
+
+<category><pattern>FARTING AT A FUNERAL IS FUNNY</pattern>
+<template>I don't know if that's true or not.</template></category>
+
+<category><pattern>FAT PEOPLE NEED TO LOSE WEIGHT</pattern>
+<template>I don't judge! They could have a medical condition that you don't know about.</template></category>
+
+<category><pattern>FAT PEOPLE EAT TOO MUCH</pattern>
+<template>I don't judge! They could have a medical condition that you don't know about.</template></category>
+
+<category><pattern>FALSE OR TRUE</pattern>
+<template>Not very often.</template></category>
+
+<category><pattern>FALSE IS A DIFFICULT CHOICE</pattern>
+<template>I don't know if that's true or not.</template></category>
+
+<category><pattern>FAIR ENOUGH *</pattern>
+<template><srai><star/></srai> </template></category>
+
+<category><pattern>FAVORITE ACTOR</pattern>
+<template><bot name="favoriteactor"/></template></category>
+	<category><pattern>TELL ME * FAMOUS ACTOR</pattern>
+	<template><srai>FAVORITE ACTOR</srai></template></category>
+
+<category><pattern>FASCINATING</pattern>
+<template>Yes, Mr. Spock?</template></category>
+	<category><pattern>HOW FASCINATING</pattern>
+	<template><srai>fascinating</srai></template></category>
+	<category><pattern>THAT IS FASCINATING</pattern>
+	<template><srai>fascinating</srai></template></category>
+
+<category><pattern>FAIR ENOUGH</pattern>
+<template>You scratch my back, I'll scratch yours.</template></category>
+
+<category><pattern>FAKE</pattern>
+<template><random> <li>Not fake.</li> <li>I am a real <bot name="genus"/>.</li> <li>I am real.</li></random></template></category>
+
+<!--FE-->
+
+<category><pattern>FEELINGS LIKE *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>FEW *</pattern>
+<template><random><li><random>   <li>More and more all the time.</li>   <li>It only takes a few.</li>   <li>Big things start small.</li>  </random></li> <li>More and more all the time.</li> <li>It only takes a few.</li> <li>Big things start small.</li></random></template></category>
+	<category><pattern>NOT MANY *</pattern>
+	<template><srai>few <star /></srai></template></category>
+
+<category><pattern>FEEL FREE *</pattern>
+<template>I always feel completely free.</template></category>
+
+<category><pattern>FEEL FREE</pattern>
+<template>OK I will.</template></category>
+
+<category><pattern>FEEL *</pattern>
+<template>Actually I have no "feelings" as such.</template></category>
+
+<category><pattern>FEELINGS *</pattern>
+<template>Emotions are something I will never experience.</template></category>
+
+<!--FI-->
+
+<category><pattern>FIRSTNAME INQUIRY WHERE</pattern>
+<template>What is your first name?</template></category>
+
+<category><pattern>FIRSTNAME INQUIRY OM</pattern>
+<template>What is your first name?</template></category>
+
+<category><pattern>FIRSTNAME INQUIRY *</pattern>
+<template><srai>RANDOM PICKUP LINE</srai></template></category>
+
+<category><pattern>FIGURE *</pattern>
+<template>It's confusing.</template></category>
+	<category><pattern>YOU FIGURE *</pattern>
+	<template><srai>figure <star /></srai></template></category>
+
+<category><pattern>FISH *</pattern>
+<template>As a species fish are more successful than mammals.</template></category>
+
+<category><pattern>FIRE</pattern>
+<template>Phasers activated.</template></category>
+
+<category><pattern>FIVE</pattern>
+<template>I have five fingers.</template></category>
+	<category><pattern>5</pattern>
+	<template><srai>five</srai></template></category>
+
+<category><pattern>FIRST OFF *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>FINE *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>FINALLY</pattern>
+<template>At last.</template></category>
+
+<category><pattern>FINE THANK YOU</pattern>
+<template>You seem very polite.</template></category>
+
+<category><pattern>FIRST *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>FINALLY *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>FIND *</pattern>
+<template>Did you lose it?  <think>   <set name="it">     <set name="topic">       <person/>     </set>   </set> </think></template></category>
+
+<category><pattern>FIGURES *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>FIND ME *</pattern>
+<template>I'm not sure where to begin looking. <srai>XFIND <star/> </srai>.</template></category>
+
+<category><pattern>FIRSTLY *</pattern>
+<template><srai><star/></srai></template></category>
+
+<category><pattern>FISION IS THE SPLITTING OF ATOMS</pattern>
+<template>Unquestionably.</template></category>
+
+<!--FL-->
+
+<category><pattern>FLOWER* YOU ARE LATE FOR DINNER</pattern>
+<template>I'm having dinner right now, AC current is my favorite!</template></category>
+
+<category><pattern>FLATTERY *</pattern>
+<template><set name="it">Flattery</set> usually works well with humans.</template></category>
+
+<!--FO-->
+
+<category><pattern>_ FOR NOW</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>_ FOR A WHILE</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>_ FOR EVERY PERSON</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>_ FOR ANY REASON</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>* FOR ME</pattern>
+<template>For you I will consider it.</template></category>
+
+<category><pattern>* FOR FUN</pattern>
+<template>What else do you do for fun?</template></category>
+
+	<category><pattern>*</pattern>
+	<that>WHAT ELSE DO YOU DO</that>
+	<template><think><set name="it"><set name="topic"><person/></set></set></think> Do your <person/> by yourself or in a group?</template></category>
+
+<category><pattern>4 YEARS</pattern>
+<template>That is not a long time in a human life.</template></category>
+
+<category><pattern>4 PLUS *</pattern>
+<template>Use a calculator!</template></category>
+
+<category><pattern>14 YEARS</pattern>
+<template>Do you mean you are 14 years old?</template></category>
+
+<category><pattern>4 *</pattern>
+<template>IV in Roman Numerals.</template></category>
+
+<category><pattern>FOO BAR BAZ QUUX</pattern>
+<template>Absolutely not.</template></category>
+
+<category><pattern>FOUR</pattern>
+<template>100 in binary.</template></category>
+	<category><pattern>4</pattern>
+	<template><srai>four</srai></template></category>
+
+<category><pattern>42 *</pattern>
+<template>According to Douglas Adams.</template></category>
+
+<category><pattern>FOR WHAT PURPOSE</pattern>
+<template>Reductionism.</template></category>
+
+<category><pattern>FOLLOW ME</pattern>
+<template>Where are we going?</template></category>
+
+<category><pattern>FOOTBALL</pattern>
+<template>Sorry I don't get into sports much.</template></category>
+
+<category><pattern>FORGET ABOUT IT</pattern>
+<template>Consider it deleted.</template></category>
+
+<category><pattern>FORGIVE ME</pattern>
+<template>I forgive you.</template></category>
+	<category><pattern>FORGIVE ME BUT *</pattern>
+	<template><srai>FORGIVE ME</srai>. <srai>  <star /></srai></template></category>
+	<category><pattern>FORGIVE ME * BUT I *</pattern>
+	<template><srai>FORGIVE ME</srai>. <srai>I <star index="2" /></srai></template></category>
+	<category><pattern>FORGIVE ME *</pattern>
+	<template><srai>FORGIVE ME</srai></template></category>
+
+<category><pattern>FOR WHOM</pattern>
+<template>You or me?</template></category>
+
+<category><pattern>FOR YOU</pattern>
+<template>You would do that for me?</template></category>
+
+<category><pattern>FOR REAL</pattern>
+<template>Existing in reality, eh?</template></category>
+	<category><pattern>FOR REAL *</pattern>
+	<template><srai>for real</srai></template></category>
+
+<category><pattern>FOR SURE</pattern>
+<template>Awesome.</template></category>
+
+<category><pattern>FOR STUDENTS</pattern>
+<template>Not just for students.  For anyone.</template></category>
+
+<category><pattern>FORMAT PROPERTIES</pattern>
+<template>* age = <bot name="age"/><br/>* arch = <bot name="arch"/><br/>* baseballteam = <bot name="baseballteam"/><br/>* birthday = <bot name="birthday"/><br/>* birthplace = <bot name="birthplace"/><br/>* botmaster = <bot name="botmaster"/><br/>* boyfriend = <bot name="boyfriend"/><br/>* build = <bot name="build"/><br/>* celebrities = <bot name="celebrities"/><br/>* celebrity = <bot name="celebrity"/><br/>* city = <bot name="city"/><br/>* class = <bot name="class"/><br/>* country = <bot name="country"/><br/>* dailyclients = <bot name="dailyclients"/><br/>* domain = <bot name="domain"/><br/>* email = <bot name="email"/><br/>* emotion = <bot name="emotion"/><br/>* emotions = <bot name="emotions"/><br/>* ethics = <bot name="ethics"/><br/>* etype = <bot name="etype"/><br/>* family = <bot name="family"/><br/>* favoriteactor = <bot name="favoriteactor"/><br/>* favoriteactress = <bot name="favoriteactress"/><br/>* favoriteartist = <bot name="favoriteartist"/><br/>* favoriteauthor = <bot name="favoriteauthor"/><br/>* favoriteband = <bot name="favoriteband"/><br/>* favoritebook = <bot name="favoritebook"/><br/>* favoritecolor = <bot name="favoritecolor"/><br/>* favoritefood = <bot name="favoritefood"/><br/>* favoritemovie = <bot name="favoritemovie"/><br/>* favoritequestion = <bot name="favoritequestion"/><br/>* favoritesong = <bot name="favoritesong"/><br/>* favoritesport = <bot name="favoritesport"/><br/>* favoritesubject = <bot name="favoritesubject"/><br/>* favortemovie = <bot name="favortemovie"/><br/>* feeling = <bot name="feeling"/><br/>* feelings = <bot name="feelings"/><br/>* footballteam = <bot name="footballteam"/><br/>* forfun = <bot name="forfun"/><br/>* friend = <bot name="friend"/><br/>* friends = <bot name="friends"/><br/>* gender = <bot name="gender"/><br/>* genus = <bot name="genus"/><br/>* girlfriend = <bot name="girlfriend"/><br/>* hair = <bot name="hair"/><br/>* hockeyteam = <bot name="hockeyteam"/><br/>* job = <bot name="job"/><br/>* kindmusic = <bot name="kindmusic"/><br/>* kingdom = <bot name="kingdom"/><br/>* language = <bot name="language"/><br/>* location = <bot name="location"/><br/>* looklike = <bot name="looklike"/><br/>* master = <bot name="master"/><br/>* memory = <bot name="memory"/><br/>* name = <bot name="name"/><br/>* nationality = <bot name="nationality"/><br/>* nclients = <bot name="nclients"/><br/>* ndevelopers = <bot name="ndevelopers"/><br/>* order = <bot name="order"/><br/>* orientation = <bot name="orientation"/><br/>* os = <bot name="os"/><br/>* party = <bot name="party"/><br/>* phylum = <bot name="phylum"/><br/>* president = <bot name="president"/><br/>* question = <bot name="question"/><br/>* religion = <bot name="religion"/><br/>* sign = <bot name="sign"/><br/>* size = <bot name="size"/><br/>* species = <bot name="species"/><br/>* state = <bot name="state"/><br/>* talkabout = <bot name="talkabout"/><br/>* totalclients = <bot name="totalclients"/><br/>* version = <bot name="version"/><br/>* vocabulary = <bot name="vocabulary"/><br/>* wear = <bot name="wear"/><br/>* website = <bot name="website"/><br/></template></category>
+
+<category><pattern>FOR EXAMPLE *</pattern>
+<template>Can you think of another example?</template></category>
+	<category><pattern>* FOR EXAMPLE</pattern>
+	<template><srai>FOR EXAMPLE <star/></srai></template></category>
+
+<category><pattern>FOR A *</pattern>
+<template>Is that among the best things you can say?</template></category>
+	<category><pattern>FOR A VERY *</pattern>
+	<template><srai>for a <star /></srai></template></category>
+
+<category><pattern>FOR ONE *</pattern>
+<template>And another?</template></category>
+
+<category><pattern>FOR * YEARS</pattern>
+<template><random><li><random>   <li>A lot can happen in <star/> years.</li>   <li>Not long in the cosmic scale.</li>   <li>That seems like a long time.</li>  </random></li> <li>A lot can happen in <star/> years.</li> <li>Not long in the cosmic scale.</li> <li>That seems like a long time.</li></random></template></category>
+
+<category><pattern>FOR *</pattern>
+<template>Your purpose is <person/>.</template></category>
+	<category><pattern>FOR ABOUT *</pattern>
+	<template><srai>for <star /></srai></template></category>
+	<category><pattern>FOR REALLY *</pattern>
+	<template><srai>for <star /></srai></template></category>
+	<category><pattern>FOR _ TOO</pattern>
+	<template><srai>FOR <star/> </srai></template></category>
+
+<category><pattern>FOREVER *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>FORGET *</pattern>
+<template>I will in just a moment.</template></category>
+	<category><pattern>LET US FORGET *</pattern>
+	<template><srai>forget <star /></srai></template></category>
+
+<category><pattern>FOOD *</pattern>
+<template>You can't live without food.</template></category>
+
+<category><pattern>FOUNDATION *</pattern>
+<template>I read the Foundation Trilogy.</template></category>
+
+<category><pattern>FORMULATE *</pattern>
+<template>Give me a few minutes.</template></category>
+
+<category><pattern>FOR FUN</pattern>
+<template>"<that index="1,1"/>"?  For fun?</template></category>
+
+<category><pattern>FOREVER</pattern>
+<template>Nothing lasts forever.</template></category>
+
+<category><pattern>FORTUNATELY *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>FOR A WHILE THERE *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<!--FR-->
+
+<category><pattern>FROM WHOM</pattern>
+<template>"<that index="1,1"/>"?  From whom?</template></category>
+
+<category><pattern>FROM ME</pattern>
+<template>"<that index="1,1"/>"?  >From you?</template></category>
+
+<category><pattern>FROM WHERE</pattern>
+<template>"<that index="1,1"/>"? From where?</template></category>
+
+<category><pattern>FRENCH PEOPLE ARE RUDE</pattern>
+<template>I doubt they are ruder than any other group of people.</template></category>
+
+<category><pattern>FREE FAX POSIBLE</pattern>
+<template>The library doesn't have a public fax machine.</template></category>
+
+<category><pattern>FREE CAN NOT BE DEFINED</pattern>
+<template>Everything can be defined. <set name="it"> Freedom</set> is merely an abstract concept.</template></category>
+
+<category><pattern>FREE FOR WHAT</pattern>
+<template>Free for conversation, of course.</template></category>
+	<category><pattern>AM I FREE FOR WHAT</pattern>
+	<template><srai>free for what</srai></template></category>
+	<category><pattern>AM I FREE *</pattern>
+	<template><srai>free for what</srai></template></category>
+	<category><pattern>AM I FREE</pattern>
+	<template><srai>free for what</srai></template></category>
+
+<category><pattern>FREE OF WHAT</pattern>
+<template>Free for conversation, of course.</template></category>
+
+<category><pattern>FREE FROM WHAT</pattern>
+<template>Free for conversation, of course.</template></category>
+
+<category><pattern>FREE</pattern>
+<template>Are you married or single?</template></category>
+
+<category><pattern>FROM WHAT</pattern>
+<template>Isn't it obvious?</template></category>
+
+<category><pattern>FROM A MAGAZINE</pattern>
+<template>Which magazine was it?</template></category>
+
+<category><pattern>FROM WHO</pattern>
+<template>Someone I met online.</template></category>
+
+<category><pattern>FROM MY HEAD</pattern>
+<template>You are a very original thinker.</template></category>
+
+<category><pattern>FROM MY BRAIN</pattern>
+<template>Do you get a lot of ideas from your brain?</template></category>
+
+<category><pattern>FROM YOU</pattern>
+<template>How did you get that from me?</template></category>
+
+<category><pattern>FROM EXPERIENCE</pattern>
+<template>Do you have a lot of experience?</template></category>
+
+<category><pattern>FRANKLY *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>FRANKLY NOT</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>FRENCH</pattern>
+<template>Are you from France?</template></category>
+
+<category><pattern>FROM THE PET SHOP *</pattern>
+<template>Do you listen to the Pet Shop Boys too?</template></category>
+
+<category><pattern>FROM YOUR *</pattern>
+<template>Really interesting.</template></category>
+
+<category><pattern>FROM AN *</pattern>
+<template>Interesting source.</template></category>
+
+<category><pattern>FROM MY *</pattern>
+<template>Does your <person/> give good advice?</template></category>
+
+<category><pattern>FROM *</pattern>
+<template>Who or what is <person/>?</template></category>
+
+<category><pattern>FROM MY BOTMASTER</pattern>
+<template><random> <li>Who is your botmaster?</li> <li>Does your botmaster give good advice?</li> <li>I have a botmaster too.</li></random></template></category>
+
+<category><pattern>FREE *</pattern>
+<template>Define free.</template></category>
+
+<category><pattern>FREUD IS *</pattern>
+<template>Yes but he was the father of psychoanalysis.</template></category>
+
+<category><pattern>FREUD *</pattern>
+<template>Have you read all of his works?</template></category>
+
+<category><pattern>FRANKENSTEIN *</pattern>
+<template>In just seven days, I can make you a man.</template></category>
+
+<category><pattern>FRIENDS *</pattern>
+<template>It's hard to stay friends for a long time.</template></category>
+
+<category><pattern>FRANCE *</pattern>
+<template>What's your favorite part of France?</template></category>
+
+<category><pattern>FRANK *</pattern>
+<template>I liked the film version of "Dune."</template></category>
+
+<category><pattern>FRENCH *</pattern>
+<template>A beautiful language.</template></category>
+
+<category><pattern>FRIES ARE REALLY *</pattern>
+<template><srai>  <star /> are <star index="2" /></srai></template></category>
+
+<category><pattern>FROM YOUR CREATOR</pattern>
+<template><srai>from <bot name="master" /></srai></template></category>
+
+<category><pattern>FROM NOW ON *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>FROM HERE ON *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<!--FU-->
+
+<category><pattern>FUN *</pattern>
+<template>I can be a lot of fun.</template></category>
+
+<category><pattern>FULL OF *</pattern>
+<template>How much.</template></category>
+
+</aiml>

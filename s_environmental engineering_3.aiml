@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- ENVIRONMENTAL ENGINEERING -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>ENVIRONMENTAL ENGINEERING *</pattern> 
+	<template><think><set name="topic">ENVIRONMENTAL ENGINEERING</set></think><sr /></template></category>
+
+<category><pattern>ENVIRONMENTAL ENGINEERING</pattern>	
+	<template>For resources on environmental engineering check out the <a href=" http://guides.lib.uci.edu/engr_civil_env" target="_blank">Civil and Environmenal Engineering Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Interactions -->
+
+<category><pattern>ENVIRONMENTAL ENGINEERING</pattern>
+	<that>Extraterrestrial bases as a subject is included in the broader subjects of Civil Engineering and Environmental Engineering Would you like resource recommendations for civil engineering or environmental engineering_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+	and/or <a href=" http://uclibs.org/PID/113572" target="_blank">Environmental Sciences and Pollution Management</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/engr_civil_env" target="_blank">Civil and Environmental Engineering Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>	
+
+<category><pattern>ENVIRONMENTAL ENGINEERING</pattern>
+	<that>Space simulators as a subject is included in the broader subjects of Aerospace Engineering and Environmental Engineering Would you like resource recommendations for aerospace engineering or environmental engineering_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+	and/or <a href=" http://uclibs.org/PID/113572" target="_blank">Environmental Sciences and Pollution Management</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/engr_civil_env" target="_blank">Civil and Environmental Engineering Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>	
+
+<!-- Subject keywords-->
+
+<category><pattern>DWELLINGS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+			and/or <a href=" http://uclibs.org/PID/113572" target="_blank">Environmental Sciences and Pollution Management</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/engr_civil_env" target="_blank">Civil and Environmental Engineering Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>ANIMAL HOUSING</pattern>
+<template><srai>ANIMAL HOUSING</srai></template></category>
+<category><pattern>APARTMENT HOUSES</pattern>
+<template><srai>ANIMAL HOUSING</srai></template></category>
+<category><pattern>BUILDINGS</pattern>
+<template><srai>ANIMAL HOUSING</srai></template></category>
+<category><pattern>ELECTRIC POWER PLANTS</pattern>
+<template><srai>ANIMAL HOUSING</srai></template></category>
+<category><pattern>ENVIRONMENTAL AUDITING</pattern>
+<template><srai>ANIMAL HOUSING</srai></template></category>
+<category><pattern>ENVIRONMENTAL GEOTECHNOLOGY</pattern>
+<template><srai>ANIMAL HOUSING</srai></template></category>
+<category><pattern>ENVIRONMENTAL IMPACT CONSULTANTS</pattern>
+<template><srai>ANIMAL HOUSING</srai></template></category>
+<category><pattern>ENVIRONMENTAL IMPACT STATEMENTS</pattern>
+<template><srai>ANIMAL HOUSING</srai></template></category>
+<category><pattern>ENVIRONMENTAL MONITORING</pattern>
+<template><srai>ANIMAL HOUSING</srai></template></category>
+<category><pattern>ENVIRONMENTAL TESTING</pattern>
+<template><srai>ANIMAL HOUSING</srai></template></category>
+<category><pattern>GREENHOUSES</pattern>
+<template><srai>ANIMAL HOUSING</srai></template></category>
+<category><pattern>GROWTH CABINETS AND ROOMS</pattern>
+<template><srai>ANIMAL HOUSING</srai></template></category>
+<category><pattern>HOSPITALS</pattern>
+<template><srai>ANIMAL HOUSING</srai></template></category>
+<category><pattern>HUMAN ENGINEERING</pattern>
+<template><srai>ANIMAL HOUSING</srai></template></category>
+<category><pattern>LIFE SUPPORT SYSTEMS</pattern>
+<template><srai>ANIMAL HOUSING</srai></template></category>
+<category><pattern>NOISE CONTROL</pattern>
+<template><srai>ANIMAL HOUSING</srai></template></category>
+<category><pattern>OPERATING ROOMS</pattern>
+<template><srai>ANIMAL HOUSING</srai></template></category>
+<category><pattern>PETROLEUM CHEMICALS INDUSTRY</pattern> 
+<template><srai>ANIMAL HOUSING</srai></template></category>
+<category><pattern>PHYTOTRON</pattern>
+<template><srai>ANIMAL HOUSING</srai></template></category>
+<category><pattern>PLANETS</pattern>
+<template><srai>ANIMAL HOUSING</srai></template></category>
+<category><pattern>WINERIES</pattern>
+<template><srai>ANIMAL HOUSING</srai></template></category>
+<category><pattern>WORK ENVIRONMENT</pattern>
+<template><srai>ANIMAL HOUSING</srai></template></category>
+
+</aiml>

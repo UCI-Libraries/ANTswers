@@ -1,0 +1,2137 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Printing, Copiers, Scanners, wireless printing, recharge, printer/copy card -->
+<!-- -->
+<!-- START Printing -->
+
+<category><pattern>PRINTER GENERAL</pattern>
+<template>That's a pretty general question, can you be more specific? If you want to know everything about our printers, say Tell Me Everything About Printers.</template></category>
+	<category><pattern>PRINT</pattern>
+	<template><srai>PRINTER GENERAL</srai></template></category>
+	<category><pattern>PRINTER</pattern>
+	<template><srai>PRINTER GENERAL</srai></template></category>
+	<category><pattern>PRINTING</pattern>
+	<template><srai>PRINTER GENERAL</srai></template></category>
+
+		<category><pattern>HOW DO I USE THEM</pattern>
+		<that>That s a pretty general question can you be more specific If you want to know everything about our printers say Tell Me Everything About Printers_</that>
+		<template><srai>USE PRINTER</srai></template></category>
+		
+<category><pattern>TELL ME EVERYTHING ABOUT PRINTERS</pattern>
+<template>Printers require the use of your UCI I.D. or a guest copy/print card. It is $0.12 per page to print, including wireless printing. Color printing is $0.50 per page, except at GML where it is $0.25 per page. We have a great guide on <a href=" http://www.lib.uci.edu/services/docs/how-to-print.pdf" target="_blank">How to Print.</a> Need to find a printer: <a href=" http://www.lib.uci.edu/printing-copying?tab=2" target="_blank">Printing and Copying Locations</a></template></category>
+	<category><pattern>I NEED TO USE THE PRINTER</pattern>
+	<template><srai>TELL ME EVERYTHING ABOUT PRINTERS</srai></template></category>
+
+<category><pattern>THE PRINTER IS PRINTING ON BOTH SIDES *</pattern>
+<template>Once you select file, print...check the preferences to make sure double sided printing is not selected. If it is selected, un-check the box for single sided printing.</template></category>
+
+<category><pattern>PRINT ID</pattern>
+<template>Print job User ID and Password are set by the user and we are unable to look up what was used when the job was sent. You will have to resend the print job, use an easy to remember User ID and Password.</template></category>
+	<category><pattern>* REMEMBER MY PRINTING USER ID AND PASSWORD *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>REMEMBER MY PRINTING USER ID AND PASSWORD *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* REMEMBER MY PRINTING USER ID AND PASSWORD</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>REMEMBER MY PRINTING USER ID AND PASSWORD</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* REMEMBER MY PRINTER USER ID AND PASSWORD *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>REMEMBER MY PRINTER USER ID AND PASSWORD *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* REMEMBER MY PRINTER USER ID AND PASSWORD</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>REMEMBER MY PRINTER USER ID AND PASSWORD</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* REMEMBER MY PRINT JOB USER ID AND PASSWORD *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>REMEMBER MY PRINT JOB USER ID AND PASSWORD *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* REMEMBER MY PRINT JOB USER ID AND PASSWORD</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>REMEMBER MY PRINT JOB USER ID AND PASSWORD</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* REMEMBER MY PRINTING PASSWORD AND USER ID *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>REMEMBER MY PRINTING PASSWORD AND USER ID *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* REMEMBER MY PRINTING PASSWORD AND USER ID</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>REMEMBER MY PRINTING PASSWORD AND USER ID</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* REMEMBER MY PRINTER PASSWORD AND USER ID *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>REMEMBER MY PRINTER PASSWORD AND USER ID *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* REMEMBER MY PRINTER PASSWORD AND USER ID</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>REMEMBER MY PRINTER PASSWORD AND USER ID</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* REMEMBER MY PRINT PASSWORD AND USER ID *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>REMEMBER MY PRINT PASSWORD AND USER ID *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* REMEMBER MY PRINT PASSWORD AND USER ID</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>REMEMBER MY PRINT PASSWORD AND USER ID</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* FORGOT MY PRINTING USER ID AND PASSWORD *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>FORGOT MY PRINTING USER ID AND PASSWORD *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* FORGOT MY PRINTING USER ID AND PASSWORD</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>FORGOT MY PRINTING USER ID AND PASSWORD</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* FORGOT MY PRINTER USER ID AND PASSWORD *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>FORGOT MY PRINTER USER ID AND PASSWORD *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* FORGOT MY PRINTER USER ID AND PASSWORD</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>FORGOT MY PRINTER USER ID AND PASSWORD</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* FORGOT MY PRINT JOB USER ID AND PASSWORD *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>FORGOT MY PRINT JOB USER ID AND PASSWORD *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* FORGOT MY PRINT JOB USER ID AND PASSWORD</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>FORGOT MY PRINT JOB USER ID AND PASSWORD</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* FORGOT MY PRINTING PASSWORD AND USER ID *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>FORGOT MY PRINTING PASSWORD AND USER ID *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* FORGOT MY PRINTING PASSWORD AND USER ID</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>FORGOT MY PRINTING PASSWORD AND USER ID</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* FORGOT MY PRINTER PASSWORD AND USER ID *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>FORGOT MY PRINTER PASSWORD AND USER ID *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* FORGOT MY PRINTER PASSWORD AND USER ID</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>FORGOT MY PRINTER PASSWORD AND USER ID</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* FORGOT MY PRINT PASSWORD AND USER ID *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>FORGOT MY PRINT PASSWORD AND USER ID *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* FORGOT MY PRINT PASSWORD AND USER ID</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>FORGOT MY PRINT PASSWORD AND USER ID</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* FORGOT MY PRINT PASSWORD *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>FORGOT MY PRINT PASSWORD *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* FORGOT MY PRINT PASSWORD</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>FORGOT MY PRINT PASSWORD</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* FORGOT MY PRINT USER ID *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>FORGOT MY PRINT USER ID *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* FORGOT MY PRINT USER ID</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>FORGOT MY PRINT USER ID</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* REMEMBER MY PRINT PASSWORD *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>REMEMBER MY PRINT PASSWORD *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* REMEMBER MY PRINT PASSWORD</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>REMEMBER MY PRINT PASSWORD</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* REMEMBER MY PRINT USER ID *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>REMEMBER MY PRINT USER ID *</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>* REMEMBER MY PRINT USER ID</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>REMEMBER MY PRINT USER ID</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	<category><pattern>I NEED A PRINTER ID</pattern>
+	<template><srai>PRINT ID</srai></template></category>
+	
+<category><pattern>* PASSWORD FOR PRINTING</pattern>
+<template>Print job User ID and Password are set by the user. Just make sure it is easy to remember!</template></category>
+
+<category><pattern>PRINTING HELP</pattern>
+<template>If you need help printing please visit the Langson Library reference desk, one of our check out desks, or copy service desks.</template></category>
+	<category><pattern>* GET PRINTING HELP *</pattern>
+	<template><srai>PRINTING HELP</srai></template></category>
+	<category><pattern>GET PRINTING HELP *</pattern>
+	<template><srai>PRINTING HELP</srai></template></category>
+	<category><pattern>* GET PRINTING HELP</pattern>
+	<template><srai>PRINTING HELP</srai></template></category>
+	<category><pattern>GET PRINTING HELP</pattern>
+	<template><srai>PRINTING HELP</srai></template></category>
+	<category><pattern>* HELP WITH PRINTING *</pattern>
+	<template><srai>PRINTING HELP</srai></template></category>
+	<category><pattern>HELP WITH PRINTING *</pattern>
+	<template><srai>PRINTING HELP</srai></template></category>
+	<category><pattern>* HELP WITH PRINTING</pattern>
+	<template><srai>PRINTING HELP</srai></template></category>
+	<category><pattern>HELP WITH PRINTING</pattern>
+	<template><srai>PRINTING HELP</srai></template></category>
+	<category><pattern>* HELP WITH PRINTERS *</pattern>
+	<template><srai>PRINTING HELP</srai></template></category>
+	<category><pattern>HELP WITH PRINTERS *</pattern>
+	<template><srai>PRINTING HELP</srai></template></category>
+	<category><pattern>* HELP WITH PRINTERS</pattern>
+	<template><srai>PRINTING HELP</srai></template></category>
+	<category><pattern>HELP WITH PRINTERS</pattern>
+	<template><srai>PRINTING HELP</srai></template></category>
+	<category><pattern>* HELP WITH PRINTER *</pattern>
+	<template><srai>PRINTING HELP</srai></template></category>
+	<category><pattern>HELP WITH PRINTER *</pattern>
+	<template><srai>PRINTING HELP</srai></template></category>
+	<category><pattern>* HELP WITH PRINTER</pattern>
+	<template><srai>PRINTING HELP</srai></template></category>
+	<category><pattern>HELP WITH PRINTER</pattern>
+	<template><srai>PRINTING HELP</srai></template></category>
+	<category><pattern>* GET PRINTER HELP *</pattern>
+	<template><srai>PRINTING HELP</srai></template></category>
+	<category><pattern>GET PRINTER HELP *</pattern>
+	<template><srai>PRINTING HELP</srai></template></category>
+	<category><pattern>* GET PRINTER HELP</pattern>
+	<template><srai>PRINTING HELP</srai></template></category>
+	<category><pattern>GET PRINTER HELP</pattern>
+	<template><srai>PRINTING HELP</srai></template></category>
+	<category><pattern>* HELP PRINTING</pattern>
+	<template><srai>PRINTING HELP</srai></template></category>
+	<category><pattern>* HELP ME PRINT</pattern>
+	<template><srai>PRINTING HELP</srai></template></category>
+
+<category><pattern>LIBRARY PRINTERS</pattern>
+<template>Yes, we do! Need to find a printer: <a href=" http://www.lib.uci.edu/printing-copying?tab=2" target="_blank">Printing and Copying Locations</a></template></category>
+	<category><pattern>* DOES THE * HAVE PRINTERS *</pattern>
+	<template><srai>LIBRARY PRINTERS</srai></template></category>
+	<category><pattern>DOES THE * HAVE PRINTERS *</pattern>
+	<template><srai>LIBRARY PRINTERS</srai></template></category>
+	<category><pattern>* DOES THE * HAVE PRINTERS</pattern>
+	<template><srai>LIBRARY PRINTERS</srai></template></category>
+	<category><pattern>DOES THE * HAVE PRINTERS</pattern>
+	<template><srai>LIBRARY PRINTERS</srai></template></category>
+	<category><pattern>* OFFER COLOR PRINTING</pattern>
+	<template><srai>LIBRARY PRINTERS</srai></template></category>
+
+<category><pattern>ARE THERE PRINTERS</pattern>
+<template>Yes, there are! Need to find a printer: <a href=" http://www.lib.uci.edu/printing-copying?tab=2" target="_blank">Printing and Copying Locations</a></template></category>
+	<category><pattern>* ARE THERE PRINTERS *</pattern>
+	<template><srai>ARE THERE PRINTERS</srai></template></category>
+	<category><pattern>ARE THERE PRINTERS *</pattern>
+	<template><srai>ARE THERE PRINTERS</srai></template></category>
+	<category><pattern>* ARE THERE PRINTERS </pattern>
+	<template><srai>ARE THERE PRINTERS</srai></template></category>
+
+<category><pattern>PRINTER COST</pattern>
+<template>Printers require the use of your UCI I.D. or a guest copy/print card. It is $0.12 per page to print, including wireless printing. Color printing is $0.50 per page, except at GML where it is $0.25 per page.</template></category>
+	<category><pattern>* COST TO PRINT *</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>COST TO PRINT *</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>* COST TO PRINT</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>COST TO PRINT</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>* PRINTING COSTS *</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>PRINTING COSTS *</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>* PRINTING COSTS</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>PRINTING COSTS</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>* PRINTING COST *</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>PRINTING COST *</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>* PRINTING COST</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>PRINTING COST</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>* MUCH TO PRINT *</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>MUCH TO PRINT *</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>* MUCH TO PRINT</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>MUCH TO PRINT</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>* MUCH IS TO PRINT *</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>MUCH IS TO PRINT *</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>* MUCH IS TO PRINT</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>MUCH IS TO PRINT</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>* MUCH TO PRINT IN COLOR *</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>MUCH TO PRINT IN COLOR *</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>* MUCH TO PRINT IN COLOR</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>MUCH TO PRINT IN COLOR</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>* MUCH IS COLOR PRINTING *</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>MUCH IS COLOR PRINTING *</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>* MUCH IS COLOR PRINTING</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>MUCH IS COLOR PRINTING</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>* MUCH IS PRINTING *</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>MUCH IS PRINTING *</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>* MUCH IS PRINTING</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>MUCH IS PRINTING</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>* PAY TO PRINT *</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>PAY TO PRINT *</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>* PAY TO PRINT</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>PAY TO PRINT</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>* HOW MUCH ARE THE PRINTERS *</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>HOW MUCH ARE THE PRINTERS *</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>* HOW MUCH ARE THE PRINTERS</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>HOW MUCH ARE THE PRINTERS</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>* PRINTER COSTS *</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>PRINTER COSTS *</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>* PRINTER COSTS</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>PRINTER COSTS</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>* PRINTER COST *</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>PRINTER COST *</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>* PRINTER COST</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>PRINTER COST</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>* MUCH IS COLOR PRINTING *</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>MUCH IS COLOR PRINTING *</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>* MUCH IS COLOR PRINTING</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>MUCH IS COLOR PRINTING</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>* MUCH IS IT TO COLOR PRINT *</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>MUCH IS IT TO COLOR PRINT *</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>* MUCH IS IT TO COLOR PRINT</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>MUCH IS IT TO COLOR PRINT</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>HOW MUCH IS IT TO PRINT</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	<category><pattern>HOW MUCH DOES IT COST TO PRINT</pattern>
+	<template><srai>PRINTER COST</srai></template></category>
+	
+<category><pattern>USE PRINTER</pattern>
+<template>We have a great guide on <a href=" http://www.lib.uci.edu/printing-copying-scanning" target="_blank">How to Print.</a></template></category>  
+	<category><pattern>* PRINT JOB *</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>PRINT JOB *</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>* PRINT JOB</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>PRINT JOB</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>* SEND SOMETHING TO THE PRINTER *</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>SEND SOMETHING TO THE PRINTER *</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>* SEND SOMETHING TO THE PRINTER</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>SEND SOMETHING TO THE PRINTER</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>* HOW DO I PRINT *</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>HOW DO I PRINT *</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>* HOW DO I PRINT</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>HOW DO I PRINT</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>* USE THE PRINTER *</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>USE THE PRINTER *</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>* USE THE PRINTER</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>USE THE PRINTER</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>* CAN I PRINT *</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>CAN I PRINT *</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>* CAN I PRINT</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>CAN I PRINT</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>* DO I USE THE PRINTER *</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>DO I USE THE PRINTER *</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>* DO I USE THE PRINTER</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>DO I USE THE PRINTER</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>* DO I USE THE PRINTERS *</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>DO I USE THE PRINTERS *</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>* DO I USE THE PRINTERS</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>DO I USE THE PRINTERS</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>* CAN I USE A PRINTER *</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>CAN I USE A PRINTER *</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>* CAN I USE A PRINTER</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>CAN I USE A PRINTER</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>HOW WOULD I GO ABOUT PRINTING</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>HOW TO PRINT IN THE LIBRARY</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>PRINTING IN THE LIBRARY</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>HOW TO PRINT</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>* HOW TO PRINT</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>* PRINT DOCUMENTS</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+	<category><pattern>* PRINTERS AT THE LIBRARY</pattern>
+	<template><srai>USE PRINTER</srai></template></category>
+
+<category><pattern>PRINTER LOCATION</pattern>
+<template>Need to find a printer: <a href=" http://www.lib.uci.edu/printing-copying?tab=2" target="_blank">Printing and Copying Locations</a></template></category>
+	<category><pattern>* WHERE CAN I PRINT *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>WHERE CAN I PRINT *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* WHERE CAN I PRINT</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>WHERE CAN I PRINT</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* WHERE CAN I COLOR PRINT *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>WHERE CAN I COLOR PRINT *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* WHERE CAN I COLOR PRINT</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>WHERE CAN I COLOR PRINT</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* WHERE CAN I PRINT IN COLOR *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>WHERE CAN I PRINT IN COLOR *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* WHERE CAN I PRINT IN COLOR</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>WHERE CAN I PRINT IN COLOR</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* PLACE I CAN PRINT *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>PLACE I CAN PRINT *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* PLACE I CAN PRINT</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>PLACE I CAN PRINT</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* PLACE I CAN COLOR PRINT *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>PLACE I CAN COLOR PRINT *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* PLACE I CAN COLOR PRINT</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>PLACE I CAN COLOR PRINT</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* PLACE I CAN PRINT IN COLOR *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>PLACE I CAN PRINT IN COLOR *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* PLACE I CAN PRINT IN COLOR</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>PLACE I CAN PRINT IN COLOR</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* DOES THE LIBRARY HAVE PRINTERS *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>DOES THE LIBRARY HAVE PRINTERS *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* DOES THE LIBRARY HAVE PRINTERS</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>DOES THE LIBRARY HAVE PRINTERS</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* LIBRARY HAVE COLOR PRINTERS *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* LIBRARY HAVE COLOR PRINTERS</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>LIBRARY HAVE COLOR PRINTERS *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>LIBRARY HAVE COLOR PRINTERS</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* WHERE IS THE PRINTER *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* WHERE IS THE PRINTER</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>WHERE IS THE PRINTER *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>WHERE IS THE PRINTER</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* WHERE ARE THE PRINTERS *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* WHERE ARE THE PRINTERS</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>WHERE ARE THE PRINTERS *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>WHERE ARE THE PRINTERS</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* WHERE IS THE COLOR PRINTER *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>WHERE IS THE COLOR PRINTER *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* WHERE IS THE COLOR PRINTER</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>WHERE IS THE COLOR PRINTER</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* WHERE CAN I FIND A PRINTER *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>WHERE CAN I FIND A PRINTER *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* WHERE CAN I FIND A PRINTER</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>WHERE CAN I FIND A PRINTER</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* WHERE CAN I FIND A COLOR PRINTER *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>WHERE CAN I FIND A COLOR PRINTER *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* WHERE CAN I FIND A COLOR PRINTER</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>WHERE CAN I FIND A COLOR PRINTER</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* PRINTER IN THE LIBRARY *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>PRINTER IN THE LIBRARY *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* PRINTER IN THE LIBRARY</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>PRINTER IN THE LIBRARY</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* COLOR PRINTER IN THE LIBRARY *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>COLOR PRINTER IN THE LIBRARY *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* COLOR PRINTER IN THE LIBRARY</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>COLOR PRINTER IN THE LIBRARY</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* PRINTERS LOCATED *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>PRINTERS LOCATED *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* PRINTERS LOCATED</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>PRINTERS LOCATED</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* PRINTER LOCATED *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>PRINTER LOCATED *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* PRINTER LOCATED</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>PRINTER LOCATED</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* COLOR PRINTER LOCATED *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>COLOR PRINTER LOCATED *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* COLOR PRINTER LOCATED</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>COLOR PRINTER LOCATED</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* COLOR PRINTERS LOCATED *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>COLOR PRINTERS LOCATED *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* COLOR PRINTERS LOCATED</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>COLOR PRINTERS LOCATED</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>WHERE IS THE PRINT RELEASE STATION</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>PRINT RELEASE STATION</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* PRINT RELEASE STATION</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>PRINT RELEASE STATION *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* PRINT RELEASE STATION *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>WHERE * A PRINTER</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>WHERE DO I PRINT</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>*FIND COLOR PRINTER</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>WHERE * COLOR PRINTER</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>PRINT IN AYALA</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>LOCATE PRINTER</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>_ WHERE IS PRINTER</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* PLACE TO PRINT *</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	<category><pattern>* PLACE TO PRINT</pattern>
+	<template><srai>PRINTER LOCATION</srai></template></category>
+	
+<category><pattern>BROKEN PRINTER</pattern>
+<template>If you are having an issue with a printer, please inform a library staff member at the reference desk, check out desk, or copy service desk.  Do not attempt to fix it yourself.</template></category>  
+	<category><pattern>* PRINTER DOESN'T WORK *</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>PRINTER DOESN'T WORK *</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>* PRINTER DOESN'T WORK</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>PRINTER DOESN'T WORK</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>* PRINTER DOES NOT WORK *</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>PRINTER DOES NOT WORK *</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>* PRINTER DOES NOT WORK</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>PRINTER DOES NOT WORK</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>* PRINTER ISN'T WORKING *</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>PRINTER ISN'T WORKING *</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>* PRINTER ISN'T WORKING</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>PRINTER ISN'T WORKING</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>* PRINTER IS NOT WORKING *</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>PRINTER IS NOT WORKING *</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>* PRINTER IS NOT WORKING</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>PRINTER IS NOT WORKING</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>* PRINTER IS BROKEN *</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>PRINTER IS BROKEN *</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>* PRINTER IS BROKEN</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>PRINTER IS BROKEN</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>* BROKEN PRINTER *</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>BROKEN PRINTER *</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>* BROKEN PRINTER</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>BROKEN PRINTER</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>* PRINTER DOES NOT WORK *</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>PRINTER DOES NOT WORK *</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>* PRINTER DOES NOT WORK</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>PRINTER DOES NOT WORK</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>* FIX THE PRINTER *</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>FIX THE PRINTER *</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>* FIX THE PRINTER</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+	<category><pattern>FIX THE PRINTER</pattern>
+	<template><srai>BROKEN PRINTER</srai></template></category>
+
+<!-- end printing -->
+
+<!-- start scanning -->
+
+<category><pattern>SCAN A BOOK</pattern>
+<template>There should be directions on how to use the scanner near it, if the directions aren't there please contact a staff member at one of our desks.</template></category>
+	<category><pattern>* SCAN A BOOK</pattern>
+	<template><srai>SCAN A BOOK</srai></template></category>
+	<category><pattern>SCAN A BOOK *</pattern>
+	<template><srai>SCAN A BOOK</srai></template></category>
+	<category><pattern>* SCAN A BOOK *</pattern>
+	<template><srai>SCAN A BOOK</srai></template></category>
+	<category><pattern>HP SCANJET G3110</pattern>
+	<template><srai>SCAN A BOOK</srai></template></category>
+
+<category><pattern>SCANNER GENERAL</pattern>
+<template>That's a pretty general question, can you be more specific? If you want to know everything about our scanners, say Tell Me Everything About Scanners.</template></category>
+	<category><pattern>SCANNERS</pattern>
+	<template><srai>SCANNER GENERAL</srai></template></category>
+	<category><pattern>SCANNER</pattern>
+	<template><srai>SCANNER GENERAL</srai></template></category>
+	<category><pattern>SCANNING</pattern>
+	<template><srai>SCANNER GENERAL</srai></template></category>
+
+<category><pattern>TELL ME * ABOUT SCANNERS</pattern>
+<template>Scanners are free to use by anyone, the policy is first-come first-served. Need to find a scanner: <a href=" http://www.lib.uci.edu/printing-copying?tab=2" target="_blank">Printing and Copying Locations</a></template></category>
+
+<category><pattern>SCANNER COST</pattern>
+<template>Scanners are free to use by anyone, the policy is first-come first-served.</template></category> 
+	<category><pattern>* MUCH IS IT TO SCAN *</pattern>
+	<template><srai>SCANNER COST</srai></template></category>
+	<category><pattern>MUCH IS IT TO SCAN *</pattern>
+	<template><srai>SCANNER COST</srai></template></category>
+	<category><pattern>* MUCH IS IT TO SCAN</pattern>
+	<template><srai>SCANNER COST</srai></template></category>
+	<category><pattern>* COST TO SCAN *</pattern>
+	<template><srai>SCANNER COST</srai></template></category>
+	<category><pattern>COST TO SCAN *</pattern>
+	<template><srai>SCANNER COST</srai></template></category>
+	<category><pattern>* COST TO SCAN</pattern>
+	<template><srai>SCANNER COST</srai></template></category>
+	<category><pattern>COST TO SCAN</pattern>
+	<template><srai>SCANNER COST</srai></template></category>
+	<category><pattern>* MUCH ARE THE SCANNERS *</pattern>
+	<template><srai>SCANNER COST</srai></template></category>
+	<category><pattern>MUCH ARE THE SCANNERS *</pattern>
+	<template><srai>SCANNER COST</srai></template></category>
+	<category><pattern>* MUCH ARE THE SCANNERS</pattern>
+	<template><srai>SCANNER COST</srai></template></category>
+	<category><pattern>* SCANNER COST *</pattern>
+	<template><srai>SCANNER COST</srai></template></category>
+	<category><pattern>* SCANNER COST</pattern>
+	<template><srai>SCANNER COST</srai></template></category>
+	<category><pattern>SCANNER COST *</pattern>
+	<template><srai>SCANNER COST</srai></template></category>
+	<category><pattern>SCANNER COST</pattern>
+	<template><srai>SCANNER COST</srai></template></category>
+	<category><pattern>* SCANNERS COST *</pattern>
+	<template><srai>SCANNER COST</srai></template></category>
+	<category><pattern>* SCANNERS COST</pattern>
+	<template><srai>SCANNER COST</srai></template></category>
+	<category><pattern>SCANNERS COST *</pattern>
+	<template><srai>SCANNER COST</srai></template></category>
+	<category><pattern>SCANNERS COST</pattern>
+	<template><srai>SCANNER COST</srai></template></category>
+
+<category><pattern>USE SCANNER</pattern>
+<template>Near each scanner in the library are detailed instructions on how to use the equipment.</template></category>  
+	<category><pattern>* CAN I SCAN *</pattern>
+	<template><srai>USE SCANNER</srai></template></category>
+	<category><pattern>CAN I SCAN *</pattern>
+	<template><srai>USE SCANNER</srai></template></category>
+	<category><pattern>* CAN I SCAN</pattern>
+	<template><srai>USE SCANNER</srai></template></category>
+	<category><pattern>CAN I SCAN</pattern>
+	<template><srai>USE SCANNER</srai></template></category>
+	<category><pattern>* HOW DO I SCAN *</pattern>
+	<template><srai>USE SCANNER</srai></template></category>
+	<category><pattern>HOW DO I SCAN *</pattern>
+	<template><srai>USE SCANNER</srai></template></category>
+	<category><pattern>* HOW DO I SCAN</pattern>
+	<template><srai>USE SCANNER</srai></template></category>
+	<category><pattern>HOW DO I SCAN</pattern>
+	<template><srai>USE SCANNER</srai></template></category>
+	<category><pattern>* USE THE SCANNER *</pattern>
+	<template><srai>USE SCANNER</srai></template></category>
+	<category><pattern>USE THE SCANNER *</pattern>
+	<template><srai>USE SCANNER</srai></template></category>
+	<category><pattern>* USE THE SCANNER</pattern>
+	<template><srai>USE SCANNER</srai></template></category>
+	<category><pattern>USE THE SCANNER</pattern>
+	<template><srai>USE SCANNER</srai></template></category>
+	<category><pattern>* DOES THE SCANNER WORK *</pattern>
+	<template><srai>USE SCANNER</srai></template></category>
+	<category><pattern>DOES THE SCANNER WORK *</pattern>
+	<template><srai>USE SCANNER</srai></template></category>
+	<category><pattern>* DOES THE SCANNER WORK</pattern>
+	<template><srai>USE SCANNER</srai></template></category>
+	<category><pattern>DOES THE SCANNER WORK</pattern>
+	<template><srai>USE SCANNER</srai></template></category>
+	<category><pattern>* SCAN PAGES *</pattern>
+	<template><srai>USE SCANNER</srai></template></category>
+
+<category><pattern>LIBRARY SCANNERS</pattern>
+<template>Yes, we do! Need to find a scanner: <a href=" http://www.lib.uci.edu/printing-copying?tab=2" target="_blank">Printing and Copying Locations</a></template></category>
+	<category><pattern>* DOES THE LIBRARY HAVE SCANNERS *</pattern>
+	<template><srai>LIBRARY SCANNERS</srai></template></category>
+	<category><pattern>DOES THE LIBRARY HAVE SCANNERS *</pattern>
+	<template><srai>LIBRARY SCANNERS</srai></template></category>
+	<category><pattern>* DOES THE LIBRARY HAVE SCANNERS</pattern>
+	<template><srai>LIBRARY SCANNERS</srai></template></category>
+	<category><pattern>DOES THE LIBRARY HAVE SCANNERS</pattern>
+	<template><srai>LIBRARY SCANNERS</srai></template></category>
+	
+<category><pattern>ARE THERE SCANNERS</pattern>
+<template>Yes, there are! Need to find a scanner: <a href=" http://www.lib.uci.edu/printing-copying?tab=2" target="_blank">Printing and Copying Locations</a></template></category>
+	<category><pattern>* ARE THERE SCANNERS *</pattern>
+	<template><srai>ARE THERE SCANNERS</srai></template></category>
+	<category><pattern>ARE THERE SCANNERS *</pattern>
+	<template><srai>ARE THERE SCANNERS</srai></template></category>
+	<category><pattern>* ARE THERE SCANNERS </pattern>
+	<template><srai>ARE THERE SCANNERS</srai></template></category>
+
+<category><pattern>SCANNER LOCATION</pattern>
+<template>Scanners are available in Langson Library and Ayala Science Library. Check our <a href=" http://www.lib.uci.edu/printing-copying?tab=2" target="_blank">printing page</a> for more information</template></category>
+	<category><pattern>* WHERE ARE THE SCANNERS *</pattern>
+	<template><srai>SCANNER LOCATION</srai></template></category>
+	<category><pattern>WHERE ARE THE SCANNERS *</pattern>
+	<template><srai>SCANNER LOCATION</srai></template></category>
+	<category><pattern>* WHERE ARE THE SCANNERS</pattern>
+	<template><srai>SCANNER LOCATION</srai></template></category>
+	<category><pattern>WHERE ARE THE SCANNERS</pattern>
+	<template><srai>SCANNER LOCATION</srai></template></category>
+	<category><pattern>* FIND SCANNERS *</pattern>
+	<template><srai>SCANNER LOCATION</srai></template></category>
+	<category><pattern>FIND SCANNERS *</pattern>
+	<template><srai>SCANNER LOCATION</srai></template></category>
+	<category><pattern>* FIND SCANNERS</pattern>
+	<template><srai>SCANNER LOCATION</srai></template></category>
+	<category><pattern>FIND SCANNERS</pattern>
+	<template><srai>SCANNER LOCATION</srai></template></category>
+	<category><pattern>* FIND A SCANNER *</pattern>
+	<template><srai>SCANNER LOCATION</srai></template></category>
+	<category><pattern>FIND A SCANNER *</pattern>
+	<template><srai>SCANNER LOCATION</srai></template></category>
+	<category><pattern>* FIND A SCANNER</pattern>
+	<template><srai>SCANNER LOCATION</srai></template></category>
+	<category><pattern>FIND A SCANNER</pattern>
+	<template><srai>SCANNER LOCATION</srai></template></category>
+	<category><pattern>* I NEED TO SCAN *</pattern>
+	<template><srai>SCANNER LOCATION</srai></template></category>
+	<category><pattern>I NEED TO SCAN *</pattern>
+	<template><srai>SCANNER LOCATION</srai></template></category>
+	<category><pattern>* I NEED TO SCAN</pattern>
+	<template><srai>SCANNER LOCATION</srai></template></category>
+	<category><pattern>I NEED TO SCAN</pattern>
+	<template><srai>SCANNER LOCATION</srai></template></category>
+	<category><pattern>WHERE WOULD THE SCANNERS BE</pattern>
+	<template><srai>SCANNER LOCATION</srai></template></category>
+	<category><pattern>WHERE CAN I FIND A SCANNER</pattern>
+	<template><srai>SCANNER LOCATION</srai></template></category>
+	<category><pattern>I NEED A SCANNER</pattern>
+	<template><srai>SCANNER LOCATION</srai></template></category>
+	<category><pattern>WHERE ARE SCANNERS</pattern>
+	<template><srai>SCANNER LOCATION</srai></template></category>
+
+<category><pattern>BROKEN SCANNER</pattern>
+<template>If you are having an issue with a scanner, please inform a library staff member at the reference desk, check out desk, or copy service desk.  Do not attempt to fix it yourself.</template></category>  
+	<category><pattern>* CAN I FIX THE SCANNER *</pattern>
+	<template><srai>BROKEN SCANNER</srai></template></category>
+	<category><pattern>CAN I FIX THE SCANNER *</pattern>
+	<template><srai>BROKEN SCANNER</srai></template></category>
+	<category><pattern>* CAN I FIX THE SCANNER</pattern>
+	<template><srai>BROKEN SCANNER</srai></template></category>
+	<category><pattern>CAN I FIX THE SCANNER</pattern>
+	<template><srai>BROKEN SCANNER</srai></template></category>
+	<category><pattern>* SCANNER IS BROKEN *</pattern>
+	<template><srai>BROKEN SCANNER</srai></template></category>
+	<category><pattern>SCANNER IS BROKEN *</pattern>
+	<template><srai>BROKEN SCANNER</srai></template></category>
+	<category><pattern>* SCANNER IS BROKEN</pattern>
+	<template><srai>BROKEN SCANNER</srai></template></category>
+	<category><pattern>SCANNER IS BROKEN</pattern>
+	<template><srai>BROKEN SCANNER</srai></template></category>
+	<category><pattern>* SCANNER DOES NOT WORK *</pattern>
+	<template><srai>BROKEN SCANNER</srai></template></category>
+	<category><pattern>SCANNER DOES NOT WORK *</pattern>
+	<template><srai>BROKEN SCANNER</srai></template></category>
+	<category><pattern>* SCANNER DOES NOT WORK</pattern>
+	<template><srai>BROKEN SCANNER</srai></template></category>
+	<category><pattern>SCANNER DOES NOT WORK</pattern>
+	<template><srai>BROKEN SCANNER</srai></template></category>
+	<category><pattern>* SCANNER DOESN'T WORK *</pattern>
+	<template><srai>BROKEN SCANNER</srai></template></category>
+	<category><pattern>SCANNER DOESN'T WORK *</pattern>
+	<template><srai>BROKEN SCANNER</srai></template></category>
+	<category><pattern>* SCANNER DOESN'T WORK</pattern>
+	<template><srai>BROKEN SCANNER</srai></template></category>
+	<category><pattern>SCANNER DOESN'T WORK</pattern>
+	<template><srai>BROKEN SCANNER</srai></template></category>
+	<category><pattern>* BROKEN SCANNER *</pattern>
+	<template><srai>BROKEN SCANNER</srai></template></category>
+	<category><pattern>BROKEN SCANNER *</pattern>
+	<template><srai>BROKEN SCANNER</srai></template></category>
+	<category><pattern>* BROKEN SCANNER</pattern>
+	<template><srai>BROKEN SCANNER</srai></template></category>
+	<category><pattern>BROKEN SCANNER</pattern>
+	<template><srai>BROKEN SCANNER</srai></template></category>
+	<category><pattern>* SCANNER ISN'T WORKING *</pattern>
+	<template><srai>BROKEN SCANNER</srai></template></category>
+	<category><pattern>SCANNER ISN'T WORKING *</pattern>
+	<template><srai>BROKEN SCANNER</srai></template></category>
+	<category><pattern>* SCANNER ISN'T WORKING</pattern>
+	<template><srai>BROKEN SCANNER</srai></template></category>
+	<category><pattern>SCANNER ISN'T WORKING</pattern>
+	<template><srai>BROKEN SCANNER</srai></template></category>
+	<category><pattern>* SCANNER IS NOT WORKING *</pattern>
+	<template><srai>BROKEN SCANNER</srai></template></category>
+	<category><pattern>SCANNER IS NOT WORKING *</pattern>
+	<template><srai>BROKEN SCANNER</srai></template></category>
+	<category><pattern>* SCANNER IS NOT WORKING</pattern>
+	<template><srai>BROKEN SCANNER</srai></template></category>
+	<category><pattern>SCANNER IS NOT WORKING</pattern>
+	<template><srai>BROKEN SCANNER</srai></template></category>
+
+<!-- end scanning -->
+
+<!-- start copying -->
+
+<category><pattern>COPY GENERAL</pattern>
+<template>That's a pretty general question, can you be more specific? If you want to know everything about our copiers, say Tell Me Everything About Copiers.</template></category>
+	<category><pattern>COPIER</pattern>
+	<template><srai>COPY GENERAL</srai></template></category>
+	<category><pattern>COPIERS</pattern>
+	<template><srai>COPY GENERAL</srai></template></category>
+	<category><pattern>COPY MACHINE</pattern>
+	<template><srai>COPY GENERAL</srai></template></category>
+	<category><pattern>COPY MACHINES</pattern>
+	<template><srai>COPY GENERAL</srai></template></category>
+	<category><pattern>PHOTO COPY MACHINE</pattern>
+	<template><srai>COPY GENERAL</srai></template></category>
+	<category><pattern>PHOTO COPY MACHINES</pattern>
+	<template><srai>COPY GENERAL</srai></template></category>
+	<category><pattern>PHOTOCOPY MACHINE</pattern>
+	<template><srai>COPY GENERAL</srai></template></category>
+	<category><pattern>PHOTOCOPY MACHINES</pattern>
+	<template><srai>COPY GENERAL</srai></template></category>
+	<category><pattern>PHOTOCOPY</pattern>
+	<template><srai>COPY GENERAL</srai></template></category>
+	<category><pattern>PHOTOCOPIES</pattern>
+	<template><srai>COPY GENERAL</srai></template></category>
+	<category><pattern>PHOTOCOPYING</pattern>
+	<template><srai>COPY GENERAL</srai></template></category>
+	<category><pattern>PHOTOCOPIER</pattern>
+	<template><srai>COPY GENERAL</srai></template></category>
+	<category><pattern>COPIES</pattern>
+	<template><srai>COPY GENERAL</srai></template></category>
+	<category><pattern>COPIER</pattern>
+	<template><srai>COPY GENERAL</srai></template></category>
+	<category><pattern>COPIERS</pattern>
+	<template><srai>COPY GENERAL</srai></template></category>
+	<category><pattern>COPY MACHINE</pattern>
+	<template><srai>COPY GENERAL</srai></template></category>
+	<category><pattern>COPY MACHINES</pattern>
+	<template><srai>COPY GENERAL</srai></template></category>
+	<category><pattern>PHOTOCOPY MACHINE</pattern>
+	<template><srai>COPY GENERAL</srai></template></category>
+	<category><pattern>PHOTOCOPY MACHINES</pattern>
+	<template><srai>COPY GENERAL</srai></template></category>
+	<category><pattern>PHOTO COPY MACHINE</pattern>
+	<template><srai>COPY GENERAL</srai></template></category>
+	<category><pattern>PHOTO COPY MACHINES</pattern>
+	<template><srai>COPY GENERAL</srai></template></category>
+
+		<category><pattern>HOW DO I USE THEM</pattern>
+		<that>That s a pretty general question can you be more specific If you want to know everything about our copiers say Tell Me Everything About Copiers_</that>
+		<template><srai>MAKE COPIES</srai></template></category>
+
+<category><pattern>TELL ME EVERYTHING ABOUT COPIERS</pattern>
+<template>Copiers require the use of your UCI I.D. or a guest copy card. Black and white photocopies are $0.08 per page, we do not have color or coin operated copiers in the library. Instructions are located near each copier on how to use them, for example how to enlarge and create double sided copies. Need to find a copier: <a href=" http://www.lib.uci.edu/printing-copying?tab=2" target="_blank">Printing and Copying Locations</a></template></category>
+	<category><pattern>HOW DO I USE THE PHOTOCOPIER</pattern>
+	<template><srai>TELL ME EVERYTHING ABOUT COPIERS</srai></template></category>
+	<category><pattern>INSTRUCTIONS FOR THE PHOTOCOPIER MACHINE</pattern>
+	<template><srai>TELL ME EVERYTHING ABOUT COPIERS</srai></template></category>
+
+<category><pattern>COPY COST</pattern>
+<template>Copiers require the use of your UCI I.D. or a guest copy card. Photocopies are $0.08 per page.</template></category> 
+	<category><pattern>* COST TO COPY *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>COST TO COPY *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* COST TO COPY</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* COST TO MAKE A COPY *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>COST TO MAKE A COPY *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* COST TO MAKE A COPY</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* COPY COST *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>COPY COST *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* COPY COST</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* much are the copiers *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>much are the copiers *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* much are the copiers</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* COST COPIERS *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>COST COPIERS *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* COST COPIERS</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* COST PHOTOCOPIERS *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>COST PHOTOCOPIERS *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* COST PHOTOCOPIERS</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* MUCH ARE THE COPIER *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>MUCH ARE THE COPIER *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* MUCH ARE THE COPIER</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* MUCH ARE COPIES *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* MUCH ARE COPIES</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>MUCH ARE COPIES *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* MUCH DO COPIES COST *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* MUCH DO COPIES COST</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>MUCH DO COPIES COST *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* MUCH ARE THE COPIERS *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>MUCH ARE THE COPIERS *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* MUCH ARE THE COPIERS</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* COST TO PHOTOCOPY *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>COST TO PHOTOCOPY *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* COST TO PHOTOCOPY</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* COST TO MAKE A PHOTOCOPY *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>COST TO MAKE A PHOTOCOPY *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* COST TO MAKE A PHOTOCOPY</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* PHOTOCOPY MACHINES COST *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>PHOTOCOPY MACHINES COST *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* PHOTOCOPY MACHINES COST</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* PHOTO COPY MACHINES COST *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>PHOTO COPY MACHINES COST *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* PHOTO COPY MACHINES COST</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* MUCH ARE PHOTOCOPY MACHINES *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>MUCH ARE PHOTOCOPY MACHINES *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* MUCH ARE PHOTOCOPY MACHINES</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* MUCH ARE THE PHOTOCOPY MACHINES *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>MUCH ARE THE PHOTOCOPY MACHINES *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* MUCH ARE THE PHOTOCOPY MACHINES</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* MUCH ARE PHOTOCOPIES *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>MUCH ARE PHOTOCOPIES *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* MUCH ARE PHOTOCOPIES</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* PHOTOCOPIES COST *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>PHOTOCOPIES COST *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* PHOTOCOPIES COST</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* MUCH IS PHOTOCOPYING *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>MUCH IS PHOTOCOPYING *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* MUCH IS PHOTOCOPYING</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* MUCH IS THE PHOTO COPY MACHINE *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>MUCH IS THE PHOTO COPY MACHINE *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* MUCH IS THE PHOTO COPY MACHINE</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* PHOTO COPY MACHINES COST *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>PHOTO COPY MACHINES COST *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* PHOTO COPY MACHINES COST</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* much are photocopies *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>much are photocopies *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* much are photocopies</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* COPIERS COST *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>COPIERS COST *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* COPIERS COST</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* PHOTOCOPIERS COST *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>PHOTOCOPIERS COST *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* PHOTOCOPIERS COST</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* COPY MACHINES COST *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>COPY MACHINES COST *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* COPY MACHINES COST</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* COST TO MAKE COPIES *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>COST TO MAKE COPIES *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* COST TO MAKE COPIES</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* MUCH IS IT TO MAKE COPIES *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>MUCH IS IT TO MAKE COPIES *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* MUCH IS IT TO MAKE COPIES</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* MUCH ARE THE COPY MACHINE *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>MUCH ARE THE COPY MACHINE *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* MUCH ARE THE COPY MACHINE</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* MUCH ARE THE COPY MACHINES *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>MUCH ARE THE COPY MACHINES *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>* MUCH ARE THE COPY MACHINES</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>COST TO COPY</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>COST TO MAKE A COPY *</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>COPY COST</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>COPY COSTS</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>COST TO PHOTOCOPY</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>COST TO MAKE A PHOTOCOPY</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>HOW MUCH ARE PHOTO COPIES</pattern>
+	<template><srai>COPY COST</srai></template></category>
+	<category><pattern>PHOTOCOPY COST</pattern>
+	<template><srai>COPY COST</srai></template></category>
+
+<category><pattern>MAKE COPIES</pattern>
+<template>Instructions are located near each copier on how to use them, for example how to enlarge and create double sided copies.  If you are still having issues, please seek the help of a library employee.</template></category>
+	<category><pattern>* MAKE A COPY *</pattern>
+	<template><srai>MAKE COPIES</srai></template></category>
+	<category><pattern>MAKE A COPY *</pattern>
+	<template><srai>MAKE COPIES</srai></template></category>
+	<category><pattern>* MAKE A COPY</pattern>
+	<template><srai>MAKE COPIES</srai></template></category>
+	<category><pattern>* MAKE COPIES *</pattern>
+	<template><srai>MAKE COPIES</srai></template></category>
+	<category><pattern>MAKE COPIES *</pattern>
+	<template><srai>MAKE COPIES</srai></template></category>
+	<category><pattern>* MAKE COPIES</pattern>
+	<template><srai>MAKE COPIES</srai></template></category>
+	<category><pattern>* USE THE COPIER *</pattern>
+	<template><srai>MAKE COPIES</srai></template></category>
+	<category><pattern>USE THE COPIER *</pattern>
+	<template><srai>MAKE COPIES</srai></template></category>
+	<category><pattern>* USE THE COPIER</pattern>
+	<template><srai>MAKE COPIES</srai></template></category>
+	<category><pattern>* USE A COPIER *</pattern>
+	<template><srai>MAKE COPIES</srai></template></category>
+	<category><pattern>USE A COPIER *</pattern>
+	<template><srai>MAKE COPIES</srai></template></category>
+	<category><pattern>* USE A COPIER</pattern>
+	<template><srai>MAKE COPIES</srai></template></category>
+	<category><pattern>HOW DO I MAKE COPIES</pattern>
+	<template><srai>MAKE COPIES</srai></template></category>
+	<category><pattern>THE PHOTOCOPIER IS PRINTING DOUBLE SIDED HOW DO I PHOTOCOPY ON ONE SIDE ONLY</pattern>
+	<template><srai>MAKE COPIES</srai></template></category>
+	<category><pattern>USE THE COPIERS</pattern>
+	<template><srai>MAKE COPIES</srai></template></category>
+	<category><pattern>* USE THE COPIERS</pattern>
+	<template><srai>MAKE COPIES</srai></template></category>
+	<category><pattern>USE THE COPIERS *</pattern>
+	<template><srai>MAKE COPIES</srai></template></category>
+	<category><pattern>*USE THE COPIERS *</pattern>
+	<template><srai>MAKE COPIES</srai></template></category>
+	<category><pattern>USE THE COPYING MACHINE</pattern>
+	<template><srai>MAKE COPIES</srai></template></category>
+	<category><pattern>* USE THE COPYING MACHINE</pattern>
+	<template><srai>MAKE COPIES</srai></template></category>
+	<category><pattern>USE THE COPYING MACHINE *</pattern>
+	<template><srai>MAKE COPIES</srai></template></category>
+	<category><pattern>* USE THE COPYING MACHINE *</pattern>	
+	<template><srai>MAKE COPIES</srai></template></category>
+
+<category><pattern>LIBRARY COPIERS</pattern>
+<template>Yes, we do! Need to find a copier: <a href=" http://www.lib.uci.edu/printing-copying?tab=2" target="_blank">Printing and Copying Locations</a></template></category>
+	<category><pattern>* DOES THE LIBRARY HAVE COPIERS *</pattern>
+	<template><srai>LIBRARY COPIERS</srai></template></category>
+	<category><pattern>DOES THE LIBRARY HAVE COPIERS *</pattern>
+	<template><srai>LIBRARY COPIERS</srai></template></category>
+	<category><pattern>* DOES THE LIBRARY HAVE COPIERS</pattern>
+	<template><srai>LIBRARY COPIERS</srai></template></category>
+	<category><pattern>DOES THE LIBRARY HAVE COPIERS</pattern>
+	<template><srai>LIBRARY COPIERS</srai></template></category>
+
+<category><pattern>ARE THERE COPIERS</pattern>
+<template>Yes, there are! Need to find a copier: <a href=" http://www.lib.uci.edu/printing-copying?tab=2" target="_blank">Printing and Copying Locations</a></template></category>
+	<category><pattern>* ARE THERE COPIERS *</pattern>
+	<template><srai>ARE THERE COPIERS</srai></template></category>
+	<category><pattern>ARE THERE COPIERS *</pattern>
+	<template><srai>ARE THERE COPIERS</srai></template></category>
+	<category><pattern>* ARE THERE COPIERS </pattern>
+	<template><srai>ARE THERE COPIERS</srai></template></category>
+
+<category><pattern>COPIER LOCATION</pattern>
+<template>Need to find a copier: <a href=" http://www.lib.uci.edu/printing-copying?tab=2" target="_blank">Printing and Copying Locations</a></template></category>
+	<category><pattern>* WHERE CAN I PHOTOCOPY *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>WHERE CAN I PHOTOCOPY *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* WHERE CAN I PHOTOCOPY</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>WHERE CAN I PHOTOCOPY</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* WHERE CAN I MAKE A PHOTOCOPY *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>WHERE CAN I MAKE A PHOTOCOPY *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* WHERE CAN I MAKE A PHOTOCOPY</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>WHERE CAN I MAKE A PHOTOCOPY</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* WHERE CAN I MAKE PHOTOCOPIES *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>WHERE CAN I MAKE PHOTOCOPIES *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* WHERE CAN I MAKE PHOTOCOPIES</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>WHERE CAN I MAKE PHOTOCOPIES</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* PLACE I CAN PHOTOCOPY *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>PLACE I CAN PHOTOCOPY *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* PLACE I CAN PHOTOCOPY</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>PLACE I CAN PHOTOCOPY</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* PLACE I CAN MAKE COPIES *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>PLACE I CAN MAKE COPIES *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* PLACE I CAN MAKE COPIES</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>PLACE I CAN MAKE COPIES</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>DOES THE LIBRARY HAVE COPIERS *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* DOES THE LIBRARY HAVE COPIERS</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>DOES THE LIBRARY HAVE COPIERS</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* WHERE IS THE PHOTOCOPIER *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>WHERE IS THE PHOTOCOPIER *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* WHERE IS THE PHOTOCOPIER</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>WHERE IS THE PHOTOCOPIER</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* WHERE CAN I MAKE COPIES *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>WHERE CAN I MAKE COPIES *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* WHERE CAN I MAKE COPIES</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>WHERE CAN I MAKE COPIES</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* WHERE CAN I FIND A COPIER *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>WHERE CAN I FIND A COPIER *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* WHERE CAN I FIND A COPIER</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>WHERE CAN I FIND A COPIER</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* WHERE ARE THE COPIERS *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>WHERE ARE THE COPIERS *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* WHERE ARE THE COPIERS</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>WHERE ARE THE COPIERS</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* COPY MACHINE IN THE LIBRARY *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>COPY MACHINE IN THE LIBRARY *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* COPY MACHINE IN THE LIBRARY</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>COPY MACHINE IN THE LIBRARY</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* WHERE ARE THE COPY MACHINES *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>WHERE ARE THE COPY MACHINES *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* WHERE ARE THE COPY MACHINES</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>WHERE ARE THE COPY MACHINES</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* WHERE IS THE PHOTOCOPY MACHINE *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>WHERE IS THE PHOTOCOPY MACHINE *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* WHERE IS THE PHOTOCOPY MACHINE</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>WHERE IS THE PHOTOCOPY MACHINE</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* WHERE ARE THE PHOTOCOPY MACHINES *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>WHERE ARE THE PHOTOCOPY MACHINES *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* WHERE ARE THE PHOTOCOPY MACHINES</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>WHERE ARE THE PHOTOCOPY MACHINES</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* WHERE IS THE PHOTO COPY MACHINE *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>WHERE IS THE PHOTO COPY MACHINE *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* WHERE IS THE PHOTO COPY MACHINE</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>WHERE IS THE PHOTO COPY MACHINE</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* WHERE ARE THE PHOTO COPY MACHINES *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>WHERE ARE THE PHOTO COPY MACHINES *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* WHERE ARE THE PHOTO COPY MACHINES</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>WHERE ARE THE PHOTO COPY MACHINES</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* COPIERS LOCATED *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>COPIERS LOCATED *</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>* COPIERS LOCATED</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	<category><pattern>WHERE IS PHOTOCOPIER</pattern>
+	<template><srai>COPIER LOCATION</srai></template></category>
+	
+<category><pattern>MAKE A COPY</pattern>
+<template>Copies are $0.08 per page and require you to either purchase a copy card or add money to your UCI I.D. Need to find a copier: <a href=" http://www.lib.uci.edu/printing-copying?tab=2" target="_blank">Printing and Copying Locations</a></template></category>
+	<category><pattern>* MAKE A COPY *</pattern>
+	<template><srai>MAKE A COPY</srai></template></category>
+	<category><pattern>MAKE A COPY *</pattern>
+	<template><srai>MAKE A COPY</srai></template></category>
+	<category><pattern>* MAKE A COPY</pattern>
+	<template><srai>MAKE A COPY</srai></template></category>
+	<category><pattern>* MAKE COPIES *</pattern>
+	<template><srai>MAKE A COPY</srai></template></category>
+	<category><pattern>* MAKE COPIES</pattern>
+	<template><srai>MAKE A COPY</srai></template></category>
+	<category><pattern>MAKE COPIES *</pattern>
+	<template><srai>MAKE A COPY</srai></template></category>
+	<category><pattern>GUEST COPY</pattern>
+	<template><srai>MAKE A COPY</srai></template></category>
+	<category><pattern>* GUEST COPY ACCESS</pattern>
+	<template><srai>MAKE A COPY</srai></template></category>
+
+<category><pattern>COIN COPIER</pattern>
+<template>No, all copiers use your UCI I.D or a print/copy card to make copies.</template></category>
+	<category><pattern>* coin operated copier *</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>coin operated copier *</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>* coin operated copier</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>* coin operated copiers *</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>coin operated copiers *</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>* coin operated copiers</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>* coin operated copy machine *</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>coin operated copy machine *</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>* coin operated copy machine</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>* coin operated copy machines *</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>coin operated copy machines *</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>* coin operated copy machines</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>* coin operated photocopier *</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>coin operated photocopier *</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>* coin operated photocopier</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>* coin operated photocopiers *</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>coin operated photocopiers *</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>* coin operated photocopiers</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>* coin copier *</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>coin copier *</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>* coin copier</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>* coin copiers *</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>coin copiers *</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>* coin copiers</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>* coin copy machine *</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>coin copy machine *</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>* coin copy machine</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>* coin copy machines *</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>coin copy machines *</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>* coin copy machines</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>* coin photocopier *</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>coin photocopier *</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>* coin photocopier</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>* coin photocopiers *</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>coin photocopiers *</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>* coin photocopiers</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>coin operated copier</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>coin operated copiers</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>coin operated copy machine</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>coin operated copy machines</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>coin operated photocopier</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>coin operated photocopiers</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>coin copier</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>coin copiers</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>coin copy machine</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>coin copy machines</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>coin photocopier</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+	<category><pattern>coin photocopiers</pattern>
+	<template><srai>COIN COPIER</srai></template></category>
+
+<category><pattern>TWO SIDED COPIES</pattern>
+<template>Yes, our copiers are capable of creating two sided copies and they will cost $0.08 per side. Need to find a copier: <a href=" http://www.lib.uci.edu/printing-copying?tab=2" target="_blank">Printing and Copying Locations</a></template></category>  
+	<category><pattern>* double sided copies *</pattern>
+	<template><srai>TWO SIDED COPIES</srai></template></category>
+	<category><pattern>double sided copies *</pattern>
+	<template><srai>TWO SIDED COPIES</srai></template></category>
+	<category><pattern>* double sided copies</pattern>
+	<template><srai>TWO SIDED COPIES</srai></template></category>
+	<category><pattern>* double sided photocopies *</pattern>
+	<template><srai>TWO SIDED COPIES</srai></template></category>
+	<category><pattern>double sided photocopies *</pattern>
+	<template><srai>TWO SIDED COPIES</srai></template></category>
+	<category><pattern>* double sided photocopies</pattern>
+	<template><srai>TWO SIDED COPIES</srai></template></category>
+	<category><pattern>* double sided photocopiers *</pattern>
+	<template><srai>TWO SIDED COPIES</srai></template></category>
+	<category><pattern>double sided photocopiers *</pattern>
+	<template><srai>TWO SIDED COPIES</srai></template></category>
+	<category><pattern>* double sided photocopiers</pattern>
+	<template><srai>TWO SIDED COPIES</srai></template></category>
+	<category><pattern>* two sided copies *</pattern>
+	<template><srai>TWO SIDED COPIES</srai></template></category>
+	<category><pattern>two sided copies *</pattern>
+	<template><srai>TWO SIDED COPIES</srai></template></category>
+	<category><pattern>* two sided copies</pattern>
+	<template><srai>TWO SIDED COPIES</srai></template></category>
+	<category><pattern>* two sided photocopies *</pattern>
+	<template><srai>TWO SIDED COPIES</srai></template></category>
+	<category><pattern>two sided photocopies *</pattern>
+	<template><srai>TWO SIDED COPIES</srai></template></category>
+	<category><pattern>* two sided photocopies</pattern>
+	<template><srai>TWO SIDED COPIES</srai></template></category>
+	<category><pattern>* two sided copiers *</pattern>
+	<template><srai>TWO SIDED COPIES</srai></template></category>
+	<category><pattern>two sided copiers *</pattern>
+	<template><srai>TWO SIDED COPIES</srai></template></category>
+	<category><pattern>* two sided copiers</pattern>
+	<template><srai>TWO SIDED COPIES</srai></template></category>
+	<category><pattern>double sided copies</pattern>
+	<template><srai>TWO SIDED COPIES</srai></template></category>
+	<category><pattern>double sided photocopies</pattern>
+	<template><srai>TWO SIDED COPIES</srai></template></category>
+	<category><pattern>double sided photocopiers</pattern>
+	<template><srai>TWO SIDED COPIES</srai></template></category>
+	<category><pattern>two sided copies</pattern>
+	<template><srai>TWO SIDED COPIES</srai></template></category>
+	<category><pattern>two sided photocopies</pattern>
+	<template><srai>TWO SIDED COPIES</srai></template></category>
+	<category><pattern>two sided copiers</pattern>
+	<template><srai>TWO SIDED COPIES</srai></template></category>
+	 
+<category><pattern>COLOR COPIES</pattern>
+<template>The UC Irvine Libraries do not have color copiers.  Over the bridge there is a FedEX in the University Town Center that can make color copies.</template></category> 
+	<category><pattern>* COLOR PHOTOCOPY *</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>COLOR PHOTOCOPY *</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>* COLOR PHOTOCOPY</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>* color PHOTOCOPYING *</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>color PHOTOCOPYING *</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>* color PHOTOCOPYING</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>* color PHOTOCOPIES *</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>color PHOTOCOPIES *</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>* color PHOTOCOPIES</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>* color COPIES *</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>color COPIES *</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>* color COPIES</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>* color COPIERS *</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>color COPIERS *</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>* color COPIERS</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>* color PHOTOCOPIER *</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>color PHOTOCOPIER *</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>* color PHOTOCOPIER</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>* color COPIER *</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>color COPIER *</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>* color COPIER</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>* color COPY MACHINE *</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>color COPY MACHINE *</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>* color COPY MACHINE</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>* color COPY MACHINES *</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>color COPY MACHINES *</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>* color COPY MACHINES</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>* color PHOTOCOPY MACHINE *</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>color PHOTOCOPY MACHINE *</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>* color PHOTOCOPY MACHINE</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>* color PHOTOCOPY MACHINES *</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>color PHOTOCOPY MACHINES *</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>* color PHOTOCOPY MACHINES</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>* color PHOTO COPY MACHINE *</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>color PHOTO COPY MACHINE *</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>* color PHOTO COPY MACHINE</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>* color PHOTO COPY MACHINES *</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>color PHOTO COPY MACHINES *</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>* color PHOTO COPY MACHINES</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>COLOR PHOTOCOPY</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>color PHOTOCOPYING</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>color PHOTOCOPIES</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>color COPIES</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>color COPIERS</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>color PHOTOCOPIER</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>color COPY MACHINE</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>color COPY MACHINES</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>color PHOTOCOPY MACHINE</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>color PHOTOCOPY MACHINES</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>color PHOTO COPY MACHINE</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+	<category><pattern>color PHOTO COPY MACHINES</pattern>
+	<template><srai>COLOR COPIES</srai></template></category>
+
+<category><pattern>BROKEN COPIER</pattern>
+<template>If you are having an issue with a copier, please inform a library staff member at the reference desk, check out desk, or copy service desk.  Do not attempt to fix it yourself.</template></category>  
+	<category><pattern>* COPIER DOES NOT WORK *</pattern>
+	<template><srai>BROKEN COPIER</srai></template></category>
+	<category><pattern>COPIER DOES NOT WORK *</pattern>
+	<template><srai>BROKEN COPIER</srai></template></category>
+	<category><pattern>* COPIER DOES NOT WORK</pattern>
+	<template><srai>BROKEN COPIER</srai></template></category>
+	<category><pattern>COPIER DOES NOT WORK</pattern>
+	<template><srai>BROKEN COPIER</srai></template></category>
+	<category><pattern>* FIX THE COPIER *</pattern>
+	<template><srai>BROKEN COPIER</srai></template></category>
+	<category><pattern>FIX THE COPIER *</pattern>
+	<template><srai>BROKEN COPIER</srai></template></category>
+	<category><pattern>* FIX THE COPIER</pattern>
+	<template><srai>BROKEN COPIER</srai></template></category>
+	<category><pattern>FIX THE COPIER</pattern>
+	<template><srai>BROKEN COPIER</srai></template></category>
+	<category><pattern>* COPIER IS BROKEN *</pattern>
+	<template><srai>BROKEN COPIER</srai></template></category>
+	<category><pattern>COPIER IS BROKEN *</pattern>
+	<template><srai>BROKEN COPIER</srai></template></category>
+	<category><pattern>* COPIER IS BROKEN</pattern>
+	<template><srai>BROKEN COPIER</srai></template></category>
+	<category><pattern>COPIER IS BROKEN</pattern>
+	<template><srai>BROKEN COPIER</srai></template></category>
+	<category><pattern>* BROKEN COPIER *</pattern>
+	<template><srai>BROKEN COPIER</srai></template></category>
+	<category><pattern>BROKEN COPIER *</pattern>
+	<template><srai>BROKEN COPIER</srai></template></category>
+	<category><pattern>* BROKEN COPIER</pattern>
+	<template><srai>BROKEN COPIER</srai></template></category>
+	<category><pattern>BROKEN COPIER</pattern>
+	<template><srai>BROKEN COPIER</srai></template></category>
+
+<!-- END Copying -->
+
+<!-- START Wireless Printing -->
+
+<category><pattern>WIRELESS PRINTING</pattern>
+<template>In addition to printing within the Libraries, you can send common print requests (MS Office, PDF, web documents, etc.) via wireless to the many Libraries' Print Release Stations. The print job can then be retrieved from within the Libraries at the selected Print Release Station by providing your UCI identification card and the name you gave to the document.  Submit your wireless print jobs via <a href=" http://titan.lib.uci.edu" target="_blank">Campus Printing Service.</a></template></category>
+<category><pattern>* PRINT FROM MY LAPTOP *</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>PRINT FROM MY LAPTOP *</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>* PRINT FROM MY LAPTOP</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>PRINT FROM MY LAPTOP</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>* PRINT FROM HOME *</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>PRINT FROM HOME *</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>* PRINT FROM HOME</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>PRINT FROM HOME</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>* PRINT FROM LAPTOPS *</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>PRINT FROM LAPTOPS *</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>* PRINT FROM LAPTOPS</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>PRINT FROM LAPTOPS</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>* PRINT FROM MY DORM *</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>PRINT FROM MY DORM *</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>* PRINT FROM MY DORM</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>PRINT FROM MY DORM</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>* PRINT FROM OFF CAMPUS *</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>PRINT FROM OFF CAMPUS *</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>* PRINT FROM OFF CAMPUS</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>PRINT FROM OFF CAMPUS</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>* PRINTING FROM OFF CAMPUS *</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>PRINTING FROM OFF CAMPUS *</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>* PRINTING FROM OFF CAMPUS</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>PRINTING FROM OFF CAMPUS</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>* LAPTOP TO THE PRINTER *</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>LAPTOP TO THE PRINTER *</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>* LAPTOP TO THE PRINTER</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>LAPTOP TO THE PRINTER</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>* WIRELESS PRINTING *</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>WIRELESS PRINTING *</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>* WIRELESS PRINTING</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>WIRELESS PRINTING</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>* WIRELESS PRINTER *</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>WIRELESS PRINTER *</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>* WIRELESS PRINTER</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>WIRELESS PRINTER</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>* WIRELESS PRINTERS *</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>WIRELESS PRINTERS *</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>* WIRELESS PRINTERS</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>WIRELESS PRINTERS</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>* PRINT FROM WIRELESS *</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>PRINT FROM WIRELESS *</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>* PRINT FROM WIRELESS</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>PRINT FROM WIRELESS</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>* PRINT WIRELESSLY *</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>PRINT WIRELESSLY *</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>* PRINT WIRELESSLY</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>PRINT WIRELESSLY</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>* PRINT FROM WIFI *</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>PRINT FROM WIFI *</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>* PRINT FROM WIFI</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>PRINT FROM WIFI</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>IS MY LAPTOP OK TO PRINT FROM</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+<category><pattern>CAN I PRINT FROM MY COMPUTER</pattern>
+<template><srai>WIRELESS PRINTING</srai></template></category>
+
+<!-- END wireless printing -->
+
+<!-- START recharge -->
+
+<category><pattern>RECHARGE</pattern>
+<template>Only users on a pre-authorized list will be able to use UCI account numbers to purchase print/copy cards. For assistance with purchasing copy/print cards using a UCI account number, to be placed on our pre-authorized list, please have the department bookkeeper email Kim Bishop at kbishop@uci.edu.</template></category>
+<category><pattern>* COPY CARD WITH MY UCI ACCOUNT NUMBER *</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>COPY CARD WITH MY UCI ACCOUNT NUMBER *</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>* COPY CARD WITH MY UCI ACCOUNT NUMBER</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>COPY CARD WITH MY UCI ACCOUNT NUMBER</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>* PRINT CARD WITH MY UCI ACCOUNT NUMBER *</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>PRINT CARD WITH MY UCI ACCOUNT NUMBER *</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>* PRINT CARD WITH MY UCI ACCOUNT NUMBER</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>PRINT CARD WITH MY UCI ACCOUNT NUMBER</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>* CHARGE COPIES TO MY DEPARTMENT *</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>CHARGE COPIES TO MY DEPARTMENT *</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>* CHARGE COPIES TO MY DEPARTMENT</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>CHARGE COPIES TO MY DEPARTMENT</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>* CHARGE PRINTING TO MY DEPARTMENT *</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>CHARGE PRINTING TO MY DEPARTMENT *</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>* CHARGE PRINTING TO MY DEPARTMENT</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>CHARGE PRINTING TO MY DEPARTMENT</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>* RECHARGE COPIES TO MY DEPARTMENT *</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>RECHARGE COPIES TO MY DEPARTMENT *</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>* RECHARGE COPIES TO MY DEPARTMENT</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>RECHARGE COPIES TO MY DEPARTMENT</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>* RECHARGE PRINTING TO MY DEPARTMENT *</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>RECHARGE PRINTING TO MY DEPARTMENT *</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>* RECHARGE PRINTING TO MY DEPARTMENT</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>RECHARGE PRINTING TO MY DEPARTMENT</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>* USE MY UCI ACCOUNT NUMBER FOR A COPY CARD *</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>USE MY UCI ACCOUNT NUMBER FOR A COPY CARD *</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>* USE MY UCI ACCOUNT NUMBER FOR A COPY CARD</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>USE MY UCI ACCOUNT NUMBER FOR A COPY CARD</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>* USE MY UCI ACCOUNT NUMBER FOR A PRINT CARD *</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>USE MY UCI ACCOUNT NUMBER FOR A COPY CARD *</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>* USE MY UCI ACCOUNT NUMBER FOR A COPY CARD</pattern>
+<template><srai>RECHARGE</srai></template></category>
+<category><pattern>USE MY UCI ACCOUNT NUMBER FOR A COPY CARD</pattern>
+<template><srai>RECHARGE</srai></template></category>
+
+<!-- END RECHARGE -->
+
+<!-- PRINT CARDS -->
+
+<category><pattern>PRINT CARD</pattern>
+<template>Your UCI I.D. is your library print/copy card, if you are a guest you can purchase a print/copy card. Money can be added to your I.D. using a card refill station. For more information about adding money to your card, say Add Money.  For a list of available card refill stations, say card refill station. For information about buying a card, say Buy Card.</template></category>
+<category><pattern>* PRINT CARD *</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>PRINT CARD *</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>* PRINT CARD</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>PRINT CARD</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>* PRINTCARD *</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>PRINTCARD *</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>* PRINTCARD</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>PRINTCARD</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>* PRINTCARDS *</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>PRINTCARDS *</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>* PRINTCARDS</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>PRINTCARDS</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>* PRINT CARDS *</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>PRINT CARDS *</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>* PRINT CARDS</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>PRINT CARDS</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>* COPY CARD *</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>COPY CARD *</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>* COPY CARD</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>COPY CARD</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>* COPYCARD *</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>COPYCARD *</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>* COPYCARD</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>COPYCARD</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>* COPY CARDS *</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>COPY CARDS *</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>* COPY CARDS</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>COPY CARDS</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>* DO I NEED A COPYCARD *</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>DO I NEED A COPYCARD *</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>* DO I NEED A COPYCARD</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>DO I NEED A COPYCARD</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+<category><pattern>I NEED A PRINTER CARD</pattern>
+<template><srai>PRINT CARD</srai></template></category>
+
+<category><pattern>ADD MONEY</pattern>
+<template>We have several videos on how to add money to your card, one for <a href=" http://www.lib.uci.edu/how/tutorials/PrintCopy/AddMoneytoID-ASL.mov" target="_blank">Ayala Science Library</a> and one for <a href=" http://www.lib.uci.edu/how/tutorials/PrintCopy/AddMoneytoID-LL.mov" target="_blank">Langson Library.</a></template></category>
+<category><pattern>* PUT MONEY ON MY CARD *</pattern>
+<template><srai>ADD MONEY</srai></template></category>
+<category><pattern>PUT MONEY ON MY CARD *</pattern>
+<template><srai>ADD MONEY</srai></template></category>
+<category><pattern>* PUT MONEY ON MY CARD</pattern>
+<template><srai>ADD MONEY</srai></template></category>
+<category><pattern>PUT MONEY ON MY CARD</pattern>
+<template><srai>ADD MONEY</srai></template></category>
+<category><pattern>* ADD MONEY ON MY CARD *</pattern>
+<template><srai>ADD MONEY</srai></template></category>
+<category><pattern>ADD MONEY ON MY CARD *</pattern>
+<template><srai>ADD MONEY</srai></template></category>
+<category><pattern>* ADD MONEY ON MY CARD</pattern>
+<template><srai>ADD MONEY</srai></template></category>
+<category><pattern>ADD MONEY ON MY CARD</pattern>
+<template><srai>ADD MONEY</srai></template></category>
+<category><pattern>* ADD MONEY TO MY CARD *</pattern>
+<template><srai>ADD MONEY</srai></template></category>
+<category><pattern>ADD MONEY TO MY CARD *</pattern>
+<template><srai>ADD MONEY</srai></template></category>
+<category><pattern>* ADD MONEY TO MY CARD</pattern>
+<template><srai>ADD MONEY</srai></template></category>
+<category><pattern>ADD MONEY TO MY CARD</pattern>
+<template><srai>ADD MONEY</srai></template></category>
+<category><pattern>* PUT MONEY ON MY ID *</pattern>
+<template><srai>ADD MONEY</srai></template></category>
+<category><pattern>PUT MONEY ON MY ID *</pattern>
+<template><srai>ADD MONEY</srai></template></category>
+<category><pattern>* PUT MONEY ON MY ID</pattern>
+<template><srai>ADD MONEY</srai></template></category>
+<category><pattern>PUT MONEY ON MY ID</pattern>
+<template><srai>ADD MONEY</srai></template></category>
+<category><pattern>* ADD MONEY ON MY ID *</pattern>
+<template><srai>ADD MONEY</srai></template></category>
+<category><pattern>ADD MONEY ON MY ID *</pattern>
+<template><srai>ADD MONEY</srai></template></category>
+<category><pattern>* ADD MONEY ON MY ID</pattern>
+<template><srai>ADD MONEY</srai></template></category>
+<category><pattern>ADD MONEY ON MY ID</pattern>
+<template><srai>ADD MONEY</srai></template></category>
+<category><pattern>* ADD MONEY TO MY ID *</pattern>
+<template><srai>ADD MONEY</srai></template></category>
+<category><pattern>ADD MONEY TO MY ID *</pattern>
+<template><srai>ADD MONEY</srai></template></category>
+<category><pattern>* ADD MONEY TO MY ID</pattern>
+<template><srai>ADD MONEY</srai></template></category>
+<category><pattern>ADD MONEY TO MY ID</pattern>
+<template><srai>ADD MONEY</srai></template></category>
+<category><pattern>CAN I ADD MONEY TO MY ID CARD TO PRINT IN LANGSON LIBRARY</pattern>
+<template><srai>ADD MONEY</srai></template></category>
+<category><pattern>HOW DO I ADD MONEY TO MY CARD</pattern>
+<template><srai>ADD MONEY</srai></template></category>
+
+<category><pattern>BUY CARD</pattern>
+<template>Print cards can be purchased with a $1 bill at any regenerator.  The card costs $0.50 and $0.50 of credit is placed on the card. We have several videos, one for <a href=" http://www.lib.uci.edu/how/tutorials/PrintCopy/BuyAUCILibrariesCopyCard-ASL.mov" target="_blank">Ayala Science Library</a> and one for <a href=" http://www.lib.uci.edu/how/tutorials/PrintCopy/BuyAUCILibrariesCopyCard-LL.mov" target="_blank">Langson Library</a></template></category>
+<category><pattern>* MUCH TO BUY CARD *</pattern>
+<template><srai>BUY CARD</srai></template></category>
+<category><pattern>MUCH TO BUY CARD *</pattern>
+<template><srai>BUY CARD</srai></template></category>
+<category><pattern>* MUCH TO BUY CARD</pattern>
+<template><srai>BUY CARD</srai></template></category>
+<category><pattern>MUCH TO BUY CARD</pattern>
+<template><srai>BUY CARD</srai></template></category>
+<category><pattern>* MUCH IS A COPY CARD *</pattern>
+<template><srai>BUY CARD</srai></template></category>
+<category><pattern>MUCH IS A COPY CARD *</pattern>
+<template><srai>BUY CARD</srai></template></category>
+<category><pattern>* MUCH IS A COPY CARD</pattern>
+<template><srai>BUY CARD</srai></template></category>
+<category><pattern>MUCH IS A COPY CARD</pattern>
+<template><srai>BUY CARD</srai></template></category>
+<category><pattern>* MUCH IS A PRINT CARD *</pattern>
+<template><srai>BUY CARD</srai></template></category>
+<category><pattern>MUCH IS A PRINT CARD *</pattern>
+<template><srai>BUY CARD</srai></template></category>
+<category><pattern>* MUCH IS A PRINT CARD</pattern>
+<template><srai>BUY CARD</srai></template></category>
+<category><pattern>MUCH IS A PRINT CARD</pattern>
+<template><srai>BUY CARD</srai></template></category>
+<category><pattern>* BUY A CARD *</pattern>
+<template><srai>BUY CARD</srai></template></category>
+<category><pattern>BUY A CARD *</pattern>
+<template><srai>BUY CARD</srai></template></category>
+<category><pattern>* BUY A CARD</pattern>
+<template><srai>BUY CARD</srai></template></category>
+<category><pattern>BUY A CARD</pattern>
+<template><srai>BUY CARD</srai></template></category>
+<category><pattern>* BUY A COPY CARD *</pattern>
+<template><srai>BUY CARD</srai></template></category>
+<category><pattern>BUY A COPY CARD *</pattern>
+<template><srai>BUY CARD</srai></template></category>
+<category><pattern>* BUY A COPY CARD</pattern>
+<template><srai>BUY CARD</srai></template></category>
+<category><pattern>BUY A COPY CARD</pattern>
+<template><srai>BUY CARD</srai></template></category>
+<category><pattern>* BUY A PRINT CARD *</pattern>
+<template><srai>BUY CARD</srai></template></category>
+<category><pattern>BUY A PRINT CARD *</pattern>
+<template><srai>BUY CARD</srai></template></category>
+<category><pattern>* BUY A PRINT CARD</pattern>
+<template><srai>BUY CARD</srai></template></category>
+<category><pattern>BUY A PRINT CARD</pattern>
+<template><srai>BUY CARD</srai></template></category>
+
+<category><pattern>REGENERATOR</pattern>
+<template>Need to find a card refill station, check out this page for a list of locations: <a href=" http://www.lib.uci.edu/printing-copying?tab=2" target="_blank">Printing and Copying Locations</a></template></category>
+<category><pattern>* REGENERATOR *</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>REGENERATOR *</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>* REGENERATOR</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>* REGENERATORS *</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>REGENERATORS *</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>* REGENERATORS</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>REGENERATORS</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>* VALUE ADDING MACHINE *</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>VALUE ADDING MACHINE *</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>* VALUE ADDING MACHINE</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>VALUE ADDING MACHINE</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>* VALUE ADDING MACHINES *</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>VALUE ADDING MACHINES *</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>* VALUE ADDING MACHINES</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>VALUE ADDING MACHINES</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>* PUT MONEY ON MY CARD *</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>PUT MONEY ON MY CARD *</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>* PUT MONEY ON MY CARD</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>PUT MONEY ON MY CARD</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>* PUT MONEY ON MY ID *</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>PUT MONEY ON MY ID *</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>* PUT MONEY ON MY ID</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>PUT MONEY ON MY ID</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>* ADD MONEY TO MY ID *</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>ADD MONEY TO MY ID *</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>* ADD MONEY TO MY ID</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>ADD MONEY TO MY ID</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>* ADD MONEY TO MY CARD *</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>ADD MONEY TO MY CARD *</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>* ADD MONEY TO MY CARD</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>ADD MONEY TO MY CARD</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>PRINT DISPENSER</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>CARD REFILL STATION</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>* CARD REFILL STATION</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>CARD REFILL STATION *</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+<category><pattern>* CARD REFILL STATION *</pattern>
+<template><srai>REGRENERATOR</srai></template></category>
+
+<category><pattern>REFUND</pattern>
+<template>Credit, but not cash, refunds will be reviewed and given on a case-by-case basis. Visit the Langson Check Out Desk in the 2nd floor lobby during these <a href=" http://www.lib.uci.edu/hours" target="_blank">hours.</a></template></category>
+<category><pattern>* REFUND *</pattern>
+<template><srai>REFUND</srai></template></category>
+<category><pattern>REFUND *</pattern>
+<template><srai>REFUND</srai></template></category>
+<category><pattern>* REFUND</pattern>
+<template><srai>REFUND</srai></template></category>
+<category><pattern>REFUND</pattern>
+<template><srai>REFUND</srai></template></category>
+<category><pattern>* REFUNDS *</pattern>
+<template><srai>REFUND</srai></template></category>
+<category><pattern>REFUNDS *</pattern>
+<template><srai>REFUND</srai></template></category>
+<category><pattern>* REFUNDS</pattern>
+<template><srai>REFUND</srai></template></category>
+<category><pattern>REFUNDS</pattern>
+<template><srai>REFUND</srai></template></category>
+
+<!--END PRINT CARDS-->
+</aiml>

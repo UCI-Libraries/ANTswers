@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- General Subject Topics -->
+<!-- -->
+
+<category><pattern>FANTASY SPORTS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>.
+			For more resources check out the <a href=" http://guides.lib.uci.edu/databases" target="_blank">Databases to get you started Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>YOGA</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>VIDEO GAMES</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>* VIDEO GAMES</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>GLOBAL WARMING</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>GREEN CITIES</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>INTERNET CENSORSHIP</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>CYBER BULLYING</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>GENDER AND GAMING</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>GAMING</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>FEMINISM AND VIDEO GAMES</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>SEX DISCRIMINATION</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>SUGAR AND OBESITY</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>OUTDOOR TRENDS</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>INDO*AMERICANS</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>GAY RIGHTS</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>RACISM</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>FACTORY MEAT</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>SOCIAL MEDIA AND POLITICS</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>DEEP LEARNING</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>ARTIFICIAL INTELLIGENCE</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>DIGITAL LITERACY</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>MACHINING SKILLS</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>TEXT EDITOR FORMATTING</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>CAPITAL PUNISHMENT</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>EXERCISE BENEFITS</pattern> 
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>MUGHAL PAINTING</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>INFOMERCIALS</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>CALIFORNIA VOTERS</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>GAME DESIGN</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>APARTHEID</pattern> 
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>BAN THE BOX</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>TIME ZONES</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>BOAT PEOPLE</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>* BOAT PEOPLE</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>BOAT</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>VIETNAMESE</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>VIETNAMESE BOATPEOPLE</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>EXCLUSIONARY ZONING</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>RACE DISCRIMINATION LAWS</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>HISTORY OF ZONING</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+<category><pattern>HOMELESSNESS</pattern>
+<template><srai>FANTASY SPORTS</srai></template></category>
+
+<category><pattern>APPLICATIONS OF CYANIDE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>.
+			For more resources check out the <a href=" http://guides.lib.uci.edu/databases" target="_blank">Databases to get you started Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>APPLICATIONS OF CN</pattern>
+<template><srai>APPLICATIONS OF CYANIDE</srai></template></category>
+	
+</aiml>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- ASTRONOMY -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>ASTRONOMY *</pattern>
+	<template><think><set name="topic">astronomy</set></think><sr /></template></category>
+
+<category><pattern>ASTRONOMY</pattern>	
+	<template>For resources on astronomy check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a>  
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Interactions -->
+
+<category><pattern>ASTRONOMY</pattern>
+	<that>Astrogeology as a subject is included in the broader subjects of Astronomy and Earth Science Would you like resource recommendations for astronomy or earth science_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a> 
+	and/or <a href=" http://uclibs.org/PID/16251" target="_blank">GeoRef</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>ASTRONOMY</pattern>
+	<that>Astronautics as a subject is included in the broader subjects of Astronomy and Earth Science Would you like resource recommendations for astronomy or earth science_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+	and/or <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>ASTRONOMY</pattern>
+	<that>Astrophysics as a subject is included in the broader subjects of Astronomy and Physics Would you like resource recommendations for astronomy or physics_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a> 
+	and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>ASTRONOMY</pattern>
+	<that>Cosmic physics as a subject is included in the broader subjects of Astronomy and Physics Would you like resource recommendations for astronomy or physics_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a> 
+	and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>ASTRONOMY</pattern>
+	<that>Cosmochemistry as a subject is included in the broader subjects of Astronomy and Chemistry Would you like resource recommendations for astronomy or chemistry_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a> 
+	and/or <a href=" http://uclibs.org/PID/16251" target="_blank">GeoRef</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>	
+
+<category><pattern>ASTRONOMY</pattern>
+	<that>Extraterrestrial anthropology as a subject is included in the broader subjects of Anthropology and Astronomy Would you like resource recommendations for anthropology or astronomy_</that>	
+	<template>We would recommend that you start your search with <a href=" http://eaa.iop.org/" target="_blank">Encyclopedia of Astronomy and Astrophysics</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>ASTRONOMY</pattern>
+	<that>Outer space as a subject is included in the broader subjects of Aerospace Engineering and Astronomy Would you like resource recommendations for aerospace engineering or astronomy_</that>
+	<template>We would recommend that you start your search with <a href=" http://eaa.iop.org/" target="_blank">Encyclopedia of Astronomy and Astrophysics</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>	
+
+<category><pattern>ASTRONOMY</pattern>
+	<that>Space and Time as a subject is included in the broader subjects of Astronomy and Philosophy Would you like resource recommendations for astronomy or philosophy_</that>
+	<template>We would recommend that you start your search with <a href=" http://eaa.iop.org/" target="_blank">Encyclopedia of Astronomy and Astrophysics</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>ASTRONOMY</pattern>
+	<that>Space medicine as a subject is included in the broader subjects of Astronomy and Medicine Would you like resource recommendations for astronomy or medicine_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">Pubmed</a> 
+	and/or <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<!-- Subject keywords-->
+
+<category><pattern>SPHERICAL ASTRONOMY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://eaa.iop.org/" target="_blank">Encyclopedia of Astronomy and Astrophysics</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>ZENITH DISTANCE</pattern>
+<template><srai>SPHERICAL ASTRONOMY</srai></template></category>
+<category><pattern>ZODIACAL LIGHT</pattern>
+<template><srai>SPHERICAL ASTRONOMY</srai></template></category>	
+<category><pattern>PLANISPHERES</pattern>
+<template><srai>SPHERICAL ASTRONOMY</srai></template></category>
+<category><pattern>PLURALITY OF WORLDS</pattern>
+<template><srai>SPHERICAL ASTRONOMY</srai></template></category>
+<category><pattern>SEASONS</pattern>
+<template><srai>SPHERICAL ASTRONOMY</srai></template></category>
+<category><pattern>SKY</pattern>
+<template><srai>SPHERICAL ASTRONOMY</srai></template></category>
+<category><pattern>SOUTHERN SKY</pattern>
+<template><srai>SPHERICAL ASTRONOMY</srai></template></category>
+
+<category><pattern>GALAXIES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a> 
+			and/or <a href=" http://adsabs.harvard.edu/ads_abstracts.html" target="_blank">Astrophysics Data System</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>GAMMA RAY ASTRONOMY</pattern>
+<template><srai>GALAXIES</srai></template></category>
+<category><pattern>INFRARED ASTRONOMY</pattern>
+<template><srai>GALAXIES</srai></template></category>
+<category><pattern>SPACE ASTRONOMY</pattern>
+<template><srai>GALAXIES</srai></template></category>
+<category><pattern>SPACE OPTICS</pattern>
+<template><srai>GALAXIES</srai></template></category>
+<category><pattern>STATISTICAL ASTRONOMY</pattern>
+<template><srai>GALAXIES</srai></template></category>
+<category><pattern>TRANSITS</pattern>
+<template><srai>GALAXIES</srai></template></category>
+<category><pattern>ULTRAVIOLET ASTRONOMY</pattern>
+<template><srai>GALAXIES</srai></template></category>
+<category><pattern>X RAY ASTRONOMY</pattern>
+<template><srai>GALAXIES</srai></template></category>
+<category><pattern>X RAY</pattern>
+<template><srai>GALAXIES</srai></template></category>
+
+<category><pattern>METEORS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a> 
+			and/or <a href=" http://uclibs.org/PID/16251" target="_blank">GeoRef</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>GEODESY</pattern>
+<template><srai>METEORS</srai></template></category>
+
+<category><pattern>CALENDAR</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://eaa.iop.org/" target="_blank">Encyclopedia of Astronomy and Astrophysics</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>COSMOLOGICAL DISTANCES</pattern>
+<template><srai>CALENDAR</srai></template></category>
+<category><pattern>ETHER</pattern>
+<template><srai>CALENDAR</srai></template></category>
+<category><pattern>INDIAN ASTRONOMY</pattern>
+<template><srai>CALENDAR</srai></template></category>
+<category><pattern>LARGE SCALE STRUCTURE</pattern>
+<template><srai>CALENDAR</srai></template></category>
+<category><pattern>METEORITIC HYPOTHESIS</pattern>
+<template><srai>CALENDAR</srai></template></category>
+<category><pattern>NAUTICAL ALMANACS</pattern>
+<template><srai>CALENDAR</srai></template></category>
+<category><pattern>NUTATION</pattern>
+<template><srai>CALENDAR</srai></template></category>
+<category><pattern>OLBERS PARADOX</pattern>
+<template><srai>CALENDAR</srai></template></category>
+
+<category><pattern>ASTRONAUTICS IN ASTRONOMY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+			and/or <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>RADAR IN ASTRONOMY</pattern>
+<template><srai>ASTRONAUTICS IN ASTRONOM</srai></template></category>
+<category><pattern>RADIO ASTRONOMY</pattern>
+<template><srai>ASTRONAUTICS IN ASTRONOM</srai></template></category>
+<category><pattern>TELEVISION IN ASTRONOMY</pattern>
+<template><srai>ASTRONAUTICS IN ASTRONOM</srai></template></category>
+
+<category><pattern>SPACE BIOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/100004" target="_blank">BIOSIS</a> 
+			and/or <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>ASTRONOMICAL</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>NORTHERN SKY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://eaa.iop.org/" target="_blank">Encyclopedia of Astronomy and Astrophysics</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>WOMEN IN ASTRONOMY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> 
+			and/or <a href=" http://guides.lib.uci.edu/history" target="_blank">History Research Guide</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+
+<category><pattern>COSMOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://adsabs.harvard.edu/ads_abstracts.html" target="_blank">Astrophysics Data System</a> 
+			and/or <a href=" http://www.arxiv.org/" target="_blank">arXiv</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>SPITZER</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://adsabs.harvard.edu/ads_abstracts.html" target="_blank">Astrophysics Data System</a> 
+			and/or <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>EXOPLANET</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://eaa.iop.org/" target="_blank">Encyclopedia of Astronomy and Astrophysics</a> 
+			and/or <a href=" http://adsabs.harvard.edu/ads_abstracts.html" target="_blank">Astrophysics Data System</a> . 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>NEUTRON STAR</pattern>
+<template><srai>EXOPLANET</srai></template></category>
+<category><pattern>ACCRETION DISK</pattern>
+<template><srai>EXOPLANET</srai></template></category>
+<category><pattern>EXTRASOLAR PLANET</pattern>
+<template><srai>EXOPLANET</srai></template></category>
+<category><pattern>ASTROMETRY</pattern>
+<template><srai>EXOPLANET</srai></template></category>
+<category><pattern>PULSAR</pattern>
+<template><srai>EXOPLANET</srai></template></category>
+<category><pattern>NOVA</pattern>
+<template><srai>EXOPLANET</srai></template></category>
+<category><pattern>MOLECULAR GAS</pattern>
+<template><srai>EXOPLANET</srai></template></category>
+<category><pattern>INTERGALACTIC MEDIUM</pattern>
+<template><srai>EXOPLANET</srai></template></category>
+<category><pattern>IGM</pattern>
+<template><srai>EXOPLANET</srai></template></category>
+<category><pattern>HERSCHEL</pattern>
+<template><srai>EXOPLANET</srai></template></category>
+<category><pattern>PLANCK</pattern>
+<template><srai>EXOPLANET</srai></template></category>
+<category><pattern>ECLIPSING BINARY</pattern>
+<template><srai>EXOPLANET</srai></template></category>
+<category><pattern>GRAVITATIONAL WAVES</pattern>
+<template><srai>EXOPLANET</srai></template></category>
+<category><pattern>MICROLENSING</pattern>
+<template><srai>EXOPLANET</srai></template></category>
+
+<category><pattern>ASTROLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you take a look at the <a href=" http://guides.lib.uci.edu/history" target="_blank">History Research Guide</a> 
+			and/or the <a href=" http://guides.lib.uci.edu/religious_studies" target="_blank">Religious Studies Research Guide</a> . 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+</aiml>

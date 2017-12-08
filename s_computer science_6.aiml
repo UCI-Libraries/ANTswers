@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- computer Science -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>COMPUTER SCIENCE *</pattern> 
+	<template><think><set name="topic">COMPUTER SCIENCE</set></think><sr /></template></category>
+	
+<category><pattern>COMPUTER SCIENCE</pattern>	
+	<template>For resources on computer science check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Interactions -->
+	
+<category><pattern>COMPUTER SCIENCE</pattern>
+	<that>Computer art as a subject is included in the broader subjects of Contemporary Art and Computer Science Would you like resource recommendations for contemporary art or computer science_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/6940" target="_blank">IEEE Xplore</a> 
+	and/or <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>		
+	
+<category><pattern>COMPUTER SCIENCE</pattern>
+	<that>Computer crimes as a subject is included in the broader subjects of Computer Science and Criminology Would you like resource recommendations for computer science or criminology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+	and/or <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>		
+
+<category><pattern>COMPUTER SCIENCE</pattern>
+	<that>Computer music as a subject is included in the broader subjects of Computer Science and Music Would you like resource recommendations for computer science or music_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/6940" target="_blank">IEEE Xplore</a> 
+	and/or <a href=" http://www.rilm.org/aboutUs/" target="_blank">RILM</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>		
+	
+<!-- Subject keywords-->	
+	
+<category><pattern>AIRBORNE COMPUTERS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+	and/or <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+
+<category><pattern>COMPUTER ADVENTURE GAMES</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> 
+	and/or <a href=" http://uclibs.org/PID/126938" target="_blank">Business Source Complete</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+	
+<category><pattern>COMPUTERS AND LITERACY</pattern> 
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> 
+	and/or <a href=" http://uclibs.org/PID/126938" target="_blank">Business Source Complete</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+	
+<category><pattern>CERTIFICATION OF COMPUTER TECHNICIANS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> 
+	and/or <a href=" http://uclibs.org/PID/6940" target="_blank">IEEE Xplore</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+
+<category><pattern>COMPUTER HACKERS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> 
+	and/or <a href=" http://uclibs.org/PID/33109" target="_blank">Safari Books Online</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+
+<category><pattern>COMPUTERS AND CIVILIZATION</pattern> 
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> 
+	and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>		
+<category><pattern>SEXISM IN VIDEO GAMES</pattern>
+<template><srai>COMPUTERS AND CIVILIZATION</srai></template></category>	
+
+<category><pattern>USED COMPUTERS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+	
+<category><pattern>DECLARATIVE PROGRAMMING</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" https://dl.acm.org/dl.cfm" target="_blank">ACM Digital Library</a>. 
+	and/or <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+	
+<category><pattern>COMPUTER INDUSTRY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://www.plunkettresearchonline.com/" target="_blank">Plunketts Online Research</a>. 
+	and/or <a href=" http://uclibs.org/PID/126938" target="_blank">Business Source Complete</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+
+<category><pattern>COMMAND AND CONTROL SYSTEMS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a>. 
+	and/or <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+<category><pattern>MICROCOMPUTERS</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>HYBRID COMPUTERS</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+	
+<category><pattern>COMPUTATION LABORATORIES</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/6940" target="_blank">IEEE Xplore</a>  
+	and/or <a href=" http://www.biosis.com.au/" target="_blank">BIOSIS</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>EVOLUTIONARY PROGRAMMING</pattern>
+<template><srai>COMPUTATION LABORATORIES</srai></template></category>
+
+<category><pattern>COMPUTER AND WOMEN</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/6940" target="_blank">IEEE Xplore</a>  
+	and/or <a href=" https://dl.acm.org/dl.cfm" target="_blank">ACM Digital Library</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>COMPUTER SCIENTISTS</pattern>
+<template><srai>COMPUTER AND WOMEN</srai></template></category>
+
+<category><pattern>COMPUTER ENGINEERING</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/6940" target="_blank">IEEE Xplore</a>  
+	and/or <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>COMPUTER ENGINEERS</pattern>
+<template><srai>COMPUTER ENGINEERING</srai></template></category>
+<category><pattern>PROGRAMMING ROBOTS</pattern> 
+<template><srai>COMPUTER ENGINEERING</srai></template></category>
+
+<category><pattern>CASCADING STYLE SHEETS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/6940" target="_blank">IEEE Xplore</a>  
+	and/or <a href=" http://uclibs.org/PID/126938" target="_blank">Business Source Complete</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>COMPUTER GAMES</pattern> 
+<template><srai>CASCADING STYLE SHEETS</srai></template></category>
+
+<category><pattern>COMPUTER MANAGED INSTRUCTION</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/6940" target="_blank">IEEE Xplore</a>  
+	and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>COMPUTER ASSISTED INSTRUCTION</pattern> 
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" https://dl.acm.org/dl.cfm" target="_blank">ACM Digital Library</a>  
+	and/or <a href=" http://uclibs.org/PID/37518" target="_blank">Education Source</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>WEB SITE DEVELOPMENT</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://aisel.aisnet.org/" target="_blank">AISeL Digital Library</a>  
+	and/or <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>DESIGN OF WEB SITES</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://aisel.aisnet.org/" target="_blank">AISeL Digital Library</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>FLUIDIC COMPUTERS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://www.biosis.com.au/" target="_blank">BIOSIS</a>  
+	and/or <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>COMPUTER FIRMWARE</pattern> 
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126938" target="_blank">Business Source Complete</a>  
+	and/or <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>COMPUTERS AND PEOPLE WITH DISABILITIES</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a>  
+	and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>LINUX</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a>  
+	and/or <a href=" https://dl.acm.org/dl.cfm" target="_blank">ACM Digital Library</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>CYBERSPACE</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>MOLECULAR COMPUTERS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" https://www.scopus.com" target="_blank">Scopus</a> 
+	and/or <a href=" http://uclibs.org/PID/6940" target="_blank">IEEE Xplore</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>COMPUTER PROGRAMMERS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/33109" target="_blank">Safari Books Online</a> 
+	and/or <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>COMPUTER PROGRAMMING</pattern>
+<template><srai>COMPUTER PROGRAMMERS</srai></template></category>
+<category><pattern>JAVA</pattern> 
+<template><srai>COMPUTER PROGRAMMERS</srai></template></category>
+<category><pattern>JAVASCRIPT</pattern> 
+<template><srai>COMPUTER PROGRAMMERS</srai></template></category>
+<category><pattern>MAINTENANCE AND REPAIR OF MICROCOMPUTERS</pattern> 
+<template><srai>COMPUTER PROGRAMMERS</srai></template></category>
+<category><pattern>RUBY</pattern> 
+<template><srai>COMPUTER PROGRAMMERS</srai></template></category>
+<category><pattern>SQL</pattern> 
+<template><srai>COMPUTER PROGRAMMERS</srai></template></category>
+
+<category><pattern>COMPUTERS AND CHILDREN</pattern> 
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a> 
+	and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+<category><pattern>VIDEO GAME STEREOTYPING</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+
+<category><pattern>PERL</pattern> 
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/33109" target="_blank">Safari Books Online</a> 
+	and/or <a href=" http://uclibs.org/PID/6940" target="_blank">IEEE Xplore</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+<category><pattern>PHP</pattern> 
+<template><srai>PERL</srai></template></category>
+<category><pattern>PYTHON</pattern> 
+<template><srai>PERL</srai></template></category>
+
+<category><pattern>C++</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/33109" target="_blank">Safari Books Online</a> 
+	and/or <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+
+<category><pattern>VIDEOGAMES AND THERAPY</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a> 
+	and/or <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+
+<category><pattern>DATA RECOVERY</pattern> 
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/6940" target="_blank">IEEE Xplore</a> 
+	and/or <a href=" http://uclibs.org/PID/33109" target="_blank">Safari Books Online</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+<category><pattern>XHTML</pattern>
+<template><srai>DATA RECOVERY</srai></template></category>
+<category><pattern>HTML</pattern>
+<template><srai>DATA RECOVERY</srai></template></category>
+
+<category><pattern>AUTOMATIC PROGRAMMING</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/6940" target="_blank">IEEE Xplore</a> 
+	and/or <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_computer_science" target="_blank">Computer Science Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+<category><pattern>CODING THEORY</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>COMPUTER ANIMATION</pattern> 
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>COMPUTER ARCHITECTURE</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>COMPUTER FILES</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>PROGRAMMING COMPUTER GAMES</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>COMPUTER GRAPHICS</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>COMPUTER INTERFACES</pattern> 
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>COMPUTER LITERACY</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>COMPUTER LOGIC</pattern> 
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>COMPUTER NETWORKS</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>COMPUTER PROGRAMMING MANAGEMENT</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>COMPUTER PROGRAMS</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>COMPUTER SCIENCE</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>COMPUTER SECURITY</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>COMPUTER SIMULATION</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>COMPUTER SOFTWARE</pattern> 
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>COMPUTER SYSTEMS</pattern> 
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>COMPUTER USERS</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>COMPUTER AIDED DESIGN</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>COMPUTER AIDED ENGINEERING</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>COMPUTER AIDED SOFTWARE ENGINEERING</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>PROGRAMMING OF COMPUTER ASSISTED INSTRUCTION</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>COMPUTERS</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>COMPUTER MAINTENANCE</pattern> 
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>COMPUTER REPAIR</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>OPTICAL COMPUTERS</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>PIPELINE COMPUTERS</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>COMPUTERS, SPECIAL PURPOSE</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>CONSTRAINT PROGRAMMING</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>CORRELATORS</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>DIVE COMPUTERS</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>ELECTRONIC ANALOG COMPUTERS</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>PROGRAMMING OF ELECTRONIC ANALOG COMPUTERS</pattern> 
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>ELECTRONIC DATA PROCESSING</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>ELECTRONIC DIGITAL COMPUTERS</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>PROGRAMMING OF ELECTRONIC DIGITAL COMPUTERS</pattern> 
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>PROGRAMMING OF EMBEDDED COMPUTER SYSTEMS</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>FIFTH GENERATION COMPUTERS</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>FIREWALLS</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>FOURTH GENERATION COMPUTERS</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>FUNCTIONAL PROGRAMMING</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>GENETIC PROGRAMMING</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>PROGRAMMING OF HYBRID COMPUTERS</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>INFORMATION STORAGE AND RETRIEVAL SYSTEMS</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>INTERNET PROGRAMMING</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>LOCAL AREA NETWORKS</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>LOGIC PROGRAMMING</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>MACHINE TOOLS</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>MICROSOFT VISUAL BASIC</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>MIMD COMPUTERS</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>PROGRAMMING OF MINICOMPUTERS</pattern> 
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>MULTITASKING</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>OBJECT ORIENTED PROGRAMMING</pattern>	
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>PARALLEL PROGRAMMING</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>PUNCHED CARD SYSTEMS</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>REAL TIME PROGRAMMING</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>REDUCED INSTRUCTION SET COMPUTERS</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>RULE BASED PROGRAMMING</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>SOFTWARE COMPATIBILITY</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>SYSTEMS PROGRAMMING</pattern> 
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>TURNKEY COMPUTER SYSTEMS</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>VBSCRIPT</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>VISUAL PROGRAMMING</pattern> 
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>WEB PUBLISHING</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+<category><pattern>WEB SERVERS</pattern>
+<template><srai>AUTOMATIC PROGRAMMING</srai></template></category>
+
+</aiml>

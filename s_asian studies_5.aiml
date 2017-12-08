@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- ASIAN STUDIES -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>ASIAN STUDIES *</pattern>
+	<template><think><set name="topic">asian studies</set></think><sr /></template></category>
+		
+<category><pattern>ASIAN STUDIES</pattern>	
+	<template>For resources on Asian studies check out the <a href=" http://guides.lib.uci.edu/asian_studies" target="_blank">Asian Studies Research Guide</a>   
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Subject keywords-->
+	
+<category><pattern>STUDY OF LANGUAGES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/271" target="_blank">Bibliography of Asian Studies</a> 
+			and/or <a href=" http://uclibs.org/PID/83591" target="_blank">MLA International Bibliography</a>. 
+			and/or <a href=" http://uclibs.org/PID/271923" target="_blank">JSTOR</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/asian_studies" target="_blank">Asian Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+ 
+<category><pattern>STUDY OF LITERATURE</pattern>
+<template><srai>STUDY OF LANGUAGES</srai></template></category>
+
+<category><pattern>EAST ASIA</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/271" target="_blank">Bibliography of Asian Studies</a> 
+			and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/asian_studies" target="_blank">Asian Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+	
+<category><pattern>STUDY OF ARTS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/271" target="_blank">Bibliography of Asian Studies</a> 
+			and/or <a href=" http://uclibs.org/PID/33002" target="_blank">Art Source</a>. 
+			and/or <a href=" http://uclibs.org/PID/44518" target="_blank">ARTstor</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/asian_studies" target="_blank">Asian Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+	
+<category><pattern>JAPAN</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/271" target="_blank">Bibliography of Asian Studies</a> 
+			and/or <a href=" http://ci.nii.ac.jp/en/" target="_blank">CiNii</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/asian_studies" target="_blank">Asian Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+	
+<category><pattern>CHINA</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/271" target="_blank">Bibliography of Asian Studies</a> 
+			and/or <a href=" http://edu.duxiu.com/" target="_blank">Duxiu</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/asian_studies" target="_blank">Asian Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+
+<category><pattern>CHINESE HISTORY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/271" target="_blank">Bibliography of Asian Studies</a> 
+			and/or <a href=" http://search.proquest.com/hnpchinesecollection/advanced" target="_blank">Chinese Newspaper Collection (1832-1953)</a>. 
+			and/or <a href=" http://www.hathitrust.org/" target="_blank">HathiTrust</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/asian_studies" target="_blank">Asian Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+
+	<category><pattern>STUDY OF ECONOMICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/271" target="_blank">Bibliography of Asian Studies</a> 
+			and/or <a href=" http://uclibs.org/PID/153161" target="_blank">EconLit</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/asian_studies" target="_blank">Asian Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+
+<category><pattern>STUDY OF ASIAN HISTORY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/271" target="_blank">Bibliography of Asian Studies</a> 
+			and/or <a href=" http://uclibs.org/PID/12775" target="_blank">Historical Abstracts</a>. 
+			and/or <a href=" http://uclibs.org/PID/271923" target="_blank">JSTOR</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/asian_studies" target="_blank">Asian Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+
+<category><pattern>FILM STUDIES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/271" target="_blank">Bibliography of Asian Studies</a> 
+			and/or <a href=" http://uclibs.org/PID/105490" target="_blank">International Index to Film Periodicals</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/asian_studies" target="_blank">Asian Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+
+<category><pattern>STUDY OF ASIAN CULTURE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/271" target="_blank">Bibliography of Asian Studies</a> 
+			and/or <a href=" http://uclibs.org/PID/1980" target="_blank">JSTOR</a>. 
+			and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/asian_studies" target="_blank">Asian Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>		
+
+<category><pattern>KOREA</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/271" target="_blank">Bibliography of Asian Studies</a> 
+			and/or <a href=" http://intl.riss4u.net/" target="_blank">RISS International</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/asian_studies" target="_blank">Asian Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>STUDY OF SOCIOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/271" target="_blank">Bibliography of Asian Studies</a> 
+			and/or <a href=" http://uclibs.org/PID/16254" target="_blank">Sociological Abstracts</a>. 
+			and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/asian_studies" target="_blank">Asian Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+
+<category><pattern>ASIAN WOMEN STUDIES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/271" target="_blank">Bibliography of Asian Studies</a> 
+			and/or <a href=" http://uclibs.org/PID/16677" target="_blank">Women's Studies International</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/asian_studies" target="_blank">Asian Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+
+<category><pattern>STUDY OF POLITICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/271" target="_blank">Bibliography of Asian Studies</a> 
+			and/or <a href=" http://uclibs.org/PID/99693" target="_blank">Worldwide Political Science Abstracts</a>. 
+			and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/asian_studies" target="_blank">Asian Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>		
+	
+<category><pattern>STUDY OF ENVIRONMENT</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/271" target="_blank">Bibliography of Asian Studies</a> 
+			and/or <a href=" https://search.proquest.com/espm/advanced/science/fromDatabasesLayer?accountid=14509" target="_blank">Environmental Sciences and Pollution Management?</a>. 
+			and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/asian_studies" target="_blank">Asian Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>		
+
+</aiml>

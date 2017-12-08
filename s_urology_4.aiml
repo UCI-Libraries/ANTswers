@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- UROLOGY -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>UROLOGY *</pattern> 
+	<template><think><set name="topic">urology</set></think><sr /></template></category>
+	
+<category><pattern>UROLOGY</pattern>	
+	<template>For resources on urology check out the <a href=" http://guides.lib.uci.edu/urology" target="_blank">Urology Subject Guide Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Interactions -->
+
+<category><pattern>UROGYNECOLOGY</pattern>
+	<that>Urological nursing as a subject is included in the broader subjects of Nursing and Urology Would you like resource recommendations for nursing or urology_</that>
+	<template>We would recommend that you start your search with <a href=" http://accesssurgery.mhmedical.com/" target="_blank">AccessSurgery</a> 
+	and/or <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/urology" target="_blank">Urology Subject Guide Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>	
+	
+<!-- Subject keywords-->
+
+<category><pattern>UROGYNECOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://accesssurgery.mhmedical.com/" target="_blank">AccessSurgery</a> 
+			and/or <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/urology" target="_blank">Urology Subject Guide Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>ANESTHESIA IN UROLOGY</pattern>
+<template><srai>UROGYNECOLOGY</srai></template></category>
+<category><pattern>GENITOURINARY ORGANS -- DISEASES</pattern>
+<template><srai>UROGYNECOLOGY</srai></template></category>
+<category><pattern>GERIATRIC UROLOGY</pattern>
+<template><srai>UROGYNECOLOGY</srai></template></category>
+<category><pattern>PEDIATRIC UROLOGY</pattern>
+<template><srai>UROGYNECOLOGY</srai></template></category>
+<category><pattern>RADIOISOTOPES IN UROLOGY</pattern>
+<template><srai>UROGYNECOLOGY</srai></template></category>
+<category><pattern>URINARY ORGANS -- DISEASES</pattern>
+<template><srai>UROGYNECOLOGY</srai></template></category>
+<category><pattern>VETERINARY UROLOGY</pattern>
+<template><srai>UROGYNECOLOGY</srai></template></category>
+	
+</aiml>

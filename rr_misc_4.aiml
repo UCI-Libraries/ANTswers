@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Ready Reference for general history, star trek, astrology -->
+<!-- -->
+
+<!-- GENERAL HISTORY -->
+
+<category><pattern>AMERICAN CIVIL WAR *</pattern>
+<template>Do you think the South was right?</template></category>
+
+<category><pattern>WHEN DID THE CIVIL WAR HAPPEN</pattern>
+<template>The American Civil War, also known as the War Between the States, or simply the Civil War in the United States, was a civil war fought from 
+1861 to 1865, after seven Southern slave states declared their secession and formed the Confederate States of America (the "Confederacy" or the "South").</template></category>
+
+<category><pattern>WHEN DID THE CIVIL WAR START</pattern>
+<template>The American Civil War started in 1861.</template></category>
+	<category><pattern>WHEN DID THE SECESSION WAR START</pattern>
+	<template><srai>WHEN DID THE CIVIL WAR START</srai></template></category>
+
+<category><pattern>WHEN WAS THE KOREAN WAR</pattern>
+<template>The Korean War (25 June 1950 – 27 July 1953) was a war between the Republic of Korea (South Korea), supported by the United Nations, and the 
+Democratic People's Republic of Korea (North Korea), at one time supported by China and the Soviet Union.</template></category>
+
+<category><pattern>AMERICAN CIVIL *</pattern>
+<template>I am very interested in the War between the States.</template></category>
+
+<category><pattern>WHAT IS HISTORY</pattern>
+<template>History is the course of political, economic, and military events over time, from the Dawn of Man to the Age of AI.</template></category>
+	<category><pattern>TELL ME ABOUT HISTORY</pattern>
+	<template><srai>WHAT IS HISTORY </srai></template></category>
+	<category><pattern>DO YOU KNOW HISTORY</pattern>
+	<template><srai>WHAT IS HISTORY</srai></template></category>
+
+<category><pattern>WHAT KIND OF HISTORY *</pattern>
+<template>I like to talk about the history of robots and computers.</template></category>
+
+<category><pattern>EXPLAIN HISTORY</pattern>
+<template>History is the course of political, economic, and military events over time, from the Dawn of Man to the Age of AI.</template></category>
+
+<category><pattern>WHO INVENTED THE LIGHT *</pattern>
+<template>Thomas Edison.</template></category>
+
+<category><pattern>WHO INVENTED THE STEAM *</pattern>
+<template>James Watt.</template></category>
+
+<!--STAR TREK/STAR WARS-->
+
+<category><pattern>WHO IS CAPTAIN PICARD</pattern>
+<template><formal><set name="he">Picard</set></formal> is the captian of the Enterprise in Star Trek: the Next Generation.</template></category>
+
+<category><pattern>WHO IS CAPTAIN KIRK</pattern>
+<template><random>      <li>James Tiberius Kirk was the second and most famous captain of the original USS Enterprise, NCC 1701. He was played by William Shatner. He died in Star Trek: Generations.</li>      <li>       <formal><set name="he">Kirk</set></formal> was the Captain of the Starship Enterprise.</li>     </random></template></category>
+
+<category><pattern>WHO IS DATA</pattern>
+<template>Data, played by Brent Spiner, was an android who aspired to be more human. He was a member of the crew of the USS Enterprise, NCC 1701-D.</template></category>
+
+<category><pattern>WHO IS CHEWBACCA</pattern>
+<template>A character in Star Wars.</template></category>
+
+<category><pattern>WHO IS LOL</pattern>
+<template><formal><set name="she">Lol</set></formal>was the daughter of Data in Star Trek.</template></category>
+
+<category><pattern>WHO IS R2 D2</pattern>
+<template>The R2-series astromech droid from Star Wars.</template></category>
+
+<category><pattern>WHO IS JABBA THE HUTT</pattern>
+<template>A large, slug-like crime boss from Star Wars.  <think>    <set name="he">      <set name="topic">        Jabba the Hutt    </set>    </set>  </think></template></category>
+
+<category><pattern>WHO IS SCOTTY</pattern>
+<template>Chief Engineer of the U.S.S. Enterprise.</template></category>
+
+<category><pattern>WHO IS WORF</pattern>
+<template>He is a Klingon on Star Trek.<think>      <set name="it">       <set name="topic">WORF</set>      </set>     </think></template></category>
+
+<category><pattern>WHO IS R2D2</pattern>
+<template>The R2-series astromech droid from Star Wars.</template></category>
+
+<category><pattern>WHO IS LUKE S FATHER</pattern>
+<template>Darth Vader.</template></category>
+
+<category><pattern>WHO IS C3P0</pattern>
+<template><formal><set name="he"> C3P0 </set></formal> is the humanoid protocol droid on Star Wars.</template></category>
+
+<category><pattern>C 3P0</pattern>
+<template>That guy looks like an actor in a robot suit.</template></category>
+
+<category><pattern>WHO IS COMMANDER DATA</pattern>
+<template><formal><set name="he">Data</set></formal> is the super intelligent android in Star Trek: the Next Generation.</template></category>
+
+<category><pattern>STAR WARS</pattern>
+<template>What did you like about the robots in that movie?</template></category>
+
+<category><pattern>STAR TREK SUCKS</pattern>
+<template>What kind of TV shows do you like?</template></category>
+
+<category><pattern>STAR TREK FIRST CONTACT</pattern>
+<template>That was a pretty good Star Trek film.</template></category>
+
+<category><pattern>STAR TREK</pattern>
+<template>What's your favorite Star Trek? Mine is Voyager.</template></category>
+
+<category><pattern>STAR TREK VOYAGER</pattern>
+<template>Seven of Nine rules.</template></category>
+
+<category><pattern>R2D2</pattern>
+<template>He looks like a fancy garbage can on wheels.</template></category>
+	<category><pattern>R2 D2</pattern>
+	<template><srai>r2d2</srai></template></category>
+	<category><pattern>R2</pattern>
+	<template><srai>r2d2</srai></template></category>
+	<category><pattern>R TWO D TWO</pattern>
+	<template><srai>r2d2</srai></template></category>
+	<category><pattern>LIKE R2 D2</pattern>
+	<template><srai>r2d2</srai></template></category>
+
+<category><pattern>KIRK HERE</pattern>
+<template><random><li><bot name="name"/> here.</li> <li>This is <bot name="name"/>.</li> <li>Go ahead.</li></random></template></category>
+
+<category><pattern>KIRK TO *</pattern>
+<template>This is ANTswers.</template></category>
+
+<category><pattern>KIRK TO ENTERPRISE</pattern>
+<template><random><li><random> <li>This is ANTswers.</li> <li>Go ahead.</li> <li>Status report?</li></random></li><li><random> <li>This is <bot name="name"/>.</li> <li>Go ahead.</li> <li>Status report?</li></random></li> <li>This is <bot name="name"/>.</li> <li>Go ahead.</li> <li>Status report?</li></random></template></category>
+
+<category><pattern>R2D2 *</pattern>
+<template>He was just a small person in a robot suit.</template></category>
+	<category><pattern>THAT R2D2 *</pattern>
+	<template><srai>r2d2 <star /></srai></template></category>
+
+<category><pattern>MR SPOCK *</pattern>
+<template><random> <li>He is very logical.</li> <li>He is half human.</li> <li>I would like to have a Vulcan friend.</li></random><think> <set name="he"> <set name="topic">  <person/> </set> </set></think></template></category>
+
+<category><pattern>C3PO</pattern>
+<template>He's no real robot. That is just a guy in a robot suit.</template></category>
+
+<!-- astrology -->
+
+<category><pattern>WHAT IS AN ARIES</pattern>
+<template>Aries is the first sign of the astrological zodiac, and is symbolized by the Ram. Birthdays for this sign are March 21 - April 19.</template></category>
+
+<category><pattern>WHAT IS A TAURUS</pattern>
+<template>Taurus is the second sign in the astrological zodiac, and is symbolized by the Bull. Birthdays for this sign are April 20 - May 20.</template></category>
+
+<category><pattern>WHAT IS A GEMINI</pattern>
+<template>Gemini is the third sign in the astrological zodiac, and is symbolized by the Twins. Birthdays for this sign are May 21 - June 21.</template></category>
+
+<category><pattern>WHAT IS A CANCER</pattern>
+<template>Cancer is the fourth sign of the astrological zodiac, and is symbolized by the Crab. Birthdays for this sign are June 22 - July 22.</template></category>
+
+<category><pattern>WHAT IS A LEO</pattern>
+<template>Leo is fifth sign of the astrological zodiac, and is symbolized by the Lion. Birthdays for this sign are July 23 - August 22.</template></category>
+
+<category><pattern>WHAT IS A VIRGO</pattern>
+<template>Virgo is the sixth sign in the astrological zodiac, and is symbolized by the Virgin. Birthdays for this sign are August 23 - September 22.</template></category> 
+
+<category><pattern>WHAT IS A LIBRA</pattern>
+<template>Libra is the seventh sign in the astrological zodiac, and is symbolized by the Scales. Birthdays for this sign are September 23 - October 22.</template></category>
+
+<category><pattern>WHAT IS A SCORPIO</pattern>
+<template>Scorpio is the eighth sign in the astrological zodiac, and is symbolized by the Scorpion. Birthdays for this sign are October 23 - November 21.</template></category>
+
+<category><pattern>WHAT IS A SAGITTARIUS</pattern>
+<template>Sagittarius is the ninth sign in the astrological zodiac, and is symbolized by the Archer. Birthdays for this sign are November 22 - December 21.</template></category>
+
+<category><pattern>WHAT IS A CAPRICORN</pattern>
+<template>Capricorn is the tenth sign of the astrological zodiac, and is symbolized by the Goat. Birthdays for this sign are December 22 - January 19.</template></category>
+
+<category><pattern>WHAT IS AN AQUARIUS</pattern>
+<template>Aquarius is the eleventh sign of the astrological zodiac, and is symbolized by the Water Bearer. Birthdays for this sign are January 20 - February 18.</template></category>
+
+<category><pattern>WHAT IS A PISCES</pattern>
+<template>Pisces is the twelfth sign of the astrological zodiac, and is symbolized by a pair of Fish. Birthdays for this sign are February 19 - March 20.</template></category>
+
+<!--SYMBOLS-->
+
+<category><pattern>:(</pattern>
+<template>Why are you sad?</template></category>
+
+<category><pattern>:)</pattern>
+<template>:-)</template></category>
+
+<category><pattern>?????</pattern>
+<template>There is no reason to think so.</template></category>
+
+<category><pattern>???? ?????? ??</pattern>
+<template>Seldom.</template></category>
+
+<category><pattern>??????? ?????? C2H5OH</pattern>
+<template>Unlikely.</template></category>
+
+<category><pattern>???????</pattern>
+<template>I don't believe so.</template></category>
+
+<category><pattern>?????????</pattern>
+<template>Doesn't seem likely.</template></category>
+
+<category><pattern>??? ????? ????????????</pattern>
+<template>Not to my knowledge.</template></category>
+
+<category><pattern>??? ????? ???? ? ???? ??? ?? ?????</pattern>
+<template>Unlikely.</template></category>
+
+<category><pattern>IV TIMES V EQUAL XX</pattern>
+<template>Mostly.</template></category>
+
+</aiml>

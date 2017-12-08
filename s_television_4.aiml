@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- TELEVISION -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>TELEVISION *</pattern>
+	<template><think><set name="topic">television</set></think><sr /></template></category>
+	
+<category><pattern>TELEVISION</pattern>	
+	<template>For resources on television check out the <a href=" http://guides.lib.uci.edu/filmtvindustry" target="_blank">Film and Media Studies Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Interactions -->
+
+<category><pattern>COLOR TELEVISION</pattern>
+	<that>Melodrama as a subject is included in the broader subjects of Drama Motion Pictures Music and Television Would you like resource recommendations for drama motion pictures music or television_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/31080" target="_blank">Performing Arts Periodicals Database</a> 
+	and/or <a href=" http://uclibs.org/PID/1980" target="_blank">JSTOR</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/filmtvindustry" target="_blank">Film and Media Studies Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>COLOR TELEVISION</pattern>
+	<that>Video art as a subject is included in the broader subjects of Art Contemporary Art and Television Would you like resource recommendations for art contemporary art or television_</that>
+	<template>We would recommend that you start your search with <a href=" <a href=" http://uclibs.org/PID/31080" target="_blank">Performing Arts Periodicals Database</a> 
+	and/or <a href=" http://uclibs.org/PID/1980" target="_blank">JSTOR</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/filmtvindustry" target="_blank">Film and Media Studies Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<!-- Subject keywords-->
+
+<category><pattern>COLOR TELEVISION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/31080" target="_blank">Performing Arts Periodicals Database</a> 
+			and/or <a href=" http://uclibs.org/PID/1980" target="_blank">JSTOR</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/filmtvindustry" target="_blank">Film and Media Studies Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>AFRO AMERICANS IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>AGED IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>AGGRESSIVENESS (PSYCHOLOGY) IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>ANIMALS IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>ARABS IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>ART IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>ARTIFICIAL SATELLITES IN TELECOMMUNICATION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>ASIAN AMERICANS IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>BALLET IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>BIOLOGY IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>BLACKS IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>BONDAGE IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>BUSINESSMEN IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>CITIES AND TOWNS IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>CLOSED CAPTION TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>CLOSED CIRCUIT TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>CREDIT TITLES IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>CRIME IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>DANCE IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>DIGITAL TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>DOGS IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>DRINKING IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>ELECTRONIC SYSTEMS</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>GERMANY IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>GRAZING</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>HANDICAPPED IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>HIGH DEFINITION TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>HISPANIC AMERICANS IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>HOME VIDEO SYSTEMS</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>HOMOSEXUALITY IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>INTERACTIVE TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>LIBRARIES AND TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>MEDICINE IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>MELODRAMA IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>MEN IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>MEXICAN AMERICANS AND TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>MILITARY TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>MINORITIES IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>MOTION PICTURES AND TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>NONVERBAL COMMUNICATION IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>NUCLEAR ENERGY IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>NUCLEAR WARFARE IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>NURSES IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>OCCUPATIONS IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>OPTOELECTRONIC DEVICES</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>ORGANIZATIONAL BEHAVIOR IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>PHYSICIANS IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>PUPPETS IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>RACE RELATIONS IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>RADIO FACSIMILE</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>REALISM IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>SENSATIONALISM IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>SEX IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>SEX ROLE IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>SLOW-SCAN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>SOVIETS IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>STEREOSCOPIC TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>TELECOMMUNICATION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>TELEVISION DISPLAY SYSTEMS</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>TELEVISION FREQUENCY ALLOCATION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>TERRORISM IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>ULTRAFAX</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>UNDERWATER TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>VIDEO DIAL TONE</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>VIDEO TELEPHONE</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>VIOLENCE IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>WHITES IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>WOMEN IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>WORKING CLASS IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>YOUTH IN TELEVISION</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+<category><pattern>ZAPPING</pattern>
+<template><srai>COLOR TELEVISION</srai></template></category>
+
+</aiml>

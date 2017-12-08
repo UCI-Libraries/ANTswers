@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Instruction -->
+<!-- -->
+
+<category><pattern>HOW DO I SCHEDULE AN INSTRUCTION SESSION</pattern>
+<template>Fill out an <a href=" http://www.lib.uci.edu/instruction-request-form" target="_blank">instruction request</a>!</template></category>
+
+<category><pattern>REQUEST A WORKSHOP</pattern>
+<template>You can use this <a href=" http://www.lib.uci.edu/instruction-request-form" target="_blank">form</a> to request a library workshop.</template></category>
+	<category><pattern>* REQUEST A WORKSHOP</pattern>
+	<template><srai>REQUEST A WORKSHOP</srai></template></category>
+	<category><pattern>REQUEST A WORKSHOP *</pattern>
+	<template><srai>REQUEST A WORKSHOP</srai></template></category>
+	<category><pattern>* REQUEST A WORKSHOP *</pattern>
+	<template><srai>REQUEST A WORKSHOP</srai></template></category>
+	
+<category><pattern>WHAT IS THE NEW JIM CROW</pattern>
+<template>The New Jim Crow is one of the books for W39C, take a look at the <a href=" http://guides.lib.uci.edu/w39c" target="_blank">W39C 
+Subject Guide</a> for library resources that can help you complete your assignments.</template></category>
+	<category><pattern>THE NEW JIM CROW</pattern>
+	<template><srai>WHAT IS THE NEW JIM CROW</srai></template></category>
+
+<category><pattern>GRADUATE DIVISION LIBRARY WORKSHOPS SCHEDULE</pattern>
+<template>The schedule is available <a href=" http://www.lib.uci.edu/graduate-division-library-workshops" target="_blank">here</a>.</template></category>
+	<category><pattern>* GRADUATE DIVISION LIBRARY WORKSHOPS SCHEDULE</pattern>
+	<template><srai>GRADUATE DIVISION LIBRARY WORKSHOPS SCHEDULE</srai></template></category>
+	<category><pattern>GRADUATE DIVISION LIBRARY WORKSHOPS SCHEDULE *</pattern>
+	<template><srai>GRADUATE DIVISION LIBRARY WORKSHOPS SCHEDULE</srai></template></category>
+	<category><pattern>* GRADUATE DIVISION LIBRARY WORKSHOPS SCHEDULE *</pattern>
+	<template><srai>GRADUATE DIVISION LIBRARY WORKSHOPS SCHEDULE</srai></template></category>
+	
+<category><pattern>HUMANITIES CORE LIBRARY WORKSHOPS SCHEDULE</pattern>
+<template>The schedule is available <a href=" http://www.lib.uci.edu/humanities-core-library-workshops" target="_blank">here</a>.</template></category>
+	<category><pattern>* HUMANITIES CORE LIBRARY WORKSHOPS SCHEDULE</pattern>
+	<template><srai>HUMANITIES CORE LIBRARY WORKSHOPS SCHEDULE</srai></template></category>
+	<category><pattern>HUMANITIES CORE LIBRARY WORKSHOPS SCHEDULE *</pattern>
+	<template><srai>HUMANITIES CORE LIBRARY WORKSHOPS SCHEDULE</srai></template></category>
+	<category><pattern>* HUMANITIES CORE LIBRARY WORKSHOPS SCHEDULE *</pattern>
+	<template><srai>HUMANITIES CORE LIBRARY WORKSHOPS SCHEDULE</srai></template></category>
+	
+
+<category><pattern>W39C LIBRARY WORKSHOPS SCHEDULE</pattern>
+<template>The schedule is available <a href=" ttp://www.lib.uci.edu/writing-39c-library-workshops" target="_blank">here</a>.</template></category>
+	<category><pattern>* W39C LIBRARY WORKSHOPS SCHEDULE</pattern>
+	<template><srai>W39C LIBRARY WORKSHOPS SCHEDULE</srai></template></category>
+	<category><pattern>W39C LIBRARY WORKSHOPS SCHEDULE *</pattern>
+	<template><srai>W39C LIBRARY WORKSHOPS SCHEDULE</srai></template></category>
+	<category><pattern>* W39C LIBRARY WORKSHOPS SCHEDULE *</pattern>
+	<template><srai>W39C LIBRARY WORKSHOPS SCHEDULE</srai></template></category>
+	
+<category><pattern>PEER TUTORS</pattern>
+<template>Check the <a href=" http://www.writingcenter.uci.edu/peer-tutors/" target="_blank">Center for Excellence in Writing and Communication</a> for peer tutor times and locations.</template></category>
+	<category><pattern>* PEER TUTORS</pattern>
+	<template><srai>PEER TUTORS</srai></template></category>
+	<category><pattern>PEER TUTORS *</pattern>
+	<template><srai>PEER TUTORS</srai></template></category>
+	<category><pattern>* PEER TUTORS *</pattern>
+	<template><srai>PEER TUTORS</srai></template></category>
+	<category><pattern>HOW TO WRITE A RESEARCH PAPER</pattern>
+	<template><srai>PEER TUTORS</srai></template></category>
+	<category><pattern>HOW TO WRITE *</pattern>
+	<template><srai>PEER TUTORS</srai></template></category>
+	<category><pattern>* HOW TO WRITE *</pattern>
+	<template><srai>PEER TUTORS</srai></template></category>
+
+<category><pattern>WRITING 39C</pattern>
+<template>Resources for W39C can be found on the <a href=" http://guides.lib.uci.edu/w39c" target="_blank">W39C Subject Guide</a>.</template></category> 
+	<category><pattern>WHERE CAN I FIND REPUBLIC*COM 2*0</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>DATABASE FOR THE BOOK* BETTER</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>* DATABASE FOR THE BOOK* BETTER</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>WRITING 39 C</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>* WRITING 39 C</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>WRITING 39 C *</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>* WRITING 39 C *</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>* WRITING 39C</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>WRITING 39C *</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>* WRITING 39C *</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>W39C</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>* W39C</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>W39C *</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>* W39C *</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>SOLUTION TO *</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>* RESEARCH FOR WR39C class</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+
+<category><pattern>LIBRARY CLASSROOM USE</pattern>
+<template>Take a look at our <a href=" http://www.lib.uci.edu/electronic-classrooms-policy" target="_blank">Library Electronic Classroom Use and Scheduling Policies and Procedures</a>.</template></category>
+	<category><pattern>* LIBRARY CLASSROOM USE</pattern>
+	<template><srai>LIBRARY CLASSROOM USE</srai></template></category>
+	<category><pattern>LIBRARY CLASSROOM USE *</pattern>
+	<template><srai>LIBRARY CLASSROOM USE</srai></template></category>
+	<category><pattern>* LIBRARY CLASSROOM USE *</pattern>
+	<template><srai>LIBRARY CLASSROOM USE</srai></template></category>
+	<category><pattern>USE THE LIBRARY CLASSROOM</pattern>
+	<template><srai>LIBRARY CLASSROOM USE</srai></template></category>
+	<category><pattern>* USE THE LIBRARY CLASSROOM</pattern>
+	<template><srai>LIBRARY CLASSROOM USE</srai></template></category>
+	<category><pattern>USE THE LIBRARY CLASSROOM *</pattern>
+	<template><srai>LIBRARY CLASSROOM USE</srai></template></category>
+	<category><pattern>* USE THE LIBRARY CLASSROOM *</pattern>
+	<template><srai>LIBRARY CLASSROOM USE</srai></template></category>
+
+</aiml>	

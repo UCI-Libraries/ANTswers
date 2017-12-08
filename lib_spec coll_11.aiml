@@ -1,0 +1,2146 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- SPECIAL COLLECTIONS -->
+<!-- -->
+
+<category><pattern>WHEN IS SPECIAL COLLECTIONS OPEN</pattern>
+<template>Take a look at their <a href=" http://www.lib.uci.edu/hours" target="_blank">hours</a>.</template></category>
+
+<!-- ACCESS -->
+<category><pattern>* ACCESS ARCHIVE</pattern>
+<template><a href=" http://special.lib.uci.edu/using/access-priv.html" target="_blank">Accessing the Collections</a>.</template></category>
+
+	<category><pattern>* ACCESS_ ARCHIVE_</pattern>
+	<template><srai>* ACCESS_ ARCHIVE</srai></template></category>
+	<category><pattern>* ACCESS ARCHIVE_</pattern>
+	<template><srai>* ACCESS ARCHIVE</srai></template></category>
+	<category><pattern>* ACCESS_ SPECIAL COLLECTION_</pattern>
+	<template><srai>* ACCESS ARCHIVE</srai></template></category>
+	<category><pattern>* ACCESS SPECIAL COLLECTION_</pattern>
+	<template><srai>* ACCESS ARCHIVE</srai></template></category>
+	<category><pattern>* ACCESS_ * SPECIAL COLLECTION_</pattern>
+	<template><srai>* ACCESS ARCHIVE</srai></template></category>
+	<category><pattern>* RESEARCH_ ARCHIVE_</pattern>
+	<template><srai>* ACCESS ARCHIVE</srai></template></category>
+	<category><pattern>* RESEARCH_ * ARCHIVE_</pattern>
+	<template><srai>* ACCESS ARCHIVE</srai></template></category>
+	<category><pattern>* RESEARCH * ARCHIVE_</pattern>
+	<template><srai>* ACCESS ARCHIVE</srai></template></category>
+	<category><pattern>* RESEARCH_ SPECIAL COLLECTION_</pattern>
+	<template><srai>* ACCESS ARCHIVE</srai></template></category>
+	<category><pattern>* RESEARCH_ * SPECIAL COLLECTION_</pattern>
+	<template><srai>* ACCESS ARCHIVE</srai></template></category>
+	<category><pattern>* RESEARCH * SPECIAL COLLECTION_</pattern>
+	<template><srai>* ACCESS ARCHIVE</srai></template></category>
+	<category><pattern>* USE ARCHIVE_</pattern>
+	<template><srai>* ACCESS ARCHIVE</srai></template></category>
+	<category><pattern>* USE * ARCHIVE_</pattern>
+	<template><srai>* ACCESS ARCHIVE</srai></template></category>
+	<category><pattern>* USE SPECIAL COLLECTION_</pattern>
+	<template><srai>* ACCESS ARCHIVE</srai></template></category>
+	<category><pattern>* USE * SPECIAL COLLECTION_</pattern>
+	<template><srai>* ACCESS ARCHIVE</srai></template></category>
+	
+	<category><pattern>IT</pattern>
+	<that>How do I use UCI Special Collections_</that>
+	<template><srai>* ACCESS ARCHIVE</srai></template></category>
+
+
+
+<!-- ARCHIVE -->
+<category><pattern>ARCHIVE</pattern>
+<template>Are you looking for the UCI Special Collections and Archives?</template></category>
+	<category><pattern>* ARCHIVE</pattern>
+	<template><srai>ARCHIVE</srai></template></category>
+	<category><pattern>ARCHIVE *</pattern>
+	<template><srai>ARCHIVE</srai></template></category>
+	<category><pattern>* ARCHIVE *</pattern>
+	<template><srai>ARCHIVE</srai></template></category>
+	<category><pattern>ARCHIVES</pattern>
+	<template><srai>ARCHIVE</srai></template></category>
+	<category><pattern>* ARCHIVES</pattern>
+	<template><srai>ARCHIVE</srai></template></category>
+	<category><pattern>ARCHIVES *</pattern>
+	<template><srai>ARCHIVE</srai></template></category>
+	<category><pattern>* ARCHIVES *</pattern>
+	<template><srai>ARCHIVE</srai></template></category>
+	<category><pattern>* ARCHIVAL</pattern>
+	<template><srai>ARCHIVE</srai></template></category>
+	<category><pattern>ARCHIVAL *</pattern>
+	<template><srai>ARCHIVE</srai></template></category>
+	<category><pattern>* ARCHIVAL *</pattern>
+	<template><srai>ARCHIVE</srai></template></category>
+	<category><pattern>ARCHIVAL</pattern>
+	<template><srai>ARCHIVE</srai></template></category>
+
+		<category><pattern>UCI</pattern>
+		<that>Are you looking for the UCI Special Collections and Archives_</that>
+		<template><srai>SPECIAL COLLECTIONS AND ARCHIVES</srai></template></category>
+		
+		<category><pattern>ARCHIVES</pattern>
+		<that>Are you looking for the UCI Special Collections and Archives_</that>
+		<template><srai>SPECIAL COLLECTIONS AND ARCHIVES</srai></template></category>
+		
+		<category><pattern>ARCHIVE</pattern>
+		<that>Are you looking for the UCI Special Collections and Archives_</that>
+		<template><srai>SPECIAL COLLECTIONS AND ARCHIVES</srai></template></category>
+		
+		<category><pattern>YES</pattern>
+		<that>Are you looking for the UCI Special Collections and Archives_</that>
+		<template><srai>SPECIAL COLLECTIONS AND ARCHIVES</srai></template></category>
+		
+		<category><pattern>NO</pattern>
+		<that>Are you looking for the UCI Special Collections and Archives_</that>
+		<template><srai>UNIVERSITY ARCHIVES</srai></template></category>
+
+<!-- ARTISTS BOOKS -->	
+<category><pattern>ARTISTS BOOKS</pattern>
+<template>Are you looking for the UCI Artists' Books Collection?</template></category>
+	
+	<category><pattern>* ARTISTS BOOKS</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>ARTISTS BOOKS *</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>* ARTISTS BOOKS *</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>ARTISTS * BOOKS</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>ARTISTS BOOKS COLLECTION_</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>ARTISTS BOOKS * COLLECTION_</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	
+	<category><pattern>* ARTIST_S BOOKS</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>ARTIST_S BOOKS *</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>* ARTIST_S BOOKS *</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>ARTIST_S BOOKS</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>ARTIST_S * BOOKS</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>ARTIST_S BOOKS</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>ARTIST_S BOOKS * COLLECTION</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>ARTIST_S BOOKS COLLECTION_</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	
+	<category><pattern>* ARTIST BOOKS</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>ARTIST BOOKS *</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>* ARTIST BOOKS *</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>ARTIST BOOKS</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>ARTIST * BOOKS</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>ARTIST BOOKS</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>ARTIST BOOKS * COLLECTION</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>ARTIST BOOKS COLLECTION_</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	
+	<category><pattern>* ARTIST BOOK</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>ARTIST BOOK *</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>* ARTIST BOOK *</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>ARTIST BOOK</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>ARTIST * BOOK</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>ARTIST BOOK</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>ARTIST BOOK * COLLECTION</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>ARTIST BOOK COLLECTION_</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	
+	<category><pattern>* ARTIST BOOK COLLECTION</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>ARTIST BOOK * COLLECTION</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>* ARTIST BOOK COLLECTION *</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>ARTIST BOOK COLLECTION</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>ARTIST * BOOK COLLECTION</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>ARTIST BOOK COLLECTION_</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	<category><pattern>ARTIST BOOK * COLLECTION</pattern>
+	<template><srai>ARTISTS BOOKS</srai></template></category>
+	
+		<category><pattern>UCI</pattern>
+		<that>Are you looking for the UCI Artists Books Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/artists-books/" target="_blank">Artists' Books Collection</a>.</template></category>
+	
+		<category><pattern>ARTISTS BOOKS COLLECTION</pattern>
+		<that>Are you looking for the UCI Artists Books Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/artists-books/" target="_blank">Artists' Books Collection</a>.</template></category>
+		
+		<category><pattern>COLLECTIONS</pattern>
+		<that>Are you looking for the UCI Artists Books Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/artists-books/" target="_blank">Artists' Books Collection</a>.</template></category>
+	
+		<category><pattern>YES</pattern>
+		<that>Are you looking for the UCI Artists Books Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/artists-books/" target="_blank">Artists' Books Collection</a>.</template></category>
+		
+		<category><pattern>NO</pattern>
+		<that>Are you looking for the UCI Artists Books Collection_</that>
+		<template><srai>ASK A LIBRARIAN</srai></template></category>
+		
+<!-- BOOK HISTORY -->	
+<category><pattern>BOOK HISTORY</pattern>
+<template>Are you looking for the UCI Book History Collection?</template></category>
+	
+	<category><pattern>* BOOK HISTORY</pattern>
+	<template><srai>BOOK HISTORY</srai></template></category>
+	<category><pattern>BOOK HISTORY *</pattern>
+	<template><srai>BOOK HISTORY</srai></template></category>
+	<category><pattern>* BOOK HISTORY *</pattern>
+	<template><srai>BOOK HISTORY</srai></template></category>
+	<category><pattern>HISTORY OF BOOKS</pattern>
+	<template><srai>BOOK HISTORY</srai></template></category>
+	<category><pattern>HISTORY OF THE BOOK</pattern>
+	<template><srai>BOOK HISTORY</srai></template></category>
+	<category><pattern>BOOK HISTORY * COLLECTION</pattern>
+	<template><srai>BOOK HISTORY</srai></template></category>
+	<category><pattern>BOOK HISTORY COLLECTION_</pattern>
+	<template><srai>BOOK HISTORY</srai></template></category>
+	
+		<category><pattern>UCI</pattern>
+		<that>Are you looking for the UCI Book History Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/book-history/" target="_blank">History of the Book Collection</a>.</template></category>
+	
+		<category><pattern>BOOK HISTORY COLLECTION</pattern>
+		<that>Are you looking for the UCI Book History Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/book-history/" target="_blank">History of the Book Collection</a>.</template></category>
+		
+		<category><pattern>COLLECTIONS</pattern>
+		<that>Are you looking for the UCI Book History Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/book-history/" target="_blank">History of the Book Collection</a>.</template></category>
+
+		<category><pattern>YES</pattern>
+		<that>Are you looking for the UCI Book History Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/book-history/" target="_blank">History of the Book Collection</a>.</template></category>
+		
+		<category><pattern>NO</pattern>
+		<that>Are you looking for the UCI Book History Collection_</that>
+		<template><srai>ASK A LIBRARIAN</srai></template></category>
+		
+<!-- BRITISH NAVAL HISTORY -->	
+<category><pattern>BRITISH NAVAL HISTORY</pattern>
+<template>Are you looking for the UCI British Naval History Collection?</template></category>
+	
+	<category><pattern>* BRITISH NAVAL HISTORY</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>BRITISH NAVAL HISTORY *</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>* BRITISH NAVAL HISTORY *</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>BRITISH * NAVAL HISTORY</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>BRITISH NAVAL * HISTORY</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>BRITISH * NAVAL * HISTORY</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	
+	<category><pattern>BRITISH NAVAL ARCHIVE_</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>* BRITISH NAVAL ARCHIVE_</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>BRITISH NAVAL ARCHIVE_ *</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>* BRITISH NAVAL ARCHIVE_ *</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>BRITISH * NAVAL ARCHIVE_</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>BRITISH NAVAL * ARCHIVE_</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>BRITISH * NAVAL * ARCHIVE_</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>BRITISH NAVAL COLLECTION_</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	
+	<category><pattern>BRITISH NAVY HISTORY</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>* BRITISH NAVY HISTORY</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>BRITISH NAVY HISTORY *</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>* BRITISH NAVY HISTORY *</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>BRITISH * NAVY HISTORY</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>BRITISH NAVY * HISTORY</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>BRITISH * NAVY * HISTORY</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	
+	<category><pattern>BRITISH NAVY ARCHIVE_</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>* BRITISH NAVY ARCHIVE_</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>BRITISH NAVY ARCHIVE_ *</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>* BRITISH NAVY ARCHIVE_ *</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>BRITISH * NAVY ARCHIVE_</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>BRITISH NAVY * ARCHIVE_</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>BRITISH * NAVY * ARCHIVE_</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>BRITISH NAVY ARCHIVE_</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>BRITISH NAVY COLLECTION_</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	
+	<category><pattern>ROYAL NAVY ARCHIVE_</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>* ROYAL NAVY ARCHIVE_</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>ROYAL NAVY ARCHIVE_ *</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>* ROYAL NAVY ARCHIVE_ *</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>ROYAL * NAVY ARCHIVE_</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>ROYAL NAVY * ARCHIVE_</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>ROYAL * NAVY * ARCHIVE_</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>ROYAL NAVY COLLECTION_</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	
+	<category><pattern>ROYAL NAVY HISTORY</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>* ROYAL NAVY HISTORY</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>ROYAL NAVY HISTORY *</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>* ROYAL NAVY HISTORY *</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	<category><pattern>ROYAL NAVY * HISTORY</pattern>
+	<template><srai>BRITISH NAVAL HISTORY</srai></template></category>
+	
+		<category><pattern>UCI</pattern>
+		<that>Are you looking for the UCI British Naval History Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/british-naval-history/" target="_blank">British Naval History Collection</a>.</template></category>
+	
+		<category><pattern>* NAVAL *</pattern>
+		<that>Are you looking for the UCI British Naval History Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/british-naval-history/" target="_blank">British Naval History Collection</a>.</template></category>
+		
+		<category><pattern>* HISTORY *</pattern>
+		<that>Are you looking for the UCI British Naval History Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/british-naval-history/" target="_blank">British Naval History Collection</a>.</template></category>
+		
+		<category><pattern>COLLECTIONS</pattern>
+		<that>Are you looking for the UCI British Naval History Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/british-naval-history/" target="_blank">British Naval History Collection</a>.</template></category>
+
+		<category><pattern>YES</pattern>
+		<that>Are you looking for the UCI British Naval History Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/british-naval-history/" target="_blank">British Naval History Collection</a>.</template></category>
+		
+		<category><pattern>NO</pattern>
+		<that>Are you looking for the UCI British Naval History Collection_</that>
+		<template><srai>ASK A LIBRARIAN</srai></template></category>
+
+		
+<!-- CALIFORNIA HISTORY ARCHIVE -->	
+<category><pattern>CALIFORNIA HISTORY ARCHIVE</pattern>
+<template>Are you looking for the UCI California History Collection?</template></category>
+	
+	<category><pattern>* CALIFORNIA HISTORY ARCHIVE_</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	<category><pattern>CALIFORNIA HISTORY ARCHIVE_ *</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	<category><pattern>* CALIFORNIA HISTORY ARCHIVE_ *</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	<category><pattern>CALIFORNIA HISTORY * ARCHIVE_</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	<category><pattern>CALIFORNIA * HISTORY ARCHIVE_</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	<category><pattern>CALIFORNIA HISTORY COLLECTION_</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	
+	<category><pattern>CALIFORNIA ARCHIVE_</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	<category><pattern>* CALIFORNIA ARCHIVE_</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	<category><pattern>CALIFORNIA ARCHIVE_ *</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	<category><pattern>* CALIFORNIA ARCHIVE_ *</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	<category><pattern>CALIFORNIA * ARCHIVE_</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	<category><pattern>CALIFORNIA COLLECTION_</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	
+	<category><pattern>SOUTHERN CALIFORNIA ARCHIVE_</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	<category><pattern>* SOUTHERN CALIFORNIA ARCHIVE_</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	<category><pattern>SOUTHERN CALIFORNIA ARCHIVE_ *</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	<category><pattern>* SOUTHERN CALIFORNIA ARCHIVE_ *</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	<category><pattern>SOUTHERN CALIFORNIA * ARCHIVE_</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	<category><pattern>SOUTHERN CALIFORNIA COLLECTION_</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	
+	<category><pattern>LOS ANGELES ARCHIVE_</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	<category><pattern>* LOS ANGELES ARCHIVE_</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	<category><pattern>LOS ANGELES ARCHIVE_ *</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	<category><pattern>* LOS ANGELES ARCHIVE_ *</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	<category><pattern>LOS ANGELES * ARCHIVE_</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	<category><pattern>LOS ANGELES COLLECTION_</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	
+		<category><pattern>CALIFORNIA</pattern>
+		<that>Are you looking for the UCI California History Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/california/" target="_blank">California History Collection</a>.</template></category>
+	
+		<category><pattern>* CALIFORNIA *</pattern>
+		<that>Are you looking for the UCI California History Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/california/" target="_blank">California History Collection</a>.</template></category>
+		
+		<category><pattern>* UCI *</pattern>
+		<that>Are you looking for the UCI California History Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/california/" target="_blank">California History Collection</a>.</template></category>
+		
+		<category><pattern>COLLECTIONS</pattern>
+		<that>Are you looking for the UCI California History Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/california/" target="_blank">California History Collection</a>.</template></category>
+
+		<category><pattern>YES</pattern>
+		<that>Are you looking for the UCI California History Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/california/" target="_blank">California History Collection</a>.</template></category>
+		
+		<category><pattern>NO</pattern>
+		<that>Are you looking for the UCI California History Collection_</that>
+		<template><srai>ASK A LIBRARIAN</srai></template></category>		
+		
+<!-- COLLECTION -->
+<category><pattern>COLLECTION</pattern>
+<template>Are you looking for the UCI Special Collections and Archives?</template></category>
+	<category><pattern>* COLLECTION</pattern>
+	<template><srai>COLLECTION</srai></template></category>
+	<category><pattern>COLLECTION *</pattern>
+	<template><srai>COLLECTION</srai></template></category>
+	<category><pattern>* COLLECTIONS *</pattern>
+	<template><srai>COLLECTION</srai></template></category>
+	<category><pattern>COLLECTIONS</pattern>
+	<template><srai>COLLECTION</srai></template></category>
+	<category><pattern>* COLLECTIONS</pattern>
+	<template><srai>COLLECTION</srai></template></category>
+	<category><pattern>COLLECTIONS *</pattern>
+	<template><srai>COLLECTION</srai></template></category>
+	<category><pattern>* COLLECTIONS *</pattern>
+	<template><srai>COLLECTION</srai></template></category>
+	
+		<category><pattern>UCI</pattern>
+		<that>Are you looking for the UCI Special Collections and Archives_</that>
+		<template><srai>SPECIAL COLLECTIONS AND ARCHIVES</srai></template></category>
+	
+		<category><pattern>SPECIAL COLLECTIONS</pattern>
+		<that>Are you looking for the UCI Special Collections and Archives_</that>
+		<template><srai>SPECIAL COLLECTIONS AND ARCHIVES</srai></template></category>
+		
+		<category><pattern>COLLECTIONS</pattern>
+		<that>Are you looking for the UCI Special Collections and Archives_</that>
+		<template><srai>SPECIAL COLLECTIONS AND ARCHIVES</srai></template></category>
+		
+		<category><pattern>YES</pattern>
+		<that>Are you looking for the UCI Special Collections and Archives_</that>
+		<template><srai>SPECIAL COLLECTIONS AND ARCHIVES</srai></template></category>
+		
+		<category><pattern>NO</pattern>
+		<that>Are you looking for the UCI Special Collections and Archives_</that>
+		<template><srai>ASK A LIBRARIAN</srai></template></category>
+	
+
+
+	
+<!-- CRITICAL THEORY ARCHIVE -->	
+<category><pattern>CRITICAL THEORY ARCHIVE</pattern>
+<template>Are you looking for the UCI Critical Theory Archive?</template></category>
+	
+	<category><pattern>* CRITICAL THEORY ARCHIVE_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>CRITICAL THEORY ARCHIVE_ *</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* CRITICAL THEORY ARCHIVE_ *</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>CRITICAL THEORY * ARCHIVE_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>CRITICAL * THEORY ARCHIVE_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>CRITICAL * THEORY * ARCHIVE_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>CRITICAL THEORY COLLECTION_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* CRITICAL THEORY COLLECTION_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	
+	<category><pattern>* CRITICAL THEORY PAPERS</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>CRITICAL THEORY PAPERS *</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* CRITICAL THEORY PAPERS *</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>CRITICAL THEORY * PAPERS</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>CRITICAL * THEORY PAPERS</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>CRITICAL * THEORY * PAPERS</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	
+	<category><pattern>LITERARY THEORY ARCHIVE_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* LITERARY THEORY ARCHIVE_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>LITERARY THEORY ARCHIVE_ *</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* LITERARY THEORY ARCHIVE_ *</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>LITERARY THEORY * ARCHIVE_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>LITERARY * THEORY ARCHIVE_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>LITERARY * THEORY * ARCHIVE_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>LITERARY THEORY COLLECTION_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* LITERARY THEORY COLLECTION_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	
+	<category><pattern>LITERARY THEORY PAPERS</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* LITERARY THEORY PAPERS</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>LITERARY THEORY PAPERS *</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* LITERARY THEORY PAPERS *</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>LITERARY THEORY * PAPERS</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>LITERARY * THEORY PAPERS</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>LITERARY * THEORY * PAPERS</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	
+	<category><pattern>THEORY ARCHIVE_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* THEORY ARCHIVE_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>THEORY ARCHIVE_ *</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* THEORY ARCHIVE_ *</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>THEORY * ARCHIVE_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>THEORY COLLECTION_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* THEORY COLLECTION_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	
+	<category><pattern>THEORY PAPERS</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* THEORY PAPERS</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>THEORY PAPERS *</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* THEORY PAPERS *</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>THEORY * PAPERS</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	
+	<category><pattern>DERRIDA ARCHIVE_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* DERRIDA ARCHIVE_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>DERRIDA ARCHIVE_ *</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* DERRIDA ARCHIVE_ *</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>DERRIDA * ARCHIVE_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>DERRIDA COLLECTION_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* DERRIDA COLLECTION_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	
+	<category><pattern>DERRIDA PAPERS</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* DERRIDA PAPERS</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>DERRIDA PAPERS *</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* DERRIDA PAPERS *</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>DERRIDA * PAPERS</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	
+	<category><pattern>WELLEK ARCHIVE_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* WELLEK ARCHIVE_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>WELLEK ARCHIVE_ *</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* WELLEK ARCHIVE_ *</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>WELLEK * ARCHIVE_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>WELLEK COLLECTION_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* WELLEK COLLECTION_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	
+	<category><pattern>WELLEK PAPERS</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* WELLEK PAPERS</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>WELLEK PAPERS *</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* WELLEK PAPERS *</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>WELLEK * PAPERS</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	
+	<category><pattern>RORTY ARCHIVE_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* RORTY ARCHIVE_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>RORTY ARCHIVE_ *</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* RORTY ARCHIVE_ *</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>RORTY * ARCHIVE_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* RORTY ARCHIVE_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>RORTY COLLECTION_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* RORTY COLLECTION_</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	
+	<category><pattern>RORTY PAPERS</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* RORTY PAPERS</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>RORTY PAPERS *</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* RORTY PAPERS *</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>RORTY * PAPERS</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* RORTY PAPERS</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	
+	<category><pattern>UCI FACULTY COLLECTION</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* UCI FACULTY COLLECTION</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>UCI FACULTY COLLECTION *</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* UCI FACULTY COLLECTION *</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>UCI * COLLECTION</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	<category><pattern>* UCI FACULTY COLLECTION</pattern>
+	<template><srai>CRITICAL THEORY ARCHIVE</srai></template></category>
+	
+		<category><pattern>UCI</pattern>
+		<that>Are you looking for the UCI Critical Theory Archive_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/critical-theory-archive/index.html" target="_blank">Critical Theory Archive</a>.</template></category>
+	
+		<category><pattern>* THEORY *</pattern>
+		<that>Are you looking for the UCI Critical Theory Archive_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/critical-theory-archive/index.html" target="_blank">Critical Theory Archive</a>.</template></category>
+		
+		<category><pattern>* UCI *</pattern>
+		<that>Are you looking for the UCI Critical Theory Archive_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/critical-theory-archive/index.html" target="_blank">Critical Theory Archive</a>.</template></category>
+		
+		<category><pattern>ARCHIVE_</pattern>
+		<that>Are you looking for the UCI Critical Theory Archive_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/critical-theory-archive/index.html" target="_blank">Critical Theory Archive</a>.</template></category>
+	
+		<category><pattern>YES</pattern>
+		<that>Are you looking for the UCI Critical Theory Archive_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/critical-theory-archive/index.html" target="_blank">Critical Theory Archive</a>.</template></category>
+		
+		<category><pattern>NO</pattern>
+		<that>Are you looking for the UCI Critical Theory Archive_</that>
+		<template><srai>ASK A LIBRARIAN</srai></template></category>	
+
+<!-- DANCE COLLECTION -->
+<category><pattern>UCI DANCE COLLECTION</pattern>
+<template>Are you looking for the UCI Dance Collection?</template></category>
+
+	<category><pattern>DANCE COLLECTION</pattern>
+	<template><srai>UCI DANCE COLLECTION</srai></template></category>
+	<category><pattern>DANCE * COLLECTION</pattern>
+	<template><srai>UCI DANCE COLLECTION</srai></template></category>
+	<category><pattern>* DANCE COLLECTION</pattern>
+	<template><srai>UCI DANCE COLLECTION</srai></template></category>
+	<category><pattern>DANCE COLLECTION *</pattern>
+	<template><srai>UCI DANCE COLLECTION</srai></template></category>
+	<category><pattern>DANCE COLLECTION_</pattern>
+	<template><srai>UCI DANCE COLLECTION</srai></template></category>
+	
+	<category><pattern>DANCE ARCHIVE</pattern>
+	<template><srai>UCI DANCE COLLECTION</srai></template></category>
+	<category><pattern>DANCE * ARCHIVE</pattern>
+	<template><srai>UCI DANCE COLLECTION</srai></template></category>
+	<category><pattern>* DANCE ARCHIVE</pattern>
+	<template><srai>UCI DANCE COLLECTION</srai></template></category>
+	<category><pattern>DANCE ARCHIVE *</pattern>
+	<template><srai>UCI DANCE COLLECTION</srai></template></category>
+	<category><pattern>DANCE ARCHIVE_</pattern>
+	<template><srai>UCI DANCE COLLECTION</srai></template></category>
+	
+	<category><pattern>UCI DANCE</pattern>
+	<template><srai>UCI DANCE COLLECTION</srai></template></category>
+	<category><pattern>UCI * DANCE</pattern>
+	<template><srai>UCI DANCE COLLECTION</srai></template></category>
+	<category><pattern>* UCI DANCE</pattern>
+	<template><srai>UCI DANCE COLLECTION</srai></template></category>
+	<category><pattern>UCI DANCE *</pattern>
+	<template><srai>UCI DANCE COLLECTION</srai></template></category>
+	<category><pattern>* UCI DANCE *</pattern>
+	<template><srai>UCI DANCE COLLECTION</srai></template></category>
+	
+		<category><pattern>UCI</pattern>
+		<that>Are you looking for the UCI Dance Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/dance/" target="_blank">Dance Collection</a>.</template></category>
+		
+		<category><pattern>* UCI *</pattern>
+		<that>Are you looking for the UCI Dance Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/dance/" target="_blank">Dance Collection</a>.</template></category>
+	
+		<category><pattern>DANCE COLLECTIONS</pattern>
+		<that>Are you looking for the UCI Dance Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/dance/" target="_blank">Dance Collection</a>.</template></category>
+		
+		<category><pattern>COLLECTIONS</pattern>
+		<that>Are you looking for the UCI Dance Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/dance/" target="_blank">Dance Collection</a>.</template></category>
+		
+		<category><pattern>YES</pattern>
+		<that>Are you looking for the UCI Dance Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/dance/" target="_blank">Dance Collection</a>.</template></category>
+		
+		<category><pattern>NO</pattern>
+		<that>Are you looking for the UCI Dance Collection_</that>
+		<template><srai>ASK A LIBRARIAN</srai></template></category>
+
+<!-- DUPLICATION -->
+<category><pattern>DUPLICATION</pattern>
+<template><a href=" http://special.lib.uci.edu/using/duplication.html" target="_blank">Duplication Services</a> for Special Collections material.</template></category>
+
+	<category><pattern>* MAKE COPIES * ARCHIVE_</pattern>
+	<template><srai>DUPLICATION</srai></template></category>
+	<category><pattern>* MAKE COPIES * SPECIAL COLLECTION_</pattern>
+	<template><srai>DUPLICATION</srai></template></category>
+	<category><pattern>* COPY * ARCHIVE_</pattern>
+	<template><srai>DUPLICATION</srai></template></category>
+	<category><pattern>* COPY * SPECIAL COLLECTION_</pattern>
+	<template><srai>DUPLICATION</srai></template></category>	
+	<category><pattern>* COPIES * ARCHIVE_</pattern>
+	<template><srai>DUPLICATION</srai></template></category>
+	<category><pattern>* COPIES * SPECIAL COLLECTION_</pattern>
+	<template><srai>DUPLICATION</srai></template></category>	
+	
+	<category><pattern>* SCAN ARCHIVE_</pattern>
+	<template><srai>DUPLICATION</srai></template></category>
+	<category><pattern>* SCAN SPECIAL COLLECTION_</pattern>
+	<template><srai>DUPLICATION</srai></template></category>
+	<category><pattern>* SCAN ARCHIVE_</pattern>
+	<template><srai>DUPLICATION</srai></template></category>
+	<category><pattern>* SCAN_ ARCHIVE_</pattern>
+	<template><srai>DUPLICATION</srai></template></category>
+	<category><pattern>* SCAN_ SPECIAL COLLECTION_</pattern>
+	<template><srai>DUPLICATION</srai></template></category>	
+		
+<!-- FACULTY PAPERS -->
+<category><pattern>UCI FACULTY PAPERS</pattern>
+<template>Are you looking for the UCI Faculty Papers Collection?</template></category>
+
+	<category><pattern>UCI FACULTY PAPERS</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	<category><pattern>UCI FACULTY * PAPERS</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	<category><pattern>* UCI FACULTY PAPERS</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	<category><pattern>UCI FACULTY PAPERS *</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	<category><pattern>UCI * FACULTY PAPERS</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	
+	<category><pattern>UCI FACULTY ARCHIVE_</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	<category><pattern>UCI FACULTY * ARCHIVE_</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	<category><pattern>* UCI FACULTY ARCHIVE_</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	<category><pattern>UCI FACULTY ARCHIVE_ *</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	<category><pattern>UCI * FACULTY ARCHIVE_</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	
+	<category><pattern>UCI FACULTY</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	<category><pattern>UCI * FACULTY</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	<category><pattern>* UCI FACULTY</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	<category><pattern>UCI FACULTY *</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	<category><pattern>* UCI FACULTY *</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	
+	<category><pattern>* DONALD MCKAYLE *</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	<category><pattern>* MCKAYLE *</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	<category><pattern>DONALD MCKAYLE *</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	<category><pattern>MCKAYLE *</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	
+	<category><pattern>* FREDERICK REINES *</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	<category><pattern>* REINES *</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	<category><pattern>FREDERICK REINES *</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	<category><pattern>REINES *</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	
+	<category><pattern>* SHERWOOD ROWLAND *</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	<category><pattern>* ROWLAND *</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	<category><pattern>SHERWOOD ROWLAND *</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	<category><pattern>ROWLAND *</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	
+	<category><pattern>* EUGENE LORING *</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	<category><pattern>* LORING *</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	<category><pattern>EUGENE LORING *</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	<category><pattern>LORING *</pattern>
+	<template><srai>UCI FACULTY PAPERS</srai></template></category>
+	
+		<category><pattern>UCI</pattern>
+		<that>Are you looking for the UCI Faculty Papers Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/faculty-papers/" target="_blank">UCI Faculty Papers</a>.</template></category>
+		
+		<category><pattern>* UCI *</pattern>
+		<that>Are you looking for the UCI Faculty Papers Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/faculty-papers/" target="_blank">UCI Faculty Papers</a>.</template></category>
+	
+		<category><pattern>FACULTY</pattern>
+		<that>Are you looking for the UCI Faculty Papers Collectionn_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/faculty-papers/" target="_blank">UCI Faculty Papers</a>.</template></category>
+		
+		<category><pattern>COLLECTION_</pattern>
+		<that>Are you looking for the UCI Faculty Papers Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/faculty-papers/" target="_blank">UCI Faculty Papers</a>.</template></category>
+		
+		<category><pattern>YES</pattern>
+		<that>Are you looking for the UCI Faculty Papers Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/faculty-papers/" target="_blank">UCI Faculty Papers</a>.</template></category>
+		
+		<category><pattern>NO</pattern>
+		<that>Are you looking for the UCI Faculty Papers Collection_</that>
+		<template><srai>ASK A LIBRARIAN</srai></template></category>
+		
+<!-- FINE PRESS -->	
+<category><pattern>FINE PRESS</pattern>
+<template>Are you looking for the UCI Fine Press Collection?</template></category>
+	
+	<category><pattern>* FINE PRESS</pattern>
+	<template><srai>FINE PRESS</srai></template></category>
+	<category><pattern>FINE PRESS *</pattern>
+	<template><srai>FINE PRESS</srai></template></category>
+	<category><pattern>* FINE PRESS *</pattern>
+	<template><srai>FINE PRESS</srai></template></category>
+	<category><pattern>FINE PRESS * COLLECTION</pattern>
+	<template><srai>FINE PRESS</srai></template></category>
+	<category><pattern>FINE PRESS COLLECTION_</pattern>
+	<template><srai>FINE PRESS</srai></template></category>
+	
+	<category><pattern>* UCI FINE PRESS *</pattern>
+	<template><srai>RARE BOOKS</srai></template></category>
+	<category><pattern>* UCI * FINE PRESS *</pattern>
+	<template><srai>RARE BOOKS</srai></template></category>
+	<category><pattern>* UCI * FINE PRESS COLLECTION_</pattern>
+	<template><srai>RARE BOOKS</srai></template></category>
+	
+		<category><pattern>UCI</pattern>
+		<that>Are you looking for the UCI Fine Press Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/fine-press/" target="_blank">Fine Press Collection</a>.</template></category>
+		
+		<category><pattern>* UCI *</pattern>
+		<that>Are you looking for the UCI Fine Press Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/fine-press/" target="_blank">Fine Press Collection</a>.</template></category>
+		
+		<category><pattern>COLLECTION_</pattern>
+		<that>Are you looking for the UCI Fine Press Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/fine-press/" target="_blank">Fine Press Collection</a>.</template></category>
+
+		<category><pattern>YES</pattern>
+		<that>Are you looking for the UCI Fine Press Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/fine-press/" target="_blank">Fine Press Collection</a>.</template></category>
+		
+		<category><pattern>NO</pattern>
+		<that>Are you looking for the UCI Fine Press Collection_</that>
+		<template><srai>ASK A LIBRARIAN</srai></template></category>
+		
+<!-- HOURS -->
+<category><pattern>SPECIAL COLLECTIONS HOURS</pattern>
+<template>Are you looking for the UCI Archives and Special Collections hours?</template></category>
+	
+	<category><pattern>* SPECIAL COLLECTIONS * HOURS</pattern>
+	<template><srai>SPECIAL COLLECTIONS HOURS</srai></template></category>
+	
+	<category><pattern>* HOURS * SPECIAL COLLECTIONS *</pattern>
+	<template><srai>SPECIAL COLLECTIONS HOURS</srai></template></category>
+	
+	<category><pattern>* ARCHIVE_ * HOURS</pattern>
+	<template><srai>SPECIAL COLLECTIONS HOURS</srai></template></category>
+	
+	<category><pattern>* HOURS * ARCHIVE_</pattern>
+	<template><srai>SPECIAL COLLECTIONS HOURS</srai></template></category>
+
+		<category><pattern>YES</pattern>
+		<that>Are you looking for the UCI Archives and Special Collections hours_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/#" target="_blank">UCI Archives and Special Collections hours</a>.</template></category>
+			
+		<category><pattern>NO</pattern>
+		<that>Are you looking for the UCI Archives and Special Collections hours_</that>
+		<template><srai>HOURS</srai></template></category>
+		
+<!-- ILL -->
+<category><pattern>* ILL ARCHIVE</pattern>
+<template><a href=" http://special.lib.uci.edu/using/interlib_loan.html" target="_blank">Interlibrary Loan</a> for Special Collections.</template></category>
+
+	<category><pattern>* ILL ARCHIVE_</pattern>
+	<template><srai>* ILL ARCHIVE</srai></template></category>
+	<category><pattern>* ILL * ARCHIVE_</pattern>
+	<template><srai>* ILL ARCHIVE</srai></template></category>
+	<category><pattern>* ILL ARCHIVE</pattern>
+	<template><srai>* ILL ARCHIVE</srai></template></category>
+	<category><pattern>* ILL COLLECTION_</pattern>
+	<template><srai>* ILL ARCHIVE</srai></template></category>
+	<category><pattern>* ILL * COLLECTION_</pattern>
+	<template><srai>* ILL ARCHIVE</srai></template></category>
+	
+	<category><pattern>* LOAN_ ARCHIVE_</pattern>
+	<template><srai>* ILL ARCHIVE</srai></template></category>
+	<category><pattern>* LOAN ARCHIVE_ *</pattern>
+	<template><srai>* ILL ARCHIVE</srai></template></category>
+	<category><pattern>* LOAN_ * ARCHIVE_</pattern>
+	<template><srai>* ILL ARCHIVE</srai></template></category>
+	<category><pattern>* ARCHIVE_ * LOAN *</pattern>
+	<template><srai>* ILL ARCHIVE</srai></template></category>
+	<category><pattern>* LOAN_ COLLECTION_</pattern>
+	<template><srai>* ILL ARCHIVE</srai></template></category>
+	<category><pattern>* LOAN_ * COLLECTION_</pattern>
+	<template><srai>* ILL ARCHIVE</srai></template></category>
+	<category><pattern>* LOAN COLLECTION_ *</pattern>
+	<template><srai>* ILL ARCHIVE</srai></template></category>
+	<category><pattern>* COLLECTION_ * LOAN *</pattern>
+	<template><srai>* ILL ARCHIVE</srai></template></category>
+	
+	<category><pattern>* BORROW ARCHIVE_</pattern>
+	<template><srai>* ILL ARCHIVE</srai></template></category>
+	<category><pattern>* BORROW ARCHIVE_ *</pattern>
+	<template><srai>* ILL ARCHIVE</srai></template></category>
+	<category><pattern>* BORROW * ARCHIVE_</pattern>
+	<template><srai>* ILL ARCHIVE</srai></template></category>
+	<category><pattern>* ARCHIVE_ * BORROW *</pattern>
+	<template><srai>* ILL ARCHIVE</srai></template></category>
+	<category><pattern>* BORROW COLLECTION_</pattern>
+	<template><srai>* ILL ARCHIVE</srai></template></category>
+	<category><pattern>* BORROW * COLLECTION_</pattern>
+	<template><srai>* ILL ARCHIVE</srai></template></category>
+	<category><pattern>* BORROW COLLECTION_ *</pattern>
+	<template><srai>* ILL ARCHIVE</srai></template></category>
+	<category><pattern>* COLLECTION_ * BORROW *</pattern>
+	<template><srai>* ILL ARCHIVE</srai></template></category>
+	
+		
+<!-- LITERARY AUTHORS -->	
+<category><pattern>LITERARY AUTHORS</pattern>
+<template>Are you looking for the UCI Literary Authors Collection?</template></category>
+	
+	<category><pattern>* LITERARY AUTHORS</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>LITERARY AUTHORS *</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>* LITERARY AUTHORS *</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>LITERARY AUTHORS</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>LITERARY AUTHORS * COLLECTION</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>LITERARY AUTHORS COLLECTION_</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	
+	<category><pattern>* LITERARY WRITERS</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>LITERARY WRITERS *</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>* LITERARY WRITERS *</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>LITERARY WRITERS</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>LITERARY WRITERS * COLLECTION</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>LITERARY WRITERS COLLECTION_</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	
+	<category><pattern>* UCI AUTHORS</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>UCI AUTHORS *</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>* UCI AUTHORS *</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>UCI AUTHORS</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>UCI AUTHORS * COLLECTION</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>UCI AUTHORS COLLECTION_</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	
+	<category><pattern>* UCI WRITERS</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>UCI WRITERS *</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>* UCI WRITERS *</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>UCI WRITERS</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>UCI WRITERS * COLLECTION</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>UCI WRITERS COLLECTION_</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	
+	<category><pattern>* UCI MFA AUTHORS</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>UCI MFA AUTHORS *</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>* UCI MFA AUTHORS *</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>UCI MFA AUTHORS</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>UCI MFA AUTHORS * COLLECTION</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>UCI MFA AUTHORS COLLECTION_</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>UCI * MFA * AUTHORS</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>UCI MFA AUTHORS * COLLECTION</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>UCI MFA AUTHORS COLLECTION_</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	
+	<category><pattern>* UCI MFA WRITERS</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>UCI MFA WRITERS *</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>* UCI MFA WRITERS *</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>UCI MFA WRITERS</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>UCI MFA WRITERS * COLLECTION</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>UCI MFA WRITERS COLLECTION_</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>UCI * MFA * WRITERS</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>UCI MFA WRITERS * COLLECTION</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>UCI MFA WRITERS COLLECTION_</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>* UCI * MFA * COLLECTION_</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	
+	<category><pattern>* MFA AUTHORS</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>MFA AUTHORS *</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>* MFA AUTHORS *</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>MFA AUTHORS</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>MFA AUTHORS COLLECTION_</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>MFA * AUTHORS</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>* MFA * COLLECTION</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>MFA COLLECTION_</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	
+	<category><pattern>* MFA WRITERS</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>MFA WRITERS *</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>* MFA WRITERS *</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>MFA WRITERS</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	<category><pattern>* MFA * WRITERS</pattern>
+	<template><srai>LITERARY AUTHORS</srai></template></category>
+	
+		<category><pattern>UCI</pattern>
+		<that>Are you looking for the UCI Literary Authors Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/literary-authors/" target="_blank">Literary Authors Collection</a>.</template></category>
+		
+		<category><pattern>* UCI *</pattern>
+		<that>Are you looking for the UCI Literary Authors Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/literary-authors/" target="_blank">Literary Authors Collection</a>.</template></category>
+		
+		<category><pattern>LITERARY</pattern>
+		<that>Are you looking for the UCI Literary Authors Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/literary-authors/" target="_blank">Literary Authors Collection</a>.</template></category>
+		
+		<category><pattern>AUTHORS</pattern>
+		<that>Are you looking for the UCI Literary Authors Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/literary-authors/" target="_blank">Literary Authors Collection</a>.</template></category>
+		
+		<category><pattern>COLLECTION_</pattern>
+		<that>Are you looking for the UCI Literary Authors Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/literary-authors/" target="_blank">Literary Authors Collection</a>.</template></category>
+
+		<category><pattern>YES</pattern>
+		<that>Are you looking for the UCI Literary Authors Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/literary-authors/" target="_blank">Literary Authors Collection</a>.</template></category>
+		
+		<category><pattern>NO</pattern>
+		<that>Are you looking for the UCI Literary Authors Collection_</that>
+		<template><srai>ASK A LIBRARIAN</srai></template></category>
+
+
+<!-- LOCATION -->
+<category><pattern>WHERE * SPECIAL COLLECTIONS *</pattern>
+<template> 	The UCI Archives and Special Collections is located on the <a href=" http://www.lib.uci.edu/sites/all/files/docs/floorplan-langson-5th-floor.pdff" target="_blank">Langson fifth floor</a>.</template></category>		
+	<category><pattern>WHERE * ARCHIVE_</pattern>
+	<template><srai>WHERE <star/> SPECIAL COLLECTIONS <star/></srai></template></category>
+	<category><pattern>WHERE * SPECIAL COLLECTION_ </pattern>
+	<template><srai>WHERE <star/> SPECIAL COLLECTIONS <star/></srai></template></category>
+
+	<category><pattern>* LOCAT* * ARCHIVE_</pattern>
+	<template><srai>WHERE <star/> SPECIAL COLLECTIONS <star/></srai></template></category>
+	<category><pattern>* LOCAT* * SPECIAL COLLECTION_ </pattern>
+	<template><srai>WHERE <star/> SPECIAL COLLECTIONS <star/></srai></template></category>
+	
+	<category><pattern>* ARCHIVE_ * LOCAT*</pattern>
+	<template><srai>WHERE <star/> SPECIAL COLLECTION_ <star/></srai></template></category>
+	<category><pattern>* SPECIAL COLLECTION_ LOCAT*</pattern>
+	<template><srai>WHERE <star/> SPECIAL COLLECTIONS <star/></srai></template></category>
+	
+	<category><pattern>* ARCHIVE_ * LOCAT*</pattern>
+	<template><srai>WHERE <star/> SPECIAL COLLECTION_ <star/></srai></template></category>
+	<category><pattern>* SPECIAL COLLECTION_ LOCAT*</pattern>
+	<template><srai>WHERE <star/> SPECIAL COLLECTIONS <star/></srai></template></category>
+		
+		
+<!-- ORANGE COUNTY ARCHIVE -->		
+<category><pattern>ORANGE COUNTY ARCHIVE</pattern>
+<template>Are you looking for the UCI Orange County Archive?</template></category>
+
+	<category><pattern>* ORANGE COUNTY ARCHIVE</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>ORANGE COUNTY ARCHIVE *</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>* ORANGE COUNTY ARCHIVE_ *</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>ORANGE COUNTY * ARCHIVE_</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>ORANGE COUNTY ARCHIVE_</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>ORANGE COUNTY COLLECTION_</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	
+	<category><pattern>* ORANGE COUNTY HISTORY</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>ORANGE COUNTY HISTORY *</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>* ORANGE COUNTY HISTORY *</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>ORANGE COUNTY * HISTORY</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>ORANGE COUNTY HISTORY</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>ORANGE COUNTY HISTORY</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>* COUNTY HISTORY</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	
+	<category><pattern>* OC ARCHIVE_</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>OC ARCHIVE_ *</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>* OC ARCHIVE_ *</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>OC * ARCHIVE_</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>OC ARCHIVE_</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>OC COLLECTION_</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	
+	<category><pattern>* OC HISTORY</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>OC HISTORY *</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>* OC HISTORY *</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>OC * HISTORY</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>OC HISTORY</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>OC HISTORY</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	
+	
+	
+	<category><pattern>* OC UCI HISTORY</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	<category><pattern>* OC UCI HISTORY</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	<category><pattern>* OC * UCI * HISTORY</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	<category><pattern>* OC * UCI * HISTORY</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	
+	<category><pattern>* OC UCI ARCHIVE_</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	<category><pattern>* OC UCI COLLECTION_</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	<category><pattern>* OC * UCI * ARCHIVE_</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	<category><pattern>* OC * UCI * COLLECTION_</pattern>
+	<template><srai>CALIFORNIA HISTORY ARCHIVE</srai></template></category>
+	
+	<category><pattern>* ORANGE COUNTY * UCI * ARCHIVE_</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	
+	<category><pattern>* ORANGE COUNTY * UC IRVINE * ARCHIVE_</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	
+	<category><pattern>* ORANGE COUNTY * UC IRVINE * COLLECTION_</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	
+	<category><pattern>* ORANGE COUNTY * UC IRVINE * HISTORY</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	
+	<category><pattern>IRVINE HISTORY</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>IRVINE HISTORY *</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>* IRVINE HISTORY *</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>IRVINE * HISTORY</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>IRVINE HISTORY</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>* IRVINE * HISTORY</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	
+	<category><pattern>IRVINE ARCHIVE</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>IRVINE ARCHIVE_ *</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>* IRVINE ARCHIVE_ *</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>IRVINE * ARCHIVE_</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>IRVINE COLLECTION_</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	<category><pattern>* IRVINE * ARCHIVE_</pattern>
+	<template><srai>ORANGE COUNTY ARCHIVE</srai></template></category>
+	
+		<category><pattern>UCI</pattern>
+		<that>Are you looking for the UCI Orange County Archive_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/orange-county/" target="_blank">Orange County Archive</a>.</template></category>
+		
+		<category><pattern>* UCI *</pattern>
+		<that>Are you looking for the UCI Orange County Archive_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/orange-county/" target="_blank">Orange County Archive</a>.</template></category>
+		
+		<category><pattern>* ORANGE *</pattern>
+		<that>Are you looking for the UCI Orange County Archive_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/orange-county/" target="_blank">Orange County Archive</a>.</template></category>
+		
+		<category><pattern>COLLECTION_</pattern>
+		<that>Are you looking for the UCI Orange County Archive_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/orange-county/" target="_blank">Orange County Archive</a>.</template></category>
+
+		<category><pattern>YES</pattern>
+		<that>Are you looking for the UCI Orange County Archive_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/orange-county/" target="_blank">Orange County Archive</a>.</template></category>
+		
+		<category><pattern>NO</pattern>
+		<that>Are you looking for the UCI Orange County Archive_</that>
+		<template><srai>ASK A LIBRARIAN</srai></template></category>	
+		
+<!-- OUT-OF-TOWN -->
+<category><pattern>NON UCI * ARCHIVE</pattern>
+<template>You can find more <a href=" http://special.lib.uci.edu/using/visitor-information.html" target="_blank">information for out-of-town researchers</a>.</template></category>
+
+	<category><pattern>How do non uci * use the archive_</pattern>
+	<template><srai>NON UCI * ARCHIVE</srai></template></category>
+	<category><pattern>Can do non uci * use the archive_</pattern>
+	<template><srai>NON UCI * ARCHIVE</srai></template></category>
+	<category><pattern>How do non uci * use the collection_</pattern>
+	<template><srai>NON UCI * ARCHIVE</srai></template></category>
+	<category><pattern>Can non uci * use the collection_</pattern>
+	<template><srai>NON UCI * ARCHIVE</srai></template></category>
+	<category><pattern>How do out-of-town * use the archive_</pattern>
+	<template><srai>NON UCI * ARCHIVE</srai></template></category>
+	<category><pattern>Can out-of-town * use the archive_</pattern>
+	<template><srai>NON UCI * ARCHIVE</srai></template></category>
+	
+	
+
+<!-- POLITICAL LITERATURE -->	
+<category><pattern>POLITICAL LITERATURE</pattern>
+<template>Are you looking for the UCI Political Literature Collection?</template></category>
+	
+	<category><pattern>POLITIC* NEWSLETTER</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>* POLITIC* NEWSLETTER</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>POLITIC* NEWSLETTER *</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>* POLITIC* NEWSLETTER *</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>POLITIC* NEWSLETTER</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>POLITIC* NEWSLETTER * COLLECTION</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>POLITIC* NEWSLETTER * ARCHIVE</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>POLITIC* NEWSLETTER COLLECTION_</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>	
+	<category><pattern>POLITIC* NEWSLETTER ARCHIVE_</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>* UCI * POLITIC* NEWSLETTER*</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	
+	<category><pattern>POLITIC* PAMPHLET</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>* POLITIC* PAMPHLET</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>POLITIC* PAMPHLET *</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>* POLITIC* PAMPHLET *</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>POLITIC* PAMPHLET</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>POLITIC* PAMPHLET * COLLECTION</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>POLITIC* PAMPHLET * ARCHIVE</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>POLITIC* PAMPHLET COLLECTION_</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>	
+	<category><pattern>POLITIC* PAMPHLET ARCHIVE_</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>* UCI * POLITIC* PAMPHLET*</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	
+	<category><pattern>POLITIC* LITERATURE</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>* POLITIC* LITERATURE</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>POLITIC* LITERATURE *</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>* POLITIC* LITERATURE *</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>POLITIC* LITERATURE</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>POLITIC* LITERATURE * COLLECTION</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>POLITIC* LITERATURE * ARCHIVE</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>POLITIC* LITERATURE COLLECTION_</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>	
+	<category><pattern>POLITIC* LITERATURE ARCHIVE_</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>* UCI * POLITIC* LITERATURE*</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	
+	<category><pattern>POLITIC* COLLECTION</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>* POLITIC* COLLECTION</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>POLITIC* COLLECTION *</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>* POLITIC* COLLECTION *</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>POLITIC* COLLECTION</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>POLITIC* * COLLECTION</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>POLITIC* COLLECTION_</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>	
+	<category><pattern>POLITIC* ARCHIVE_</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>	
+	<category><pattern>POLITIC* ARCHIVE</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>	
+	
+	<category><pattern>PAMPHLET COLLECTION</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>* PAMPHLET COLLECTION</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>PAMPHLET COLLECTION *</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>* PAMPHLET COLLECTION *</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>PAMPHLET COLLECTION</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>PAMPHLET * COLLECTION</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>PAMPHLET COLLECTION_</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>	
+	<category><pattern>PAMPHLET ARCHIVE_</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>	
+	<category><pattern>PAMPHLET * ARCHIVE</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>	
+	
+	<category><pattern>NEWSLETTER COLLECTION</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>* NEWSLETTER COLLECTION</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>NEWSLETTER COLLECTION *</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>* NEWSLETTER COLLECTION *</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>NEWSLETTER COLLECTION</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>NEWSLETTER * COLLECTION</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>
+	<category><pattern>NEWSLETTER COLLECTION_</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>	
+	<category><pattern>NEWSLETTER ARCHIVE_</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>	
+	<category><pattern>NEWSLETTER * ARCHIVE</pattern>
+	<template><srai>POLITICAL LITERATURE</srai></template></category>	
+
+	
+		<category><pattern>UCI</pattern>
+		<that>Are you looking for the UCI Political Literature Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/political-literature/" target="_blank">Political Literature Collection</a>.</template></category>
+		
+		<category><pattern>* UCI *</pattern>
+		<that>Are you looking for the UCI Political Literature Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/political-literature/" target="_blank">Political Literature Collection</a>.</template></category>
+		
+		<category><pattern>* POLITICAL *</pattern>
+		<that>Are you looking for the UCI Political Literature Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/political-literature/" target="_blank">Political Literature Collection</a>.</template></category>
+		
+		<category><pattern>COLLECTION_</pattern>
+		<that>Are you looking for the UCI Political Literature Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/political-literature/" target="_blank">Political Literature Collection</a>.</template></category>
+	
+		<category><pattern>YES</pattern>
+		<that>Are you looking for the UCI Political Literature Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/political-literature/" target="_blank">Political Literature Collection</a>.</template></category>
+		
+		<category><pattern>NO</pattern>
+		<that>Are you looking for the UCI Political Literature Collection_</that>
+		<template><srai>ASK A LIBRARIAN</srai></template></category>
+		
+		
+<!-- PRIMARY SOURCES -->	
+<category><pattern>* PRIMARY SOURCES</pattern>
+<template><srai>PRIMARY SOURCES</srai></template></category>
+<category><pattern>PRIMARY SOURCES *</pattern>
+<template><srai>PRIMARY SOURCES</srai></template></category>
+<category><pattern>* PRIMARY SOURCES *</pattern>
+<template><srai>PRIMARY SOURCES</srai></template></category>
+		
+<!-- RARE BOOKS -->	
+<category><pattern>RARE BOOKS</pattern>
+<template>Are you looking for the UCI Rare Books Collection?</template></category>
+	
+	<category><pattern>* RARE BOOKS</pattern>
+	<template><srai>RARE BOOKS</srai></template></category>
+	<category><pattern>RARE BOOKS *</pattern>
+	<template><srai>RARE BOOKS</srai></template></category>
+	<category><pattern>* RARE BOOKS *</pattern>
+	<template><srai>RARE BOOKS</srai></template></category>
+	<category><pattern>RARE BOOKS * COLLECTION</pattern>
+	<template><srai>RARE BOOKS</srai></template></category>
+	<category><pattern>RARE BOOKS COLLECTION_</pattern>
+	<template><srai>RARE BOOKS</srai></template></category>
+	
+	<category><pattern>* UCI RARE BOOKS *</pattern>
+	<template><srai>RARE BOOKS</srai></template></category>
+	<category><pattern>* UCI * RARE BOOKS *</pattern>
+	<template><srai>RARE BOOKS</srai></template></category>
+	<category><pattern>* UCI * RARE BOOKS COLLECTION_</pattern>
+	<template><srai>RARE BOOKS</srai></template></category>
+	
+	<category><pattern>* FIRST FOLIO</pattern>
+	<template><srai>RARE BOOKS</srai></template></category>
+	<category><pattern>* SHAKESPEARE* * FOLIO *</pattern>
+	<template><srai>RARE BOOKS</srai></template></category>
+	<category><pattern>* FIRST FOLIO *</pattern>
+	<template><srai>RARE BOOKS</srai></template></category>
+	<category><pattern>* SHAKESPEARE* FOLIO *</pattern>
+	<template><srai>RARE BOOKS</srai></template></category>
+	
+		<category><pattern>UCI</pattern>
+		<that>Are you looking for the UCI Rare Books Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/rare-books/" target="_blank">Rare Books Collection</a>.</template></category>
+		
+		<category><pattern>* UCI *</pattern>
+		<that>Are you looking for the UCI Rare Books Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/rare-books/" target="_blank">Rare Books Collection</a>.</template></category>
+		
+		<category><pattern>* RARE BOOKS *</pattern>
+		<that>Are you looking for the UCI Rare Books Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/rare-books/" target="_blank">Rare Books Collection</a>.</template></category>
+		
+		<category><pattern>COLLECTION_</pattern>
+		<that>Are you looking for the UCI Rare Books Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/rare-books/" target="_blank">Rare Books Collection</a>.</template></category>
+
+		<category><pattern>YES</pattern>
+		<that>Are you looking for the UCI Rare Books Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/rare-books/" target="_blank">Rare Books Collection</a>.</template></category>
+		
+		<category><pattern>NO</pattern>
+		<that>Are you looking for the UCI Rare Books Collection_</that>
+		<template><srai>ASK A LIBRARIAN</srai></template></category>
+		
+<!-- PUBLISHING -->
+<category><pattern>PUBLISHING * ARCHIVE_</pattern>
+<template><a href=" http://special.lib.uci.edu/using/permissions.html" target="_blank">Permissions to Publish</a>.</template></category>
+
+	<category><pattern>* PUBLISH_ * ARCHIVE_</pattern>
+	<template><srai>PUBLISHING * ARCHIVE_</srai></template></category>
+	<category><pattern>* PUBLISH * ARCHIVE_</pattern>
+	<template><srai>PUBLISHING * ARCHIVE_</srai></template></category>
+	<category><pattern>* PUBLISH_ * COLLECTION_</pattern>
+	<template><srai>PUBLISHING * ARCHIVE_</srai></template></category>
+	<category><pattern>* PUBLISH * COLLECTION_</pattern>
+	<template><srai>PUBLISHING * ARCHIVE_</srai></template></category>
+	
+		
+	
+<!-- SEAA -->	
+<category><pattern>SEAA</pattern>
+<template>Are you looking for the UCI Southeast Asian Archive?</template></category>
+
+		<category><pattern>UCI</pattern>
+		<that>Are you looking for the UCI Southeast Asian Archive_</that>
+		<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+		
+		<category><pattern>* UCI *</pattern>
+		<that>Are you looking for the UCI Southeast Asian Archive_</that>
+		<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+		
+		<category><pattern>* SOUTHEAST *</pattern>
+		<that>Are you looking for the UCI Southeast Asian Archive_</that>
+		<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+		
+		<category><pattern>* ARCHIVE_</pattern>
+		<that>Are you looking for the UCI Southeast Asian Archive_</that>
+		<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+		
+		<category><pattern>SEAA</pattern>
+		<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+		
+		<category><pattern>* SEAA</pattern>
+		<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+
+		<category><pattern>YES</pattern>
+		<that>Are you looking for the UCI Southeast Asian Archive_</that>
+		<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+		
+		<category><pattern>NO</pattern>
+		<that>Are you looking for the UCI Southeast Asian Archive_</that>
+		<template><srai>ASK A LIBRARIAN</srai></template></category>
+
+
+	
+	<category><pattern>* SOUTHEAST ASIAN</pattern>
+	<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+	<category><pattern>SOUTHEAST ASIAN *</pattern>
+	<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+	<category><pattern>* SOUTHEAST ASIAN *</pattern>
+	<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+	<category><pattern>SOUTHEAST ASIAN</pattern>
+	<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+	<category><pattern>SOUTHEAST ASIAN * ARCHIVE</pattern>
+	<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+	
+	<category><pattern>* SOUTH EAST ASIAN</pattern>
+	<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+	<category><pattern>SOUTH EAST ASIAN *</pattern>
+	<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+	<category><pattern>* SOUTH EAST ASIAN *</pattern>
+	<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+	<category><pattern>SOUTH EAST ASIAN</pattern>
+	<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+	<category><pattern>SOUTH EAST ASIAN * ARCHIVE</pattern>
+	<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+
+	<category><pattern>* VIETNAM ARCHIVE_</pattern>
+	<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+	<category><pattern>VIETNAM ARCHIVE_ *</pattern>
+	<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+	<category><pattern>* VIETNAM ARCHIVE_ *</pattern>
+	<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+	<category><pattern>VIETNAM ARCHIVE_</pattern>
+	<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+	<category><pattern>VIETNAM * ARCHIVE_</pattern>
+	<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+	
+	<category><pattern>* CAMBODIA ARCHIVE_</pattern>
+	<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+	<category><pattern>CAMBODIA ARCHIVE_ *</pattern>
+	<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+	<category><pattern>* CAMBODIA ARCHIVE_ *</pattern>
+	<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+	<category><pattern>CAMBODIA ARCHIVE_</pattern>
+	<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+	<category><pattern>CAMBODIA * ARCHIVE_</pattern>
+	<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+	
+	<category><pattern>* LAOS ARCHIVE_</pattern>
+	<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+	<category><pattern>LAOS ARCHIVE_ *</pattern>
+	<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+	<category><pattern>* LAOS ARCHIVE_ *</pattern>
+	<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+	<category><pattern>LAOS ARCHIVE_</pattern>
+	<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+	<category><pattern>LAOS * ARCHIVE_</pattern>
+	<template><srai>SOUTHEAST ASIAN ARCHIVE</srai></template></category>
+
+<!-- STAFF -->	
+<category><pattern>* ARCHIVE_ LIBRARIAN</pattern>
+<template><srai>AUDRA YUN</srai></template></category>
+<category><pattern>* ARCHIVE_ * LIBRARIAN</pattern>
+<template><srai>AUDRA YUN</srai></template></category>
+<category><pattern>* SPECIAL COLLECTION_ LIBRARIAN</pattern>
+<template><srai>AUDRA YUN</srai></template></category>
+<category><pattern>* SPECIAL COLLECTION_ * LIBRARIAN</pattern>
+<template><srai>AUDRA YUN</srai></template></category>
+
+<category><pattern>* SOUTH* ASIA * ARCHIVE * LIBRARIAN</pattern>
+<template><srai>THUY VO DANG</srai></template></category>
+<category><pattern>* SOUTH* ASIA ARCHIVE LIBRARIAN</pattern>
+<template><srai>THUY VO DANG</srai></template></category>
+
+<category><pattern>* SERVICE* * ARCHIVE_ * </pattern>
+<template><srai>STEPHEN MACLEOD</srai></template></category>
+<category><pattern>* ARCHIVE_* SERVICE*</pattern>
+<template><srai>STEPHEN MACLEOD</srai></template></category>
+<category><pattern>* ARCHIVE* SERVICE*</pattern>
+<template><srai>STEPHEN MACLEOD</srai></template></category>
+<category><pattern>* SERVICE * COLLECTION_* * </pattern>
+<template><srai>STEPHEN MACLEOD</srai></template></category>
+<category><pattern>* COLLECTION_* SERVICE*</pattern>
+<template><srai>STEPHEN MACLEOD</srai></template></category>
+<category><pattern>* COLLECTION_* SERVICE*</pattern>
+<template><srai>STEPHEN MACLEOD</srai></template></category>
+
+<category><pattern>CONTACT</pattern>
+<template>Are you looking for help with the UCI Special Collections and Archives?</template></category>
+
+	<category><pattern>* ARCHIVE_ * CONTACT</pattern>
+	<template><srai>CONTACT</srai></template></category>
+	<category><pattern>* COLLECTION_* CONTACT</pattern>
+	<template><srai>CONTACT</srai></template></category>
+	<category><pattern>* HELP * ARCHIVE_</pattern>
+	<template><srai>CONTACT</srai></template></category>
+	<category><pattern>* HELP * COLLECTION_</pattern>
+	<template><srai>CONTACT</srai></template></category>
+	
+	<category><pattern>* ARCHIVE* HELP</pattern>
+	<template><srai>CONTACT</srai></template></category>
+	<category><pattern>* COLLECTION_* HELP</pattern>
+	<template><srai>CONTACT</srai></template></category>
+	<category><pattern>* CONTACT * ARCHIVE_</pattern>
+	<template><srai>CONTACT</srai></template></category>
+	<category><pattern>* CONTACT * COLLECTION_</pattern>
+	<template><srai>CONTACT</srai></template></category>
+	
+	<category><pattern>* ARCHIVE* PHONE</pattern>
+	<template><srai>CONTACT</srai></template></category>
+	<category><pattern>* COLLECTION_* PHONE</pattern>
+	<template><srai>CONTACT</srai></template></category>
+	<category><pattern>* PHONE * ARCHIVE_</pattern>
+	<template><srai>CONTACT</srai></template></category>
+	<category><pattern>* PHONE * COLLECTION_</pattern>
+	<template><srai>CONTACT</srai></template></category>
+
+		<category><pattern>YES</pattern>
+		<that>Are you looking for help with the UCI Special Collections and Archives_</that>
+		<template>Here is a link to <a href=" http://special.lib.uci.edu/contact/" target="_blank">contact information for UCI Special Collections and Archives</a>.</template></category>
+		
+		<category><pattern>NO</pattern>
+		<that>Are you looking for help with the UCI Special Collections and Archives_</that>
+		<template><srai>ASK A LIBRARIAN</srai></template></category>
+
+	
+<!-- SPECIAL -->
+<category><pattern>SPECIAL</pattern>
+<template>Are you looking for the UCI Special Collections and Archives?</template></category>
+	<category><pattern>* SPECIAL</pattern>
+	<template><srai>SPECIAL</srai></template></category>
+	<category><pattern>SPECIAL *</pattern>
+	<template><srai>SPECIAL</srai></template></category>
+	<category><pattern>* SPECIAL *</pattern>
+	<template><srai>SPECIAL</srai></template></category>
+	
+		<category><pattern>UCI</pattern>
+		<that>Are you looking for the UCI Special Collections and Archives_</that>
+		<template><srai>SPECIAL COLLECTIONS AND ARCHIVES</srai></template></category>
+		
+		<category><pattern>* UCI *</pattern>
+		<that>Are you looking for the UCI Special Collections and Archives_</that>
+		<template><srai>SPECIAL COLLECTIONS AND ARCHIVES</srai></template></category>
+	
+		<category><pattern>SPECIAL COLLECTIONS</pattern>
+		<that>Are you looking for the UCI Special Collections and Archives_</that>
+		<template><srai>SPECIAL COLLECTIONS AND ARCHIVES</srai></template></category>
+		
+		<category><pattern>COLLECTIONS</pattern>
+		<that>Are you looking for the UCI Special Collections and Archives_</that>
+		<template><srai>SPECIAL COLLECTIONS AND ARCHIVES</srai></template></category>
+		
+		<category><pattern>YES</pattern>
+		<that>Are you looking for the UCI Special Collections and Archives_</that>
+		<template><srai>SPECIAL COLLECTIONS AND ARCHIVES</srai></template></category>
+		
+		<category><pattern>NO</pattern>
+		<that>Are you looking for the UCI Special Collections and Archives_</that>
+		<template><srai>ASK A LIBRARIAN</srai></template></category>
+		
+<!-- SMALL PRESS -->	
+<category><pattern>SMALL PRESS</pattern>
+<template>Are you looking for the UCI Small Press Collection?</template></category>
+	
+	<category><pattern>* SMALL PRESS</pattern>
+	<template><srai>SMALL PRESS</srai></template></category>
+	<category><pattern>SMALL PRESS *</pattern>
+	<template><srai>SMALL PRESS</srai></template></category>
+	<category><pattern>* SMALL PRESS *</pattern>
+	<template><srai>SMALL PRESS</srai></template></category>
+	<category><pattern>SMALL PRESS * COLLECTION</pattern>
+	<template><srai>SMALL PRESS</srai></template></category>
+	<category><pattern>SMALL PRESS COLLECTION_</pattern>
+	<template><srai>SMALL PRESS</srai></template></category>
+	
+	<category><pattern>* UCI SMALL PRESS *</pattern>
+	<template><srai>SMALL PRESS</srai></template></category>
+	<category><pattern>* UCI * SMALL PRESS *</pattern>
+	<template><srai>SMALL PRESS</srai></template></category>
+	<category><pattern>* UCI * SMALL PRESS COLLECTION_</pattern>
+	<template><srai>SMALL PRESS</srai></template></category>
+	
+		<category><pattern>UCI</pattern>
+		<that>Are you looking for the UCI Small Press Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/small-press/" target="_blank">Small Press Collection</a>.</template></category>
+		
+		<category><pattern>* UCI *</pattern>
+		<that>Are you looking for the UCI Small Press Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/small-press/" target="_blank">Small Press Collection</a>.</template></category>
+		
+		<category><pattern>SMALL PRESS</pattern>
+		<that>Are you looking for the UCI Small Press Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/small-press/" target="_blank">Small Press Collection</a>.</template></category>
+		
+		<category><pattern>COLLECTION_</pattern>
+		<that>Are you looking for the UCI Small Press Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/small-press/" target="_blank">Small Press Collection</a>.</template></category>
+
+		<category><pattern>YES</pattern>
+		<that>Are you looking for the UCI Small Press Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/small-press/" target="_blank">Small Press Collection</a>.</template></category>
+		
+		<category><pattern>NO</pattern>
+		<that>Are you looking for the UCI Small Press Collection_</that>
+		<template><srai>ASK A LIBRARIAN</srai></template></category>
+			
+<!-- THESIS HELP -->
+<category><pattern>HELP WRITING DISSERTATION</pattern>
+<template>Are you looking for help writing or submitting your dissertation?</template></category>	
+
+	<category><pattern>* WRIT_  DISSERTATION </pattern>
+	<template><srai>HELP WRITING DISSERTATION</srai></template></category>
+	<category><pattern>* DISSERTATION * WRIT_</pattern>
+	<template><srai>HELP WRITING DISSERTATION</srai></template></category>
+	<category><pattern>* THESIS * WRIT_</pattern>
+	<template><srai>HELP WRITING DISSERTATION</srai></template></category>
+	<category><pattern>* WRIT_ * THESIS</pattern>
+	<template><srai>HELP WRITING DISSERTATION</srai></template></category>
+	<category><pattern>* HELP * THESIS</pattern>
+	<template><srai>HELP WRITING DISSERTATION</srai></template></category>
+	<category><pattern>* THESIS * HELP</pattern>
+	<template><srai>HELP WRITING DISSERTATION</srai></template></category>
+	
+	<category><pattern>* THESIS DEADLINE_</pattern>
+	<template><srai>HELP WRITING DISSERTATION</srai></template></category>
+	<category><pattern>THESIS * DEADLINE_</pattern>
+	<template><srai>HELP WRITING DISSERTATION</srai></template></category>
+	<category><pattern>* THESIS * DEADLINE_</pattern>
+	<template><srai>HELP WRITING DISSERTATION</srai></template></category>
+	<category><pattern>THESES DEADLINE_</pattern>
+	<template><srai>HELP WRITING DISSERTATION</srai></template></category>
+	<category><pattern>* THESIS DEADLINE_</pattern>
+	<template><srai>HELP WRITING DISSERTATION</srai></template></category>
+	<category><pattern>THESES * DEADLINE_</pattern>
+	<template><srai>HELP WRITING DISSERTATION</srai></template></category>
+	<category><pattern>* THESES * DEADLINE_</pattern>
+	<template><srai>HELP WRITING DISSERTATION</srai></template></category>
+	
+	<category><pattern>* DISSERTATION DEADLINES</pattern>
+	<template><srai>HELP WRITING DISSERTATION</srai></template></category>
+	<category><pattern>* DISSERTATION * DEADLINES</pattern>
+	<template><srai>HELP WRITING DISSERTATION</srai></template></category>
+	<category><pattern>* DISSERTATION DEADLINE</pattern>
+	<template><srai>HELP WRITING DISSERTATION</srai></template></category>
+	<category><pattern>* DEADLINES * DISSERTATION_</pattern>
+	<template><srai>HELP WRITING DISSERTATION</srai></template></category>
+	<category><pattern>* DEADLINE_ * THESIS</pattern>
+	<template><srai>HELP WRITING DISSERTATION</srai></template></category>
+	<category><pattern>* DEADLINE_ * THESIS</pattern>
+	<template><srai>HELP WRITING DISSERTATION</srai></template></category>
+	<category><pattern>* DEADLINE_ * DISSERTATIONS *</pattern>
+	<template><srai>HELP WRITING DISSERTATION</srai></template></category>
+
+		<category><pattern>YES</pattern>
+		<that>Are you looking for help writing or submitting your dissertation_</that>
+		<template>Here is a link to the <a href=" http://etd.lib.uci.edu/" target="_blank">UCI Theses and Dissertations Manual</a>.</template></category>
+		
+		<category><pattern>NO</pattern>
+		<that>Are you looking for help writing or submitting your dissertation_</that>
+		<template><srai>THESIS</srai></template></category>
+		
+<!-- THESIS -->
+<category><pattern>THESIS</pattern>
+<template>Are you looking for the UCI Theses and Dissertations?</template></category>
+
+	<category><pattern>* THESIS</pattern>
+	<template><srai>THESIS</srai></template></category>
+	<category><pattern>THESIS *</pattern>
+	<template><srai>THESIS</srai></template></category>
+	<category><pattern>* THESIS *</pattern>
+	<template><srai>THESIS</srai></template></category>
+	<category><pattern>THESES</pattern>
+	<template><srai>THESIS</srai></template></category>
+	<category><pattern>* THESES</pattern>
+	<template><srai>THESIS</srai></template></category>
+	<category><pattern>THESES *</pattern>
+	<template><srai>THESIS</srai></template></category>
+	<category><pattern>* THESES *</pattern>
+	<template><srai>THESIS</srai></template></category>
+	
+	<category><pattern>* DISSERTATION</pattern>
+	<template><srai>THESIS</srai></template></category>
+	<category><pattern>DISSERTATION *</pattern>
+	<template><srai>THESIS</srai></template></category>
+	<category><pattern>* DISSERTATION *</pattern>
+	<template><srai>THESIS</srai></template></category>
+	<category><pattern>DISSERTATIONS</pattern>
+	<template><srai>THESIS</srai></template></category>
+	<category><pattern>* DISSERTATIONS</pattern>
+	<template><srai>THESIS</srai></template></category>
+	<category><pattern>DISSERTATIONS *</pattern>
+	<template><srai>THESIS</srai></template></category>
+	<category><pattern>* DISSERTATIONS *</pattern>
+	<template><srai>THESIS</srai></template></category>
+	<category><pattern>* HELP * DISSERTATION</pattern>
+	<template><srai>THESIS</srai></template></category>
+	<category><pattern>* HELP * THESIS</pattern>
+	<template><srai>THESIS</srai></template></category>
+	
+		<category><pattern>UCI</pattern>
+		<that>Are you looking for the UCI Theses and Dissertations_</that>
+		<template>Here is a link to <a href=" http://etd.lib.uci.edu/" target="_blank">UCI Theses and Dissertations</a>.</template></category>
+		
+		<category><pattern>* UCI * </pattern>
+		<that>Are you looking for the UCI Theses and Dissertations_</that>
+		<template>Here is a link to <a href=" http://etd.lib.uci.edu/" target="_blank">UCI Theses and Dissertations</a>.</template></category>
+		
+		<category><pattern>THESES</pattern>
+		<that>Are you looking for the UCI Theses and Dissertations_</that>
+		<template>Here is a link to <a href=" http://etd.lib.uci.edu/" target="_blank">UCI Theses and Dissertations</a>.</template></category>
+		
+		<category><pattern>DISSERTATION_</pattern>
+		<that>Are you looking for the UCI Theses and Dissertations_</that>
+		<template>Here is a link to <a href=" http://etd.lib.uci.edu/" target="_blank">UCI Theses and Dissertations</a>.</template></category>
+	
+		<category><pattern>YES</pattern>
+		<that>Are you looking for the UCI Theses and Dissertations_</that>
+		<template>Here is a link to <a href=" http://etd.lib.uci.edu/" target="_blank">UCI Theses and Dissertations</a>.</template></category>
+		
+		<category><pattern>NO</pattern>
+		<that>Are you looking for the UCI Theses and Dissertations_</that>
+		<template><srai>HELP WRITING DISSERTATION</srai></template></category>
+
+<category><pattern>HOW DO I FIND A DISSERTATION</pattern>
+<template>To locate a particular dissertation or thesis, search <a href=" http://antpac.lib.uci.edu/" target="_blank">ANTPAC</a> by author or title. Ph.D. dissertations produced since 1997 by 
+students on all UC campuses may be available in full text online from <a href=" http://antpac.lib.uci.edu:80/record=b3503762~S7" target="_blank">Proquest's Dissertations and Theses</a>.</template></category>
+	<category><pattern>I NEED TO LOCATE A DISSERTATION</pattern>
+	<template><srai>HOW DO I FIND A DISSERTATION</srai></template></category>
+	<category><pattern>HOW DO I FIND A THESIS * STUDENT WHO GRADUATED FROM UCI</pattern>
+	<template><srai>HOW DO I FIND A DISSERTATION</srai></template></category>
+	<category><pattern>HOW DO I FIND A THESIS * UCI STUDENT</pattern>
+	<template><srai>HOW DO I FIND A DISSERTATION</srai></template></category>
+	<category><pattern>WHERE CAN I FIND DISSERTATIONS</pattern>
+	<template><srai>HOW DO I FIND A DISSERTATION</srai></template></category>
+	<category><pattern>HOW CAN I FIND DISSERTATIONS</pattern>
+	<template><srai>HOW DO I FIND A DISSERTATION</srai></template></category>
+	<category><pattern>WHERE ARE DISSERTATIONS</pattern>
+	<template><srai>HOW DO I FIND A DISSERTATION</srai></template></category>
+	<category><pattern>WHERE CAN I FIND A DISSERTATION</pattern>
+	<template><srai>HOW DO I FIND A DISSERTATION</srai></template></category>
+	<category><pattern>HOW CAN I FIND A DISSERTATION</pattern>
+	<template><srai>HOW DO I FIND A DISSERTATION</srai></template></category>
+
+<!-- THOMAS MANN -->	
+<category><pattern>THOMAS MANN</pattern>
+<template>Are you looking for the UCI Thomas Mann Collection?</template></category>
+	
+	<category><pattern>* THOMAS MANN</pattern>
+	<template><srai>THOMAS MANN</srai></template></category>
+	<category><pattern>THOMAS MANN *</pattern>
+	<template><srai>THOMAS MANN</srai></template></category>
+	<category><pattern>* THOMAS MANN *</pattern>
+	<template><srai>THOMAS MANN</srai></template></category>
+	<category><pattern>THOMAS MANN * COLLECTION</pattern>
+	<template><srai>THOMAS MANN</srai></template></category>
+	<category><pattern>THOMAS MANN COLLECTION_</pattern>
+	<template><srai>THOMAS MANN</srai></template></category>
+	
+	<category><pattern>* UCI THOMAS MANN *</pattern>
+	<template><srai>THOMAS MANN</srai></template></category>
+	<category><pattern>* UCI * THOMAS MANN *</pattern>
+	<template><srai>THOMAS MANN</srai></template></category>
+	<category><pattern>* UCI * THOMAS MANN COLLECTION_</pattern>
+	<template><srai>THOMAS MANN</srai></template></category>
+	<category><pattern>* UCI * MANN COLLECTION_</pattern>
+	<template><srai>THOMAS MANN</srai></template></category>
+	<category><pattern>* UCI * MANN *</pattern>
+	<template><srai>THOMAS MANN</srai></template></category>
+	<category><pattern>UCI MANN</pattern>
+	<template><srai>THOMAS MANN</srai></template></category>
+	
+		<category><pattern>UCI</pattern>
+		<that>Are you looking for the UCI Thomas Mann Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/thomas-mann/" target="_blank">Thomas Mann Collection</a>.</template></category>
+		
+		<category><pattern>* UCI *</pattern>
+		<that>Are you looking for the UCI Thomas Mann Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/thomas-mann/" target="_blank">Thomas Mann Collection</a>.</template></category>
+		
+		<category><pattern>* MANN</pattern>
+		<that>Are you looking for the UCI Thomas Mann Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/thomas-mann/" target="_blank">Thomas Mann Collection</a>.</template></category>
+		
+		<category><pattern>COLLECTION_</pattern>
+		<that>Are you looking for the UCI Thomas Mann Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/thomas-mann/" target="_blank">Thomas Mann Collection</a>.</template></category>
+
+		<category><pattern>YES</pattern>
+		<that>Are you looking for the UCI Thomas Mann Collection_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/thomas-mann/" target="_blank">Thomas Mann Collection</a>.</template></category>
+		
+		<category><pattern>NO</pattern>
+		<that>Are you looking for the UCI Small Press Collection_</that>
+		<template><srai>ASK A LIBRARIAN</srai></template></category>
+
+
+<!-- UNIVERSITY ARCHIVES -->
+<category><pattern>UNIVERSITY ARCHIVES</pattern>
+<template>Are you looking for the Archives of the University of California Irvine or UCI Special Collections?</template></category>
+
+	<category><pattern>* UNIVERSITY ARCHIVE_</pattern>
+	<template><srai>UNIVERSITY ARCHIVES</srai></template></category>
+	<category><pattern>UNIVERSITY ARCHIVE_ *</pattern>
+	<template><srai>UNIVERSITY ARCHIVES</srai></template></category>
+	<category><pattern>* UNIVERSITY ARCHIVE_ *</pattern>
+	<template><srai>UNIVERSITY ARCHIVES</srai></template></category>
+	<category><pattern>UNIVERSITY ARCHIVE_</pattern>
+	<template><srai>UNIVERSITY ARCHIVES</srai></template></category>
+	<category><pattern>UNIVERSITY * ARCHIVE_</pattern>
+	<template><srai>UNIVERSITY ARCHIVES</srai></template></category>
+	
+	<category><pattern>* UCI ARCHIVE_</pattern>
+	<template><srai>UNIVERSITY ARCHIVES</srai></template></category>
+	<category><pattern>UCI ARCHIVE_ *</pattern>
+	<template><srai>UNIVERSITY ARCHIVES</srai></template></category>
+	<category><pattern>* UCI ARCHIVE_ *</pattern>
+	<template><srai>UNIVERSITY ARCHIVES</srai></template></category>
+	<category><pattern>UCI ARCHIVE_</pattern>
+	<template><srai>UNIVERSITY ARCHIVES</srai></template></category>
+	<category><pattern>UCI * ARCHIVE_</pattern>
+	<template><srai>UNIVERSITY ARCHIVES</srai></template></category>
+	
+	<category><pattern>* UC IRVINE ARCHIVE_</pattern>
+	<template><srai>UNIVERSITY ARCHIVES</srai></template></category>
+	<category><pattern>UC IRVINE ARCHIVE_ *</pattern>
+	<template><srai>UNIVERSITY ARCHIVES</srai></template></category>
+	<category><pattern>* UC IRVINE ARCHIVE_ *</pattern>
+	<template><srai>UNIVERSITY ARCHIVES</srai></template></category>
+	<category><pattern>UC IRVINE ARCHIVE_</pattern>
+	<template><srai>UNIVERSITY ARCHIVES</srai></template></category>
+	<category><pattern>UC IRVINE * ARCHIVE_</pattern>
+	<template><srai>UNIVERSITY ARCHIVES</srai></template></category>
+	
+	<category><pattern>* UCI HISTORY</pattern>
+	<template><srai>UNIVERSITY ARCHIVES</srai></template></category>
+	<category><pattern>UCI HISTORY *</pattern>
+	<template><srai>UNIVERSITY ARCHIVES</srai></template></category>
+	<category><pattern>* UCI HISTORY *</pattern>
+	<template><srai>UNIVERSITY ARCHIVES</srai></template></category>
+	<category><pattern>UCI HISTORY</pattern>
+	<template><srai>UNIVERSITY ARCHIVES</srai></template></category>
+	<category><pattern>UCI * HISTORY</pattern>
+	<template><srai>UNIVERSITY ARCHIVES</srai></template></category>
+	
+	<category><pattern>* UC IRVINE HISTORY</pattern>
+	<template><srai>UNIVERSITY ARCHIVES</srai></template></category>
+	<category><pattern>UC IRVINE HISTORY *</pattern>
+	<template><srai>UNIVERSITY ARCHIVES</srai></template></category>
+	<category><pattern>* UC IRVINE HISTORY *</pattern>
+	<template><srai>UNIVERSITY ARCHIVES</srai></template></category>
+	<category><pattern>UC IRVINE HISTORY</pattern>
+	<template><srai>UNIVERSITY ARCHIVES</srai></template></category>
+	<category><pattern>UC IRVINE * HISTORY</pattern>
+	<template><srai>UNIVERSITY ARCHIVES</srai></template></category>
+
+		<category><pattern>UNIVERSITY</pattern>
+		<that>Are you looking for the Archives of the University of California Irvine or UCI Special Collections_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/university-archives/" target="_blank">University Archives</a>.</template></category>
+		
+		<category><pattern>ARCHIVE_</pattern>
+		<that>Are you looking for the Archives of the University of California Irvine or UCI Special Collections_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/university-archives/" target="_blank">University Archives</a>.</template></category>
+		
+		<category><pattern>IRVINE</pattern>
+		<that>Are you looking for the Archives of the University of California Irvine or UCI Special Collections_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/university-archives/" target="_blank">University Archives</a>.</template></category>
+		
+		<category><pattern>UCI</pattern>
+		<that>Are you looking for the Archives of the University of California Irvine or UCI Special Collections_</that>
+		<template>Here is a link to the <a href=" http://special.lib.uci.edu/collections/university-archives/" target="_blank">University Archives</a>.</template></category>
+		
+		<category><pattern>SPECIAL COLLECTIONS</pattern>
+		<that>Are you looking for the Archives of the University of California Irvine or UCI Special Collections_</that>
+		<template><srai>SPECIAL COLLECTIONS AND ARCHIVES</srai></template></category>
+		
+		<category><pattern>NO</pattern>
+		<that>Are you looking for the Archives of the University of California Irvine or UCI Special Collections_</that>
+		<template><srai>ASK A LIBRARIAN</srai></template></category>
+
+<!-- VISIT ARCHIVE -->
+<category><pattern>VISIT* ARCHIVE</pattern>
+<template><a href=" http://special.lib.uci.edu/" target="_blank">Visitor information</a> for Special Collections.</template></category>
+
+	<category><pattern>* VISIT* ARCHIVE_</pattern>
+	<template><srai>VISIT* ARCHIVE</srai></template></category>
+	<category><pattern>* VISIT* * ARCHIVE_</pattern>
+	<template><srai>VISIT* ARCHIVE</srai></template></category>
+	<category><pattern>* VISIT* ARCHIVE</pattern>
+	<template><srai>VISIT* ARCHIVE</srai></template></category>
+	<category><pattern>* VISIT* SPECIAL COLLECTION_</pattern>
+	<template><srai>VISIT* ARCHIVE</srai></template></category>
+	<category><pattern>* VISIT* * COLLECTION_</pattern>
+	<template><srai>VISIT* ARCHIVE</srai></template></category>
+	
+	<category><pattern>* HOUR_ ARCHIVE_</pattern>
+	<template><srai>VISIT* ARCHIVE</srai></template></category>
+	<category><pattern>* HOUR_ * ARCHIVE_</pattern>
+	<template><srai>VISIT* ARCHIVE</srai></template></category>
+	<category><pattern>* HOUR_ ARCHIVE</pattern>
+	<template><srai>VISIT* ARCHIVE</srai></template></category>
+	<category><pattern>* HOUR_ SPECIAL COLLECTION_</pattern>
+	<template><srai>VISIT* ARCHIVE</srai></template></category>
+	<category><pattern>* HOUR_ * SPECIAL COLLECTION_</pattern>
+	<template><srai>VISIT* ARCHIVE</srai></template></category>
+	<category><pattern>* SPECIAL COLLECTION_ * HOUR_*</pattern>
+	<template><srai>VISIT* ARCHIVE</srai></template></category>
+	<category><pattern>* ARCHIVE_ * HOUR_*</pattern>
+	<template><srai>VISIT* ARCHIVE</srai></template></category>
+	
+	<category><pattern>* LOCATION * ARCHIVE</pattern>
+	<template><srai>VISIT* ARCHIVE</srai></template></category>
+	<category><pattern>* LOCATION ARCHIVE_ *</pattern>
+	<template><srai>VISIT* ARCHIVE</srai></template></category>
+	<category><pattern>* LOCATION * ARCHIVE_</pattern>
+	<template><srai>VISIT* ARCHIVE</srai></template></category>
+	<category><pattern>* ARCHIVE_ * LOCATION *</pattern>
+	<template><srai>VISIT* ARCHIVE</srai></template></category>
+	<category><pattern>* LOCATION * SPECIAL COLLECTION_</pattern>
+	<template><srai>VISIT* ARCHIVE</srai></template></category>
+	<category><pattern>* LOCATION SPECIAL COLLECTION_ *</pattern>
+	<template><srai>VISIT* ARCHIVE</srai></template></category>
+	<category><pattern>* SPECIAL COLLECTION_ * LOCATION *</pattern>
+	<template><srai>VISIT* ARCHIVE</srai></template></category>
+	
+	<category><pattern>* LOCAT* * ARCHIVE</pattern>
+	<template><srai>VISIT* ARCHIVE</srai></template></category>
+	<category><pattern>* LOCAT* ARCHIVE_ *</pattern>
+	<template><srai>VISIT* ARCHIVE</srai></template></category>
+	<category><pattern>* LOCAT* * ARCHIVE_</pattern>
+	<template><srai>VISIT* ARCHIVE</srai></template></category>
+	<category><pattern>* ARCHIVE_ * LOCAT* *</pattern>
+	<template><srai>VISIT* ARCHIVE</srai></template></category>
+	<category><pattern>* LOCAT* * SPECIAL COLLECTION_</pattern>
+	<template><srai>VISIT* ARCHIVE</srai></template></category>
+	<category><pattern>* LOCAT* SPECIAL COLLECTION_ *</pattern>
+	<template><srai>VISIT* ARCHIVE</srai></template></category>
+	<category><pattern>* SPECIAL COLLECTION_ * LOCAT* *</pattern>
+	<template><srai>VISIT* ARCHIVE</srai></template></category>
+
+<category><pattern>* BATHROOM * ARCHIVE_</pattern>
+<template><srai>LANGSON RESTROOMS</srai></template></category>
+<category><pattern>* BATHROOM * COLLECTION_</pattern>
+<template><srai>LANGSON RESTROOMS</srai></template></category>
+<category><pattern>* RESTROOM * ARCHIVE_</pattern>
+<template><srai>LANGSON RESTROOMS</srai></template></category>
+<category><pattern>* RESTROOM * COLLECTION_</pattern>
+<template><srai>LANGSON RESTROOMS</srai></template></category>
+
+<!-- END -->
+
+
+
+</aiml>
