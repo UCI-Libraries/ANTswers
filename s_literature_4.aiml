@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- LITERATURE -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>LITERATURE *</pattern>
+	<template><think><set name="topic">literature</set></think><sr /></template></category>
+
+<category><pattern>LITERATURE</pattern>	
+	<template>For resources on literature check out the <a href=" http://guides.lib.uci.edu/literature" target="_blank">English Research Guide</a>     
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	<category><pattern>I NEED ARTICLES ABOUT LITERATURE</pattern>
+	<template><srai>LITERATURE</srai></template></category>
+
+	<category><pattern>ENGLISH</pattern>	
+	<template>For resources on English check out the <a href=" http://guides.lib.uci.edu/literature" target="_blank">English Research Guide</a>     
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	<category><pattern>I NEED ARTICLES ABOUT ENGLISH</pattern>
+	<template><srai>ENGLISH</srai></template></category>
+	
+<!-- Interactions -->
+
+<category><pattern>LITERATURE</pattern>
+	<that>Criticism as a subject is included in the broader subjects of Critical Theory Literature and Philosophy Would you like resource recommendations for critical theory literature or philosophy_</that>
+	<template>We would recommend that you start your search with <a href=" http://www.csa.com/htbin/dbrng.cgi?username=uciandamp;access=uci324andamp;db=mla-set-candamp;adv=1" target="_blank">MLA International Bibliography</a> 
+	and/or <a href=" http://uclibs.org/PID/8191" target="_blank">Literature Online (LION)</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/literature" target="_blank">English Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>LITERATURE</pattern>
+	<that>Cycles as a subject is included in the broader subjects of Literature and Philosophy Would you like resource recommendations for literature or philosophy_</that>
+	<template>We would recommend that you start your search with <a href=" http://www.csa.com/htbin/dbrng.cgi?username=uciandamp;access=uci324andamp;db=mla-set-candamp;adv=1" target="_blank">MLA International Bibliography</a> 
+	and/or <a href=" http://uclibs.org/PID/8191" target="_blank">Literature Online (LION)</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/literature" target="_blank">English Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>LITERATURE</pattern>
+	<that>Drama as a subject is included in the broader subjects of Classics and Literature Would you like resource recommendations for classics or literature_</that>
+	<template>We would recommend that you start your search with <a href=" http://www.csa.com/htbin/dbrng.cgi?username=uciandamp;access=uci324andamp;db=mla-set-candamp;adv=1" target="_blank">MLA International Bibliography</a> 
+	and/or <a href=" http://uclibs.org/PID/8191" target="_blank">Literature Online (LION)</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/literature" target="_blank">English Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>LITERATURE</pattern>
+	<that>Lettrism as a subject is included in the broader subjects of Art and Literature Would you like resource recommendations for art or literature_</that>
+	<template>We would recommend that you start your search with <a href=" http://www.csa.com/htbin/dbrng.cgi?username=uciandamp;access=uci324andamp;db=mla-set-candamp;adv=1" target="_blank">MLA International Bibliography</a> 
+	and/or <a href=" http://uclibs.org/PID/8191" target="_blank">Literature Online (LION)</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/literature" target="_blank">English Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>LITERATURE</pattern>
+	<that>Literary influence as a subject is included in the broader subjects of Art and Literature Would you like resource recommendations for art or literature_</that>
+	<template>We would recommend that you start your search with <a href=" http://www.csa.com/htbin/dbrng.cgi?username=uciandamp;access=uci324andamp;db=mla-set-candamp;adv=1" target="_blank">MLA International Bibliography</a> 
+	and/or <a href=" http://uclibs.org/PID/8191" target="_blank">Literature Online (LION)</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/literature" target="_blank">English Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<!-- Subject keywords-->
+
+<category><pattern>WRITINGS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://www.csa.com/htbin/dbrng.cgi?username=uciandamp;access=uci324andamp;db=mla-set-candamp;adv=1" target="_blank">MLA International Bibliography</a> 
+			and/or <a href=" http://uclibs.org/PID/8191" target="_blank">Literature Online (LION)</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/literature" target="_blank">English Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>ANONYMOUS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>ANOREXIA NERVOSA PATIENTS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>ANTHROPOLOGISTS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>APOCALYPTIC LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>ARCHITECTURE AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>ART AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>ARTISTS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>BIBLE AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>BILINGUALISM AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>BIO BIBLIOGRAPHY</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>BOOKSTORE EMPLOYEES WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>BUDDHISM AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>BULIMIA PATIENTS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>CATALOGING OF LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>CATHOLIC LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>WRITINGS OF CHILDREN OF HOLOCAUST SURVIVORS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>CHILDREN*S LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>CHRISTIAN LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>CHRISTIANITY AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>CLASSICAL LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>CLASSICISM</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>CLERGYMEN*S WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>COLLEGE READERS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>COLLEGE STUDENTS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>COMMUNISM AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>CONCENTRATION CAMP INMATES WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>CONSERVATISM AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>COWBOYS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>LITERARY CREATION</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>CRIMINALS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>CUBISM AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>DADAIST LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>WRITINGS OF THE DEAF</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>DIALECT LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>DIARIES</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>DIDACTIC LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>DISEASES AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>DIVERS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>DRUGS AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>EPIC LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>EROTIC LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>LITERARY ERRORS AND BLUNDERS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>EXILES WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>FABLES</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>FANTASTIC FICTION</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>FANTASTIC LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>FASCISM AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>FEMINISM AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>FICTION</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>FIRST PERSON NARRATIVE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>FOLK LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>FREEMASONRY AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>FUR TRADERS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>GAUCHOS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>GAYS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>GOVERNMENT EMPLOYEES WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>WRITINGS OF THE HEARING IMPAIRED</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>HIGH SCHOOL STUDENTS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>HOLOCAUST SURVIVORS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>HOMELESS PERSONS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>IDEOLOGY AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>IMMIGRANTS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>JOURNALISM</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>JUDAISM AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>KINGS AND RULERS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>LAUDS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>LAW AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>LAWYERS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>WRITING OF THE LEARNING DISABLED</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>LEGENDS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>LEGISLATIVE EMPLOYEES WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>LEGISLATORS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>LEPERS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>LETTERS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>LIBRARIANS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>LINGUISTS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>LITERARY ANATOMIES</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>LITERARY MOVEMENTS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>LITTERATEURS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>LITURGY AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>LOST LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>MACARONIC LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>MASS MEDIA AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>MATHEMATICS AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>WRITINGS OF THE MENTALLY HANDICAPPED</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>WRITINGS OF THE MENTALLY ILL</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>MOCK HEROIC LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>MOTION PICTURES AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>MULTILINGUALISM AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>MUSIC AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>NARCOTIC ADDICTS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>NATIONAL SOCIALISM AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>NATIONALISM AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>NAZI LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>NEW LITERATES WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>NONSENSE LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>NUCLEAR WARFARE AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>NUNS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>NURSES WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>PARODIES</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>PASTICCIO</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>PASTORAL LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>PATRIOTIC LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>PEASANTS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>WRITINGS OF THE PHYSICALLY HANDICAPPED</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>PHYSICIANS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>PICARESQUE LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>PLACES OF INDETERMINACY</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>PLAGIARISM</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>PLOTS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>POETIC JUSTICE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>POETRY</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>POLICE OFFICERS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>POSTAL EMPLOYEES WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>PRIESTS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>PRISONERS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>PROSE LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>PROTESTANTISM AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>PSYCHOANALYSIS AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>PSYCHOLOGY AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>PSYCHOTHERAPY AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>QUOTATIONS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>RADIO AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>RECOVERING ADDICTS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>RECOVERING ALCOHOLICS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>RELIGIOUS LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>RETIREES WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>REVOLUTIONARY LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>SAGAS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>SAIVISM AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>SATIRE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>SCIENTISTS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>SEMIOTICS AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>SEQUELS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>SETTING</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>SEXISM AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>SINCERITY AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>SLAVES WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>SOCIAL PSYCHOLOGY AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>SOCIAL WORKERS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>SOCIALISM AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>LITERARY STYLE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>SUBTEXT</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>SURREALISM</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>TEACHERS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>TRANSSEXUALS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>TRAPPERS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>TRAVELERS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>TRIADS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>TUBERCULOSIS PATIENTS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>UNANIMISM</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>UNDERGROUND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>VETERANS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>VETERINARIANS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>VISUAL LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>WAR AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>WHALERS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>WIDOWS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>WISDOM LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>WIT AND HUMOR</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>WOMEN AND LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>WORKING CLASS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>YOUNG ADULT LITERATURE</pattern>
+<template><srai>WRITINGS</srai></template></category>
+<category><pattern>YOUTHS WRITINGS</pattern>
+<template><srai>WRITINGS</srai></template></category>
+
+<category><pattern>ADULT CHILDREN</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://www.csa.com/htbin/dbrng.cgi?username=uciandamp;access=uci324andamp;db=mla-set-candamp;adv=1" target="_blank">MLA International Bibliography</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/literature" target="_blank">English Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>ADULT CHILD ABUSE VICTIMS WRITINGS</pattern>
+<template><srai>ADULT CHILDREN</srai></template></category>
+<category><pattern>WRITINGS OF ADULT CHILDREN OF ALCOHOLICS</pattern>
+<template><srai>ADULT CHILDREN</srai></template></category>
+<category><pattern>AIR PILOTS WRITINGS</pattern>
+<template><srai>ADULT CHILDREN</srai></template></category>
+<category><pattern>HERMAN MELVILLE</pattern>
+<template><srai>ADULT CHILDREN</srai></template></category>
+<category><pattern>SCARLET LETTER</pattern>
+<template><srai>ADULT CHILDREN</srai></template></category>
+<category><pattern>THE GREAT GATSBY</pattern>
+<template><srai>ADULT CHILDREN</srai></template></category>
+
+<category><pattern>LITERARY CRITICISM</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://infotrac.galegroup.com/itweb/univca20?db=LCO" target="_blank">Literature criticism online</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/literature" target="_blank">English Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>LITERARY CRITICISM ON *</pattern>
+<template><srai>LITERARY CRITICISM</srai></template></category>
+
+</aiml>

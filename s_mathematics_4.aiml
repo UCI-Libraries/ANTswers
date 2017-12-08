@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- MATHEMATICS -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>MATHEMATICS *</pattern>
+	<template><think><set name="topic">mathematics</set></think><sr /></template></category>
+
+<category><pattern>MATHEMATICS</pattern>	
+	<template>For resources on mathematics check out the <a href=" http://guides.lib.uci.edu/mathematics" target="_blank">Mathematics Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Interactions -->
+
+<category><pattern>MATH</pattern>
+	<that>Axioms as a subject is included in the broader subjects of Mathematics and Philosophy Would you like resource recommendations for math or philosophy_</that>
+	<template>We would recommend that you start your search with <a href=" http://mathworld.wolfram.com/" target="_blank">Mathworld</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/mathematics" target="_blank">Mathematics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>MATH</pattern>
+	<that>Biomathematics as a subject is included in the broader subjects of Biology and Mathematics Would you like resource recommendations for biology or Math_</that>
+	<template>We would recommend that you start your search with <a href=" http://www.ams.org/mathscinet/" target="_blank">MathSciNet</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/mathematics" target="_blank">Mathematics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>MATH</pattern>
+	<that>Information theory as a subject is included in the broader subjects of Biology Chemistry Education Mathematics Music and Psychology Would you like resource recommendations for  biology chemistry education math music or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://www.ams.org/mathscinet/" target="_blank">MathSciNet</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/mathematics" target="_blank">Mathematics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>MATH</pattern>
+	<that>Numeracy as a subject is included in the broader subjects of Mathematics and Statistics Would you like resource recommendations for math or statistics_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/113573" target="_blank">ERIC</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/mathematics" target="_blank">Mathematics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>ARITHMETIC</pattern>
+	<that>Statics as a subject is included in the broader subjects of Mathematics and Physics Would you like resource recommendations for mathematics or physics_</that>
+	<template>We would recommend that you start your search with <a href=" http://mathworld.wolfram.com/" target="_blank">Mathworld</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/mathematics" target="_blank">Mathematics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<!-- Subject keywords-->
+
+<category><pattern>ETHNOMATHEMATICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/113573" target="_blank">ERIC</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/mathematics" target="_blank">Mathematics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>ETHNOMATHEMATICS</pattern>
+<template><srai>ETHNOMATHEMATICS</srai></template></category>		
+<category><pattern>EXAMINATIONS</pattern>
+<template><srai>ETHNOMATHEMATICS</srai></template></category>
+<category><pattern>REMEDIAL TEACHING</pattern>
+<template><srai>ETHNOMATHEMATICS</srai></template></category>		
+<category><pattern>ELEMENTARY SCHOOL STUDY AND TEACHING</pattern>
+<template><srai>ETHNOMATHEMATICS</srai></template></category>		
+<category><pattern>PRIMARY SCHOOL STUDY AND TEACHING</pattern>
+<template><srai>ETHNOMATHEMATICS</srai></template></category>		
+<category><pattern>SECONDARY SCHOOL STUDY AND TEACHING</pattern>
+<template><srai>ETHNOMATHEMATICS</srai></template></category>		
+<category><pattern>VOCATIONAL GUIDANCE</pattern>
+<template><srai>ETHNOMATHEMATICS</srai></template></category>
+
+<category><pattern>ALGEBRA</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://www.ams.org/mathscinet/" target="_blank">MathSciNet</a> 
+			and/or <a href=" http://mathworld.wolfram.com/" target="_blank">Mathworld</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/mathematics" target="_blank">Mathematics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>RECIPROCITY THEOREMS</pattern>
+<template><srai>ALGEBRA</srai></template></category>
+<category><pattern>TILING</pattern>
+<template><srai>ALGEBRA</srai></template></category>
+<category><pattern>VARIABLES</pattern>
+<template><srai>ALGEBRA</srai></template></category>
+<category><pattern>VECTOR ANALYSIS</pattern>
+<template><srai>ALGEBRA</srai></template></category>
+
+<category><pattern>BUSINESS MATHEMATICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://www.ams.org/mathscinet/" target="_blank">MathSciNet</a> 
+			and/or <a href=" http://www.siam.org/" target="_blank">SIAM: Society for Industrial and Applied Mathematics </a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/mathematics" target="_blank">Mathematics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>MATHEMATICAL ECONOMICS</pattern>
+<template><srai>BUSINESS MATHEMATICS</srai></template></category>
+
+<category><pattern>CONGRUENCES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://www.ams.org/mathscinet/" target="_blank">MathSciNet</a> 
+			and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/mathematics" target="_blank">Mathematics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>CONGRUENCES</pattern>
+<template><srai>CONGRUENCES</srai></template></category>
+<category><pattern>CONGRUENCES AND RESIDUES</pattern>
+<template><srai>CONGRUENCES</srai></template></category>
+
+<category><pattern>FUNCTIONS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://www.ams.org/mathscinet/" target="_blank">MathSciNet</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/mathematics" target="_blank">Mathematics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>BIBLIOGRAPHY</pattern>
+<template><srai>FUNCTIONS</srai></template></category>
+<category><pattern>COMBINATIONS</pattern>
+<template><srai>FUNCTIONS</srai></template></category>
+<category><pattern>DETERMINANTS</pattern>
+<template><srai>FUNCTIONS</srai></template></category>
+<category><pattern>FACTORIZATION</pattern>
+<template><srai>FUNCTIONS</srai></template></category>
+<category><pattern>FIBERINGS</pattern>
+<template><srai>FUNCTIONS</srai></template></category>
+<category><pattern>FILTERS</pattern>
+<template><srai>FUNCTIONS</srai></template></category>
+<category><pattern>FORMS</pattern>
+<template><srai>FUNCTIONS</srai></template></category>
+<category><pattern>GAME THEORY</pattern>
+<template><srai>FUNCTIONS</srai></template></category>
+<category><pattern>GEOMETRY</pattern>
+<template><srai>FUNCTIONS</srai></template></category>
+<category><pattern>GRAPHIC METHODS</pattern>
+<template><srai>FUNCTIONS</srai></template></category>
+<category><pattern>HARMONIC ANALYSIS</pattern>
+<template><srai>FUNCTIONS</srai></template></category>
+<category><pattern>INDEX THEORY</pattern>
+<template><srai>FUNCTIONS</srai></template></category>
+<category><pattern>INFORMATION THEORY IN MATHEMATICS</pattern>
+<template><srai>FUNCTIONS</srai></template></category>
+<category><pattern>INTERVAL ANALYSIS</pattern>
+<template><srai>FUNCTIONS</srai></template></category>
+<category><pattern>NORMAL FORMS</pattern>
+<template><srai>FUNCTIONS</srai></template></category>
+<category><pattern>PERMUTATIONS</pattern>
+<template><srai>FUNCTIONS</srai></template></category>
+<category><pattern>PROBABILITIES</pattern>
+<template><srai>FUNCTIONS</srai></template></category>
+<category><pattern>SEQUENCES</pattern>
+<template><srai>FUNCTIONS</srai></template></category>
+<category><pattern>SERIES</pattern>
+<template><srai>FUNCTIONS</srai></template></category>
+<category><pattern>SET THEORY</pattern>
+<template><srai>FUNCTIONS</srai></template></category>
+
+<category><pattern>COORDINATES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://mathworld.wolfram.com/" target="_blank">Mathworld</a> 
+			and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/mathematics" target="_blank">Mathematics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>COMMUTATIVE LAW</pattern>
+<template><srai>COORDINATES</srai></template></category>
+<category><pattern>CONIC SECTIONS</pattern>
+<template><srai>COORDINATES</srai></template></category>
+<category><pattern>CURVES</pattern>
+<template><srai>COORDINATES</srai></template></category>
+<category><pattern>PROJECTION</pattern>
+<template><srai>COORDINATES</srai></template></category>
+
+<category><pattern>ARITHMETIC</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://mathworld.wolfram.com/" target="_blank">Mathworld</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/mathematics" target="_blank">Mathematics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>ASSOCIATIVE LAW</pattern>
+<template><srai>ARITHMETIC</srai></template></category>
+<category><pattern>AWARDS</pattern>
+<template><srai>ARITHMETIC</srai></template></category>
+<category><pattern>BINARY SYSTEM</pattern>
+<template><srai>ARITHMETIC</srai></template></category>
+<category><pattern>CHARTS</pattern>
+<template><srai>ARITHMETIC</srai></template></category>
+<category><pattern>DIAGRAMS</pattern>
+<template><srai>ARITHMETIC</srai></template></category>
+<category><pattern>COMPETITIONS</pattern>
+<template><srai>ARITHMETIC</srai></template></category>
+<category><pattern>DECOMPOSITION</pattern>
+<template><srai>ARITHMETIC</srai></template></category>
+<category><pattern>DICTIONARIES</pattern>
+<template><srai>ARITHMETIC</srai></template></category>
+<category><pattern>DYNAMICS</pattern>
+<template><srai>ARITHMETIC</srai></template></category>
+<category><pattern>EQUATIONS</pattern>
+<template><srai>ARITHMETIC</srai></template></category>
+<category><pattern>FORMULAE</pattern>
+<template><srai>ARITHMETIC</srai></template></category>
+<category><pattern>FOURTH DIMENSION</pattern>
+<template><srai>ARITHMETIC</srai></template></category>
+<category><pattern>FRACTIONS</pattern>
+<template><srai>ARITHMETIC</srai></template></category>
+<category><pattern>HISTORIOGRAPHY</pattern>
+<template><srai>ARITHMETIC</srai></template></category>
+<category><pattern>INDUCTION</pattern>
+<template><srai>ARITHMETIC</srai></template></category>
+<category><pattern>INTUITIONISTIC MATHEMATICS</pattern>
+<template><srai>ARITHMETIC</srai></template></category>
+<category><pattern>LEXICOGRAPHY</pattern>
+<template><srai>ARITHMETIC</srai></template></category>
+<category><pattern>LOGIC SYMBOLIC AND MATHEMATICAL</pattern>
+<template><srai>ARITHMETIC</srai></template></category>
+<category><pattern>MATHEMATICAL CONSTANTS</pattern>
+<template><srai>ARITHMETIC</srai></template></category>
+<category><pattern>MAXIMA AND MINIMA</pattern>
+<template><srai>ARITHMETIC</srai></template></category>
+<category><pattern>MENSURATION</pattern>
+<template><srai>ARITHMETIC</srai></template></category>
+<category><pattern>METRIC SYSTEM</pattern>
+<template><srai>ARITHMETIC</srai></template></category>
+<category><pattern>NUMERALS</pattern>
+<template><srai>ARITHMETIC</srai></template></category>
+<category><pattern>PHILOSOPHY</pattern>
+<template><srai>ARITHMETIC</srai></template></category>
+<category><pattern>SHOP MATHEMATICS</pattern>
+<template><srai>ARITHMETIC</srai></template></category>
+<category><pattern>TERMINOLOGY</pattern>
+<template><srai>ARITHMETIC</srai></template></category>
+<category><pattern>TRANSLATING</pattern>
+<template><srai>ARITHMETIC</srai></template></category>
+<category><pattern>TRIGONOMETRY</pattern>
+<template><srai>ARITHMETIC</srai></template></category>
+
+<category><pattern>PROBLEMS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://mathforum.org/" target="_blank">Problems Library (Math Forum)</a> 
+			and/or <a href=" http://mathworld.wolfram.com/" target="_blank">Mathworld</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/mathematics" target="_blank">Mathematics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>PROBLEMS</pattern>
+<template><srai>PROBLEMS</srai></template></category>
+<category><pattern>EXERCISES</pattern>
+<template><srai>PROBLEMS</srai></template></category>
+<category><pattern>WORD PROBLEMS</pattern>
+<template><srai>PROBLEMS</srai></template></category>
+
+<category><pattern>KINEMATICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/mathematics" target="_blank">Mathematics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>MINORITIES IN MATHEMATICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://guides.lib.uci.edu/mathematics" target="_blank">Mathematics Research Guide</a> 
+			and/or <a href=" http://www.ams.org/journals/" target="_blank">American Mathematical Society (AMS)</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/mathematics" target="_blank">Mathematics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>AUSDEHNUNGSLEHRE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/5796" target="_blank">MathSciNet (Mathematical Reviews)</a> 
+			and/or <a href=" http://arxiv.org/archive/math" target="_blank">arXiv.org Articles - Mathematics</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/mathematics" target="_blank">Mathematics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>LEAST SQUARES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/5796" target="_blank">MathSciNet (Mathematical Reviews)</a>
+			and/or <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/mathematics" target="_blank">Mathematics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>HYPERSPACE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/5796" target="_blank">MathSciNet (Mathematical Reviews)</a> 
+			and/or <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/mathematics" target="_blank">Mathematics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>MATH STUDY AND TEACHING</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://mathworld.wolfram.com/" target="_blank">Mathworld</a> 
+			and/or <a href=" http://www.ams.org/journals/" target="_blank">American Mathematical Society (AMS)</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/mathematics" target="_blank">Mathematics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>GEODESICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://mathworld.wolfram.com/" target="_blank">Mathworld</a> 
+			and/or <a href=" http://uclibs.org/PID/113574" target="_blank">GeoRef</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/mathematics" target="_blank">Mathematics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>DISTRIBUTIVE LAW</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://mathworld.wolfram.com/" target="_blank">Mathworld</a> 
+			and/or <a href=" http://uclibs.org/PID/5796" target="_blank">MathSciNet (Mathematical Reviews)</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/mathematics" target="_blank">Mathematics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>DATA PROCESSING</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://www.siam.org/" target="_blank">SIAM: Society for Industrial and Applied Mathematics</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/mathematics" target="_blank">Mathematics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>WOMEN IN MATHEMATICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> 
+			and/or <a href=" http://www.agnesscott.edu/lriddle/women/women.htm" target="_blank">Women in Mathematics</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/mathematics" target="_blank">Mathematics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+</aiml>

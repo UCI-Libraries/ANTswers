@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- MOTION PICTURES -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>MOTION PICTURES *</pattern>
+	<template><think><set name="topic">motion pictures</set></think><sr /></template></category>
+
+<category><pattern>MOTION PICTURES</pattern>	
+	<template>For resources on motion pictures check out the <a href=" http://guides.lib.uci.edu/film" target="_blank">Film and Media Studies Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+			
+<!-- Interactions -->
+
+<category><pattern>MOTION PICTURES</pattern>
+	<that>Individuation as a subject is included in the broader subjects of Motion Pictures Philosophy and Psychology Would you like resource recommendations for motion pictures philosophy or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/31080" target="_blank">Performing Arts Periodicals Database</a> and/or 
+	<a href=" http://uclibs.org/PID/33002" target="_blank">Art and Architecture Source</a>. For more resources check out the 
+	<a href=" hhttp://guides.lib.uci.edu/film" target="_blank">Film and Media Studies Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>	
+
+<category><pattern>MOTION PICTURES</pattern>
+	<that>Melodrama as a subject is included in the broader subjects of Drama Motion Pictures Music and Television Would you like resource recommendations for drama motion pictures music or television_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/31080" target="_blank">Performing Arts Periodicals Database</a> and/or 
+	<a href=" http://uclibs.org/PID/33002" target="_blank">Art and Architecture Source</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/film" target="_blank">Film and Media Studies Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<!-- Subject keywords-->
+
+<category><pattern>MOVIES</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/31080" target="_blank">Performing Arts Periodicals Database</a> and/or 
+	<a href=" http://uclibs.org/PID/33002" target="_blank">Art and Architecture Source</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/film" target="_blank">Film and Media Studies Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+<category><pattern>3D FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ADVENTURE FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>AFRO AMERICAN WOMEN IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>AFRO AMERICAN YUPPIES IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>AFRO AMERICANS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>AGRICULTURE IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ALCOHOLISM IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ALIEN LABOR IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ALIENATION IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ALIENS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>AMATEUR FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>AMBIGUITY IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ANDY HARDY FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ANGELIQUE FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ANGELS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ANIMAL FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ANIMALS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ANIMATED FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ANTICHRIST IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ANTIHEROES IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ANTI NAZI MOVEMENT IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ANTISEMITISM IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>APES IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>APOCALYPSE IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ARABS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ARCHAEOLOGY IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ARCHETYPE IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ARCHITECTURE IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ARMED FORCES IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ART AND MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ART IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ARTHURIAN ROMANCES IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ASIAN AMERICANS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ASIANS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ATOMIC BOMB VICTIMS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>AUDIO VISUAL MATERIALS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>AUSTRALIAN ABORIGINES IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>AUTEUR THEORY</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>AUTHORITY IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>AUTHORS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>AUTOMOBILES IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>BALLET IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>BASQUES IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>BATHS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>PERSONAL BEAUTY IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>BIBLE FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>BIOGRAPHICAL FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>BISEXUALITY IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>BLACKS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>BOATS AND BOATING IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>BONDAGE IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>BOWERY BOYS FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>BULLFIGHTS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>BUSINESS ETHICS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>CANTORS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>CAPER FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>CATALOGING OF MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>CATHOLICS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>CATS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>CHARACTERS AND CHARACTERISTICS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>CHARLIE CHAN FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>CHILDREN IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>CHILDRENS FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>CHRISTMAS FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>CHRISTMAS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>CINEMA</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>CIRCUS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>CITIES AND TOWNS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>CITY AND TOWN LIFE IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ANCIENT CIVILIZATION IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>CLERGY IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>CLICHÉS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>COLLEGE LIFE FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>COLOR MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>COLORIZATION OF MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>COMEDY FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>COMIC STRIP CHARACTERS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>COMMUNISM AND MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>CONFLICT OF GENERATIONS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>CONSPIRACY IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>COUNTRY LIFE IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>CREDIT TITLES IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>CRUELTY IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>CYBORGS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>DADAISM IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>DANCE IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>DEAF IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>DEATH IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>DETECTIVE AND MYSTERY FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>DINOSAURS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>DISASTER FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>DOCUMENTARY FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>DOGS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>DOUBLES IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>DRIFTERS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>DRUGS AND MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>DRUGS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>DUBBING OF MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>DWARFS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>EMIGRATION AND IMMIGRATION IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ENTERTAINERS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>EROTIC FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ESKIMOS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>EUGENICS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>EVIL IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>EXISTENTIALISM IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>EXOTICISM IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>EXPERIMENTAL FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>EXPRESSIONISM IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>FACE IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>FAMILY IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>FANTASTIC FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>FARM LIFE IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>FASCISM AND MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>FASHION IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>FEATURE FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>HISTORY AND FEATURE FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>FEMALE IMPERSONATORS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>FEMINISM AND MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>FEMINIST MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>FEMMES FATALES IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>FILM ADAPTATIONS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>FILM GENRES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>FILM NOIR</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>FILMS BY CHILDREN</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>FILMS FOR THE HEARING IMPAIRED</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>FLIGHT IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>FOLK ART IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>FOLKLORE IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>FOOD IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>FOREIGN FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>FOREIGN LANGUAGE FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>FRANKENSTEIN FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>GANGSTER FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>GEOPOLITICS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>GERMAN REUNIFICATION QUESTION IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>GHOSTS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>GIRLS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>GODFATHER FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>GODZILLA FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>GRAND PRIX RACING IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>HANDICAPPED IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>HAND TO HAND FIGHTING IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>HEROES IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>HISPANIC AMERICANS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>HISTORICAL FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>HOLOCAUST IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>HOMOSEXUALITY IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>HORROR FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>HORSES IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>HUNTING IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>HYSTERIA IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>IDENTITY IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>IMPERIALISM IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>IMPRESSIONISM IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>INDIANA JONES FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>INDIANS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>INDIGENOUS PEOPLES IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>INDIVIDUATION IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>INDUSTRIAL FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>INTELLECTUALS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>INTERCULTURAL COMMUNICATION IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>INTERNATIONAL RELATIONS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>IRISH AMERICANS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>IRISH IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>IRISH QUESTION IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>IRONY IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ITALIAN AMERICANS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>JAMES BOND FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>JEWISH ARAB RELATIONS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>JEWS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>JOURNALISM AND MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>JOURNALISTS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>JURY IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ADMINISTRATION OF JUSTICE IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>JUVENILE DELINQUENCY FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>KARATE IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>KINGS AND RULERS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>KISSING IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>LANDSCAPE IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>LATIN AMERICANS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>LATIN LOVERS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>LAWYERS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>LESBIAN VAMPIRES IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>LESBIANISM IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>LIBRARIES AND MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>LIONS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>LONE RANGER FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>LOOP FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>LOST FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>LOVE IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>LOW BUDGET MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MACHISMO IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MAFIA IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MALE IMPERSONATORS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MAN WOMAN RELATIONSHIPS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MAORI IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MARRIAGE IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MASOCHISM IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MASS MEDIA</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MEDICAL PERSONNEL IN MOTION PICTURES></pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MELODRAMA IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MEMORY IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MEN IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MENTAL ILLNESS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>METAPHOR IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MEXICAN AMERICANS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MIDDLE AGE IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MIDDLE AGES IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MIDDLE CLASS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MIDGETS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MINERS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MINORITIES IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MINORITY WOMEN IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MISOGYNY IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MONSTERS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MOTHERS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MOTION PICTURE INDUSTRY IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MOTION PICTURE REMAKES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MOTION PICTURE SEQUELS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MOTION PICTURE SERIALS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MOTOR VEHICLES IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MOUNTAIN WHITES IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MOUNTAINEERING IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MOUNTAINS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MOVIES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MURDER IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MUSEUMS AND MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MUSICAL FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MYTH IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>MYTHOLOGY IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>AMERICAN NATIONAL CHARACTERISTICS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>AUSTRALIAN NATIONAL CHARACTERISTICS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>BRITISH NATIONAL CHARACTERISTICS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>GERMAN NATIONAL CHARACTERISTICS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>RUSSIAN NATIONAL CHARACTERISTICS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SPANISH NATIONAL CHARACTERISTICS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>NATIONAL SOCIALISM AND MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>NATIONAL SOCIALISM IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>NATIONALISM IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>NATURE IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>NEW DEAL IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>NEW WAVE FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>NEWSREELS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>NONVERBAL COMMUNICATION IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>NUCLEAR WARFARE IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>NUDITY IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>OUR GANG FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>OUTLAWS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>OUTSIDERS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>PAINTING AND MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>PATRIARCHY IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>PEASANTS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>PERFORMING ARTS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>PHILOSOPHY IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>PHYSICIANS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>PINOCCHIO IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>PIRATES IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>PLANET OF THE APES FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>POLICE FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>POLITICS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>POPULIST FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>PREHISTORIC ANIMALS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>PRISON FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>PROSTITUTES IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>PSYCHIATRY IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>PSYCHOANALYSIS AND MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>PSYCHOPATHS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>PUPPET FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>RACE RELATIONS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>RACISM IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>RAILROADS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>RAPE IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>REALISM IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>REDEMPTION IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>REGENERATION IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>RELIGION IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>RELIGIOUS FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>REPETITION IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>REVOLUTIONS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>RITES AND CEREMONIES IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ROAD FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ROBOTS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SADISM IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SAMURAI FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SCHOOLS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SCIENCE FICTION FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SCIENCE FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SEA IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SENSATIONALISM IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SEX IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SEX ROLE IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SEXISM IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SHERLOCK HOLMES FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SHORT FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SILENT FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SMOKING IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SOCIAL PROBLEMS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SOCIALISM AND MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SOCIALIST REALISM IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SOUND MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SPACE AND TIME IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SPORTS FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SPORTS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SPY FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>STAR WARS FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>STRONG MEN IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SUBMARINES IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SUPER 8 MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SUPERMAN FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SUPERNATURAL IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SURREALISM IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SUSPENSE IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SWORDSMEN IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>SYMBOLISM IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>TARZAN FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>TEACHERS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>TECHNOLOGY IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>TEENAGERS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>TELEPHONE IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>TIME IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>TITLES OF MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>TOTALITARIANISM AND MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>TRIALS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>UKRAINIANS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>UNDERGROUND MOVEMENTS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>UNFINISHED MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>UNIDENTIFIED FLYING OBJECTS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>VAMPIRE FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>VETERANS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>VILLAINS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>VIOLENCE IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>VOICE-OVERS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>WAR FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>WEDDINGS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>WEREWOLF FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>WESTERN FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>WOMEN IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>WOMEN MURDERERS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>WORKING CLASS IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>WORKING WOMEN IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>YOUNG ADULT FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>YOUTH IN MOTION PICTURES</pattern>
+<template><srai>MOVIES</srai></template></category>
+<category><pattern>ZORRO FILMS</pattern>
+<template><srai>MOVIES</srai></template></category>
+
+</aiml>

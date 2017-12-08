@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- PUBLIC HEALTH -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>PUBLIC HEALTH *</pattern> 
+	<template><think><set name="topic">public health</set></think><sr /></template></category>
+
+<category><pattern>PUBLIC HEALTH</pattern>	
+	<template>For resources on history check out the <a href=" http://guides.lib.uci.edu/publichealth" target="_blank">Public Health Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Interactions -->
+
+<category><pattern>PUBLIC HEALTH</pattern>
+	<that>Health risk assessment as a subject is included in the broader subjects of Environmental Health and Public Health Would you like resource recommendations for environmental health and public health_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> 
+	and/or <a href=" https://search.proquest.com/riskabstracts" target="_blank">Risk Abstracts</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/publichealth" target="_blank">Public Health Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PUBLIC HEALTH</pattern>
+	<that>Housing and Health as a subject is included in the broader subjects of Environmental Health and Public Health Would you like resource recommendations for environmental health or public health_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> 
+	and/or <a href=" hhttp://uclibs.org/PID/16254" target="_blank">Sociological Abstracts</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/publichealth" target="_blank">Public Health Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PUBLIC HEALTH</pattern>
+	<that>Mental health as a subject is included in the broader subjects of Chicano/Latino Studies and Public Health Would you like resource recommendations for chicano studies or public health_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a> 
+	and/or <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/publichealth" target="_blank">Public Health Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PUBLIC HEALTH</pattern>
+	<that>Social medicine as a subject is included in the broader subjects of Public Health or Sociology. Would you like resource recommendations for public health or sociology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> 
+	and/or <a href=" http://www.cabdirect.org/advancedsearch.html" target="_blank">CAB Direct</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/publichealth" target="_blank">Public Health Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+
+<!-- Subject keywords-->
+
+<category><pattern>BURIAL</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> 
+			and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/Anthropology" target="_blank">Anthropology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>DAIRY INSPECTION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" hhttps://search.proquest.com/agricola" target="_blank">Agricola</a> 
+			and/or <a href=" https://search.proquest.com/environmentalscience" target="_blank">Agricultural and Environmental Sciences Database</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/publichealth" target="_blank">Public Health Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>QUARANTINE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" https://search.proquest.com/environmentalscience" target="_blank">Agricultural and Environmental Sciences Database</a> 
+			and/or <a href=" https://www.scopus.com" target="_blank">Scopus</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/publichealth" target="_blank">Public Health Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>SANITARY ENGINEERING</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" https://search.proquest.com/environmentalengabstracts/" target="_blank">Environmental Engineering Abstracts</a> 
+			and/or <a href=" http://ascelibrary.org/" target="_blank">ASCE Library</a>. 
+			For more resources check out the <a href=" https://guides.lib.uci.edu/engr_civil_env" target="_blank">Civil and Environmental Engineering Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>HEALTH BOARDS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> 
+			and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/publichealth" target="_blank">Public Health Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+<category><pattern>HEALTH FACILITIES</pattern>
+<template><srai>HEALTH BOARDS</srai></template></category>
+<category><pattern>TRADE UNIONS AND PUBLIC HEALTH</pattern>
+<template><srai>HEALTH BOARDS</srai></template></category>
+
+<category><pattern>FOOD INSPECTION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> 
+			and/or <a href=" https://search.proquest.com/environmentalscience" target="_blank">Agricultural and Environmental Sciences Database</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/publichealth" target="_blank">Public Health Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+<category><pattern>VETERINARY PUBLIC HEALTH</pattern>
+<template><srai>FOOD INSPECTION</srai></template></category>
+
+<category><pattern>SANITARY DISTRICTS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> 
+			and/or <a href=" http://ascelibrary.org/" target="_blank">ASCE Library</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/publichealth" target="_blank">Public Health Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+	
+<category><pattern>RURAL HEALTH</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> 
+			and/or <a href=" http://www.cabdirect.org/advancedsearch.html" target="_blank">CAB Direct</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/publichealth" target="_blank">Public Health Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+<category><pattern>REGIONAL MEDICAL PROGRAMS</pattern>
+<template><srai>RURAL HEALTH</srai></template></category>	
+<category><pattern>ENVIRONMENTAL HEALTH</pattern>
+<template><srai>RURAL HEALTH</srai></template></category>	
+<category><pattern>DENTAL PUBLIC HEALTH</pattern>
+<template><srai>RURAL HEALTH</srai></template></category>
+
+<category><pattern>SCHOOL HYGIENE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> 
+			and/or <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/publichealth" target="_blank">Public Health Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+	
+<category><pattern>MEDICAL CARE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> 
+			and/or <a href=" https://search.proquest.com/healthsafetyabstracts/" target="_blank">Health and Safety Science Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/publichealth" target="_blank">Public Health Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+
+<category><pattern>EPIDEMIOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> 
+			and/or <a href=" https:www.scopus.com" target="_blank">Scopus</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/publichealth" target="_blank">Public Health Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>		
+<category><pattern>HEALTH PLANNING</pattern>
+<template><srai>EPIDEMIOLOGY</srai></template></category>
+	
+<category><pattern>COMMUNITY HEALTH SERVICES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> 
+			and/or <a href=" http://www.globalhealthmagazine.com/ " target="_blank">Social Services  Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/publichealth" target="_blank">Public Health Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+
+<category><pattern>WORLD HEALTH</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> 
+			and/or <a href=" http://www.globalhealthmagazine.com/" target="_blank">Global Health</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/publichealth" target="_blank">Public Health Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+</aiml>

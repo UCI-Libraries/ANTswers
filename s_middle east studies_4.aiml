@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Middle East Studies -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>MIDDLE EAST STUDIES *</pattern>
+	<template><think><set name="topic">middle east studies</set></think><sr /></template></category>
+
+<category><pattern>MIDDLE EAST STUDIES</pattern>	
+	<template>For resources on middle east studies check out the <a href=" http://guides.lib.uci.edu/middle_east_studies" target="_blank">Middle East Studies Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Subject keywords-->
+
+<category><pattern>MIDDLE EAST SOUTHWEST ASIA</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/271" target="_blank">Bibliography of Asian Studies</a> and/or 
+			<a href=" http://uclibs.org/PID/126295" target="_blank">Middle Eastern and Central Asian Studies</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/middle_east_studies" target="_blank">Middle East Studies Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>MIDDLE EAST HISTORY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12775" target="_blank">Historical Abstracts</a> and/or 
+			<a href=" http://uclibs.org/PID/1980" target="_blank">JSTOR</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/middle_east_studies" target="_blank">Middle East Studies Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>MIDDLE EAST ANTIQUITIES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126295" target="_blank">Middle Eastern and Central Asian Studies</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/middle_east_studies" target="_blank">Middle East Studies Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>MIDDLE EAST STUDIES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126295" target="_blank">Middle Eastern and Central Asian Studies</a> 
+			and/or <a href=" http://uclibs.org/PID/1980" target="_blank"> JSTOR</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/middle_east_studies" target="_blank">Middle East Studies Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li> 
+	</condition></template></category>
+<category><pattern>ARAB COUNTRIES</pattern>
+<template><srai>MIDDLE EAST STUDIES</srai></template></category>
+<category><pattern>MIDDLE EAST CIVILIZATION</pattern>
+<template><srai>MIDDLE EAST STUDIES</srai></template></category>
+<category><pattern>MIDDLE EAST</pattern>
+<template><srai>MIDDLE EAST STUDIES</srai></template></category>
+<category><pattern>EASTERN MEDITERRANEAN</pattern>
+<template><srai>MIDDLE EAST STUDIES</srai></template></category>
+<category><pattern>MIDDLE EAST ECONOMIC CONDITIONS</pattern>
+<template><srai>MIDDLE EAST STUDIES</srai></template></category>
+<category><pattern>FERTILE CRESECENT</pattern>
+<template><srai>MIDDLE EAST STUDIES</srai></template></category>
+<category><pattern>MIDDLE EAST FOREIGN RELATIONS</pattern>
+<template><srai>MIDDLE EAST STUDIES</srai></template></category>
+<category><pattern>MIDDLE EAST IMPRINTS</pattern>
+<template><srai>MIDDLE EAST STUDIES</srai></template></category>
+<category><pattern>MIDDLE EAST LANGUAGES</pattern>
+<template><srai>MIDDLE EAST STUDIES</srai></template></category>
+<category><pattern>LATIN ORIENT</pattern>
+<template><srai>MIDDLE EAST STUDIES</srai></template></category>
+<category><pattern>EASTERN MEDITERRANEAN REGION</pattern>
+<template><srai>MIDDLE EAST STUDIES</srai></template></category>
+<category><pattern>MIDEAST</pattern>
+<template><srai>MIDDLE EAST STUDIES</srai></template></category>
+<category><pattern>NORTHERIN TIER</pattern>
+<template><srai>MIDDLE EAST STUDIES</srai></template></category>
+<category><pattern>ORIENT</pattern>
+<template><srai>MIDDLE EAST STUDIES</srai></template></category>
+<category><pattern>SOUTH WEST ASIA</pattern>
+<template><srai>MIDDLE EAST STUDIES</srai></template></category>
+<category><pattern>SOUTHWEST ASIA</pattern>
+<template><srai>MIDDLE EAST STUDIES</srai></template></category>
+<category><pattern>MIDDLE EAST STUDY AND TEACHING</pattern>
+<template><srai>MIDDLE EAST STUDIES</srai></template></category>
+<category><pattern>MIDDLE EAST</pattern>
+<template><srai>MIDDLE EAST STUDIES</srai></template></category>
+
+<category><pattern>MIDDLE EAST POLITICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/99693" target="_blank">Worldwide Political Science Abstracts</a> and/or 
+			<a href=" http://uclibs.org/PID/126295" target="_blank">Middle Eastern and Central Asian Studies</a>. For more resources check out the 
+			<a href=" http://guides.lib.uci.edu/middle_east_studies" target="_blank">Middle East Studies Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>MIDDLE EAST GOVERNMENT</pattern>
+<template><srai>MIDDLE EAST POLITICS</srai></template></category>
+
+</aiml>

@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- SOCIOLOGY -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>SOCIOLOGY *</pattern>
+	<template><think><set name="topic">sociology</set></think><sr /></template></category>
+	
+<category><pattern>SOCIOLOGY</pattern>	
+	<template>For resources on sociology check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a>  
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Interactions -->
+
+<category><pattern>SOCIOLOGY</pattern>
+	<that>Historical sociology as a subject is included in the broader subjects of Anthropology History and Sociology Would you like resource recommendations for anthropology history or sociology_</that>
+	<template>We would recommend that you start your search with <a href=" http://search.proquest.com/socabs/advanced" target="_blank">Sociological abstracts</a> 
+	and/or <a href=" http://www.annualreviews.org/journal/soc" target="_blank">Annual Reviews of sociology</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>SOCIOLOGY</pattern>
+	<that>Individualism as a subject is included in the broader subjects of Economics Political Science and Sociology Would you like resource recommendations for economics political science or sociology_</that>
+	<template>We would recommend that you start your search with <a href=" http://search.proquest.com/socabs/advanced" target="_blank">Sociological abstracts</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>SOCIOLOGY</pattern>
+	<that>Power as a subject is included in the broader subjects of Philosophy and Sociology Would you like resource recommendations for philosophy or sociology_</that>
+	<template>We would recommend that you start your search with <a href=" http://search.proquest.com/socabs/advanced" target="_blank">Sociological abstracts</a> 
+	and/or <a href=" http://uclibs.org/PID/113582" target="_blank">PAIS</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>SOCIOLOGY</pattern>
+	<that>Social history as a subject is included in the broader subjects of History and Sociology Would you like resource recommendations for history or sociology_</that>
+	<template>We would recommend that you start your search with <a href=" http://search.proquest.com/socabs/advanced" target="_blank">Sociological abstracts</a> 
+	and/or <a href=" http://uclibs.org/PID/12775" target="_blank">Historical Abstracts</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>SOCIOLOGY</pattern>
+	<that>Social medicine as a subject is included in the broader subjects of Public Health or Sociology Would you like resource recommendations for public health or sociology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> 
+	and/or <a href=" http://search.proquest.com/socabs/advanced" target="_blank">Sociological Abstracts</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>SOCIOLOGY</pattern>
+	<that>Social Structure as a subject is included in the broader subjects of Anthropology and Sociology Would you like resource recommendations for anthropology or sociology_</that>
+	<template>We would recommend that you start your search with <a href=" http://search.proquest.com/socabs/advanced" target="_blank">Sociological abstracts</a>
+	and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>	
+
+<category><pattern>SOCIOLOGY</pattern>
+	<that>Socialization as a subject is included in the broader subjects of Education and Sociology Would you like resource recommendations for education or sociology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16254" target="_blank">Sociological Abstracts</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>SOCIOLOGY</pattern>
+	<that>Sociolinguistics as a subject is included in the broader subjects of Linguistics and Sociology Would you like resource recommendations for linguistics or sociology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16254" target="_blank">Sociological Abstracts</a> and/or
+	<a href=" http://search.proquest.com/llba/advanced" target="_blank">Linguistics and Language Behavior Abstracts (LLBA)</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<category><pattern>SOCIOLOGY</pattern>
+	<that>Statics and Dynamics as a subject is included in the broader subjects of Economics and Sociology Would you like resource recommendations for economics or sociology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/113461" target="_blank">Applied Social Science Index</a> 
+	and/or <a href=" http://search.proquest.com/socabs/advanced" target="_blank">Sociological Abstracts</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<!-- Subject keywords-->
+
+<category><pattern>RURAL SOCIOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> 
+			and/or <a href=" http://uclibs.org/PID/16254" target="_blank">Sociological Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>SOCIOLOGICAL ASPECTS OF BOOKS AND READING FOR CHILDREN</pattern>
+<template><srai>RURAL SOCIOLOGY</srai></template></category>
+
+<category><pattern>SOCIAL ETHICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/113461" target="_blank">Applied Social Science Index</a> 
+			and/or <a href=" http://search.proquest.com/socabs/advanced" target="_blank">Sociological Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>ELECTRONIC DATA PROCESSING SOCIOLOGICAL ASPECTS</pattern>
+<template><srai>SOCIAL ETHICS</srai></template></category>
+<category><pattern>FORENSIC SOCIOLOGY</pattern>
+<template><srai>SOCIAL ETHICS</srai></template></category>
+<category><pattern>SOCIOLOGICAL ASPECTS FORESTRY PROJECTS</pattern>
+<template><srai>SOCIAL ETHICS</srai></template></category>
+<category><pattern>SOCIOLOGICAL ASPECTS SOCIAL SERVICE</pattern>
+<template><srai>SOCIAL ETHICS</srai></template></category>
+<category><pattern>SOCIOLOGICAL ASPECTS TECHNOLOGY</pattern>
+<template><srai>SOCIAL ETHICS</srai></template></category>
+
+<category><pattern>SUBSIDIARITY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126938" target="_blank">Business Source Complete</a> 
+			and/or <a href=" http://search.proquest.com/socabs/advanced" target="_blank">Sociological Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>SOCIOLOGICAL ASPECTS OF SHARED HOUSING</pattern>
+<template><srai>SUBSIDIARITY</srai></template></category>
+
+<category><pattern>EQUALITY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20838" target="_blank">Left Index</a> 
+			and/or <a href=" http://search.proquest.com/socabs/advanced" target="_blank">Sociological Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>AUSTRO MARXIST SCHOOL</pattern>
+<template><srai>EQUALITY</srai></template></category>
+
+<category><pattern>SOCIOLOGICAL ASPECTS OF GROUP MEDICAL PRACTICE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> 
+			and/or <a href=" http://search.proquest.com/socabs/advanced" target="_blank">Sociological Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>SOCIAL CONTROL</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/113582" target="_blank">PAIS</a> 
+			and/or <a href=" http://search.proquest.com/socabs/advanced" target="_blank">Sociological Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>WAR AND SOCIETY</pattern>
+<template><srai>SOCIAL CONTROL</srai></template></category>
+
+<category><pattern>SOCIAL PSYCHOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/113588" target="_blank">PsycInfo</a> 
+			and/or <a href=" http://search.proquest.com/socabs/advanced" target="_blank">Sociological Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>SOCIOLOGICAL ASPECTS OF EMOTIONS</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>SOCIOLOGICAL ASPECTS OF FRIENDSHIP</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>SOCIOLOGICAL ASPECTS OF GENOCIDE</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>SOCIOLOGICAL ASPECTS OF PSYCHIATRIC CLINICS</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>SOCIOLOGICAL ASPECTS OF PSYCHIATRIC HOSPITALS</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+
+<category><pattern>DEGENERATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://knowledge.sagepub.com/browse?subject=Soc" target="_blank">Sage Handbooks</a>  
+			and/or <a href=" http://search.proquest.com/socabs/advanced" target="_blank">Sociological Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>CHICAGO SCHOOL OF SOCIOLOGY</pattern>
+<template><srai>DEGENERATION</srai></template></category>
+<category><pattern>SOCIOLOGICAL ASPECTS OF DANCE</pattern>
+<template><srai>DEGENERATION</srai></template></category>
+<category><pattern>DURKHEIMIAN SCHOOL OF SOCIOLOGY</pattern>
+<template><srai>DEGENERATION</srai></template></category>
+<category><pattern>INFORMATION THEORY IN SOCIOLOGY</pattern>
+<template><srai>DEGENERATION</srai></template></category>
+
+<category><pattern>ANOMY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://search.proquest.com/socabs/advanced" target="_blank">Sociological abstracts</a> 
+			and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>SOCIOLOGICAL ASPECTS OF BOOKS AND READING</pattern>
+<template><srai>ANOMY</srai></template></category>
+
+<category><pattern>SOCIAL CONFLICT</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://search.proquest.com/socabs/advanced" target="_blank">Sociological abstracts</a> 
+			and/or <a href=" http://uclibs.org/PID/113563" target="_blank">Criminal Justice Abstract</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>SOCIOLOGICAL ASPECTS OF RISK</pattern>
+<template><srai>SOCIAL CONFLICT</srai></template></category>
+
+<category><pattern>COMMUNITY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://search.proquest.com/socabs/advanced" target="_blank">Sociological abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>SOCIAL INSTITUTIONS</pattern>
+<template><srai>COMMUNITY</srai></template></category>
+
+<category><pattern>INDUSTRIAL SOCIOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://search.proquest.com/socabs/advanced" target="_blank">Sociological abstracts</a> 
+			and/or <a href=" http://uclibs.org/PID/113582" target="_blank">PAIS</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+	
+<category><pattern>CLINICAL SOCIOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://search.proquest.com/socabs/advanced" target="_blank">Sociological abstracts</a>
+			and/or <a href=" http://uclibs.org/PID/113588" target="_blank">PsycInfo</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>SOCIAL PREDICTION</pattern>
+<template><srai>CLINICAL SOCIOLOGY</srai></template></category>
+<category><pattern>SOCIOLOGICAL ASPECTS OF SUICIDE</pattern>
+<template><srai>CLINICAL SOCIOLOGY</srai></template></category>	
+	
+<category><pattern>SOCIAL SYSTEMS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://search.proquest.com/socabs/advanced" target="_blank">Sociological abstracts</a>
+			and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>SOCIOLOGICAL ASPECTS OF AGRICULTURE RESEARCH</pattern>
+<template><srai>SOCIAL SYSTEMS</srai></template></category>
+<category><pattern>SOCIOLOGICAL ASPECTS OF AUTHORSHIP</pattern>
+<template><srai>SOCIAL SYSTEMS</srai></template></category>
+<category><pattern>SOCIAL CONTRACT</pattern>
+<template><srai>SOCIAL SYSTEMS</srai></template></category>
+<category><pattern>SOCIAL GROUPS</pattern>
+<template><srai>SOCIAL SYSTEMS</srai></template></category>
+<category><pattern>SOCIAL MOBILITY</pattern>
+<template><srai>SOCIAL SYSTEMS</srai></template></category>
+<category><pattern>SOCIAL STABILITY</pattern>
+<template><srai>SOCIAL SYSTEMS</srai></template></category>
+<category><pattern>SYMBOLIC INTERACTIONISM</pattern>
+<template><srai>SOCIAL SYSTEMS</srai></template></category>
+
+<category><pattern>COMMUNISM AND SOCIETY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/49179" target="_blank">Alternative Press Index</a> 
+			and/or <a href=" http://uclibs.org/PID/16254" target="_blank">Sociological Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>SECRET SOCIETIES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/34670" target="_blank">Anthropology Plus</a> 
+			and/or <a href=" http://uclibs.org/PID/16254" target="_blank">Sociological Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>CONSERVATISM</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://www.blackwellreference.com/subscriber/book?id=g9781405124331_9781405124331" target="_blank">Blackwell dictionary of Sociology  Sociological Abstracts</a> 
+			and/or <a href=" http://uclibs.org/PID/16254" target="_blank">Sociological Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+	
+<category><pattern>COMMUNICATION IN SOCIOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/113560" target="_blank">Communication abstracts</a> 
+			and/or <a href=" http://uclibs.org/PID/16254" target="_blank">Sociological Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>SOCIOLOGICAL JURISPRUDENCE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/113563" target="_blank">Criminal Justice Abstracts</a> 
+			and/or <a href=" http://uclibs.org/PID/16254" target="_blank">Sociological Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>SOCIOLOGICAL ASPECTS OF ECONOMICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16254" target="_blank">Sociological Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+
+<category><pattern>SCHOOLS OF SOCIOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/113573" target="_blank">ERIC</a> 
+			and/or <a href=" http://uclibs.org/PID/16254" target="_blank">Sociological Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+	
+<category><pattern>ETHNIC RELATIONS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16254" target="_blank">Sociological Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>		
+	
+<category><pattern>INFORMATION SOCIETY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16254" target="_blank">Sociological Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+
+<category><pattern>SOCIOLOGICAL ASPECTS OF PROFESSIONS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" {SHORT URL FOR RESOURCE 1}" target="_blank">Occupational Outlook</a> 
+			and/or <a href=" http://uclibs.org/PID/16254" target="_blank">Sociological Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>		
+	
+<category><pattern>SELF FULFILLING PROPHECY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/113588" target="_blank">PsycInfo</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+
+<category><pattern>RACE RELATIONS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" {SHORT URL FOR RESOURCE 1}" target="_blank">Race relation Abstracts</a> 
+			and/or <a href=" http://uclibs.org/PID/49179" target="_blank">Alternative Press Index</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>SOCIOLOGICAL ASPECTS OF BIOLOGY RESEARCH</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://search.proquest.com/socabs/advanced" target="_blank">Sociological abstracts</a> 
+			and/or <a href=" {SHORT URL FOR RESOURCE 2}" target="_blank">Biological Sciences abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a>> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>EDUCATIONAL SOCIOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://search.proquest.com/socabs/advanced" target="_blank">Sociological abstracts</a> 
+			and/or <a href=" http://uclibs.org/PID/113573" target="_blank">ERIC</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>SOCIOLOGICAL ASPECTS OF WOMEN MENTAL HEALTH</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://search.proquest.com/socabs/advanced" target="_blank">Sociological abstracts</a> 
+			and/or <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>HUMAN SETTLEMENTS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://search.proquest.com/socabs/advanced" target="_blank">Sociological abstracts</a> 
+			and/or <a href=" http://bibpurl.oclc.org/web/461" target="_blank">Population Index</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>SOCIAL INTEGRATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://search.proquest.com/socabs/advanced" target="_blank">Sociological abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>RELIGION AND SOCIOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://search.proquest.com/socabs/advanced" target="_blank">Sociological abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>SOCIOLOGICAL ASPECTS OF SPORTS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://search.proquest.com/socabs/advanced" target="_blank">Sociological Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>SOCIOLOGICAL ASPECTS OF TIME</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> 
+			and/or <a href=" http://search.proquest.com/socabs/advanced" target="_blank">Sociological Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>SOCIOLOGICAL ASPECTS OF WOMEN HEALTH AND HYGIENE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16677" target="_blank">Women Studies Abstracts</a> 
+			and/or <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>SOCIOLOGICAL ASPECTS OF WOMEN</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16677" target="_blank">Women Studies Abstracts</a> 
+			and/or <a href=" http://search.proquest.com/socabs/advanced" target="_blank">Sociological Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+	
+<category><pattern>DEGENERATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://knowledge.sagepub.com/browse?subject=Soc" target="_blank">Sage Handbooks</a> 
+			and/or <a href=" http://search.proquest.com/socabs/advanced" target="_blank">Sociological Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+<category><pattern>CHICAGO SCHOOL OF SOCIOLOGY</pattern>
+<template><srai>DEGENERATION</srai></template></category>
+<category><pattern>SOCIOLOGICAL ASPECTS OF DANCE</pattern>
+<template><srai>DEGENERATION</srai></template></category>
+<category><pattern>DURKHEIMIAN SCHOOL OF SOCIOLOGY</pattern>
+<template><srai>DEGENERATION</srai></template></category>
+<category><pattern>INFORMATION THEORY IN SOCIOLOGY</pattern>
+<template><srai>DEGENERATION</srai></template></category>
+
+<category><pattern>EXCHANGE THEORY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://knowledge.sagepub.com/browse?subject=Soc" target="_blank">Sage Handbooks</a> 
+			and/or <a href=" http://www.jstor.org/action/showJournals#43693394" target="_blank">JSTOR</a>. 
+			For more resources check out the <a href=" hhttp://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>GEMEINSCHAFT AND GESELLSCHAFT</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://knowledge.sagepub.com/browse?subject=Soc" target="_blank">Sage Handbooks</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+
+<category><pattern>SOCIOLOGICAL ASPECTS OF ECONOMIC DEVELOPMENT</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://knowledge.sagepub.com/browse?subject=Soc" target="_blank">Sage Handbooks</a> 
+			and/or <a href=" http://uclibs.org/PID/113582" target="_blank">PAIS</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>		
+
+<category><pattern>MICROSOCIOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16254" target="_blank">Sociological Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/c.php?g=333256" target="_blank">Sociology Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>VISUAL SOCIOLOGY</pattern>
+<template><srai>VISUAL SOCIOLOGY</srai></template></category>
+<category><pattern>SOCIAL MARGINALITY</pattern>
+<template><srai>VISUAL SOCIOLOGY</srai></template></category>
+<category><pattern>MATHEMATICAL SOCIOLOGY</pattern>
+<template><srai>VISUAL SOCIOLOGY</srai></template></category>
+<category><pattern>POLITICAL SOCIOLOGY</pattern>
+<template><srai>VISUAL SOCIOLOGY</srai></template></category>
+<category><pattern>JAINA SOCIOLOGY</pattern>
+<template><srai>VISUAL SOCIOLOGY</srai></template></category>
+<category><pattern>SOCIOLOGY OF KNOWLEDGE</pattern>
+<template><srai>VISUAL SOCIOLOGY</srai></template></category>
+<category><pattern>PHENOMENOLOGICAL SOCIOLOGY</pattern>
+<template><srai>VISUAL SOCIOLOGY</srai></template></category>	
+<category><pattern>SOCIOLOGICAL ASPECTS OF LITURGICS</pattern>
+<template><srai>VISUAL SOCIOLOGY</srai></template></category>
+<category><pattern>MASS SOCIETY</pattern>
+<template><srai>VISUAL SOCIOLOGY</srai></template></category>
+<category><pattern>MACROSOCIOLOGY</pattern>
+<template><srai>VISUAL SOCIOLOGY</srai></template></category>
+<category><pattern>SOCIOLOGICAL ASPECTS OF PEDIATRIC CLINICS </pattern>
+<template><srai>VISUAL SOCIOLOGY</srai></template></category>
+<category><pattern>SOCIOLOGICAL ASPECTS OF OCCUPATIONS</pattern>
+<template><srai>VISUAL SOCIOLOGY</srai></template></category>
+<category><pattern>SOCIOLOGICAL ASPECTS OF LIBRARY EDUCATION</pattern>
+<template><srai>VISUAL SOCIOLOGY</srai></template></category>
+<category><pattern>SOCIOLOGICAL ASPECTS OF LIBRARY SCIENCE</pattern>
+<template><srai>VISUAL SOCIOLOGY</srai></template></category>
+<category><pattern>ORGANIZATIONAL SOCIOLOGY</pattern>
+<template><srai>VISUAL SOCIOLOGY</srai></template></category>
+
+</aiml>

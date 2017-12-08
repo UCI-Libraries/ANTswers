@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- LITERARY JOURNALISM -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>LITERARY JOURNALISM *</pattern>
+	<template><think><set name="topic">literary journalism</set></think><sr /></template></category>
+	
+<category><pattern>LITERARY JOURNALISM</pattern>	
+	<template>For resources on literary journalism check out the <a href=" http://guides.lib.uci.edu/literary_journalism" target="_blank">Literary Journalism Research Guide</a>    
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<!-- Interactions -->
+
+<category><pattern>JOURNALISM</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> 
+			and/or <a href=" http://uclibs.org/PID/23120" target="_blank">Access World News (America's Newspapers)</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/literary_journalism" target="_blank">Literary Journalism Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>AMATEUR JOURNALISM</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>BROADCAST JOURNALISM</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>BROADSIDES</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>CANARDS</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>CITY PLANNING AND THE PRESS</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>NEWSPAPER COPYRIGHT</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>EDITORIALS</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>FEATURE STORIES</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>FEUILLETONS</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>FOREIGN NEWS</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>FREELANCE JOURNALISM</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>INTERVIEWING IN JOURNALISM</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>LOCAL GOVERNMENT AND THE PRESS</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>MAPS IN JOURNALISM</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>MOTION PICTURE JOURNALISM</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>MUSICAL CRITICISM</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>NEWSLETTERS</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>NEWSPAPER PUBLISHING</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>NEWSPAPER READING</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>PERIODICALS</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>PUBLISHING OF PERIODICALS</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>PHOTOJOURNALISM</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>PRESS</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>PRESS AND PROPAGANDA</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>PRESS CONFERENCES</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>PRESS COUNCILS</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>RACE RELATIONS AND THE PRESS</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>REPORTERS AND REPORTING</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>SCIENCE NEWS</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>SENSATIONALISM IN JOURNALISM</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>SPORTS JOURNALISM</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>SYNDICATES</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+<category><pattern>WOMEN AND JOURNALISM</pattern>
+<template><srai>JOURNALISM</srai></template></category>
+	
+</aiml>

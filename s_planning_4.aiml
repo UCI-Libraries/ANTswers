@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- PLANNING, POLICY AND DESIGN -->
+<!-- -->
+
+<!-- SETS SUBJECT -->
+<category><pattern>PLANNING POLICY AND DESIGN *</pattern> 
+	<template><think><set name="topic">PLANNING POLICY AND DESIGN </set></think><sr /></template></category>
+
+<category><pattern>PLANNING POLICY AND DESIGN</pattern>	
+	<template>For resources on planning, policy, and design check out the <a href=" http://guides.lib.uci.edu/soceco_ppd" target="_blank">Planning, Policy, and Design Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Interactions -->
+
+<category><pattern>ARCHITECTURE</pattern>
+	<that>Geography as a subject is included in the broader subjects of Earth Sciences and Planning Policy and Design Would you like resource recommendations for earth sciences or planning policy and design_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> 
+	and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/soceco_ppd" target="_blank">Planning, Policy, and Design Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+		
+<category><pattern>ARCHITECTURE</pattern>
+	<that>Public Art as a subject is included in the broader subjects of Art and Planning Policy and Design Would you like resource recommendations for art or planning policy and design_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/soceco_ppd" target="_blank">Planning, Policy, and Design Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<!-- Subject keywords-->
+
+<category><pattern>ARCHITECTURE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> 
+			and/or <a href=" http://uclibs.org/PID/105528" target="_blank">Avery Art Index</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/soceco_ppd" target="_blank">Planning, Policy, and Design Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>TRANSPORTATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+		<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> 
+			and/or <a href=" http://ascelibrary.org/" target="_blank">ASCE Library</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/soceco_ppd" target="_blank">Planning, Policy, and Design Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+</condition></template></category>
+
+<category><pattern>ENVIRONMENTAL LAW</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+		<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> 
+			and/or <a href=" http://infotrac.galegroup.com/itweb/ucirvine?db=LT" target="_blank">LegalTrac</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/soceco_ppd" target="_blank">Planning, Policy, and Design Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+</condition></template></category>
+
+<category><pattern>PUBLIC POLICY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+		<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> 
+			and/or <a href=" http://uclibs.org/PID/20687" target="_blank">PAIS International</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/soceco_ppd" target="_blank">Planning, Policy, and Design Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+</condition></template></category>
+
+<category><pattern>POVERTY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+		<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> 
+			and/or <a href=" http://uclibs.org/PID/16254" target="_blank">Sociological Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/soceco_ppd" target="_blank">Planning, Policy, and Design Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+</condition></template></category>
+
+<category><pattern>SUSTAINABILITY AND SCIENCE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+		<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> 
+			and/or <a href=" https://search.proquest.com/ssamodule" target="_blank">Sustainability Science Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/soceco_ppd" target="_blank">Planning, Policy, and Design Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+</condition></template></category>
+
+<category><pattern>HOUSING</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+		<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> 
+			and/or <a href=" http://uclibs.org/PID/135574" target="_blank">Urban Studies Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/soceco_ppd" target="_blank">Planning, Policy, and Design Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+</condition></template></category>
+<category><pattern>REGIONAL ANALYSIS</pattern>
+<template><srai>HOUSING</srai></template></category>
+<category><pattern>URBAN STUDIES</pattern>
+<template><srai>HOUSING</srai></template></category>
+
+<category><pattern>DEMOGRAPHY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+		<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> 
+			and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/soceco_ppd" target="_blank">Planning, Policy, and Design Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+</condition></template></category>
+<category><pattern>FORECASTING</pattern>
+<template><srai>DEMOGRAPHY</srai></template></category>
+<category><pattern>GIS</pattern>
+<template><srai>DEMOGRAPHY</srai></template></category>
+<category><pattern>POLICY</pattern>
+<template><srai>DEMOGRAPHY</srai></template></category>
+<category><pattern>POPULATION AND DEMOGRAPHY</pattern>
+<template><srai>DEMOGRAPHY</srai></template></category>
+<category><pattern>PRESERVATION</pattern>
+<template><srai>DEMOGRAPHY</srai></template></category>
+
+<category><pattern>DESIGN</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+		<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/33002" target="_blank">Art Source</a> 
+			and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/soceco_ppd" target="_blank">Planning, Policy, and Design Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+</condition></template></category>
+
+<category><pattern>ENVIRONMENTAL PSYCHOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+		<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a> 
+			and/or <a href=" https://search.proquest.com/envabstractsmodule" target="_blank">Environmental Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/soceco_ppd" target="_blank">Planning, Policy, and Design Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+</condition></template></category>
+
+<category><pattern>ENVIRONMENTAL HEALTH</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+		<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> 
+			and/or <a href=" https://search.proquest.com/environmentalscience" target="_blank">Agricultural and Environmental Science Database</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/soceco_ppd" target="_blank">Planning, Policy, and Design Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+</condition></template></category>
+
+<category><pattern>PLANNING</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+		<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Urban Studies Abstracts</a> 
+			and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/soceco_ppd" target="_blank">Planning, Policy, and Design Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+</condition></template></category>
+
+<category><pattern>URBAN AND REGIONAL PLANNING</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+		<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Urban Studies Abstracts</a> 
+			and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/soceco_ppd" target="_blank">Planning, Policy, and Design Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+</condition></template></category>
+
+<category><pattern>WATER RESOURCES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+		<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a> 
+			and/or <a href=" https://search.proquest.com/waterresources" target="_blank">Water Resources Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/soceco_ppd" target="_blank">Planning, Policy, and Design Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+</condition></template></category>
+
+</aiml>

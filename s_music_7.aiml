@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- MUSIC -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>MUSIC *</pattern>
+	<template><think><set name="topic">music</set></think><sr /></template></category>
+	
+<category><pattern>MUSIC</pattern>	
+	<template>For resources on music check out the <a href=" http://guides.lib.uci.edu/music" target="_blank">Music Research Guide</a>  
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<!-- Interactions -->
+
+<category><pattern>MUSIC</pattern>
+	<that>Computer music as a subject is included in the broader subjects of Computer Science and Music Would you like resource recommendations for computer science or music_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16255" target="_blank">RILM Abstracts of Music Literature</a> 
+	and/or <a href=" http://uclibs.org/PID/132284" target="_blank">Oxford Music Online</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/music" target="_blank">Music Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>MUSIC</pattern>
+	<that>Information theory as a subject is included in the broader subjects of Biology Chemistry Education Mathematics Music and Psychology Would you like resource recommendations for biology chemistry education math music or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16255" target="_blank">RILM Abstracts of Music Literature</a> 
+	and/or <a href=" http://uclibs.org/PID/132284" target="_blank">Oxford Music Online</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/music" target="_blank">Music Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>MUSIC</pattern>
+	<that>Melodrama as a subject is included in the broader subjects of Drama Motion Pictures Music and Television Would you like resource recommendations for drama motion pictures music or television_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16255" target="_blank">RILM Abstracts of Music Literature</a> 
+	and/or <a href=" http://uclibs.org/PID/132284" target="_blank">Oxford Music Online</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/music" target="_blank">Music Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<!-- Subject keywords-->
+	
+<category><pattern>MELODY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16255" target="_blank">RILM Abstracts of Music Literature</a> 
+			and/or <a href=" http://uclibs.org/PID/132284" target="_blank">Oxford Music Online</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/music" target="_blank">Music Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>ADVENT MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>ANGER IN MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>MUSIC ARRANGEMENT</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>MUSIC FOR THE BLIND</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>CARILLONS</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>CATALOGING OF MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>CHANCE COMPOSITIONS</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>CHILDREN*S MUSICAL COMPOSITIONS</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>CHIMES</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>CHORAL MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>CHRISTMAS MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>CHURCH MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>CLASSICAL MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>COMMUNICATION IN MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>COMMUNISM AND MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>COMMUNITY MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>MUSIC COMPOSITION</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>CONCERTS</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>CONSERVATORIES OF MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>CORONATION MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>DANCE MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>DEATH IN MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>DRAMATIC MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>EASTER MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>ELECTRONIC MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>ENVIRONMENTAL MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>EPIPHANY MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>EXOTICISM IN MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>FEMINISM AND MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>FOLK DANCE MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>FOLK MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>FREEMASONRY AND MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>FUNERAL MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>HOMOSEXUALITY AND MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>HUNTING MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>IMPROVISATION</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>INFORMATION THEORY IN MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>INSTRUMENTAL MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>INSTRUMENTATION AND ORCHESTRATION</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>JAZZ</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>KINDERGARTEN MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>LEAF MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>LEITMOTIV</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>MUSIC MANNERISM</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>MEMORIAL MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>MICROTONAL MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>MILITARY MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>MINIMAL MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>MIXED MEDIA MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>MONOLOGUES WITH MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>MOTION PICTURE MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>MOTION PICTURES AND MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>MUSIC BY WOMEN COMPOSERS</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>MUSIC WITH AUDIENCE PARTICIPATION</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>MUSICAL FORM</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>NATIONAL MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>NATIONAL SOCIALISM AND MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>NEW AGE MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>MUSICAL PALEOGRAPHY</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>PANTOMIMES WITH MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>SECULAR PASTORAL MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>PATRIOTIC MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>PERU IN MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>POPULAR MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>PRODUCTION MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>PROGRAM MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>PSYCHOANALYSIS AND MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>RADIO AND MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>RADIO MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>REVOLUTIONARY MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>ROMANCES IN MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>SACRED MONOLOGUES WITH MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>SATANISM IN MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>SCHOOL MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>SEX IN MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>SEXISM IN MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>SHELVING FOR MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>SINGING</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>SOLMIZATION</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>STATE AID TO MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>STOCHASTIC PROCESSES IN MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>STREET MUSIC AND MUSICIANS</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>SYMBOLISM IN MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>TELEVISION AND MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>TELEVISION MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>TIME IN MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>TOCCATAS</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>TRAGEDY IN MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>TRAVEL IN MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>VIRTUOSITY IN MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>VOCAL MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>VOICE</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>WEDDING MUSIC</pattern>
+<template><srai>MELODY</srai></template></category>
+<category><pattern>BEATLES</pattern>
+<template><srai>MELODY</srai></template></category>
+
+<category><pattern>WOMEN SONGS AND MUSIC</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16255" target="_blank">RILM Abstracts of Music Literature</a>, 
+			<a href=" http://uclibs.org/PID/132284" target="_blank">Oxford Music Online</a>,  
+			and/or <a href=" http://uclibs.org/PID/16677" target="_blank">Women's Studies International</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/music" target="_blank">Music Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>STREAMING MUSIC</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16255" target="_blank">RILM Abstracts of Music Literature</a>
+			For more resources check out the <a href=" http://guides.lib.uci.edu/music" target="_blank">Music Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+
+</aiml>

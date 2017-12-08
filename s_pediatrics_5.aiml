@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- PEDIATRICS -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>PEDIATRICS *</pattern> 
+	<template><think><set name="topic">pediatrics</set></think><sr /></template></category>
+
+<category><pattern>PEDIATRICS</pattern>	
+	<template>For resources on pediatrics check out the <a href=" http://guides.lib.uci.edu/pediatrics" target="_blank">Pediatrics Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Subject keywords-->
+
+<category><pattern>DISEASES IN CHILDREN</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with the<a href=" https://www.cdc.gov/parents/children/index.html" target="_blank">CDC</a> 
+			and/or <a href=" http://uclibs.org/PID/17708" target="_blank">Pubmed</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/pediatrics" target="_blank">Pediatrics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>PAEDIATRICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">Pubmed</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/pediatrics" target="_blank">Pediatrics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>HEALTH AND HYGIENCE IN CHILDREN</pattern>
+<template><srai>PAEDIATRICS</srai></template></category>
+<category><pattern>COMMUNICATION IN PEDIATRICS</pattern>
+<template><srai>PAEDIATRICS</srai></template></category>
+<category><pattern>PEDIATRIC ORAL MEDICINE</pattern>
+<template><srai>PAEDIATRICS</srai></template></category>
+<category><pattern>PEDIATRIC ORTHOPEDICS</pattern>
+<template><srai>PAEDIATRICS</srai></template></category>
+<category><pattern>PERINATOLOGY</pattern>
+<template><srai>PAEDIATRICS</srai></template></category> 
+
+<category><pattern>CHILD HEALTH SERVICES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with the<a href=" https://www.acf.hhs.gov/" target="_blank">Administration for Children and Families</a> 
+			and/or <a href=" http://uclibs.org/PID/17708" target="_blank">Pubmed</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/pediatrics" target="_blank">Pediatrics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>PEDIATRIC INFECTIOUS DISEASES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/268676" target="_blank">Red Book</a> 
+			and/or <a href=" http://uclibs.org/PID/17708" target="_blank">Pubmed</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/pediatrics" target="_blank">Pediatrics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+</aiml>

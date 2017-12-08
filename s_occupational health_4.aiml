@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- OCCUPATIONAL HEALTH -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>OCCUPATIONAL HEALTH *</pattern>
+	<template><think><set name="topic">occupational health</set></think><sr /></template></category>
+
+<category><pattern>OCCUPATIONAL HEALTH</pattern>	
+	<template>For resources on occupational health check out the <a href=" http://guides.lib.uci.edu/eohealth" target="_blank">Environmental and Occupational Health Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Subject keywords-->
+
+<category><pattern>OCCUPATIONAL HEALTH AND SAFETY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> 
+			and/or <a href=" http://toxnet.nlm.nih.gov/" target="_blank">TOXNET</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/eohealth" target="_blank">Environmental and Occupational Health Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>PREVENTION OF ACCIDENTS</pattern>
+<template><srai>OCCUPATIONAL HEALTH AND SAFETY</srai></template></category>
+<category><pattern>COLOR IN INDUSTRIAL SAFETY</pattern>
+<template><srai>OCCUPATIONAL HEALTH AND SAFETY</srai></template></category>
+<category><pattern>COMMUNICATION IN INDUSTRIAL SAFETY</pattern>
+<template><srai>OCCUPATIONAL HEALTH AND SAFETY</srai></template></category>
+<category><pattern>DAM SAFETY</pattern>
+<template><srai>OCCUPATIONAL HEALTH AND SAFETY</srai></template></category>
+<category><pattern>SAFETY MEASURES IN FACTORIES</pattern>
+<template><srai>OCCUPATIONAL HEALTH AND SAFETY</srai></template></category> 
+<category><pattern>FACTORY SANITATION</pattern>
+<template><srai>OCCUPATIONAL HEALTH AND SAFETY</srai></template></category>
+<category><pattern>HAZARDOUS SUBSTANCES</pattern>
+<template><srai>OCCUPATIONAL HEALTH AND SAFETY</srai></template></category>
+<category><pattern>HEALTH OF WORKERS</pattern>
+<template><srai>OCCUPATIONAL HEALTH AND SAFETY</srai></template></category>
+<category><pattern>INDUSTRIAL HYGIENE</pattern>
+<template><srai>OCCUPATIONAL HEALTH AND SAFETY</srai></template></category>
+<category><pattern>INDUSTRIAL HEALTH ENGINEERING</pattern>
+<template><srai>OCCUPATIONAL HEALTH AND SAFETY</srai></template></category>
+<category><pattern>INDUSTRIAL HEALTH ENGINEERING</pattern>
+<template><srai>OCCUPATIONAL HEALTH AND SAFETY</srai></template></category>
+<category><pattern>JOB SAFETY</pattern>
+<template><srai>OCCUPATIONAL HEALTH AND SAFETY</srai></template></category>
+<category><pattern>MINE SAFETY</pattern>
+<template><srai>OCCUPATIONAL HEALTH AND SAFETY</srai></template></category>
+<category><pattern>MINE SANITATION</pattern>
+<template><srai>OCCUPATIONAL HEALTH AND SAFETY</srai></template></category>
+<category><pattern>PREVENTION OF OCCUPATIONAL HAZARDS</pattern>
+<template><srai>OCCUPATIONAL HEALTH AND SAFETY</srai></template></category>
+<category><pattern>OCCUPATIONAL HEALTH AND SAFETY</pattern>
+<template><srai>OCCUPATIONAL HEALTH AND SAFETY</srai></template></category>
+<category><pattern>OCCUPATIONAL SAFETY AND HEALTH</pattern>
+<template><srai>OCCUPATIONAL HEALTH AND SAFETY</srai></template></category>
+<category><pattern>OCCUPATIONAL SAFETY AND HEALTH</pattern>
+<template><srai>OCCUPATIONAL HEALTH AND SAFETY</srai></template></category>
+<category><pattern>HEALTH ASCPECTS OF OCCUPATIONS</pattern>
+<template><srai>OCCUPATIONAL HEALTH AND SAFETY</srai></template></category>
+<category><pattern>PREVENTION OF INDUSTRIAL ACCIDENTS</pattern>
+<template><srai>OCCUPATIONAL HEALTH AND SAFETY</srai></template></category>
+<category><pattern>PREVENTION OF OCCUPATIONAL HAZARDS</pattern>
+<template><srai>OCCUPATIONAL HEALTH AND SAFETY</srai></template></category>
+<category><pattern>REDUNDANCY</pattern>
+<template><srai>OCCUPATIONAL HEALTH AND SAFETY</srai></template></category>
+<category><pattern>SAFETY APPLIANCES</pattern>
+<template><srai>OCCUPATIONAL HEALTH AND SAFETY</srai></template></category>
+<category><pattern>INDUSTRIAL SAFETY EDUCATION</pattern>
+<template><srai>OCCUPATIONAL HEALTH AND SAFETY</srai></template></category>
+<category><pattern>SAFETY ENGINEERING</pattern>
+<template><srai>OCCUPATIONAL HEALTH AND SAFETY</srai></template></category>
+<category><pattern>SAFETY MEASURES</pattern>
+<template><srai>OCCUPATIONAL HEALTH AND SAFETY</srai></template></category>
+<category><pattern>SAFETY OF WORKERS</pattern>
+<template><srai>OCCUPATIONAL HEALTH AND SAFETY</srai></template></category>
+<category><pattern>SAFETY SIGNS</pattern>
+<template><srai>OCCUPATIONAL HEALTH AND SAFETY</srai></template></category>
+<category><pattern>INDUSTRIAL SAFETY</pattern>
+<template><srai>OCCUPATIONAL HEALTH AND SAFETY</srai></template></category>
+<category><pattern>HEALTH ASPECTS OF WORK ENVIRONMENT</pattern>
+<template><srai>OCCUPATIONAL HEALTH AND SAFETY</srai></template></category>
+
+</aiml>

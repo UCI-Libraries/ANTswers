@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- PHARMACOLOGY -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>PHARMACOLOGY *</pattern> 
+	<template><think><set name="topic">pharmacology</set></think><sr /></template></category>
+
+<category><pattern>PHARMACOLOGY</pattern>	
+	<template>For resources on pharmacology check out the <a href=" http://guides.lib.uci.edu/pharmacology" target="_blank">Pharmacology and Drug Resources Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Interactions -->
+
+<category><pattern>PHARMACOLOGY</pattern>
+	<that>Anesthesia Adjuvants as a subject is included in the broader subjects of Anesthesiology and Pharmacology Would you like resource recommendations for anesthesiology or pharmacology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/22029" target="_blank">Micromedex</a> 
+	and/or <a href=" https://www.clinicalkey.com/pharmacology/" target="_blank">Clinical Pharmacology</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/pharmacology" target="_blank">Pharmacology and Drug Resources Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHARMACOLOGY</pattern>
+	<that>Pharmacy as a subject is included in the broader subjects of Chemistry Medicine and Pharmacology Would you like resource recommendations for chemistry medicine or pharmacology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/22029" target="_blank">Micromedex</a> 
+	and/or <a href=" https://www.clinicalkey.com/pharmacology/" target="_blank">Clinical Pharmacology</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/pharmacology" target="_blank">Pharmacology and Drug Resources Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHARMACOLOGY</pattern>
+	<that>Toxicology as a subject is included in the broader subjects of Medicine and Pharmacology Would you like resource recommendations for medicine or pharmacology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/22029" target="_blank">Micromedex</a> 
+	and/or <a href=" https://www.clinicalkey.com/pharmacology/" target="_blank">Clinical Pharmacology</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/pharmacology" target="_blank">Pharmacology and Drug Resources Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<!-- Subject keywords-->
+
+<category><pattern>BIOPHARMACEUTICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/22029" target="_blank">Micromedex</a> 
+			and/or <a href=" https://www.clinicalkey.com/pharmacology/" target="_blank">Clinical Pharmacology</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/pharmacology" target="_blank">Pharmacology and Drug Resources Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>BIOTRANSFORMATION</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>CARDIOVASCULAR PHARMACOLOGY</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>PHYSIOLOGICAL EFFECT OF CHEMICALS</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>CHEMOPREVENTION</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>CHEMOTHERAPY</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>CHRONOPHARMACOLOGY</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>CLINICAL PHARMACOLOGY</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>DENTAL PHARMACOLOGY</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>DERMATOPHARMACOLOGY</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>DEVELOPMENTAL PHARMACOLOGY</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>DRUG DEVELOPMENT</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>DRUG EFFECTS</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>DRUG RESISTANCE</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>DRUG STABILITY</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>DRUG TOLERANCE</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>DRUG EXANTHEMS</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>DRUGS</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>DOSE RESPONSE RELATIONSHIP IN DRUGS</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>PHYSIOLOGICAL EFFECT OF DRUGS</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>STRUCTURE ACTIVITY RELATIONSHIPS OF DRUGS</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>EFFECT OF DRUGS ON</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>FORENSIC PHARMACOLOGY</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>GASTROINTESTINAL AGENTS</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>GERIATRIC PHARMACOLOGY</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>HEMATOPOIETIC AGENTS</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>IMMUNOPHARMACOLOGY</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>MEDICAL PHARMACOLOGY</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>MINERALS IN PHARMACOLOGY</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>MOLECULAR PHARMACOLOGY</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>NEUROPHARMACOLOGY</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>OBSTETRICAL PHARMACOLOGY</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>OCULAR PHARMACOLOGY</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>PEDIATRIC PHARMACOLOGY</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>PHARMACOEPIDEMIOLOGY</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>PHARMACOGENETICS</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>PHARMACOKINETICS</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>PSYCHOPHARMACOLOGY</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>PULMONARY PHARMACOLOGY</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>QUANTUM PHARMACOLOGY</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>RADIOISOTOPES IN PHARMACOLOGY</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>RADIOPHARMACEUTICALS</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>RENAL PHARMACOLOGY</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+<category><pattern>VETERINARY PHARMACOLOGY</pattern>
+<template><srai>BIOPHARMACEUTICS</srai></template></category>
+
+<category><pattern>VETERINARY PHARMACOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/22029" target="_blank">Micromedex</a> 
+			and/or <a href=" https://www.clinicalkey.com/pharmacology/" target="_blank">Clinical Pharmacology</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/pharmacology" target="_blank">Pharmacology and Drug Resources Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+</aiml>

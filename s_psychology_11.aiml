@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- PSYCHOLOGY -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>PSYCHOLOGY *</pattern>
+	<template><think><set name="topic">psychology</set></think><sr /></template></category>
+
+<category><pattern>PSYCHOLOGY</pattern>	
+	<template>For resources on psychology check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Interactions -->
+
+<category><pattern>PSYCHOLOGY</pattern>
+	<that>Artificial Intelligence as a subject is included in the broader subjects of Cognitive Science and Psychology Would you like resource recommendations for cognitive science or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PSYCHOLOGY</pattern>
+	<that>Belief and Doubt as a subject is included in the broader subjects of Philosophy and Psychology Would you like resource recommendations for philosophy or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PSYCHOLOGY</pattern>
+	<that>Cognitive neuroscience as a subject is included in the broader subjects of Cognitive Science and Psychology Would you like resource recommendations for cognitive science or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PSYCHOLOGY</pattern>
+	<that>Cognitive Psychology as a subject is included in the broader subjects of Cognitive Science and Psychology Would you like resource recommendations for cognitive science or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PSYCHOLOGY</pattern>
+	<that>Consciousness as a subject is included in the broader subjects of Philosophy and Psychology. Would you like resource recommendations for philosophy and psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PSYCHOLOGY</pattern>
+	<that>Constructivism as a subject is included in the broader subjects of Contemporary Art Education Philosophy and Psychology Would you like resource recommendations for contemporary art education philosophy or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PSYCHOLOGY</pattern>
+	<that>Cynicism as a subject is included in the broader subjects of Philosophy and Psychology Would you like resource recommendations for philosophy and psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PSYCHOLOGY</pattern>
+	<that>Depressed college students as a subject is included in the broader subject of Psychology Would you like resource recommendations for philosophy or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PSYCHOLOGY</pattern>
+	<that>Depression. as a subject is included in the broader subject of Psychology Would you like resource recommendations for philosophy or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+	
+<category><pattern>PSYCHOLOGY</pattern>
+	<that>Experience as a subject is included in the broader subjects of Philosophy and Psychology Would you like resource recommendations for philosophy or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PSYCHOLOGY</pattern>
+	<that>Functionalism as a subject is included in the broader subjects of Linguistics and Psychology Would you like resource recommendations for linguistics or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PSYCHOLOGY</pattern>
+	<that>Ideology as a subject is included in the broader subjects of Government Information Philosophy Political Science and Psychology Would you like resource recommendations for government information philosophy political science or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PSYCHOLOGY</pattern>
+	<that>Imagination as a subject is included in the broader subjects of Philosophy and Psychology Would you like resource recommendations for philosophy and psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PSYCHOLOGY</pattern>
+	<that>Individuation as a subject is included in the broader subjects of Motion Pictures Philosophy and Psychology Would you like resource recommendations for motion pictures philosophy or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PSYCHOLOGY</pattern>
+	<that>Information theory as a subject is included in the broader subjects of Biology Chemistry Education Mathematics Music and Psychology Would you like resource recommendations for biology chemistry education math music or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PSYCHOLOGY</pattern>
+	<that>Instinct as a subject is included in the broader subjects of Philosophy and Psychology Would you like resource recommendations for philosophy and psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PSYCHOLOGY</pattern>
+	<that>Interest as a subject is included in the broader subjects of Philosophy and Psychology Would you like resource recommendations for philosophy and psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PSYCHOLOGY</pattern>
+	<that>Intuition as a subject is included in the broader subjects of Philosophy and Psychology Would you like resource recommendations for philosophy and psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PSYCHOLOGY</pattern>
+	<that>Theory of Knowledge as a subject is included in the broader subjects of Philosophy and Psychology Would you like resource recommendations for philosophy and psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PSYCHOLOGY</pattern>
+	<that>Logic as a subject is included in the broader subjects of Philosophy and Psychology Would you like resource recommendations for philosophy or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PSYCHOLOGY</pattern>
+	<that>Theory of Opposition as a subject is included in the broader subjects of Philosophy Would you like resource recommendations for philosophy or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PSYCHOLOGY</pattern>
+	<that>Perception as a subject is included in the broader subjects of Philosophy and Psychology Would you like resource recommendations for philosophy or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PSYCHOLOGY</pattern>
+	<that>Philosophy and Cognitive Science as a subject is included in the broader subjects of Cognitive Science and Psychology Would you like resource recommendations for cognitive science or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PSYCHOLOGY</pattern>
+	<that>Polarity as a subject is included in the broader subjects of Biology Philosophy and Psychology Would you like resource recommendations for biology philosophy or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PSYCHOLOGY</pattern>
+	<that>Psychobiology as a subject is included in the broader subjects of Biology and Psychology Would you like resource recommendations for biology or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PSYCHOLOGY</pattern>
+	<that>Psycholinguistics as a subject is included in the broader subjects of Linguistics and Psychology Would you like resource recommendations for linguistics or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PSYCHOLOGY</pattern>
+	<that>Thought and Thinking as a subject is included in the broader subjects of Philosophy and Psychology Would you like resource recommendations for philosophy or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<category><pattern>PSYCHOLOGY</pattern>
+	<that>Typology as a subject is included in the broader subjects of Linguistics and Psychology Would you like resource recommendations for linguistics or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<category><pattern>PSYCHOLOGY</pattern>
+	<that>Will as a subject is included in the broader subjects of Philosophy and Psychology Would you like resource recommendations for philosophy or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<!-- Subject keywords-->
+
+<category><pattern>SOCIAL PSYCHOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/psychology" target="_blank">Psychology and Cognitive Sciences Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+  
+<category><pattern>ADJUSTMENT</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>ADOLESCENT PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>AFFECT</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>AGGRESSIVENESS</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>ANIMAL PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>APPERCEPTION</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>ASSERTIVENESS</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>ASTROLOGY AND PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>ATTENTION</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>ATTENTION-SEEKING</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>ATTITUDE</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>AUDIOTAPES IN PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>BEHAVIOR GENETICS</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>BEHAVIORISM</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>CHANGE</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>CHILD PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>  
+<category><pattern>CHOICE</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>CLINICAL PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>COGNITION</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>COMMUNICATION IN PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>COMMUNISM AND PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>COMPARISON IN PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>COMPLIANCE</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>  
+<category><pattern>CONCEPTS</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>CONSERVATION OF SPACE</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>CONTENT</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>CONTEXT EFFECTS</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>CONTROL</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>CRIMINAL PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>DAY RESIDUES</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>DEPRIVATION</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>DEVELOPMENTAL PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>DIFFERENCE</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>DISCURSIVE PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>  
+<category><pattern>DRAWING, PSYCHOLOGY OF</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>EDUCATIONAL PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>EGO</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>EIDETIC IMAGERY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>  
+<category><pattern>EJECTION</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>EMOTIONS</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>ENVIRONMENTAL PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>ETHNOPSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>EXCITATION (PHYSIOLOGY)</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>FAILURE</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>FATHER FIGURES</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>FEMINIST PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>  
+<category><pattern>FIGHTING</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>GENETIC PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>  
+<category><pattern>GESTALT PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>  
+<category><pattern>HABIT</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>HESITATION</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>  
+<category><pattern>HOSTILITY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>HUMAN BEHAVIOR</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>HUMANISTIC PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>  
+<category><pattern>ID</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>IMPULSE</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>INDIVIDUALITY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>INFLUENCE</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>INFORMATION THEORY IN APPLIED PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>INFORMATION THEORY IN PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>INHIBITION</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>INTELLECT</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>INTENTIONALISM</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>  
+<category><pattern>INTERBEHAVIORAL PSYCHOLGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>INTROSPECTION</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>JUDAISM AND PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>JUDGMENT</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>LEAST EFFORT PRINCIPLE</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>LEFT AND RIGHT</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>LIMINALITY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>LOSS</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>MACHIAVELLIANISM</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>MATURATION</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>MEANING</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>MEMORY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>MINORITIES IN PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>MOTION PICTURES IN PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>NATIVISM</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>NEW THOUGHT</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>NUMBER CONCEPT</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>OBSERVATION</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>OPERANT BEHAVIOR</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>OPPRESSION</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>ORIENTATION</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>PARAPSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>PASSIVITY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>PEER REVIEW IN PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>PERSONAL CONSTRUCT THEORY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>PERSONALITY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>PHENOMENOLOGICAL PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>PHRENOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>PHYSIOGNOMY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>POLITICAL PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>POPULATION PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>  
+<category><pattern>PRAISE</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>PREDICTION</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>PROBLEM SOLVING</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>  
+<category><pattern>PSYCHOANALYSIS</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>   
+<category><pattern>PSYCHOLOGICAL GAMES</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>APPLIED PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>RACISM IN PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>  
+<category><pattern>RESPONSE CONSISTENCY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>RHETORIC AND PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>SCIENCE AND PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>SECONDARY FUNCTION</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>SELF PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>SELF ACCEPTANCE</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>SET</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>SEX DISCRIMINATION IN PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>SOCIAL INTERACTION</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>SOCIAL SCIENCES AND PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>SPATIAL BEHAVIOR</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>STIMULUS COMPOUNDING</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>  
+<category><pattern>STRESS</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>SUBCONSCIOUSNESS</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>SYMBOLISM</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>SYNESTHESIA</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>TEMPERAMENT</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>    
+<category><pattern>THREAT</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>TRANSITIONAL OBJECTS</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category> 
+<category><pattern>TRANSPERSONAL PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>VALUES</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>VIDEO TAPES IN PSYCHOLOGY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>WHOLE AND PARTS</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>MENTAL ILLNESS</pattern> 
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>RELATIONSHIPS</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>EXPERIENCE OF POWER</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>EXPEREINCE OF POWER AND MARRIAGE</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>EMPATHY DECLINE</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>DOMESTIC VIOLENCE</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>THOUGHT FIELD THERAPY</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>SELF*HELP SUPPORT GROUPS</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+<category><pattern>OUTPATIENT SUICIDE</pattern>
+<template><srai>SOCIAL PSYCHOLOGY</srai></template></category>
+
+</aiml>

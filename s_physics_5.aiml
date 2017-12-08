@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- PHYSICS -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>PHYSICS *</pattern>
+	<template><think><set name="topic">physics</set></think><sr /></template></category>
+
+<category><pattern>PHYSICS</pattern>
+	<template>For Physics resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Interactions -->
+
+<category><pattern>PHYSICS</pattern>
+	<that>Astrophysics as a subject is included in the broader subjects of Astronomy and Physics Would you like resource recommendations for astronomy or physics_</that>
+	<template>We would recommend that you start your search with <a href=" http://adsabs.harvard.edu/ads_abstracts.html" target="_blank">ADS</a> 
+	and/or <a href=" http://www.arxiv.org/" target="_blank">arXiv</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHYSICS</pattern>
+	<that>Biophysics as a subject is included in the broader subjects of Biology Biomedical Engineering and Physics Would you like resource recommendations for biology biomendical engineering or physics_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> 
+	and/or <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHYSICS</pattern>
+	<that>Cosmic physics as a subject is included in the broader subjects of Astronomy and Physics. Would you like resource recommendations for astronomy or physics_</that>
+	<template>We would recommend that you start your search with <a href=" http://adsabs.harvard.edu/ads_abstracts.html" target="_blank">ADS</a> 
+	and/or <a href=" http://www.arxiv.org/" target="_blank">arXiv</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHYSICS</pattern>
+	<that>Field theory as a subject is included in the broader subjects of Linguistics and Physics Would you like resource recommendations for linguistics or physics_</that>
+	<template>We would recommend that you start your search with <a href=" http://www.accessscience.com/" target="_blank"> AccessScience</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHYSICS</pattern>
+	<that>Geophysics as a subject is included in the broader subjects of Earth Sciences and Physics Would you like resource recommendations for earth sciences or physics_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a> 
+	and/or <a href=" http://uclibs.org/PID/16251" target="_blank">GeoRef</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHYSICS</pattern>
+	<that>Statics as a subject is included in the broader subjects of Mathematics and Physics Would you like resource recommendations for mathematics or physics_</that>
+	<template>We would recommend that you start your search with <a href=" http://www.accessscience.com/" target="_blank"> AccessScience</a> 
+	and/or <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHYSICS</pattern>
+	<that>Surfaces as a subject is included in the broader subjects of Philosophy and Physics Would you like resource recommendations for philosophy or physics_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a> 
+	and/or <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<!-- Subject keywords-->
+
+<category><pattern>BALLISTICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a> 
+			and/or <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>PHYSICAL METALLURGY</pattern>
+<template><srai>BALLISTICS</srai></template></category>
+<category><pattern>PNEUMATICS</pattern>
+<template><srai>BALLISTICS</srai></template></category>
+<category><pattern>RADIATION</pattern>
+<template><srai>BALLISTICS</srai></template></category>
+
+<category><pattern>FLUIDS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://www.accessscience.com/" target="_blank"> AccessScience</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>CAPILLARITY</pattern>
+<template><srai>FLUIDS</srai></template></category>
+<category><pattern>CONSTRAINTS</pattern>
+<template><srai>FLUIDS</srai></template></category>
+ 
+<category><pattern>SYMMETRY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://www.accessscience.com/" target="_blank"> AccessScience</a> 
+			and/or <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>. 
+			For more resources check out the <a href=" hhttp://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>RELAXATION PHENOMENA</pattern>
+<template><srai>SYMMETRY</srai></template></category>
+<category><pattern>SIMILARITY</pattern>
+<template><srai>SYMMETRY</srai></template></category> 
+<category><pattern>SOUND</pattern>
+<template><srai>SYMMETRY</srai></template></category>
+<category><pattern>SUM RULES</pattern>
+<template><srai>SYMMETRY</srai></template></category> 
+<category><pattern>SUPERPOSITION PRINCIPLE</pattern>
+<template><srai>SYMMETRY</srai></template></category> 
+
+<category><pattern>MATTER</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" hhttp://www.accessscience.com/" target="_blank"> AccessScience</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>FORCE AND ENERGY</pattern>
+<template><srai>MATTER</srai></template></category>
+<category><pattern>HEAT</pattern>
+<template><srai>MATTER</srai></template></category>
+<category><pattern>MECHANICS</pattern>
+<template><srai>MATTER</srai></template></category>
+<category><pattern>MOTION</pattern>
+<template><srai>MATTER</srai></template></category>
+<category><pattern>OPEN SYSTEMS</pattern>
+<template><srai>MATTER</srai></template></category>
+<category><pattern>PERMEABILITY</pattern>
+<template><srai>MATTER</srai></template></category>
+<category><pattern>PHENOMENOLOGICAL THEORY</pattern>
+<template><srai>MATTER</srai></template></category> 
+<category><pattern>PSYCHOPHYSICS</pattern>
+<template><srai>MATTER</srai></template></category>
+
+<category><pattern>MAGNETISM</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a> 
+			and/or <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>COMMUNICATION IN PHYSICS</pattern>
+<template><srai>MAGNETISM</srai></template></category>
+<category><pattern>COMPRESSIBILITY</pattern>
+<template><srai>MAGNETISM</srai></template></category>
+<category><pattern>INFORMATION THEORY IN PHYSICS</pattern>
+<template><srai>MAGNETISM</srai></template></category>
+<category><pattern>LASERS IN PHYSICS</pattern>
+<template><srai>MAGNETISM</srai></template></category>
+<category><pattern>NANOSTRUCTURES</pattern>
+<template><srai>MAGNETISM</srai></template></category>
+<category><pattern>NUCLEAR PHYSICS</pattern>
+<template><srai>MAGNETISM</srai></template></category>
+<category><pattern>OPTICS</pattern>
+<template><srai>MAGNETISM</srai></template></category>
+
+<category><pattern>IONS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a> 
+			and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>ARCHAEOLOGICAL PHYSICS</pattern>
+<template><srai>IONS</srai></template></category>
+<category><pattern>MICROPHYSICS</pattern>
+<template><srai>IONS</srai></template></category>
+<category><pattern>QUANTUM THEORY</pattern>
+<template><srai>IONS</srai></template></category>
+<category><pattern>SOLID STATE PHYSICS</pattern>
+<template><srai>IONS</srai></template></category>
+<category><pattern>STATISTICAL PHYSICS</pattern>
+<template><srai>IONS</srai></template></category>
+<category><pattern>THERMODYNAMICS</pattern>
+<template><srai>IONS</srai></template></category>
+
+<category><pattern>MOTION PICTURES IN PHYSICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>ACOUSTICS AND PHYSICS</pattern>
+<template><srai>MOTION PICTURES IN PHYSICS</srai></template></category>
+
+<category><pattern>VISCOSITY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/107454" target="_blank">Knovel</a> 
+			and/or <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>CONSERVATION LAWS</pattern>
+<template><srai>VISCOSITY</srai></template></category> 
+<category><pattern>CRITICAL PHENOMENA</pattern>
+<template><srai>VISCOSITY</srai></template></category> 
+<category><pattern>DIFFUSION</pattern>
+<template><srai>VISCOSITY</srai></template></category>
+<category><pattern>ELECTRICITY</pattern>
+<template><srai>VISCOSITY</srai></template></category>
+<category><pattern>EVAPORATION</pattern>
+<template><srai>VISCOSITY</srai></template></category>
+<category><pattern>EXPANSION</pattern>
+<template><srai>VISCOSITY</srai></template></category>
+
+<category><pattern>GRAVITATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://adsabs.harvard.edu/ads_abstracts.html" target="_blank">ADS</a> 
+			and/or <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>AGRICULTURAL PHYSICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126814" target="_blank">Agricola</a> 
+			and/or <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>SEX DISCRIMINATION IN PHYSICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://www.aps.org/" target="_blank">American Physical Society (APS)</a> 
+			and/or <a href=" http://www.aip.org/" target="_blank">American Institute of Physics (AIP)</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>MESOSCOPIC PHENOMENA</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a> 
+			and/or <a href=" http://adsabs.harvard.edu/ads_abstracts.html" target="_blank">ADS</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>GENERAL RELATIVITY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a> 
+			and/or <a href=" http://www.arxiv.org/" target="_blank">arXiv</a>. 
+			For more resources check out the <a href=" hhttp://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>MATHEMATICAL PHYSICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a> 
+			and/or <a href=" http://www.ams.org/mathscinet/" target="_blank">MathSciNet</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>MEDICAL PHYSICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>
+			and/or <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>WEIGHTS AND MEASURES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/107454" target="_blank">Knovel</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+
+<category><pattern>RADIOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> 
+			and/or <a href=" http://uclibs.org/PID/22771" target="_blank">INSPEC</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/physics" target="_blank">Physics and Astronomy Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+</aiml>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- NURSING -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>NURSING *</pattern>
+	<template><think><set name="topic">nursing</set></think><sr /></template></category>
+	
+<category><pattern>NURSING</pattern>	
+	<template>For resources on nursing check out the <a href=" http://guides.lib.uci.edu/nursing" target="_blank">Nursing Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Interactions -->
+
+<category><pattern>NURSING</pattern>
+	<that>Urological nursing as a subject is included in the broader subjects of Nursing and Urology Would you like resource recommendations for nursing or urology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/106625" target="_blank">CINAHL</a>, 
+	<a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> and/or <a href=" http://search.alexanderstreet.com/mcom" target="_blank">Nursing Education in Video</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/nursing" target="_blank">Nursing Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<!-- Subject keywords-->
+
+<category><pattern>NURSING ASSESSMENT</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/106625" target="_blank">CINAHL</a>,
+			<a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a>  and/or <a href=" http://search.alexanderstreet.com/mcom" target="_blank">Nursing Education in Video</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/nursing" target="_blank">Nursing Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>ADVANCED PRACTICE NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>AVIATION NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>CAMP NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>CANCER NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>CHILD ABUSE</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>CHILD WELFARE</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>COMMUNICATION IN NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>COMMUNITY HEALTH NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>DERMATOLOGIC NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>DISASTER NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>EMERGENCY NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>EVIDENCE BASED PRACTICE</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>FAMILY NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>FORENSIC NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>GERIATRIC NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>GYNECOLOGIC NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>HOLISTIC NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>HOME NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>INDUSTRIAL NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>INTENSIVE CARE NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>MATERNITY NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>MEDICAL OFFICE NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>MEDICATION COMPLIANCE</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>MENTORING IN NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>MILITARY NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>MINORITIES IN NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>NEUROLOGICAL NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>NURSE JOB SATISFACTION</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>NURSE PRACTITIONERS</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>NURSE MANAGED CLINICS</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>NURSE PATIENT RATIOS</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>NURSE PHYSICIAN COMMUNICATION</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>NURSING DIAGNOSIS</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>NURSING ETHICS</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>NURSING QUALITATIVE REVIEWS</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>OBESITY PREVENTION IN CHILDREN</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>ONCOLOGY NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>OPHTHALMIC NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>OTOLARYNGOLOGICAL NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>PEDIATRIC NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>PRACTICAL NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>PRIMARY NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>PRIVATE DUTY NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>PSYCHIATRIC NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>PUBLIC HEALTH NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>QUALITY OF PATIENT CARE</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>REHABILITATION NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>SCHOOL NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>SURGICAL NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>TEAM NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>TRANSCULTURAL NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>VACCINATION REFUSAL</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>
+<category><pattern>VETERINARY NURSING</pattern>
+<template><srai>NURSING ASSESSMENT</srai></template></category>	
+
+<category><pattern>NCLEX</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" https://uci.myexammaster.com/login" target="_blank">Exam Master</a> and/or
+			<a href=" https://www.boardvitals.com/users/sign_in" target="_blank">BoardVitals Family Nurse Practitioner Board Exam Prep</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/nursing/boards" target="_blank">Nursing: Nursing Boards Examination Resources</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>MIDWIFERY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" https://uci.kanopystreaming.com/catalog/health/midwifery" target="_blank">Kanopy Nursing and Midwifery Videos</a>. 
+			For more resources check out the a <a href=" http://guides.lib.uci.edu/nursing" target="_blank">Nursing Research Guide</a>  
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+</aiml>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- MEDICINE -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>MEDICINE *</pattern>
+	<template><think><set name="topic">medicine</set></think><sr /></template></category>
+
+<category><pattern>MEDICINE</pattern>	
+	<template>For resources on medicine check out the <a href=" http://guides.lib.uci.edu/medicine" target="_blank">Medicine Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+	<category><pattern>* MEDICINE</pattern>
+	<template><srai>MEDICINE</srai></template></category>
+
+<!-- Interactions -->
+
+<category><pattern>MEDICINE</pattern>
+	<that>Pharmacy as a subject is included in the broader subjects of Chemistry Medicine and Pharmacology Would you like resource recommendations for chemistry medicine or pharmacology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> 
+	and/or <a href=" http://uclibs.org/PID/36842" target="_blank">AccessMedicine</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/medicine" target="_blank">Medicine Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>MEDICINE</pattern>
+	<that>Space medicine as a subject is included in the broader subjects of Astronomy and Medicine Would you like resource recommendations for astronomy or medicine_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> 
+	and/or <a href=" http://uclibs.org/PID/36842" target="_blank">AccessMedicine</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/medicine" target="_blank">Medicine Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>MEDICINE</pattern>
+	<that>Surgery as a subject is included in the broader subjects of Anesthesiology and Medicine Would you like resource recommendations for anesthesiology or medicine_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> 
+	and/or <a href=" http://uclibs.org/PID/36842" target="_blank">AccessMedicine</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/medicine" target="_blank">Medicine Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>MEDICINE</pattern>
+	<that>Toxicology as a subject is included in the broader subjects of Medicine and Pharmacology Would you like resource recommendations for medicine or pharmacology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> 
+	and/or <a href=" http://uclibs.org/PID/36842" target="_blank">AccessMedicine</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/medicine" target="_blank">Medicine Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>	
+	
+<!-- Subject keywords-->
+
+<category><pattern>MEDICAL SCIENCES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> 
+			and/or <a href=" http://uclibs.org/PID/36842" target="_blank">AccessMedicine</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/medicine" target="_blank">Medicine Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>ADOLESCENT MEDICINE</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+
+<category><pattern>BIOMEDICAL ENGINEERING</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>CLINICAL MEDICINE</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>CLINICAL SCIENCES</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>COMMUNICATION IN MEDICINE</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>CRITICAL CARE MEDICINE</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>DENTISTRY</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>DERMATOLOGY</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>DISASTER MEDICINE</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>DISEASES</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>EMERGENCY MEDICINE</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>FAMILY MEDICINE</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>GERIATRICS</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>GYNECOLOGY</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>HEALTH</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>INTERNAL MEDICINE</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>LEGAL MEDICINE</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>INDUSTRIAL MEDICINE</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>MILITARY MEDICINE</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>PHYSICAL MEDICINE</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>MINORITIES IN MEDICINE</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>MEDICAL MISSIONS</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>SOCIALIZED MEDICINE</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>NEUROLOGY</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>NOSOLOGY</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>OBSTETRICS</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>OPTICAL FIBERS IN MEDICINE</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>ORAL MEDICINE</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>OSTEOPATHIC MEDICINE</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>OTOLARYNGOLOGY</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>PATHOLOGY</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>PODIATRY</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>QUACKS AND QUACKERY</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>ROBOTICS IN MEDICINE</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>SPORTS MEDICINE</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>TELECOMMUNICATION IN MEDICINE</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>TROPICAL MEDICINE</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>VIRTUAL REALITY IN MEDICINE</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>WOMEN IN MEDICINE</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>EUTHANASIA</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>OBAMACARE</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+<category><pattern>PHYSICAL MEDICINE AND REHABILITATION</pattern>
+<template><srai>MEDICAL SCIENCES</srai></template></category>
+
+<category><pattern>ALTERNATIVE MEDICINE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> 
+			and/or <a href=" http://uclibs.org/PID/36737" target="_blank">Natural Medicines</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/ebcam" target="_blank">Complementary and Alternative Medicine Research Guide Research Guide</a>
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+</aiml>

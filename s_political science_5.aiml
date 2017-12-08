@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- POLITICAL SCIENCE -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>POLITICAL SCIENCE *</pattern>
+	<template><think><set name="topic">political science</set></think><sr /></template></category>
+
+<category><pattern>POLITICAL SCIENCE</pattern>	
+	<template>For resources on political science check out the <a href=" http://guides.lib.uci.edu/polsci" target="_blank">Political Science Research Guide</a>      
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<!-- Interactions -->
+
+<category><pattern>POLITICAL SCIENCE</pattern>
+	<that>Ideology as a subject is included in the broader subjects of Philosophy Political Science and Psychology Would you like resource recommendations for philosophy political science or psychology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/113595" target="_blank">Worldwide Political Science Abstracts</a> 
+	and/or <a href=" http://uclibs.org/PID/20687" target="_blank">PAIS International</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/polsci" target="_blank">Political Science Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>POLITICAL SCIENCE</pattern>
+	<that>Individualism as a subject is included in the broader subjects of Economics Political Science and Sociology Would you like resource recommendations for economics political science or sociology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/113595" target="_blank">Worldwide Political Science Abstracts</a> 
+	and/or <a href=" http://uclibs.org/PID/20687" target="_blank">PAIS International</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/polsci" target="_blank">Political Science Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<!-- Subject keywords-->
+
+<category><pattern>CIVICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/113595" target="_blank">Worldwide Political Science Abstracts</a> 
+			and/or <a href=" http://uclibs.org/PID/20687" target="_blank">PAIS International</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/polsci" target="_blank">Political Science Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>ADMINISTRATION</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>ARTISTOCRACY</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>AUTHORIATIANISM</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>AUTHORITY</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>AUTONOMY</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>BIOPOLITICS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>BUDDHISM AND POLITICS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>BUREAUCRACY</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>CABINET SYSTEM</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>CENTRAL LOCAL GOVERNMENT RELATIONS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>CHRISTIANITY AND POLITICS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>CITIZENSHIP</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>CITY STATES</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>CIVIL GOVERNMENT</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>COMMON GOOD</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>COMMONWEALTH</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>COMMUNICATION IN POLITICS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>COMPARATIVE GOVERNMENT</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>CONSERVATISM</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>CORPORATE STATE</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>COUPS D*ETAT</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>DECENTRALIZATION IN GOVERNMENT</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>DELEGATION OF POWERS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>DEMOCRACY</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>GOVERNMENT DEMOCRACY</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>DICTATORSHIP</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>DIVINE RIGHT OF KINGS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>ELECTIONS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>EQUALITY</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>EXECUTIVE POWER</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>FEDERAL GOVERNMENT</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>FILIBUSTERS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>GOVERNMENT</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>RESISTANCE TO GOVERNMENT</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>HINDUISM AND POLITICS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>IDEOLOGY</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>IMPERIALISM</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>RIGHT OF INITIATIVE</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>INTERNATIONAL ORGANIZATION</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>ISLAM AND POLITICS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>JAINISM AND POLITICS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>JUDAISM AND POLITICS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>LIBERALISM</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>LIBERTY</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>LOCAL GOVERNMENT</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>MILITARY GOVERNMENT OF DEPENDENCIES</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>MINISTERIAL RESPONSIBILITY</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>MONARCHY</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>NATIONALISM</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>OLIGARCHY</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>OPPOSITION</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>PEOPLE*S DEMOCRACIES</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>PLEBISCITE</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>POLARIZATION</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>POLICE POWER</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>POLITICAL ANTHROPOLOGY</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>POLITICAL DEVELOPMENT</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>POLITICAL OBLIGATION</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>POLITICAL PARTIES</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>POLITICAL PSYCHOLOGY</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>POLITICAL SOCIOLOGY</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>POLITICAL THEORY</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>POLITICAL THOUGHT</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>POLITICS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>PRACTICAL POLITICS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>POPULISM</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>POSTCOLONIALISM</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>POWER</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>PRESSURE GROUPS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>PROTECTORATES</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>PUBLIC ADMINISTRATION</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>PUBLIC DOMAIN</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>RADICALISM</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>REFERENDUM</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>RELIGION AND POLITICS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>REPRESENTATIVE GOVERNMENT AND REPRESENTATION</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>REPUBLICANISM</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>REPUBLICS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>POLITICAL RESTORATIONS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>REVOLUTIONS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>RIGHT AND LEFT</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>POLITICAL SCIENCE</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>SEPARATION OF POWERS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>SIKHISM AND POLITICS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>SOCIAL CONTRACT</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>SOVEREIGNTY</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>STATE GOVERNMENTS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>STATE RIGHTS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>SIZE OF STATES</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>SMALL STATES</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>SUBSIDIARITY</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>SYMBOLISM IN POLITICS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>TELEVISION AND POLITICS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>TRIBAL GOVERNMENT</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>UTOPIAS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>VILLAGE COMMUNITIES</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>WORLD POLITICS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>ANARCHISM</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>COLONIALISM</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>GOVERNMENT SURVEILLANCE</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>ESPIONAGE</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>OCCUPY MOVEMENT</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>HUMAN RIGHTS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>PUBLIC POLICY</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>NONGOVERNMENTAL ORGANIZATIONS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>PEACE AND CONFLICT STUDIES</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>ETHNIC POLITICS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>SEXUAL POLITICS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>GENDER AND POLITICS</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>MEDIA POLITICAL</pattern>
+<template><srai>CIVICS</srai></template></category>
+<category><pattern>INTERNATIONAL POLITICS</pattern>
+<template><srai>CIVICS</srai></template></category>
+
+<category><pattern>POLITICAL DATA</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://www.icpsr.umich.edu/icpsrweb/ICPSR/" target="_blank">Inter-university Consortium for Political and Social Research</a> 
+			and/or <a href=" http://roperweb.ropercenter.uconn.edu/iPOLL/login/ipoll_login.html" target="_blank">iPoll</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/polsci" target="_blank">Political Science Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>PUBLIC OPINION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/113595" target="_blank">Worldwide Political Science Abstracts</a> 
+			and/or <a href=" http://roperweb.ropercenter.uconn.edu/iPOLL/login/ipoll_login.html" target="_blank">iPoll</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/polsci" target="_blank">Political Science Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+</aiml>

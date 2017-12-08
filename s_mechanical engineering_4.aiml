@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- MECHANICAL ENGINEERING -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>MECHANICAL ENGINEERING *</pattern> 
+	<template><think><set name="topic">MECHANICAL ENGINEERING</set></think><sr /></template></category>
+
+<category><pattern>MECHANICAL ENGINEERING</pattern>	
+	<template>For resources on mechanical engineering check out the <a href=" http://guides.lib.uci.edu/engr_mech_aerospace" target="_blank">Mechanical and Aerospace Engineering Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<!-- Interactions -->	
+
+<category><pattern>AGRICULTURAL MECHANICS</pattern>
+	<that>Electromechanical devices as a subject is included in the broader subjects of Electrical Engineering and Mechanical Engineering Would you like resource recommendations for electrical engineering or mechanical engineering_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/267084" target="_blank">ASME Digital Collection</a> 
+	and/or <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a>. 
+	For more resources check out the <a href=" {http://guides.lib.uci.edu/engr_mech_aerospace" target="_blank">Mechanical and Aerospace Engineering Research Guide Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>	
+	
+<!-- Subject keywords-->
+
+<category><pattern>AGRICULTURAL MECHANICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" <a href=" http://uclibs.org/PID/267084" target="_blank">ASME Digital Collection</a> 
+			and/or <a href=" http://uclibs.org/PID/1537" target="_blank">Compendex</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/engr_mech_aerospace" target="_blank">Mechanical and Aerospace Engineering Research Guide Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>BLADES</pattern>
+<template><srai>AGRICULTURAL MECHANICS</srai></template></category>
+<category><pattern>COMMUNICATION IN MECHANICAL ENGINEERING</pattern>
+<template><srai>AGRICULTURAL MECHANICS</srai></template></category>
+<category><pattern>DIAPHRAGMS IN MECHANICAL DEVICES</pattern>
+<template><srai>AGRICULTURAL MECHANICS</srai></template></category>
+<category><pattern>DIFFUSERS</pattern>
+<template><srai>AGRICULTURAL MECHANICS</srai></template></category>
+<category><pattern>HEAT ENGINEERING</pattern>
+<template><srai>AGRICULTURAL MECHANICS</srai></template></category>
+<category><pattern>MACHINERY</pattern>
+<template><srai>AGRICULTURAL MECHANICS</srai></template></category>
+<category><pattern>MECHANICAL MOVEMENTS</pattern>
+<template><srai>AGRICULTURAL MECHANICS</srai></template></category>
+<category><pattern>MECHATRONICS</pattern>
+<template><srai>AGRICULTURAL MECHANICS</srai></template></category>
+<category><pattern>POWER TRANSMISSION</pattern>
+<template><srai>AGRICULTURAL MECHANICS</srai></template></category>
+<category><pattern>PRODUCTION ENGINEERING</pattern>
+<template><srai>AGRICULTURAL MECHANICS</srai></template></category>
+<category><pattern>STEAM ENGINEERING</pattern>
+<template><srai>AGRICULTURAL MECHANICS</srai></template></category>
+
+</aiml>

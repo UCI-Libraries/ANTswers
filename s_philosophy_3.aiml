@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Philosophy -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>PHILOSOPHY *</pattern>
+	<template><think><set name="topic">philosophy</set></think><sr /></template></category>
+
+<category><pattern>PHILOSOPHY</pattern>	
+	<template>For resources on philosophy check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a>
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Interactions -->
+
+<category><pattern>PHILOSOPHY</pattern>
+	<that>Autonomy as a subject is included in the broader subjects of Government Information and Philosophy Would you like resource recommendations for government information or philosophy_</that>
+	<template>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's Index</a>. For more resources 
+	check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHILOSOPHY</pattern>
+	<that>Axioms as a subject is included in the broader subjects of Mathematics and Philosophy Would you like resource recommendations for math or philosophy_</that>
+	<template>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's Index</a>. For more resources 
+	check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHILOSOPHY</pattern>
+	<that>Belief and Doubt as a subject is included in the broader subjects of Philosophy and Psychology Would you like resource recommendations for philosophy or psychology_</that>
+	<template>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's Index</a>. For more resources 
+	check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHILOSOPHY</pattern>
+	<that>Color as a subject is included in the broader subjects of Art Chemistry and Philosophy Would you like resource recommendations for art chemistry or philosophy_</that>
+	<template>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's Index</a> and/or 
+	<a href=" http://uclibs.org/PID/33002" target="_blank">Art Full Text</a>. For more resources check out the 
+	<a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<category><pattern>PHILOSOPHY</pattern>
+	<that>Consciousness as a subject is included in the broader subjects of Philosophy and Psychology Would you like resource recommendations for philosophy and psychology_</that>
+	<template>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's Index</a>. For more resources 
+	check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHILOSOPHY</pattern>
+	<that>Constructivism as a subject is included in the broader subjects of Contemporary Art Education Philosophy and Psychology Would you like resource recommendations for contemporary art education philosophy or psychology_</that>
+	<template>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's Index</a>. For more resources 
+	check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHILOSOPHY</pattern>
+	<that>Criticism as a subject is included in the broader subjects of Critical Theory Literature and Philosophy Would you like resource recommendations for critical theory literature or philosophy_</that>
+	<template>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's Index</a>. For more resources 
+	check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHILOSOPHY</pattern>
+	<that>Cycles as a subject is included in the broader subjects of Literature and Philosophy Would you like resource recommendations for literature or philosophy_</that>
+	<template>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's Index</a>. For more resources 
+	check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHILOSOPHY</pattern>
+	<that>Cynicism as a subject is included in the broader subjects of Philosophy and Psychology Would you like resource recommendations for philosophy and psychology_</that>
+	<template>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's Index</a>. For more resources 
+	check out the <a href=" hhttp://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHILOSOPHY</pattern>
+	<that>Evolution as a subject is included in the broader subjects of Biology and Philosophy Would you like resource recommendations for biology or philosophy_</that>
+	<template>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's Index</a>. For more resources 
+	check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHILOSOPHY</pattern>
+	<that>Experience as a subject is included in the broader subjects of Philosophy and Psychology Would you like resource recommendations for philosophy or psychology_</that>
+	<template>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's Index</a>. For more resources 
+	check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHILOSOPHY</pattern>
+	<that>Ideology as a subject is included in the broader subjects of Government Information Philosophy Political Science and Psychology Would you like resource recommendations for government information philosophy political science or psychology_</that>
+	<template>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's Index</a>. For more resources 
+	check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHILOSOPHY</pattern>
+	<that>Imagination as a subject is included in the broader subjects of Philosophy and Psychology Would you like resource recommendations for philosophy and psychology_</that>
+	<template>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's Index</a>. For more resources 
+	check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHILOSOPHY</pattern>
+	<that>Individuation as a subject is included in the broader subjects of Motion Pictures Philosophy and Psychology Would you like resource recommendations for motion pictures philosophy or psychology_</that>
+	<template>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's Index</a>. For more resources 
+	check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHILOSOPHY</pattern>
+	<that>Instinct as a subject is included in the broader subjects of Philosophy and Psychology Would you like resource recommendations for philosophy and psychology_</that>
+	<template>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's Index</a>. For more resources 
+	check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHILOSOPHY</pattern>
+	<that>Interest as a subject is included in the broader subjects of Philosophy and Psychology Would you like resource recommendations for philosophy and psychology_</that>
+	<template>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's Index</a>. For more resources 
+	check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHILOSOPHY</pattern>
+	<that>Intuition as a subject is included in the broader subjects of Philosophy and Psychology Would you like resource recommendations for philosophy and psychology_</that>
+	<template>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's Index</a>. For more resources 
+	check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHILOSOPHY</pattern>
+	<that>Theory of Knowledge as a subject is included in the broader subjects of Philosophy and Psychology Would you like resource recommendations for philosophy and psychology_</that>
+	<template>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's Index</a>. For more resources 
+	check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHILOSOPHY</pattern>
+	<that>Logic as a subject is included in the broader subjects of Philosophy and Psychology Would you like resource recommendations for philosophy or psychology_</that>
+	<template>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's Index</a>. For more resources 
+	check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHILOSOPHY</pattern>
+	<that>Theory of Opposition as a subject is included in the broader subjects of Philosophy Would you like resource recommendations for philosophy or psychology_</that>
+	<template>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's Index</a>. For more resources 
+	check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHILOSOPHY</pattern>
+	<that>Perception as a subject is included in the broader subjects of Philosophy and Psychology Would you like resource recommendations for philosophy or psychology_</that>
+	<template>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's Index</a>. For more resources 
+	check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHILOSOPHY</pattern>
+	<that>Philosophy of Mind as a subject is included in the broader subjects of Cognitive Science and Philosophy Would you like resource recommendations for cognitive science or philosophy_</that>
+	<template>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's Index</a>. For more resources 
+	check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHILOSOPHY</pattern>
+	<that>Polarity as a subject is included in the broader subjects of Biology Philosophy and Psychology Would you like resource recommendations for biology philosophy or psychology_</that>
+	<template>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's Index</a>. For more resources 
+	check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHILOSOPHY</pattern>
+	<that>Power as a subject is included in the broader subjects of Philosophy and Sociology Would you like resource recommendations for philosophy or sociology_</that>
+	<template>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's Index</a>. For more resources 
+	check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHILOSOPHY</pattern>
+	<that>Space and Time as a subject is included in the broader subjects of Astronomy and Philosophy Would you like resource recommendations for astronomy or philosophy_</that>
+	<template>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's Index</a>. For more resources 
+	check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHILOSOPHY</pattern>
+	<that>Surfaces as a subject is included in the broader subjects of Philosophy and Physics Would you like resource recommendations for philosophy or physics_</that>
+	<template>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's Index</a>. For more resources 
+	check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>PHILOSOPHY</pattern>
+	<that>Thought and Thinking as a subject is included in the broader subjects of Philosophy and Psychology Would you like resource recommendations for philosophy or psychology_</that>
+	<template>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's Index</a>. For more resources 
+	check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<category><pattern>PHILOSOPHY</pattern>
+	<that>Universals as a subject is included in the broader subjects of Linguistics and Philosophy Would you like resource recommendations for linguistics or philosophy_</that>
+	<template>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's Index</a>. For more resources 
+	check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<category><pattern>PHILOSOPHY</pattern>
+	<that>Will as a subject is included in the broader subjects of Philosophy and Psychology Would you like resource recommendations for philosophy or psychology_</that>
+	<template>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's Index</a>. For more resources 
+	check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<!-- Subject keywords-->
+
+<category><pattern>SOUTHWEST ASIA</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://bmc.lib.umich.edu/bas/" target="_blank">Bibliography of 
+			Asian Studies</a> and/or <a href=" http://uclibs.org/PID/126295Middle" target="_blank">Middle Eastern and Central Asian 
+			Studies</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/middle_east_studies" target="_blank">Middle 
+			East Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>PHILOSOPHY ART</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's 
+			Index</a> and/or <a href=" http://uclibs.org/PID/33002" target="_blank">Art Full Text</a>. For more resources check out 
+			the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what you 
+			need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>AESTHETICS</pattern>
+<template><srai>PHILOSOPHY ART</srai></template></category>
+
+<category><pattern>PHILOSOPHY RELIGION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's 
+			Index</a> and/or the<a href=" http://uclibs.org/PID/105587" target="_blank">ATLA Religion Database</a>. For more resources 
+			check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not 
+			finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>GOOD AND EVIL</pattern>
+<template><srai>PHILOSOPHY RELIGION</srai></template></category>
+<category><pattern>JUDAISM AND PHILOSOPHY</pattern>
+<template><srai>PHILOSOPHY RELIGION</srai></template></category>
+<category><pattern>PANTHEISM</pattern>
+<template><srai>PHILOSOPHY RELIGION</srai></template></category>
+<category><pattern>THEISM</pattern>
+<template><srai>PHILOSOPHY RELIGION</srai></template></category>
+
+<category><pattern>PHILOSOPHY ARCHITECTURE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's 
+			Index</a> and/or the<a href=" http://uclibs.org/PID/105528" target="_blank">Avery Index to Architectural Periodicals</a>. For 
+			more resources check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you 
+			are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a 
+			Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>ARCHITECTURE AND PHILOSOPHY</pattern>
+<template><srai>PHILOSOPHY ARCHITECTURE</srai></template></category>
+
+<category><pattern>PHILOSOPHY PSYCH</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's 
+			Index</a> and/or the<a href=" http://uclibs.org/PID/20972" target="_blank">PsycINFO</a>. For more resources check out 
+			the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy Research Guide</a> and if you are not finding what 
+			you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>PSYCHOANALYSIS AND PHILOSOPHY</pattern>
+<template><srai>PHILOSOPHY PSYCH</srai></template></category>
+<category><pattern>PSYCHOLOGY AND PHILOSOPHY</pattern>
+<template><srai>PHILOSOPHY PSYCH</srai></template></category>
+
+<category><pattern>GENERAL PHILOSOPHY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with the<a href=" http://uclibs.org/PID/23307" target="_blank">Philosopher's 
+			Index</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/philosophy" target="_blank">Philosophy 
+			Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>ABSURD</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>ACCIDENTS</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>ACT</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>AGENT</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>ALIENATION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>ANALYSIS</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>ANTINOMY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>APPEARANCE</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>ATOMIC SWERVE</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>ATOMISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>ATTRIBUTE</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>AUTHENTICITY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>BANALITY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>BECOMING</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>HUMAN BODY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>CAUSATION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>CHAIN OF BEING</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>CHILDREN AND PHILOSOPHY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>COMPARISON IN PHILOSOPHY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>COMPENSATION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>COMPLEXITY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>COMPREHENSIION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>CONSEQUENTIALISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>CONSTITUTION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>CONSTRUCTION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>CONTIGENCY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>CONTRADICTION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>CONTRAST</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>CONVENTION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>CRISES</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>DEPTH</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>DESCRIPTION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>DESIRE</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>DETERMINISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>DIFFERENCE</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>DISPOSITION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>DISSYMMETRY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>DISTINCTION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>DIVISION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>DOGS IN PHILOSOPHY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>DRUNKENESS</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>DUALISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>EATING</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>ECLECTICISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>EGOISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>EMOTIONS</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>ENDS AND MEANS</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>ENGAGEMENT</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>ENTITY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>EPIPHANISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>ESSENCE</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>ETHICS</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>ETHRNOPHILOSOPHY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>EVENTS</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>EVIDENCE</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>EBOLUTION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>EXACT</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>EXPECTATION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>EXPRESSION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>VEXTENSION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>FACE</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>FACTS</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>FATE AND FATALISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>FEMININITY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>FINALISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>FORMALIZATION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>FOUR ELEMENTS</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>GOAL</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>HABIT</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>HARMONY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>HEDONISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>HEURISTIC</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>HUMANISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>HYLOZOISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>IDEA</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>IDEALISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>IDEALS</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>ILLUSION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>IMAGE</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>IMMATERIALISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>IMMORTALITY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>INDIVISIBLES</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>INFALLIBILITY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>INNATE IDEAS</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>INSTITUTIONS</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>INSTRUMENTALISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>INTENTIONALITY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>INTERACTION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>INTERPRETATION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>IRRATIONALISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>ISOLATION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>JUSTICE</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>LISTENING </pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>LOGOS</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>MANY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>MATERIALISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>MEAN</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>MEANING</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>MEANINGLESSNESS</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>MECHANISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>MEMORY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>MENTAL PHILOSOPHY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>METAPHYSICS</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>MIXING</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>MONADOLOGY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>MONISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>MOVEMENT</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>NATIONAL SOCIALISM AND PHILOSOPHY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>NATURALISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>NEED</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>NEGATION OF NEGATION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>DIALECTICAL MATERIALISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>NEGATIVITY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>NEOPLATONISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>NEW AND OLD</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>NIHILISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>NOMINALISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>NONEXISTENT OBJECTS</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>NORM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>NOTIONS</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>OBJECT</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>OBJECTIVISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>THE ONE IN PHILOSOPHY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>ONTOLOGISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>ONTOLOGY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>OPERATIONALISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>OPINION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>OPTIMISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>ORDER</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>ORGANISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>ORIGIN</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>PANENTHEISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>PANPSYCHISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>PARAPSYCHOLOGY AND PHILOSOPHY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>PARTICIPATION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>PEACE</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>PERFECTION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>PERFORMATIVE</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>PERSONALISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>PERSPECTIVE</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>PESSIMISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>PHENOMENALISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>PLACE</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>PLAY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>PLURALISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>POSITIVISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>POSSIBILITY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>PRACTICE</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>PRAGMATISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>PREFERENCES</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>PRESENTATION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>PRIMITIVISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>PRINCIPLE</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>PRIORITY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>PURITY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>QUALITY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>QUANTITY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>REACTION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>REALISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>REALITY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>RECOGNITION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>REDUCTIONISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>REFERENCE</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>REFLECTION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>RELATION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>RELEVANCE</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>RENUNCIATION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>REPETITION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>REPRESENTATION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>RIGHT AND LEFT</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>RULES</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>SCHEMATISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>SCHOLASTICISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>SECRET</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>SEEDS</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>SELF</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>SENSE</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>SEPARATION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>SILENCE</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>SIMPLICITY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>SITUATION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>SPECIALISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>SPIRITUALISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>SPONTANEITY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>STRATEGY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>STRUCTURALISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>STYLE</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>SUBJECT</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>TECHNE</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>TELEOLOGY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>THEORY</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>THOMISTS</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>TOPIC</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>TRADITION</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>TRANSCENDENCE</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>TRANSCENDENTALISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>TRIADS</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>TRUTH</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>UTILITARIANISM</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>VAGUENESS</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>WAITING</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>WAR</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>WOMAN</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+<category><pattern>WONDER</pattern>
+<template><srai>GENERAL PHILOSOPHY</srai></template></category>
+
+</aiml>
+
+
