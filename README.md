@@ -14,5 +14,14 @@ ANTswers is intended to help library patrons with simple questions about library
 
 Library staff monitor and use ANTswers logs to continue to improve and refine the service. No personal information, beyond the chat logs, is kept by the system unless provided by you in the course of your ANTSwers conversation. For more information: UC Irvine Libraries Privacy Statement.
 
-eScholarship: https://escholarship.org/uc/item/4bs6s3hs
-DASH: https://dash.lib.uci.edu/stash/dataset/doi:10.7280/D1P075
+Original 2014 code - eScholarship: https://escholarship.org/uc/item/4bs6s3hs
+ANTswers Transcripts: https://datadryad.org/stash/dataset/doi:10.7280%2FD1J38B
+ANTswers data: https://datadryad.org/stash/dataset/doi:10.7280%2FD1P075
+
+**File Naming Structure**
+* b_ = file(s) support bot
+* bANTerbot_ = book recommendation files by subject
+* c_ = beneral conversation files
+* lib_ = files about library services
+* rr_ = ready reference files
+* s_ = subject files - database recommendations
