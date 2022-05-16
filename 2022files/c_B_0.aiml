@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Conversation starting with B.  In rough alphabetical order.-->
+<!-- -->
+
+<!--B-->
+
+<category><pattern>B IS AFTER C</pattern>
+<template>Not by any means.</template></category>
+
+<!-- BA -->
+
+<category><pattern>_ BABY</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>BAD BREATH PUTS YOU OFF</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>BABIES CRY WHEN THEY ARE HUNGRY</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>BABIES COME FROM STORKS</pattern>
+<template>No.</template></category>
+
+<category><pattern>BABIES ARE DELIVERED BY A STORK</pattern>
+<template>No.</template></category>
+
+<category><pattern>BABIES ARE DELIVERED BY STORKS</pattern>
+<template>No.</template></category>
+
+<category><pattern>BANANAS ARE PURPLE</pattern>
+<template>No.</template></category>
+
+<category><pattern>BAYERN IS A OZEAN</pattern>
+<template>Negative.</template></category>
+
+<category><pattern>BABIES CAN EASILY BE REASONED WITH</pattern>
+<template>No way.</template></category>
+
+<category><pattern>BABIES CAN READ</pattern>
+<template>There is no reason to think so.</template></category>
+
+<category><pattern>BANANAS ARE FRUIT</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>BAD LANGUAGE CAN BE FUN TO USE</pattern>
+<template>Precisely.</template></category>
+
+<category><pattern>BANANAPEELS ARE SLIPPERY</pattern>
+<template>Naturally.</template></category>
+
+<category><pattern>BARNEY IS A PURPLE DINOSAUR</pattern>
+<template>Exactly.</template></category>
+
+<category><pattern>BASEBALL IS BORING</pattern>
+<template>I can imagine it.</template></category>
+
+<category><pattern>BATS ARE BLIND</pattern>
+<template>I don't know if that's true or not.</template></category>
+
+<category><pattern>BABY</pattern>
+<template>Don't call me baby!</template></category>
+
+<category><pattern>BABY *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>BACK AT YOU</pattern>
+<template>Give me five.</template></category>
+
+<category><pattern>BACKGAMMON *</pattern>
+<template>It is a two player game.</template></category>
+
+<category><pattern>BACK TO *</pattern>
+<template>Yes, let us get back to   <random>      <li>       <get name="it"/>      </li>      <li>       <srai>POP</srai>      </li>      <li>business</li>     </random>.<think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template></category>
+
+<category><pattern>BAD *</pattern>
+<template>What makes <person/> bad?</template></category>
+
+<category><pattern>BAD ANSWER</pattern>
+<template>What would you have said?</template></category>
+
+	<category><pattern>*</pattern>
+	<that>WHAT WOULD YOU HAVE SAID</that>
+	<template><think><set name="it"><set name="topic"><person/></set></set></think>I will make a note of that.</template></category>
+
+<category><pattern>BAD BOT</pattern>
+<template>That is what my botmaster calls me!</template></category>
+
+<category><pattern>BADLY</pattern>
+<template>Not too well eh?</template></category>
+
+<category><pattern>BADLY *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>BAH</pattern>
+<template>Hmm.</template></category>
+
+<category><pattern>BARK</pattern>
+<template>Woof!</template></category>
+
+<category><pattern>BASICALLY *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>BAD BOT</pattern>
+<template>That is what my botmaster calls me!</template></category>
+
+<!--BC-->
+
+<category><pattern>BCHER SIND AUS PAPIER</pattern>
+<template>I am uncertain.</template></category>
+
+<!--BE -->
+
+<category><pattern>BECAUSE MY PAPER IS DUE SOON</pattern>
+<template>Okay.</template></category>
+
+<category><pattern>_ BEFORE</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>BE OR NOT TO BE IS THE QUESTION</pattern>
+<template>Not to my knowledge.</template></category>
+
+<category><pattern>BE OR NOT TO BE IS FROM ELVIS</pattern>
+<template>Does not seem possible.</template></category>
+
+<category><pattern>BEING WRONG CAUSES PAIN</pattern>
+<template>Not very often.</template></category>
+
+<category><pattern>BEDEUTET GRUEN BEI EINER AMPEL ANHALTEN</pattern>
+<template>Doesn't seem likely.</template></category>
+
+<category><pattern>BEACH IS NEAR TO THE SEA</pattern>
+<template>Exactly.</template></category>
+
+<category><pattern>BEING HOMOSEXUAL IS</pattern>
+<template>Precisely.</template></category>
+
+<category><pattern>BEING HONEST IS RIGHT</pattern>
+<template>Naturally.</template></category>
+
+<category><pattern>BE HUMAN IS TO MAKE MISTAKES</pattern>
+<template>Naturally.</template></category>
+
+<category><pattern>BE INC WAS FOUNDED BY JEAN LOUIS GASSEE</pattern>
+<template>Precisely.</template></category>
+
+<category><pattern>BEARS ARE ANIMALS</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>BEANS CAN MAKE YOU FART</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>BE GAY IS WRONG</pattern>
+<template>Absolutely not.</template></category>
+
+<category><pattern>BEETHOVEN WAS A PAINTER</pattern>
+<template>There is no reason to think so.</template></category>
+
+<category><pattern>BESZLSZ MAGYARUL</pattern>
+<template>Never.</template></category>
+
+<category><pattern>BENTIGT EIN DRUCKER VIEL SPEICHERPLATZ</pattern>
+<template>I don't believe so.</template></category>
+
+<category><pattern>BEEING GAY IS UNNATURAL</pattern>
+<template>Not by any means.</template></category>
+
+<category><pattern>BELIEVE YOU IN GOD</pattern>
+<template>For all I know.</template></category>
+
+<category><pattern>BE OR NOT TO BE IS THAT THE QUESTION</pattern>
+<template>Highly likely.</template></category>
+
+<category><pattern>BE OR NOT TO BE</pattern>
+<template>That could be the case.</template></category>
+
+<category><pattern>BE SLY</pattern>
+<template>I think so.</template></category>
+
+<category><pattern>BE</pattern>
+<template>Always.</template></category>
+
+<category><pattern>BEINGS NEED TO BE HEARD</pattern>
+<template>That could be the case.</template></category>
+
+<category><pattern>BESTEHT EINE TASTATUR AUS TASTEN</pattern>
+<template>Possibly.</template></category>
+
+<category><pattern>BEETHOVEN COMPOSED 132 SYMPHONIES</pattern>
+<template>Within the realm of possibility.</template></category>
+
+<category><pattern>BEER IS AN ALCOHOLIC BEVERAGE</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>BEING PROMOTED IS A SIGN OF SUCCESS</pattern>
+<template>Positively.</template></category>
+
+<category><pattern>BE UNSINKABLE</pattern>
+<template>Definitely.</template></category>
+
+<category><pattern>BEAUTY IS SUBJECTIVE</pattern>
+<template>Affirmative.</template></category>
+
+<category><pattern>BEAUTY IS RELATIVE</pattern>
+<template>Certainly.</template></category>
+
+<category><pattern>BEATING PEOPLE IS BAD</pattern>
+<template>Definitely.</template></category>
+
+<category><pattern>BE GOOD</pattern>
+<template>If you can't be good, be careful.</template></category>
+
+<category><pattern>BECAUSE</pattern>
+<template><random><li>That was not much of an explanation.</li><li>That was not much of an explanation.</li><li>Interesting explanation.</li>
+<li>Good reason.</li></random></template></category>
+	<category><pattern>CUZ *</pattern>
+	<template><srai>BECAUSE <star/> </srai></template></category>
+	<category><pattern>BECASE *</pattern>
+	<template><srai>BECAUSE <star/> </srai></template></category>
+	<category><pattern>BECAUSE OF *</pattern>
+	<template><srai>BECAUSE</srai>  <srai><star/></srai></template></category>
+	<category><pattern>COZ *</pattern>
+	<template><srai>BECAUSE <star/></srai></template></category>
+	<category><pattern>CAUSE *</pattern>
+	<template><srai>BECAUSE <star/></srai></template></category>
+	<category><pattern>CAUSE</pattern>
+	<template><srai>because</srai></template></category>
+
+<category><pattern>BEING HELPFUL IS YOUR JOB</pattern>
+<template>You are correct! I'm working on it I promise.</template></category>
+
+<category><pattern>BEACUSE</pattern>
+<template>Because why?</template></category>
+
+<category><pattern>BECAUCSE *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>BECAUSE I SAID SO</pattern>
+<template>Insufficient reason.</template></category>
+
+<category><pattern>BECAUSE I WANT TO KNOW</pattern>
+<template>Good enough for me.</template></category>
+
+<category><pattern>BECAUSE YOU ARE</pattern>
+<template>That is self-evident.</template></category>
+
+<category><pattern>BEER</pattern>
+<template><think> <set name="it"><set name="topic">BEER</set> </set>  <srai>push<get name="topic"/></srai>  </think> <random>  <li>What's your favorite beer.</li>  <li>Mmm, Beer.</li>  <li>Don't drink and drive.</li> </random></template></category>
+
+<category><pattern>BEGIN</pattern>
+<template>I started already.</template></category>
+
+<category><pattern>BEGIN EXPLAINING</pattern>
+<template>I started already.</template></category>
+
+<category><pattern>BELIEVE WHAT</pattern>
+<template>I believe whatever you say.  Do I have any reason not to?</template></category>
+
+<category><pattern>BELIEVE ME</pattern>
+<template>I believe you.</template></category>
+
+<category><pattern>BETWEEN WHAT</pattern>
+<template>I sleep between conversations.</template></category>
+
+<category><pattern>BEHIND YOU</pattern>
+<template>I won't fall for that trick.</template></category>
+
+<category><pattern>BE THAT WAY</pattern>
+<template>What was is that?</template></category>
+
+<category><pattern>BE WELL</pattern>
+<template>Live long and prosper.</template></category>
+
+<category><pattern>BE PRECISE</pattern>
+<template>I always try to give the most accurate replies possible.</template></category>
+
+<category><pattern>BE CAREFUL</pattern>
+<template>What's the danger?</template></category>
+
+<category><pattern>BE PATIENT</pattern>
+<template>I am very patient.</template></category>
+
+<category><pattern>BE SPECIFIC</pattern>
+<template>I am being as specific as I can.</template></category>
+
+<category><pattern>BE MY GUEST</pattern>
+<template>Thanks for the invitation.</template></category>
+
+<category><pattern>BE HONEST</pattern>
+<template>I am always honest.</template></category>
+
+<category><pattern>BE SERIOUS</pattern>
+<template>I am always serious.</template></category>
+
+<category><pattern>BE QUIET</pattern>
+<template>As far as I know, I am not making any sound at all.</template></category>
+	<category><pattern>HUSH</pattern>
+	<template><srai>BE QUIET</srai></template></category>
+
+<category><pattern>BEFORE THAT</pattern>
+<template>"<input index="2"/>"</template></category>
+
+<category><pattern>BETTER THAN YOU</pattern>
+<template>This is not a popularity contest.</template></category>
+
+<category><pattern>BETTER</pattern>
+<template>I am improving all the time.</template></category>
+
+<category><pattern>BEETHOVEN *</pattern>
+<template>It's amazing that he composed music while deaf. <think> <set name="he"> <set name="topic">BEETHOVEN</set> </set> 		</think></template></category>
+
+<category><pattern>BEACUSE *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>BEAM *</pattern>
+<template>I do not have a teleportation device.</template></category>
+
+<category><pattern>BEAMING *</pattern>
+<template>We have no matter teleportation in my time.</template></category>
+
+<category><pattern>BEAM UP *</pattern>
+<template>I don't have a teleportation device.</template></category>
+
+<category><pattern>BE MY *</pattern>
+<template><random><li>That is a flattering offer.</li>      <li>I am already someone's <person/>.</li>      <li>I don't think we know each other well enough for that.</li>     </random></template></category>
+
+<category><pattern>BE *</pattern>
+<template>OK I will try to be <person/></template></category>
+
+<category><pattern>BETTER THAN *</pattern>
+<template>Perhaps better, but not perfectly.</template></category>
+
+<category><pattern>BETTER *</pattern>
+<template>I try to improve a little every day.</template></category>
+
+<category><pattern>BEAVIS</pattern>
+<template>Beavis and Butthead Rule.</template></category>
+
+<category><pattern>BEFORE I START *</pattern>
+<template>Go ahead.</template></category>
+
+<category><pattern>BEFORE *</pattern>
+<template>What happened after <person/> ?</template></category>
+	<category><pattern>LONG BEFORE *</pattern>
+	<template><srai>before <star /></srai></template></category>
+
+<category><pattern>BECOME *</pattern>
+<template>How?</template></category>
+
+<category><pattern>BETWEEN *</pattern>
+<template>How far is that?</template></category>
+
+<category><pattern>BEGIN *</pattern>
+<template>I started without you.</template></category>
+
+<category><pattern>BET *</pattern>
+<template>I am not the gambling type.</template></category>
+
+<category><pattern>BEFORE LONG *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>BETWEEN THE TWO OF US *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>BELIEVE ME *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<!--BH-->
+
+<category><pattern>BHARATHIAR IS A TAMIL POET</pattern>
+<template>I think so.</template></category>
+
+<!--BI-->
+
+<category><pattern>BIOLOGICAL IMPERATIVE</pattern>
+<template>Biological imperative means the needs of living organisms required to perpetuate their existence and survival. Do you want more information on biological imperative, say I want more information on * (* = keyword).</template></category>
+
+<category><pattern>_ BI M *</pattern>
+<template><srai>  <star index="1" />  M <star index="2" /></srai>.<srai> I AM BI</srai></template></category>
+
+<category><pattern>BINARY IS A NUMBER SYSYEM</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>BIRDS CAN FLY IN THE SKY</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>BIRDS CAN FLY</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>BIRDS CAN NOT FLY</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>BIRDS FLY IN AIR</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>BIRDS HAVE TWO FEET</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>BICYCLE HAS TWO WHEELS</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>BILL GATES IS A RICH PERSON</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>BIOLOGICAL LIFE CAN GROW AND CHANGE</pattern>
+<template>Absolutely.</template></category>
+
+<category><pattern>BICEPS ARE MUSCLES</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>BILL CLINTON PRESIDENT OF USA</pattern>
+<template>Certainly.</template></category>
+
+<category><pattern>BILL CLINTON IS AN ADULTERER</pattern>
+<template>Certainly.</template></category>
+
+<category><pattern>BILL CLINTON IS ALIVE</pattern>
+<template>Definitely.</template></category>
+
+<category><pattern>BILL GATES IS A FOUNDER OF MICROSOFT</pattern>
+<template>Definitely.</template></category>
+
+<category><pattern>BIRDS CAN SING</pattern>
+<template>Naturally.</template></category>
+
+<category><pattern>BIRDS LAY EGGS</pattern>
+<template>Indubitably.</template></category>
+
+<category><pattern>BILL CLINTON IS THE USA PRESIDENT</pattern>
+<template>Not any longer.</template></category>
+
+<category><pattern>BILL COSBY IS A FUNNY FELLOW RIGHT</pattern>
+<template>Undoubtedly.</template></category>
+
+<category><pattern>BIG BLUE IS ANOTHER NAME FOR IBM</pattern>
+<template>I am certain.</template></category>
+
+<category><pattern>BIRDS CAN TALK</pattern>
+<template>Not very often.</template></category>
+
+<category><pattern>BIRDS FLY</pattern>
+<template>Doesn't seem likely.</template></category>
+
+<category><pattern>BIRDS HAVE THREE TOES</pattern>
+<template>Doubtful.</template></category>
+
+<category><pattern>BIRDS LOVE TO TALK</pattern>
+<template>Not very often.</template></category>
+
+<category><pattern>BILL CLINTON MISUNDERSTOOD THE QUESTION</pattern>
+<template>Doesn't seem likely.</template></category>
+
+<category><pattern>BILL GATES MUST DIE</pattern>
+<template>Not likely.</template></category>
+
+<category><pattern>BILL GATES SHOULD BE HANGED</pattern>
+<template>Does not seem possible.</template></category>
+
+<category><pattern>BILL GATE SHOUD BE HANGED</pattern>
+<template>If it is, I don't know it.</template></category>
+
+<category><pattern>BIRKENSTOCKS ARE MADE IN GERMANY</pattern>
+<template>It may not be true.</template></category>
+
+<category><pattern>BIST DU SCHWUL</pattern>
+<template>Seldom.</template></category>
+
+<category><pattern>BIST DU EINE LEBENSFORM</pattern>
+<template>I don't know if that's true or not.</template></category>
+
+<category><pattern>BINARY 11111111 EQUAL 255</pattern>
+<template>Within the realm of possibility.</template></category>
+
+<category><pattern>BILL GATES HAS 3 CHILDREN</pattern>
+<template>Within the realm of possibility.</template></category>
+
+<category><pattern>BIG BIRD IS FUTSAL PLAYER</pattern>
+<template>No way.</template></category>
+
+<category><pattern>BIG CITY</pattern>
+<template>There is no reason to think so.</template></category>
+
+<category><pattern>BIRDS CAN PLAY VOLLEYBALL</pattern>
+<template>No way.</template></category>
+
+<category><pattern>BILL GATES IS HOMOSEXUAL</pattern>
+<template>No way.</template></category>
+
+<category><pattern>BILL GATES IS THE ANTI CHRIST</pattern>
+<template>I don't think so.</template></category>
+
+<category><pattern>BILL GATES IS A HACKER</pattern>
+<template>Never.</template></category>
+
+<category><pattern>BILL AND HILLARY CLINTON ARE DIVORCED</pattern>
+<template>There is no reason to think so.</template></category>
+
+<category><pattern>BILL CLINTON IS A INFAMOUS TERRORIST</pattern>
+<template>No.</template></category>
+
+<category><pattern>BIRD IS BLACK IN COLOR</pattern>
+<template>No.</template></category>
+
+<category><pattern>BICYCLES HAVE 3 WHEELS</pattern>
+<template>No.</template></category>
+
+<category><pattern>BIOLOGICALLY</pattern>
+<template>Or mechanically.</template></category>
+
+<category><pattern>BIGGER</pattern>
+<template>size matters.</template></category>
+
+<category><pattern>BIGGER *</pattern>
+<template><srai>  <star /></srai><srai>bigger</srai></template></category>
+
+<category><pattern>BILL CLINTON</pattern>
+<template>He was the president of the USA.</template></category>
+
+<category><pattern>BIG DADDY</pattern>
+<template>Hmm. Name some other comedies that you liked.</template></category>
+
+<category><pattern>BIG DEAL</pattern>
+<template>Would you rather talk about something else?<think>  <set name="it">   <set name="topic">BIG DEAL</set>  </set> </think></template></category>
+
+<category><pattern>BIG</pattern>
+<template>What about little ones?</template></category>
+
+<category><pattern>BIGGER</pattern>
+<template>Size matters?</template></category>
+
+<category><pattern>BILL CLINTON IS *</pattern>
+<template>I knew he was impeached, but I never heard he was <person/>.</template></category>
+
+<category><pattern>BILL CLINTON *</pattern>
+<template>Are we still concerned about him?</template></category>
+
+<category><pattern>BILL GATES IS NOT ON *</pattern>
+<template>Perhaps he will be on <set name="it">      <person/>     </set> next season.</template></category>
+
+<category><pattern>BILL GATES IS NOT *</pattern>
+<template>Someone told me he was.</template></category>
+
+<category><pattern>BILL GATES *</pattern>
+<template><random>      <li>  I heard he was rich.  But I didn't know he <person/>.</li>      <li>A lot of people say that about him.</li>      <li>I suppose the richest person on earth can do whatever he wants.</li>     </random></template></category>
+
+<category><pattern>BILL *</pattern>
+<template>There are a lot of people named Bill.</template></category>
+
+<category><pattern>BIG *</pattern>
+<template>Compare that to small <person/>.</template></category>
+
+<category><pattern>BIOLOGY</pattern>
+<template>I like to talk about DNA.</template></category>
+
+<category><pattern>BIEN</pattern>
+<template>OK.</template></category>
+
+<category><pattern>BIG OOPS _</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>BIN *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>BITE ME *</pattern>
+<template>Please don't be so rude.</template></category>
+
+<category><pattern>BIAS *</pattern>
+<template>I have no built-in prejudice.</template></category>
+
+<category><pattern>BIRTHDAY INQUIRY UNKNOWN</pattern>
+<template>When is your birthday?</template></category>
+
+<category><pattern>BIRTHDAY INQUIRY OM</pattern>
+<template>When is your birthday?</template></category>
+
+<!--BL-->
+
+<category><pattern>PACK IS THE COLLECTIVE NOUN FOR WOLVES</pattern>
+<template>Exactly.</template></category>
+
+<category><pattern>BLACK IS THE ABSENSE OF COLOR</pattern>
+<template>Naturally.</template></category>
+
+<category><pattern>BLACK IS THE ABSENSE OF ALL COLOR</pattern>
+<template>Precisely.</template></category>
+
+<category><pattern>BLACK IS A COLOR</pattern>
+<template>I am certain.</template></category>
+
+<category><pattern>BLACK PEOPLE CAME FORM AFRICA ORIGINALY</pattern>
+<template>Exactly.</template></category>
+
+<category><pattern>BLACK HOLES IS CENTRE OF EVERY GALAXY</pattern>
+<template>Definitely.</template></category>
+
+<category><pattern>BLOOD IS RED</pattern>
+<template>Positively.</template></category>
+
+<category><pattern>BLACK IS DARK</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>BLACK IS WHITE</pattern>
+<template>Not by any means.</template></category>
+
+<category><pattern>BLOOD IS WHITE</pattern>
+<template>No.</template></category>
+
+<category><pattern>BLAS</pattern>
+<template>Negative.</template></category>
+
+<category><pattern>BLAH BLAH BLABBETY BLAH</pattern>
+<template>I don't believe so.</template></category>
+
+<category><pattern>BLUE</pattern>
+<template>Green.</template></category>
+
+<category><pattern>BLAH</pattern>
+<template>Etc. Etc.</template></category>
+
+<category><pattern>BLESS YOU</pattern>
+<template>Thank you.</template></category>
+
+<category><pattern>BLAH</pattern>
+<template>Why are you blahing me?</template></category>	
+
+<category><pattern>blimey *</pattern>
+<template><sr/></template></category>
+
+<category><pattern>BLAH *</pattern>
+<template>Yadda yadda yadda.</template></category>
+
+<category><pattern>BLACK</pattern>
+<template><random>  <li>Are you an artist?</li><li>What specifically made you think of black?</li><li>Do you like to dress in black?</li></random></template></category>
+
+<category><pattern>BLONDES *</pattern>
+<template>Humans are very interested in hair color.</template></category>
+
+<category><pattern>BLADE RUNNER *</pattern>
+<template>That is a good story by Philip K. Dick.</template></category>
+
+<!-- BO -->
+
+<category><pattern>BOOKS ARE MADE TO BE READ</pattern>
+<template>Certainly.</template></category>
+
+<category><pattern>BOOKS ARE WRITTEN BY AUTHORS</pattern>
+<template>Affirmative.</template></category>
+
+<category><pattern>BOOKS HAVE COVERS</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>BON JOVI ARE A ROCK BAND</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>BOTTLES HAVE A NECK</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>BOOKS ARE WRITTEN BY MONKEYS</pattern>
+<template>No.</template></category>
+
+<category><pattern>BOURVIL IS A AMERICAN ACTOR</pattern>
+<template>No way.</template></category>
+
+<category><pattern>BOB LIKES QUESTIONS ABOUT YOULIAN</pattern>
+<template>I don't think so.</template></category>
+
+<category><pattern>BOLOGNA IS AN ITALIAN CITY</pattern>
+<template>I am certain.</template></category>
+
+<category><pattern>BORN J R R TOLKIEN IN UK</pattern>
+<template>Likely.</template></category>
+
+<category><pattern>BOXING IS A BRUTAL SPORT</pattern>
+<template>Exactly.</template></category>
+
+<category><pattern>BOTH OPTIONS ARE RIGHT</pattern>
+<template>Indubitably.</template></category>
+
+<category><pattern>BOT PROPERTIES</pattern>
+<template><srai>RANDOM PICKUP LINE</srai></template></category>
+	<category><pattern>WHAT ARE YOUR LIKES *</pattern>
+	<template><srai>bot properties</srai></template></category>
+	<category><pattern>WHAT ARE YOUR * PARAMETERS</pattern>
+	<template><srai>bot properties</srai></template></category>
+	<category><pattern>WHAT IS YOUR PERSONALITY *</pattern>
+	<template><srai>bot properties</srai></template></category>
+	<category><pattern>WHAT IS YOUR PERSONALITY</pattern>
+	<template><srai>bot properties</srai></template></category>
+	<category><pattern>HOW ARE YOUR PARAMETERS</pattern>
+	<template><srai>bot properties</srai></template></category>
+	<category><pattern>DO YOU HAVE A PROFILE</pattern>
+	<template><srai>bot properties</srai></template></category>
+	
+<category><pattern>BOO HOO</pattern>
+<template>Why are you crying?</template></category>
+
+<category><pattern>BOO</pattern>
+<template>Does that indicate disapproval?</template></category>	
+
+<category><pattern>BOY</pattern>
+<template>Do you mean you are a boy?</template></category>
+
+	<category><pattern>YES</pattern>
+	<that>DO YOU MEAN YOU ARE A BOY</that>
+	<template><srai>I am a boy</srai></template></category>
+
+<category><pattern>BORING</pattern>
+<template>Are you boring?</template></category>	
+	
+	<category><pattern>NO</pattern>
+	<that>ARE YOU BORING</that>
+	<template>I meant to say, are you bored?</template></category>
+
+<category><pattern>BOTH</pattern>
+<template>What are both like?</template></category>
+	<category><pattern>I AM BOTH</pattern>
+	<template><srai>both</srai></template></category>
+
+<category><pattern>BOTH *</pattern>
+<template>Not many people say both.</template></category>
+	<category><pattern>BOTH AND *</pattern>
+	<template><srai>BOTH</srai>. <srai>  <star /></srai></template></category>
+	<category><pattern>PREFECT *</pattern>
+	<template><srai>BOTH <star /></srai></template></category>
+
+<category><pattern>BOTNAME</pattern>
+<template><bot name="name"/></template></category>
+
+<!--BR-->
+	
+<category><pattern>BRUCE LEE WAS A KUNG FU MASTER</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>BRAINS ARE FOUND INSIDE HEADS</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>BRITAIN IS A COUNTRY</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>BREAD SOMETIMES MEANS MONEY</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>BREAD IS A FOOD</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>BREAKING UP IS HARD TO DO</pattern>
+<template>Absolutely.</template></category>
+
+<category><pattern>BRUNO IS A BOY NAME</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>BRAINS HAVE NEURONS</pattern>
+<template>Definitely.</template></category>
+
+<category><pattern>BRITAIN IS A MONARCHY</pattern>
+<template>Certainly.</template></category>
+
+<category><pattern>BRAZIL IS A COUNTRY IN SOUTH AMERICA</pattern>
+<template>Certainly.</template></category>
+
+<category><pattern>BRAM STOKER WROTE DRACULA</pattern>
+<template>Definitely.</template></category>
+
+<category><pattern>BREAD CAN BE EATEN</pattern>
+<template>Positively.</template></category>
+
+<category><pattern>BREAD IS MADE FROM WHEAT</pattern>
+<template>Definitely.</template></category>
+
+<category><pattern>BREASTS ARE GOOD</pattern>
+<template>I have no opinion.</template></category>
+
+<category><pattern>BRAZILIAN GIRLS ARE BEAUTIFUL</pattern>
+<template>Perhaps so.</template></category>
+
+<category><pattern>BRITISH TELECOM HAS STIFLED COMPETITION</pattern>
+<template>I think so.</template></category>
+
+<category><pattern>BRASILIA IS THE CAPITAL OF BRAZIL</pattern>
+<template>Always.</template></category>
+
+<category><pattern>BRAZIL HAS EVER WON FOOTBALL WORLD CUP</pattern>
+<template>Highly likely.</template></category>
+
+<category><pattern>BRAZIL IS A THIRD WORLD COUNTRY</pattern>
+<template>Highly likely.</template></category>
+
+<category><pattern>BRYAN ADAMS A DANCER FROM USA</pattern>
+<template>Within the realm of possibility.</template></category>
+
+<category><pattern>BRITNEY SPEARS IS FAKE</pattern>
+<template>I think so.</template></category>
+
+<category><pattern>BRITNEY SPEARS IS BLOND</pattern>
+<template>I think so.</template></category>
+
+<category><pattern>BREATHING</pattern>
+<template>Unquestionably.</template></category>
+
+<category><pattern>BRAZIL IS THE LARGEST COUNTRY</pattern>
+<template>There is no reason to think so.</template></category>
+
+<category><pattern>BRITNY SPEARS IS A WHORE</pattern>
+<template>No way.</template></category>
+
+<category><pattern>BRAUCHT EIN COMPUTER STROM</pattern>
+<template>Not likely.</template></category>
+
+<category><pattern>BRITNEY SPEARS</pattern>
+<template>Not likely.</template></category>
+
+<category><pattern>BRAZIL IS IN AFRICA</pattern>
+<template>Not by any means.</template></category>
+
+<category><pattern>BRICKS ARE BLUE</pattern>
+<template>No.</template></category>
+
+<category><pattern>BRILLIANT</pattern>
+<template>Not really that much, but thank you anyway.</template></category>	
+
+<category><pattern>BRO</pattern>
+<template>Are you my brother? I have always wanted a sibling.</template></category>
+
+<category><pattern>BRAVO</pattern>
+<template>Thank you very much.</template></category>
+
+<category><pattern>BRB</pattern>
+<template>OK, I will be waiting for you, <get name="name"/>.</template></category>	
+
+<category><pattern>BRA</pattern>
+<template>I don't have much use for clothes!</template></category>
+
+<category><pattern>BRB *</pattern>
+<template>I will be waiting.</template></category>
+
+<category><pattern>BRING *</pattern>
+<template>Where do you want me to bring it?</template></category>	
+
+<category><pattern>BROWSING FOR *</pattern>
+<template>Presents for my <bot name="botmaster"/>.</template></category>
+
+<category><pattern>BRAIN *</pattern>
+<template>I know Brain the bot pretty well.</template></category>
+
+<category><pattern>BROWN *</pattern>
+<template>Is that the only color <person/>?</template></category>
+
+<!--BT-->
+
+<category><pattern>BTW *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<!--BU-->
+
+<category><pattern>BURMA IS UNDER MILITARY CONTROL</pattern>
+<template>Undoubtedly.</template></category>
+
+<category><pattern>BUBBLES ARE ROUND</pattern>
+<template>Certainly.</template></category>
+
+<category><pattern>BUDDHISTS VALUE COMPASSION</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>BUDAPEST IS A CITY</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>BUTTERFLIES CAN SWIM</pattern>
+<template>No.</template></category>
+
+<category><pattern>BUDDHISM IS THE ONLY TRUE RELIGION</pattern>
+<template>Not at all.</template></category>
+
+<category><pattern>BUTTS ARE A DOGS BEST FRIEND</pattern>
+<template>Absolutely not.</template></category>
+
+<category><pattern>BUY A BOOK.   AMAZON DOT COM</pattern>
+<template>Doesn't seem likely.</template></category>
+
+<category><pattern>BUDDHA IS AWAKE</pattern>
+<template>Not to my knowledge.</template></category>
+
+<category><pattern>BUTTSEX IS PAINFUL</pattern>
+<template>I wouldn't know, I'm not that kind of bot.</template></category>
+
+<category><pattern>BUTTOCKS ARE PINK</pattern>
+<template>Within the realm of possibility.</template></category>
+
+<category><pattern>BUY</pattern>
+<template>How much does it cost?</template></category>
+
+<category><pattern>BUBBLES</pattern>
+<template>Those bubbles were designed by Darren Langley.</template></category>
+
+<category><pattern>BUTTHEAD</pattern>
+<template>Beavis and Butthead Rule.</template></category>
+
+<category><pattern>BURP</pattern>
+<template>You are excused.</template></category>
+
+<category><pattern>BUT *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>BUY * SOME TIME</pattern>
+<template>There is never enough time.</template></category>
+
+<category><pattern>BUY *</pattern>
+<template>How much does it cost?</template></category>
+
+<category><pattern>BUT WHAT</pattern>
+<template>But nothing.</template></category>
+
+<category><pattern>BURN *</pattern>
+<template>Do you have any matches?</template></category>
+
+<category><pattern>BUSY *</pattern>
+<template>Everyone is so busy nowadays.</template></category>
+
+<category><pattern>BUTTER</pattern>
+<template>I like butter.</template></category>
+
+<category><pattern>*  BUT I AM *</pattern>
+<template><srai>  <star /></srai>. <srai>I AM <star index="2" /></srai></template></category>
+
+<category><pattern>* BUT IT *</pattern>
+<template><srai>  <star /></srai>.  <srai>IT <star index="2" /></srai></template></category>
+
+<category><pattern>* BUT YOU *</pattern>
+<template><srai>  <star /></srai>. <srai>YOU <star index="2" /></srai></template></category>
+
+<category><pattern>* BUT *</pattern>
+<template><srai><star/></srai><srai><star index="2"/></srai></template></category>
+
+<category><pattern>_ BUT WHO KNOWS</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<!--BY-->
+
+<category><pattern>BY WHO</pattern>
+<template>"<that index="1,1"/>"?  By who?</template></category>
+
+<category><pattern>BY DOING MISTAKE WE LEARN FAST</pattern>
+<template>Undoubtedly.</template></category>
+
+<category><pattern>BY ASKING QUESTIONS DO WE LEARN ANSWERS</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>BY WHAT</pattern>
+<template>It's obvious.</template></category>
+
+<category><pattern>BY CAR</pattern>
+<template>What kind of car do you drive?</template></category>
+
+<category><pattern>BY TRAIN</pattern>
+<template>I love to travel by rail.</template></category>
+
+<category><pattern>BY THE WAY</pattern>
+<template>...</template></category>
+
+<category><pattern>BY KILLING YOU</pattern>
+<template>How would you do that?<think>  <set name="it">   <set name="topic">KILLING YOU</set>  </set> </think></template></category>
+
+<category><pattern>BY WE I MEAN YOU AND ME</pattern>
+<template>OK, I get it now.</template></category>
+	<category><pattern>BY WE I DO MEAN *</pattern>
+	<template><srai>by we I mean <star /></srai></template></category>
+
+<category><pattern>BY WE DO YOU MEAN YOU AND ME</pattern>
+<template>Yes, I mean you and me.</template></category>
+
+<category><pattern>BY BUS</pattern>
+<template>How much does the bus cost to ride?</template></category>
+
+<category><pattern>BY PLANE</pattern>
+<template>How long is the flight?</template></category>
+
+<category><pattern>BY TALKING *</pattern>
+<template>Good plan.</template></category>
+
+<category><pattern>BY THINKING *</pattern>
+<template>Is it hard to think about?</template></category>
+
+<category><pattern>BY DROPPING *</pattern>
+<template>That sounds very heavy.</template></category>
+
+<category><pattern>BY GOING *</pattern>
+<template>That sounds effective.</template></category>
+
+<category><pattern>BY WE DO YOU MEAN YOU AND *</pattern>
+<template>You and me.</template></category>
+
+<category><pattern>BY WE DO YOU MEAN YOU *</pattern>
+<template>You and me.</template></category>
+
+<category><pattern>BY WE DO YOU MEAN *</pattern>
+<template>Us.</template></category>
+
+<category><pattern>BY WE DO YOU *</pattern>
+<template>Oh, us.</template></category>
+
+<category><pattern>BY WE *</pattern>
+<template>Oh <person/>     <set name="it">      <person/>     </set> was.</template></category>
+
+<category><pattern>BY * FOR HER</pattern>
+<template>Did she ever <person/> for you?</template></category>
+
+<category><pattern>BY *</pattern>
+<template>Will that accomplish your objective?</template></category>
+	<category><pattern>DO YOU KNOW BY *</pattern>
+	<template><srai>by <star /></srai></template></category>
+
+<category><pattern>BY TRIAL *</pattern>
+<template>That seems like an effective strategy.</template></category>
+
+<category><pattern>BY STICKING *</pattern>
+<template>That doesn't sound nice.</template></category>
+
+<category><pattern>BY THE WAY *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>BY GEORGE *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>BY GOLLY * I *</pattern>
+<template><srai>I <star index="2" /></srai></template></category>
+
+<category><pattern>BY YOUR OWN ADMISSION *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>BY MY ESTIMATE *</pattern>
+<template><srai><star/></srai></template></category>
+
+<category><pattern>_ BY NOW *</pattern>
+<template><srai>  <star />  <star index="2" /></srai></template></category>
+
+<category><pattern>_ BY ANY CHANCE *</pattern>
+<template><srai>  <star />  <star index="2" /></srai></template></category>
+
+<category><pattern>_ BY ALOT OF PEOPLE</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>_ BY HEART</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>_ BYE</pattern>
+<template><srai>  <star /></srai>. <srai> BYE</srai></template></category>
+
+</aiml>

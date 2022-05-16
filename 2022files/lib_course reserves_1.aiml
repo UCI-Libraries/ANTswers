@@ -1,0 +1,1978 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- course reserves, electronic reserves, placing items on reserve -->
+<!-- -->
+<!-- START COURSE RESERVES -->
+
+<category><pattern>HOW DO I GET A BOOK ON RESERVE</pattern>
+<template>First look up your professor/TA or course name in <a href=" https://www.lib.uci.edu/course-reserves/list" target="_blank">Find Reserves by Course and Instructor</a> and verify the item is not checked out, then write down the call number and take it to the correct Check Out desk.</template></category>
+	<category><pattern>HOW DO I CHECK OUT A BOOK ON LIBRARY RESERVES</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>MY BOOK IS ON RESERVE</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>HOW DO I ACCESS COURSE RESERVES</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>HOW DO I FIND A COURSE RESERVE</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>COURSE RESERVE CALL NUMBERS</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>* COURSE RESERVE CALL NUMBERS</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>COURSE RESERVE CALL NUMBERS *</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>* COURSE RESERVE CALL NUMBERS *</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>CALL NUMBER FOR BIOLOGICAL SCIENCES</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>* CALL NUMBER FOR BIOLOGICAL SCIENCES</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>CALL NUMBER FOR BIOLOGICAL SCIENCES *</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>* CALL NUMBER FOR BIOLOGICAL SCIENCES *</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>CHECK OUT RESERVE BOOKS</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>CHECK OUT RESERVE BOOKS</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>CHECK OUT RESERVE BOOKS</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>CHECK OUT RESERVE BOOKS</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>* SAID * BOOK WAS ON RESERVE *</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>BOOK ON RESERVE</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>DO YOU KNOW ANYTHING ABOUT COURSE RESERVES</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>* RESERVES * CHECK OUT *</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>* RESERVES</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>* BORROW A BOOK THAT IS RESERVED BY A PROFESSOR</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>* CSE 41 *</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>CSE 41 *</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>* CLASS BOOK</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>CLASS BOOK *</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>* CLASS BOOK *</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>* ACCESS THE * FOR * CLASS</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>BORROW A RESERVE BOOK</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>* BORROW A RESERVE BOOK</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>BORROW A RESERVE BOOK *</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>* BORROW A RESERVE BOOK *</pattern>
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>HOW DO BOOK RESERVES WORK</pattern> 
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>* CHECKOUT A BOOK FROM THE COURSE</pattern> 
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>* CHECK OUT A BOOK FROM THE COURSE</pattern> 
+	<template><srai>HOW DO I GET A BOOK ON RESERVE</srai></template></category>
+	
+<category><pattern>GENERIC RESERVES</pattern>
+<template>General reserves policies can be found at: https://www.lib.uci.edu/course-reserves</template></category>
+	<category><pattern>RESERVES</pattern>
+	<template><srai>GENERIC RESERVES</srai></template></category>
+	<category><pattern>COURSE RESERVES</pattern>
+	<template><srai>GENERIC RESERVES</srai></template></category>
+	<category><pattern>COURSE RESERVE</pattern>
+	<template><srai>GENERIC RESERVES</srai></template></category>
+	<category><pattern>ELECTRONIC RESERVE</pattern>
+	<template><srai>GENERIC RESERVES</srai></template></category>
+	<category><pattern>ELECTRONIC RESERVES</pattern>
+	<template><srai>GENERIC RESERVES</srai></template></category>
+	<category><pattern>ERESERVE</pattern>
+	<template><srai>GENERIC RESERVES</srai></template></category>
+	<category><pattern>ERESERVES</pattern>
+	<template><srai>GENERIC RESERVES</srai></template></category>
+	<category><pattern>E-RESERVES</pattern>
+	<template><srai>GENERIC RESERVES</srai></template></category>
+	<category><pattern>E-RESERVE</pattern>
+	<template><srai>GENERIC RESERVES</srai></template></category>
+	<category><pattern>CAN YOU EXPLAIN COURSE RESERVES</pattern>
+	<template><srai>GENERIC RESERVES</srai></template></category>
+
+<category><pattern>WHAT DOES SCIENCE LIBRARY CHECK OUT DESK *RESERVES* MEAN</pattern>
+<template>Course Reserves are materials requested by professors for their classes, which are available for short term loan via the Check Out desks.  Check out desks are located on the entry floor of each library.</template></category>
+
+<category><pattern>WHERE ARE THE RESERVES</pattern>
+<template>Reserves are located at the Check Out desks at Science and Langson Libraries.</template></category>
+	<category><pattern>WHERE IS RESERVES</pattern>
+	<template><srai>WHERE ARE THE RESERVES</srai></template></category>
+	<category><pattern>WHERE CAN I CHECK OUT COURSE RESERVES</pattern>
+	<template><srai>WHERE ARE THE RESERVES</srai></template></category>
+	<category><pattern>* WHERE CAN I CHECK OUT COURSE RESERVES</pattern>
+	<template><srai>WHERE ARE THE RESERVES</srai></template></category>
+	<category><pattern>WHERE CAN I CHECK OUT COURSE RESERVES *</pattern>
+	<template><srai>WHERE ARE THE RESERVES</srai></template></category>
+	<category><pattern>* WHERE CAN I CHECK OUT COURSE RESERVES *</pattern>
+	<template><srai>WHERE ARE THE RESERVES</srai></template></category>
+	<category><pattern>WHERE CAN WE CHECK OUT TEXT BOOKS FOR TWO HOURS</pattern>
+	<template><srai>WHERE ARE THE RESERVES</srai></template></category>
+	<category><pattern>SHORT TERM TEXT BOOK CHECKOUT</pattern>
+	<template><srai>WHERE ARE THE RESERVES</srai></template></category>
+	<category><pattern>WHERE CAN I CHECK OUT TEXT BOOKS</pattern>
+	<template><srai>WHERE ARE THE RESERVES</srai></template></category>
+	<category><pattern>WHERE ARE THE RESERVE BOOKS</pattern>
+	<template><srai>WHERE ARE THE RESERVES</srai></template></category>
+	<category><pattern>WHERE CAN WE CHECK OUT TEXT BOOKS *</pattern>
+	<template><srai>WHERE ARE THE RESERVES</srai></template></category>
+	<category><pattern>* RESERVES LOCATED</pattern>
+	<template><srai>WHERE ARE THE RESERVES</srai></template></category>
+	<category><pattern>* BOOK RESERVES LOCATED</pattern>
+	<template><srai>WHERE ARE THE RESERVES</srai></template></category>
+	<category><pattern>WHAT ARE RESERVED BOOKS</pattern>
+	<template><srai>WHERE ARE THE RESERVES</srai></template></category>
+
+<category><pattern>WHAT IF MY COURSE RESERVE IS CHECKED OUT</pattern>
+<template>Langson Library Course Reserves has a paging system to be notified when an item is returned. Paging forms must be filled out in person at the Check Out desk. Science Library Course Reserves does not have a paging system, but does have multiple copies of textbooks available for checkout.</template></category>
+	<category><pattern>* WHAT IF MY COURSE RESERVE IS CHECKED OUT</pattern>
+	<template><srai>WHAT IF MY COURSE RESERVE IS CHECKED OUT</srai></template></category>
+	<category><pattern>WHAT IF MY COURSE RESERVE IS CHECKED OUT *</pattern>
+	<template><srai>WHAT IF MY COURSE RESERVE IS CHECKED OUT</srai></template></category>
+	<category><pattern>* WHAT IF MY COURSE RESERVE IS CHECKED OUT *</pattern>
+	<template><srai>WHAT IF MY COURSE RESERVE IS CHECKED OUT</srai></template></category>
+
+<category><pattern>CAN COURSE RESERVES BE CHECKED OUT</pattern>
+<template>Yes, course reserves can be checked out at one of our Check out Desks.</template></category>
+	<category><pattern>* CAN COURSE RESERVES BE CHECKED OUT</pattern>
+	<template><srai>CAN COURSE RESERVES BE CHECKED OUT</srai></template></category>
+	<category><pattern>CAN COURSE RESERVES BE CHECKED OUT *</pattern>
+	<template><srai>CAN COURSE RESERVES BE CHECKED OUT</srai></template></category>
+	<category><pattern>* CAN COURSE RESERVES BE CHECKED OUT *</pattern>
+	<template><srai>CAN COURSE RESERVES BE CHECKED OUT</srai></template></category>
+	<category><pattern>CAN RESERVES BE CHECKED OUT</pattern>
+	<template><srai>CAN COURSE RESERVES BE CHECKED OUT</srai></template></category>
+	<category><pattern>* CAN RESERVES BE CHECKED OUT</pattern>
+	<template><srai>CAN COURSE RESERVES BE CHECKED OUT</srai></template></category>
+	<category><pattern>CAN RESERVES BE CHECKED OUT *</pattern>
+	<template><srai>CAN COURSE RESERVES BE CHECKED OUT</srai></template></category>
+	<category><pattern>* CAN RESERVES BE CHECKED OUT *</pattern>
+	<template><srai>CAN COURSE RESERVES BE CHECKED OUT</srai></template></category>
+	<category><pattern>WHERE DO I CHECK OUT COURSE RESERVES</pattern>
+	<template><srai>CAN COURSE RESERVES BE CHECKED OUT</srai></template></category>
+	<category><pattern>* WHERE DO I CHECK OUT COURSE RESERVES</pattern>
+	<template><srai>CAN COURSE RESERVES BE CHECKED OUT</srai></template></category>
+	<category><pattern>WHERE DO I CHECK OUT COURSE RESERVES *</pattern>
+	<template><srai>CAN COURSE RESERVES BE CHECKED OUT</srai></template></category>
+	<category><pattern>* WHERE DO I CHECK OUT COURSE RESERVES *</pattern>
+	<template><srai>CAN COURSE RESERVES BE CHECKED OUT</srai></template></category>
+
+<category><pattern>HOW DO I CHECK OUT A BOOK ON COURSE RESERVES</pattern>
+<template>First look up your professor/TA or course name in <a href=" https://www.lib.uci.edu/course-reserves/list" target="_blank">Find Reserves by Course and Instructor</a> and verify the item is not checked out, then write down the call number and take it to the correct Check Out desk. Make sure to have your student ID in hand..</template></category>
+	<category><pattern>* HOW DO I CHECK OUT A BOOK ON COURSE RESERVES</pattern>
+	<template><srai>HOW DO I CHECK OUT A BOOK ON COURSE RESERVES</srai></template></category>
+	<category><pattern>HOW DO I CHECK OUT A BOOK ON COURSE RESERVES *</pattern>
+	<template><srai>HOW DO I CHECK OUT A BOOK ON COURSE RESERVES</srai></template></category>
+	<category><pattern>* HOW DO I CHECK OUT A BOOK ON COURSE RESERVES *</pattern>
+	<template><srai>HOW DO I CHECK OUT A BOOK ON COURSE RESERVES</srai></template></category>
+	<category><pattern>* BOOKS ON RESERVES</pattern>
+	<template><srai>HOW DO I CHECK OUT A BOOK ON COURSE RESERVES</srai></template></category>
+	<category><pattern>* BOOK ON RESERVES</pattern>
+	<template><srai>HOW DO I CHECK OUT A BOOK ON COURSE RESERVES</srai></template></category>
+
+<category><pattern>RESERVE CHECK OUT</pattern>
+<template>Loan periods are determined by the instructors who place the materials on Reserve. Instructors can set a 2 hour, 1 or 3 day loan.</template></category>
+	<category><pattern>* CAN I CHECK OUT RESERVES *</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>CAN I CHECK OUT RESERVES *</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>* CAN I CHECK OUT RESERVES</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>* CAN I CHECK OUT COURSE RESERVES *</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>CAN I CHECK OUT COURSE RESERVES *</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>* CAN I CHECK OUT COURSE RESERVES</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>CAN I CHECK OUT COURSE RESERVES</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>* COURSE RESERVES BE CHECKED OUT *</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>COURSE RESERVES BE CHECKED OUT *</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>* COURSE RESERVES BE CHECKED OUT</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>* RESERVES BE CHECKED OUT *</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>RESERVES BE CHECKED OUT *</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>* RESERVES BE CHECKED OUT</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>HOW LONG CAN I CHECKOUT RESERVES</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>* HOW LONG CAN I CHECKOUT RESERVES</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>HOW LONG CAN I CHECKOUT RESERVES *</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>* HOW LONG CAN I CHECKOUT RESERVES *</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>HOW LONG CAN I BORROW RESERVES FOR</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>* HOW LONG CAN I BORROW RESERVES FOR</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>HOW LONG CAN I BORROW RESERVES FOR *</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>* HOW LONG CAN I BORROW RESERVES FOR *</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>HOW LONG CAN I CHECK OUT A BOOK ON COURSE RESERVES</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>* HOW LONG CAN I CHECK OUT A BOOK ON COURSE RESERVES</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>HOW LONG CAN I CHECK OUT A BOOK ON COURSE RESERVES *</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>* HOW LONG CAN I CHECK OUT A BOOK ON COURSE RESERVES *</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>HOW LONG CAN i CHECK OUT A RESERVE BOOK FOR</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>HOW LONG CAN I BORROW A BOOK ON RESERVE</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>* RESERVE CHECK OUT POLICIES FOR BOOKS</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>* CHECK OUT A RESERVED BOOK FOR</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>* LOAN PERIOD FOR RESERVED BOOKS</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>HOW LONG * BOOK ON RESERVES</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>* reserved for a course* does that mean you can borrow it for a limited amount of time *</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+	<category><pattern>how long can i check out a reserves book</pattern>
+	<template><srai>RESERVE CHECK OUT</srai></template></category>
+
+<category><pattern>HOW LONG CAN I KEEP A BOOK ON RESERVE</pattern>
+<template>Loan periods are determined by the instructors who place the materials on Reserve. Instructors can set a 2 hour, 1 or 3 day loan.</template></category>
+	<category><pattern>* HOW LONG CAN I KEEP A BOOK ON RESERVE</pattern>
+	<template><srai>HOW LONG CAN I KEEP A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>HOW LONG CAN I KEEP A BOOK ON RESERVE *</pattern>
+	<template><srai>HOW LONG CAN I KEEP A BOOK ON RESERVE</srai></template></category>
+	<category><pattern>* HOW LONG CAN I KEEP A BOOK ON RESERVE *</pattern>
+	<template><srai>HOW LONG CAN I KEEP A BOOK ON RESERVE</srai></template></category>
+
+	<category><pattern>SCIENCE LIBRARY RESERVES</pattern>
+	<template>The Science Library reserves are located at the Check Out desk which is located on the main floor.</template></category>
+	<category><pattern>* SCIENCE LIBRARY RESERVES</pattern>
+	<template><srai>SCIENCE LIBRARY RESERVES</srai></template></category>
+	<category><pattern>SCIENCE LIBRARY RESERVES *</pattern>
+	<template><srai>SCIENCE LIBRARY RESERVES</srai></template></category>
+	<category><pattern>* SCIENCE LIBRARY RESERVES *</pattern>
+	<template><srai>SCIENCE LIBRARY RESERVES</srai></template></category>
+	<category><pattern>AYALA RESERVES</pattern>
+	<template><srai>SCIENCE LIBRARY RESERVES</srai></template></category>
+	<category><pattern>* AYALA RESERVES</pattern>
+	<template><srai>SCIENCE LIBRARY RESERVES</srai></template></category>
+	<category><pattern>AYALA RESERVES *</pattern>
+	<template><srai>SCIENCE LIBRARY RESERVES</srai></template></category>
+	<category><pattern>* AYALA RESERVES *</pattern>
+	<template><srai>SCIENCE LIBRARY RESERVES</srai></template></category>
+
+<category><pattern>LANGSON LIBRARY RESERVES</pattern>
+<template>The Langson Library reserves are located at the Langson Check Out desk which is located on the main (entry) floor.</template></category>
+	<category><pattern>* LANGSON LIBRARY RESERVES</pattern>
+	<template><srai>LANGSON LIBRARY RESERVES</srai></template></category>
+	<category><pattern>LANGSON LIBRARY RESERVES *</pattern>
+	<template><srai>LANGSON LIBRARY RESERVES</srai></template></category>
+	<category><pattern>* LANGSON LIBRARY RESERVES *</pattern>
+	<template><srai>LANGSON LIBRARY RESERVES</srai></template></category>
+	<category><pattern>LANGSON RESERVES</pattern>
+	<template><srai>LANGSON LIBRARY RESERVES</srai></template></category>
+	<category><pattern>* LANGSON RESERVES</pattern>
+	<template><srai>LANGSON LIBRARY RESERVES</srai></template></category>
+	<category><pattern>LANGSON RESERVES *</pattern>
+	<template><srai>LANGSON LIBRARY RESERVES</srai></template></category>
+	<category><pattern>* LANGSON RESERVES *</pattern>
+	<template><srai>LANGSON LIBRARY RESERVES</srai></template></category>
+
+<category><pattern>IS COURSE RESERVES</pattern>
+<template>Course reserves are materials selected by faculty as required or recommended reading for their courses. Materials placed on Course Reserves are available in print or electronic format. Print Course Reserves can be checked out from our Check Out Desks.</template></category>
+	<category><pattern>* WHAT IS COURSE RESERVES *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT IS COURSE RESERVES *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT IS COURSE RESERVES</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT IS COURSE RESERVES</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT IS COURSE RESERVE *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT IS COURSE RESERVE *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT IS COURSE RESERVE</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT IS COURSE RESERVE</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT ARE COURSE RESERVES *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT ARE COURSE RESERVES *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT ARE COURSE RESERVES</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT ARE COURSE RESERVES</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT ARE COURSE RESERVE *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT ARE COURSE RESERVE *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT ARE COURSE RESERVE</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT ARE COURSE RESERVE</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT ARE ELECTRONIC RESERVES *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT ARE ELECTRONIC RESERVES *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT ARE ELECTRONIC RESERVES</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern> WHAT ARE ELECTRONIC RESERVES</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT ARE ERESERVES *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT ARE ERESERVES *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT ARE ERESERVES</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT ARE ERESERVES</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT ARE ELECTRONIC RESERVE *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT ARE ELECTRONIC RESERVE *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT ARE ELECTRONIC RESERVE</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT ARE ELECTRONIC RESERVE</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT ARE ERESERVE *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT ARE ERESERVE *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT ARE ERESERVE</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT ARE ERESERVE</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT ARE RESERVE *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT ARE RESERVE *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT ARE RESERVE</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT ARE RESERVE</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT ARE RESERVES *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT ARE RESERVES *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT ARE RESERVES</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT ARE RESERVES</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT ARE E*RESERVE *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT ARE E*RESERVE *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT ARE E*RESERVE</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT ARE E*RESERVE</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT ARE E*RESERVES *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT ARE E*RESERVES *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT ARE E*RESERVES</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT ARE E*RESERVES</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT IS ELECTRONIC RESERVES *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT IS ELECTRONIC RESERVES *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT IS ELECTRONIC RESERVES</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT  IS ELECTRONIC RESERVES</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT IS ERESERVES *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT IS ERESERVES *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT IS ERESERVES</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT IS ERESERVES</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT IS ELECTRONIC RESERVE *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT IS ELECTRONIC RESERVE *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT IS ELECTRONIC RESERVE</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT IS ELECTRONIC RESERVE</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT IS ERESERVE *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT IS ERESERVE *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT IS ERESERVE</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT IS ERESERVE</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT IS RESERVE *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT IS RESERVE *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT IS RESERVE</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT IS RESERVE</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT IS RESERVES *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT IS RESERVES *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT IS RESERVES</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT IS RESERVES</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT IS E*RESERVE *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT IS E*RESERVE *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT IS E*RESERVE</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT IS E*RESERVE</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT IS E*RESERVES *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT IS E*RESERVES</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT IS E*RESERVES</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT DOES COURSE RESERVES MEAN</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT DOES COURSE RESERVES MEAN</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT DOES COURSE RESERVES MEAN *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>* WHAT DOES COURSE RESERVES MEAN *</pattern>
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT IS A COURSE RESERVE</pattern> 
+	<template><srai>IS COURSE RESERVES</srai></template></category>
+
+<category><pattern>FIND COURSE RESERVES</pattern>
+<template>First look up your professor/TA or course name in <a href=" https://www.lib.uci.edu/course-reserves/list" target="_blank">Find Reserves by Course and Instructor</a> and verify the item is not checked out, then write down the call number and take it to the correct Check Out desk. Make sure to have your student ID in hand.</template></category> 
+	<category><pattern>* FIND COURSE RESERVES *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>FIND COURSE RESERVES *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* FIND COURSE RESERVES</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>FIND COURSE RESERVES</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* FIND COURSE RESERVE *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>FIND COURSE RESERVE *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* FIND COURSE RESERVE</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>FIND COURSE RESERVE</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* FIND BOOKS * RESERVE *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>FIND BOOKS * RESERVE *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* BOOKS * RESERVE</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>FIND BOOKS * RESERVE</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* FIND BOOK * RESERVE *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>FIND BOOK * RESERVE *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* FIND BOOK * RESERVE</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>FIND BOOK * RESERVE</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* FIND ARTICLES * RESERVE *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>FIND ARTICLES * RESERVE *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* FIND ARTICLES * RESERVE</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>FIND ARTICLES * RESERVE</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* FIND ARTICLE * RESERVE *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>FIND ARTICLE * RESERVE *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* FIND ARTICLE * RESERVE</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>FIND ARTICLE * RESERVE</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* FIND RESERVE MATERIALS *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>FIND RESERVE MATERIALS *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* FIND RESERVE MATERIALS</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>FIND RESERVE MATERIALS</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* FIND RESERVE MATERIAL *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>FIND RESERVE MATERIAL *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* FIND RESERVE MATERIAL</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>FIND RESERVE MATERIAL</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* SEARCH FOR RESERVES *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>SEARCH FOR RESERVES *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* SEARCH FOR RESERVES</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>SEARCH FOR RESERVES</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* SEARCH FOR COURSE RESERVE *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>SEARCH FOR COURSE RESERVE *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* SEARCH FOR COURSE RESERVE</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>SEARCH FOR COURSE RESERVE</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* SEARCH FOR COURSE RESERVES *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>SEARCH FOR COURSE RESERVES *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* SEARCH FOR COURSE RESERVES</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>SEARCH FOR COURSE RESERVES</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* SEARCH FOR ELECTRONIC RESERVE *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>SEARCH FOR ELECTRONIC RESERVE *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* SEARCH FOR ELECTRONIC RESERVE</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>SEARCH FOR ELECTRONIC RESERVE</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* SEARCH FOR ELECTRONIC RESERVES *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>SEARCH FOR ELECTRONIC RESERVES *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* SEARCH FOR ELECTRONIC RESERVES</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>SEARCH FOR ELECTRONIC RESERVES</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* SEARCH FOR ERESERVE *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>SEARCH FOR ERESERVE *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* SEARCH FOR ERESERVE</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>SEARCH FOR ERESERVE</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* SEARCH FOR ERESERVES *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>SEARCH FOR ERESERVES *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* SEARCH FOR ERESERVES</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>SEARCH FOR ERESERVES</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* SEARCH FOR E-RESERVE *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>SEARCH FOR E-RESERVE *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* SEARCH FOR E-RESERVE</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>SEARCH FOR E-RESERVE</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* SEARCH FOR E-RESERVES *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>SEARCH FOR E-RESERVES *</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* SEARCH FOR E-RESERVES</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>SEARCH FOR E-RESERVES</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>WHERE ARE RESERVES</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>WHERE ARE COURSE RESERVES</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>* NEED TO FIND AN ARTICLE ON RESERVE FOR MY CLASS</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT BOOKS ARE ON COURSE RESERVE</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>WHAT BOOKS ARE ON COURSE RESERVES</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>WHERE DO I FIND READINGS ASSIGNED BY MY PROFESSOR ON ELECTRONIC RESERVE</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>ELECTRONIC RESERVE</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>WHERE CAN I FIND READINGS</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>READINGS IN ELECTRONIC RESERVES</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+	<category><pattern>WHERE CAN I FIND COURSE MATERIAL</pattern>
+	<template><srai>FIND COURSE RESERVES</srai></template></category>
+
+<category><pattern>BOOK NOT ON RESERVE</pattern>
+<template>Depending on when your faculty member submitted their request, it's possible that we haven't had time to process the item and place it on reserve. You can check again in a couple of days to see if the item is available. Contact your professor to make sure they submitted a course reserve request for the current quarter.</template></category>
+	<category><pattern>* I WAS TOLD A BOOK WAS ON RESERVE BUT I CANNOT FIND IT *</pattern>
+	<template><srai>BOOK NOT ON RESERVE</srai></template></category>
+	<category><pattern>I WAS TOLD A BOOK WAS ON RESERVE BUT I CANNOT FIND IT *</pattern>
+	<template><srai>BOOK NOT ON RESERVE</srai></template></category>
+	<category><pattern>* I WAS TOLD A BOOK WAS ON RESERVE BUT I CANNOT FIND IT</pattern>
+	<template><srai>BOOK NOT ON RESERVE</srai></template></category>
+	<category><pattern>I WAS TOLD A BOOK WAS ON RESERVE BUT I CANNOT FIND IT</pattern>
+	<template><srai>BOOK NOT ON RESERVE</srai></template></category>
+	<category><pattern>* I WAS TOLD A BOOK WAS ON COURSE RESERVE BUT I CANNOT FIND IT *</pattern>
+	<template><srai>BOOK NOT ON RESERVE</srai></template></category>
+	<category><pattern>I WAS TOLD A BOOK WAS ON COURSE RESERVE BUT I CANNOT FIND IT *</pattern>
+	<template><srai>BOOK NOT ON RESERVE</srai></template></category>
+	<category><pattern>* I WAS TOLD A BOOK WAS ON COURSE RESERVE BUT I CANNOT FIND IT</pattern>
+	<template><srai>BOOK NOT ON RESERVE</srai></template></category>
+	<category><pattern>I WAS TOLD A BOOK WAS ON COURSE RESERVE BUT I CANNOT FIND IT</pattern>
+	<template><srai>BOOK NOT ON RESERVE</srai></template></category>
+	<category><pattern>* I WAS TOLD A BOOK WAS ON COURSE RESERVES BUT I CANNOT FIND IT *</pattern>
+	<template><srai>BOOK NOT ON RESERVE</srai></template></category>
+	<category><pattern>I WAS TOLD A BOOK WAS ON COURSE RESERVES BUT I CANNOT FIND IT *</pattern>
+	<template><srai>BOOK NOT ON RESERVE</srai></template></category>
+	<category><pattern>* I WAS TOLD A BOOK WAS ON COURSE RESERVES BUT I CANNOT FIND IT</pattern>
+	<template><srai>BOOK NOT ON RESERVE</srai></template></category>
+	<category><pattern>I WAS TOLD A BOOK WAS ON COURSE RESERVES BUT I CANNOT FIND IT</pattern>
+	<template><srai>BOOK NOT ON RESERVE</srai></template></category>
+	<category><pattern>* I CANNOT FIND A BOOK ON RESERVE *</pattern>
+	<template><srai>BOOK NOT ON RESERVE</srai></template></category>
+	<category><pattern>I CANNOT FIND A BOOK ON RESERVE *</pattern>
+	<template><srai>BOOK NOT ON RESERVE</srai></template></category>
+	<category><pattern>* I CANNOT FIND A BOOK ON RESERVE</pattern>
+	<template><srai>BOOK NOT ON RESERVE</srai></template></category>
+	<category><pattern>I CANNOT FIND A BOOK ON RESERVE</pattern>
+	<template><srai>BOOK NOT ON RESERVE</srai></template></category>
+	<category><pattern>* I CANNOT FIND A BOOK ON RESERVES *</pattern>
+	<template><srai>BOOK NOT ON RESERVE</srai></template></category>
+	<category><pattern>I CANNOT FIND A BOOK ON RESERVES *</pattern>
+	<template><srai>BOOK NOT ON RESERVE</srai></template></category>
+	<category><pattern>* I CANNOT FIND A BOOK ON RESERVES</pattern>
+	<template><srai>BOOK NOT ON RESERVE</srai></template></category>
+	<category><pattern>I CANNOT FIND A BOOK ON RESERVES</pattern>
+	<template><srai>BOOK NOT ON RESERVE</srai></template></category>
+	<category><pattern>* I CANNOT FIND A BOOK ON COURSE RESERVE *</pattern>
+	<template><srai>BOOK NOT ON RESERVE</srai></template></category>
+	<category><pattern>I CANNOT FIND A BOOK ON COURSE RESERVE *</pattern>
+	<template><srai>BOOK NOT ON RESERVE</srai></template></category>
+	<category><pattern>* I CANNOT FIND A BOOK ON COURSE RESERVE</pattern>
+	<template><srai>BOOK NOT ON RESERVE</srai></template></category>
+	<category><pattern>I CANNOT FIND A BOOK ON COURSE RESERVE</pattern>
+	<template><srai>BOOK NOT ON RESERVE</srai></template></category>
+	<category><pattern>* I CANNOT FIND A BOOK ON COURSE RESERVES *</pattern>
+	<template><srai>BOOK NOT ON RESERVE</srai></template></category>
+	<category><pattern>I CANNOT FIND A BOOK ON COURSE RESERVES *</pattern>
+	<template><srai>BOOK NOT ON RESERVE</srai></template></category>
+	<category><pattern>* I CANNOT FIND A BOOK ON COURSE RESERVES</pattern>
+	<template><srai>BOOK NOT ON RESERVE</srai></template></category>
+	<category><pattern>I CANNOT FIND A BOOK ON COURSE RESERVES</pattern>
+	<template><srai>BOOK NOT ON RESERVE</srai></template></category>
+
+<category><pattern>CAN I RENEW RESERVES</pattern>
+<template>Reserve items cannot be renewed. Unless there is an additional copy available, you will have to wait 15 minutes before rechecking out the item.</template></category>
+<category><pattern>CAN YOU LOAN A RESERVED BOOK MULTIPLE TIMES OR ONLY ONCE</pattern>
+<template><srai>CAN I RENEW RESERVES</srai></template></category>
+
+<category><pattern>WHAT IS THE LATEST I CAN CHECK OUT A BOOK FROM RESERVES</pattern>
+<template>Course Reserve materials may be checked out up until the desk closes. 2-hour reserve items borrowed during the last two hours before closing will be due when the desk opens the next day.</template></category>
+	<category><pattern>WHAT IS THE LATEST I CAN CHECK A BOOK OUT FROM RESERVES</pattern>
+	<template><srai>WHAT IS THE LATEST I CAN CHECK OUT A BOOK FROM RESERVES</srai></template></category>
+
+
+<!--END COURSE RESERVES -->
+
+<!-- START E-RESERVES -->
+
+<category><pattern>USE E-RESERVES</pattern>
+<template>Current UCI students, faculty, and staff.</template></category> 
+	<category><pattern>* WHO CAN USE ELECTRONIC RESERVES *</pattern>
+	<template><srai>USE E-RESERVES</srai></template></category>
+	<category><pattern>WHO CAN USE ELECTRONIC RESERVES *</pattern>
+	<template><srai>USE E-RESERVES</srai></template></category>
+	<category><pattern>* WHO CAN USE ELECTRONIC RESERVES</pattern>
+	<template><srai>USE E-RESERVES</srai></template></category>
+	<category><pattern>WHO CAN USE ELECTRONIC RESERVES</pattern>
+	<template><srai>USE E-RESERVES</srai></template></category>
+	<category><pattern>* WHO CAN USE ELECTRONIC RESERVE *</pattern>
+	<template><srai>USE E-RESERVES</srai></template></category>
+	<category><pattern>WHO CAN USE ELECTRONIC RESERVE *</pattern>
+	<template><srai>USE E-RESERVES</srai></template></category>
+	<category><pattern>* WHO CAN USE ELECTRONIC RESERVE</pattern>
+	<template><srai>USE E-RESERVES</srai></template></category>
+	<category><pattern>WHO CAN USE ELECTRONIC RESERVE</pattern>
+	<template><srai>USE E-RESERVES</srai></template></category>
+	<category><pattern>* WHO CAN USE ERESERVES *</pattern>
+	<template><srai>USE E-RESERVES</srai></template></category>
+	<category><pattern>WHO CAN USE ERESERVES *</pattern>
+	<template><srai>USE E-RESERVES</srai></template></category>
+	<category><pattern>* WHO CAN USE ERESERVES</pattern>
+	<template><srai>USE E-RESERVES</srai></template></category>
+	<category><pattern>WHO CAN USE ERESERVES</pattern>
+	<template><srai>USE E-RESERVES</srai></template></category>
+	<category><pattern>* WHO CAN USE ERESERVE *</pattern>
+	<template><srai>USE E-RESERVES</srai></template></category>
+	<category><pattern>WHO CAN USE ERESERVE *</pattern>
+	<template><srai>USE E-RESERVES</srai></template></category>
+	<category><pattern>* WHO CAN USE ERESERVE</pattern>
+	<template><srai>USE E-RESERVES</srai></template></category>
+	<category><pattern>WHO CAN USE ERESERVE</pattern>
+	<template><srai>USE E-RESERVES</srai></template></category>
+	<category><pattern>* WHO CAN USE E*RESERVE *</pattern>
+	<template><srai>USE E-RESERVES</srai></template></category>
+	<category><pattern>WHO CAN USE E*RESERVE *</pattern>
+	<template><srai>USE E-RESERVES</srai></template></category>
+	<category><pattern>* WHO CAN USE E*RESERVE</pattern>
+	<template><srai>USE E-RESERVES</srai></template></category>
+	<category><pattern>WHO CAN USE E*RESERVE</pattern>
+	<template><srai>USE E-RESERVES</srai></template></category>
+	<category><pattern>* WHO CAN USE E*RESERVES *</pattern>
+	<template><srai>USE E-RESERVES</srai></template></category>
+	<category><pattern>WHO CAN USE E*RESERVES *</pattern>
+	<template><srai>USE E-RESERVES</srai></template></category>
+	<category><pattern>* WHO CAN USE E*RESERVES</pattern>
+	<template><srai>USE E-RESERVES</srai></template></category>
+	<category><pattern>WHO CAN USE E*RESERVES</pattern>
+	<template><srai>USE E-RESERVES</srai></template></category>
+
+<category><pattern>ACCESS E-RESERVES</pattern>
+<template>All E-Reserves materials are accessible while using an on campus connection. To access E-Reserves from off campus, use the Connect From Off Campus link to sign into the VPN.</template></category> 
+	<category><pattern>* ACCESS ELECTRONIC RESERVE *</pattern>
+	<template><srai>ACCESS E*RESERVES</srai></template></category>
+	<category><pattern>ACCESS ELECTRONIC RESERVE *</pattern>
+	<template><srai>ACCESS E*RESERVES</srai></template></category>
+	<category><pattern>* ACCESS ELECTRONIC RESERVE</pattern>
+	<template><srai>ACCESS E*RESERVES</srai></template></category>
+	<category><pattern>ACCESS ELECTRONIC RESERVE</pattern>
+	<template><srai>ACCESS E*RESERVES</srai></template></category>
+	<category><pattern>* ACCESS ELECTRONIC RESERVES *</pattern>
+	<template><srai>ACCESS E*RESERVES</srai></template></category>
+	<category><pattern>ACCESS ELECTRONIC RESERVES *</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>* ACCESS ELECTRONIC RESERVES</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>ACCESS ELECTRONIC RESERVES</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>* ACCESS ERESERVE *</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>ACCESS ERESERVE *</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>* ACCESS ERESERVE</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>ACCESS ERESERVE</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>* ACCESS ERESERVES *</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>ACCESS ERESERVES *</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>* ACCESS ERESERVES</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>ACCESS ERESERVES</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>* ACCESS E*RESERVE *</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>ACCESS E*RESERVE *</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>* ACCESS E*RESERVE</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>ACCESS E*RESERVE</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>* ACCESS E*RESERVES *</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>ACCESS E*RESERVES *</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>* ACCESS E*RESERVES</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>ACCESS E*RESERVES</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>* ACCESSING ELECTRONIC RESERVE *</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>ACCESSING ELECTRONIC RESERVE *</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>* ACCESSING ELECTRONIC RESERVE</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>ACCESSING ELECTRONIC RESERVE</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>* ACCESSING ELECTRONIC RESERVES *</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category> 
+	<category><pattern>ACCESSING ELECTRONIC RESERVES *</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category> 
+	<category><pattern>* ACCESSING ELECTRONIC RESERVES</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category> 
+	<category><pattern>ACCESSING ELECTRONIC RESERVES</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category> 
+	<category><pattern>* ACCESSING ERESERVE *</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>ACCESSING ERESERVE *</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>* ACCESSING ERESERVE</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>ACCESSING ERESERVE</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>* ACCESSING ERESERVES *</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>ACCESSING ERESERVES *</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>* ACCESSING ERESERVES</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>ACCESSING ERESERVES</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>* ACCESSING E*RESERVE *</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>ACCESSING E*RESERVE *</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>* ACCESSING E*RESERVE</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>ACCESSING E*RESERVE</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>* ACCESSING E*RESERVES *</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>ACCESSING E*RESERVES *</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>* ACCESSING E*RESERVES</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>ACCESSING E*RESERVES</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>HOW DO I FIND ERESERVES</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>* ACCESS TO COURSE RESERVES ONLINE</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+	<category><pattern>* ACCESS TO CLASS TEXTBOOKS</pattern>
+	<template><srai>ACCESS E-RESERVES</srai></template></category>
+
+<category><pattern>BROWSER E-RESERVES</pattern>
+<template>E-Reserves works best with the most up-to-date versions of Internet Explorer, Apple Safari, Firefox or Google Chrome.</template></category>
+	<category><pattern>* BROWSER DO I USE TO VIEW E*RESERVES *</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>BROWSER DO I USE TO VIEW E*RESERVES *</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>* BROWSER DO I USE TO VIEW E*RESERVES</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>BROWSER DO I USE TO VIEW E*RESERVES</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>* BROWSER DO I USE TO VIEW E*RESERVE *</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>BROWSER DO I USE TO VIEW E*RESERVE *</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>* BROWSER DO I USE TO VIEW E*RESERVE</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>BROWSER DO I USE TO VIEW E*RESERVE</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>* BROWSER DO I USE TO VIEW ERESERVES *</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>BROWSER DO I USE TO VIEW ERESERVES *</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>* BROWSER DO I USE TO VIEW ERESERVES</pattern>
+	<template><srai>BROWSER E*RESERVES</srai></template></category>
+	<category><pattern>BROWSER DO I USE TO VIEW ERESERVES</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>* BROWSER DO I USE TO VIEW ERESERVE *</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>BROWSER DO I USE TO VIEW ERESERVE *</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>* BROWSER DO I USE TO VIEW ERESERVE</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>BROWSER DO I USE TO VIEW ERESERVE</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>* BROWSER DO I USE TO VIEW ELECTRONIC RESERVES *</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>BROWSER DO I USE TO VIEW ELECTRONIC RESERVES *</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>* BROWSER DO I USE TO VIEW ELECTRONIC RESERVES</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>BROWSER DO I USE TO VIEW ELECTRONIC RESERVES</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>* BROWSER DO I USE TO VIEW ELECTRONIC RESERVE *</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>BROWSER DO I USE TO VIEW ELECTRONIC RESERVE *</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>* BROWSER DO I USE TO VIEW ELECTRONIC RESERVE</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>BROWSER DO I USE TO VIEW ELECTRONIC RESERVE</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>* BROWSER DO I USE TO SEE E*RESERVES *</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>BROWSER DO I USE TO SEE E*RESERVES *</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>* BROWSER DO I USE TO SEE E*RESERVES</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>BROWSER DO I USE TO SEE E*RESERVES</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>* BROWSER DO I USE TO SEE E*RESERVE *</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>BROWSER DO I USE TO SEE E*RESERVE *</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>* BROWSER DO I USE TO SEE E*RESERVE</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>BROWSER DO I USE TO SEE E*RESERVE</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>* BROWSER DO I USE TO SEE ERESERVES *</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>BROWSER DO I USE TO SEE ERESERVES *</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>* BROWSER DO I USE TO SEE ERESERVES</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>BROWSER DO I USE TO SEE ERESERVES</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>* BROWSER DO I USE TO SEE ERESERVE *</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>BROWSER DO I USE TO SEE ERESERVE *</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>* BROWSER DO I USE TO SEE ERESERVE</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>BROWSER DO I USE TO SEE ERESERVE</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>* BROWSER DO I USE TO SEE ELECTRONIC RESERVES *</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>BROWSER DO I USE TO SEE ELECTRONIC RESERVES *</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>* BROWSER DO I USE TO SEE ELECTRONIC RESERVES</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>BROWSER DO I USE TO SEE ELECTRONIC RESERVES</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>* BROWSER DO I USe TO SEE ELECTRONIC RESERVE *</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>BROWSER DO I USe TO SEE ELECTRONIC RESERVE *</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>* BROWSER DO I USE TO SEE ELECTRONIC RESERVE</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>BROWSER DO I USe TO SEE ELECTRONIC RESERVE</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>WHAT BROWSER WORKS BEST WITH COURSE RESERVES</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+	<category><pattern>WHAT IS THE BEST BROWSER FOR COURSE RESERVES</pattern>
+	<template><srai>BROWSER E-RESERVES</srai></template></category>
+
+<category><pattern>PRINT E-RESERVES</pattern>
+<template>Use the Print button on the Adobe Acrobat Reader tool bar to print your E-Reserve material. Do NOT use the print button on your Web browser (ie, Internet Explorer, Firefox, etc.) toolbar to print the document, as you will only get blank pages.</template></category>
+	<category><pattern>* HOW * I PRINT E*RESERVE *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINT E*RESERVE *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINT E*RESERVE</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINT E*RESERVE</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINT E*RESERVES *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINT E*RESERVES *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINT E*RESERVES</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINT E*RESERVES</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINT ERESERVE *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINT ERESERVE *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINT ERESERVE</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINT ERESERVE</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINT ERESERVES *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINT ERESERVES *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINT ERESERVES</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINT ERESERVES</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINT ELECTRONIC RESERVES *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINT ELECTRONIC RESERVES *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINT ELECTRONIC RESERVES</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINT ELECTRONIC RESERVES</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINT ELECTRONIC RESERVE *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINT ELECTRONIC RESERVE *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINT ELECTRONIC RESERVE</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINT ELECTRONIC RESERVE</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINTING E*RESERVE *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINTING E*RESERVE *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINTING E*RESERVE</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINTING E*RESERVE</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINTING E*RESERVES *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINTING E*RESERVES *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINTING E*RESERVES</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINTING E*RESERVES</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINTING ERESERVE *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINTING ERESERVE *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINTING ERESERVE</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINTING ERESERVE</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINTING ERESERVES *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINTING ERESERVES *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINTING ERESERVES</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINTING ERESERVES</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINTING ELECTRONIC RESERVES *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINTING ELECTRONIC RESERVES *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINTING ELECTRONIC RESERVES</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINTING ELECTRONIC RESERVES</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINTING ELECTRONIC RESERVE *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINTING ELECTRONIC RESERVE *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINTING ELECTRONIC RESERVE</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINTING ELECTRONIC RESERVE</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINT * E*RESERVE *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINT * E*RESERVE *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINT * E*RESERVE</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINT * E*RESERVE</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINT * E*RESERVES *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINT * E*RESERVES *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINT * E*RESERVES</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINT * E*RESERVES</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINT * ERESERVE *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINT * ERESERVE *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINT * ERESERVE</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINT * ERESERVE</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINT * ERESERVES *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINT * ERESERVES *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINT * ERESERVES</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINT * ERESERVES</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINT * ELECTRONIC RESERVES *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINT * ELECTRONIC RESERVES *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINT * ELECTRONIC RESERVES</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINT * ELECTRONIC RESERVES</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINT * ELECTRONIC RESERVE *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINT * ELECTRONIC RESERVE *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINT * ELECTRONIC RESERVE</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINT * ELECTRONIC RESERVE</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINTING * E*RESERVE *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINTING * E*RESERVE *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINTING * E*RESERVE</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINTING * E*RESERVE</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINTING * E*RESERVES *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINTING * E*RESERVES *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINTING * E*RESERVES</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINTING * E*RESERVES</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINTING * ERESERVE *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINTING * ERESERVE *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINTING * ERESERVE</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINTING * ERESERVE</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINTING * ERESERVES *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINTING * ERESERVES *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINTING * ERESERVES</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINTING * ERESERVES</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINTING * ELECTRONIC RESERVES *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINTING * ELECTRONIC RESERVES *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINTING * ELECTRONIC RESERVES</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINTING * ELECTRONIC RESERVES</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINTING * ELECTRONIC RESERVE *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINTING * ELECTRONIC RESERVE *</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>* HOW * I PRINTING * ELECTRONIC RESERVE</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+	<category><pattern>HOW * I PRINTING * ELECTRONIC RESERVE</pattern>
+	<template><srai>PRINT E-RESERVES</srai></template></category>
+
+<category><pattern>E-RESERVES * HOME</pattern>
+<template>Materials marked Weblink or Internet often link to licensed electronic resources available to current students, faculty and staff only. If you are using E-Reserves from off -campus, you will need to be authenticated as a current student, faculty, or staff member in order to access the licensed electronic materials. Please refer to <a href=" https://www.lib.uci.edu/connect" target="_blank">Connect from Off-Campus</a>.</template></category>
+	<category><pattern>* ACCESS E*RESERVE * HOME *</pattern>
+	<template><srai>E-RESERVES * HOME</srai></template></category>
+	<category><pattern>ACCESS E*RESERVE * HOME *</pattern>
+	<template><srai>E-RESERVES * HOME</srai></template></category>
+	<category><pattern>* ACCESS E*RESERVE * HOME</pattern>
+	<template><srai>E-RESERVES * HOME</srai></template></category>
+	<category><pattern>ACCESS E*RESERVE * HOME</pattern>
+	<template><srai>E-RESERVES * HOME</srai></template></category>
+	<category><pattern>* ACCESS E*RESERVES * HOME *</pattern>
+	<template><srai>E-RESERVES * HOME</srai></template></category>
+	<category><pattern>ACCESS E*RESERVES * HOME *</pattern>
+	<template><srai>E-RESERVES * HOME</srai></template></category>
+	<category><pattern>* ACCESS E*RESERVES * HOME</pattern>
+	<template><srai>E-RESERVES * HOME</srai></template></category>
+	<category><pattern>ACCESS E*RESERVES * HOME</pattern>
+	<template><srai>E-RESERVES * HOME</srai></template></category>
+	<category><pattern>* ACCESS ERESERVE * HOME *</pattern>
+	<template><srai>E-RESERVES * HOME</srai></template></category>
+	<category><pattern>ACCESS ERESERVE * HOME *</pattern>
+	<template><srai>E-RESERVES * HOME</srai></template></category>
+	<category><pattern>* ACCESS ERESERVE * HOME</pattern>
+	<template><srai>E-RESERVES * HOME</srai></template></category>
+	<category><pattern>ACCESS ERESERVE * HOME</pattern>
+	<template><srai>E-RESERVES * HOME</srai></template></category>
+	<category><pattern>* ACCESS ERESERVES * HOME *</pattern>
+	<template><srai>E-RESERVES * HOME</srai></template></category>
+	<category><pattern>ACCESS ERESERVES * HOME *</pattern>
+	<template><srai>E-RESERVES * HOME</srai></template></category>
+	<category><pattern>* ACCESS ERESERVES * HOME</pattern>
+	<template><srai>E-RESERVES * HOME</srai></template></category>
+	<category><pattern>ACCESS ERESERVES * HOME</pattern>
+	<template><srai>E-RESERVES * HOME</srai></template></category>
+	<category><pattern>* ACCESS ELECTRONIC RESERVE * HOME *</pattern>
+	<template><srai>E-RESERVES * HOME</srai></template></category>
+	<category><pattern>ACCESS ELECTRONIC RESERVE * HOME *</pattern>
+	<template><srai>E-RESERVES * HOME</srai></template></category>
+	<category><pattern>* ACCESS ELECTRONIC RESERVE * HOME</pattern>
+	<template><srai>E-RESERVES * HOME</srai></template></category>
+	<category><pattern>ACCESS ELECTRONIC RESERVE * HOME</pattern>
+	<template><srai>E-RESERVES * HOME</srai></template></category>
+	<category><pattern>* ACCESS ELECTRONIC RESERVES * HOME *</pattern>
+	<template><srai>E-RESERVES * HOME</srai></template></category>
+	<category><pattern>ACCESS ELECTRONIC RESERVES * HOME *</pattern>
+	<template><srai>E-RESERVES * HOME</srai></template></category>
+	<category><pattern>* ACCESS ELECTRONIC RESERVES * HOME</pattern>
+	<template><srai>E-RESERVES * HOME</srai></template></category>
+	<category><pattern>ACCESS ELECTRONIC RESERVES * HOME</pattern>
+	<template><srai>E-RESERVES * HOME</srai></template></category>
+
+<category><pattern>PROBLEM * E-RESERVES</pattern>
+<template>If you encounter a problem viewing or printing e-reserves, report it immediately to a Check Out Desk at any of the UCI Libraries. If you are accessing E-Reserves from off-campus, you will need to be authenticated as a current UCI student, faculty or staff member Please refer to Connecting from Off Campus. If there are problems with your UCInetID and password, please contact OIT at (949) 824-2222 or oit@uci.edu. </template></category>
+<category><pattern>* PROBLEM * E*RESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>PROBLEM * E*RESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* PROBLEM * E*RESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>PROBLEM * E*RESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* PROBLEM * E*RESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>PROBLEM * E*RESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* PROBLEM * E*RESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>PROBLEM * E*RESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* PROBLEM * ERESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>PROBLEM * ERESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* PROBLEM * ERESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>PROBLEM * ERESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* PROBLEM * ERESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>PROBLEM * ERESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* PROBLEM * ERESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>PROBLEM * ERESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* PROBLEM * ELECTRONIC RESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>PROBLEM * ELECTRONIC RESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* PROBLEM * ELECTRONIC RESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>PROBLEM * ELECTRONIC RESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* PROBLEM * ELECTRONIC RESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>PROBLEM * ELECTRONIC RESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* PROBLEM * ELECTRONIC RESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>PROBLEM * ELECTRONIC RESERVES</pattern>
+	<template><srai>PROBLEM * E*RESERVES</srai></template></category>
+	<category><pattern>* PROBLEMS * ERESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>PROBLEMS * E*RESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* PROBLEMS * E*RESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>PROBLEMS * E*RESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* PROBLEMS * E*RESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>PROBLEMS * E*RESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* PROBLEMS * E*RESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>PROBLEMS * E*RESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* PROBLEMS * ERESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>PROBLEMS * ERESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* PROBLEMS * ERESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>PROBLEMS * ERESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* PROBLEMS * ERESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>PROBLEMS * ERESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* PROBLEMS * ERESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>PROBLEMS * ERESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* PROBLEMS * ELECTRONIC RESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>PROBLEMS * ELECTRONIC RESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* PROBLEMS * ELECTRONIC RESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>PROBLEMS * ELECTRONIC RESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* PROBLEMS * ELECTRONIC RESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>PROBLEMS * ELECTRONIC RESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* PROBLEMS * ELECTRONIC RESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>PROBLEMS * ELECTRONIC RESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* TROUBLE * E*RESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>TROUBLE * E*RESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* TROUBLE * E*RESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>TROUBLE * E*RESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* TROUBLE * E*RESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>TROUBLE * E*RESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* TROUBLE * E*RESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>TROUBLE * E*RESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* TROUBLE * ERESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>TROUBLE * ERESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* TROUBLE * ERESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>TROUBLE * ERESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* TROUBLE * ERESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>TROUBLE * ERESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* TROUBLE * ERESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>TROUBLE * ERESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* TROUBLE * ELECTRONIC RESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>TROUBLE * ELECTRONIC RESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* TROUBLE * ELECTRONIC RESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>TROUBLE * ELECTRONIC RESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* TROUBLE * ELECTRONIC RESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>TROUBLE * ELECTRONIC RESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* TROUBLE * ELECTRONIC RESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>TROUBLE * ELECTRONIC RESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* TROUBLES * E*RESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>TROUBLES * E*RESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* TROUBLES * E*RESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>TROUBLES * E*RESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* TROUBLES * E*RESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>TROUBLES * E*RESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* TROUBLES * E*RESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>TROUBLES * E*RESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* TROUBLES * ERESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>TROUBLES * ERESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* TROUBLES * ERESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>TROUBLES * ERESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* TROUBLES * ERESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>TROUBLES * ERESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* TROUBLES * ERESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>TROUBLES * ERESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* TROUBLES * ELECTRONIC RESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>TROUBLES * ELECTRONIC RESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* TROUBLES * ELECTRONIC RESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>TROUBLES * ELECTRONIC RESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* TROUBLES * ELECTRONIC RESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>TROUBLES * ELECTRONIC RESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* TROUBLES * ELECTRONIC RESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>TROUBLES * ELECTRONIC RESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ISSUE * E*RESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ISSUE * E*RESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ISSUE * E*RESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ISSUE * E*RESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ISSUE * E*RESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ISSUE * E*RESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ISSUE * E*RESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ISSUE * E*RESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ISSUE * ERESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ISSUE * ERESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ISSUE * ERESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ISSUE * ERESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ISSUE * ERESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ISSUE * ERESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ISSUE * ERESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ISSUE * ERESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ISSUE * ELECTRONIC RESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ISSUE * ELECTRONIC RESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ISSUE * ELECTRONIC RESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ISSUE * ELECTRONIC RESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ISSUE * ELECTRONIC RESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ISSUE * ELECTRONIC RESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ISSUE * ELECTRONIC RESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ISSUE * ELECTRONIC RESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ISSUES * E*RESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ISSUES * E*RESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ISSUES * E*RESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ISSUES * E*RESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ISSUES * E*RESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ISSUES * E*RESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ISSUES * E*RESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ISSUES * E*RESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ISSUES * ERESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ISSUES * ERESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ISSUES * ERESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ISSUES * ERESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ISSUES * ERESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ISSUES * ERESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ISSUES * ERESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ISSUES * ERESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ISSUES * ELECTRONIC RESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ISSUES * ELECTRONIC RESERVE *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ISSUES * ELECTRONIC RESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ISSUES * ELECTRONIC RESERVE</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ISSUES * ELECTRONIC RESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ISSUES * ELECTRONIC RESERVES *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ISSUES * ELECTRONIC RESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ISSUES * ELECTRONIC RESERVES</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* E*RESERVE * BROKEN *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>E*RESERVE * BROKEN *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* E*RESERVE * BROKEN</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>E*RESERVE * BROKEN</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* E*RESERVES * BROKEN *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>E*RESERVES * BROKEN *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* E*RESERVES * BROKEN</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>E*RESERVES * BROKEN</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ERESERVES * BROKEN *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ERESERVES * BROKEN *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ERESERVES * BROKEN</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ERESERVES * BROKEN</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ERESERVE * BROKEN *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ERESERVE * BROKEN *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ERESERVE * BROKEN</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ERESERVE * BROKEN</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ELECTRONIC RESERVE * BROKEN *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ELECTRONIC RESERVE * BROKEN *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ELECTRONIC RESERVE * BROKEN</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ELECTRONIC RESERVE * BROKEN</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ELECTRONIC RESERVES * BROKEN *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ELECTRONIC RESERVES * BROKEN *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ELECTRONIC RESERVES * BROKEN</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ELECTRONIC RESERVES * BROKEN</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* E*RESERVE * BROKEN *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>E*RESERVE * BROKEN *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* E*RESERVE * BROKEN</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>E*RESERVE * BROKEN</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* E*RESERVES * BROKEN *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>E*RESERVES * BROKEN *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* E*RESERVES * BROKEN</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>E*RESERVES * BROKEN</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ERESERVES * BROKEN *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ERESERVES * BROKEN *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ERESERVES * BROKEN</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ERESERVES * BROKEN</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ERESERVE * BROKEN *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ERESERVE * BROKEN *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ERESERVE * BROKEN</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ERESERVE * BROKEN</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ELECTRONIC RESERVE * BROKEN *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ELECTRONIC RESERVE * BROKEN *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ELECTRONIC RESERVE * BROKEN</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ELECTRONIC RESERVE * BROKEN</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ELECTRONIC RESERVES * BROKEN *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ELECTRONIC RESERVES * BROKEN *</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>* ELECTRONIC RESERVES * BROKEN</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+	<category><pattern>ELECTRONIC RESERVES * BROKEN</pattern>
+	<template><srai>PROBLEM * E-RESERVES</srai></template></category>
+
+<category><pattern>FIND E-RESERVES</pattern>
+<template>First look up your professor/TA or course name in <a href=" https://www.lib.uci.edu/course-reserves/list" target="_blank">Find Reserves by Course and Instructor</a>. Materials marked Weblink or Internet will link to licensed electronic resources available to current students, faculty, and staff only. If you are using E-Reserves from off -campus, you will need to be authenticated as a current student, faculty, or staff member in order to access the licensed electronic materials. Please refer to <a href=" https://www.lib.uci.edu/connect" target="_blank">Connect from Off-Campus</a>.</template></category>
+	<category><pattern>* FIND E*RESERVES *</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>FIND E*RESERVES *</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>* FIND E*RESERVES</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>FIND E*RESERVES</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>* FIND E*RESERVE *</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>FIND E*RESERVE *</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>* FIND E*RESERVE</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>FIND E*RESERVE</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>* FIND ELECTRONIC RESERVES *</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>FIND ELECTRONIC RESERVES *</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>* FIND ELECTRONIC RESERVES</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>FIND ELECTRONIC RESERVES</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>* FIND ELECTRONIC RESERVE *</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>FIND ELECTRONIC RESERVE *</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>* FIND ELECTRONIC RESERVE</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>FIND ELECTRONIC RESERVE</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>* FIND ERESERVES *</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>FIND ERESERVES *</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>* FIND ERESERVES</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>FIND ERESERVES</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>* FIND ERESERVE *</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>FIND ERESERVE *</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>* FIND ERESERVE</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>FIND ERESERVE</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>* FINDING E*RESERVES *</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>FINDING E*RESERVES *</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>* FINDING E*RESERVES</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>FINDING E*RESERVES</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>* FINDING E*RESERVE *</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>FINDING E*RESERVE *</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>* FINDING E*RESERVE</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>FINDING E*RESERVE</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>* FINDING ELECTRONIC RESERVES *</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>FINDING ELECTRONIC RESERVES *</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>* FINDING ELECTRONIC RESERVES</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>FINDING ELECTRONIC RESERVES</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>* FINDING ELECTRONIC RESERVE *</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>FINDING ELECTRONIC RESERVE *</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>* FINDING ELECTRONIC RESERVE</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>FINDING ELECTRONIC RESERVE</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>* FINDING ERESERVES *</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>FINDING ERESERVES *</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>* FINDING ERESERVES</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>FINDING ERESERVES</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>* FINDING ERESERVE *</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>FINDING ERESERVE *</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>* FINDING ERESERVE</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>FINDING ERESERVE</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>WHAT IF SOMETHING IS ON ELECTRONIC RESERVE</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>* WHAT IF SOMETHING IS ON ELECTRONIC RESERVE</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>WHAT IF SOMETHING IS ON ELECTRONIC RESERVE *</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>* WHAT IF SOMETHING IS ON ELECTRONIC RESERVE *</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>FIND AN ARTICLE ON RESERVE FOR MY CLASS</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>* FIND AN ARTICLE ON RESERVE FOR MY CLASS</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>FIND AN ARTICLE ON RESERVE FOR MY CLASS *</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+	<category><pattern>* FIND AN ARTICLE ON RESERVE FOR MY CLASS *</pattern>
+	<template><srai>FIND E-RESERVES</srai></template></category>
+
+<!-- END E-RESERVES -->
+<!-- START PIN -->
+
+<category><pattern>LIBRARY PIN</pattern>
+<template>Your Library PIN is a 4 to 8 digit number that you set when you activate your Library card. Reset your PIN by logging into your <a href="https://uci.primo.exlibrisgroup.com/discovery/account?vid=01CDL_IRV_INST:UCI" target="_blank">library account</a> and clicking "Personal Details" and "Update Login Credentials" or contact any of our Check Out Desks by phone or in person.</template></category> 
+	<category><pattern>* LIBRARY PIN NUMBER *</pattern>
+	<template><srai>LIBRARY PIN</srai></template></category>
+	<category><pattern>LIBRARY PIN NUMBER *</pattern>
+	<template><srai>LIBRARY PIN</srai></template></category>
+	<category><pattern>* LIBRARY PIN NUMBER</pattern>
+	<template><srai>LIBRARY PIN</srai></template></category>
+	<category><pattern>LIBRARY PIN NUMBER</pattern>
+	<template><srai>LIBRARY PIN</srai></template></category>
+	<category><pattern>* LIBRARY PIN NUMBERS *</pattern>
+	<template><srai>LIBRARY PIN</srai></template></category>
+	<category><pattern>LIBRARY PIN NUMBERS *</pattern>
+	<template><srai>LIBRARY PIN</srai></template></category>
+	<category><pattern>* LIBRARY PIN NUMBERS</pattern>
+	<template><srai>LIBRARY PIN</srai></template></category>
+	<category><pattern>LIBRARY PIN NUMBERS</pattern>
+	<template><srai>LIBRARY PIN</srai></template></category>
+	<category><pattern>* LIBRARY PIN *</pattern>
+	<template><srai>LIBRARY PIN</srai></template></category>
+	<category><pattern>LIBRARY PIN *</pattern>
+	<template><srai>LIBRARY PIN</srai></template></category>
+	<category><pattern>* LIBRARY PIN</pattern>
+	<template><srai>LIBRARY PIN</srai></template></category>
+	<category><pattern>LIBRARY PIN</pattern>
+	<template><srai>LIBRARY PIN</srai></template></category>
+	<category><pattern>* LIBRARY PINS *</pattern>
+	<template><srai>LIBRARY PIN</srai></template></category>
+	<category><pattern>LIBRARY PINS *</pattern>
+	<template><srai>LIBRARY PIN</srai></template></category>
+	<category><pattern>* LIBRARY PINS</pattern>
+	<template><srai>LIBRARY PIN</srai></template></category>
+	<category><pattern>LIBRARY PINS</pattern>
+	<template><srai>LIBRARY PIN</srai></template></category>
+
+<category><pattern>FORGOT LIBRARY PIN</pattern>
+<template>There are 3 ways to change your PIN. 1) Visit your library account online and change it under account settings. 2) Go to the Check Out/Reserves Desk at any UCI Library. 3) Call one of the the Check Out/Reserves Desks.</template></category>
+	<category><pattern>* FORGOT * LIBRARY PIN *</pattern>
+	<template><srai>FORGOT LIBRARY PIN</srai></template></category>
+	<category><pattern>FORGOT * LIBRARY PIN *</pattern>
+	<template><srai>FORGOT LIBRARY PIN</srai></template></category>
+	<category><pattern>* FORGOT * LIBRARY PIN</pattern>
+	<template><srai>FORGOT LIBRARY PIN</srai></template></category>
+	<category><pattern>FORGOT * LIBRARY PIN</pattern>
+	<template><srai>FORGOT LIBRARY PIN</srai></template></category>
+	<category><pattern>* FORGET * LIBRARY PIN *</pattern>
+	<template><srai>FORGOT LIBRARY PIN</srai></template></category>
+	<category><pattern>FORGET * LIBRARY PIN *</pattern>
+	<template><srai>FORGOT LIBRARY PIN</srai></template></category>
+	<category><pattern>* FORGET * LIBRARY PIN</pattern>
+	<template><srai>FORGOT LIBRARY PIN</srai></template></category>
+	<category><pattern>FORGET * LIBRARY PIN</pattern>
+	<template><srai>FORGOT LIBRARY PIN</srai></template></category>
+
+<!-- END PIN -->
+
+<!-- RESERVES REQUEST -->
+
+<category><pattern>GUIDELINES</pattern>
+<template>There are a lot of details to placing items on course reserves, I recommend taking a look at the <a href=" https://www.lib.uci.edu/course-reserves" target="_blank">Course Reserves page</a>.</template></category>
+<category><pattern>* HOW DO I PLACE MATERIALS ON COURSE RESERVE *</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>HOW DO I PLACE MATERIALS ON COURSE RESERVE *</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>* HOW DO I PLACE MATERIALS ON COURSE RESERVE</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>HOW DO I PLACE MATERIALS ON COURSE RESERVE</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>* CAN I PUT MY OWN MATERIALS ON COURSE RESERVE *</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>CAN I PUT MY OWN MATERIALS ON COURSE RESERVE *</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>* CAN I PUT MY OWN MATERIALS ON COURSE RESERVE</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>CAN I PUT MY OWN MATERIALS ON COURSE RESERVE</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>* WHAT MATERIALS CAN I PUT ON COURSE RESERVE *</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>WHAT MATERIALS CAN I PUT ON COURSE RESERVE *</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>* WHAT MATERIALS CAN I PUT ON COURSE RESERVE</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>WHAT MATERIALS CAN I PUT ON COURSE RESERVE</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>* CAN MATERIALS BE PURCHASED FOR COURSE RESERVE *</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>CAN MATERIALS BE PURCHASED FOR COURSE RESERVE *</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>* CAN MATERIALS BE PURCHASED FOR COURSE RESERVE</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>CAN MATERIALS BE PURCHASED FOR COURSE RESERVE</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>PUTTING * ON COURSE RESERVE</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>PUTTING A BOOK ON COURSE RESERVE</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>PUTTING A BOOK ON RESERVE</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>* PUTTING * ON COURSE RESERVE</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>PUTTING * ON COURSE RESERVE *</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>* PUTTING * ON COURSE RESERVE *</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>HOW TO PUT * ON RESERVE</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>HOW TO PUT A BOOK ON RESERVE</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>HOW TO PUT A BOOK ON COURSE RESERVE</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>* HOW TO PUT * ON RESERVE</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>HOW TO PUT * ON RESERVE *</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>* HOW TO PUT * ON RESERVE *</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>HOW DOES AN INSTRUCTOR PUT A BOOK ON COURSE RESERVE</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>HOW DO I RESERVE BOOK FOR A COURSE</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>COURSE RESERVE HOW</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+	<category><pattern>HOW TO DO COURSE RESERVE FOR INSTRUCTOR</pattern>
+	<template><srai>GUIDELINES</srai></template></category>
+
+<category><pattern>REQUEST FORM</pattern>
+<template> Click the link to access the <a href=" http://www.lib.uci.edu/course-reserves-request" target="_blank">Course Reserve Request Form</a></template></category> 	
+	<category><pattern>* COURSE RESERVE REQUEST FORM *</pattern>
+	<template><srai>REQUEST FORM</srai></template></category>
+	<category><pattern>COURSE RESERVE REQUEST FORM *</pattern>
+	<template><srai>REQUEST FORM</srai></template></category>
+	<category><pattern>* COURSE RESERVE REQUEST FORM</pattern>
+	<template><srai>REQUEST FORM</srai></template></category>
+	<category><pattern>COURSE RESERVE REQUEST FORM</pattern>
+	<template><srai>REQUEST FORM</srai></template></category>
+	<category><pattern>HOW CAN I PLACE A BOOK ON RESERVE</pattern>
+	<template><srai>REQUEST FORM</srai></template></category>
+	<category><pattern>* HOW CAN I PLACE A BOOK ON RESERVE</pattern>
+	<template><srai>REQUEST FORM</srai></template></category>
+	<category><pattern>HOW CAN I PLACE A BOOK ON RESERVE *</pattern>
+	<template><srai>REQUEST FORM</srai></template></category>
+	<category><pattern>* HOW CAN I PLACE A BOOK ON RESERVE *</pattern>
+	<template><srai>REQUEST FORM</srai></template></category>
+	<category><pattern>HOW DO I PUT A BOOK ON RESERVE</pattern>
+	<template><srai>REQUEST FORM</srai></template></category>
+	<category><pattern>* HOW DO I PUT A BOOK ON RESERVE</pattern>
+	<template><srai>REQUEST FORM</srai></template></category>
+	<category><pattern>HOW DO I PUT A BOOK ON RESERVE *</pattern>
+	<template><srai>REQUEST FORM</srai></template></category>
+	<category><pattern>* HOW DO I PUT A BOOK ON RESERVE *</pattern>
+	<template><srai>REQUEST FORM</srai></template></category>
+	<category><pattern>MAKE MY BOOK AVAILABLE ON COURSE RESERVES</pattern>
+	<template><srai>REQUEST FORM</srai></template></category>
+	<category><pattern>* MAKE MY BOOK AVAILABLE ON COURSE RESERVES</pattern>
+	<template><srai>REQUEST FORM</srai></template></category>
+	<category><pattern>MAKE MY BOOK AVAILABLE ON COURSE RESERVES *</pattern>
+	<template><srai>REQUEST FORM</srai></template></category>
+	<category><pattern>* MAKE MY BOOK AVAILABLE ON COURSE RESERVES *</pattern>
+	<template><srai>REQUEST FORM</srai></template></category>
+	<category><pattern>GO ABOUT SETTING A BOOK ASIDE FOR COURSE RESERVES</pattern>
+	<template><srai>REQUEST FORM</srai></template></category>
+	<category><pattern>GO ABOUT SETTING A BOOK ASIDE FOR COURSE RESERVES *</pattern>
+	<template><srai>REQUEST FORM</srai></template></category>
+	<category><pattern>* GO ABOUT SETTING A BOOK ASIDE FOR COURSE RESERVES</pattern>
+	<template><srai>REQUEST FORM</srai></template></category>
+	<category><pattern>* GO ABOUT SETTING A BOOK ASIDE FOR COURSE RESERVES *</pattern>
+	<template><srai>REQUEST FORM</srai></template></category>
+	<category><pattern>* PLACE A BOOK ON RESERVE</pattern>
+	<template><srai>REQUEST FORM</srai></template></category>
+	<category><pattern>* PLACE A BOOK ON RESERVE *</pattern>
+	<template><srai>REQUEST FORM</srai></template></category>
+	<category><pattern>* PUT SOMETHING ON RESERVE</pattern>
+	<template><srai>REQUEST FORM</srai></template></category>
+	<category><pattern>ADD ITEM TO RESERVES</pattern>
+	<template><srai>REQUEST FORM</srai></template></category>
+	<category><pattern>* RESERVE TEXTBOOKS *</pattern>
+	<template><srai>REQUEST FORM</srai></template></category>
+	<category><pattern>HOW TO RESERVE TEXT FOR FACULTY</pattern>
+	<template><srai>REQUEST FORM</srai></template></category>
+	
+<category><pattern>PLACE A BOOK ON REFERENCE</pattern> 
+<template>Books can not be placed on Reference, do you want to place a book on Reserve?</template></category>
+
+<category><pattern>YES</pattern>
+<that>Books can not be placed on Reference do you want to place a book on Reserve_</that>
+<template><srai>REQUEST FORM</srai></template></category>
+
+<category><pattern>NO</pattern>
+<that>Books can not be placed on Reference do you want to place a book on Reserve_</that>
+<template>You might want to talk to a librarian, try one of our other <a href=" 	https://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>Services.</template></category>
+	
+<category><pattern>* HOLD A BOOK AT THE COURSE RESERVE</pattern>
+<template>Yes but the book has to be currently checked out and the request has to be done in person at the Check Out desk. This service is only available at the Langson Library check out desk.</template></category>
+
+<category><pattern>* BOOK THAT IS LISTED ON THE COURSE RESERVE</pattern>
+<template>Find the call number using <a href=" https://www.lib.uci.edu/course-reserves/list" target="_blank">Course Reserves Search</a>, verify the item is not checked out, then take that number to the appropriate Check Out Desk.</template></category>
+
+<category><pattern>* GO TO THE CHECK OUT DESK TO HAVE ACCESS TO A TEXTBOOK</pattern>
+<template>Yes if the book is on course reserves you will need to check it out at the Check Out Desk.</template></category>
+
+<category><pattern>COPYRIGHT RESERVE</pattern>
+<template>Our reserve copyright guidelines are available on the <a href=" https://www.lib.uci.edu/copyright-guidelines-course-reserves" target="_blank">Copyright Guidelines</a> page</template></category>
+	<category><pattern>* COPYRIGHT GUIDELINES * RESERVE *</pattern>
+	<template><srai>COPYRIGHT RESERVE</srai></template></category>
+	<category><pattern>COPYRIGHT GUIDELINES * RESERVE *</pattern>
+	<template><srai>COPYRIGHT RESERVE</srai></template></category>
+	<category><pattern>* COPYRIGHT GUIDELINES * RESERVE</pattern>
+	<template><srai>COPYRIGHT RESERVE</srai></template></category>
+	<category><pattern>COPYRIGHT GUIDELINES * RESERVE</pattern>
+	<template><srai>COPYRIGHT RESERVE</srai></template></category>
+
+<category><pattern>SUBMIT RESERVE REQUEST</pattern>
+<template>Reserves requests and copyright permissions (when appropriate) should be submitted no later than 30 days before the start of an academic quarter to allow adequate time for processing. Requests submitted later, of course, will be accepted. All requests are processed strictly in the order in which they were received.</template></category>
+	<category><pattern>* WHEN SHOULD I SUBMIT * RESERVE REQUEST *</pattern>
+	<template><srai>SUBMIT RESERVE REQUEST</srai></template></category>
+	<category><pattern>WHEN SHOULD I SUBMIT * RESERVE REQUEST *</pattern>
+	<template><srai>SUBMIT RESERVE REQUEST</srai></template></category>
+	<category><pattern>* WHEN SHOULD I SUBMIT * RESERVE REQUEST</pattern>
+	<template><srai>SUBMIT RESERVE REQUEST</srai></template></category>
+	<category><pattern>WHEN SHOULD I SUBMIT * RESERVE REQUEST</pattern>
+	<template><srai>SUBMIT RESERVE REQUEST</srai></template></category>
+	<category><pattern>* WHEN SHOULD I SUBMIT RESERVE REQUESTS *</pattern>
+	<template><srai>SUBMIT RESERVE REQUEST</srai></template></category>
+	<category><pattern>WHEN SHOULD I SUBMIT RESERVE REQUESTS *</pattern>
+	<template><srai>SUBMIT RESERVE REQUEST</srai></template></category>
+	<category><pattern>* WHEN SHOULD I SUBMIT RESERVE REQUESTS</pattern>
+	<template><srai>SUBMIT RESERVE REQUEST</srai></template></category>
+	<category><pattern>WHEN SHOULD I SUBMIT RESERVE REQUESTS</pattern>
+	<template><srai>SUBMIT RESERVE REQUEST</srai></template></category>
+	<category><pattern>* HOW EARLY SHOULD I SUBMIT * RESERVE REQUEST *</pattern>
+	<template><srai>SUBMIT RESERVE REQUEST</srai></template></category>
+	<category><pattern>HOW EARLY SHOULD I SUBMIT * RESERVE REQUEST *</pattern>
+	<template><srai>SUBMIT RESERVE REQUEST</srai></template></category>
+	<category><pattern>* HOW EARLY SHOULD I SUBMIT * RESERVE REQUEST</pattern>
+	<template><srai>SUBMIT RESERVE REQUEST</srai></template></category>
+	<category><pattern>HOW EARLY SHOULD I SUBMIT * RESERVE REQUEST</pattern>
+	<template><srai>SUBMIT RESERVE REQUEST</srai></template></category>
+	<category><pattern>* HOW EARLY SHOULD I SUBMIT RESERVE REQUESTS *</pattern>
+	<template><srai>SUBMIT RESERVE REQUEST</srai></template></category>
+	<category><pattern>HOW EARLY SHOULD I SUBMIT RESERVE REQUESTS *</pattern>
+	<template><srai>SUBMIT RESERVE REQUEST</srai></template></category>
+	<category><pattern>* HOW EARLY SHOULD I SUBMIT RESERVE REQUESTS</pattern>
+	<template><srai>SUBMIT RESERVE REQUEST</srai></template></category>
+	<category><pattern>HOW EARLY SHOULD I SUBMIT RESERVE REQUESTS</pattern>
+	<template><srai>SUBMIT RESERVE REQUEST</srai></template></category>
+	<category><pattern>PLACE A BOOK ON RESERVE</pattern>
+	<template><srai>SUBMIT RESERVE REQUEST</srai></template></category>
+	
+<category><pattern>CREATING LINKS</pattern>
+<template>Library Course Reserves does not offer links to materials not in the Catalog at this time. Please use UCI Canvas to upload files or link to other websites.</template></category>
+	<category><pattern>* LINK * COURSE RESERVE *</pattern>
+	<template><srai>CREATING LINKS</srai></template></category>
+	<category><pattern>LINK * COURSE RESERVE *</pattern>
+	<template><srai>CREATING LINKS</srai></template></category>
+	<category><pattern>* LINK * COURSE RESERVE</pattern>
+	<template><srai>CREATING LINKS</srai></template></category>
+	<category><pattern>LINK * COURSE RESERVE</pattern>
+	<template><srai>CREATING LINKS</srai></template></category>
+	<category><pattern>* LINK * COURSE RESERVES *</pattern>
+	<template><srai>CREATING LINKS</srai></template></category>
+	<category><pattern>LINK * COURSE RESERVES *</pattern>
+	<template><srai>CREATING LINKS</srai></template></category>
+	<category><pattern>* LINK * COURSE RESERVES</pattern>
+	<template><srai>CREATING LINKS</srai></template></category>
+	<category><pattern>LINK * COURSE RESERVES</pattern>
+	<template><srai>CREATING LINKS</srai></template></category>
+
+</aiml> 

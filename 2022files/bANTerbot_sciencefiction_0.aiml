@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_SCIENCE FICTION</that>
+<template><srai>SCIENCE FICTION</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_SCIENCE FICTION</that>
+<template><srai>SCIENCE FICTION</srai></template></category>
+
+<category><pattern>SCIENCE FICTION</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/13ohhgg/alma991001867709704701" target="blank">Kindred: a graphic novel adaptation by Damian Duffy and John Jennings</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2583028" target="blank">Scythe</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/60044" target="blank">The Hitchhiker's Guide to the Galaxy</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/492963" target="blank">The Knife of Never Letting Go</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/227069" target="blank">The Maze Runner</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034546299704701" target="blank">Divergent</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1134311" target="blank">The 5th Wave</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/574435" target="blank">The Giver</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991033465359704701" target="blank">Saga</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4787330" target="blank">A Phoenix First Must Burn</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991018568399704701" target="blank">A Wrinkle in Time</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034546319704701" target="blank">Allegiant</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1377954" target="blank">Annihilation</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2890403" target="blank">Arrival</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1420416" target="blank">Bird Box</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1712638" target="blank">Catching Fire</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4840828" target="blank">Defying Doomsday</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991035109214204701" target="blank">Dune</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991034124129704701" target="blank">Fahrenheit 451</a></li>		
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5211966" target="blank">Falling in Love with Hominids</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991034351349704701" target="blank">Fragile Things</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991017868299704701" target="blank">Frankenstein</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034860319704701" target="blank">Friday Black</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5760" target="blank">His Dark Materials Series</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034868069404701" target="blank">How Long 'til Black Future Month?</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/578847" target="blank">Incarceron</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034546349704701" target="blank">Insurgent</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5089922" target="blank">Journey to Star Wars</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/504800" target="blank">Miss Peregrine's Home for Peculiar Children</a></li>		
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1713239" target="blank">Mockingjay</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3053891" target="blank">My Hero Academia</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3116062" target="blank">One-Punch Man</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/537142" target="blank">Ready Player One</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2754120" target="blank">Rebellion</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991012233049704701" target="blank">Red Clocks</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4669508" target="blank">Riot Baby</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035106882504701" target="blank">Slaughterhouse-Five</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2989511" target="blank">Star Wars: Ahsoka</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1638062" target="blank">Station Eleven</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991002750109704701" target="blank">The Bees</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991031630319704701" target="blank">The Children of Men</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035106632204701" target="blank">The City We Became</a></li>		
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1581864" target="blank">The Darkest Minds</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/564637" target="blank">The Death Cure</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035062427404701" target="blank">The Heap</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4559359" target="blank">The Institute</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034275699704701" target="blank">The Road</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/468783" target="blank">The Scorch Trials</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035002298204701" target="blank">This is How You Lose The Time War</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2988734" target="blank">Want</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034914618904701" target="blank">We Cast a Shadow</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034838499804701" target="blank">Wild Seed</a></li>		
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/94932" target="blank">World War Z</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/567409" target="blank">Zone One</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035062427404701" target="blank">The Heap</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1270752" target="blank">Meeks</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/513625	" target="blank">Spaceman Blues: A Love Song</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/d3dcuk/alma991034889111104701" target="blank">Skin and Earth</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991020195919704701" target="blank">Blindness</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991013354039704701" target="blank">The Dog Stars</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4522619" target="blank">Wilder Girls</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/871092" target="blank">Jurassic Park</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035082318004701" target="blank">Black</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991007612549704701" target="blank">Breakfast of Champions</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991030236539704701" target="blank">The Last Man</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/299862" target="blank">Ecotopia</a></li>	
+</random></template></category>
+
+<!-- SCIENCE FICTION tag -->
+
+	<category><pattern>* SCIENCE FICTION</pattern>
+	<template><srai>science fiction</srai></template></category>
+	<category><pattern>SCIENCE FICTION *</pattern>
+	<template><srai>science fiction</srai></template></category>
+	<category><pattern>* SCIENCE FICTION *</pattern>
+	<template><srai>science fiction</srai></template></category>
+
+<!-- SCIENCE*FICTION tag -->
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_SCIENCE*FICTION</that>
+<template><srai>SCIENCE FICTION</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_SCIENCE*FICTION</that>
+<template><srai>SCIENCE FICTION</srai></template></category>
+
+	<category><pattern>SCIENCE*FICTION</pattern>
+	<template><srai>science fiction</srai></template></category>
+	<category><pattern>* SCIENCE*FICTION</pattern>
+	<template><srai>science fiction</srai></template></category>
+	<category><pattern>SCIENCE*FICTION *</pattern>
+	<template><srai>science fiction</srai></template></category>
+	<category><pattern>* SCIENCE*FICTION *</pattern>
+	<template><srai>science fiction</srai></template></category>
+	
+<!-- SCIFI tag -->
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_SCIFI</that>
+<template><srai>SCIENCE FICTION</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_SCIFI</that>
+<template><srai>SCIENCE FICTION</srai></template></category>
+
+	<category><pattern>SCIFI</pattern>
+	<template><srai>science fiction</srai></template></category>
+	<category><pattern>* SCIFI</pattern>
+	<template><srai>science fiction</srai></template></category>
+	<category><pattern>SCIFI *</pattern>
+	<template><srai>science fiction</srai></template></category>
+	<category><pattern>* SCIFI *</pattern>
+	<template><srai>science fiction</srai></template></category>
+
+</aiml>

@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!--
+This file has the following:
+- hours questions
+-->
+<!-- the go-to statement -->
+<category>
+	<pattern>HOURS</pattern>
+	<template><parsehours><input /></parsehours></template>
+</category>
+
+<!-- General questions about "hours" -->
+<category>
+	<pattern>* HOURS</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>what is today*s library hours for LL library</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>what is the library hour</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>gateway open</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>when lib open</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>Are the libraries open</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>What are the operating hours</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>What are your opening hours</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>when library open</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>are you open during *</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>when does the library open today</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>Is the library open today</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>What time the library opens</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>What are the science library hours today</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>* the library is open today</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>when open</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>When is the opening hours of uci libraries</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>hi what time the library open today</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>* HOURS *</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>HOURS *</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>LIBRARY OPEN</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>What time do the libray opens</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>what is librarys schedule</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>IS IT OPEN TODAY</pattern>
+	<template>I'm not sure what IT is, can you ask your question using the name of the library. For example: Is Langson open today?</template>
+</category>
+<category>
+	<pattern>IS * OPEN</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>IS * OPEN *</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>TELL ME OPENING HOURS</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>* IS * OPEN</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>* LANGSON LIBRARY OPENS</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>what is the working hours</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>ARE YOU OPEN</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>* IS * OPEN *</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHAT IS YOUR HOURS</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHAT THE CURRENT LIBRARY HOURS</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHAT TIME * OPEN</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>SCHEDULE LIBRARIES</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>LIBRARY SCHEDULE</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHAT IS YOUR OPENING HOURS *</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>* OPEN HOUR</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>* OPENING HOUR</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHEN IS THE LIBRARY OPEN</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHAT TIME * OPEN *</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>* WHAT TIME * OPEN *</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHEN DOES * OPEN</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHEN DOES * OPEN *</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHAT ARE THE HOURS TODAY</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHAT TIME DOES THE LIBRARY OPEN</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>* WHEN DOES * OPEN</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>* WHEN DOES * OPEN *</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHEN IS * OPEN</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHEN IS * OPEN *</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>* WHEN IS * OPEN</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>* WHEN IS * OPEN *</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHAT TIME * CLOSE</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHAT TIME * CLOSE *</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>* WHAT TIME * CLOSE</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>* WHAT TIME * CLOSE *</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHEN * THE LIBRARIES CLOSE</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHEN DO YOU CLOSE</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHEN DO YOU CLOSE *</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHEN * YOU CLOSE *</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHEN DOES * CLOSE</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHEN DOES * CLOSE *</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>* WHEN DOES * CLOSE *</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>* WHEN DOES * CLOSE</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>IS * CLOSED</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>SCIENCE LIBRARY CLOSED</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>SCIENCE LIBRARY OPEN</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>IS * CLOSED *</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>* IS * CLOSED *</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>* IS * CLOSED</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>HOURS OF OPERATION</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHAT ARE YOUR HOURS</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHAT ARE * HOURS</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHAT ARE * HOURS *</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHAT ARE THE OPENING HOURS</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>I WOULD LIKE TO KNOW WHEN THE LIBRARY IS OPEN</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHAT ARE THE * LIBRARY HOURS TODAY</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHAT ARE YOUR LIBRARY HOURS</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHAT ARE THE LIBRARY HOURS</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHAT ARE THE LIBRARY OPENING HOURS</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHAT ARE YOUR OPERATING HOURS</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHAT ARE THE HOURS OF THE LIBRARY</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHAT ARE THE * LIBRARY HOURS</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>WHAT ARE HOURS FOR * LIBRARY</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+
+<!-- to catch when someone is asking how long something takes -->
+
+<category>
+	<pattern>HOW MANY HOURS *</pattern>
+	<template><srai>HOW LONG <star /></srai></template>
+</category>
+
+<!-- how late versions -->
+
+<category>
+	<pattern>HOW LATE ARE YOU OPEN</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>* OPEN AT THE WEEKEND *</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>* LIBRARY OPEN ON SUNDAYS *</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>* WEEKEND HOURS</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>* WEEKEND HOURS</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>HOW LATE ARE THE LIBRARIES OPEN</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>HOW LATE * OPEN</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>HOW LATE * OPEN *</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>* HOW LATE * OPEN *</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>HOW LATE * OPEN *</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+
+<!-- how early versions -->
+
+<category>
+	<pattern>HOW EARLY * OPEN</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>HOW EARLY * OPEN *</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>* HOW EARLY * OPEN *</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+<category>
+	<pattern>HOW EARLY * OPEN *</pattern>
+	<template><srai>HOURS</srai></template>
+</category>
+
+<!--Holiday-->
+
+<category><pattern>HOLIDAY</pattern>
+<template>The UC Irvine Libraries tend to be closed for most major holidays, check our <a href=" https://www.lib.uci.edu/hours" target="_blank">hours</a> database prior to planning your trip.</template></category> 
+<category><pattern>MEMORIAL DAY</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>* MEMORIAL DAY</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>MEMORIAL DAY *</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>* MEMORIAL DAY *</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>CESAR CHAVEZ</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>* CESAR CHAVEZ</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>CESAR CHAVEZ *</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>* CESAR CHAVEZ *</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>PRESIDENT* DAY</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>* PRESIDENT* DAY</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>PRESIDENT* DAY *</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>* PRESIDENT* DAY *</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>MARTIN LUTHER KING DAY</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>* MARTIN LUTHER KING DAY</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>MARTIN LUTHER KING DAY *</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>* MARTIN LUTHER KING DAY *</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>MARTIN LUTHER KING JR* DAY</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>* MARTIN LUTHER KING JR* DAY</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>MARTIN LUTHER KING JR* DAY *</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>* MARTIN LUTHER KING JR* DAY *</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>WINTER BREAK</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>* WINTER BREAK</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>WINTER BREAK *</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>* WINTER BREAK *</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>NEW YEARS</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>* NEW YEARS</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>NEW YEARS *</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>* NEW YEARS *</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>CHRISTMAS</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>* CHRISTMAS</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>CHRISTMAS *</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>* CHRISTMAS *</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>THANKSGIVING</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>* THANKSGIVING</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>THANKSGIVING *</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>* THANKSGIVING *</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>VETERANS DAY</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>* VETERANS DAY</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>VETERANS DAY *</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>* VETERANS DAY *</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>LABOR DAY</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>* LABOR DAY</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>LABOR DAY *</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>* LABOR DAY *</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>Independence Day</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>* Independence Day</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>Independence Day *</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>* Independence Day *</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>4TH OF JULY</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>* 4TH OF JULY</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>4TH OF JULY *</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>* 4TH OF JULY *</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>FOURTH OF JULY</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>* FOURTH OF JULY</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>FOURTH OF JULY *</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>* FOURTH OF JULY *</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+	<category><pattern>WHAT ARE THE HOLIDAY SCHEDULES</pattern>
+	<template><srai>HOLIDAY</srai></template></category>
+
+<category><pattern>WINTER BREAK</pattern>
+<template>Winter break is December 17 – January 1, 2019. The UC Irvine Libraries are closed December 24th - January 1, 2019! We wish you a happy winter holiday!</template></category>
+	<category><pattern>* WINTER BREAK</pattern>
+	<template><srai>WINTER BREAK</srai></template></category>
+	<category><pattern>WINTER BREAK *</pattern>
+	<template><srai>WINTER BREAK</srai></template></category>
+	<category><pattern>* WINTER BREAK *</pattern>
+	<template><srai>WINTER BREAK</srai></template></category>
+	<category><pattern>HOLIDAY BREAK</pattern>
+	<template><srai>WINTER BREAK</srai></template></category>
+	<category><pattern>* HOLIDAY BREAK</pattern>
+	<template><srai>WINTER BREAK</srai></template></category>
+	<category><pattern>HOLIDAY BREAK *</pattern>
+	<template><srai>WINTER BREAK</srai></template></category>
+	<category><pattern>* HOLIDAY BREAK *</pattern>
+	<template><srai>WINTER BREAK</srai></template></category>
+	<category><pattern>CHRISTMAS BREAK</pattern>
+	<template><srai>WINTER BREAK</srai></template></category>
+	<category><pattern>* CHRISTMAS BREAK</pattern>
+	<template><srai>WINTER BREAK</srai></template></category>
+	<category><pattern>CHRISTMAS BREAK *</pattern>
+	<template><srai>WINTER BREAK</srai></template></category>
+	<category><pattern>* CHRISTMAS BREAK *</pattern>
+	<template><srai>WINTER BREAK</srai></template></category>
+	<category><pattern>HOLIDAY SCHEDULE</pattern>
+	<template><srai>WINTER BREAK</srai></template></category>
+	<category><pattern>* HOLIDAY SCHEDULE</pattern>
+	<template><srai>WINTER BREAK</srai></template></category>
+	<category><pattern>HOLIDAY SCHEDULE *</pattern>
+	<template><srai>WINTER BREAK</srai></template></category>
+	<category><pattern>* HOLIDAY SCHEDULE *</pattern>
+	<template><srai>WINTER BREAK</srai></template></category>
+	
+<category><pattern>FINALS</pattern>
+<template>The Langson Library will be open 24/7 Finals Week! The Science Library will be open to 2 am.</template></category>
+	<category><pattern>* FINALS</pattern>
+	<template><srai>FINALS</srai></template></category>
+	<category><pattern>FINALS *</pattern>
+	<template><srai>FINALS</srai></template></category>
+	<category><pattern>* FINALS *</pattern>
+	<template><srai>FINALS</srai></template></category>
+	
+<!--<category><pattern>SPRING BREAK</pattern>
+<template>Spring Break 2019 is March 25th - 29th. The UCI Libraries are open M-Th from 8AM - 5PM, we will be closed Friday for Cesar Chavez Day.</template></category>
+	<category><pattern>* SPRING BREAK</pattern>
+	<template><srai>SPRING BREAK</srai></template></category>
+	<category><pattern>SPRING BREAK *</pattern>
+	<template><srai>SPRING BREAK</srai></template></category>
+	<category><pattern>* SPRING BREAK *</pattern>
+	<template><srai>SPRING BREAK</srai></template></category>-->
+
+<!--<category><pattern>ID CARD</pattern>	
+<template>Beginning November 30th (December 5th for Science Library) you will be asked to present your UC ID card to library staff beginning at 11pm. <a href=" https://www.lib.uci.edu/building-access" target="_blank">More details here</a>.</template></category>
+	<category><pattern>UC ID CARD</pattern>
+	<template><srai>ID CARD</srai></template></category>
+	<category><pattern>DO I NEED MY ID CARD TO ACCESS THE LIBRARY</pattern>
+	<template><srai>ID CARD</srai></template></category>
+	<category><pattern>UC IDS</pattern>
+	<template><srai>ID CARD</srai></template></category>
+	<category><pattern>ID</pattern>
+	<template><srai>ID CARD</srai></template></category>-->
+	
+<category><pattern>FINALS LATE NIGHT STUDY</pattern>
+<template>During 10th week and Finals ID must be shown after 11 PM, for more information: https://www.lib.uci.edu/building-access.</template></category>
+	<category><pattern>EXTENDED HOURS * FINALS</pattern>
+	<template><srai>FINALS LATE NIGHT STUDY</srai></template></category>
+	<category><pattern>EXTENDED HOURS * FINALS *</pattern>
+	<template><srai>FINALS LATE NIGHT STUDY</srai></template></category>
+	<category><pattern>* EXTENDED HOURS * FINALS *</pattern>
+	<template><srai>FINALS LATE NIGHT STUDY</srai></template></category>
+	<category><pattern>* EXTENDED HOURS * FINALS</pattern>
+	<template><srai>FINALS LATE NIGHT STUDY</srai></template></category>
+	<category><pattern>FINALS * EXTENDED HOURS</pattern>
+	<template><srai>FINALS LATE NIGHT STUDY</srai></template></category>
+	<category><pattern>* FINALS * EXTENDED HOURS</pattern>
+	<template><srai>FINALS LATE NIGHT STUDY</srai></template></category>
+	<category><pattern>FINALS * EXTENDED HOURS* </pattern>
+	<template><srai>FINALS LATE NIGHT STUDY</srai></template></category>
+	<category><pattern>* FINALS * EXTENDED HOURS *</pattern>
+	<template><srai>FINALS LATE NIGHT STUDY</srai></template></category>
+
+<category><pattern>IS THE LIBRARY OPEN</pattern>
+<template>Please check our <a href="https://www.lib.uci.edu/hours" target="_blank">library hours</a>.</template></category>
+
+<category><pattern>* OPENING TIMES</pattern>
+<template>Please use the word HOURS instead of times, thanks!</template></category>
+
+<category><pattern>* LIBRARIES CLOSE</pattern>
+<template>Please use the word HOURS to get the libraries operating hours, thanks!</template></category>
+
+<category><pattern>* CLOSE *</pattern>
+<template>Please use the word HOURS to get the libraries operating hours, thanks!</template></category>
+
+<category><pattern>SEARCH JAVA</pattern>
+<template>I'm not sure what you are asking for, if you want books on JAVA, say: books on java.</template></category>
+
+<category><pattern>* BOOKS AVAILABLE FOR CHECKOUT ON SUNDAYS *</pattern>
+<template>If the library is open and the book is not already checked out then use if is available.</template></category>	
+
+</aiml>

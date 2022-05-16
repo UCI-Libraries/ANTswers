@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_PERSON OF COLOR</that>
+<template><srai>PERSON OF COLOR</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_PERSON OF COLOR</that>
+<template><srai>PERSON OF COLOR</srai></template></category>
+
+<category><pattern>PERSON OF COLOR</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034861919304701" target="blank">Aristotle and Dante Discover the Secrets of the Universe</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991035002299304701" target="blank">Becoming</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/d3dcuk/alma991010986029704701" target="blank">Begin with a Failed Body</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035029915404701" target="blank">Dear Girls: Intimate Tales, Untold Secrets, and Advice for Living Your Best Life</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035062446304701" target="blank">How to be an Antiracist</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3249094" target="blank">I Am Not Your Perfect Mexican Daughter</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/13ohhgg/alma991001867709704701" target="blank">Kindred: a graphic novel adaptation by Damian Duffy and John Jennings</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991033218789704701" target="blank">Men We Reaped</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4581159" target="blank">Ordinary Girls</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035067036104701" target="blank">The Magical Language of Others</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035008716604701" target="blank">What Set Me Free</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1678092" target="blank">To All the Boys I've Loved Before</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/13ohhgg/alma991034838518504701" target="blank">P.S. I Still Love You</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034964018604701" target="blank">Emergency Contact</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3359750" target="blank">Love, Hate and Other Filters</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3441354" target="blank">American Panda</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991001027139704701" target="blank">Eleanor and Park</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1896533" target="blank">American Born Chinese</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991034889115204701" target="blank">The Prince and the Dressmaker</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1806990" target="blank">This One Summer</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2144376" target="blank">Everything, Everything</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991023504189704701" target="blank">The Absolutely True Diary of a Part-Time Indian</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3089734" target="blank">Piecing Me Together</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4787330" target="blank">A Phoenix First Must Burn</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4908244" target="blank">A Song Below Water</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4940869" target="blank">A Song of Wraiths and Ruin</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2184718" target="blank">Between the World and Me</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4682339" target="blank">Beyond Survival: Strategies and Survival from the Transformative Justice Movement</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4617960" target="blank">Black Girl Unlimited</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034938665004701" target="blank">Black Klansman: Race, Hate, and the Undercover Investigation of a Lifetime</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991033464949704701" target="blank">Boxers and Saints</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5387634" target="blank">Cinderella is Dead</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3053823" target="blank">Death Note</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991035087802504701" target="blank">Fight the Power: African Americans and the Long History of Police Brutality in New York City</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1013158" target="blank">Fresh Off the Boat: A Memoir</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034860319704701	" target="blank">Friday Black</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991016406309704701" target="blank">God Help the Child</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2260575" target="blank">Grit: The Power of Passion and Perseverance</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034993718204701" target="blank">Haben: The Deafblind Woman Who Conquered Harvard Law</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034868069404701" target="blank">How Long 'til Black Future Month?</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1290147" target="blank">I am Malala</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4187600" target="blank">Indian-ish</a></li>		
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3115945" target="blank">JoJo's Bizarre Adventure</a></li>		
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4814906" target="blank">Lakewood</a></li>		
+	<li>I would recommend that you try <a href="hhttps://ucirvinemain.overdrive.com/media/4197619" target="blank">Last Boat Out of Shanghai: The Epic Story of the Chinese Who Fled Mao's Revolution</a></li>		
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034964018504701" target="blank">Let Love Have the Last Word</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1265462" target="blank">Looking for Palestine: Growing Up Confused in an Arab-American Family</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991033464829704701" target="blank">March</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3053891" target="blank">My Hero Academia</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2679159" target="blank">Night Sky with Exit Wounds</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991002037989704701" target="blank">Nobody: Casualities of America's War on the Vulnerable, from Ferguson to Flint and Beyond</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3262516" target="blank">Not Now, Not Ever</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3053941" target="blank">One Piece</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3116062" target="blank">One-Punch Man</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991009943409704701" target="blank">Policing the Black Man: Arrest, Prosecution, and Imprisonment</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035069865004701" target="blank">Queenie</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5384936" target="blank">Raybearer</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035085614504701" target="blank">Real life</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4669508" target="blank">Riot Baby</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2831178" target="blank">Salt, Fat, Acid, Heat</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4455756" target="blank">Serious Eater: A Food Lover's Perilous Quest for Pizza and Redemption</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3022487" target="blank">Sing, Unburied, Sing</a></li>				
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4671110" target="blank">Sorry I'm Late, I Didn't Want to Come</a></li>		
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2260182" target="blank">Spark Joy</a></li>		
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991035069865304701" target="blank">Such a Fun Age</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035050219304701" target="blank">The Beautiful Ones</a></li>		
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034850998204701" target="blank">The Black and the Blue: A Cop Reveals the Crimes, Racism, and Injustice in America's Law Enforcement</a></li>		
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035106632204701" target="blank">The City We Became</a></li>		
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2398158" target="blank">The Food Lab: Better Home Cooking Through Science</a></li>		
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035039013204701" target="blank">The Revisioners</a></li>		
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4455360" target="blank">The Revolution of Birdie Randolph</a></li>		
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991034889114004701" target="blank">The Secret Loves of Geeks</a></li>			
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991015673629704701" target="blank">The Sellout</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035024568504701" target="blank">The Shadow King</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034944462804701" target="blank">The Sun is Also a Star</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034987661704701" target="blank">The Travelers</a></li>	
+	<li>I would recommend that you try <a href="hhttps://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035004103604701" target="blank">The Warmth of Other Suns</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4639681" target="blank">The Water Dancer</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5067571" target="blank">The Year of the Witching</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4529277" target="blank">The Yellow House</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035085385804701" target="blank">These Ghosts Are Family</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2988734" target="blank">Want</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034914618904701" target="blank">We Cast a Shadow</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991015515969704701" target="blank">Welcome to Braggsville</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2237293" target="blank">Year of Yes</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma9910130430597047016" target="blank">Yes, Chef: A Memoir</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/567409" target="blank">Zone One</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991012550369704701" target="blank">Heart Berries A Memoir</a></li>		
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3166390" target="blank">Abandon Me: Memoirs</a></li>		
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991033218789704701	" target="blank">Men We Reaped: A Memoir</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4314434" target="blank">The Inheritance of Haunting</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/148288" target="blank">Beloved</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991026645089704701" target="blank">Fences</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991019361849704701" target="blank">Gorilla, My Love</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035075018804701" target="blank">Homegoing</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034944455704701" target="blank">The Sleepwalker's Guide to Dancing</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034836249704701" target="blank">The Storm</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035101919404701" target="blank">Cutting for Stone</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4690423" target="blank">War/Torn</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034840183404701" target="blank">Bad Indians: a tribal memoir</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1188879" target="blank">Crazy Rich Asians</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5067464" target="blank">Empire of Wild</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3717690" target="blank">Everyday People</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4860282" target="blank">Eyes Bottle Dark with a Mouthful of Flowers</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5211966" target="blank">Falling in Love with Hominids</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034863566204701" target="blank">Family Trust</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991035046407404701" target="blank">Free Food for Millionaires</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3403631" target="blank">Girls Burn Brighter</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034912326304701" target="blank">Heads of the Colored People</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991023028479704701" target="blank">Hidden Figures</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991006207889704701" target="blank">I am Not Your Negro</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4100645" target="blank">Jonny Appleseed</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991010286679704701" target="blank">Home Girls: A Black Feminist Anthology</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4942666" target="blank">Mixed Feelings</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4265094" target="blank">New Daughters of Africa</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991007393279704701" target="blank">Sisterfire: Black Womanist Fiction and Poetry</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991006853409704701" target="blank">The Black Woman: An Anthology</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991000329939704701" target="blank">The Heart of a Woman</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5274200" target="blank">Big Black: Stand at Attica</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035004103804701" target="blank">Born a Crime</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3790215" target="blank">Brit(ish)</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034488889704701" target="blank">Color of Violence: The INCITE! Anthology</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991024313549704701" target="blank">Dreams in A Time of War</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991012493519704701" target="blank">Eloquent Rage</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4896455" target="blank">Here for It</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991021192009704701" target="blank">I Know Why the Caged Bird Sings</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991019326949704701" target="blank">I Write What I Like</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035146202304701" target="blank">I'm Still Here: Black Dignity in A World for Whiteness</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991010662559704701" target="blank">Just Mercy: A Story of Justice and RedemptionLong Walk to Freedom</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991017921469704701" target="blank">Negroland: A Memoir</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034856108104701" target="blank">No Ashes in the Fire: Coming of Age Black and Free in America</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991020602579704701" target="blank">Notes of a Native Son</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034850998004701" target="blank">On the Other Side of Freedom: The Case for Hope</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035050186604701" target="blank">Open Season: Legalized Genocide of Colored People</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2188200" target="blank">Strange Fruit: Uncelebrated Narratives from Black History</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4455465" target="blank">Black Panther: A Nation Under Our Feet</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991021187209704701" target="blank">Black Power: The Politics of Liberation in America</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991035109214304701" target="blank">Black Skin, White Masks</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991023824439704701" target="blank">From #BlackLivesMatter to Black Liberation</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1223649" target="blank">Giovanni's Room</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991035125710204701" target="blank">Girl, Woman, Other</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991012558889704701" target="blank">Freshwater</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5038220" target="blank">Five Days: The Fiery Reckoning of an American City</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991018314139704701" target="blank">Fifteen Dogs</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991020091149704701" target="blank">Human Acts</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1377453" target="blank">If Beale Street Could Talk</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991013940139704701" target="blank">Why Are All the Black Kids Sitting Together in the Cafeteria</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034838499804701" target="blank">Wild Seed</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1309415" target="blank">Yummy: The Last Days of a Southside Shorty</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035088065804701" target="blank">Homie</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4172401" target="blank">The Crazy Bunch</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991021027559704701" target="blank">Caucasia</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3293961" target="blank">Even This Page is White</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034863551204701" target="blank">Indecency</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3949229" target="blank">Well-Read Black Girl: Finding Our Stories, Discovering Ourselves</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035002297804701" target="blank">Americanah</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991025393839704701" target="blank">Big Machine</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034889217404701" target="blank">Bingo Love</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034889217404701" target="blank">Do Not Say We Have Nothing</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035087542304701" target="blank">Driving While Black: African American Travel and the Road to Civil Rights</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2405838" target="blank">Everfair</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/148284" target="blank">Jazz</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3990832" target="blank">Jeremy Vannie Elsies</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034952947404701" target="blank">Lynching: Violence, Rhetoric, and American Identity</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4857454" target="blank">Making Our Way Home</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035146202404701" target="blank">Me and White Supremacy</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034937192504701" target="blank">Our History is the Future</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3707780" target="blank">Pride</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4608339" target="blank">Queen of the Conquered</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035001883204701" target="blank">Race After Technology</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991012510929704701" target="blank">So You want to Talk About Race</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991020478559704701" target="blank">Stamped from the Beginning</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4042048" target="blank">Teaching to Transgress</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034850998204701" target="blank">The Black and the Blue: A Cop Reveals the Crimes, Racism, and Injustice in America's Law Enforcement</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991012173319704701" target="blank">The Color of Water: A Black Man's Tribute to his White Mother</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991000644689704701" target="blank">The Color Purple</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4230407" target="blank">The Confessions of Frannie Langton</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991021411649704701" target="blank">The Counter-Revolution of 1776</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991035075303104701" target="blank">The New Jim Crow: Mass Incarceration in the Age of Colorblindness</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4548514" target="blank">The Shape of Family</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034964897304701" target="blank">The Tao of Raven: An Alaska Native Memoir</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991017083539704701" target="blank">The Wretched of the Earth</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991030561269704701" target="blank">Their Eyes Were Watching God</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3684922" target="blank">There There</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991000962749704701" target="blank">They Can't Kill Us All: Ferguson, Baltimore, and a New Era in America's Racial Justice Movement</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035044616904701" target="blank">Unapologetic: A Black, Queer, and Feminist Mandate for Radical Movements</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991010710719704701" target="blank">We Were Eight Years In Power</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034932507104701" target="blank">What Doesn't Kill You Makes You Blacker: A Memoir in Essays</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991000962859704701" target="blank">Whatever Happened to Interracial Love</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991035146202804701" target="blank">When They Call You a Terrorist: A Black Lives Matter Memoir</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991035146202604701" target="blank">White Rage</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991029789639704701" target="blank">Wrestling with the Devil: A Prison Memoir</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3091413" target="blank">Invisible No More: Police Violence Against Black Women and Women of Color</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991033464829704701" target="blank">March: Book One</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991020643789704701" target="blank">Nat Turner</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034850998204701" target="blank">The Black and the Blue: A Cop Reveals the Crimes, Racism, and Injustice in America's Law Enforcement</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991014101399704701" target="blank">Crazy Brave</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991029098459704701	" target="blank">Collected Works of Effie Waller Smith</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035192779204701" target="blank">Black Bone</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3036784" target="blank">Nature Poem</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4240589" target="blank">The Carrying</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991003273889704701" target="blank">The Logan Topographies</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4813947" target="blank">The Tradition</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3027601" target="blank">When I Grow up I Want to Be a List of Further Possibilities</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1276069" target="blank">When My Broher was an Aztec</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991027709229704701" target="blank">Fist Stick Knife Gun: A Personal History of Violence</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3716843" target="blank">Incognegro</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3949057" target="blank">New Kid</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5094589" target="blank">Bitter Root</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4321889" target="blank">Black History in Its Own Words</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991003003489704701" target="blank">Shortcomings</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034757239704701" target="blank">Black Faces, White Spaces</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991020624009704701" target="blank">Blacks in Appalachia</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991034853318204701" target="blank">Gone Home: Race and Roots through Appalachia</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991011597439704701" target="blank">Killing Rage: Ending Racism</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991002037989704701" target="blank">Nobody: Casualties of America's War on the Vulnerable, from Ferguson to Flint and Beyond</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2454380" target="blank">Space Invaders</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991027892869704701" target="blank">The Fire Next Time</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991024139509704701" target="blank">Beneath the Lion's Gaze</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991034921055704701" target="blank">House of Stone</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991000222569704701" target="blank">Miss Muriel and Other Stories</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/206969" target="blank">Monster: a graphic novel</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991025386469704701" target="blank">All That Work and Still No Boys</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991033958979704701" target="blank">Ancestor Stones</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991017872949704701" target="blank">Beetlecreek</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4127164" target="blank">Black Leopard, Red Wolf</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991011627909704701" target="blank">Brother</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991034280039704701" target="blank">Dust</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991034032899704701" target="blank">Half of a Yellow Sun</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991035075018804701" target="blank">Homegoing</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4229513" target="blank">Hundred Wells of Salaga</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3057838" target="blank">In the Not Quite Dark</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3950635" target="blank">Indian Horse</a></li>		
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991012513239704701" target="blank">Kintu</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035063476004701" target="blank">No Good Very Bad Asian</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034836249904701" target="blank">Number One Chinese Restaurant</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991035026061404701" target="blank">Out of Darkness, Shining Light</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991018918309704701" target="blank">Palace of Illusions</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991011503579704701" target="blank">Pedro Paramo</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5043257" target="blank">Pizza Girl</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991022652379704701" target="blank">Problems</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991017216449704701" target="blank">Re Jane</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991000519329704701" target="blank">Saint Monkey</a></li>		
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034973104404701" target="blank">The Farm</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991034936815404701" target="blank">The Old Drift</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991030402449704701" target="blank">The People of Paper</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991014089349704701" target="blank">The Round House</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991015286429704701" target="blank">We Should Never Meet</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991000479709704701" target="blank">White Rat</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/641971" target="blank">Wounded</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991017977989704701" target="blank">Yellow Back Radio Broke-Down</a></li>
+</random></template></category>
+
+<!-- PERSON OF COLOR tag -->
+
+	<category><pattern>* PERSON OF COLOR</pattern>
+	<template><srai>person of color</srai></template></category>
+	<category><pattern>PERSON OF COLOR *</pattern>
+	<template><srai>person of color</srai></template></category>
+	<category><pattern>* PERSON OF COLOR *</pattern>
+	<template><srai>person of color</srai></template></category>
+	
+<!-- PEOPLE OF COLOR tag -->
+	
+	<category><pattern>PEOPLE OF COLOR</pattern>
+	<template><srai>person of color</srai></template></category>
+	<category><pattern>* PEOPLE OF COLOR</pattern>
+	<template><srai>person of color</srai></template></category>
+	<category><pattern>PEOPLE  OF COLOR *</pattern>
+	<template><srai>person of color</srai></template></category>
+	<category><pattern>* PEOPLE  OF COLOR *</pattern>
+	<template><srai>person of color</srai></template></category>
+	
+<!-- AUTHOR OF COLOR tag -->
+	
+	<category><pattern>AUTHOR OF COLOR</pattern>
+	<template><srai>person of color</srai></template></category>
+	<category><pattern>* AUTHOR OF COLOR</pattern>
+	<template><srai>person of color</srai></template></category>
+	<category><pattern>AUTHOR OF COLOR *</pattern>
+	<template><srai>person of color</srai></template></category>
+	<category><pattern>* AUTHOR OF COLOR *</pattern>
+	<template><srai>person of color</srai></template></category>
+	
+<!--Asian Asian American-->
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_ASIAN</that>
+<template><srai>ASIAN</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_ASIAN</that>
+<template><srai>ASIAN</srai></template></category>
+
+<category><pattern>ASIAN</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2636444" target="blank">A Good Time for the Truth</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034944457904701" target="blank">A Place Called No Homeland</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1188879" target="blank">Crazy Rich Asians</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3053823" target="blank">Death Note</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035002298304701" target="blank">Do Not Say We Have Nothing</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034863566204701" target="blank">Family Trust</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991035046407404701" target="blank">Free Food for Millionaires</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3403631" target="blank">Girls Burn Brighter</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991020091149704701" target="blank">Human Acts</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3115945" target="blank">JoJo's Bizarre Adventure</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3053891" target="blank">My Hero Academia</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991009736289704701" target="blank">Notes of a Crocodile</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3053941" target="blank">One Piece</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3116062" target="blank">One-Punch Man</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5274391" target="blank">Parasite</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035094919704701" target="blank">Severance</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991028053079704701" target="blank">Slant</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991005810349704701" target="blank">Stories of Your Life and Others</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3035507" target="blank">The Black Tides of Heaven</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2398158" target="blank">The Food Lab: Better Home Cooking Through Science</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991034889114004701" target="blank">The Secret Loves of Geeks</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2988734" target="blank">Want</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034853319604701" target="blank">If They Come for Us</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3889465" target="blank">Eye Level</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034861099004701" target="blank">Hey, Marfa	</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034844866104701" target="blank">Isako Isako</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034836245704701" target="blank">Not Here</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034912515304701" target="blank">Oculus</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034836416604701" target="blank">Bridled</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034836245504701" target="blank">Oceanic</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034883450104701" target="blank">A Cruelty Special to Our Species</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035029915404701" target="blank">Dear Girls: Intimate Tales, Untold Secrets, and Advice for Living Your Best Life</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3027601" target="blank">When I Grow up I Want to Be a List of Further Possibilities</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991015286429704701" target="blank">We Should Never Meet</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991018918309704701" target="blank">Palace of Illusions</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3043658" target="blank">The City Always Wins</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991017216449704701" target="blank">Re Jane</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5043257" target="blank">Pizza Girl</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035063476004701" target="blank">No Good Very Bad Asian</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991025386469704701" target="blank">All that work and still no boys</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991005727249704701" target="blank">A single shard</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991034944455704701" target="blank">The sleepwalker's guide to dancing: a novel</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991034944461504701" target="blank">Tiger girl: a novel</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5639811?cid=1205260" target="blank">Crying in H Mart</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/528995?cid=1205260" target="blank">Asian American Dreams</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2144102?cid=1205260" target="blank">The Making of Asian America</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/116445?cid=1205260" target="blank">Driven Out</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1443171?cid=1205260" target="blank">The Color of Success</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5244678?cid=1205260" target="blank">Everything She Touched</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5042234?cid=1205260" target="blank">Set the Night on Fire</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4692667?cid=1205260" target="blank">Sigh, Gone</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3135209?cid=1205260" target="blank">The Best We Could Do</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4907110?cid=1205260" target="blank">Minor Feelings</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4680654?cid=1205260" target="blank">Dear Girls</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1977209?cid=1205260" target="blank">Chop Suey, USA</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/258523?cid=1205260" target="blank">The Chinese in America</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4769019?cid=1205260" target="blank">Know My Name</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/454188?cid=1205260" target="blank">The Woman Warrior</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4197619?cid=1205260" target="blank">Last Boat Out of Shanghai</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1013158?cid=1205260" target="blank">Fresh Off the Boat</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5322170?cid=1205262" target="blank">Sex and Vanity</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5185676?cid=1205262" target="blank">Fifty Words for Rain</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2763946?cid=1205262" target="blank">Pachinko</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4849272?cid=1205262" target="blank">How Much of These Hills Is Gold</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5274855?cid=1205262" target="blank">White Ivy</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4681124?cid=1205262" target="blank">Anna K</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3787917?cid=1205262" target="blank">Immigrant, Montana</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/574553?cid=1205262" target="blank">The Namesake</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3750131?cid=1205262" target="blank">Severance</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4181902?cid=1205262" target="blank">Before She Sleeps</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2159458?cid=1205262" target="blank">The Sympathizer</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1945187?cid=1205262" target="blank">A Little Life</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3488467?cid=1205262" target="blank">The Kiss Quotient</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1258442?cid=1205262" target="blank">Monkey Bridge</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4489344?cid=1205262" target="blank">Frankly in Love</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1678092?cid=1205262" target="blank">To All the Boys I've Loved Before</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3985048?cid=1205262" target="blank">The Downstairs Girl</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4381999?cid=1205262" target="blank">Tropic of Orange</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5333590?cid=1205262" target="blank">The Committed</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5043182?cid=1205262" target="blank">If I Had Your Face</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2679159?cid=1205262" target="blank">Night Sky with Exit Wounds</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2922978?cid=1205262" target="blank">The Leavers</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3198355?cid=1205262" target="blank">Go Home!</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2831231?cid=1205262" target="blank">The Tea Girl of Hummingbird Lane</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1286619?cid=1205262" target="blank">The Latehomecomer</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4414355?cid=1205262" target="blank">Home Remedies</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3046375?cid=1205262" target="blank">Rich People Problems</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4966706?cid=1205262" target="blank">Last Tang Standing</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2069429?cid=1205262" target="blank">China Rich Girlfriend</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3027601?cid=1205262" target="blank">When I Grow Up I Want to Be a List of Further Possibilities</a></li>	 
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1188879?cid=1205262" target="blank">Crazy Rich Asians</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1438572?cid=1205262" target="blank">Everything I Never Told You</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4866911?cid=1205262" target="blank">Interior Chinatown</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5294842?cid=1205262" target="blank">Nights When Nothing Happened</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3985041?cid=1205262" target="blank">The Bride Test</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4787802?cid=1205262" target="blank">We Are Not Free</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4824698?cid=1205262" target="blank">Days of Distraction</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/573723?cid=1205262" target="blank">Interpreter of Maladies</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5340151?cid=1205262" target="blank">Homeland Elegies</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4281463?cid=1205262" target="blank">On Earth We're Briefly Gorgeous</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5573975?cid=1205262" target="blank">A Pho Love Story</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5723260?cid=1205262" target="blank">My Year Abroad</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5558820?cid=1205262" target="blank">Klara and the Sun</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/981120" target="blank">A Tale for the Time Being</a></li>
+</random></template></category>
+
+	<category><pattern>ASIAN AMERICAN</pattern>
+	<template><srai>ASIAN</srai></template></category>
+	<category><pattern>* ASIAN AMERICAN</pattern>
+	<template><srai>ASIAN</srai></template></category>
+	<category><pattern>ASIAN AMERICAN *</pattern>
+	<template><srai>ASIAN</srai></template></category>
+	<category><pattern>* ASIAN AMERICAN *</pattern>
+	<template><srai>ASIAN</srai></template></category>
+
+<!--Native American -->
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_NATIVE AMERICAN</that>
+<template><srai>NATIVE AMERICAN</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_NATIVE AMERICAN</that>
+<template><srai>NATIVE AMERICAN</srai></template></category>
+	
+<category><pattern>NATIVE AMERICAN</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3166390" target="blank">Abandon Me: Memoirs</a></li>		
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034840183404701" target="blank">Bad Indians: a tribal memoir</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034917066604701" target="blank">Brother Bullet</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5023245" target="blank">Disintegrate/Dissociate</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5067464" target="blank">Empire of Wild</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4860282" target="blank">Eyes Bottle Dark with a Mouthful of Flowers</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991012550369704701" target="blank">Heart Berries A Memoir</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4100645" target="blank">Jonny Appleseed</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991033218789704701" target="blank">Men We Reaped: A Memoir</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034937192504701" target="blank">Our History is the Future</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034964897304701" target="blank">The Tao of Raven: An Alaska Native Memoir</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3684922" target="blank">There There</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035006649404701" target="blank">This Wound is a World</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1276069" target="blank">When My Brother was an Aztec</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3036784" target="blank">Nature Poem</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991014089349704701" target="blank">The Round House</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3950635" target="blank">Indian Horse</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991014101399704701" target="blank">Crazy Brave</a></li>
+</random></template></category>	
+
+<category><pattern>* NATIVE AMERICAN</pattern>
+<template><srai>NATIVE AMERICAN</srai></template></category>
+<category><pattern>NATIVE AMERICAN *</pattern>
+<template><srai>NATIVE AMERICAN</srai></template></category>
+<category><pattern>* NATIVE AMERICAN *</pattern>
+<template><srai>NATIVE AMERICAN</srai></template></category>
+
+<!-- Arab American -->
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_ARAB AMERICAN</that>
+<template><srai>ARAB AMERICAN</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_ARAB AMERICAN</that>
+<template><srai>ARAB AMERICAN</srai></template></category>
+
+<category><pattern>ARAB AMERICAN</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991028832809704701" target="blank">Anatomy of a disappearance</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991000546129704701" target="blank">And the time is: poems, 1958-2013</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991021900239704701" target="blank">Angeleno days: an Arab American writer on family, place, and politics</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991032372859704701" target="blank">The Arab Americans</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991007109369704701" target="blank">Arab and Arab American feminisms: gender, violence, and belonging</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991030478529704701" target="blank">Between the Middle East and the Americas: the cultural politics of diaspora</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991009877409704701" target="blank">Birds of paradise: a novel</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991032619119704701" target="blank">The corpse washer</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991023447349704701" target="blank">A country called Amreeka: Arab roots, American stories</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991034083939704701" target="blank">"Evil" Arabs in American popular film: orientalist fear</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991018774099704701" target="blank">Handbook of Arab American psychology</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991022757389704701" target="blank">Homeland insecurity: the Arab American and Muslim American experience after 9/11</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991019632699704701" target="blank">How does it feel to be a problem?: being young and Arab in America</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991034223199704701 " target="blank">In the country of men</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991017781189704701" target="blank">In the language of miracles</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991034044299704701" target="blank">The iron cage: the story of the Palestinian struggle for statehood</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991013355139704701" target="blank">Lebanese blonde: a novel</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991028364869704701" target="blank">Loom: a novel </a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991020361759704701" target="blank">A map of home: a novel</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991022153299704701" target="blank">Master of the eclipse: and other stories</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991007271159704701" target="blank">Modern Arab American fiction: a reader's guide</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991000966839704701" target="blank">The Moor's account: a novel</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991031255199704701" target="blank">Night draws near: Iraq's people in the shadow of America's war</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991001524649704701" target="blank">Old Islam in Detroit: rediscovering the Muslim American past</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991003427069704701" target="blank">Origin: a novel</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991018839579704701" target="blank">Palestine inside out: an everyday occupation</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991001147959704701 " target="blank">Remember me to Lebanon: stories of Lebanese women in America</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991016160919704701" target="blank">The republics</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991003891649704701" target="blank">The rise of the Arab American left: activists, allies, and their fight against imperialism and racism, 1960s-1980s</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991018132809704701" target="blank">This Muslim American life: dispatches from the War on Terror</a></li>   
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991034245729704701" target="blank">An unnecessary woman</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991014855239704701" target="blank">We are Iraqis: aesthetics and politics in a time of war</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991030247999704701" target="blank">The woman upstairs: a novel</a></li>  
+</random></template></category>
+
+<category><pattern>* ARAB AMERICAN</pattern>
+<template><srai>ARAB AMERICAN</srai></template></category>
+<category><pattern>ARAB AMERICAN *</pattern>
+<template><srai>ARAB AMERICAN</srai></template></category>
+<category><pattern>* ARAB AMERICAN *</pattern>
+<template><srai>ARAB AMERICAN</srai></template></category>
+
+<!-- Jewish -->
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_JEWISH</that>
+<template><srai>JEWISH</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_JEWISH</that>
+<template><srai>JEWISH</srai></template></category>
+
+<category><pattern>JEWISH</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991034944566304701" target="blank">All three Stooges</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991034867468504701" target="blank">Witness: lessons from Elie Wiesel's classroom</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991034843608104701" target="blank">Historical atlas of Hasidism</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991034768509704701" target="blank">The golden age shtetl: a new history of Jewish life in East Europe</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991034220339704701" target="blank">Maimonides: life and thought</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991033944639704701" target="blank">My promised land: the triumph and tragedy of Israel</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991033470329704701" target="blank">The lion seeker: a novel</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991030254949704701" target="blank">Between friends</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991030011709704701" target="blank">Hunting the truth: memoirs of Beate and Serge Klarsfeld</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991028678289704701" target="blank">Odessa: genius and death in a city of dreams</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991028560849704701" target="blank">Jerusalem: the biography</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991028180959704701" target="blank">Gender and Jewish history</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991028026909704701" target="blank">Ottoman brothers: Muslims, Christians, and Jews in early twentieth-century Palestine</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991027381339704701" target="blank">When they come for us, we'll be gone: the epic struggle to save Soviet Jewry</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991027363979704701" target="blank">To the end of the land</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991027339609704701" target="blank">Boxer, beetle</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991027229359704701" target="blank">From continuity to contiguity: toward a new Jewish literary thinking</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991027163769704701" target="blank">The Balfour Declaration: the origins of the Arab-Israeli conflict</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991027158269704701" target="blank">Memoirs of a grandmother: scenes from the cultural history of the Jews of Russia in the nineteenth century</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991025952599704701" target="blank">The Rebbe: the life and afterlife of Menachem Mendel Schneerson</a></li>	 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991025829459704701" target="blank">Dreyfus: politics, emotion, and the scandal of the century</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991025811449704701" target="blank">Wait</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991025692109704701" target="blank">Early modern Jewry: a new cultural history</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991023900499704701" target="blank">The burdens of brotherhood: Jews and Muslims from North Africa to France</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991023851049704701" target="blank">Holocaust, genocide, and the law: a quest for justice in a post-holocaust world</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991023801829704701" target="blank">Remembering survival: inside a Nazi slave-labor camp</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991022512679704701" target="blank">The angel: the Egyptian spy who saved Israel</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991022492539704701" target="blank">The Gustav Sonata: a novel</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991022418799704701" target="blank">Skies of parchment, seas of ink: Jewish illuminated manuscripts</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991021656429704701" target="blank">Double diaspora in Sephardic literature: Jewish cultural production before and after 1492</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991021550779704701" target="blank">The rag race: how Jews sewed their way to success in America and the British Empire</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991021411459704701" target="blank">Dear Mendl, dear Reyzl: Yiddish letter manuals from Russia and America</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991021300419704701" target="blank">1929 mapping the Jewish world</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991021279169704701" target="blank">Mixing musics Turkish Jewry and the urban landscape of a sacred song</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991021234829704701" target="blank">Becoming Soviet Jews: the Bolshevik experiment in Minsk</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991019206389704701" target="blank">Pastrami [on] rye: an overstuffed history of the Jewish deli</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991018473139704701" target="blank">Doomed to succeed: the U.S.-Israel relationship from Truman to Obama</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991018198849704701" target="blank">The crime and the silence: confronting the massacre of Jews in wartime Jedwabne</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991017937259704701" target="blank">What's divine about divine law?: early perspectives</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991015948399704701" target="blank">The boatmaker</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991015873509704701" target="blank">The last flight of Poxl West</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991015102409704701" target="blank">Anonymous soldiers: the struggle for Israel, 1917-1947</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991014862299704701" target="blank">FDR and the Jews</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991014854999704701" target="blank">Howard Fast: life and literature in the left lane</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991014762229704701" target="blank">International handbook of learning, teaching and leading in faith-based schools</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991014707699704701" target="blank">Ballots, babies, and banners of peace: American Jewish women's activism, 1890-1940</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991014686699704701" target="blank">The innocents</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991014059749704701" target="blank">Collect and record!: Jewish Holocaust documentation in early postwar Europe</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991013993699704701" target="blank">Israel a history</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991013991769704701" target="blank">Jewish jocks: an unorthodox hall of fame</a></li>   
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991013567079704701" target="blank">The chosen few: how education shaped Jewish history, 70-1492</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991012562669704701" target="blank">Consumer Culture and the Making of Modern Jewish Identity</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991012558359704701" target="blank">The many deaths of Jew Suss: the notorious trial and execution of an eighteenth-century court Jew</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991012332359704701" target="blank">Rise and kill first: the secret history of Israel's targeted assassinations</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991012180639704701" target="blank">Anti-Jewish riots in the Crown of Aragon and the royal response, 1391-1392</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991011264009704701" target="blank">Jewish New York: the remarkable story of a city and a people</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991011250029704701" target="blank">The origin of the Jews: the quest for roots in a rootless age</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991010546569704701" target="blank">Barren Island: a novel</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991010501379704701" target="blank">Until the dawn's light</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991010426999704701" target="blank">Makers of Jewish modernity: thinkers, artists, leaders, and the world they made</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991009767469704701" target="blank">The anatomy of Israel's survival</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991009688899704701" target="blank">Nazis on the run: how Hitler's henchmen fled justice</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991007343909704701" target="blank">Becoming the people of the Talmud: oral Torah as written tradition in medieval Jewish cultures</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991005842629704701" target="blank">Waiting for the light</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991005758239704701" target="blank">A horse walks into a bar</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991005737899704701" target="blank">And after the fire: a novel</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991002068519704701" target="blank">The betrayers: a novel</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991002058419704701" target="blank">Pious irreverence: confronting God in rabbinic Judaism</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991002008269704701" target="blank">A question of tradition: women poets in Yiddish, 1586-1987</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991001210569704701" target="blank">Sephardi lives: a documentary history, 1700-1950</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991001166129704701" target="blank">Almost complete poems</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991001024459704701" target="blank">Birth, sex, and abuse: women's voices under Nazi rule</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991000518139704701" target="blank">The impossible exile: Stefan Zweig at the end of the world</a></li> 
+</random></template></category>
+
+<category><pattern>* JEWISH</pattern>
+<template><srai>JEWISH</srai></template></category>
+<category><pattern>JEWISH *</pattern>
+<template><srai>JEWISH</srai></template></category>
+<category><pattern>* JEWISH *</pattern>
+<template><srai>JEWISH</srai></template></category>
+<category><pattern>JEW</pattern>
+<template><srai>JEWISH</srai></template></category>
+<category><pattern>* JEW</pattern>
+<template><srai>JEWISH</srai></template></category>
+<category><pattern>JEW *</pattern>
+<template><srai>JEWISH</srai></template></category>
+<category><pattern>* JEW *</pattern>
+<template><srai>JEWISH</srai></template></category>
+<category><pattern>JEWS</pattern>
+<template><srai>JEWISH</srai></template></category>
+<category><pattern>* JEWS</pattern>
+<template><srai>JEWISH</srai></template></category>
+<category><pattern>JEWS *</pattern>
+<template><srai>JEWISH</srai></template></category>
+<category><pattern>* JEWS *</pattern>
+<template><srai>JEWISH</srai></template></category>
+
+
+<!-- Jewish American -->
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_JEWISH AMERICAN</that>
+<template><srai>JEWISH AMERICAN</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_JEWISH AMERICAN</that>
+<template><srai>JEWISH AMERICAN</srai></template></category>
+
+<category><pattern>JEWISH AMERICAN</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/6055130" target="blank">Our Country Friends</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5042604" target="blank">Today Tonight Tomorrow</a></li> 
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/729732" target="blank">Night</a></li> 
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/6079735" target="blank">People Love Dead Jews</a></li> 
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5124217" target="blank">The Light in Hidden Places</a></li> 
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4669496" target="blank">Yearbook</a></li> 
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1085385" target="blank">The Golem and the Jinni</a></li> 
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5254465" target="blank">Is This Anything?</a></li> 
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/728008" target="blank">The Amazing Adventures of Kavalier and Clay</a></li> 
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/573498" target="blank">Extremely Loud and Incredibly Close</a></li> 
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4501328" target="blank">Fleishman Is in Trouble</a></li> 
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4370196" target="blank">You Asked for Perfect</a></li> 
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4856902" target="blank">Franny and Zooey</a></li> 
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2311113" target="blank">The History of Love</a></li> 
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4966464" target="blank">All My Mother's Lovers</a></li> 
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3949085" target="blank">Ruth Bader Ginsburg</a></li> 
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3609790" target="blank">My Year of Rest and Relaxation</a></li> 
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5979297" target="blank">The Matzah Ball</a></li> 
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/254408" target="blank">This Is Where I Leave You</a></li> 
+</random></template></category>
+
+
+ <category><pattern>* JEWISH AMERICAN</pattern>
+ <template><srai>JEWISH AMERICAN</srai></template></category> 
+ <category><pattern>JEWISH AMERICAN *</pattern>
+ <template><srai>JEWISH AMERICAN</srai></template></category>
+ <category><pattern>* JEWISH AMERICAN *</pattern>
+ <template><srai>JEWISH AMERICAN</srai></template></category>
+ 
+
+
+</aiml>

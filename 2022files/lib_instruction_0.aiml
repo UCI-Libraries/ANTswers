@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Instruction -->
+<!-- -->
+
+<category><pattern>HOW DO I SCHEDULE AN INSTRUCTION SESSION</pattern>
+<template>Fill out an <a href=" https://www.lib.uci.edu/instruction/request-workshop" target="_blank">request a workshop </a>!</template></category>
+	<category><pattern>* INSTRUCTIONAL SESSION *</pattern>
+	<template><srai>HOW DO I SCHEDULE AN INSTRUCTION SESSION</srai></template></category>
+
+<category><pattern>DO THE LIBRARIANS TEACH</pattern>
+<template>Librarians teach a variety of workshops, from general writing to subject specific sessions.</template></category>
+
+<category><pattern>REQUEST A WORKSHOP</pattern>
+<template>You can use this <a href=" https://www.lib.uci.edu/instruction/request-workshop" target="_blank">form</a> to request a library workshop.</template></category>
+	<category><pattern>* REQUEST A WORKSHOP</pattern>
+	<template><srai>REQUEST A WORKSHOP</srai></template></category>
+	<category><pattern>REQUEST A WORKSHOP *</pattern>
+	<template><srai>REQUEST A WORKSHOP</srai></template></category>
+	<category><pattern>* REQUEST A WORKSHOP *</pattern>
+	<template><srai>REQUEST A WORKSHOP</srai></template></category>+
+
+<category><pattern>GRADUATE DIVISION LIBRARY WORKSHOPS SCHEDULE</pattern>
+<template>The schedule is available <a href=" https://www.lib.uci.edu/graduate-division-library-workshops" target="_blank">here</a>.</template></category>
+	<category><pattern>* GRADUATE DIVISION LIBRARY WORKSHOPS SCHEDULE</pattern>
+	<template><srai>GRADUATE DIVISION LIBRARY WORKSHOPS SCHEDULE</srai></template></category>
+	<category><pattern>GRADUATE DIVISION LIBRARY WORKSHOPS SCHEDULE *</pattern>
+	<template><srai>GRADUATE DIVISION LIBRARY WORKSHOPS SCHEDULE</srai></template></category>
+	<category><pattern>* GRADUATE DIVISION LIBRARY WORKSHOPS SCHEDULE *</pattern>
+	<template><srai>GRADUATE DIVISION LIBRARY WORKSHOPS SCHEDULE</srai></template></category>
+	
+<category><pattern>PEER TUTORS</pattern>
+<template>Check the <a href=" https://www.writingcenter.uci.edu/peer-tutors/" target="_blank">Center for Excellence in Writing and Communication</a> for peer tutor times and locations.</template></category>
+	<category><pattern>* PEER TUTORS</pattern>
+	<template><srai>PEER TUTORS</srai></template></category>
+	<category><pattern>PEER TUTORS *</pattern>
+	<template><srai>PEER TUTORS</srai></template></category>
+	<category><pattern>* PEER TUTORS *</pattern>
+	<template><srai>PEER TUTORS</srai></template></category>
+	<category><pattern>HOW TO WRITE A RESEARCH PAPER</pattern>
+	<template><srai>PEER TUTORS</srai></template></category>
+	<category><pattern>HOW TO WRITE *</pattern>
+	<template><srai>PEER TUTORS</srai></template></category>
+	<category><pattern>* HOW TO WRITE *</pattern>
+	<template><srai>PEER TUTORS</srai></template></category>
+
+<category><pattern>WRITING 39C</pattern>
+<template>Resources for W39C can be found on the <a href=" https://guides.lib.uci.edu/w39c" target="_blank">W39C Subject Guide</a>.</template></category> 
+	<category><pattern>WHERE CAN I FIND REPUBLIC*COM 2*0</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>DATABASE FOR THE BOOK* BETTER</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>* DATABASE FOR THE BOOK* BETTER</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>WRITING 39 C</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>* WRITING 39 C</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>WRITING 39 C *</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>* WRITING 39 C *</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>* WRITING 39C</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>WRITING 39C *</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>* WRITING 39C *</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>W39C</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>* W39C</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>W39C *</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>* W39C *</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>SOLUTION TO *</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>* RESEARCH FOR WR39C class</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>39c research tutorial</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+	<category><pattern>39c</pattern>
+	<template><srai>WRITING 39C</srai></template></category>
+
+<category><pattern>LIBRARY CLASSROOM USE</pattern>
+<template>Take a look at our <a href=" https://www.lib.uci.edu/electronic-classrooms-policy" target="_blank">Library Electronic Classroom Use and Scheduling Policies and Procedures</a>.</template></category>
+	<category><pattern>* LIBRARY CLASSROOM USE</pattern>
+	<template><srai>LIBRARY CLASSROOM USE</srai></template></category>
+	<category><pattern>LIBRARY CLASSROOM USE *</pattern>
+	<template><srai>LIBRARY CLASSROOM USE</srai></template></category>
+	<category><pattern>* LIBRARY CLASSROOM USE *</pattern>
+	<template><srai>LIBRARY CLASSROOM USE</srai></template></category>
+	<category><pattern>USE THE LIBRARY CLASSROOM</pattern>
+	<template><srai>LIBRARY CLASSROOM USE</srai></template></category>
+	<category><pattern>* USE THE LIBRARY CLASSROOM</pattern>
+	<template><srai>LIBRARY CLASSROOM USE</srai></template></category>
+	<category><pattern>USE THE LIBRARY CLASSROOM *</pattern>
+	<template><srai>LIBRARY CLASSROOM USE</srai></template></category>
+	<category><pattern>* USE THE LIBRARY CLASSROOM *</pattern>
+	<template><srai>LIBRARY CLASSROOM USE</srai></template></category>
+	<category><pattern> * CAN I BOOK A CLASSROOM *</pattern>
+	<template><srai>LIBRARY CLASSROOM USE</srai></template></category>
+	
+<!--Tutorials-->
+
+<category><pattern>Writing 39C Information Literacy Tutorial</pattern>
+<template>These <a href=" https://guides.lib.uci.edu/39C_Tutorial" target="_blank">tutorials</a> provide useful strategies, tips, demonstrations, and tools for conducting efficient and effective research. If you have any questions about the information in this tutorial, please ask a librarian!</template></category>
+	<category><pattern>* Writing 39C Information Literacy Tutorial</pattern>
+	<template><srai>Writing 39C Information Literacy Tutorial</srai></template></category>
+	<category><pattern>Writing 39C Information Literacy Tutorial *</pattern>
+	<template><srai>Writing 39C Information Literacy Tutorial</srai></template></category>
+	<category><pattern>* Writing 39C Information Literacy Tutorial *</pattern>
+	<template><srai>Writing 39C Information Literacy Tutorial</srai></template></category>
+	<category><pattern>Writing 39C Information Literacy Tutorials</pattern>
+	<template><srai>Writing 39C Information Literacy Tutorial</srai></template></category>
+	<category><pattern>* Writing 39C Information Literacy Tutorials</pattern>
+	<template><srai>Writing 39C Information Literacy Tutorial</srai></template></category>
+	<category><pattern>Writing 39C Information Literacy Tutorials *</pattern>
+	<template><srai>Writing 39C Information Literacy Tutorial</srai></template></category>
+	<category><pattern>* Writing 39C Information Literacy Tutorials *</pattern>
+	<template><srai>Writing 39C Information Literacy Tutorial</srai></template></category>
+
+<category><pattern>LIBRARY INTRODUCTION TUTORIAL</pattern>
+<template>This <a href=" https://www.lib.uci.edu/sites/all/tutorials/class/39c/intro/#/" target="_blank">tutorial</a> provides a basic overview of how to find relevant services and materials on the library website and the Writing 39c research guide.</template></category>
+	<category><pattern>* LIBRARY INTRODUCTION TUTORIAL</pattern>
+	<template><srai>LIBRARY INTRODUCTION TUTORIAL</srai></template></category>
+	<category><pattern>LIBRARY INTRODUCTION TUTORIAL *</pattern>
+	<template><srai>LIBRARY INTRODUCTION TUTORIAL</srai></template></category>
+	<category><pattern>* LIBRARY INTRODUCTION TUTORIAL *</pattern>
+	<template><srai>LIBRARY INTRODUCTION TUTORIAL</srai></template></category>
+
+<category><pattern>INFORMATION CONTEXTS TUTORIAL</pattern>
+<template>This <a href=" https://www.lib.uci.edu/sites/all/tutorials/class/39c/info-contexts/#/" target="_blank">tutorial</a> is on the information timeline and cycle, on the terms "scholarly" and "popular," and tips on how to read scholarly sources.</template></category>
+	<category><pattern>* INFORMATION CONTEXTS TUTORIAL</pattern>
+	<template><srai>INFORMATION CONTEXTS TUTORIAL</srai></template></category>
+	<category><pattern>INFORMATION CONTEXTS TUTORIAL *</pattern>
+	<template><srai>INFORMATION CONTEXTS TUTORIAL</srai></template></category>
+	<category><pattern>* INFORMATION CONTEXTS TUTORIAL *</pattern>
+	<template><srai>INFORMATION CONTEXTS TUTORIAL</srai></template></category>
+
+<category><pattern>TOPIC DEVELOPMENT</pattern>
+<template>This <a href=" https://www.lib.uci.edu/sites/all/tutorials/class/39c/topics/#/" target="_blank">tutorial</a> offers strategies and useful tools/databases for exploring and narrowing down topics. CQ Researcher and Opposing Viewpoints are introduced here.</template></category>
+	<category><pattern>* TOPIC DEVELOPMENT</pattern>
+	<template><srai>TOPIC DEVELOPMENT</srai></template></category>
+	<category><pattern>TOPIC DEVELOPMENT *</pattern>
+	<template><srai>TOPIC DEVELOPMENT</srai></template></category>
+	<category><pattern>* TOPIC DEVELOPMENT *</pattern>
+	<template><srai>TOPIC DEVELOPMENT</srai></template></category>
+
+<category><pattern>SEARCHING KEYWORDS AND BOOLEAN</pattern>
+<template>This <a href=" https://www.lib.uci.edu/sites/all/tutorials/class/39c/searching-boolean/#/" target="_blank">tutorial</a> offers tips on how to use keywords and Boolean operators to get the most out of your searches.</template></category>
+	<category><pattern>* SEARCHING KEYWORDS AND BOOLEAN</pattern>
+	<template><srai>SEARCHING KEYWORDS AND BOOLEAN</srai></template></category>
+	<category><pattern>SEARCHING KEYWORDS AND BOOLEAN *</pattern>
+	<template><srai>SEARCHING KEYWORDS AND BOOLEAN</srai></template></category>
+	<category><pattern>* SEARCHING KEYWORDS AND BOOLEAN *</pattern>
+	<template><srai>SEARCHING KEYWORDS AND BOOLEAN</srai></template></category>
+	<category><pattern>* KEYWORDS AND BOOLEAN</pattern>
+	<template><srai>SEARCHING KEYWORDS AND BOOLEAN</srai></template></category>
+	<category><pattern>KEYWORDS AND BOOLEAN *</pattern>
+	<template><srai>SEARCHING KEYWORDS AND BOOLEAN</srai></template></category>
+	<category><pattern>* KEYWORDS AND BOOLEAN *</pattern>
+	<template><srai>SEARCHING KEYWORDS AND BOOLEAN</srai></template></category>
+	<category><pattern>KEYWORDS AND BOOLEAN</pattern>
+	<template><srai>SEARCHING KEYWORDS AND BOOLEAN</srai></template></category>
+
+<category><pattern>SEARCHING DATABASES AND TOOLS</pattern>
+<template>This <a href="https://www.lib.uci.edu/sites/all/tutorials/class/39c/searching-database/#/" target="_blank">tutorial</a> offers an introduction to databases like Academic Search Complete and tools like Library Search and Google Scholar that will help you find resources. Strategies for using bibliographies and citations with these tools.</template></category>
+	<category><pattern>* SEARCHING DATABASES AND TOOLS</pattern>
+	<template><srai>SEARCHING DATABASES AND TOOLS</srai></template></category>
+	<category><pattern>SEARCHING DATABASES AND TOOLS *</pattern>
+	<template><srai>SEARCHING DATABASES AND TOOLS</srai></template></category>
+	<category><pattern>* SEARCHING DATABASES AND TOOLS *</pattern>
+	<template><srai>SEARCHING DATABASES AND TOOLS</srai></template></category>
+	<category><pattern>DATABASES AND TOOLS</pattern>
+	<template><srai>SEARCHING DATABASES AND TOOLS</srai></template></category>
+	<category><pattern>* DATABASES AND TOOLS</pattern>
+	<template><srai>SEARCHING DATABASES AND TOOLS</srai></template></category>
+	<category><pattern>DATABASES AND TOOLS *</pattern>
+	<template><srai>SEARCHING DATABASES AND TOOLS</srai></template></category>
+	<category><pattern>* DATABASES AND TOOLS *</pattern>
+	<template><srai>SEARCHING DATABASES AND TOOLS</srai></template></category>
+
+<category><pattern>ADVOCACY RESOURCES</pattern>
+<template>This <a href="https://www.lib.uci.edu/sites/all/tutorials/class/39c/advocacy/#/" target="_blank">tutorial</a> provides how to resources specifically for the Writing 39C Advocacy Project.</template></category>
+	<category><pattern>* ADVOCACY RESOURCES</pattern>
+	<template><srai>ADVOCACY RESOURCES</srai></template></category>
+	<category><pattern>ADVOCACY RESOURCES *</pattern>
+	<template><srai>ADVOCACY RESOURCES</srai></template></category>
+	<category><pattern>* ADVOCACY RESOURCES *</pattern>
+	<template><srai>ADVOCACY RESOURCES</srai></template></category>
+
+<category><pattern>DATABASE DEMO VIDEOS</pattern>
+<template>Recommended <a href="https://guides.lib.uci.edu/w39c/videos" target="_blank">resources </a>for students working on their Writing 39C research and writing assignments.</template></category>
+	<category><pattern>* DATABASE DEMO VIDEOS</pattern>
+	<template><srai>DATABASE DEMO VIDEOS</srai></template></category>
+	<category><pattern>DATABASE DEMO VIDEOS *</pattern>
+	<template><srai>DATABASE DEMO VIDEOS</srai></template></category>
+	<category><pattern>* DATABASE DEMO VIDEOS *</pattern>
+	<template><srai>DATABASE DEMO VIDEOS</srai></template></category>
+	<category><pattern>DATABASE DEMO VIDEO</pattern>
+	<template><srai>DATABASE DEMO VIDEOS</srai></template></category>
+	<category><pattern>* DATABASE DEMO VIDEO</pattern>
+	<template><srai>DATABASE DEMO VIDEOS</srai></template></category>
+	<category><pattern>DATABASE DEMO VIDEO *</pattern>
+	<template><srai>DATABASE DEMO VIDEOS</srai></template></category>
+	<category><pattern>* DATABASE DEMO VIDEO *</pattern>
+	<template><srai>DATABASE DEMO VIDEOS</srai></template></category>
+
+<category><pattern>RESEARCH PROCESS VIDEO</pattern>
+<template>Recommended <a href="https://guides.lib.uci.edu/w39c/research-process" target="_blank">resources</a> for students working on their Writing 39C research and writing assignments.</template></category>
+	<category><pattern>* RESEARCH PROCESS VIDEO</pattern>
+	<template><srai>RESEARCH PROCESS VIDEO</srai></template></category>
+	<category><pattern>RESEARCH PROCESS VIDEO *</pattern>
+	<template><srai>RESEARCH PROCESS VIDEO</srai></template></category>
+	<category><pattern>* RESEARCH PROCESS VIDEO *</pattern>
+	<template><srai>RESEARCH PROCESS VIDEO</srai></template></category>
+	<category><pattern>RESEARCH PROCESS VIDEOS</pattern>
+	<template><srai>RESEARCH PROCESS VIDEO</srai></template></category>
+	<category><pattern>* RESEARCH PROCESS VIDEOS</pattern>
+	<template><srai>RESEARCH PROCESS VIDEO</srai></template></category>
+	<category><pattern>RESEARCH PROCESS VIDEOS *</pattern>
+	<template><srai>RESEARCH PROCESS VIDEO</srai></template></category>
+	<category><pattern>* RESEARCH PROCESS VIDEOS *</pattern>
+	<template><srai>RESEARCH PROCESS VIDEO</srai></template></category>
+
+</aiml>	

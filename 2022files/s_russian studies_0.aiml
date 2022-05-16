@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- RUSSIAN STUDIES -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>RUSSIAN STUDIES *</pattern>
+	<template><think><set name="topic">russian studies</set></think><sr /></template></category>
+	
+<category><pattern>RUSSIAN STUDIES</pattern>	
+	<template>For resources on Russian studies check out the <a href=" http://guides.lib.uci.edu/russian" target="_blank">Russian Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	<category><pattern>RUSSIAN HISTORY</pattern>
+	<template><srai>RUSSIAN STUDIES</srai></template></category>
+
+<!-- Subject keywords-->
+
+<category><pattern>TSARS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://guides.lib.uci.edu/history" target="_blank">History Research Guide</a> and/or <a href=" http://uclibs.org/PID/20687" target="_blank">PAIS Archive, 1915-1976</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/russian" target="_blank">Russian Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>HISTORY OF RUSSIA</pattern>
+<template><srai>TSARS</srai></template></category>
+<category><pattern>RUSSIAN EMPIRE</pattern>
+<template><srai>TSARS</srai></template></category>
+
+<category><pattern>MYSTICISM</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://guides.lib.uci.edu/religious_studies" target="_blank">Religious Studies Research Guide</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/russian" target="_blank">Russian Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>CHRISTIANITY</pattern>
+<template><srai>MYSTICISM</srai></template></category>
+
+<category><pattern>RUSSIAN LITERATURE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/9568" target="_blank">Russian Academy of Sciences Bibliography</a> 
+			and/or <a href=" https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/12i4laf/alma991025490670104876" target="_blank">American Bibliography of Slavic and East European Studies (ABSEES)</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/russian" target="_blank">Russian Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>LANGUAGE</pattern>
+<template><srai>LITERATURE</srai></template></category>
+
+<category><pattern>RUSSIAN FOLKLORE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/12i4laf/alma991025490670104876" target="_blank">American Bibliography of Slavic and East European Studies (ABSEES)</a> and/or <a href=" http://www.ucis.pitt.edu/reesweb/" target="_blank">REESWeb: Russian and East European Studies Virtual Library</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/russian" target="_blank">Russian Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>RUSSIAN CULTURE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://www.ucis.pitt.edu/reesweb/" target="_blank">REESWeb: Russian and East European Studies Virtual Library</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/russian" target="_blank">Russian Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>RUSSIAN GEOGRAPHY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://eros.usgs.gov/" target="_blank">Earth Resources Observation and Science (EROS) Data Center (USGS)</a> and/or <a href=" http://muse.jhu.edu/journals/kri/" target="_blank">Kritika: Explorations in Russian and Eurasian History</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/russian" target="_blank">Russian Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>RUSSIAN ARTS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" https://guides.lib.uci.edu/studioart" target="_blank">Art Librguide</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/russian" target="_blank">Russian Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>RUSSIAN LINGUISTICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/9568" target="_blank">Russian Academy of Sciences Bibliography</a> and/or <a href=" http://www.springerlink.com/content/1572-8714/" target="_blank">Russian Linguistics</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/russian" target="_blank">Russian Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+</aiml>

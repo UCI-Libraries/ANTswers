@@ -1,0 +1,1175 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- General Research Guides -->
+<!-- -->
+
+<category><pattern>what are the online research guides</pattern>
+<template>Online guides built by librarians and library staff are there tp help you find academic resources and publications for research, assignments, and projects.</template></category>
+
+<category><pattern>GAMES</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/ttgames" target="_blank">TableTop Games Research Guide</a>.</template></category>
+	<category><pattern>How do i check out games</pattern>
+	<template><srai>GAMES</srai></template></category>
+	<category><pattern>How do i check out * games</pattern>
+	<template><srai>GAMES</srai></template></category>
+ 
+<category><pattern>CITATION FORMAT</pattern>
+<template>The <a href=" https://owl.purdue.edu/owl/purdue_owl.html" target="_blank">Online Writing Lab (OWL)</a> at Purdue University has a terrific citation guide for APA, MLA, and the Chicago Manual of Style.</template></category>
+	<category><pattern>* CITATION FORMAT</pattern>
+	<template><srai>CITATION FORMAT</srai></template></category>
+	<category><pattern>CITATION FORMAT *</pattern>
+	<template><srai>CITATION FORMAT</srai></template></category>
+	<category><pattern>* CITATION FORMAT *</pattern>
+	<template><srai>CITATION FORMAT</srai></template></category>
+	<category><pattern>CITATION FORMATS</pattern>
+	<template><srai>CITATION FORMAT</srai></template></category>
+	<category><pattern>* CITATION FORMATS</pattern>
+	<template><srai>CITATION FORMAT</srai></template></category>
+	<category><pattern>CITATION FORMATS *</pattern>
+	<template><srai>CITATION FORMAT</srai></template></category>
+	<category><pattern>* CITATION FORMATS *</pattern>
+	<template><srai>CITATION FORMAT</srai></template></category>
+	<category><pattern>APA</pattern>
+	<template><srai>CITATION FORMAT</srai></template></category>
+	<category><pattern>* APA</pattern>
+	<template><srai>CITATION FORMAT</srai></template></category>
+	<category><pattern>APA *</pattern>
+	<template><srai>CITATION FORMAT</srai></template></category>
+	<category><pattern>* APA *</pattern>
+	<template><srai>CITATION FORMAT</srai></template></category>
+	<category><pattern>MLA</pattern>
+	<template><srai>CITATION FORMAT</srai></template></category>
+	<category><pattern>* MLA</pattern>
+	<template><srai>CITATION FORMAT</srai></template></category>
+	<category><pattern>MLA *</pattern>
+	<template><srai>CITATION FORMAT</srai></template></category>
+	<category><pattern>* MLA *</pattern>
+	<template><srai>CITATION FORMAT</srai></template></category>
+	<category><pattern>CHICAGO MANUAL OF STYLE</pattern>
+	<template><srai>CITATION FORMAT</srai></template></category>
+	<category><pattern>* CHICAGO MANUAL OF STYLE</pattern>
+	<template><srai>CITATION FORMAT</srai></template></category>
+	<category><pattern>CHICAGO MANUAL OF STYLE *</pattern>
+	<template><srai>CITATION FORMAT</srai></template></category>
+	<category><pattern>* CHICAGO MANUAL OF STYLE *</pattern>
+	<template><srai>CITATION FORMAT</srai></template></category>
+	<category><pattern>* APA GUIDE</pattern>
+	<template><srai>CITATION FORMAT</srai></template></category>
+	<category><pattern>* GUIDE ON APA *</pattern>
+	<template><srai>CITATION FORMAT</srai></template></category>
+	<category><pattern>* Chicago citation style</pattern>
+	<template><srai>CITATION FORMAT</srai></template></category>
+	
+<category><pattern>Harvard referencing</pattern>
+<template>Here is an online guide: https://www.mendeley.com/guides/harvard-citation-guide</template></category>
+	<category><pattern>* Harvard referencing</pattern>
+	<template><srai>Harvard referencing</srai></template></category>
+	<category><pattern>Harvard referencing *</pattern>
+	<template><srai>Harvard referencing</srai></template></category>
+	<category><pattern>* Harvard referencing *</pattern>
+	<template><srai>Harvard referencing</srai></template></category>
+	<category><pattern>Harvard references</pattern>	
+	<template><srai>Harvard referencing</srai></template></category>
+	<category><pattern>* Harvard references</pattern>
+	<template><srai>Harvard referencing</srai></template></category>
+	<category><pattern>Harvard references *</pattern>
+	<template><srai>Harvard referencing</srai></template></category>
+	<category><pattern>* Harvard references *</pattern>
+	<template><srai>Harvard referencing</srai></template></category>
+	
+<category><pattern>LIBGUIDES</pattern>
+<template>Our guides are available here: http://guides.lib.uci.edu/.</template></category>
+	<category><pattern>* LIBGUIDES</pattern>
+	<template><srai>LIBGUIDES</srai></template></category>
+	<category><pattern>LIBGUIDES *</pattern>
+	<template><srai>LIBGUIDES</srai></template></category>
+	<category><pattern>* LIBGUIDES *</pattern>
+	<template><srai>LIBGUIDES</srai></template></category>
+	<category><pattern>GUIDES</pattern>
+	<template><srai>LIBGUIDES</srai></template></category>
+	<category><pattern>* GUIDES</pattern>
+	<template><srai>LIBGUIDES</srai></template></category>
+	<category><pattern>GUIDES *</pattern>
+	<template><srai>LIBGUIDES</srai></template></category>
+	<category><pattern>* GUIDES *</pattern>
+	<template><srai>LIBGUIDES</srai></template></category>
+	<category><pattern>COURSE GUIDE</pattern>
+	<template><srai>LIBGUIDES</srai></template></category>
+	<category><pattern>* COURSE GUIDE</pattern>
+	<template><srai>LIBGUIDES</srai></template></category>
+	<category><pattern>COURSE GUIDE *</pattern>
+	<template><srai>LIBGUIDES</srai></template></category>
+	<category><pattern>* COURSE GUIDE *</pattern>
+	<template><srai>LIBGUIDES</srai></template></category>
+	<category><pattern>RESEARCH GUIDE</pattern>
+	<template><srai>LIBGUIDES</srai></template></category>
+	<category><pattern>* RESEARCH GUIDE</pattern>
+	<template><srai>LIBGUIDES</srai></template></category>
+	<category><pattern>RESEARCH GUIDE *</pattern>
+	<template><srai>LIBGUIDES</srai></template></category>
+	<category><pattern>* RESEARCH GUIDE *</pattern>
+	<template><srai>LIBGUIDES</srai></template></category>
+	<category><pattern>* SEARCH FOR WEB RESULTS INSTEAD OF JUST BOOKS</pattern> 
+	<template><srai>LIBGUIDES</srai></template></category>
+	<category><pattern>Do you have a libguide</pattern>
+	<template><srai>LIBGUIDES</srai></template></category>
+	
+	<category><pattern>Do you have any library guides on science</pattern>
+	<template>We have a number of science guides, they are available here: http://guides.lib.uci.edu/.</template></category>
+
+<category><pattern>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/bms" target="_blank">Bibliographic Management Software Research Guide</a>.</template></category>
+	<category><pattern>* BIBLIOGRAPHIC MANAGEMENT SOFTWARE</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>BIBLIOGRAPHIC MANAGEMENT SOFTWARE *</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>* BIBLIOGRAPHIC MANAGEMENT SOFTWARE *</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>BMS</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>* BMS</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>BMS *</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>* BMS *</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>ENDNOTE</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>* ENDNOTE</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>ENDNOTE *</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>* ENDNOTE *</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>ENDNOTE WEB</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>* ENDNOTE WEB</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>ENDNOTE WEB *</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>* ENDNOTE WEB *</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>ZOTERO</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>* ZOTERO</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>ZOTERO *</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>* ZOTERO *</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>MENDELEY</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>* MENDELEY</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>MENDELEY *</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>* MENDELEY *</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>REFWORKS</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>* REFWORKS</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>REFWORKS *</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>* REFWORKS *</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>CITATION FORMATS</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>* CITATION FORMATS</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>CITATION FORMATS *</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>* CITATION FORMATS *</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>	
+	<category><pattern>CITATION STYLES</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>	
+	<category><pattern>* CITATION STYLES</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>	
+	<category><pattern>CITATION STYLES *</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>	
+	<category><pattern>* CITATION STYLES *</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>citation tools</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>* citation tools</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>citation tools *</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	<category><pattern>* citation tools *</pattern>
+	<template><srai>BIBLIOGRAPHIC MANAGEMENT SOFTWARE</srai></template></category>
+	
+<category><pattern>HOW TO USE ZOTERO</pattern>
+<template>We have a page dedicated to Zotero on hour Bibliographic Management Software guide at https://guides.lib.uci.edu/bms/Zotero.</template></category>
+
+<category><pattern>ENGLISH AS A FOREIGN LANGUAGE</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/esl" target="_blank">EFL ESL ELL Research Guide</a>.</template></category>
+	<category><pattern>* ENGLISH AS A FOREIGN LANGUAGE</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+	<category><pattern>ENGLISH AS A FOREIGN LANGUAGE *</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+	<category><pattern>* ENGLISH AS A FOREIGN LANGUAGE *</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+	<category><pattern>ENGLISH AS A SECOND LANGUAGE</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+	<category><pattern>* ENGLISH AS A SECOND LANGUAGE</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+	<category><pattern>ENGLISH AS A SECOND LANGUAGE *</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+	<category><pattern>* ENGLISH AS A SECOND LANGUAGE *</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+	<category><pattern>ENGLISH LANGUAGE LEARNERS</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+	<category><pattern>* ENGLISH LANGUAGE LEARNERS</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+	<category><pattern>ENGLISH LANGUAGE LEARNERS *</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+	<category><pattern>* ENGLISH LANGUAGE LEARNERS *</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+	<category><pattern>EFL</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+	<category><pattern>* EFL</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+	<category><pattern>EFL *</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+	<category><pattern>* EFL *</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+	<category><pattern>ESL</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+	<category><pattern>*ESL</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+	<category><pattern>ESL *</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+	<category><pattern>* ESL *</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+	<category><pattern>ELL</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+	<category><pattern>* ELL</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+	<category><pattern>ELL *</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+	<category><pattern>* ELL *</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+	<category><pattern>TEFL</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+	<category><pattern>* TEFL</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+	<category><pattern>TEFL *</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+	<category><pattern>* TEFL *</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+	<category><pattern>TESOL</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+	<category><pattern>* TESOL</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+	<category><pattern>TESOL *</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+	<category><pattern>* TESOL *</pattern>
+	<template><srai>ENGLISH AS A FOREIGN LANGUAGE</srai></template></category>
+
+<category><pattern>INFORMATION LITERACY</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/infolit" target="_blank">Information Literacy Research Guide</a>.</template></category>
+	<category><pattern>* INFORMATION LITERACY</pattern>
+	<template><srai>INFORMATION LITERACY</srai></template></category>
+	<category><pattern>INFORMATION LITERACY *</pattern>
+	<template><srai>INFORMATION LITERACY</srai></template></category>
+	<category><pattern>* INFORMATION LITERACY *</pattern>
+	<template><srai>INFORMATION LITERACY</srai></template></category>
+
+<category><pattern>TECHNICAL REPORTS</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/Tech_Reports" target="_blank">Technical Reports Collection Research Guide</a>.</template></category>
+	<category><pattern>* TECHNICAL REPORTS</pattern>
+	<template><srai>TECHNICAL REPORTS</srai></template></category>
+	<category><pattern>TECHNICAL REPORTS *</pattern>
+	<template><srai>TECHNICAL REPORTS</srai></template></category>
+	<category><pattern>* TECHNICAL REPORTS *</pattern>
+	<template><srai>TECHNICAL REPORTS</srai></template></category>
+	<category><pattern>TECHNICAL REPORT</pattern>
+	<template><srai>TECHNICAL REPORTS</srai></template></category>
+	<category><pattern>* TECHNICAL REPORT</pattern>
+	<template><srai>TECHNICAL REPORTS</srai></template></category>
+	<category><pattern>TECHNICAL REPORT *</pattern>
+	<template><srai>TECHNICAL REPORTS</srai></template></category>
+	<category><pattern>* TECHNICAL REPORT *</pattern>
+	<template><srai>TECHNICAL REPORTS</srai></template></category>
+
+<category><pattern>PATENTS</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/patents" target="_blank">Patents, Tradmarks, andamp; Copyrights Research Guide</a>.</template></category>
+	<category><pattern>* PATENTS</pattern>
+	<template><srai>PATENTS</srai></template></category>
+	<category><pattern>PATENTS *</pattern>
+	<template><srai>PATENTS</srai></template></category>
+	<category><pattern>* PATENTS *</pattern>
+	<template><srai>PATENTS</srai></template></category>
+	<category><pattern>TRADEMARKS</pattern>
+	<template><srai>PATENTS</srai></template></category>
+	<category><pattern>* TRADEMARKS</pattern>
+	<template><srai>PATENTS</srai></template></category>
+	<category><pattern>TRADEMARKS *</pattern>
+	<template><srai>PATENTS</srai></template></category>
+	<category><pattern>* TRADEMARKS *</pattern>
+	<template><srai>PATENTS</srai></template></category>
+	<category><pattern>COPYRIGHTS</pattern>
+	<template><srai>PATENTS</srai></template></category>
+	<category><pattern>* COPYRIGHTS</pattern>
+	<template><srai>PATENTS</srai></template></category>
+	<category><pattern>COPYRIGHTS *</pattern>
+	<template><srai>PATENTS</srai></template></category>
+	<category><pattern>* COPYRIGHTS *</pattern>
+	<template><srai>PATENTS</srai></template></category>
+	<category><pattern>PATENT</pattern>
+	<template><srai>PATENTS</srai></template></category>
+	<category><pattern>* PATENT</pattern>
+	<template><srai>PATENTS</srai></template></category>
+	<category><pattern>PATENT *</pattern>
+	<template><srai>PATENTS</srai></template></category>
+	<category><pattern>* PATENT *</pattern>
+	<template><srai>PATENTS</srai></template></category>
+
+<category><pattern>HUMANITIES CORE COURSE</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/humcore" target="_blank">Humanities Core Course Research Guide</a>.</template></category>
+	<category><pattern>* HUMANITIES CORE COURSE</pattern>
+	<template><srai>HUMANITIES CORE COURSE</srai></template></category>
+	<category><pattern>HUMANITIES CORE COURSE *</pattern>
+	<template><srai>HUMANITIES CORE COURSE</srai></template></category>
+	<category><pattern>* HUMANITIES CORE COURSE *</pattern>
+	<template><srai>HUMANITIES CORE COURSE</srai></template></category>
+	<category><pattern>* HUMANITIES CORE COURSE *</pattern>
+	<template><srai>HUMANITIES CORE COURSE</srai></template></category>
+	<category><pattern>HUM CORE</pattern>
+	<template><srai>HUMANITIES CORE COURSE</srai></template></category>
+	<category><pattern>* HUM CORE</pattern>
+	<template><srai>HUMANITIES CORE COURSE</srai></template></category>
+	<category><pattern>HUM CORE *</pattern>
+	<template><srai>HUMANITIES CORE COURSE</srai></template></category>
+	<category><pattern>HUM CORE</pattern>
+	<template><srai>HUMANITIES CORE COURSE</srai></template></category>
+
+<category><pattern>HATHITRUST</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/HathiTrust" target="_blank">HathiTrust Research Guide</a>.</template></category>
+	<category><pattern>* HATHITRUST</pattern>
+	<template><srai>HATHITRUST</srai></template></category>
+	<category><pattern>HATHITRUST *</pattern>
+	<template><srai>HATHITRUST</srai></template></category>
+	<category><pattern>* HATHITRUST *</pattern>
+	<template><srai>HATHITRUST</srai></template></category>
+	<category><pattern>HATHI TRUST</pattern>
+	<template><srai>HATHITRUST</srai></template></category>
+	<category><pattern>* HATHI TRUST</pattern>
+	<template><srai>HATHITRUST</srai></template></category>
+	<category><pattern>HATHI TRUST *</pattern>
+	<template><srai>HATHITRUST</srai></template></category>
+	<category><pattern>* HATHI TRUST *</pattern>
+	<template><srai>HATHITRUST</srai></template></category>
+	
+<category><pattern>GEOGRAPHIC INFORMATION SYSTEMS</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/gis" target="_blank">Geographic Information Systems Research Guide</a>.</template></category>
+	<category><pattern>* GEOGRAPHIC INFORMATION SYSTEMS</pattern>
+	<template><srai>GEOGRAPHIC INFORMATION SYSTEMS</srai></template></category>
+	<category><pattern>GEOGRAPHIC INFORMATION SYSTEMS *</pattern>
+	<template><srai>GEOGRAPHIC INFORMATION SYSTEMS</srai></template></category>
+	<category><pattern>* GEOGRAPHIC INFORMATION SYSTEMS *</pattern>
+	<template><srai>GEOGRAPHIC INFORMATION SYSTEMS</srai></template></category>
+	<category><pattern>GIS</pattern>
+	<template><srai>GEOGRAPHIC INFORMATION SYSTEMS</srai></template></category>
+	<category><pattern>* GIS</pattern>
+	<template><srai>GEOGRAPHIC INFORMATION SYSTEMS</srai></template></category>
+	<category><pattern>GIS *</pattern>
+	<template><srai>GEOGRAPHIC INFORMATION SYSTEMS</srai></template></category>
+	<category><pattern>* GIS *</pattern>
+	<template><srai>GEOGRAPHIC INFORMATION SYSTEMS</srai></template></category>
+	<category><pattern>CENSUS</pattern>
+	<template><srai>GEOGRAPHIC INFORMATION SYSTEMS</srai></template></category>
+	<category><pattern>* CENSUS</pattern>
+	<template><srai>GEOGRAPHIC INFORMATION SYSTEMS</srai></template></category>
+	<category><pattern>CENSUS *</pattern>
+	<template><srai>GEOGRAPHIC INFORMATION SYSTEMS</srai></template></category>
+	<category><pattern>* CENSUS *</pattern>
+	<template><srai>GEOGRAPHIC INFORMATION SYSTEMS</srai></template></category>
+	<category><pattern>ESRI</pattern>
+	<template><srai>GEOGRAPHIC INFORMATION SYSTEMS</srai></template></category>
+	<category><pattern>*ESRI</pattern>
+	<template><srai>GEOGRAPHIC INFORMATION SYSTEMS</srai></template></category>
+	<category><pattern>ESRI *</pattern>
+	<template><srai>GEOGRAPHIC INFORMATION SYSTEMS</srai></template></category>
+	<category><pattern>* ESRI *</pattern>
+	<template><srai>GEOGRAPHIC INFORMATION SYSTEMS</srai></template></category>
+	<category><pattern>MAPPING</pattern>
+	<template><srai>GEOGRAPHIC INFORMATION SYSTEMS</srai></template></category>
+	<category><pattern>* MAPPING</pattern>
+	<template><srai>GEOGRAPHIC INFORMATION SYSTEMS</srai></template></category>
+	<category><pattern>MAPPING *</pattern>
+	<template><srai>GEOGRAPHIC INFORMATION SYSTEMS</srai></template></category>
+	<category><pattern>* MAPPING *</pattern>
+	<template><srai>GEOGRAPHIC INFORMATION SYSTEMS</srai></template></category>
+
+<category><pattern>HOUSE OF COMMONS PARLIMENTARY PAPERS</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/parliamentary_papers" target="_blank">House of Commons Parliamentary Papers Research Guide</a>.</template></category>
+	<category><pattern>* HOUSE OF COMMONS PARLIMENTARY PAPERS</pattern>
+	<template><srai>HOUSE OF COMMONS PARLIMENTARY PAPERS</srai></template></category>
+	<category><pattern>HOUSE OF COMMONS PARLIMENTARY PAPERS *</pattern>
+	<template><srai>HOUSE OF COMMONS PARLIMENTARY PAPERS</srai></template></category>
+	<category><pattern>* HOUSE OF COMMONS PARLIMENTARY PAPERS *</pattern>
+	<template><srai>HOUSE OF COMMONS PARLIMENTARY PAPERS</srai></template></category>
+
+<category><pattern>BOOK REVIEWS</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/book_reviews" target="_blank">Book Reviews Research Guide</a>.</template></category>
+	<category><pattern>* BOOK REVIEWS</pattern>
+	<template><srai>BOOK REVIEWS</srai></template></category>
+	<category><pattern>BOOK REVIEWS *</pattern>
+	<template><srai>BOOK REVIEWS</srai></template></category>
+	<category><pattern>* BOOK REVIEWS *</pattern>
+	<template><srai>BOOK REVIEWS</srai></template></category>
+
+<category><pattern>BUSINESS OF HEALTHCARE</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/business/popular/healthcare" target="_blank">Business of Healthcare Research Guide</a>.</template></category>
+	<category><pattern>* BUSINESS OF HEALTHCARE</pattern>
+	<template><srai>BUSINESS OF HEALTHCARE</srai></template></category>
+	<category><pattern>BUSINESS OF HEALTHCARE *</pattern>
+	<template><srai>BUSINESS OF HEALTHCARE</srai></template></category>
+	<category><pattern>* BUSINESS OF HEALTHCARE *</pattern>
+	<template><srai>BUSINESS OF HEALTHCARE</srai></template></category>
+	<category><pattern>HEALTH STATISTICS</pattern>
+	<template><srai>BUSINESS OF HEALTHCARE</srai></template></category>
+	<category><pattern>* HEALTH STATISTICS</pattern>
+	<template><srai>BUSINESS OF HEALTHCARE</srai></template></category>
+	<category><pattern>HEALTH STATISTICS *</pattern>
+	<template><srai>BUSINESS OF HEALTHCARE</srai></template></category>
+	<category><pattern>* HEALTH STATISTICS *</pattern>
+	<template><srai>BUSINESS OF HEALTHCARE</srai></template></category>
+	
+<category><pattern>BUSINESS</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/business" target="_blank">Business Research Guide</a>.</template></category>
+	<category><pattern>* REPORTS ON DATA ANALYTICS FROM DELOITTE *</pattern>
+	<template><srai>BUSINESS</srai></template></category>
+	<category><pattern>* BUSINESS DATABASES</pattern>
+	<template><srai>BUSINESS</srai></template></category>
+	<category><pattern>* BUSINESS DATABASES*</pattern>
+	<template><srai>BUSINESS</srai></template></category>
+	<category><pattern>Company strategy</pattern>
+	<template><srai>BUSINESS</srai></template></category>
+	<category><pattern>What would be a good strategy for a company</pattern>
+	<template><srai>BUSINESS</srai></template></category>
+	<category><pattern>SWOT for NIke</pattern>
+	<template><srai>BUSINESS</srai></template></category>
+	<category><pattern>Swot analysis</pattern>
+	<template><srai>BUSINESS</srai></template></category>
+
+<category><pattern>CITATIONS</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/citations" target="_blank">Citations Introductory Research Guide</a>.</template></category>
+	<category><pattern>* CITATIONS</pattern>
+	<template><srai>CITATIONS</srai></template></category>
+	<category><pattern>CITATIONS *</pattern>
+	<template><srai>CITATIONS</srai></template></category>
+	<category><pattern>* CITATIONS *</pattern>
+	<template><srai>CITATIONS</srai></template></category>
+	<category><pattern>CITING SOURCES</pattern>
+	<template><srai>CITATIONS</srai></template></category>
+	<category><pattern>* CITING SOURCES</pattern>
+	<template><srai>CITATIONS</srai></template></category>
+	<category><pattern>CITING SOURCES *</pattern>
+	<template><srai>CITATIONS</srai></template></category>
+	<category><pattern>* CITING SOURCES *</pattern>
+	<template><srai>CITATIONS</srai></template></category>
+	<category><pattern>CITING</pattern>
+	<template><srai>CITATIONS</srai></template></category>
+	<category><pattern>* CITING</pattern>
+	<template><srai>CITATIONS</srai></template></category>
+	<category><pattern>CITING *</pattern>
+	<template><srai>CITATIONS</srai></template></category>
+	<category><pattern>* CITING *</pattern>
+	<template><srai>CITATIONS</srai></template></category>
+	<category><pattern>CITATION HELP</pattern>
+	<template><srai>CITATIONS</srai></template></category>
+
+<category><pattern>CENSUS</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/census" target="_blank">Census Research Guide</a>.</template></category>
+	<category><pattern>* CENSUS</pattern>
+	<template><srai>CENSUS</srai></template></category>
+	<category><pattern>CENSUS *</pattern>
+	<template><srai>CENSUS</srai></template></category>
+	<category><pattern>* CENSUS *</pattern>
+	<template><srai>CENSUS</srai></template></category>
+	
+<category><pattern>GERMAN</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/german" target="_blank">German Research Guide</a>.</template></category>
+	<category><pattern>* GERMAN</pattern>
+	<template><srai>GERMAN</srai></template></category>
+	<category><pattern>GERMAN *</pattern>
+	<template><srai>GERMAN</srai></template></category>
+	<category><pattern>* GERMAN *</pattern>
+	<template><srai>GERMAN</srai></template></category>
+
+<category><pattern>SPANISH</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/spanish" target="_blank">Spanish andamp; Portuguese Research Guide</a>.</template></category>
+	<category><pattern>* SPANISH</pattern>
+	<template><srai>SPANISH</srai></template></category>
+	<category><pattern>SPANISH *</pattern>
+	<template><srai>SPANISH</srai></template></category>
+	<category><pattern>* SPANISH *</pattern>
+	<template><srai>SPANISH</srai></template></category>
+	<category><pattern>PORTUGUESE</pattern>
+	<template><srai>SPANISH</srai></template></category>
+	<category><pattern>* PORTUGUESE</pattern>
+	<template><srai>SPANISH</srai></template></category>
+	<category><pattern>PORTUGUESE *</pattern>
+	<template><srai>SPANISH</srai></template></category>
+	<category><pattern>* PORTUGUESE *</pattern>
+	<template><srai>SPANISH</srai></template></category>
+
+<category><pattern>FRENCH</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/french" target="_blank">French andamp; Francophone Studies Research Guide</a>.</template></category>
+	<category><pattern>* FRENCH</pattern>
+	<template><srai>FRENCH</srai></template></category>
+	<category><pattern>FRENCH *</pattern>
+	<template><srai>FRENCH</srai></template></category>
+	<category><pattern>* FRENCH *</pattern>
+	<template><srai>FRENCH</srai></template></category>
+	<category><pattern>FRANCOPHONE STUDIES</pattern>
+	<template><srai>FRENCH</srai></template></category>
+	<category><pattern>* FRANCOPHONE STUDIES</pattern>
+	<template><srai>FRENCH</srai></template></category>
+	<category><pattern>FRANCOPHONE STUDIES *</pattern>
+	<template><srai>FRENCH</srai></template></category>
+	<category><pattern>* FRANCOPHONE STUDIES *</pattern>
+	<template><srai>FRENCH</srai></template></category>
+
+<category><pattern>STREAMING MEDIA</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/StreamingMedia/UCI" target="_blank">Streaming Media Research Guide</a>.</template></category>
+	<category><pattern>* STREAMING MEDIA</pattern>
+	<template><srai>STREAMING MEDIA</srai></template></category>
+	<category><pattern>STREAMING MEDIA *</pattern>
+	<template><srai>STREAMING MEDIA</srai></template></category>
+	<category><pattern>* STREAMING MEDIA *</pattern>
+	<template><srai>STREAMING MEDIA</srai></template></category>
+	<category><pattern>STREAMING FILM</pattern>
+	<template><srai>STREAMING MEDIA</srai></template></category>
+	<category><pattern>* STREAMING FILM</pattern>
+	<template><srai>STREAMING MEDIA</srai></template></category>
+	<category><pattern>STREAMING FILM *</pattern>
+	<template><srai>STREAMING MEDIA</srai></template></category>
+	<category><pattern>* STREAMING FILM *</pattern>
+	<template><srai>STREAMING MEDIA</srai></template></category>
+	<category><pattern>* STREAMING</pattern>
+	<template><srai>STREAMING MEDIA</srai></template></category>
+	<category><pattern>* STREAMING *</pattern>
+	<template><srai>STREAMING MEDIA</srai></template></category>
+	<category><pattern>* STREAMING INTERNET</pattern>
+	<template><srai>STREAMING MEDIA</srai></template></category>
+	<category><pattern>* STREAMING INTERNET *</pattern>
+	<template><srai>STREAMING MEDIA</srai></template></category>
+	<category><pattern>streaming video service</pattern>
+	<template><srai>STREAMING MEDIA</srai></template></category>
+	<category><pattern>* streaming service</pattern>
+	<template><srai>STREAMING MEDIA</srai></template></category>
+
+<category><pattern>EBOOK COLLECTIONS</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/eBooks" target="_blank">eBook Collections Research Guide</a>.</template></category>
+	<category><pattern>* EBOOK COLLECTIONS</pattern>
+	<template><srai>EBOOK COLLECTIONS</srai></template></category>
+	<category><pattern>EBOOK COLLECTIONS *</pattern>
+	<template><srai>EBOOK COLLECTIONS</srai></template></category>
+	<category><pattern>* EBOOK COLLECTIONS *</pattern>
+	<template><srai>EBOOK COLLECTIONS</srai></template></category>
+	<category><pattern>EBOOK</pattern>
+	<template><srai>EBOOK COLLECTIONS</srai></template></category>
+	
+<category><pattern>EDUCATION</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/education" target="_blank">Education Research Guide</a>.</template></category>
+	<category><pattern>* EDUCATION</pattern>
+	<template><srai>EDUCATION</srai></template></category>
+	<category><pattern>EDUCATION *</pattern>
+	<template><srai>EDUCATION</srai></template></category>
+	<category><pattern>* EDUCATION *</pattern>
+	<template><srai>EDUCATION</srai></template></category>
+	<category><pattern>Professional vocational education</pattern>
+	<template><srai>EDUCATION</srai></template></category>
+	<category><pattern>vocational education resources</pattern>
+	<template><srai>EDUCATION</srai></template></category>
+	<category><pattern>* vocational education</pattern>
+	<template><srai>EDUCATION</srai></template></category>
+	<category><pattern>* educational sciences</pattern>
+	<template><srai>EDUCATION</srai></template></category>
+	
+<category><pattern>EBOOK DOWNLOAD</pattern>
+<template>eBook downloads vary depending on the vendor! Check out our <a href=" https://guides.lib.uci.edu/eBooks" target="_blank">eBook Collections Research Guide</a> which has information on the major ebook vendors, included is download information.</template></category>
+	<category><pattern>* EBOOK DOWNLOAD</pattern>
+	<template><srai>EBOOK DOWNLOAD</srai></template></category>
+	<category><pattern>EBOOK DOWNLOAD *</pattern>
+	<template><srai>EBOOK DOWNLOAD</srai></template></category>
+	<category><pattern>* EBOOK DOWNLOAD *</pattern>
+	<template><srai>EBOOK DOWNLOAD</srai></template></category>
+	<category><pattern>DOWNLOAD AN EBOOK</pattern>
+	<template><srai>EBOOK DOWNLOAD</srai></template></category>
+	<category><pattern>* DOWNLOAD AN EBOOK</pattern>
+	<template><srai>EBOOK DOWNLOAD</srai></template></category>
+	<category><pattern>DOWNLOAD AN EBOOK *</pattern>
+	<template><srai>EBOOK DOWNLOAD</srai></template></category>
+	<category><pattern>* DOWNLOAD AN EBOOK *</pattern>
+	<template><srai>EBOOK DOWNLOAD</srai></template></category>
+
+<category><pattern>VISUAL LITERACY</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/visual_literacy" target="_blank">Visual Literacy Research Guide</a>.</template></category>
+	<category><pattern>* VISUAL LITERACY</pattern>
+	<template><srai>VISUAL LITERACY</srai></template></category>
+	<category><pattern>VISUAL LITERACY *</pattern>
+	<template><srai>VISUAL LITERACY</srai></template></category>
+	<category><pattern>* VISUAL LITERACY *</pattern>
+	<template><srai>VISUAL LITERACY</srai></template></category>
+	<category><pattern>DESIGN</pattern>
+	<template><srai>VISUAL LITERACY</srai></template></category>
+	<category><pattern>* DESIGN</pattern>
+	<template><srai>VISUAL LITERACY</srai></template></category>
+	<category><pattern>DESIGN *</pattern>
+	<template><srai>VISUAL LITERACY</srai></template></category>
+	<category><pattern>* DESIGN *</pattern>
+	<template><srai>VISUAL LITERACY</srai></template></category>
+	<category><pattern>GRAPHIC EVIDENCE</pattern>
+	<template><srai>VISUAL LITERACY</srai></template></category>
+	<category><pattern>* GRAPHIC EVIDENCE</pattern>
+	<template><srai>VISUAL LITERACY</srai></template></category>
+	<category><pattern>GRAPHIC EVIDENCE *</pattern>
+	<template><srai>VISUAL LITERACY</srai></template></category>
+	<category><pattern>* GRAPHIC EVIDENCE *</pattern>
+	<template><srai>VISUAL LITERACY</srai></template></category>
+	<category><pattern>IMAGE MANAGEMENT</pattern>
+	<template><srai>VISUAL LITERACY</srai></template></category>
+	<category><pattern>* IMAGE MANAGEMENT</pattern>
+	<template><srai>VISUAL LITERACY</srai></template></category>
+	<category><pattern>IMAGE MANAGEMENT *</pattern>
+	<template><srai>VISUAL LITERACY</srai></template></category>
+	<category><pattern>* IMAGE MANAGEMENT *</pattern>
+	<template><srai>VISUAL LITERACY</srai></template></category>
+	<category><pattern>DATA VISUALIZATION</pattern>
+	<template><srai>VISUAL LITERACY</srai></template></category>
+	<category><pattern>* DATA VISUALIZATION</pattern>
+	<template><srai>VISUAL LITERACY</srai></template></category>
+	<category><pattern>DATA VISUALIZATION *</pattern>
+	<template><srai>VISUAL LITERACY</srai></template></category>
+	<category><pattern>* DATA VISUALIZATION *</pattern>
+	<template><srai>VISUAL LITERACY</srai></template></category>
+
+<category><pattern>SOCIAL SCIENCE DATA</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/socscidata" target="_blank">Social Science Data Research Guide</a>.</template></category>
+	<category><pattern>* SOCIAL SCIENCE DATA</pattern>
+	<template><srai>SOCIAL SCIENCE DATA</srai></template></category>
+	<category><pattern>SOCIAL SCIENCE DATA *</pattern>
+	<template><srai>SOCIAL SCIENCE DATA</srai></template></category>
+	<category><pattern>* SOCIAL SCIENCE DATA *</pattern>
+	<template><srai>SOCIAL SCIENCE DATA</srai></template></category>
+
+<category><pattern>COPYRIGHT</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/copyright" target="_blank">Copyright Research Guide</a>.</template></category>
+	<category><pattern>* COPYRIGHT</pattern>
+	<template><srai>COPYRIGHT</srai></template></category>
+	<category><pattern>COPYRIGHT *</pattern>
+	<template><srai>COPYRIGHT</srai></template></category>
+	<category><pattern>* COPYRIGHT *</pattern>
+	<template><srai>COPYRIGHT</srai></template></category>
+
+<category><pattern>IMAGE RESEARCH COSTUME DESIGN</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/costume" target="_blank">Image Research: Costume Design Research Guide</a>.</template></category>
+	<category><pattern>* IMAGE RESEARCH COSTUME DESIGN</pattern>
+	<template><srai>IMAGE RESEARCH COSTUME DESIGN</srai></template></category>
+	<category><pattern>IMAGE RESEARCH COSTUME DESIGN *</pattern>
+	<template><srai>IMAGE RESEARCH COSTUME DESIGN</srai></template></category>
+	<category><pattern>* IMAGE RESEARCH COSTUME DESIGN *</pattern>
+	<template><srai>IMAGE RESEARCH COSTUME DESIGN</srai></template></category>
+	
+<category><pattern>NUTRITIONAL ANALYSIS TOOLS</pattern>	
+<template>Check out our <a href=" https://guides.lib.uci.edu/dancehealth" target="_blank">Nutritional Analysis Tools and Resources Research Guide</a>.</template></category>
+	<category><pattern>* NUTRITIONAL ANALYSIS TOOLS</pattern>
+	<template><srai>NUTRITIONAL ANALYSIS TOOLS</srai></template></category>
+	<category><pattern>NUTRITIONAL ANALYSIS TOOLS *</pattern>
+	<template><srai>NUTRITIONAL ANALYSIS TOOLS</srai></template></category>	
+	<category><pattern>* NUTRITIONAL ANALYSIS TOOLS *</pattern>	
+	<template><srai>NUTRITIONAL ANALYSIS TOOLS</srai></template></category>
+
+<category><pattern>RESEARCH DATA MANAGEMENT</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/datamanagement" target="_blank">Research Data Management Research Guide</a>.</template></category>
+	<category><pattern>* RESEARCH DATA MANAGEMENT</pattern>	
+	<template><srai>RESEARCH DATA MANAGEMENT</srai></template></category>
+	<category><pattern>RESEARCH DATA MANAGEMENT *</pattern>	
+	<template><srai>RESEARCH DATA MANAGEMENT</srai></template></category>
+	<category><pattern>* RESEARCH DATA MANAGEMENT *</pattern>	
+	<template><srai>RESEARCH DATA MANAGEMENT</srai></template></category>
+	<category><pattern>RESEARCH DATA</pattern>	
+	<template><srai>RESEARCH DATA MANAGEMENT</srai></template></category>
+	<category><pattern>* RESEARCH DATA</pattern>	
+	<template><srai>RESEARCH DATA MANAGEMENT</srai></template></category>
+	<category><pattern>RESEARCH DATA *</pattern>	
+	<template><srai>RESEARCH DATA MANAGEMENT</srai></template></category>
+	<category><pattern>* RESEARCH DATA *</pattern>	
+	<template><srai>RESEARCH DATA MANAGEMENT</srai></template></category>
+	
+<category><pattern>NEWS</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/news" target="_blank">News and Newspapers Research Guide</a>.</template></category>
+	<category><pattern>* NEWS</pattern>
+	<template><srai>NEWS</srai></template></category>
+	<category><pattern>NEWS *</pattern>
+	<template><srai>NEWS</srai></template></category>
+	<category><pattern>* NEWS *</pattern>
+	<template><srai>NEWS</srai></template></category>
+	<category><pattern>NEWSPAPERS</pattern>	
+	<template><srai>NEWS</srai></template></category>
+	<category><pattern>* NEWSPAPERS</pattern>	
+	<template><srai>NEWS</srai></template></category>
+	<category><pattern>NEWSPAPERS *</pattern>	
+	<template><srai>NEWS</srai></template></category>
+	<category><pattern>* NEWSPAPERS *</pattern>	
+	<template><srai>NEWS</srai></template></category>
+	<category><pattern>HOW DO I FIND NEWSPAPER ARTICLES</pattern>
+	<template><srai>NEWS</srai></template></category>
+	<category><pattern>WORLD NEWS</pattern>
+	<template><srai>NEWS</srai></template></category>
+	<category><pattern>* WORLD NEWS</pattern>
+	<template><srai>NEWS</srai></template></category>
+	<category><pattern>* WORLD NEWS *</pattern>
+	<template><srai>NEWS</srai></template></category>
+	<category><pattern>NEWSPAPER</pattern>	
+	<template><srai>NEWS</srai></template></category>
+	<category><pattern>* NEWSPAPER</pattern>	
+	<template><srai>NEWS</srai></template></category>
+	<category><pattern>NEWSPAPER *</pattern>	
+	<template><srai>NEWS</srai></template></category>
+	<category><pattern>* NEWSPAPER *</pattern>	
+	<template><srai>NEWS</srai></template></category>
+	<category><pattern>LA TIMES</pattern>
+	<template><srai>NEWS</srai></template></category>
+	<category><pattern>WASHINGTON POST</pattern>
+	<template><srai>NEWS</srai></template></category>
+	<category><pattern>washington post access</pattern>
+	<template><srai>NEWS</srai></template></category>
+	<category><pattern>* WASHINGTON POST</pattern>
+	<template><srai>NEWS</srai></template></category>
+	<category><pattern>NEWSPAPER ARCHIVES</pattern>
+	<template><srai>NEWS</srai></template></category>
+	<category><pattern>NEWSPAPER ARCHIVES *</pattern>
+	<template><srai>NEWS</srai></template></category>
+	<category><pattern>* NEWSPAPER ARTICLE *</pattern>
+	<template><srai>NEWS</srai></template></category>
+	<category><pattern>orange county register</pattern>
+	<template><srai>NEWS</srai></template></category>
+	<category><pattern>* orange county register</pattern>
+	<template><srai>NEWS</srai></template></category>
+	<category><pattern>orange county register *</pattern>
+	<template><srai>NEWS</srai></template></category>
+	<category><pattern>* orange county register *</pattern>
+	<template><srai>NEWS</srai></template></category>
+	<category><pattern>financial times</pattern>
+	<template><srai>NEWS</srai></template></category>
+	<category><pattern>of register</pattern>
+	<template><srai>NEWS</srai></template></category>
+	<category><pattern>do we still have access to of register</pattern>
+	<template><srai>NEWS</srai></template></category>
+	<category><pattern>do we still have access to of register subscriptions</pattern>
+	<template><srai>NEWS</srai></template></category>
+	
+<category><pattern>NIH PUBLIC ACCESS POLICY</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/nih" target="_blank">NIH Public Access Policy Research Guide</a>.</template></category>
+	<category><pattern>* NIH PUBLIC ACCESS POLICY</pattern>
+	<template><srai>NIH PUBLIC ACCESS POLICY</srai></template></category>
+	<category><pattern>NIH PUBLIC ACCESS POLICY *</pattern>
+	<template><srai>NIH PUBLIC ACCESS POLICY</srai></template></category>
+	<category><pattern>* NIH PUBLIC ACCESS POLICY *</pattern>
+	<template><srai>NIH PUBLIC ACCESS POLICY</srai></template></category>
+	<category><pattern>NIH POLICY</pattern>
+	<template><srai>NIH PUBLIC ACCESS POLICY</srai></template></category>
+	<category><pattern>* NIH POLICY</pattern>
+	<template><srai>NIH PUBLIC ACCESS POLICY</srai></template></category>
+	<category><pattern>NIH POLICY *</pattern>
+	<template><srai>NIH PUBLIC ACCESS POLICY</srai></template></category>
+	<category><pattern>* NIH POLICY *</pattern>
+	<template><srai>NIH PUBLIC ACCESS POLICY</srai></template></category>
+	<category><pattern>NIH HELP</pattern>
+	<template><srai>NIH PUBLIC ACCESS POLICY</srai></template></category>
+	<category><pattern>* NIH HELP</pattern>
+	<template><srai>NIH PUBLIC ACCESS POLICY</srai></template></category>
+	<category><pattern>NIH HELP *</pattern>
+	<template><srai>NIH PUBLIC ACCESS POLICY</srai></template></category>
+	<category><pattern>* NIH HELP *</pattern>
+	<template><srai>NIH PUBLIC ACCESS POLICY</srai></template></category>
+	<category><pattern>NIHMS</pattern>
+	<template><srai>NIH PUBLIC ACCESS POLICY</srai></template></category>
+	<category><pattern>* NIHMS</pattern>
+	<template><srai>NIH PUBLIC ACCESS POLICY</srai></template></category>
+	<category><pattern>NIHMS *</pattern>
+	<template><srai>NIH PUBLIC ACCESS POLICY</srai></template></category>
+	<category><pattern>* NIHMS *</pattern>
+	<template><srai>NIH PUBLIC ACCESS POLICY</srai></template></category>
+	<category><pattern>NIH</pattern>
+	<template><srai>NIH PUBLIC ACCESS POLICY</srai></template></category>
+	<category><pattern>* NIH</pattern>
+	<template><srai>NIH PUBLIC ACCESS POLICY</srai></template></category>
+	<category><pattern>NIH *</pattern>
+	<template><srai>NIH PUBLIC ACCESS POLICY</srai></template></category>
+	<category><pattern>* NIH *</pattern>
+	<template><srai>NIH PUBLIC ACCESS POLICY</srai></template></category>
+	
+<category><pattern>PRIMARY SOURCES</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/primary_sources" target="_blank">Primary Sources for History Research Guide</a>.</template></category>	
+	<category><pattern>* PRIMARY SOURCES</pattern>
+	<template><srai>PRIMARY SOURCES</srai></template></category>
+	<category><pattern>PRIMARY SOURCES *</pattern>
+	<template><srai>PRIMARY SOURCES</srai></template></category>
+	<category><pattern>* PRIMARY SOURCES *</pattern>	
+	<template><srai>PRIMARY SOURCES</srai></template></category>
+
+<category><pattern>RESEARCH IMPACTS</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/researchimpact-metrics" target="_blank">Research Impacts Using Citation Metrics Research Guide</a>.</template></category>
+	<category><pattern>* RESEARCH IMPACTS</pattern>
+	<template><srai>RESEARCH IMPACTS</srai></template></category>
+	<category><pattern>RESEARCH IMPACTS *</pattern>
+	<template><srai>RESEARCH IMPACTS</srai></template></category>
+	<category><pattern>* RESEARCH IMPACTS *</pattern>
+	<template><srai>RESEARCH IMPACTS</srai></template></category>
+	<category><pattern>CITATION METRICS</pattern>
+	<template><srai>RESEARCH IMPACTS</srai></template></category>
+	<category><pattern>* CITATION METRICS</pattern>
+	<template><srai>RESEARCH IMPACTS</srai></template></category>
+	<category><pattern>CITATION METRICS *</pattern>
+	<template><srai>RESEARCH IMPACTS</srai></template></category>
+	<category><pattern>* CITATION METRICS *</pattern>
+	<template><srai>RESEARCH IMPACTS</srai></template></category>
+	<category><pattern>RESEARCH IMPACT</pattern>
+	<template><srai>RESEARCH IMPACTS</srai></template></category>
+	<category><pattern>* RESEARCH IMPACT</pattern>
+	<template><srai>RESEARCH IMPACTS</srai></template></category>
+	<category><pattern>RESEARCH IMPACT *</pattern>
+	<template><srai>RESEARCH IMPACTS</srai></template></category>
+	<category><pattern>* RESEARCH IMPACT *</pattern>
+	<template><srai>RESEARCH IMPACTS</srai></template></category>
+
+<category><pattern>STANDARDS</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/standards_and_specs" target="_blank">Standards and Specifications Research Guide</a>.</template></category>	
+	<category><pattern>* STANDARDS</pattern>
+	<template><srai>STANDARDS</srai></template></category>
+	<category><pattern>STANDARDS *</pattern>
+	<template><srai>STANDARDS</srai></template></category>
+	<category><pattern>* STANDARDS *</pattern>
+	<template><srai>STANDARDS</srai></template></category>
+	<category><pattern>SPECIFICATIONS</pattern>
+	<template><srai>STANDARDS</srai></template></category>
+	<category><pattern>* SPECIFICATIONS</pattern>
+	<template><srai>STANDARDS</srai></template></category>
+	<category><pattern>SPECIFICATIONS *</pattern>
+	<template><srai>STANDARDS</srai></template></category>
+	<category><pattern>* SPECIFICATIONS *</pattern>
+	<template><srai>STANDARDS</srai></template></category>
+
+<category><pattern>W39C</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/w39c" target="_blank">Writing 39C: Argument and Research Research Guide</a>.</template></category>
+	<category><pattern>* W39C</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>W39C *</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>* W39C *</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>* BETTER</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>BETTER *</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>* BETTER *</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>* BIRD ON FIRE</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>BIRD ON FIRE *</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>* BIRD ON FIRE *</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>* GLOBAL WOMAN</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>GLOBAL WOMAN *</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>GLOBAL WOMEN *</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>* GLOBAL WOMAN *</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>* GREAT AMERICAN SCHOOL SYSTEM</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>GREAT AMERICAN SCHOOL SYSTEM *</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>* GREAT AMERICAN SCHOOL SYSTEM *</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>* HENRIETTA LACKS</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>HENRIETTA LACKS *</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>* HENRIETTA LACKS *</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>* NEW JIM CROW</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>NEW JIM CROW *</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>* NEW JIM CROW *</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>* VIDEOGAMES</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>VIDEOGAMES *</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>* VIDEOGAMES *</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>* BEYOND WORDS</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>BEYOND WORDS *</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>* BEYOND WORDS *</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>* EVICTED</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>EVICTED *</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>* EVICTED *</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>* FREEDOM FOR THE THOUGH WE HATE</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>FREEDOM FOR THE THOUGH WE HATE *</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>* FREEDOM FOR THE THOUGH WE HATE *</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>* HATE CRIMES IN CYBERSPACE</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>HATE CRIMES IN CYBERSPACE *</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>* HATE CRIMES IN CYBERSPACE *</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>* OUR KIDS</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>OUR KIDS *</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>* OUR KIDS *</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>* REIGN OF ERROR</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>REIGN OF ERROR *</pattern>
+	<template><srai>W39C</srai></template></category>
+	<category><pattern>* REIGN OF ERROR *</pattern>
+	<template><srai>W39C</srai></template></category>
+
+<category><pattern>REAXYS</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/reaxys" target="_blank">Reaxys - Beilstein/Gmelin/Patent Chemistry Research Guide</a>.</template></category>
+	<category><pattern>* REAXYS</pattern>
+	<template><srai>REAXYS</srai></template></category>
+	<category><pattern>REAXYS *</pattern>
+	<template><srai>REAXYS</srai></template></category>
+	<category><pattern>* REAXYS *</pattern>
+	<template><srai>REAXYS</srai></template></category>
+	<category><pattern>BEILSTIN</pattern>
+	<template><srai>REAXYS</srai></template></category>
+	<category><pattern>* BEILSTIN</pattern>
+	<template><srai>REAXYS</srai></template></category>
+	<category><pattern>BEILSTIN *</pattern>
+	<template><srai>REAXYS</srai></template></category>
+	<category><pattern>* BEILSTIN *</pattern>
+	<template><srai>REAXYS</srai></template></category>
+	<category><pattern>GMELIN</pattern>
+	<template><srai>REAXYS</srai></template></category>
+	<category><pattern>* GMELIN</pattern>
+	<template><srai>REAXYS</srai></template></category>
+	<category><pattern>GMELIN *</pattern>
+	<template><srai>REAXYS</srai></template></category>
+	<category><pattern>* GMELIN *</pattern>
+	<template><srai>REAXYS</srai></template></category>
+	<category><pattern>PATENT CHEMISTRY</pattern>
+	<template><srai>REAXYS</srai></template></category>
+	<category><pattern>* PATENT CHEMISTRY</pattern>
+	<template><srai>REAXYS</srai></template></category>
+	<category><pattern>PATENT CHEMISTRY *</pattern>
+	<template><srai>REAXYS</srai></template></category>
+	<category><pattern>* PATENT CHEMISTRY *</pattern>
+	<template><srai>REAXYS</srai></template></category>
+
+<category><pattern>QUICK REFERENCE GUIDE</pattern>	
+<template>Check out our <a href=" https://guides.lib.uci.edu/QuickReference" target="_blank">Quick Reference Guide Research Guide</a>.</template></category>
+	<category><pattern>* QUICK REFERENCE GUIDE</pattern>
+	<template><srai>QUICK REFERENCE GUIDE</srai></template></category>
+	<category><pattern>QUICK REFERENCE GUIDE *</pattern>
+	<template><srai>QUICK REFERENCE GUIDE</srai></template></category>
+	<category><pattern>* QUICK REFERENCE GUIDE *</pattern>
+	<template><srai>QUICK REFERENCE GUIDE</srai></template></category>
+
+<category><pattern>I AM LOOKING FOR GOVERNMENT INFORMATION</pattern>
+<template>Are you looking for California government information	or orange county government information?</template></category>
+
+		<category><pattern>CALIFORNIA</pattern>
+		<that>Are you looking for California government information	or orange county government information_</that>
+		<template><srai>CALIFORNIA GOVERNMENT INFORMATION</srai></template></category>
+
+		<category><pattern>ORANGE</pattern>
+		<that>Are you looking for California government information	or orange county government information_</that>
+		<template><srai>ORANGE COUNTY GOVERNEMNT</srai></template></category>
+			
+		<category><pattern>ORANGE COUNTY</pattern>
+		<that>Are you looking for California government information	or orange county government information_</that>
+		<template><srai>ORANGE COUNTY GOVERNEMNT</srai></template></category>
+
+<category><pattern>ORANGE COUNTY GOVERNEMNT</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/orange_county" target="_blank">Orange County Government Information Research Guide</a>.</template></category>
+	<category><pattern>* ORANGE COUNTY GOVERNEMNT</pattern>
+	<template><srai>ORANGE COUNTY GOVERNEMNT</srai></template></category>
+	<category><pattern>ORANGE COUNTY GOVERNEMNT *</pattern>
+	<template><srai>ORANGE COUNTY GOVERNEMNT</srai></template></category>
+	<category><pattern>* ORANGE COUNTY GOVERNEMNT *</pattern>
+	<template><srai>ORANGE COUNTY GOVERNEMNT</srai></template></category>
+	
+<category><pattern>CALIFORNIA GOVERNMENT INFORMATION</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/california" target="_blank">California Government Information Research Guide</a>.</template></category>
+	<category><pattern>* CALIFORNIA GOVERNMENT INFORMATION</pattern>
+	<template><srai>CALIFORNIA GOVERNMENT INFORMATION</srai></template></category>
+	<category><pattern>CALIFORNIA GOVERNMENT INFORMATION *</pattern>
+	<template><srai>CALIFORNIA GOVERNMENT INFORMATION</srai></template></category>
+	<category><pattern>* CALIFORNIA GOVERNMENT INFORMATION *</pattern>
+	<template><srai>CALIFORNIA GOVERNMENT INFORMATION</srai></template></category>
+	
+<category><pattern>MEDICAL IMAGES</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/multimediamedical" target="_blank">Multimedia Medical Resources Research Guide</a>.</template></category>
+	<category><pattern>* MEDICAL IMAGES</pattern>
+	<template><srai>MEDICAL IMAGES</srai></template></category>
+	<category><pattern>MEDICAL IMAGES *</pattern>
+	<template><srai>MEDICAL IMAGES</srai></template></category>
+	<category><pattern>* MEDICAL IMAGES *</pattern>
+	<template><srai>MEDICAL IMAGES</srai></template></category>
+	<category><pattern>MEDICAL IMAGE</pattern>
+	<template><srai>MEDICAL IMAGES</srai></template></category>
+	<category><pattern>* MEDICAL IMAGE</pattern>
+	<template><srai>MEDICAL IMAGES</srai></template></category>
+	<category><pattern>MEDICAL IMAGE *</pattern>
+	<template><srai>MEDICAL IMAGES</srai></template></category>
+	<category><pattern>* MEDICAL IMAGE *</pattern>
+	<template><srai>MEDICAL IMAGES</srai></template></category>
+
+<category><pattern>INTERNATIONAL STUDENTS</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/international" target="_blank">International Students Research Guide</a>.</template></category>
+	<category><pattern>* INTERNATIONAL STUDENTS</pattern>
+	<template><srai>INTERNATIONAL STUDENTS</srai></template></category>
+	<category><pattern>INTERNATIONAL STUDENTS *</pattern>
+	<template><srai>INTERNATIONAL STUDENTS</srai></template></category>
+	<category><pattern>* INTERNATIONAL STUDENTS *</pattern>
+	<template><srai>INTERNATIONAL STUDENTS</srai></template></category>
+	
+<category><pattern>IMAGES</pattern>	
+<template>Check out our <a href=" https://guides.lib.uci.edu/images" target="_blank">Images Research Guide</a>.</template></category>
+	<category><pattern>* IMAGES</pattern>
+	<template><srai>IMAGES</srai></template></category>
+	<category><pattern>IMAGES *</pattern>
+	<template><srai>IMAGES</srai></template></category>
+	<category><pattern>* IMAGES *</pattern>
+	<template><srai>IMAGES</srai></template></category>
+	
+<category><pattern>ADVERTISEMENT</pattern>	
+<template>Check out THE Advertisement tab on our <a href=" https://guides.lib.uci.edu/images/advertisements" target="_blank">Images Research Guide</a>.</template></category>
+	<category><pattern>* ADVERTISEMENT</pattern>
+	<template><srai>ADVERTISEMENT</srai></template></category>
+	<category><pattern>ADVERTISEMENT *</pattern>
+	<template><srai>ADVERTISEMENT</srai></template></category>	
+	<category><pattern>* ADVERTISEMENT *</pattern>	
+	<template><srai>ADVERTISEMENT</srai></template></category>
+	<category><pattern>ADVERTISEMENTS</pattern>	
+	<template><srai>ADVERTISEMENT</srai></template></category>
+	<category><pattern>* ADVERTISEMENTS</pattern>	
+	<template><srai>ADVERTISEMENT</srai></template></category>
+	<category><pattern>ADVERTISEMENTS *</pattern>	
+	<template><srai>ADVERTISEMENT</srai></template></category>
+	<category><pattern>* ADVERTISEMENTS *</pattern>		
+	<template><srai>ADVERTISEMENT</srai></template></category>
+	
+<category><pattern>HEALTH STATISTICS</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/healthstatistics" target="_blank">Health Statistics Research Guide</a>.</template></category>
+	<category><pattern>HEALTH STATISTICS</pattern>
+	<template><srai>HEALTH STATISTICS</srai></template></category>
+	<category><pattern>HEALTH STATISTICS</pattern>
+	<template><srai>HEALTH STATISTICS</srai></template></category>
+	<category><pattern>HEALTH STATISTICS</pattern>
+	<template><srai>HEALTH STATISTICS</srai></template></category>
+
+<category><pattern>RESEARCH GRANT RESOURCES</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/researchgrants" target="_blank">Research Grant Resources Research Guide</a>.</template></category>
+	<category><pattern>* RESEARCH GRANT RESOURCES</pattern>
+	<template><srai>RESEARCH GRANT RESOURCES</srai></template></category>
+	<category><pattern>RESEARCH GRANT RESOURCES *</pattern>
+	<template><srai>RESEARCH GRANT RESOURCES</srai></template></category>
+	<category><pattern>* RESEARCH GRANT RESOURCES *</pattern>
+	<template><srai>RESEARCH GRANT RESOURCES</srai></template></category>
+
+<category><pattern>MAPS</pattern>
+<template>Check out our the maps tab on the <a href=" https://guides.lib.uci.edu/gis" target="_blank">Geographic Information Systems (GIS) Research Guide</a>.</template></category>
+	<category><pattern>* MAPS</pattern>
+	<template><srai>MAPS</srai></template></category>
+	<category><pattern>MAPS *</pattern>
+	<template><srai>MAPS</srai></template></category>
+	<category><pattern>* MAPS *</pattern>
+	<template><srai>MAPS</srai></template></category>
+	<category><pattern>ATLASES</pattern>
+	<template><srai>MAPS</srai></template></category>
+	<category><pattern>* ATLASES</pattern>
+	<template><srai>MAPS</srai></template></category>
+	<category><pattern>ATLASES *</pattern>
+	<template><srai>MAPS</srai></template></category>
+	<category><pattern>* ATLASES *</pattern>
+	<template><srai>MAPS</srai></template></category>
+	<category><pattern>AERIAL PHOTOGRAPHS</pattern>
+	<template><srai>MAPS</srai></template></category>
+	<category><pattern>* AERIAL PHOTOGRAPHS</pattern>
+	<template><srai>MAPS</srai></template></category>
+	<category><pattern>AERIAL PHOTOGRAPHS *</pattern>
+	<template><srai>MAPS</srai></template></category>
+	<category><pattern>* AERIAL PHOTOGRAPHS *</pattern>
+	<template><srai>MAPS</srai></template></category>
+
+<category><pattern>BIOGRAPHICAL INFORMATION</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/biographical_information" target="_blank">Biographical Information Guide Research Guide</a>.</template></category>
+	<category><pattern>* BIOGRAPHICAL INFORMATION</pattern>
+	<template><srai>BIOGRAPHICAL INFORMATION</srai></template></category>
+	<category><pattern>BIOGRAPHICAL INFORMATION *</pattern>
+	<template><srai>BIOGRAPHICAL INFORMATION</srai></template></category>
+	<category><pattern>* BIOGRAPHICAL INFORMATION *</pattern>
+	<template><srai>BIOGRAPHICAL INFORMATION</srai></template></category>
+	
+<category><pattern>SCHOLARLY COMMUNICATION</pattern>
+<template>Check out our <a href=" https://guides.lib.uci.edu/ScholarlyCommunication" target="_blank">Scholarly Communication Research Guide</a>.</template></category>
+	<category><pattern>* SCHOLARLY COMMUNICATION</pattern>
+	<template><srai>SCHOLARLY COMMUNICATION</srai></template></category>
+	<category><pattern>SCHOLARLY COMMUNICATION *</pattern>
+	<template><srai>SCHOLARLY COMMUNICATION</srai></template></category>
+	<category><pattern>* SCHOLARLY COMMUNICATION *</pattern>
+	<template><srai>SCHOLARLY COMMUNICATION</srai></template></category>	
+	
+<category><pattern>US Government Information</pattern>	
+<template>Check out our <a href=" https://guides.lib.uci.edu/us" target="_blank">U.S. Government Information Research Guide</a>.</template></category>
+	<category><pattern>US Government Information</pattern>
+	<template><srai>US Government Information</srai></template></category>
+	<category><pattern>* US Government Information</pattern>	
+	<template><srai>US Government Information</srai></template></category>
+	<category><pattern>US Government Information *</pattern>
+	<template><srai>US Government Information</srai></template></category>
+	<category><pattern>* US Government Information *</pattern>
+	<template><srai>US Government Information</srai></template></category>
+	<category><pattern>U*S* Government Information</pattern>	
+	<template><srai>US Government Information</srai></template></category>
+	<category><pattern>* U*S* Government Information</pattern>	
+	<template><srai>US Government Information</srai></template></category>
+	<category><pattern>U*S* Government Information *</pattern>	
+	<template><srai>US Government Information</srai></template></category>
+	<category><pattern>* U*S* Government Information *</pattern>	
+	<template><srai>US Government Information</srai></template></category>
+	<category><pattern>YOU.S government information</pattern>	
+	<template><srai>US Government Information</srai></template></category>
+	<category><pattern>* YOU.S government information</pattern>	
+	<template><srai>US Government Information</srai></template></category>
+	<category><pattern>* YOU.S government information *</pattern>	
+	<template><srai>US Government Information</srai></template></category>
+	<category><pattern>YOU.S government information *</pattern>	
+	<template><srai>US Government Information</srai></template></category>
+	<category><pattern>YOU.S. government info</pattern>	
+	<template><srai>US Government Information</srai></template></category>
+	<category><pattern>* YOU.S. government info</pattern>	
+	<template><srai>US Government Information</srai></template></category>
+	<category><pattern>YOU.S. government info *</pattern>	
+	<template><srai>US Government Information</srai></template></category>
+	<category><pattern>* YOU.S. government info *</pattern>	
+	<template><srai>US Government Information</srai></template></category>
+
+
+</aiml>

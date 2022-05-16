@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+
+<category><pattern>I NEED A BOOK RECOMMENDATION</pattern>
+<template>I can do that but I need a genre or subject, an example would be: I want to read a mystery book.</template></category>
+	<category><pattern>Recommend me a book</pattern>
+	<template><srai>I NEED A BOOK RECOMMENDATION</srai></template></category>
+	<category><pattern>Hi I am looking for book recommendation</pattern>
+	<template><srai>I NEED A BOOK RECOMMENDATION</srai></template></category>
+	<category><pattern>I am looking for a book recommendation</pattern>
+	<template><srai>I NEED A BOOK RECOMMENDATION</srai></template></category>
+	<category><pattern>I would like a book recommendation for leisure reading</pattern>
+	<template><srai>I NEED A BOOK RECOMMENDATION</srai></template></category>
+	<category><pattern>Can you provide me with a book recommendation</pattern>
+	<template><srai>I NEED A BOOK RECOMMENDATION</srai></template></category>
+	<category><pattern>A book for leisure reading</pattern>
+	<template><srai>I NEED A BOOK RECOMMENDATION</srai></template></category>
+	
+<category>
+	<pattern>I WANT TO READ A *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>CAN YOU RECOMMEND SOME *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>Could you recommend me a *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I AM LOOKING FOR A * NOVEL</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I AM LOOKING FOR A * BOOK</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>Recommend to me a popular *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>recommend me a * book</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I WANT TO READ *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I WANT TO FIND *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>WHERE WOULD YOU LOOK FOR *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>WHERE WOULD I LOOK FOR *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>CAN I GET *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I WANT TO FIND NOVEL LIKE *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I WANT TO FIND A NOVEL LIKE *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>GIVE ME A * MOVIE</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>GIVE ME A * BOOK</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>DO YOU HAVE A BOOK BY A *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>DO YOU KNOW OF A *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>A COMIC BOOK ABOUT *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I*D LIKE TO READ A BOOK ABOUT *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>DO YOU HAVE BOOKS BY * AUTHORS</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>MEMOIR BY * AUTHOR</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>GIVE ME A * NOVEL</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>GIVE ME A *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>CAN YOU GIVE ME A *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>WHAT IS A GOOD BOOK ABOUT *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>PLEASE RECOMMEND ME A *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>GIVE ME A * BOOK</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>FIND ME AN * NOVEL</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>FIND ME A * NOVEL</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>DO YOU HAVE A * BOOK</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I WOULD LIKE A ROMANCE NOVEL</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>DO YOU HAVE A * BOOK</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>I WANT A * BOOK</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>RECOMMEND ME A *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+<category>
+	<pattern>RECOMMEND ME AN *</pattern>
+	<template><think><set name="topic"><star /></set><set name="sourcetype">recomend</set></think><sr /></template>
+</category>
+
+</aiml>

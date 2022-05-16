@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Anthropology-->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>ANTHROPOLOGY *</pattern>
+	<template><think><set name="topic">anthropology</set></think><sr /></template></category>
+	
+<category><pattern>ANTHROPOLOGY</pattern>	
+	<template>For resources on anthropology check out the <a href=" https://guides.lib.uci.edu/anthropology" target="_blank">Anthropology Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Interactions -->
+
+<category><pattern>ANTHROPOLOGY</pattern> 
+	<that>Anthropological Linguistics as a subject is included in the broader subjects of Anthropology and Linguistics Would you like resource recommendations for anthropology or linguistics_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/34670" target="_blank">Anthropology Plus</a> and/or <a href=" http://uclibs.org/PID/97932" target="_blank">AnthroSource</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/anthropology" target="_blank">Anthropology Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+			
+<category><pattern>ANTHROPOLOGY</pattern>
+	<that>Archaeology as a subject is included in the broader subjects of Anthropology and History Would you like resource recommendations for anthropology or history_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/34670" target="_blank">Anthropology Plus</a> and/or <a href=" http://uclibs.org/PID/97932" target="_blank">AnthroSource</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/anthropology" target="_blank">Anthropology Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<category><pattern>ANTHROPOLOGY</pattern>
+	<that>Componential analysis as a subject is included in the broader subjects of Anthropology and Linguistics Would you like resource recommendations for anthropology or linguistics_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/34670" target="_blank">Anthropology plus</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/anthropology" target="_blank">Anthropology Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>	
+
+<category><pattern>ANTHROPOLOGY</pattern>
+	<that>Extraterrestrial anthropology as a subject is included in the broader subjects of Anthropology and Astronomy Would you like resource recommendations for anthropology or astronomy_</that>
+	<template>We would recommend that you start your search with  <a href=" http://uclibs.org/PID/34670" target="_blank">Anthropology plus</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/anthropology" target="_blank">Anthropology Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<category><pattern>ANTHROPOLOGY</pattern>
+	<that>Historical sociology as a subject is included in the broader subjects of Anthropology History and Sociology Would you like resource recommendations for anthropology history or sociology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/34670" target="_blank">Anthropology Plus</a> and/or <a href=" http://uclibs.org/PID/16254" target="_blank">Sociological Abstracts</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/anthropology" target="_blank">Anthropology Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>	
+
+<category><pattern>ANTHROPOLOGY</pattern>
+	<that>Social Structure as a subject is included in the broader subjects of Anthropology and Sociology Would you like resource recommendations for anthropology or sociology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16254" target="_blank">Sociological Abstracts</a> and/or <a href=" http://uclibs.org/PID/34670" target="_blank">Anthropology Plus</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/anthropology" target="_blank">Anthropology Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<!-- Subject keywords-->
+	
+<category><pattern>LAW AND ANTHROPOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/34670" target="_blank">Anthropology plus</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/anthropology" target="_blank">Anthropology Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+<category><pattern>COMPONENTIAL ANALYSIS IN ANTHROPOLOGY</pattern>
+<template><srai>LAW AND ANTHROPOLOGY</srai></template></category>
+
+<category><pattern>ACCULTURATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/34670" target="_blank">Anthropology Plus</a> and/or <a href=" http://uclibs.org/PID/261156" target="_blank">Web of Science</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/anthropology" target="_blank">Anthropology Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>AGRICULTURE TECHNOLOGY TRANSFER</pattern>
+<template><srai>ACCULTURATION</srai></template></category>
+<category><pattern>ART AND ANTHROPOLOGY</pattern>  
+<template><srai>ACCULTURATION</srai></template></category>
+<category><pattern>PHENOMENOLOGICAL ANTHROPOLOGY</pattern>
+<template><srai>ACCULTURATION</srai></template></category>
+<category><pattern>PHYSICAL ANTHROPOLOGY</pattern> 
+<template><srai>ACCULTURATION</srai></template></category>
+<category><pattern>TECHNOLOGICAL COMPLEXITY</pattern> 
+<template><srai>ACCULTURATION</srai></template></category>
+ 
+<category><pattern>ETHNOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/97932" target="_blank">AnthroSource</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/anthropology" target="_blank">Anthropology Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>APPLIED ANTHROPOLOGY</pattern>
+<template><srai>ETHNOLOGY</srai></template></category>
+<category><pattern>ENTOMOPHAGY</pattern>
+<template><srai>ETHNOLOGY</srai></template></category>
+<category><pattern>RESEARCH INSTITUTES ANTHROPOLOGICAL</pattern>
+<template><srai>ETHNOLOGY</srai></template></category>
+	
+<category><pattern>AGRICULTURE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/97932" target="_blank">AnthroSource</a> and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. For more resources check out the  <a href=" https://guides.lib.uci.edu/anthropology" target="_blank">Anthropology Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>AGRICULTURAL ASSISTANCE ANTHROPOLOGICAL</pattern>
+<template><srai>AGRICULTURE</srai></template></category>
+<category><pattern>AGRICULTURE -- RESEARCH --</pattern>
+<template><srai>AGRICULTURE</srai></template></category>
+	
+<category><pattern>MEDICAL ANTHROPOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/10353" target="_blank">PubMed</a> and/or <a href=" http://uclibs.org/PID/34670" target="_blank">Anthropology Plus</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/anthropology" target="_blank">Anthropology Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>NATIONAL CHARACTERISTICS</pattern>  
+<template><srai>MEDICAL ANTHROPOLOGY </srai></template></category>	
+
+<category><pattern>PARAPSYCHOLOGY AND ANTHROPOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/97932" target="_blank">AnthroSource</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/anthropology" target="_blank">Anthropology Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>MISSIONS ANTHROPOLOGICAL ASPECTS</pattern>
+<template><srai>PARAPSYCHOLOGY AND ANTHROPOLOGY </srai></template></category>
+ 
+<category><pattern>COMMUNICATION IN ANTHROPOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16254" target="_blank">Sociological Abstracts</a> and/or <a href=" http://uclibs.org/PID/97932" target="_blank">Anthro Source</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/anthropology" target="_blank">Anthropology Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>AGING ANTHROPOLOGICAL ASPECTS</pattern>
+<template><srai>COMMUNICATION IN ANTHROPOLOGY</srai></template></category>
+<category><pattern>ASSIMILATION</pattern>  
+<template><srai>COMMUNICATION IN ANTHROPOLOGY</srai></template></category>
+
+<category><pattern>DEMOGRAPHIC ANTHROPOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16254" target="_blank">Sociological Abstracts</a> and/or <a href=" http://uclibs.org/PID/34670" target="_blank">Anthropology Plus</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/anthropology" target="_blank">Anthropology Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>LITERATURE AND ANTHROPOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a> and/or <a href=" http://uclibs.org/PID/34670" target="_blank">Anthropology Plus</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/anthropology" target="_blank">Anthropology Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>DANCE ANTHROPOLOGICAL ASPECTS</pattern>
+<template><srai>LITERATURE AND ANTHROPOLOGY </srai></template></category>
+<category><pattern>LIMINALITY</pattern>
+<template><srai>LITERATURE AND ANTHROPOLOGY </srai></template></category>
+<category><pattern>MARITIME ANTHROPOLOGY</pattern>
+<template><srai>LITERATURE AND ANTHROPOLOGY </srai></template></category>
+<category><pattern>PHOTOGRAPHY IN ANTHROPOLOGY</pattern> 
+<template><srai>LITERATURE AND ANTHROPOLOGY </srai></template></category>
+
+<category><pattern>ANTROPOLOGICAL TECHNICAL ASSISTANCE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/34670" target="_blank">Anthropology Plus</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/anthropology" target="_blank">Anthropology Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>LANGUAGE AND LANGUAGES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/97932" target="_blank">AnthroSource</a> and/or <a href=" http://uclibs.org/PID/34670" target="_blank">Anthropology Plus</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/anthropology" target="_blank">Anthropology Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>NURSING HOMES -- ANTHROPOLOGICAL</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/97932" target="_blank">AnthroSource</a> and/or <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/anthropology" target="_blank">Anthropology Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+	
+<category><pattern>SYMBOLIC ANTHROPOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/97932" target="_blank">AnthroSource</a> and/or <a href=" http://uclibs.org/PID/16254" target="_blank">Sociological Abstracts</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/anthropology" target="_blank">Anthropology Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+	
+<category><pattern>MUSIC AND ANTHROPOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/97932" target="_blank">AnthroSource</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/anthropology" target="_blank">Anthropology Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>BUSINESS ANTHROPOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126938" target="_blank">Business Source Complete</a> and/or <a href=" http://uclibs.org/PID/34670" target="_blank">Anthropology Plus</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/anthropology" target="_blank">Anthropology Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>EDUCATIONAL ANTHROPOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a> and/or <a href=" http://uclibs.org/PID/34670" target="_blank">Anthropology Plus</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/anthropology" target="_blank">Anthropology Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>AERIAL PHOTOGRAPHY IN ANTHROPOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/97932" target="_blank">AnthroSource</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/anthropology" target="_blank">Anthropology Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+	
+<category><pattern>HUMAN GEOGRAPHY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/34670" target="_blank">Anthropology Plus</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/anthropology" target="_blank">Anthropology Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>MARXIST ANTHROPOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20838" target="_blank">Left Index</a> and/or <a href=" http://uclibs.org/PID/97932" target="_blank">AnthroSource</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/anthropology" target="_blank">Anthropology Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>NUTRITIONAL ANTHROPOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/20972" target="_blank">PsycInfo</a> and/or <a href=" http://uclibs.org/PID/97932" target="_blank">AnthroSource</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/anthropology" target="_blank">Anthropology Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>RACISM IN ANTHROPOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/97932" target="_blank">AnthroSource</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/anthropology" target="_blank">Anthropology Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>MATHEMATICAL ANTHROPOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/261156" target="_blank">Web of Science</a> and/or <a href=" http://uclibs.org/PID/97932" target="_blank">AnthroSource</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/anthropology" target="_blank">Anthropology Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>FEMINIST ANTHROPOLOGY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/34670" target="_blank">Anthropology Plus</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/anthropology" target="_blank">Anthropology Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+
+</aiml>

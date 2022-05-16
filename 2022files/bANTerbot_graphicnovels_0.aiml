@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_GRAPHIC NOVEL</that>
+<template><srai>GRAPHIC NOVEL</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_GRAPHIC NOVEL</that>
+<template><srai>GRAPHIC NOVEL</srai></template></category>
+
+<category><pattern>GRAPHIC NOVEL</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/13ohhgg/alma991034889110904701" target="blank">As the Crow Flies</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/13ohhgg/alma991033653549704701" target="blank">Blue is the Warmest Color</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/13ohhgg/alma991035045909104701" target="blank">Gender Queer A Memoir</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/d3dcuk/alma991034889111204701" target="blank">Honor Girl</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/13ohhgg/alma991034937314704701" target="blank">Spinning</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/d3dcuk/alma991035044597904701" target="blank">Heartstopper</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/d3dcuk/alma991034889111104701" target="blank">Skin and Earth</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/d3dcuk/alma991035044591504701" target="blank">Are You Listening?</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1896533" target="blank">American Born Chinese</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991034937314704701" target="blank">Spinning</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991033465359704701" target="blank">Saga</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991034889115204701" target="blank">The Prince and the Dressmaker</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991035044597904701" target="blank">Heartstopper</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1806990" target="blank">This One Summer</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991033464949704701" target="blank">Boxers and Saints</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2678119" target="blank">Aquaman Vol. 1</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5225840" target="blank">Birds of Prey: Harley Quinn</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4455584" target="blank">Doctor Strange: The Oath</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991035032118704701" target="blank">Goodbye, My Havana: the life and times of a gringa in revolutionary Cuba</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991034944561604701" target="blank">Graphic Details : Jewish women's confessional comics in essays and interviews</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5086722" target="blank">Harley Quinn and the Birds of Prey</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991033464829704701" target="blank">March</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3014001" target="blank">Road to Riverdale</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991034889111004701" target="blank">Snapshots of a Girl</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991034889114004701" target="blank">The Secret Loves of Geeks</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4857454" target="blank">Making Our Way Home</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5019563" target="blank">The Gay Agenda: A Modern Queer History and Handbook</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5274391" target="blank">Parasite</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991020594439704701" target="blank">Celebrate People's History	</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2362987" target="blank">I Kill Giants</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3130368" target="blank">Dreadnought</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5274200" target="blank">Big Black: Stand at Attica</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034889217404701" target="blank">Bingo Love</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4455465" target="blank">Black Panther: A Nation Under Our Feet</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1309415" target="blank">Yummy: The Last Days of a Southside Shorty</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4313325" target="blank">Forward</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991000839869704701" target="blank">Maggie the Mechanic</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035045908404701" target="blank">Monstress</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034889112004701" target="blank">My Favorite Thing is Monsters</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2188200" target="blank">Strange Fruit: Uncelebrated Narratives from Black History</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034896642504701" target="blank">Showtime at the Apollo: The Epic Tale of Harlem's Legendary Theater</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991034889116404701" target="blank">Stuck Rubber Baby</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5103017" target="blank">The Life and Times of Butch Dykes</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/253483" target="blank">The Real Cost of Prisons Comix</a></li>	
+	<li>I would recommend that you try <a href="March: Book One	https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991033464829704701" target="blank">March: Book One</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991020643789704701" target="blank">Nat Turner</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991027709229704701" target="blank">Fist Stick Knife Gun: A Personal History of Violence</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991034379639704701" target="blank">Hip Hop Family Tree</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3716843" target="blank">Incognegro</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3949057" target="blank">New Kid</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5094589" target="blank">Bitter Root</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4321889" target="blank">Black History in Its Own Words</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991003003489704701" target="blank">Shortcomings</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4321889" target="blank">Black History in Its Own Words</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035082318004701" target="blank">Black</a></li>
+</random></template></category>
+
+<!-- graphic novel tag -->	
+	
+	<category><pattern>* GRAPHIC NOVEL</pattern>
+	<template><srai>graphic novel</srai></template></category>
+	<category><pattern>GRAPHIC NOVEL *</pattern>
+	<template><srai>graphic novel</srai></template></category>
+	<category><pattern>* GRAPHIC NOVEL *</pattern>
+	<template><srai>graphic novel</srai></template></category>
+	
+<!-- graphic novels tag -->	
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_GRAPHIC NOVELS</that>
+<template><srai>GRAPHIC NOVEL</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_GRAPHIC NOVELS</that>
+<template><srai>GRAPHIC NOVEL</srai></template></category>
+	
+	<category><pattern>GRAPHIC NOVELS</pattern>
+	<template><srai>graphic novel</srai></template></category>
+	<category><pattern>* GRAPHIC NOVELS</pattern>
+	<template><srai>graphic novel</srai></template></category>
+	<category><pattern>GRAPHIC NOVELS *</pattern>
+	<template><srai>graphic novel</srai></template></category>
+	<category><pattern>* GRAPHIC NOVELS *</pattern>
+	<template><srai>graphic novel</srai></template></category>
+
+<!-- comic book tag -->
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_COMIC BOOK</that>
+<template><srai>GRAPHIC NOVEL</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_COMIC BOOK</that>
+<template><srai>GRAPHIC NOVEL</srai></template></category>
+
+	<category><pattern>COMIC BOOK</pattern>
+	<template><srai>graphic novel</srai></template></category>
+	<category><pattern>* COMIC BOOK</pattern>
+	<template><srai>graphic novel</srai></template></category>
+	<category><pattern>COMIC BOOK *</pattern>
+	<template><srai>graphic novel</srai></template></category>
+	<category><pattern>* COMIC BOOK *</pattern>
+	<template><srai>graphic novel</srai></template></category>
+	<category><pattern>I WANT A COMIC</pattern>
+	<template><srai>graphic novel</srai></template></category>
+	<category><pattern>I WANT A COMIC</pattern>
+	<template><srai>graphic novel</srai></template></category>
+	
+<!-- comic books tag -->	
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_COMIC BOOKS</that>
+<template><srai>GRAPHIC NOVEL</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_COMIC BOOKS</that>
+<template><srai>GRAPHIC NOVEL</srai></template></category>
+
+	<category><pattern>COMIC BOOKS</pattern>
+	<template><srai>graphic novel</srai></template></category>
+	<category><pattern>* COMIC BOOKS</pattern>
+	<template><srai>graphic novel</srai></template></category>
+	<category><pattern>COMIC BOOKS *</pattern>
+	<template><srai>graphic novel</srai></template></category>
+	<category><pattern>* COMIC BOOKS *</pattern>
+	<template><srai>graphic novel</srai></template></category>
+
+<!-- comicbook tag -->
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_COMICBOOK</that>
+<template><srai>GRAPHIC NOVEL</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_COMICBOOK</that>
+<template><srai>GRAPHIC NOVEL</srai></template></category>
+
+	<category><pattern>COMICBOOK</pattern>
+	<template><srai>graphic novel</srai></template></category>
+	<category><pattern>* COMICBOOK</pattern>
+	<template><srai>graphic novel</srai></template></category>
+	<category><pattern>COMICBOOK *</pattern>
+	<template><srai>graphic novel</srai></template></category>
+	<category><pattern>* COMICBOOK *</pattern>
+	<template><srai>graphic novel</srai></template></category>
+	
+<!-- comicbooks tag -->
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_COMICBOOKS</that>
+<template><srai>GRAPHIC NOVEL</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_COMICBOOKS</that>
+<template><srai>GRAPHIC NOVEL</srai></template></category>
+
+	<category><pattern>COMICBOOKS</pattern>
+	<template><srai>graphic novel</srai></template></category>
+	<category><pattern>* COMICBOOKS</pattern>
+	<template><srai>graphic novel</srai></template></category>
+	<category><pattern>COMICBOOKS *</pattern>
+	<template><srai>graphic novel</srai></template></category>
+	<category><pattern>* COMICBOOKS *</pattern>
+	<template><srai>graphic novel</srai></template></category>
+	
+<!-- MANGA -->
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_MANGA</that>
+<template><srai>MANGA</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_MANGA</that>
+<template><srai>MANGA</srai></template></category>
+
+<category><pattern>MANGA</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3053823" target="blank">Death Note</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3115945" target="blank">JoJo's Bizarre Adventure</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3053891" target="blank">My Hero Academia</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3053941" target="blank">One Piece</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3116062" target="blank">One-Punch Man</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3576744" target="blank">Goodnight Punpun</a></li>
+</random></template></category>
+
+<category><pattern>* MANGA</pattern>
+<template><srai>MANGA</srai></template></category>
+<category><pattern>MANGA *</pattern>
+<template><srai>MANGA</srai></template></category>
+<category><pattern>* MANGA *</pattern>
+<template><srai>MANGA</srai></template></category>
+	
+</aiml>
+

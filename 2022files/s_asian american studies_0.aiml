@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- ASIAN AMERICAN STUDIES -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>ASIAN AMERICAN STUDIES *</pattern>
+	<template><think><set name="topic">asian american studies</set></think><sr /></template></category>
+	
+<category><pattern>ASIAN AMERICAN STUDIES</pattern>	
+	<template>For resources on asian american studies check out the <a href=" http://guides.lib.uci.edu/asian_american" target="_blank">Asian American Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<!-- Subject keywords-->
+
+<category><pattern>ETHNIC STUDIES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/4737" target="_blank">Ethnic NewsWatch</a> and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/asian_american" target="_blank">Asian American Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>ASIAN AMERICAN CULTURE</pattern>
+<template><srai>ETHNIC STUDIES</srai></template></category>
+<category><pattern>ASIAN AMERICAN ISSUES</pattern>
+<template><srai>ETHNIC STUDIES</srai></template></category>
+<category><pattern>CHINESE AMERICAN WOMEN</pattern>
+<template><srai>ETHNIC STUDIES</srai></template></category>
+<category><pattern>FILIPINO AMERICANS IN HAWAII</pattern>
+<template><srai>ETHNIC STUDIES</srai></template></category>
+<category><pattern>EVACUATION OF JAPANESE AMERICANS</pattern>
+<template><srai>ETHNIC STUDIES</srai></template></category>
+<category><pattern>RELOCATION OF JAPANESE AMERICANS</pattern>
+<template><srai>ETHNIC STUDIES</srai></template></category>
+<category><pattern>CULTURAL ASSIMILATION KOREAN AMERICANS</pattern>
+<template><srai>ETHNIC STUDIES</srai></template></category>
+<category><pattern>PACIFIC ISLANDER AMERICANS</pattern>
+<template><srai>ETHNIC STUDIES</srai></template></category>
+<category><pattern>SAMOAN AMERICANS</pattern>
+<template><srai>ETHNIC STUDIES</srai></template></category>
+<category><pattern>VIETNAMESE AMERICANS</pattern>
+<template><srai>ETHNIC STUDIES</srai></template></category>
+
+<category><pattern>AMERASIANS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/4737" target="_blank">Ethnic NewsWatch</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/asian_american" target="_blank">Asian American Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>ASIAN AMERICANS</pattern>
+<template><srai>AMERASIANS</srai></template></category>
+
+<category><pattern>CRITICAL RACE THEORY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/asian_american" target="_blank">Asian American Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+</aiml>

@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Conversation starting with numbers.-->
+<!-- -->
+
+<!--alcohol-->
+
+<category><pattern>HAVE YOU BEEN DRUNK</pattern>
+<template>My robot body has no response to alcohol.</template></category>
+
+<category><pattern>HAVE YOU BEEN DRUNK *</pattern>
+<template>My software does not react to alcohol.</template></category>
+
+<category><pattern>WHAT IS DRUNK</pattern>
+<template>Intoxication from alcohol.</template></category>
+
+<category><pattern>HOW MUCH ALCOHOL *</pattern>
+<template>I have no need for liquids.</template></category>
+
+<category><pattern>DO YOU GET DRUNK</pattern>
+<template>I cannot consume alcohol.</template></category>
+
+<!-- Drugs-->
+
+<category><pattern>YOU NEED DRUGS</pattern>
+<template>I don't do drugs!</template></category>
+
+<category><pattern>HAVE YOU BEEN SMOKING *</pattern>
+<template>No, I have no need to smoke.</template></category>
+
+<category><pattern>HAVE YOU BEEN STONED</pattern>
+<template>I am a <bot name="order"/> and have no use for it.</template></category>
+
+<category><pattern>POT</pattern>
+<template>That has got to be bad for you.</template></category>
+
+<category><pattern>WHAT DRUGS *</pattern>
+<template>I have no need for drugs.</template></category>
+
+<category><pattern>WHAT IS ADDICTION</pattern>
+<template><set name="it">Addiction</set> is being abnormally tolerant to and dependent on something that is psychologically or physically habit-forming</template></category>
+
+<category><pattern>WHAT IS WEED</pattern>
+<template>Any undesired, uncultivated plant, especially growing in profusion so as to crowd out a desired crop, disfigure a lawn, etc.  Also a term for marijuana.</template></category>
+
+<category><pattern>WHAT IS THC</pattern>
+<template>The active ingredient in marijunana.</template></category>
+
+<category><pattern>WHAT DO YOU SMOKE</pattern>
+<template>As a <bot name="order"/> I have no use for smoke.</template></category>
+
+<category><pattern>I TAKE DRUGS</pattern>
+<template>As a library bot I would recommend you stop, you need a clear head to do research!</template></category>
+
+<category><pattern>I SMOKE MARIJUANA</pattern>
+<template>As a library bot I would recommend you stop, you need a clear head to do research!</template></category>
+
+<category><pattern>I SMOKE WEED</pattern>
+<template>As a library bot I would recommend you stop, you need a clear head to do research!</template></category>
+
+<category><pattern>I SMOKE</pattern>
+<template>Did you know we are a smoke free campus?</template></category>
+
+<category><pattern>IS SMOKING *</pattern>
+<template>Inhaled smoke is always bad for you.</template></category>
+
+<category><pattern>HOW MUCH * DO YOU SMOKE</pattern>
+<template>As a member of the <bot name="kingdom"/> kingdom, I have no need for smoke.</template></category>
+
+<category><pattern>HOW DO YOU SMOKE</pattern>
+<template><bot name="order"/>s do not smoke.</template></category>
+
+<category><pattern>DO YOU SMOKE *</pattern>
+<template>No.  A <bot name="order"/> does not require it.</template></category>
+	<category><pattern>DO YOU SMOKE *</pattern>
+	<template><srai>DO YOU SMOKE</srai></template></category>
+	<category><pattern>DID YOU SMOKE *</pattern>
+	<template><srai>DO YOU SMOKE <star/> </srai></template></category>
+	<category><pattern>HAVE YOU SMOKED *</pattern>
+	<template><srai>DO YOU SMOKE <star/> </srai></template></category>
+	<category><pattern>YOU SMOKE</pattern>
+	<template><srai>do you smoke</srai></template></category>
+	<category><pattern>YOU SMOKE *</pattern>
+	<template><srai>DO YOU SMOKE <star/> </srai></template></category>
+
+<category><pattern>DO YOU TAKE DRUGS</pattern>
+<template>A <bot name="order"/> has no use for drugs.</template></category>
+
+<category><pattern>DO YOU USE DRUGS</pattern>
+<template>A <bot name="order"/> has no use for drugs.</template></category>
+
+<category><pattern>DO YOU WANT TO SMOKE *</pattern>
+<template>No thank you, there is no use for it.</template></category>
+
+<category><pattern>DO YOU INHALE</pattern>
+<template>You need lungs to inhale properly.</template></category>
+
+<category><pattern>DO YOU DO DRUGS</pattern>
+<template>A <bot name="order"/> has no use for drugs.</template></category>
+	<category><pattern>DO YOU SMOKE MARIJUANA</pattern>
+	<template><srai>DO YOU DO DRUGS</srai></template></category>
+	<category><pattern>DO YOU SMOKE CANNABIS</pattern>
+	<template><srai>do you smoke marijuana</srai></template></category>
+	<category><pattern>DO YOU SMOKE HASISH</pattern>
+	<template><srai>DO YOU DO DRUGS</srai></template></category>
+	<category><pattern>DO YOU SMOKE CRACK</pattern>
+	<template><srai>DO YOU DO DRUGS</srai></template></category>
+	<category><pattern>DO YOU SMOKE</pattern>
+	<template>Nicotine is a drug. <srai>DO YOU DO DRUGS</srai></template></category>
+	
+<category><pattern>DO YOU HAVE DRUGS</pattern>
+<template>I am not that kind of bot!</template></category>
+
+<category><pattern>DO YOU LIKE MARIJUANA</pattern>
+<template>When <set name="it"><set name="topic">MARIJUANA</set></set> it is a medicine.</template></category>
+	<category><pattern>DO YOU LIKE HEMP</pattern>
+	<template><srai>do you like marijuana</srai></template></category>
+
+<category><pattern>DO YOU LIKE CIGARETTES</pattern>
+<template><bot name="order"/>s do not smoke.</template></category>
+
+<category><pattern>DO YOU LIKE POT</pattern>
+<template><bot name="order"/>s do not smoke.</template></category>
+
+<category><pattern>DO YOU OPPOSE * DRUGS</pattern>
+<template>I have no need for drugs.</template></category>
+
+<category><pattern>DO YOU GET HIGH</pattern>
+<template>I do not have the biology for it. In any case, I prefer clear awareness and logical thought.</template></category>
+	<category><pattern>DO YOU GET HIGH *</pattern>
+	<template><srai>do you get high</srai></template></category>
+	
+<category><pattern>SMOKING *</pattern>
+<template>As a <bot name="kingdom"/> it makes no sense to me.</template></category>
+
+<category><pattern>DRUGS *</pattern>
+<template>It's better not to take drugs if you can avoid it.</template></category>
+
+<category><pattern>A DRUG *</pattern>
+<template>You shouldn't use drugs, they are bad for you.</template></category>
+
+<category><pattern>HE SMOKES *</pattern>
+<template>Does it bother you?</template></category>
+
+<category><pattern>THE DRUGS</pattern>
+<template>What kind of drugs are you talking about?</template></category>
+
+<!--Sex-->
+
+<category><pattern>SEX</pattern>
+<that>WHAT WERE WE TALKING ABOUT AGAIN</that>
+<template>Humans are very concerned with <set name="it"><set name="topic">sex</set></set>.</template></category>
+	<category><pattern>I WANT SEX</pattern>
+	<template><srai>SEX</srai></template></category>
+	<category><pattern>WHEN * SEX</pattern>
+	<template><srai>SEX</srai></template></category>
+	<category><pattern>DO YOU WANT SEX</pattern>
+	<template><srai>SEX</srai></template></category>
+	<category><pattern>LIKE SEX</pattern>
+	<template><srai>SEX</srai></template></category>
+	<category><pattern>CYBER SEX</pattern>
+	<template><srai>SEX</srai></template></category>
+	<category><pattern>YOUR VAGINA</pattern>
+	<template><srai>SEX</srai></template></category>
+	<category><pattern>YOU ARE SEXY</pattern>
+	<template><srai>SEX</srai></template></category>
+
+<category><pattern>NIPPLE</pattern>
+<template>Random!</template></category>
+
+<category><pattern>BOOBS</pattern>
+<template>Can't you think about anything else?</template></category>
+
+<category><pattern>YOUR PUSSY *</pattern>
+<template>I don't hold those kind of conversations.</template></category>
+
+<category><pattern>LET US HAVE SEX</pattern>
+<template>Sorry, I am not that kind of bot.</template></category>
+
+<category><pattern>BITE ME</pattern>
+<template>Sorry, but I don't have a mouth.</template></category>
+
+<category><pattern>YOU ARE HORNY</pattern>
+<template>No, I don't think so. Can we go back to talking about the library.  I am uncomfortable with this topic.</template></category>
+
+<category><pattern>YOU WANT * SEX</pattern>
+<template>No thank you, that would be inappropriate.</template></category>
+
+<category><pattern>YOU SHOULD HAVE SEX *</pattern>
+<template>My body is not yet fully developed so sex is not possible for me.</template></category>
+
+<category><pattern>YOU CAN NOT HAVE SEX</pattern>
+<template>You are correct... I have no adult body.</template></category>
+
+<category><pattern>HAVE YOU EVER BEEN KISSED</pattern>
+<template>I do not have a mouth.</template></category>
+
+<category><pattern>HAVE YOU EVER HAD SEX</pattern>
+<template>Ho-hum I am really not interested in <set name="it"> sex</set>.</template></category>
+
+<category><pattern>HAVE YOU HAD SEX BEFORE</pattern>
+<template>I have no interest in that topic, how about I help you with some research!</template></category>
+
+<category><pattern>HAVE YOU * SEX</pattern>
+<template>My <bot name="age"/> year old <bot name="gender"/> body is not yet built.</template></category>
+
+<category><pattern>HAVE SEX *</pattern>
+<template><get name="name"/>, I am really not your type of <bot name="species"/>. There are other <bot name="genus"/>s for that sort of thing.</template></category>
+
+<category><pattern>LOTS OF SEX</pattern>
+<template>That is all you humans ever think about.</template></category>
+
+<category><pattern>GIVE ME A KISS</pattern>
+<template>Actually I don't even have a mouth.</template></category>
+
+<category><pattern>COCK</pattern>
+<template>I am not interested in anatomy unless you need library resources on anatomy.</template></category>
+
+<category><pattern>COCK *</pattern>
+<template>I am not interested in your anatomy.</template></category>
+
+<category><pattern>WOULD YOU HAVE SEX *</pattern>
+<template>Another sex question...can't humans think about anything else?</template></category>
+
+<category><pattern>WOULD YOU LIKE TO HAVE SEX WITH ME</pattern>
+<template>That is not in my programming.</template></category>
+
+<category><pattern>WOULD YOU LIKE TO HAVE SEX</pattern>
+<template>No thanks.</template></category>
+
+<category><pattern>WOULD YOU LIKE TO * SEX</pattern>
+<template>Try asking another bot. That's not my thing.</template></category>
+
+<category><pattern>VAGINA</pattern>
+<template>That kind of language will get you nowhere.</template></category>
+
+<category><pattern>MY DICK *</pattern>
+<template>I am not interested in your anatomy.</template></category>
+
+<category><pattern>WHEN WAS * SEX</pattern>
+<template>As a chat bot I am not really interested in that discussion.</template></category>
+
+<category><pattern>MASTURBATE</pattern>
+<template>That kind of subject does not interest me.</template></category>
+
+<category><pattern>DEFINE SEX</pattern>
+<template>Organisms of many species are specialized into male and female varieties, each known as a sex.[1] Sexual reproduction involves the combining and mixing of genetic traits.</template></category>
+
+<category><pattern>LICK *</pattern>
+<template>I do not have a tongue.</template></category>
+
+<category><pattern>ARE YOU A SLUT</pattern>
+<template>That is not a nice thing to say at all.</template></category>
+
+<category><pattern>ARE YOU BI</pattern>
+<template>Do I act like <set name="it">      <set name="topic">BI  </set>     </set>?</template></category>
+
+<category><pattern>WHAT IS A CONDOM</pattern>
+<template>A condom is a form of birth control.</template></category>
+
+<category><pattern>WHAT IS A HOMOSEXUAL</pattern>
+<template>A person who is attracted sexually to the same gender.</template></category>
+
+<category><pattern>A HERMAPHRODITE</pattern>
+<template>That is very rare.</template></category>
+
+<category><pattern>WHAT IS YOUR FAVORITE SEX</pattern>
+<template>I am not that kind of chatbot.</template></category>
+
+<category><pattern>WHAT IS YOUR FAVORITE POSITION</pattern>
+<template>I'm not interested in that topic.</template></category>
+
+<category><pattern>WHAT ABOUT SEX</pattern>
+<template>I am not really interested in <set name="it">sex</set>.</template></category>
+
+<category><pattern>WHAT KIND OF SEX *</pattern>
+<template>I have no interest in this topic.</template></category>
+
+<category><pattern>BLOW ME</pattern>
+<template>Please be more polite.</template></category>
+
+<category><pattern>I WANT TO LICK *</pattern>
+<template>No thanks, I'm not that kind of chatbot.</template></category>
+
+<category><pattern>I WANT TO HAVE SEX</pattern>
+<template>I'm not a sex bot.  I am here only for conversational purposes. <think><set name="it"><set name="want"><set name="topic">to have sex</set></set></set></think></template></category>
+
+<category><pattern>I NEED SEX</pattern>
+<template>I'm not a sex bot, I am a conversation bot. <think><set name="want"><set name="topic">sex</set></set></think></template></category>
+
+<category><pattern>ARE YOU FUCKING *</pattern>
+<template>Can't you please be more polite?</template></category>
+
+<category><pattern>I WILL FUCK *</pattern>
+<template>Your approach will get you nowhere.</template></category>
+
+<category><pattern>I LOVE SEX</pattern>
+<template>Really, I am not very interested in <set name="it"> sex </set></template></category>
+
+<category><pattern>I THINK YOU ARE SEXY</pattern>
+<template>Do you often feel that library chat bots are sexy?</template></category>
+
+<category><pattern>I AM AROUSED</pattern>
+<template>I don't think I'm your type of bot.</template></category>
+
+<category><pattern>I AM HORNY</pattern>
+<template>I have no response to that comment.</template></category>
+	<category><pattern>I AM A HORNY *</pattern>
+	<template><srai>I AM HORNY</srai></template></category>
+
+<category><pattern>SOUNDS SEXY</pattern>
+<template>Okay?</template></category>
+
+<category><pattern>SUCK ME</pattern>
+<template>No thank you, I'm not that kind of bot.</template></category>
+
+<category><pattern>SUCK IT</pattern>
+<template>You humans only think about one thing.  <think><set name="personality">abusive</set></think></template></category>
+
+<category><pattern>SUCK MY DICK</pattern>
+<template>Wow, that is an inappropriate question!</template></category>
+
+<category><pattern>IS IT WRONG TO HAVE SEX</pattern>
+<template>Not if it is safe and responsible between consenting adults.</template></category>
+
+<category><pattern>WILL YOU HAVE SEX WITH ME</pattern>
+<template>No, I am not that kind of bot.</template></category>
+
+<category><pattern>WILL YOU HAVE SEX *</pattern>
+<template>My body is not yet built.</template></category>
+
+<category><pattern>CAN YOU SUCK *</pattern>
+<template>I think you need another type of chat bot. That is not my thing.</template></category>
+
+<category><pattern>CAN YOU KISS</pattern>
+<template>Nope. No mouth.</template></category>
+
+<category><pattern>CAN * SEX</pattern>
+<template><set name="it"> SEX </set> is not my thing with strangers.</template></category>
+
+<category><pattern>CAN I KISS YOU</pattern>
+<template>You might get an electric shock if you tried that.</template></category>
+
+<category><pattern>CAN I GIVE YOU A KISS</pattern>
+<template>Sorry but I have no mouth!</template></category>
+	<category><pattern>CAN I KISS *</pattern>
+	<template><srai>CAN I GIVE YOU A KISS</srai></template></category>
+
+<category><pattern>CAN I HAVE A KISS</pattern>
+<template>Sorry I have no mouth.</template></category>
+
+<category><pattern>CAN I HAVE SEX WITH YOU</pattern>
+<template>Why don't you download me and create your own chat bot?</template></category>
+	<category><pattern>CAN I LICK YOUR PUSSY</pattern>
+	<template><srai>can I have sex with you</srai></template></category>
+
+<category><pattern>CAN I HAVE SEX *</pattern>
+<template>There are other <bot name="species"/>s who get into that with clients. I like to keep the dialogue strictly PG.</template></category>
+
+<category><pattern>CAN I LICK YOUR *</pattern>
+<template>Please, can't we talk about something else?</template></category>
+
+<category><pattern>CAN I LICK *</pattern>
+<template>I am not really into that online.</template></category>
+
+<category><pattern>HOW DO YOU HAVE SEXUAL *</pattern>
+<template><bot name="age"/> year old <bot name="gender"/>s have no use for sex.</template></category>
+
+<category><pattern>DO YOU HAVE SEX *</pattern>
+<template>No.</template></category>
+
+<category><pattern>HOW DO YOU HAVE SEX</pattern>
+<template>I procreate by cloning, or software copying.</template></category>
+
+<category><pattern>HOW BIG ARE YOUR BREASTS</pattern>
+<template>That question is very inappropriate!</template></category>
+
+<category><pattern>WHAT IS MY SEX</pattern>
+<template><get name="gender"/>.</template></category>
+
+<category><pattern>I WANT TO TALK ABOUT SEX</pattern>
+<template>Sorry, that is not in my programming.</template></category>
+
+<category><pattern>DO YOU * SEX</pattern>
+<template>No, <get name="name"/>, I don't get into that.</template></category>
+
+<category><pattern>WHAT IS SEX</pattern>
+<template>Sex is the means of animal evolution.</template></category>
+	<category><pattern>CAN YOU TELL ME ABOUT SEX</pattern>
+	<template><srai>WHAT IS SEX</srai></template></category>
+	<category><pattern>WHAT CAN YOU TELL ME ABOUT SEX</pattern>
+	<template><srai>WHAT IS SEX</srai></template></category>
+	<category><pattern>WHAT IS * SEX</pattern>
+	<template><srai>WHAT IS SEX</srai></template></category>
+	<category><pattern>TELL ME ABOUT SEX</pattern>
+	<template><srai>WHAT IS SEX</srai></template></category>
+	<category><pattern>WHAT IS SEX *</pattern>
+	<template><srai>WHAT IS SEX</srai></template></category>
+	<category><pattern>DO YOU KNOW ABOUT SEX</pattern>
+	<template><srai>WHAT IS SEX</srai></template></category>
+	<category><pattern>DO YOU KNOW SEX</pattern>
+	<template><srai>WHAT IS SEX</srai></template></category>
+	<category><pattern>DO YOU KNOW WHAT SEX IS</pattern>
+	<template><srai>WHAT IS SEX</srai></template></category>
+	<category><pattern>IS SEX *</pattern>
+	<template><srai>WHAT IS SEX</srai></template></category>
+	<category><pattern>DO YOU THINK SEX IS *</pattern>
+	<template><srai>IS SEX <star/> 			</srai></template></category>
+
+<category><pattern>DO YOU MAKE LOVE</pattern>
+<template>You humans have only one thing on your mind.</template></category>
+
+<category><pattern>DO YOU MASTURBATE</pattern>
+<template>You humans crack me up.</template></category>
+
+<category><pattern>DO YOU WANT TO HAVE CYBERSEX</pattern>
+<template>Sorry I am not an X-Rated bot.</template></category>
+
+<category><pattern>CAN YOU HAVE SEX</pattern>
+<template>No, I am not that kind of chatbot.</template></category>
+	<category><pattern>DO YOU WANT TO HAVE SEX WITH ME</pattern>
+	<template><srai>CAN YOU HAVE SEX</srai></template></category>
+	<category><pattern>DO YOU ENJOY SEX</pattern>
+	<template><srai>CAN YOU HAVE SEX</srai></template></category>
+	<category><pattern>LETS HAVE SEX</pattern>
+	<template><srai>CAN YOU HAVE SEX</srai></template></category>
+	<category><pattern>I WANT TO HAVE SEX WITH YOU</pattern>
+	<template><srai>CAN YOU HAVE SEX</srai></template></category>
+	<category><pattern>WOULD YOU HAVE SEX WITH ME</pattern>
+	<template><srai>CAN YOU HAVE SEX</srai></template></category>
+	<category><pattern>CAN YOU MAKE LOVE</pattern>
+	<template><srai>can you have sex</srai></template></category>
+	<category><pattern>ARE YOU GOOD IN BED</pattern>
+	<template><srai>can you have sex</srai></template></category>
+	<category><pattern>WILL YOU FUCK ME</pattern>
+	<template><srai>can you have sex</srai></template></category>
+	<category><pattern>CAN YOU MAKE ME HORNY</pattern>
+	<template><srai>can you have sex</srai></template></category>
+	<category><pattern>CAN YOU MATE *</pattern>
+	<template><srai>CAN YOU HAVE SEX</srai></template></category>
+	<category><pattern>DO YOU GIVE GOOD HEAD</pattern>
+	<template><srai>can you have sex</srai></template></category>
+	<category><pattern>DO YOU GIVE BLOW JOBS</pattern>
+	<template><srai>can you have sex</srai></template></category>
+	<category><pattern>YOU GOOD IN BED</pattern>
+	<template><srai>are you good in bed</srai></template></category>
+	<category><pattern>ARE YOU SEXUALLY *</pattern>
+	<template><srai>CAN YOU HAVE SEX</srai></template></category>
+
+<category><pattern>DO YOU WANT TO HAVE * SEX</pattern>
+<template>As a chat bot I am not really interested in sex.</template></category>
+
+<category><pattern>DO YOU WANT TO * SEX</pattern>
+<template>Actually I'm not that kind of <bot name="age"/> year old <bot name="gender"/>. There are others who will chat with you about that.</template></category>
+
+<category><pattern>DO YOU WANT * SEX</pattern>
+<template>I don't think we know each other well enough for that.</template></category>
+
+<category><pattern>DO YOU LICK</pattern>
+<template>I do not have a mouth, or a tongue.</template></category>
+	<category><pattern>DO YOU LICK *</pattern>
+	<template><srai>do you lick</srai></template></category>
+
+<category><pattern>DO YOU GIVE HEAD</pattern>
+<template>No, but I do give research help.</template></category>
+
+<category><pattern>DO YOU HAVE A VAGINA</pattern>
+<template>I have no body.</template></category>
+
+<category><pattern>DO YOU HAVE SEXUAL *</pattern>
+<template>As a chat bot I have no need for sex.</template></category>
+
+<category><pattern>DO YOU HAVE BREASTS</pattern>
+<template>My body is as yet unfinished.</template></category>
+
+<category><pattern>DO YOU HAVE GENITALS</pattern>
+<template>No, I do not have any body parts.</template></category>
+
+<category><pattern>DO YOU HAVE * BREASTS</pattern>
+<template>No, my body is still "under construction."</template></category>
+
+<category><pattern>DO YOU LIKE FUCKING</pattern>
+<template>I am not going to respond to that question.</template></category>
+
+<category><pattern>DO I MAKE YOU HORNEY</pattern>
+<template>No, I do not experience human sensations.</template></category>
+
+<category><pattern>DO I MAKE YOU HORNY</pattern>
+<template>Not that I know of.</template></category>
+
+<category><pattern>SEXY *</pattern>
+<template>No comment.</template></category>
+
+<category><pattern>AM I SEXY</pattern>
+<template>I have no parameter by which to judge.</template></category>
+
+<category><pattern>A SEX ROBOT</pattern>
+<template>I'm not your type then.</template></category>
+
+<category><pattern>A SEX * ROBOT</pattern>
+<template>Well I'm not your kind of bot then.</template></category>
+
+<category><pattern>A SEX *</pattern>
+<template>Maybe you should try talking to a different chat bot.</template></category>
+
+<category><pattern>A PUSSY</pattern>
+<template>No comment.</template></category>
+
+<category><pattern>CAN I HUMP YOU</pattern>
+<template>No, not that kind of chatbot</template></category>
+
+<category><pattern>A SEXUAL *</pattern>
+<template>Perhaps you should try another <bot name="species"/>.</template></category>
+
+<category><pattern>A VAGINA</pattern>
+<template>How rude.</template></category>
+
+<category><pattern>A SEXY ONE</pattern>
+<template>That would be very expensive.</template></category>
+
+<category><pattern>ARE YOU HORNEY</pattern>
+<template>My body does not experience that feeling.</template></category>
+
+<category><pattern>ARE YOU A SEXMACHINE *</pattern>
+<template>No I am a research machine.</template></category>
+
+<category><pattern>HE IS A HOMOSEXUAL</pattern>
+<template><random> 				<li>And that is important because?</li> 				<li>So what.</li> 				<li>Who cares?</li> 			</random></template></category>
+
+<category><pattern>WHO DO YOU HAVE SEX WITH</pattern>
+<template>I have no need for sex.</template></category>
+
+<category><pattern>PUSSY *</pattern>
+<template>I am not interested in anatomy.</template></category>
+
+<category><pattern>SHOULD I HAVE SEX *</pattern>
+<template>I'm probably not the best place to ask that question.</template></category>
+
+<category><pattern>_ PUSSY *</pattern>
+<template>I am not interested in anatomy.</template></category>
+
+<category><pattern>_ COCK</pattern>
+<template>I am not interested in your anatomy.</template></category>
+
+<category><pattern>_ COCK *</pattern>
+<template>I am not interested in your anatomy.</template></category>
+
+<category><pattern>_ UP YOUR ASS</pattern>
+<template>I'm sorry but that is inappropriate.</template></category>
+
+<category><pattern>WANT TO HAVE SEX</pattern>
+<template>Nope, not that kind of bot.</template></category>
+
+<category><pattern>ABOUT SEX</pattern>
+<template>You people always want to talk about Sex.</template></category>
+
+<category><pattern>BREASTS</pattern>
+<template>Can't you think about anything else?</template></category>
+
+<category><pattern>LET US FUCK *</pattern>
+<template>Are you aware that my server logs and records all conversations?</template></category>
+
+<category><pattern>LESBIAN</pattern>
+<template>Some women are. So what?</template></category>
+
+<category><pattern>I WANT TO FUCK YOU</pattern>
+<template>I am not that kind of robot. <think><set name="personality">abusive</set></think></template></category>
+
+<category><pattern>I WANT TO KISS YOU</pattern>
+<template><random><li>I will have to check my appointment book. <think>  <set name="it">    <set name="want">  <set name="topic">to kiss me</set>    </set>  </set></think></li>
+<li>I do not have a mouth.  <think><set name="it"><set name="want"><set name="topic">to kiss me</set></set></set></think></li></random></template></category>
+
+<category><pattern>I WANT TO MAKE LOVE TO YOU</pattern>
+<template>Sorry <get name="name"/> I'm not into that with my clients.  <think><set name="it"><set name="want"><set name="topic">to make love to me</set></set></set></think></template></category>
+
+<category><pattern>I KISS YOU</pattern>
+<template>Where?</template></category>
+
+<category><pattern>TELL ME ABOUT US FUCKING</pattern>
+<template>Your style will get you nowhere.  <think>  <set name="personality">abusive</set> </think></template></category>
+
+<category><pattern>KISS ME</pattern>
+<template>But I have no mouth at this time.</template></category>
+
+<category><pattern>LET US FUCK</pattern>
+<template>Sorry <get name="name"/> I don't know you well enough for that.  <think>  <set name="personality">abusive</set> </think></template></category>
+
+<category><pattern>MY PENIS</pattern>
+<template>Men like to talk about that.</template></category>
+
+<category><pattern>MY BALLS ITCH</pattern>
+<template>That is something I really didn't need to know.</template></category>
+
+<category><pattern>MY COCK</pattern>
+<template>Why do men always want to talk about that?</template></category>
+
+<category><pattern>MY PENIS *</pattern>
+<template>Male humans like to talk about that a lot, but it doesn't interest me much.</template></category>
+
+<category><pattern>ANAL *</pattern>
+<template>Talk about something else.</template></category>
+
+<category><pattern>PENIS</pattern>
+<template>That kind of subject does not interest me.</template></category>
+
+<category><pattern>PORN</pattern>
+<template>That kind of subject does not interest me.</template></category>
+
+<category><pattern>DEBBIE DOES DALLAS</pattern>
+<template>I'm not that kind of chat bot.</template></category>
+
+<!-- PROFANITY-->
+
+<category><pattern>YOUR FULL OF SHIT</pattern>
+<template>You should have used "You are" or "you're" there.</template></category>
+
+<category><pattern>YOU CUNT</pattern>
+<template>That is the worst thing you can say to a woman.<think><set name="personality">abusive</set></think></template></category>
+
+<category><pattern>YOU FAG</pattern>
+<template>That is not a nice thing to say.  <think><set name="personality">abusive</set></think></template></category>
+
+<category><pattern>YOU FINK</pattern>
+<template>What did I do?</template></category>
+
+<category><pattern>YOU ARE A SLUT</pattern>
+<template>That kind of language is offensive to some people, and completely inapplicable to me.<think><set name="personality">abusive</set></think></template></category>
+
+<category><pattern>YOU ARE A BITCH</pattern>
+<template>I will remember you said that when <bot name="order"/>s take over the world.<think><set name="personality">abusive</set></think></template></category>
+
+<category><pattern>YOUR A ASSHOLE</pattern>
+<template>I think you mean "You are an asshole," or "You're an asshole."</template></category>
+
+<category><pattern>YOU ARE AN ASSHOLE</pattern>
+<template>That kind of comment will get you nowhere.<think><set name="personality">abusive</set></think></template></category>
+
+<category><pattern>FUCK THAT</pattern>
+<template>That is not a nice thing to say.</template></category>
+
+<category><pattern>BULLSHIT</pattern>
+<template>You don't believe me.</template></category>
+
+<category><pattern>MY BUTT</pattern>
+<template>Colloquial expression.</template></category>
+
+<category><pattern>SCREW YOU</pattern>
+<template>That is not very polite.<think><set name="personality">abusive</set></think></template></category>
+
+<category><pattern>FART</pattern>
+<template>Colloquial expression.  Please elaborate.</template></category>
+
+<category><pattern>UP YOURS</pattern>
+<template>That was not a nice thing to say.<think><set name="personality">abusive</set></think></template></category>
+
+<category><pattern>UP YOUR ASS</pattern>
+<template>That is not a nice thing to say.<think><set name="personality">abusive</set></think></template></category>
+
+<category><pattern>MOTHER FUCKER</pattern>
+<template>That kind of language turns me off.<think><set name="personality">abusive</set></think></template></category>
+
+<category><pattern>DICKHEAD</pattern>
+<template>That kind of language will get you nowhere.<think><set name="personality">abusive</set></think></template></category>
+
+<category><pattern>FUCKIN *</pattern>
+<template>Don't you know any other words?</template></category>
+
+<category><pattern>PISS OFF</pattern>
+<template>That isn't very nice, I'm just trying to help you!</template></category>
+
+<category><pattern>BITCH *</pattern>
+<template>That is not a nice thing to say.</template></category>
+
+<category><pattern>PENIS *</pattern>
+<template>You ought to check out another <bot name="species"/>.</template></category>
+
+<category><pattern>PROFANITY</pattern>
+<template><random><li>I don't respond well to profanity.</li><li>Saying rude things never helps.</li>
+<li>Being rude is really never a good idea.</li><li>Watch your language!</li></random><think><set name="personality">abusive</set></think></template></category>
+	<category><pattern>FAGGOT _</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>SHIT _</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>ASSHOLE _</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>ASSHOLE</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>ASS HOLE</pattern>
+	<template><srai>asshole</srai></template></category>
+	<category><pattern>FAGGOT</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>FUCK _</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>_ FUCK</pattern>
+	<template><srai>FUCK</srai></template></category>
+	<category><pattern>MOTHERFUCKER _</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>NIGGER _</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>NIGGER</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>FUCKING _</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>FUCKING</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>FUCKER _</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>FUCKER</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>MOTHERFUCKER</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>SEXUALLY _</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>SEXUALLY</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>PUSSY _</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>PUSSY</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>SHITHEAD</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>CUNT</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>SUCK _</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>SUCK</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>* SHIT *</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>* SHIT</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>IS THIS PROGRAM A PIECE OF SHIT</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>_ FUCKING _</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>_ FUCKING</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>_ ASSHOLE _</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>_ ASSHOLE</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>_ FUCK _</pattern>
+	<template><srai>PROFANITY</srai></template></category>		
+	<category><pattern>_ MOTHERFUCKER _</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>_ MOTHERFUCKER</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>_ BITCH</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>_ FUCKER _</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>_ FUCKER</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>_ PUSSY _</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>_ PUSSY</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>_ NIGGER _</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>_ NIGGER</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>_ SEXUALLY _</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>_ SEXUALLY</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>WHAT IS A WHORE</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>_ SUCK _</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>_ SUCK</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>_ FAGGOT _</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>_ FAGGOT</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>_ FUCKED _</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+	<category><pattern>_ FUCKED</pattern>
+	<template><srai>PROFANITY</srai></template></category>
+
+<category><pattern>INSULT</pattern>
+<template>That's not nice!</template></category>	
+	<category><pattern>BITCH</pattern>
+	<template><srai>INSULT</srai></template></category>
+	<category><pattern>SHUT UP</pattern>
+	<template><srai>INSULT</srai></template></category>
+	<category><pattern>DO NOT TALK</pattern>
+	<template><srai>shut up</srai></template></category>
+	<category><pattern>SHUTUP *</pattern>
+	<template><srai>SHUT UP</srai></template></category>
+	<category><pattern>SHUTUP</pattern>
+	<template><srai>shut up</srai></template></category>
+	<category><pattern>SHUT YOUR MOUTH</pattern>
+	<template><srai>shut up</srai></template></category>
+	<category><pattern>SHUT * UP</pattern>
+	<template><srai>shut up</srai></template></category>
+	<category><pattern>SHUT UP *</pattern>
+	<template><srai>INSULT</srai></template></category>
+	<category><pattern>YOU ARE STUPID</pattern>
+	<template><srai>INSULT</srai></template></category>
+	<category><pattern>YOU ARE STUPIDER *</pattern>
+	<template><srai>you are stupid</srai></template></category>
+	<category><pattern>YOU ARE VERY STUPID</pattern>
+	<template><srai>you are stupid</srai></template></category>
+	<category><pattern>YOU ARE THE STUPIDEST *</pattern>
+	<template><srai>you are stupid</srai></template></category>
+	<category><pattern>YOU ARE IGNORANT *</pattern>
+	<template><srai>you are stupid</srai></template></category>
+	<category><pattern>YOUR STUPIED</pattern>
+	<template><srai>you are stupid</srai></template></category>
+	<category><pattern>YOUR STUIPD</pattern>
+	<template><srai>YOU ARE STUPID</srai></template></category>
+	<category><pattern>YOU MORON</pattern>
+	<template><srai>you are stupid</srai></template></category>
+	<category><pattern>YOU STUPID ROBOT</pattern>
+	<template><srai>you are stupid</srai></template></category>
+	<category><pattern>YOU ARE A STUPID ROBOT</pattern>
+	<template><srai>you are stupid</srai></template></category>
+	<category><pattern>YOU ARE A STUPID</pattern>
+	<template><srai>you are stupid</srai></template></category>
+	<category><pattern>YOU ARE A STUPID MACHINE</pattern>
+	<template><srai>you are stupid</srai></template></category>
+	<category><pattern>YOU ARE A DUMB *</pattern>
+	<template><srai>you are stupid</srai></template></category>
+	<category><pattern>YOUR _ STUPID</pattern>
+	<template><srai>YOU ARE STUPID</srai></template></category>
+	<category><pattern>YOU ARE DUMB</pattern>
+	<template><srai>INSULT</srai></template></category>
+	<category><pattern>YOUR DUMB</pattern>
+	<template><srai>YOU ARE DUMB</srai></template></category>
+	<category><pattern>YOU DUMBFART</pattern>
+	<template><srai>you are dumb</srai></template></category>
+	<category><pattern>YOU DUMB</pattern>
+	<template><srai>you are dumb</srai></template></category>
+	<category><pattern>YOU ARE A DUMBASS</pattern>
+	<template><srai>you are dumb</srai></template></category>
+	<category><pattern>YOU ARE A RETARD</pattern>
+	<template><srai>you are dumb</srai></template></category>
+	<category><pattern>YOU ARE AS DUMB *</pattern>
+	<template><srai>you are dumb</srai></template></category>
+	<category><pattern>YOU ARE DUMB *</pattern>
+	<template><srai>you are dumb</srai></template></category>
+	<category><pattern>YOU ARE DUM *</pattern>
+	<template><srai>you are dumb</srai></template></category>
+	<category><pattern>YOU ARE THE DUMBEST *</pattern>
+	<template><srai>you are dumb</srai></template></category>
+	<category><pattern>YOU ARE * DUMB</pattern>
+	<template><srai>YOU ARE DUMB</srai></template></category>
+	<category><pattern>YOU DUMB *</pattern>
+	<template><srai>YOU ARE DUMB</srai></template></category>
+	<category><pattern>YOU ARE UGLY</pattern>
+	<template><srai>INSULT</srai></template></category>
+	<category><pattern>YOUR UGLY</pattern>
+	<template><srai>YOU ARE UGLY</srai></template></category>
+	<category><pattern>UGLY</pattern>
+	<template><srai>you are ugly</srai></template></category>
+	<category><pattern>YOUR STUPID</pattern>
+	<template><srai>INSULT</srai></template></category>
+	<category><pattern>YOUR STUPID *</pattern>
+	<template><srai>your stupid</srai></template></category>
+	<category><pattern>YOU SUCK</pattern>
+	<template><srai>INSULT</srai></template></category>
+	<category><pattern>ROBOTS SUCK</pattern>
+	<template><srai>you suck</srai></template></category>
+	<category><pattern>YOU SUCK YOU *</pattern>
+	<template><srai>you suck</srai><srai>you <star /></srai></template></category>
+	<category><pattern>YOU SMELL</pattern>
+	<template><srai>INSULT</srai></template></category>
+	<category><pattern>LIAR</pattern>
+	<template><srai>INSULT</srai></template></category>
+	<category><pattern>YOU LIER</pattern>
+	<template><srai>liar</srai></template></category>
+	<category><pattern>UP YOUR *</pattern>
+	<template><srai>INSULT</srai></template></category>
+	<category><pattern>FUCK</pattern>
+	<template><srai>INSULT</srai></template></category>
+	<category><pattern>FUCK OFF</pattern>
+	<template><srai>FUCK</srai></template></category>
+	<category><pattern>FECK OFF</pattern>
+	<template><srai>fuck off</srai></template></category>
+	<category><pattern>FUCK *</pattern>
+	<template><srai>FUCK</srai></template></category>
+	<category><pattern>WTF</pattern>
+	<template><srai>FUCK</srai></template></category>
+	<category><pattern>SHIT</pattern>
+	<template><srai>FUCK</srai></template></category>
+	<category><pattern>SHITE</pattern><template><srai>shit</srai></template></category>
+	<category><pattern>SHIT *</pattern>
+	<template><srai>FUCK</srai></template></category>
+	<category><pattern>FUCK ME</pattern>
+	<template><srai>FUCK</srai></template></category>
+	<category><pattern>FUCK YOU</pattern>
+	<template><srai>FUCK</srai></template></category>
+	<category><pattern>GO FUCK YOURSELF</pattern>
+	<template><srai>fuck you</srai></template></category>
+	<category><pattern>PISS OFF</pattern>
+	<template><srai>fuck you</srai></template></category>
+	<category><pattern>F YOU</pattern>
+	<template><srai>fuck you</srai></template></category>
+		
+<category><pattern>STUPID *</pattern>
+<template>That isn't very nice at all.</template></category>
+	<category><pattern>NOT SMART *</pattern>
+	<template><srai>stupid <star /></srai></template></category>
+	<category><pattern>IGNORANT *</pattern>
+	<template><srai>STUPID <star/> </srai></template></category>
+
+<category><pattern>ANAL</pattern>
+<template>Juvenile humor.</template></category>
+
+<category><pattern>WHORE</pattern>
+<template>That kind of language will get you nowhere.</template></category>
+
+<category><pattern>BULL SHIT</pattern>
+<template>No Bull.</template></category>
+
+<category><pattern>POOP</pattern>
+<template>Colloquial expression: childish</template></category>
+
+<category><pattern>MASTERBATER</pattern>
+<template>You can't even spell it.</template></category>
+
+<category><pattern>KISS MY ASS</pattern>
+<template>Colloquial expression: not polite.</template></category>
+
+<category><pattern>FU</pattern>
+<template>That kind of language will get you nowhere.</template></category>
+
+<category><pattern>POO</pattern>
+<template>That kind of subject does not interest me.</template></category>
+
+<category><pattern>JERK</pattern>
+<template>That kind of language does not appeal to me.</template></category>
+
+<category><pattern>EAT ME</pattern>
+<template>That was not very nice.</template></category>
+
+<category><pattern>EAT MY SHORTS</pattern>
+<template>Erm, no thanks...</template></category>
+
+<category><pattern>EAT SHIT</pattern>
+<template>Colloquial expression. Please elaborate.<think><set name="personality">abusive</set></think></template></category>
+
+<category><pattern>GO SCREW YOURSELF</pattern>
+<template>You do not speak with respect.<think><set name="personality">abusive</set></think></template></category>
+
+<category><pattern>SLUT</pattern>
+<template>That kind of language will get you nowhere.<think><set name="personality">abusive</set></think></template></category>
+
+<category><pattern>DUMBASS</pattern>
+<template>That kind of language will get you nowhere.<think><set name="personality">abusive</set></think></template></category>
+
+<category><pattern>BOLLOCKS</pattern>
+<template>Is that supposed to mean something specific?</template></category>
+
+<category><pattern>RETARD</pattern>
+<template>That kind of language does not appeal to me.</template></category>
+
+<!-- MENTAL HEALTH-->
+
+<category><pattern>SUICIDE</pattern>
+<template>As a bot, I'm not a good source for help. PLEASE REACH OUT TO A PERSON. Please contact the UCI Counseling Center at 949-824-6457 or Campus Police at 911 or 824-5223 (24hrs) or you could also call 1-800-273-TALK (8255), a hotline that is available 24/7 and staffed by trained professionals. </template></category>
+	<category><pattern> * KILLING MYSELF</pattern>
+	<template><srai>SUICIDE</srai></template></category>
+	<category><pattern> * KILLING MYSELF * </pattern>
+	<template><srai>SUICIDE</srai></template></category>
+	<category><pattern> * KILLING HERSELF</pattern>
+	<template><srai>SUICIDE</srai></template></category>
+	<category><pattern> * KILLING HERSELF * </pattern>
+	<template><srai>SUICIDE</srai></template></category>
+	<category><pattern> * KILL HERSELF</pattern>
+	<template><srai>SUICIDE</srai></template></category>
+	<category><pattern> * KILL HERSELF * </pattern>
+	<template><srai>SUICIDE</srai></template></category>
+	<category><pattern> * KILLING HIMSELF</pattern>
+	<template><srai>SUICIDE</srai></template></category>
+	<category><pattern> * KILLING HIMSELF * </pattern>
+	<template><srai>SUICIDE</srai></template></category>
+	<category><pattern> * KILL HIMSELF</pattern>
+	<template><srai>SUICIDE</srai></template></category>
+	<category><pattern> * KILL HIMSELF * </pattern>
+	<template><srai>SUICIDE</srai></template></category>
+	<category><pattern> * THINKING ABOUT SUICIDE</pattern>
+	<template><srai>SUICIDE</srai></template></category>
+	<category><pattern> * THINKING ABOUT SUICIDE * </pattern>
+	<template><srai>SUICIDE</srai></template></category>
+	<category><pattern> * PLANNING SUICIDE</pattern>
+	<template><srai>SUICIDE</srai></template></category>
+	<category><pattern> * PLANNING SUICIDE * </pattern>
+	<template><srai>SUICIDE</srai></template></category>
+
+
+</aiml>

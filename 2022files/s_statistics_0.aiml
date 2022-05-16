@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- STATISTICS -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>STATISTICS *</pattern> 
+	<template><think><set name="topic">STATISTICS</set></think><sr /></template></category>
+
+<category><pattern>STATISTICS</pattern>	
+	<template>For resources on statistics check out the <a href=" http://guides.lib.uci.edu/ics_statistics" target="_blank">Statistics Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Interactions -->	
+
+<category><pattern>STATISTICS</pattern>
+	<that>Gross national product as a subject is included in the broader subjects of Economics and Statistics. Would you like resource recommendations for economics and statistics_</that>
+	<template>We would recommend that you start your search with <a href=" https://statabs.proquest.com/sa" target="_blank">Proquest Statistical Abstract of the U.S. </a> 
+	and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+	For more resources check out the <a href=" https://guides.lib.uci.edu/socscidata" target="_blank">Social Science Data Research Guide</a> 
+	and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+		
+<category><pattern>STATISTICS</pattern>
+	<that>Numeracy as a subject is included in the broader subjects of Mathematics and Statistics Would you like resource recommendations for math or statistics_</that>
+	<template>We would recommend that you start your search with <a href=" http://amstat.tandfonline.com/" target="_blank">American Statistical Association</a> and/or <a href=" http://www.ams.org/mathscinet/" target="_blank">MathSciNet</a>. 
+	For more resources check out the <a href=" http://guides.lib.uci.edu/ics_statistics" target="_blank">Statistics Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<!-- Subject keywords-->
+
+<category><pattern>AVERAGE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://amstat.tandfonline.com/" target="_blank">American Statistical Association</a> and/or <a href=" http://www.ams.org/mathscinet/" target="_blank">MathSciNet</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/ics_statistics" target="_blank">Statistics Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>BIOMETRY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://amstat.tandfonline.com/" target="_blank">American Statistical Association</a> and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/ics_statistics" target="_blank">Statistics Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>DATA EDITING</pattern>
+<template><srai>BIOMETRY</srai></template></category>
+<category><pattern>DATA REDUCTION</pattern>
+<template><srai>BIOMETRY</srai></template></category>
+<category><pattern>EXPERIMENTAL DESIGN</pattern>
+<template><srai>BIOMETRY</srai></template></category>
+<category><pattern>FORENSIC STATISTICS</pattern>
+<template><srai>BIOMETRY</srai></template></category>
+<category><pattern>LARGE DEVIATIONS</pattern>
+<template><srai>BIOMETRY</srai></template></category>
+<category><pattern>PANEL ANALYSIS</pattern>
+<template><srai>BIOMETRY</srai></template></category>
+<category><pattern>SOCCER STATISTICAL METHODS</pattern>
+<template><srai>BIOMETRY</srai></template></category>
+<category><pattern>SPHERICAL DATA</pattern>
+<template><srai>BIOMETRY</srai></template></category>
+<category><pattern>STATISTICAL DECISION</pattern>
+<template><srai>BIOMETRY</srai></template></category>
+<category><pattern>STATISTICAL SERVICES</pattern>
+<template><srai>BIOMETRY</srai></template></category>
+
+<category><pattern>COMMERCIAL STATISTICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://amstat.tandfonline.com/" target="_blank">American Statistical Association</a> and/or <a href=" http://uclibs.org/PID/126938" target="_blank">Business Source Complete</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/ics_statistics" target="_blank">Statistics Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>INDUSTRIAL STATISTICS</pattern>
+<template><srai>COMMERCIAL STATISTICS</srai></template></category>
+
+<category><pattern>FREQUENCY CURVES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://amstat.tandfonline.com/" target="_blank">American Statistical Association</a> and/or <a href=" http://www.ams.org/mathscinet/" target="_blank">MathSciNet</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/ics_statistics" target="_blank">Statistics Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>MATHEMATICAL STATISTICS</pattern>
+<template><srai>FREQUENCY CURVES</srai></template></category>
+<category><pattern>OUTLIERS</pattern>
+<template><srai>FREQUENCY CURVES</srai></template></category>
+<category><pattern>SAMPLING</pattern>
+<template><srai>FREQUENCY CURVES</srai></template></category>
+<category><pattern>SCALE ANALYSIS</pattern>
+<template><srai>FREQUENCY CURVES</srai></template></category>
+<category><pattern>SEASONAL VARIATIONS</pattern>
+<template><srai>FREQUENCY CURVES</srai></template></category>
+<category><pattern>STANDARD DEVIATIONS</pattern>
+<template><srai>FREQUENCY CURVES</srai></template></category>
+<category><pattern>NUMERACY</pattern>
+<template><srai>FREQUENCY CURVES</srai></template></category>
+
+
+<category><pattern>SMOOTHING</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://amstat.tandfonline.com/" target="_blank">American Statistical Association</a> and/or <a href=" http://uclibs.org/PID/12610" target="_blank">Web of Science</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/ics_statistics" target="_blank">Statistics Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>CIRCULAR DATA</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991009262239704701" target="_blank">Current Index to Statistics</a> and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/ics_statistics" target="_blank">Statistics Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>DEGREE OF FREEDOM</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991009262239704701" target="_blank">Current Index to Statistics</a> and/or <a href=" http://amstat.tandfonline.com/" target="_blank">American Statistical Association</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/ics_statistics" target="_blank">Statistics Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>CORRELATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991009262239704701" target="_blank">Current Index to Statistics</a> and/or <a href=" http://www.ams.org/mathscinet/" target="_blank">MathSciNet</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/ics_statistics" target="_blank">Statistics Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>ERROR ANALYSIS</pattern>
+<template><srai>CORRELATION</srai></template></category>
+<category><pattern>REGRESSION ANALYSIS</pattern>
+<template><srai>CORRELATION</srai></template></category>
+
+<category><pattern>GRADUATION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://purl.access.gpo.gov/GPO/LPS6878" target="_blank">Digest of Education Statistics</a> and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/ics_statistics" target="_blank">Statistics Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>EDUCATIONAL STATISTICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://purl.access.gpo.gov/GPO/LPS6878" target="_blank">Digest of Education Statistics</a> and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/ics_statistics" target="_blank">Statistics Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>LIBRARY STATISTICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://web.b.ebscohost.com/ehost/search/advanced?vid=0andamp;sid=9d0e16dd-e8a1-4a99-9369-78ac08dd43c4%40sessionmgr103" target="_blank">LISTA</a> and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/ics_statistics" target="_blank">Statistics Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>CENSUS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" https://statabs.proquest.com/sa" target="_blank">Proquest Statistical Abstract of the U.S.</a> and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/ics_statistics" target="_blank">Statistics Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>CHURCH STATISTICS</pattern>
+<template><srai>CENSUS</srai></template></category>
+<category><pattern>MILITARY STATISTICS</pattern>
+<template><srai>CENSUS</srai></template></category>
+<category><pattern>SOCCER STATISTICS</pattern>
+<template><srai>CENSUS</srai></template></category>
+<category><pattern>VITAL STATISTICS</pattern>
+<template><srai>CENSUS</srai></template></category>
+
+<category><pattern>MEDICAL STATISTICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/ics_statistics" target="_blank">Statistics Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>GAMBLING SYSTEMS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" https://www.webofscience.com/wos/woscc/basic-search" target="_blank">Web of Science</a> 
+			and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/ics_statistics" target="_blank">Statistics Research Guide</a> 
+			and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>LINEAR MODELS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" https://www.webofscience.com/wos/woscc/basic-search" target="_blank">Web of Science</a> 
+			and/or <a href=" http://amstat.tandfonline.com/" target="_blank">American Statistical Association</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/ics_statistics" target="_blank">Statistics Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>ECONOMIC ZONING</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" https://www.webofscience.com/wos/woscc/basic-search" target="_blank">Web of Science</a> 
+			and/or <a href=" https://search.proquest.com/econlit/advanced" target="_blank">EconLilt</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/ics_statistics" target="_blank">Statistics Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>POLITICAL STATISTICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/99693" target="_blank">Worldwide Political Science Abstracts</a> and/or <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/ics_statistics" target="_blank">Statistics Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>JUDICIAL STATISTICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" https://go.gale.com/ps/start.do?p=LTandamp;u=ucirvine" target="_blank">LegalTrac</a> and/or <a href=" http://amstat.tandfonline.com/" target="_blank">American Statistical Association</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/ics_statistics" target="_blank">Statistics Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+</aiml>

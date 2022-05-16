@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!-- this is a test file for book type-->
+
+<!-- this is the little template to follow:
+<category><pattern>(book tag)</pattern>
+<template><random>
+	<li><a href="(book link)" target="blank">(book title)</a></li>
+</li></template></category>
+-->
+
+<category><pattern>LATINX</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034861919304701" target="blank">Aristotle and Dante Discover the Secrets of the Universe</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3249094" target="blank">I Am Not Your Perfect Mexican Daughter</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4581159" target="blank">Ordinary Girls</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034917066604701" target="blank">Brother Bullet</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5079903" target="blank">Hermosa</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991010286679704701" target="blank">Home Girls: A Black Feminist Anthology</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991018373049704701" target="blank">Madwomen: The "Locas Mujeres" Poems of Gabriela Mistral</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991012696759704701	" target="blank">Slow Lightning</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4172401" target="blank">The Crazy Bunch</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4314434" target="blank">The Inheritance of Haunting</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991021027559704701" target="blank">Caucasia</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/178322" target="blank">Mexican WhiteBoy</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3262516" target="blank">Not Now, Not Ever</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035002647804701" target="blank">Sabrina and Corina</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2454380" target="blank">Space Invaders</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991034889114004701" target="blank">The Secret Loves of Geeks</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991017756579704701" target="blank">Thus Were Their Faces</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4240589" target="blank">The Carrying</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991030402449704701" target="blank">The People of Paper</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991011503579704701" target="blank">Pedro Paramo</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2454380" target="blank">Space Invaders</a></li>
+</random></template></category>
+
+<!-- LATINX tag -->
+
+	<category><pattern>LATINX</pattern>
+	<template><srai>latinx</srai></template></category>
+	<category><pattern>* LATINX</pattern>
+	<template><srai>latinx</srai></template></category>
+	<category><pattern>LATINX *</pattern>
+	<template><srai>latinx</srai></template></category>
+	<category><pattern>* LATINX *</pattern>
+	<template><srai>latinx</srai></template></category>
+
+
+<!-- LATINO tag -->
+
+	<category><pattern>LATINO</pattern>
+	<template><srai>latinx</srai></template></category>
+	<category><pattern>* LATINO</pattern>
+	<template><srai>latinx</srai></template></category>
+	<category><pattern>LATINO *</pattern>
+	<template><srai>latinx</srai></template></category>
+	<category><pattern>* LATINO *</pattern>
+	<template><srai>latinx</srai></template></category>
+	
+<!-- LATINOS tag -->
+
+	<category><pattern>LATINOS</pattern>
+	<template><srai>latinx</srai></template></category>
+	<category><pattern>* LATINOS</pattern>
+	<template><srai>latinx</srai></template></category>
+	<category><pattern>LATINOS *</pattern>
+	<template><srai>latinx</srai></template></category>
+	<category><pattern>* LATINOS *</pattern>
+	<template><srai>latinx</srai></template></category>
+	
+
+<!-- LATINA tag -->
+
+	<category><pattern>LATINA</pattern>
+	<template><srai>latinx</srai></template></category>
+	<category><pattern>* LATINA</pattern>
+	<template><srai>latinx</srai></template></category>
+	<category><pattern>LATINA *</pattern>
+	<template><srai>latinx</srai></template></category>
+	<category><pattern>* LATINA *</pattern>
+	<template><srai>latinx</srai></template></category>
+	
+
+<!-- LATINAS tag -->
+
+	<category><pattern>LATINAS</pattern>
+	<template><srai>latinx</srai></template></category>
+	<category><pattern>* LATINAS</pattern>
+	<template><srai>latinx</srai></template></category>
+	<category><pattern>LATINAS *</pattern>
+	<template><srai>latinx</srai></template></category>
+	<category><pattern>* LATINAS *</pattern>
+	<template><srai>latinx</srai></template></category>
+
+	
+</aiml>

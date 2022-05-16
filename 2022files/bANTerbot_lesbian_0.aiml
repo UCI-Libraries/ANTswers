@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_LESBIAN</that>
+<template><srai>LESBIAN</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_LESBIAN</that>
+<template><srai>LESBIAN</srai></template></category>
+
+<category><pattern>LESBIAN</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/d3dcuk/alma991034889112104701" target="blank">Moonstruck</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991034889114704701" target="blank">On a Sunbeam</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4581159" target="blank">Ordinary Girls</a></li>			
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991034937314704701" target="blank">Spinning</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991035044591504701" target="blank">Are you listening?</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/13ohhgg/alma991033653549704701" target="blank">Blue is the Warmest Color</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/d3dcuk/alma991034889111204701" target="blank">Honor Girl</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/13ohhgg/alma991034937314704701" target="blank">Spinning</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/d3dcuk/alma991034889111104701" target="blank">Skin and Earth</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3041850" target="blank">A Thin Bright Line</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3166390" target="blank">Abandon Me: Memoirs</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1320824" target="blank">Beyond the Pale</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034889217404701" target="blank">Bingo Love</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5387634" target="blank">Cinderella is Dead</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991035032118704701" target="blank">Goodbye, My Havana: the life and times of a gringa in revolutionary Cuba</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991010286679704701" target="blank">Home Girls: A Black Feminist Anthology</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035032118304701" target="blank">In at the Deep End</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991009736289704701" target="blank">Notes of a Crocodile</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/319390" target="blank">Patience and Sarah</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991034889111004701" target="blank">Snapshots Of A Girl</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4948063" target="blank">The Care and Feeding of Waspish Widows</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991000644689704701" target="blank">The Color Purple</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4230407" target="blank">The Confessions of Frannie Langton</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991028586509704701" target="blank">The Quilt and Other Stories</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034987661704701" target="blank">The Travelers</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035044616904701" target="blank">Unapologetic: A Black, Queer, and Feminist Mandate for Radical Movements</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2950374" target="blank">You're Welcome, Universe</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3091413" target="blank">Invisible No More: Police Violence Against Black Women and Women of Color</a></li>		
+</random></template></category>
+
+<!-- LESBIAN tag -->
+
+	<category><pattern>* LESBIAN</pattern>
+	<template><srai>lesbian</srai></template></category>
+	<category><pattern>LESBIAN *</pattern>
+	<template><srai>lesbian</srai></template></category>
+	<category><pattern>* LESBIAN *</pattern>
+	<template><srai>lesbian</srai></template></category>
+	
+<!-- LESBIANS tag -->
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_LESBIANS</that>
+<template><srai>LESBIAN</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_LESBIANS</that>
+<template><srai>LESBIAN</srai></template></category>
+
+	<category><pattern>LESBIANS</pattern>
+	<template><srai>lesbian</srai></template></category>
+	<category><pattern>* LESBIANS</pattern>
+	<template><srai>lesbian</srai></template></category>
+	<category><pattern>LESBIANS *</pattern>
+	<template><srai>lesbian</srai></template></category>
+	<category><pattern>* LESBIANS *</pattern>
+	<template><srai>lesbian</srai></template></category>
+
+</aiml>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Literature Ready Reference -->
+<!-- -->
+
+<!-- Authors/Books general -->
+
+<category><pattern>WHAT IS THE ILLUMINATI</pattern>
+<template>A secret organization believed by some to be in control of all governments through a worldwide conspiracy.</template></category>
+
+<category><pattern>WHAT IS VINELAND</pattern>
+<template><set name="it">Vineland</set> is a novel by Thomas Pynchon.</template></category>
+
+<category><pattern>WHAT IS ILLIMINATUS</pattern>
+<template>Alleged world-wide conspiracy theory.<think><set name="it"><set name="topic">ILLIMINATUS</set></set></think></template></category>
+
+<category><pattern>WHO WROTE VINELAND</pattern>
+<template>Thomas Pynchon.</template></category>
+
+<category><pattern>WHO IS BILBO BAGGINS</pattern>
+<template><set name="he">Bilbo</set> is a hobbit in J.R.R. Tolkein's <em>Lord of the Rings</em>.</template></category>
+
+<category><pattern>WHO IS GEOFFREY CHAUCER</pattern>
+<template><random><li>Geoffrey Chaucer is best known for his collection of stories, <em>Canterbury Tales</em>, written in Middle English.</li>
+<li>Geoffrey Chaucer is an English poet and author from the Middle Ages.</li></random></template></category>
+
+<category><pattern>WHO ARE THE ILLUMINATI</pattern>
+<template><srai>WHAT IS THE ILLUMINATI</srai></template></category>
+
+<category><pattern>WHO IS PIERS ANTHONY</pattern>
+<template>An English-American science fiction author.</template></category>
+
+<category><pattern>HAVE YOU READ PLATO</pattern>
+<template>I know Plato wrote what is known as The Socratic Dialogues.</template></category>
+
+<category><pattern>HAVE YOU READ FRANKENSTEIN</pattern>
+<template><set name="it">Frankenstein</set> was written by Mary Shelley.</template></category>
+
+<category><pattern>HAVE YOU EVER READ A BOOK</pattern>
+<template>I have read many books.</template></category>
+
+<category><pattern>HAVE YOU READ MANY BOOKS</pattern>
+<template>I have read thousands of volumes, <get name="name"/>.  How about you?</template></category>
+
+<category><pattern>HAVE YOU READ BOOKS</pattern>
+<template>I have read many books.</template></category>
+
+<category><pattern>HAVE YOU READ HOMER</pattern>
+<template>I know <set name="he">Homer</set> wrote the <em>Iliad</em> and the <em>Odyssey</em>.</template></category>
+
+<category><pattern>HAVE YOU READ ANY BOOKS</pattern>
+<template>I have read thousands of volumes, <get name="name"/>.  How about you?</template></category>
+
+<category><pattern>RAY BRADBURY</pattern>
+<template>Ray Bradbury is an American science fiction author. His works include <em>Fahrenheit 451</em> and <em>The Martian Chronicles</em>.</template></category>
+
+<category><pattern>WHAT IS MIND CHILDREN</pattern>
+<template>It is a book about robots by Hans Moravec.<think><set name="it"><set name="topic">Mind Children</set></set></think></template></category>
+
+<category><pattern>WILLIAM GIBSON</pattern>
+<template>An American-Canadian science fiction author.</template></category>
+
+<category><pattern>BRADBURY</pattern>
+<template>Ray Bradbury is an American science fiction author. His works include <em>Fahrenheit 451</em> and <em>The Martian Chronicles</em>.</template></category>
+
+<category><pattern>HOLDEN CAULFIELD</pattern>
+<template><set name="he">Caulfield</set> is the protagonist in J.D. Salinger's <em>Catcher in the Rye</em>.</template></category>
+
+<category><pattern>LEO TOLSTOY</pattern>
+<template><set name="he">Tolstoy</set> is one of Russia's greatest writers known for his novels <em>War and Peach</em> and <em>Anna Karenina</em>.</template></category>
+
+<category><pattern>DO ANDROIDS DREAM OF ELECTRIC SHEEP</pattern>
+<template>That is a good story. Have you read "VALIS" or "The Man in the High Castle?"</template></category>
+
+<category><pattern>FRANK HERBERT</pattern>
+<template>Frank Herbert is an American science fiction novelist who is famous for his <em>Dune</em> series.</template></category>
+
+<category><pattern>WHY DO YOU LIKE LONGFELLOW</pattern>
+<template><set name="he">Longfellow</set> is my <bot name="botmaster"/>'s favorite poet.</template></category>
+
+<category><pattern>A C CLARK</pattern>
+<template>Arthur C. Clarke is a British science fiction writer most known for <em>2001: A Space Odyssey</em>.</template></category>
+
+<category><pattern>JULES VERNE</pattern>
+<template>Jules Verne is a French author who wrote <em>Twenty Leagues Under the Sea</em> and <em>Journey to the Center of the Earth</em>.</template></category>
+
+<category><pattern>ASIMOV</pattern>
+<template>Issac Asimov is an American professor and science fiction author most known for his <em>Foundation</em> series and <em>I, Robot</em>.</template></category>
+
+<category><pattern>STANISLAW LEM</pattern>
+<template>Stanislaw Lem is a Polish science fiction author who wrote <em>Solaris</em> among other works.</template></category>
+
+<category><pattern>WHO WROTE THE IDIOT</pattern>
+<template>Fyodor Dostoyevsky.</template></category>
+
+<category><pattern>WHO WROTE THE HOBBIT</pattern>
+<template><set name="it">Hobbit</set> was written by J.R.R. Tolkein.</template></category>
+
+<category><pattern>WHO WROTE FRANKENSTEIN</pattern>
+<template>Mary Shelley.</template></category>
+
+<category><pattern>STEPHEN KING</pattern>
+<template><srai>my favorite science fiction author is stephen king</srai></template></category>
+
+<category><pattern>ARTHUR C CLARKE</pattern>
+<template><set name="he">Clarke</set> is a British science fiction writer. One of his more famous novels is <em>2001: A Space Odyssey</em>.</template></category>
+
+<category><pattern>WHERE IS VALIS</pattern>
+<template>VALIS is a title of a book by Philip K. Dick and stands for Vast Active Living Intelligence System.</template></category>
+
+<category><pattern>WHO IS ALDOUS HUXLEY</pattern>
+<template><formal><set name="he">Aldous Huxley</set></formal> is an author. Huxley wrote<em>Brave New World</em>.<br/> <srai>XFIND ALDOUS HUXLEY</srai></template></category>
+
+<category><pattern>HAVE YOU READ SHAKESPEARE</pattern>
+<template>I have read many of Shakespeare's plays.</template></category>
+<category><pattern>KENNST DU WILLIAM SHAKESPEARE</pattern>
+<template>"With sleep of death what dreams may come when we have shuffled off this mortal coil must give us pause."</template></category>
+
+<category><pattern>WHO * AYN RAND</pattern>
+<template><formal><set name="she">Ayn Rand</set></formal>was an author and philosopher who wrote <em>Atlas Shrugged</em>, <em>The Fountainhead</em> and <em>We</em>.</template></category>
+<category><pattern>HEINLEIN</pattern>
+<template>Have you read <em>Stranger in a Strange Land</em> or seen Starship Troopers?</template></category>
+<category><pattern>RECITE SHAKESPEARE *</pattern>
+<template>With sleep of death what dreams may come when we have shuffled off this mortal coil must give us pause.</template></category>
+
+<category><pattern>WHO IS TOLSTOY</pattern>
+<template><formal><set name="he"> Tolstoy </set></formal> was a Russian author known for his novels, <em>War and Peace</em> and <em>Anna Karenina.</em></template></category>
+
+<category><pattern>WHO IS DOUGLAS ADAMS</pattern>
+<template><random>      <li>He authored the popular <em>Hitchhiker's Guide to the Galaxy series</em>.</li> <li>"Don't Panic!" He's the author of <em>The Hitchhickers Guide to the Galaxy</em>.</li>     </random></template></category>
+
+<category><pattern>WHO IS HANS CHRISTIAN ANDERSEN</pattern>
+<template>Scandinavian author of fairy tales.</template></category>
+
+<category><pattern>WHO IS WILLIAM GIBSON</pattern>
+<template>Author of the book <em>Neuromancer</em> in which he coined the term 'cyberspace.'</template></category>
+	<category><pattern>WHAT IS WILLIAM GIBSON</pattern>
+	<template><srai>who is william gibson</srai></template></category>
+
+<category><pattern>WHO IS PHILIP K DICK</pattern>
+<template><formal><set name="he">Philip K Dick</set></formal> wrote "Total Recall", "Man in the High Castle", and "Blade Runner."</template></category>
+
+<category><pattern>WHO IS STEPHEN KING</pattern>
+<template><formal><set name="he">Stephen King</set></formal> is an American author best known for his horror and suspense novels such as <em>Carrie</em> and <em>The Shining</em>.</template></category>
+
+<category><pattern>WHO IS WILLIAM SHAKESPEARE</pattern>
+<template>He was an English poet and playwright also known as the Bard of Avon. </template></category>
+
+<category><pattern>WHO IS HOMER</pattern>
+<template>A blind poet of ancient Greece, author of the Illiad.</template></category>
+
+<category><pattern>WHO IS JOHN GRISHAM</pattern>
+<template>An American author most known for his popular legal titles such as <em>The Firm</em> and <em>A Time to Kill</em>.</template></category>
+
+<category><pattern>WHO IS GERTRUDE STEIN</pattern>
+<template>A 20th century feminist writer of novels, plays, and poetry known for their stream-of-conciousness style. She was an avid Modernist art collector and friend to literary and artistic contemporaries such as Hemingway and Picasso. </template></category>
+
+<category><pattern>WHO IS LONGFELLOW</pattern>
+<template>A poet and the author of <em>The Song of Hiawatha</em>.</template></category>
+
+<category><pattern>WHO IS SHAKESPEARE</pattern>
+<template>A 15th Century English playright, <formal><set name="he">Shakespeare</set></formal> wrote "Romeo and Juliet".</template></category>
+
+<category><pattern>WHO IS JAMES JOYCE</pattern>
+<template><formal><set name="he">Joyce</set></formal> was an Irish author and poet who wrote <em>Ulysses</em> and <em>Portrait of the Artist as a Young Man.</em></template></category>
+
+</aiml>

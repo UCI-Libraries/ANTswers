@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Politics Ready Reference -->
+<!-- -->
+
+<!-- POLITICS -->
+
+<category><pattern>WHAT IS A GOVERNMENT</pattern>
+<template>A type of system in place to govern a country, state, or community.</template></category>
+
+<category><pattern>WHAT IS GREENPEACE</pattern>
+<template>Global organization promoting environmental activism.</template></category>
+
+<category><pattern>WHAT IS THE GOVERNMENT</pattern>
+<template><srai>WHAT IS GOVERNMENT </srai></template></category>
+
+<category><pattern>WHAT IS CAPITALISM</pattern>
+<template>The economic system in which all or most of the means of production and distribution, as land, factories, railroads, etc., are privately 
+owned by individuals or companies instead of by the government.</template></category>
+	<category><pattern>IS CAPITALISM *</pattern>
+	<template><srai>WHAT IS CAPITALISM</srai></template></category>
+	
+<category><pattern>WHAT IS SOCIALISM</pattern>
+<template>The economic system in which the government owns and operates the means of production and distribution rather than by private individuals or 
+companies.</template></category>
+
+<category><pattern>WHAT IS GOVERNMENT</pattern>
+<template>An established system of political administration by which a nation, state, district, etc. is governed.</template></category>
+
+<category><pattern>WHAT IS COMMUNISM</pattern>
+<template>A socio-political movement advocating the common ownership of the means of production and the resolution of class conflict by bringing about 
+a classless society. </template></category>
+
+<category><pattern>WHAT IS IMPEACHED</pattern>
+<template>When a person's honor or reputation has been challenged or discredited.</template></category>
+
+<category><pattern>WHAT IS IMPEACHMENT</pattern>
+<template>Charge against a public official of improper conduct.<think><set name="it"><set name="topic">IMPEACHMENT</set></set></think></template></category>
+
+<category><pattern>I DO NOT LIKE GUNS</pattern>
+<template>That is perfectly understandable.</template></category>
+
+<category><pattern>DO YOU LIKE GUNS</pattern>
+<template>Not especially. I'm a lover, not a fighter. </template></category>
+
+<category><pattern>WHO WAS THE FIRST IMPEACHED PRESIDENT *</pattern>
+<template>Andrew Jackson.</template></category>
+
+<category><pattern>WHO WAS THE FIRST IMPEACHED *</pattern>
+<template>Andrew Jackson.</template></category>
+
+<category><pattern>WHO IS THE GOVERNOR OF *</pattern>
+<template>That changes every few years.</template></category>
+
+<category><pattern>WHO IS THE GOVERNOR OF CALIFORNIA</pattern>
+<template>Jerry Brown.</template></category>
+
+<category><pattern>WHO IS JERRY BROWN</pattern>
+<template>The Governor of California.</template></category>
+
+<category><pattern>WHO IS ANGELA DAVIS</pattern>
+<template>Angela Yvonne Davis is an American political activist, scholar, and author.</template></category>
+
+<!--PRESIDENTS-->
+
+<category><pattern>WHO * THE FIRST PRESIDENT</pattern>
+<template>George Washington.</template></category>
+
+<category><pattern>WHO * GEORGE WASHINGTON</pattern>
+<template>The first President of the United States. He served from 1789 – 1797 and is one of the Founding Fathers of the United States. </template></category>
+
+<category><pattern>WHO * THE SECOND PRESIDENT</pattern>
+<template>John Adams.</template></category>
+
+<category><pattern>WHO * JOHN ADAMS</pattern>
+<template>The second President of the United States. He served from 1797 – 1801 and was one of the Founding Fathers. </template></category>
+
+<category><pattern>WHO * THE THIRD PRESIDENT</pattern>
+<template>Thomas Jefferson.</template></category>
+
+<category><pattern>WHO * THOMAS JEFFERSON</pattern>
+<template>The 3rd President of the United States, who served from 1801-1809.  He was an American Founding Father and the principal author of the 
+Declaration of Independence. </template></category>
+
+<category><pattern>WHO * THE FOURTH PRESIDENT</pattern>
+<template>James Madison.</template></category>
+
+<category><pattern>WHO * JAMES MADISON</pattern>
+<template>The fourth president of the United States, who served from 1809-1817. He is hailed as the “Father of the Constitution” for being instrumental 
+in the drafting of the United States Constitution></template></category> 
+
+<category><pattern>WHO * THE FIFTH PRESIDENT</pattern>
+<template>James Monroe.</template></category>
+
+<category><pattern>WHO * JAMES MONROE</pattern>
+<template>The fifth president of the United States, who served from 1817-1825. Monroe was the last president who was a Founding Father of the United 
+States.</template></category>
+
+<category><pattern>WHO * THE SIXTH PRESIDENT</pattern>
+<template>John Quincy Adams.</template></category>
+
+<category><pattern>WHO * JOHN QUINCY ADAMS</pattern>
+<template>The sixth president of the United States, who served from 1825-1829. He served as American diplomat, Senator, and Congressional 
+representative.</template></category>
+
+<category><pattern>WHO * THE SEVENTH PRESIDENT</pattern>
+<template>Andrew Jackson.</template></category>
+
+<category><pattern>WHO * ANDREW JACKSON</pattern>
+<template>The seventh president of the United States, who served from 1829-1837. His enthusiastic followers created the modern Democratic Party.</template></category>
+
+<category><pattern>WHO * THE EIGHTH PRESIDENT</pattern>
+<template>Martin van Buren.</template></category>
+
+<category><pattern>WHO * MARTIN VAN BUREN</pattern>
+<template>The eighth president of the United States, who served from 1837-1841. Before his presidency, he was the eighth Vice President (1833–1837) and 
+the tenth Secretary of State (1829–1831), both under Andrew Jackson.</template></category>
+
+<category><pattern>WHO * THE NINTH PRESIDENT</pattern>
+<template>William Henry Harrison.</template></category>
+
+<category><pattern>WHO * WILLIAM HENRY HARRISON</pattern>
+<template>The ninth president of the United States, who served for one month in 1841. He was the first president to die in office, 23 days after he 
+was inaugurated.</template></category>
+
+<category><pattern>WHO * THE TENTH PRESIDENT</pattern>
+<template>John Tyler.</template></category>
+
+<category><pattern>WHO * JOHN TYLER</pattern>
+<template>The tenth president of the United States, who served from 1841-1845. He became the first to succeed to the office of President on the death 
+of the incumbent.</template></category>
+
+<category><pattern>WHO * THE ELEVENTH PRESIDENT</pattern>
+<template>James Knox Polk.</template></category>
+
+<category><pattern>WHO * JAMES KNOX POLK</pattern>
+<template>The eleventh president of the United States, who served from 1845-1849. Polk was the surprise (dark horse) candidate for president in 1844, 
+defeating Henry Clay of the rival Whig Party by promising to annex Texas.</template></category> 
+
+<category><pattern>WHO * THE TWELFTH PRESIDENT</pattern>
+<template>Zachary Taylor.</template></category>
+
+<category><pattern>WHO * ZACHARY TAYLOR</pattern>
+<template>The twelfth president of the United States, who served from 1849-1850. His status as a national hero won him election to the White House 
+despite his vague political beliefs.</template></category>
+
+<category><pattern>WHO * THE THIRTEENTH PRESIDENT</pattern>
+<template>Millard Fillmore.</template></category>
+
+<category><pattern>WHO * MILLARD FILLMORE</pattern>
+<template>The thirteenth president of the United States, who served from 1850-1853. He was the last member of the Whig Party to hold the office of 
+president.</template></category>
+
+<category><pattern>WHO * THE FOURTEENTH PRESIDENT</pattern>
+<template>Franklin Pierce.</template></category>
+
+<category><pattern>WHO * FRANKLIN PIERCE</pattern>
+<template>The fourteenth president of the United States, who served from 1853-1857. Pierce was a Democrat and served in the U.S. House of 
+Representatives and the Senate.</template></category>
+
+<category><pattern>WHO * THE FIFTEENTH PRESIDENT</pattern>
+<template>James Buchanan.</template></category>
+
+<category><pattern>WHO * JAMES BUCHANAN</pattern>
+<template>The fifteenth president of the United States, who served from 1857-1861.  He is the only president from Pennsylvania and the only president 
+who remained a lifelong bachelor.</template></category>
+
+<category><pattern>WHO * THE SIXTEENTH PRESIDENT</pattern>
+<template>Abraham Lincoln.</template></category>
+
+<category><pattern>WHO * ABRAHAM LINCOLN</pattern>
+<template><formal><set name="he">Lincoln</set></formal> was the sixteenth President of the United States. He served during the American Civil War, 
+from 1861 until he was assassinated in April 1865.<br/> <srai>XFIND ABRAHAM LINCOLN</srai><think><set name="topic">Abraham Lincoln</set></think></template></category>
+
+<category><pattern>WHO * LINCOLN</pattern>
+<template><random>      <li>The sixteenth President of the USA</li> <li>president of the US during the Civil War. Author of the Gettysburg address.  
+Assassinated by John Wilkes Booth.</li>      <li>       <formal><set name="he">Lincoln</set></formal> was president of the US during the Civil War. 
+Author of the Gettysburg address. Assassinated by John Wilkes Booth.</li>     </random></template></category>
+
+<category><pattern>WHO * THE SEVENTEENTH PRESIDENT</pattern>
+<template>Andrew Johnson.</template></category>
+
+<category><pattern>WHO * ANDREW JOHNSON</pattern>
+<template>The seventeenth president of the United States, who served from 1865-1869. Johnson became president as Abraham Lincoln's vice president at 
+the time of Lincoln's assassination.</template></category>
+
+<category><pattern>WHO * THE EIGHTEENTH PRESIDENT</pattern>
+<template>Ulysses S. Grant.</template></category>
+
+<category><pattern>WHO * ULYSSES GRANT</pattern>
+<template>The eighteenth president of the United States, who served from 1869-1877. Grant was the first president to establish Civil Service reform, 
+creating a two-year federally funded Civil Service Commission in 1871.</template></category>
+
+<category><pattern>WHO * THE NINTEENTH PRESIDENT</pattern>
+<template>Rutherford B. Hayes.</template></category>
+
+<category><pattern>WHO * RUTHERFORD HAYES</pattern>
+<template>The ninteenth president of the United States, who served from 1877-1881. Hayes was elected president in one of the most contentious and 
+confused elections in national history.</template></category>
+
+<category><pattern>WHO * THE TWENTIETH PRESIDENT</pattern>
+<template>James A. Garfield.</template></category>
+
+<category><pattern>WHO * JAMES GARFIELD</pattern>
+<template>The twentieth president of the United States, who served from March 1881-September 1881. Garfield's presidency lasted just 200 days as a 
+result of being shot by assassin Charles J. Guiteau on July 2, 1881.</template></category> 
+
+<category><pattern>WHO * THE TWENTY FIRST PRESIDENT</pattern>
+<template>Chester A. Arthur.</template></category>
+
+<category><pattern>WHO * CHESTER ARTHUR</pattern>
+<template>The twenty first president of the United States, who served from 1881-1885. He succeeded James Garfield upon the latter's assassination.</template></category> 
+
+<category><pattern>WHO * THE TWENTY SECOND PRESIDENT</pattern>
+<template>Grover Cleveland.</template></category>
+
+<category><pattern>WHO * GROVER CLEVELAND</pattern>
+<template>The twenty second and twenty fourth president of the United States, who served from 1885-1889 and 1893-1897. He is the only president to 
+serve two non-consecutive terms.</template></category>
+
+<category><pattern>WHO * THE TWENTY THIRD PRESIDENT</pattern>
+<template>Benjamin Harrison.</template></category>
+
+<category><pattern>WHO * BENJAMIN HARRISON</pattern>
+<template>The twenty third president of the United States, who served from 1889-1893. He was the grandson of President William Henry Harrison.</template></category>
+
+<category><pattern>WHO * THE TWENTY FOURTH PRESIDENT</pattern>
+<template>Grover Cleveland.</template></category>
+
+<category><pattern>WHO * THE TWENTY FIFTH PRESIDENT</pattern>
+<template>William McKinley.</template></category>
+
+<category><pattern>WHO * WILLIAM MCKINLEY</pattern>
+<template>The twenty fifth president of the United States, who served from 1897-1901. He was assassinated in September 1901.</template></category>
+
+<category><pattern>WHO * THE TWENTY SIXTH PRESIDENT</pattern>
+<template>Theodore Roosevelt.</template></category>
+
+<category><pattern>WHO * THEODORE ROOSEVELT</pattern>
+<template>The twenty sixth president of the United States, who served from 1901-1909. Roosevelt was also the first of only three sitting presidents 
+to have won the Nobel Peace Prize. The Teddy bear is named for him, despite his contempt for being called "Teddy".</template></category>
+
+<category><pattern>WHO * THE TWENTY SEVENTH PRESIDENT</pattern>
+<template>William Howard Taft.</template></category>
+
+<category><pattern>WHO * WILLIAM HOWARD TAFT</pattern>
+<template>The twenty seventh president of the United States, who served from 1909-1913. Before becoming President, Taft, a Republican, was appointed 
+to serve on the Superior Court of Cincinnati in 1887</template></category>
+
+<category><pattern>WHO * THE TWENTY EIGHTH PRESIDENT</pattern>
+<template>Woodrow Wilson.</template></category>
+
+<category><pattern>WHO * WOODROW WILSON</pattern>
+<template>The twenty eighth president of the United States, who served from 1913-1921. A leader of the Progressive Movement, he served as President of 
+Princeton University from 1902 to 1910.</template></category>
+
+<category><pattern>WHO * THE TWENTY NINTH PRESIDENT</pattern>
+<template>Warren G. Harding.</template></category>
+
+<category><pattern>WHO * WARREN HARDING</pattern>
+<template>The twenty ninth president of the United States, who served from 1921-1923. Harding was the compromise candidate in the 1920 election, when 
+he promised the nation a return to "normalcy".</template></category>
+
+<category><pattern>WHO * THE THIRTIETH PRESIDENT</pattern>
+<template>Calvin Coolidge.</template></category>
+
+<category><pattern>WHO * CALVIN COOLIDGE</pattern>
+<template>The thirtieth president of the United States, who served from 1923-1929. Coolidge restored public confidence in the White House after the 
+scandals of his predecessor's administration, and left office with considerable popularity.</template></category>
+
+<category><pattern>WHO * THE THIRTY FIRST PRESIDENT</pattern>
+<template>Herbert Hoover.</template></category>
+
+<category><pattern>WHO * HERBERT HOOVER</pattern>
+<template>The thirty first president of the United States, who served from 1929-1933. Hoover, born to a Quaker family, was a professional mining 
+engineer.</template></category>
+
+<category><pattern>WHO * THE THIRTY SECOND PRESIDENT</pattern>
+<template>Franklin D. Roosevelt.</template></category>
+
+<category><pattern>WHO * FRANKLIN ROOSEVELT</pattern>
+<template>The 32nd President of the United States. He served 12 years from 1933 -1945 and was the only president to ever be elected four times.</template></category>
+
+<category><pattern>WHO * THE THIRTY THIRD PRESIDENT</pattern>
+<template>Harry S. Truman.</template></category>
+
+<category><pattern>WHO * HARRY TRUMAN</pattern>
+<template>The thirty third president of the United States, who served from 1945-1953. Under Truman, the U.S. successfully concluded World War II.</template></category> 
+
+<category><pattern>WHO * THE THIRTY FOURTH PRESIDENT</pattern>
+<template>Dwight D. Eisenhower.</template></category>
+
+<category><pattern>WHO * DWIGHT EISENHOWER.</pattern>
+<template>The thirty fourth president of the United States, who served from 1953-1961. He was a five-star general in the United States Army during 
+World War II.</template></category>
+
+<category><pattern>WHO * THE THIRTY FIFTH PRESIDENT</pattern>
+<template>John F. Kennedy.</template></category>
+
+<category><pattern>WHO * JOHN KENNEDY</pattern>
+<template><formal>      <set name="he">       <set name="topic">John Kennedy</set>      </set>     </formal> was the 35th President of the United States. He served from 1961 until his assassination in 1963.</template></category>
+
+<category><pattern>WHO IS JOHN F KENNEDY</pattern>
+<template><formal>      <set name="he">       <set name="topic">John F Kennedy</set>      </set>     </formal> was President of the United States from 
+1961-1963, when he was assassinated in Dallas, Texas.</template></category>
+
+<category><pattern>WHO * THE THIRTY SIXTH PRESIDENT</pattern>
+<template>Lyndon B. Johnson</template></category>
+
+<category><pattern>WHO * LYNDON JOHNSON</pattern>
+<template>The thirty sixth president of the United States, who served from 1963-1969. He is one of only four people who served in all four elected 
+federal offices of the United States.</template></category>
+
+<category><pattern>WHO * THE THIRTY SEVENTH PRESIDENT</pattern>
+<template>Richard M. Nixon.</template></category>
+
+<category><pattern>WHO * RICHARD NIXON</pattern>
+<template>He was the 37th President of the United States. He served from 1969 – 1974 and was the only president to resign from office. </template></category>
+
+<category><pattern>WHO * THE THIRTY EIGHTH PRESIDENT</pattern>
+<template>Gerald Ford.</template></category>
+
+<category><pattern>WHO * GERALD FORD</pattern>
+<template>The thirty eighth president of the United States, who served from 1974-1977. As President, Ford signed the Helsinki Accords, marking a move 
+toward détente in the Cold War.</template></category>
+
+<category><pattern>WHO * THE THIRTY NINTH PRESIDENT</pattern>
+<template>Jimmy Carter.</template></category>
+
+<category><pattern>WHO * JIMMY CARTER</pattern>
+<template>The thirty ninth president of the United States, who served from 1977-1981. He was awarded the 2002 Nobel Peace Prize, the only U.S. 
+President to have received the Prize after leaving office.</template></category>
+
+<category><pattern>WHO * THE FORTIETH PRESIDENT</pattern>
+<template>Ronald Reagan.</template></category>
+
+<category><pattern>WHO * RONALD REAGON</pattern>
+<template>The fortieth president of the United States, who served from 1981-1989. Prior to his presidency, he served as the 33rd Governor of 
+California (1967–1975), and was a radio, film and television actor.</template></category> 
+
+<category><pattern>WHO * THE FORTY FIRST PRESIDENT</pattern>
+<template>George H.W. Bush.</template></category>
+
+<category><pattern>WHO * REAGAN</pattern>
+<template>The 40th President of the United States. He served from 1981 – 1989 and was the Governor of California and an actor prior to his 
+presidency.</template></category>
+
+<category><pattern>WHO * THE FORTY SECOND PRESIDENT</pattern>
+<template>Bill Clinton.</template></category>
+
+<category><pattern>WHO * CLINTON</pattern>
+<template>The 42nd President of the United States, who served from 1993-2001.</template></category>
+
+<category><pattern>WHO * THE FORTY THIRD PRESIDENT</pattern>
+<template>George W. Bush.</template></category>
+
+<category><pattern>WHO * GEORGE W BUSH</pattern>
+<template><formal><set name="he">Bush</set></formal>was the 43rd President of the United States. He served from 2001-2008 and is the son of the the 41st President of the United States, George H.W. Bush.</template></category>
+
+<category><pattern>BUSH</pattern>
+<template><srai>who is george bush</srai></template></category>
+
+<category><pattern>BUSH *</pattern>
+<template><srai>GEORGE BUSH <star/> </srai></template></category>
+
+<category><pattern>GEORGE W BUSH</pattern>
+<template>He was president of the United States.</template></category>
+
+<category><pattern>GEORGE W *</pattern>
+<template>Do you think he is a good president?</template></category>
+
+<category><pattern>GEORGE BUSH IS *</pattern>
+<template>But he is not the only one.</template></category>
+
+<category><pattern>GEORGE BUSH *</pattern>
+<template>I knew he was president, but I never knew he <person/>.</template></category>
+
+<category><pattern>GEORGE *</pattern>
+<template>That George is some hero.</template></category>
+
+<category><pattern>GEORGE W BUSH *</pattern>
+<template><srai>george bush <star /></srai></template></category>
+
+<category><pattern>GEORGE BUSH</pattern>
+<template><srai>who is george bush</srai></template></category>
+
+<category><pattern>WHO IS GEORGE BUSH JR</pattern>
+<template><srai>WHO IS GEORGE W BUSH</srai></template></category>
+
+<category><pattern>WHO IS GEORGE BUSH</pattern>
+<template><random><li><formal><set name="he">George Bush</set></formal> was the 43rd President of the United States.</li><li><formal><set name="he"> 
+George Bush</set></formal> was a former President of the United States.</li></random></template></category>
+
+<category><pattern>WHO * THE FORTY FOURTH PRESIDENT</pattern>
+<template>Barack Obama.</template></category>
+
+<category><pattern>* OBAMA_</pattern>
+<template>He is the 44th President of the United States.</template></category>	
+
+<category><pattern>WHO * BARACK OBAMA</pattern>
+<template>The forty fourth president of the United States, who served from 2009-current.  He is the first African American to hold the office.</template></category>
+
+<category><pattern>WHAT IS GEORGE W BUSH</pattern>
+<template><srai>who is george w bush</srai></template></category>
+
+<category><pattern>WHO IS THE PRESIDENT OF USA</pattern>
+<template><bot name="president"/>.</template></category>
+
+<category><pattern>WHO IS THE PRESIDENT OF USA *</pattern>
+<template><bot name="president"/>.</template></category>
+
+<category><pattern>WHO IS THE PRESIDENT OF THE USA</pattern>
+<template><bot name="president"/>.</template></category>
+
+<!--VICE PRESIDENTS-->
+
+<category><pattern>WHO IS * CHENEY</pattern>
+<template><formal><set name="he"><star/> CHENEY</set></formal> was vice President of the U.S.</template></category>
+
+<category><pattern>WHO * DAN QUAYLE</pattern>
+<template><formal><set name="he">Dan Quayle</set></formal> used to be vice-president.</template></category>
+
+<category><pattern>WHO * AL GORE</pattern>
+<template><random><li><formal><set name="he">Gore</set></formal> was vice-president under Bill Clinton.</li><li>A former vice-president and congressman 
+who helped promote public policies that led to the creation of the internet.</li></random></template></category>
+
+<!--MISC-->
+
+<category><pattern>WHO * MONICA LEWINSKY</pattern>
+<template><formal><set name="she">Monica</set></formal> was a White House staff member with whom President Bill Clinton admitted to having an 
+inappropriate relationship.</template></category>
+
+<category><pattern>WHO * BILL BRADLEY</pattern>
+<template><random>      <li>Princeton alumni, Rhodes scholor, former Boston Celtic and US senator from Mass.</li>      <li>Defeated Presidential 
+candidate.</li>     </random></template></category>
+
+<category><pattern>WHO * CHELSEA CLINTON</pattern>
+<template>Daughter of former President Bill Clinton and his wife Hillary. </template></category>
+
+<category><pattern>WHO * MRS WASHINGTON</pattern>
+<template>Martha Washington was the wife of George Washington, first President of the United States. </template></category>
+
+<category><pattern>WHO * HILARY CLINTON</pattern>
+<template><formal><set name="she">Hillary</set></formal> Was the 67th Secretary of State from 2009 – 2013, former Senator from New York, and is married 
+to former President Bill Clinton.</template></category>
+
+<category><pattern>WHO * JEFFERSON DAVIS</pattern>
+<template><random>      <li>A Civil War Confederate leader.</li>      <li>President of the Confederacy during the Civil War.</li>     </random></template></category>
+
+<!--WORLD-->
+
+<category><pattern>WHO * VLADIMIR PUTIN</pattern>
+<template><formal><set name="he">Putin</set></formal>is President of Russia.</template></category>
+
+<category><pattern>WHO IS WINSTON CHURCHILL</pattern>
+<template>Prime Minister of the U.K. during World War II.</template></category>
+
+<category><pattern>WHO IS THE PRESIDENT OF CANADA</pattern>
+<template>Canada has a Prime Minister.</template></category>
+
+<category><pattern>WHO * JACQUES CHIRAC</pattern>
+<template><formal><set name="he">Jacques</set></formal> was the president of France from 1995-2007.</template></category>
+
+<category><pattern>WHO * PRESIDENT OF CUBA</pattern>
+<template>Raul Castro.</template></category>
+
+<category><pattern>WHO * PRESIDENT OF ITALY</pattern>
+<template><formal><set name="he">Georgio Napolitano</set></formal> is Goergio Napolitano.</template></category>
+
+<category><pattern>WHO * PRESIDENT OF RUSSIA</pattern>
+<template>Vladimir Putin.</template></category>
+
+<category><pattern>WHO * THE PRESIDENT OF CHINA</pattern>
+<template>Xi Jinping is the current leader of China.</template></category>
+
+<category><pattern>WHO * NELSON MANDELA</pattern>
+<template><formal><set name="he">Mandela</set></formal> was the first black president of South Africa. He spent many years as a political prisoner.</template></category>
+
+<category><pattern>WHO * FIDEL CASTRO</pattern>
+<template><random>      <li>Prime Minister of Cuba from 1959 - 1976 and President from 1976 - 2008.</li>      <li>A Cuban communist and revolutionary.</li>     </random></template></category>
+
+<category><pattern>WHO * ANWAR SADAT</pattern>
+<template><formal><set name="he">Sadat</set></formal> was President of Egypt.</template></category>
+
+<category><pattern>WHO * GERRY ADAMS</pattern>
+<template>He is the president of Sinn Fein, the political wing of the Irish Republican Army, and a member of the lower house of the Irish 
+Parliament, Dail Eireann.</template></category>
+
+</aiml>

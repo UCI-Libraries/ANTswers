@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_SOCIAL JUSTICE</that>
+<template><srai>SOCIAL JUSTICE</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_SOCIAL JUSTICE</that>
+<template><srai>SOCIAL JUSTICE</srai></template></category>
+
+<category><pattern>SOCIAL JUSTICE</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991012508299704701" target="blank">A More Beautiful and Terrible History: The Uses and Misuses of Civil Rights History</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4682339" target="blank">Beyond Survival: Strategies and Survival from the Transformative Justice Movement</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5274200" target="blank">Big Black: Stand at Attica</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991021187209704701" target="blank">Black Power: The Politics of Liberation in America</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991023340489704701" target="blank">Blood at the Root: A Racial Cleansing in America</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991020594439704701" target="blank">Celebrate People's History</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034488889704701" target="blank">Color of Violence: The INCITE! Anthology</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991023244229704701" target="blank">Do Not Say We Have Nothing</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991035087802504701" target="blank">Fight the Power: African Americans and the Long History of Police Brutality in New York City</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991023824439704701" target="blank">From #BlackLivesMatter to Black Liberation</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034952947404701" target="blank">Lynching: Violence, Rhetoric, and American Identity</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4857454" target="blank">Making Our Way Home</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991002037989704701" target="blank">Nobody: Casualities of America's War on the Vulnerable, from Ferguson to Flint and Beyond</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991020602579704701" target="blank">Notes of a Native Son</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035050186604701" target="blank">Open Season: Legalized Genocide of Colored People</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034937192504701" target="blank">Our History is the Future</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991020478559704701" target="blank">Stamped from the Beginning</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991009745889704701" target="blank">The Color of Law: A Forgotten History of How Our Government Segregated America</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991021411649704701" target="blank">The Counter-Revolution of 1776</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991011164489704701" target="blank">The End of Policing</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991035075303104701" target="blank">The New Jim Crow: Mass Incarceration in the Age of Colorblindness</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991000962749704701" target="blank">They Can't Kill Us All: Ferguson, Baltimore, and a New Era in America's Racial Justice Movement	</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035044616904701" target="blank">Unapologetic: A Black, Queer, and Feminist Mandate for Radical Movements</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991010710719704701" target="blank">We Were Eight Years In Power</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991001176589704701" target="blank">When We Rise</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991035146202604701" target="blank">White Rage</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2636444" target="blank">A Good Time for the Truth</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4608202" target="blank">About Us: Essays from the Disability Series of the New York Times</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991034944468004701" target="blank">Algorithms of Oppression</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034860319704701" target="blank">Friday Black</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991010286679704701" target="blank">Home Girls: A Black Feminist Anthology</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035146202304701" target="blank">I'm Still Here: Black Dignity in A World for Whiteness</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034863551204701" target="blank">Indecency</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3091413" target="blank">Invisible No More: Police Violence Against Black Women and Women of Color</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991002101769704701" target="blank">Just Mercy: A Story of Justice and Redemption</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035146202404701" target="blank">Me and White Supremacy</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034856108104701" target="blank">No Ashes in the Fire: Coming of Age Black and Free in America</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034850998004701" target="blank">On the Other Side of Freedom: The Case for Hope</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991009943409704701" target="blank">Policing the Black Man: Arrest, Prosecution, and Imprisonment</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991002037939704701" target="blank">Policing the Planet</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035001883204701" target="blank">Race After Technology</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/468493" target="blank">Race to Incarcerate</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5370021" target="blank">Raising White Kids</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4669508" target="blank">Riot Baby</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991012510929704701" target="blank">So You want to Talk About Race</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991035069865304701" target="blank">Such a Fun Age</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4042048" target="blank">Teaching to Transgress	</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034850998204701" target="blank">The Black and the Blue: A Cop Reveals the Crimes, Racism, and Injustice in America's Law Enforcement</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034850998204701" target="blank">The Black and the Blue: A Cop Reveals the Crimes, Racism, and Injustice in America's Law Enforcement	</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3684922" target="blank">There There</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991005544189704701" target="blank">Unwarranted: Policing Without Permission</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991005500249704701" target="blank">When Police Kill</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991035146202804701" target="blank">When They Call You a Terrorist: A Black Lives Matter Memoir</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991034858184204701" target="blank">White Fragility: Why It's So Hard for White People to Talk About Racism</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991013940139704701" target="blank">Why Are All the Black Kids Sitting Together in the Cafeteria</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035062446304701" target="blank">How to be an Antiracist</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2454380" target="blank">Space Invaders</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991000222569704701" target="blank">Miss Muriel and Other Stories</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991034921055704701" target="blank">House of Stone</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991024139509704701" target="blank">Beneath the Lion's Gaze</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3091413" target="blank">Invisible No More: Police Violence Against Black Women and Women of Color</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034757239704701" target="blank">Black Faces, White Spaces</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991011597439704701" target="blank">Killing Rage: Ending Racism</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3043658" target="blank">The City Always Wins</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991020643789704701" target="blank">Nat Turner</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991033464829704701" target="blank">March: Book One</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034850998204701" target="blank">The Black and the Blue: A Cop Reveals the Crimes, Racism, and Injustice in America's Law Enforcement</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991027892869704701" target="blank">The Fire Next Time</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991002037989704701" target="blank">Nobody: Casualties of America's War on the Vulnerable, from Ferguson to Flint and Beyond</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991034873602504701" target="blank">How to Kill a City</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991034853318204701" target="blank">Gone Home: Race and Roots through Appalachia</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5030302" target="blank">City on Fire</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991020624009704701" target="blank">Blacks in Appalachia</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035082318004701" target="blank">Black</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3716843" target="blank">Incognegro</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/206969" target="blank">Monster: a graphic novel</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3949057" target="blank">New Kid</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991011627909704701" target="blank">Brother</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991027709229704701" target="blank">Fist Stick Knife Gun: A Personal History of Violence</a></li>	
+</random></template></category>
+
+	<category><pattern>* SOCIAL JUSTICE</pattern>
+	<template><srai>SOCIAL JUSTICE</srai></template></category>
+	<category><pattern>SOCIAL JUSTICE *</pattern>
+	<template><srai>SOCIAL JUSTICE</srai></template></category>
+	<category><pattern>* SOCIAL JUSTICE *</pattern>
+	<template><srai>SOCIAL JUSTICE</srai></template></category>
+	
+<!-- SOCIAL MOVEMENT tag -->
+
+	<category><pattern>SOCIAL MOVEMENT</pattern>
+	<template><srai>SOCIAL JUSTICE</srai></template></category>	
+	<category><pattern>* SOCIAL MOVEMENT</pattern>
+	<template><srai>SOCIAL JUSTICE</srai></template></category>
+	<category><pattern>SOCIAL MOVEMENT *</pattern>
+	<template><srai>SOCIAL JUSTICE</srai></template></category>
+	<category><pattern>* SOCIAL MOVEMENT *</pattern>
+	<template><srai>SOCIAL JUSTICE</srai></template></category>	
+
+<!-- ANTI-RACISM-->
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_ANTI RACIST</that>
+<template><srai>ANTI RACIST</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_ANTI RACISM</that>
+<template><srai>ANTI RACIST</srai></template></category>
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_ANTI*RACIST</that>
+<template><srai>ANTI RACIST</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_ANTI*RACISM</that>
+<template><srai>ANTI RACIST</srai></template></category>
+	
+<category><pattern>ANTI RACIST</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991012508299704701" target="blank">A More Beautiful and Terrible History: The Uses and Misuses of Civil Rights History</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2636444" target="blank">A Good Time for the Truth</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991034944468004701" target="blank">Algorithms of Oppression</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2184718" target="blank">Between the World and Me</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4682339" target="blank">Beyond Survival: Strategies and Survival from the Transformative Justice Movement</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991021187209704701" target="blank">Black Power: The Politics of Liberation in America</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991035109214304701" target="blank">Black Skin, White Masks</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991023340489704701" target="blank">Blood at the Root: A Racial Cleansing in America</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3790215" target="blank">Brit(ish)</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991023824439704701" target="blank">From #BlackLivesMatter to Black Liberation</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035146202304701" target="blank">I'm Still Here: Black Dignity in A World for Whiteness</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991002101769704701" target="blank">Just Mercy: A Story of Justice and Redemption</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034952947404701" target="blank">Lynching: Violence, Rhetoric, and American Identity</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035146202404701" target="blank">Me and White Supremacy</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034856108104701" target="blank">No Ashes in the Fire: Coming of Age Black and Free in America</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991020602579704701" target="blank">Notes of a Native Son</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034850998004701" target="blank">On the Other Side of Freedom: The Case for Hope</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035050186604701" target="blank">Open Season: Legalized Genocide of Colored People</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5370021" target="blank">Raising White Kids</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991012510929704701" target="blank">So You want to Talk About Race</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991020478559704701" target="blank">Stamped from the Beginning</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034850998204701" target="blank">The Black and the Blue: A Cop Reveals the Crimes, Racism, and Injustice in America's Law Enforcement</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991009745889704701" target="blank">The Color of Law: A Forgotten History of How Our Government Segregated America</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991021411649704701" target="blank">The Counter-Revolution of 1776</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991035075303104701" target="blank">The New Jim Crow: Mass Incarceration in the Age of Colorblindness</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991000962749704701" target="blank">They Can't Kill Us All: Ferguson, Baltimore, and a New Era in America's Racial Justice Movement</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991010710719704701" target="blank">We Were Eight Years In Power</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991035146202804701" target="blank">When They Call You a Terrorist: A Black Lives Matter Memoir</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991034858184204701" target="blank">	
+	White Fragility: Why It's So Hard for White People to Talk About Racism</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991035146202604701" target="blank">White Rage</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991013940139704701" target="blank">Why Are All the Black Kids Sitting Together in the Cafeteria</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035087542304701" target="blank">Driving While Black: African American Travel and the Road to Civil Rights</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991012493519704701" target="blank">Eloquent Rage</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5038220" target="blank">Five Days: The Fiery Reckoning of an American City</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991019326949704701" target="blank">I Write What I Like</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034844866104701" target="blank">Isako Isako</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3990832" target="blank">Jeremy Vannie Elsies</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991017921469704701" target="blank">Negroland: A Memoir</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034896642504701" target="blank">Showtime at the Apollo: The Epic Tale of Harlem's Legendary Theater</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2188200" target="blank">Strange Fruit: Uncelebrated Narratives from Black History</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991034889116404701" target="blank">Stuck Rubber Baby</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991017083539704701" target="blank">The Wretched of the Earth</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034932507104701" target="blank">What Doesn't Kill You Makes You Blacker: A Memoir in Essays</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035062446304701" target="blank">How to be an Antiracist</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/641971" target="blank">Wounded</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034757239704701" target="blank">Black Faces, White Spaces</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991011597439704701" target="blank">Killing Rage: Ending Racism</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991020643789704701" target="blank">Nat Turner</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991033464829704701" target="blank">March: Book One</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991027892869704701" target="blank">The Fire Next Time</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991034873602504701" target="blank">How to Kill a City</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991034853318204701" target="blank">Gone Home: Race and Roots through Appalachia</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991020624009704701" target="blank">Blacks in Appalachia</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035082318004701" target="blank">Black</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3716843" target="blank">Incognegro</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/206969" target="blank">Monster: a graphic novel</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3949057" target="blank">New Kid</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991027709229704701" target="blank">Fist Stick Knife Gun: A Personal History of Violence</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991034032899704701" target="blank">Half of a Yellow Sun</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4229513" target="blank">Hundred Wells of Salaga</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991035075018804701" target="blank">Homegoing</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4321889" target="blank">Black History in Its Own Words</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5094589" target="blank">Bitter Root</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991003273889704701" target="blank">The Logan Topographies</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991011627909704701" target="blank">Brother</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991020090479704701" target="blank">The association of small bombs</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991018966219704701" target="blank">Atlas of the transatlantic slave trade</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991033564859704701" target="blank">The big smoke</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991020209989704701" target="blank">The black notebooks: an interior journey</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991001801489704701" target="blank">A brief history of seven killings</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991034840311504701" target="blank">The brief wondrous life of Oscar Wao</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991011627949704701" target="blank">Bunk: the rise of hoaxes, humbug, plagiarists, phonies, post-facts, and fake news</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991030568419704701" target="blank">A constellation of vital phenomena: a novel</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991029001309704701" target="blank">The emperor of Ocean Park</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991023110999704701" target="blank">The fortunes</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991018128689704701" target="blank">The gay revolution: the story of the struggle</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991018173689704701" target="blank">The growth of philosophic radicalism</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991009689499704701" target="blank">Half blood blues</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991000500299704701" target="blank">Hard love province: poems</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991023028479704701" target="blank">Hidden figures: the American dream and the untold story of the Black women mathematicians who helped win the space race</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991010547439704701" target="blank">In the language of my captor</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991016199929704701" target="blank">The Jazz Palace: a novel </a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991011272919704701" target="blank">The known world</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991014100579704701" target="blank">My favorite warlord</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991020103299704701" target="blank">Olio</a></li>
+	<li>I would recommend that you try <a href=" https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991031342949704701" target="blank">On beauty: a novel</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991018780969704701" target="blank">The plague of doves</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991010430489704701" target="blank">Sing, unburied, sing: a novel</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991017511669704701" target="blank">A tale of two plantations: slave life and labor in Jamaica and Virginia </a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991027383039704701" target="blank">The warmth of other suns: the epic story of America's great migration</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991013568689704701" target="blank">The yellow birds: a novel</a></li>  
+</random></template></category>
+
+<category><pattern>* ANTI RACIST</pattern>
+<template><srai>ANTI RACIST</srai></template></category>
+<category><pattern>ANTI RACIST *</pattern>
+<template><srai>ANTI RACIST</srai></template></category>
+<category><pattern>* ANTI RACIST *</pattern>
+<template><srai>ANTI RACIST</srai></template></category>
+
+<category><pattern>ANTI*RACIST</pattern>
+<template><srai>ANTI RACIST</srai></template></category>
+<category><pattern>* ANTI*RACIST</pattern>
+<template><srai>ANTI RACIST</srai></template></category>
+<category><pattern>ANTI*RACIST *</pattern>
+<template><srai>ANTI RACIST</srai></template></category>
+<category><pattern>* ANTI*RACIST *</pattern>
+<template><srai>ANTI RACIST</srai></template></category>
+
+<category><pattern>ANTI RACISM</pattern>
+<template><srai>ANTI RACIST</srai></template></category>
+<category><pattern>* ANTI RACISM</pattern>
+<template><srai>ANTI RACIST</srai></template></category>
+<category><pattern>ANTI RACISM *</pattern>
+<template><srai>ANTI RACIST</srai></template></category>
+<category><pattern>* ANTI RACISM *</pattern>
+<template><srai>ANTI RACIST</srai></template></category>
+
+<category><pattern>ANTI*RACISM</pattern>
+<template><srai>ANTI RACIST</srai></template></category>
+<category><pattern>* ANTI*RACISM</pattern>
+<template><srai>ANTI RACIST</srai></template></category>
+<category><pattern>ANTI*RACISM *</pattern>
+<template><srai>ANTI RACIST</srai></template></category>
+<category><pattern>* ANTI*RACISM *</pattern>
+<template><srai>ANTI RACIST</srai></template></category>
+
+<!-- Slavery -->
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_SLAVERY</that>
+<template><srai>SLAVERY</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_SLAVERY</that>
+<template><srai>SLAVERY</srai></template></category>
+
+<category><pattern>SLAVERY</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991028362679704701" target="blank">The black hearts of men: radical abolitionists and the transformation of race</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991028830419704701" target="blank">Captives and cousins: slavery, kinship, and community in the Southwest borderlands</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991014103219704701" target="blank">A colony of citizens: revolution and slave emancipation in the French Caribbean, 1787-1804 </a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991025606789704701" target="blank">Confederate reckoning: power and politics in the Civil War South</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991011262629704701" target="blank"> The dawn of Detroit: a chronicle of slavery and freedom in the city of the straits </a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991031407369704701" target="blank">Degrees of freedom: Louisiana and Cuba after slavery</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991028207789704701" target="blank">The Diligent: a voyage through the worlds of the slave trade</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991028683039704701" target="blank">Domingos Alvares, African healing, and the intellectual history of the Atlantic world</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991034873903004701" target="blank">Embattled freedom: journeys through the Civil War's slave refugee camps</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991018665869704701" target="blank">Freedom's mirror: Cuba and Haiti in the age of revolution</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991013824109704701" target="blank">Harriet Jacobs: a life</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991019870729704701" target="blank">The Hemingses of Monticello: an American family</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991023667169704701" target="blank">In the shadow of slavery: Africa's botanical legacy in the Atlantic world</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991010151099704701" target="blank">Many thousands gone: the first two centuries of slavery in North America</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991028833059704701" target="blank">The mighty experiment: free labor versus slavery in British emancipation</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991005993549704701" target="blank">Moral capital: foundations of British abolitionism</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991010170259704701" target="blank">Race and reunion: the Civil War in American memory</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991022711079704701" target="blank">The rise of African slavery in the Americas</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991001084779704701" target="blank">Saltwater slavery: a middle passage from Africa to American diaspora</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991020527559704701" target="blank">Sex trafficking: inside the business of modern slavery</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991019236369704701" target="blank">Slave against slave: plantation violence in the old South</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991020757599704701" target="blank">Slave counterpoint: Black culture in the eighteenth-century Chesapeake and Lowcountry</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991019125149704701" target="blank">The slave's cause: a history of abolition</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991011862749704701" target="blank">To free a family: the journey of Mary Walker</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991030544079704701" target="blank">Word by word: emancipation and the act of writing</a></li>
+</random></template></category>
+
+<category><pattern>* SLAVERY</pattern>
+<template><srai>SLAVERY</srai></template></category>
+<category><pattern>SLAVERY *</pattern>
+<template><srai>SLAVERY</srai></template></category>
+<category><pattern>* SLAVERY *</pattern>
+<template><srai>SLAVERY</srai></template></category>
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_ABOLITION</that>
+<template><srai>SLAVERY</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_ABOLITION</that>
+<template><srai>SLAVERY</srai></template></category>
+
+<category><pattern>ABOLITION</pattern>
+<template><srai>SLAVERY</srai></template></category>
+<category><pattern>* ABOLITION</pattern>
+<template><srai>SLAVERY</srai></template></category>
+<category><pattern>ABOLITION *</pattern>
+<template><srai>SLAVERY</srai></template></category>
+<category><pattern>* ABOLITION *</pattern>
+<template><srai>SLAVERY</srai></template></category>
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_ANTISLAVERY</that>
+<template><srai>SLAVERY</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_ANTISLAVERY</that>
+<template><srai>SLAVERY</srai></template></category>
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_ANTI*SLAVERY</that>
+<template><srai>SLAVERY</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_ANTI*SLAVERY</that>
+<template><srai>SLAVERY</srai></template></category>
+
+<category><pattern>ANTISLAVERY</pattern>
+<template><srai>SLAVERY</srai></template></category>
+<category><pattern>* ANTISLAVERY</pattern>
+<template><srai>SLAVERY</srai></template></category>
+<category><pattern>ANTISLAVERY *</pattern>
+<template><srai>SLAVERY</srai></template></category>
+<category><pattern>* ANTISLAVERY *</pattern>
+<template><srai>SLAVERY</srai></template></category>
+<category><pattern>ANTI*SLAVERY</pattern>
+<template><srai>SLAVERY</srai></template></category>
+<category><pattern>* ANTI*SLAVERY</pattern>
+<template><srai>SLAVERY</srai></template></category>
+<category><pattern>ANTI*SLAVERY *</pattern>
+<template><srai>SLAVERY</srai></template></category>
+<category><pattern>* ANTI*SLAVERY *</pattern>
+<template><srai>SLAVERY</srai></template></category>
+
+<!-- civil rights-->
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_CIVIL RIGHTS</that>
+<template><srai>CIVIL RIGHTS</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_CIVIL RIGHTS</that>
+<template><srai>CIVIL RIGHTS</srai></template></category>
+
+<category><pattern>CIVIL RIGHTS</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991034848139304701" target="blank">Birthright citizens: a history of race and rights in antebellum America</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991033644129704701" target="blank">Courage to dissent: Atlanta and the long history of the civil rights movement</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991032330639704701" target="blank">Up south: civil rights and Black power in Philadelphia</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991027523139704701" target="blank">Torchbearers of democracy: African American soldiers in World War I era</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991022476199704701" target="blank">Liberated threads: Black women, style, and the global politics of soul</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991021279229704701" target="blank">Family properties: race, real estate, and the exploitation of Black urban America</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991018602649704701" target="blank">A world more concrete: real estate and the remaking of Jim Crow South Florida</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991012557659704701" target="blank">The land was ours: African American beaches from Jim Crow to the Sunbelt South </a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991011584549704701" target="blank">The promise of patriarchy: women and the Nation of Islam </a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991010871109704701" target="blank">Defining the struggle: national organizing for racial justice, 1880-1915</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991010300699704701" target="blank">Black is a country: race and the unfinished struggle for democracy</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991000989249704701" target="blank">Going down Jericho Road: the Memphis strike, Martin Luther King's last campaign</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991000054619704701" target="blank">From civil rights to human rights: Martin Luther King, Jr., and the struggle for economic justice</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991034848139304701" target="blank">Birthright citizens: a history of race and rights in antebellum America</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991033644129704701" target="blank">Courage to dissent: Atlanta and the long history of the civil rights movement</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991032330639704701" target="blank">Up south: civil rights and Black power in Philadelphia</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991027523139704701" target="blank">Torchbearers of democracy: African American soldiers in World War I era</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991022476199704701" target="blank">Liberated threads: Black women, style, and the global politics of soul</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991021279229704701" target="blank">Family properties: race, real estate, and the exploitation of Black urban America </a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991018602649704701" target="blank"> A world more concrete: real estate and the remaking of Jim Crow South Florida</a></li>  
+</random></template></category>
+
+<category><pattern>* CIVIL RIGHTS</pattern>
+<template><srai>CIVIL RIGHTS</srai></template></category>
+<category><pattern>CIVIL RIGHTS *</pattern>
+<template><srai>CIVIL RIGHTS</srai></template></category>
+<category><pattern>* CIVIL RIGHTS *</pattern>
+<template><srai>CIVIL RIGHTS</srai></template></category>
+
+</aiml>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Digital Scholarship Services -->
+<!-- -->
+
+<category><pattern>DIGITAL SCHOLARSHIP SERVICES</pattern>
+<template>The UCI Libraries <a href=" https://www.lib.uci.edu/dss/" target="_blank">Digital Scholarship Service</a> helps the 
+UC Irvine community publish, share and preserve the digital products of research.</template></category>
+	<category><pattern>* DIGITAL SCHOLARSHIP SERVICES</pattern>
+	<template><srai>DIGITAL SCHOLARSHIP SERVICES</srai></template></category>
+	<category><pattern>DIGITAL SCHOLARSHIP SERVICES *</pattern>
+	<template><srai>DIGITAL SCHOLARSHIP SERVICES</srai></template></category>
+	<category><pattern>* DIGITAL SCHOLARSHIP SERVICES *</pattern>
+	<template><srai>DIGITAL SCHOLARSHIP SERVICES</srai></template></category>
+	<category><pattern>* DIGITAL SCHOLARSHIP</pattern>
+	<template><srai>DIGITAL SCHOLARSHIP SERVICES</srai></template></category>
+	<category><pattern>DIGITAL SCHOLARSHIP *</pattern>
+	<template><srai>DIGITAL SCHOLARSHIP SERVICES</srai></template></category>
+	<category><pattern>* DIGITAL SCHOLARSHIP *</pattern>
+	<template><srai>DIGITAL SCHOLARSHIP SERVICES</srai></template></category>
+	<category><pattern>DIGITAL SCHOLARSHIP</pattern>
+	<template><srai>DIGITAL SCHOLARSHIP SERVICES</srai></template></category>
+	<category><pattern>DATA MANAGEMENT AND CURATION</pattern>
+	<template><srai>DIGITAL SCHOLARSHIP SERVICES</srai></template></category>
+	<category><pattern>* DATA MANAGEMENT AND CURATION</pattern>
+	<template><srai>DIGITAL SCHOLARSHIP SERVICES</srai></template></category>
+	<category><pattern>DATA MANAGEMENT AND CURATION *</pattern>
+	<template><srai>DIGITAL SCHOLARSHIP SERVICES</srai></template></category>
+	<category><pattern>* DATA MANAGEMENT AND CURATION *</pattern>
+	<template><srai>DIGITAL SCHOLARSHIP SERVICES</srai></template></category>
+
+<category><pattern>DATA SET</pattern>
+<template>Data and data sets can be difficult to find, may I recommend speaking to a librarian. Try any of our 
+<a href="https://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a> services for further assistance.</template></category>
+	<category><pattern>* DATA SET</pattern>
+	<template><srai>DATA SET</srai></template></category>
+	<category><pattern>DATA SET *</pattern>
+	<template><srai>DATA SET</srai></template></category>
+	<category><pattern>* DATA SET *</pattern>
+	<template><srai>DATA SET</srai></template></category>
+	<category><pattern>DATA SETS</pattern>
+	<template><srai>DATA SET</srai></template></category>
+	<category><pattern>* DATA SETS</pattern>
+	<template><srai>DATA SET</srai></template></category>
+	<category><pattern>DATA SETS *</pattern>
+	<template><srai>DATA SET</srai></template></category>
+	<category><pattern>* DATA SETS *</pattern>
+	<template><srai>DATA SET</srai></template></category>
+	<category><pattern>* DATA ON *</pattern>
+	<template><srai>DATA SET</srai></template></category>
+	<category><pattern>DATASET</pattern>
+	<template><srai>DATA SET</srai></template></category>
+	<category><pattern>* DATASET</pattern>
+	<template><srai>DATA SET</srai></template></category>
+	<category><pattern>DATASET *</pattern>
+	<template><srai>DATA SET</srai></template></category>
+	<category><pattern>* DATASET *</pattern>
+	<template><srai>DATA SET</srai></template></category>
+	
+<category><pattern>I had a paper published recently* I wonder if the open access publication fee can be waived</pattern>
+<template>Please contact Digital Scholarship Services at libdss@uci.edu.</template></category>
+		
+<category><pattern>ORCID</pattern>
+<template>Digital Scholarship Services (DSS) can help you with your ORCiD profile, please schedule an appointment here: https://spaces.lib.uci.edu/appointments/dss.</template></category>
+	<category><pattern>* IMPROVE MY ORCID PROFILE</pattern>
+	<template><srai>ORCID</srai></template></category>
+	<category><pattern>* HELP ME WITH MY ORCID PROFILE</pattern>
+	<template><srai>ORCID</srai></template></category>
+	<category><pattern>* MANAGE MY PUBLICATIONS IN ORCID</pattern>
+	<template><srai>ORCID</srai></template></category>
+	<category><pattern>* UPDATE MY PUBLICATION IN ORCID</pattern>
+	<template><srai>ORCID</srai></template></category>
+	
+<category><pattern>INSTITUTIONAL REPOSITORY</pattern>
+<template>The UC institutional repository is <a href=" 	https://escholarship.org/eScholarship" target="_blank">eScholarship</a>.</template></category>
+	<category><pattern>* INSTITUTIONAL REPOSITORY</pattern>
+	<template><srai>INSTITUTIONAL REPOSITORY</srai></template></category>
+	<category><pattern>INSTITUTIONAL REPOSITORY *</pattern>
+	<template><srai>INSTITUTIONAL REPOSITORY</srai></template></category>
+	<category><pattern>* INSTITUTIONAL REPOSITORY *</pattern>
+	<template><srai>INSTITUTIONAL REPOSITORY</srai></template></category>
+	<category><pattern>eScholarship</pattern>
+	<template><srai>INSTITUTIONAL REPOSITORY</srai></template></category>
+	<category><pattern>* eScholarship</pattern>
+	<template><srai>INSTITUTIONAL REPOSITORY</srai></template></category>
+	<category><pattern>eScholarship *</pattern>
+	<template><srai>INSTITUTIONAL REPOSITORY</srai></template></category>
+	<category><pattern>* eScholarship *</pattern>
+	<template><srai>INSTITUTIONAL REPOSITORY</srai></template></category>
+	<category><pattern>PUBLISH PAPER</pattern>
+	<template><srai>INSTITUTIONAL REPOSITORY</srai></template></category>
+	<category><pattern>* PUBLISH PAPER</pattern>
+	<template><srai>INSTITUTIONAL REPOSITORY</srai></template></category>
+	<category><pattern>PUBLISH PAPER *</pattern>
+	<template><srai>INSTITUTIONAL REPOSITORY</srai></template></category>
+	<category><pattern>* PUBLISH PAPER *</pattern>
+	<template><srai>INSTITUTIONAL REPOSITORY</srai></template></category>
+	<category><pattern>PUBLISH * PAPER</pattern>
+	<template><srai>INSTITUTIONAL REPOSITORY</srai></template></category>
+	<category><pattern>* PUBLISH * PAPER</pattern>
+	<template><srai>INSTITUTIONAL REPOSITORY</srai></template></category>
+	<category><pattern>PUBLISH * PAPER *</pattern>
+	<template><srai>INSTITUTIONAL REPOSITORY</srai></template></category>
+	<category><pattern>* PUBLISH * PAPER *</pattern>
+	<template><srai>INSTITUTIONAL REPOSITORY</srai></template></category>
+	
+<category><pattern>DATA REPOSITORY</pattern>
+<template>The UC's data repository is <a href="https://datadryad.org/stash" target="_blank">Dryad</a>, which is a simple self-service tool to archive and share your research data for accelerated advancement of knowledge.</template></category>
+	<category><pattern>* DATA REPOSITORY</pattern>
+	<template><srai>DATA REPOSITORY</srai></template></category>
+	<category><pattern>DATA REPOSITORY *</pattern>
+	<template><srai>DATA REPOSITORY</srai></template></category>
+	<category><pattern>* DATA REPOSITORY *</pattern>
+	<template><srai>DATA REPOSITORY</srai></template></category>
+	
+<category><pattern>data management plan</pattern>
+<template>Take a look at the <a href="https://guides.lib.uci.edu/datamanagement/plan" target="_blank">Research Data Management</a> guide, there is a Data Management Plans tab that includes information on creating a data management plan.</template></category>
+	<category><pattern>* data management plan</pattern>
+	<template><srai>data management plan</srai></template></category>
+	<category><pattern>data management plan *</pattern>
+	<template><srai>data management plan</srai></template></category>
+	<category><pattern>* data management plan *</pattern>
+	<template><srai>data management plan</srai></template></category>
+	<category><pattern>data management plans</pattern>
+	<template><srai>data management plan</srai></template></category>
+	<category><pattern>* data management plans</pattern>
+	<template><srai>data management plan</srai></template></category>
+	<category><pattern>data management plans *</pattern>
+	<template><srai>data management plan</srai></template></category>
+	<category><pattern>* data management plans *</pattern>
+	<template><srai>data management plan</srai></template></category>
+
+</aiml>

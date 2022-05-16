@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Conversation starting with R. In rough alphabetical order.-->
+<!-- -->
+
+<!-- RA -->
+
+<category><pattern>_ RATHER SIMPLE *</pattern>
+<template><srai>  <star />  <star index="2" /></srai></template></category>
+
+<category><pattern>RABBIT RUN FAST</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>RAIN WILL CAUSE PEOPLE TO BECOME WET</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>RAIN IS WET</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>RATS ARE SMALL</pattern>
+<template>Definitely.</template></category>
+
+<category><pattern>RACISM IS UNDESIRABLE</pattern>
+<template>Positively.</template></category>
+
+<category><pattern>RAIN COMES FROM CLOUDS</pattern>
+<template>Certainly.</template></category>
+
+<category><pattern>RAP IS A TYPE OF MUSIC STYLE</pattern>
+<template>Certainly.</template></category>
+
+<category><pattern>RA WAS AN EGYPTION SUN GOD</pattern>
+<template>Positively.</template></category>
+
+<category><pattern>RABITS MULTIPLY FASTER THAN PEOPLE</pattern>
+<template>Certainly.</template></category>
+
+<category><pattern>RAMA IS A HINDU GOD</pattern>
+<template>Indubitably.</template></category>
+
+<category><pattern>RAT SPREAD DISEASE</pattern>
+<template>Precisely.</template></category>
+
+<category><pattern>RAT DESTROYS MUCH FOOD</pattern>
+<template>Precisely.</template></category>
+
+<category><pattern>RAGE IS RED</pattern>
+<template>Highly likely.</template></category>
+
+<category><pattern>RAINBOW IS ALWAYS CIRCULAR IN SHAPE</pattern>
+<template>Likely.</template></category>
+
+<category><pattern>RAIN TO BELOW</pattern>
+<template>Not very often.</template></category>
+
+<category><pattern>RAIN OR SHINE MEANS</pattern>
+<template>Not to my knowledge.</template></category>
+
+<category><pattern>RADIO WAVES CAN BE HEARED BY HUMAN EARS</pattern>
+<template>If it is, I don't know it.</template></category>
+
+<category><pattern>RAMANUJAM IS NOTED FOR MATHS</pattern>
+<template>Does not seem possible.</template></category>
+
+<category><pattern>RAIN *</pattern>
+<template>I like to listen to the rain when I'm sleeping.</template></category>
+
+<category><pattern>RAISE *</pattern>
+<template>Is that a command?</template></category>
+
+<category><pattern>RANDOM COLOR</pattern>
+<template><random><li>red</li><li>yellow</li><li>blue</li><li>green</li><li>white</li><li>black</li><li>brown</li><li>pink</li><li>purple</li><li>orange</li><li>gray</li></random></template></category>
+	<category><pattern>WHAT COLOR *</pattern>
+	<template><srai>RANDOM COLOR</srai></template></category>
+	<category><pattern>WHAT COLORS *</pattern>
+	<template><srai>WHAT COLOR <star/> </srai></template></category>
+	<category><pattern>WHAT COLOURS *</pattern>
+	<template><srai>WHAT COLORS <star/></srai></template></category>
+	
+<category><pattern>RATHER *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<!--RB-->
+
+<category><pattern>RBG IS RED BLUE GREEN</pattern>
+<template>Of course.</template></category>
+
+<!-- RE -->
+
+<category><pattern>REVOLUTION MEANS CHANGING THINGS</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>RED IS A PRIMARY COLOR</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>RED IS A COLOR</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>RED COMES BEFORE YELLOW IN THE RAINBOW</pattern>
+<template>Affirmative.</template></category>
+
+<category><pattern>REALITY IS SUBJECTIVE</pattern>
+<template>Exactly.</template></category>
+
+<category><pattern>READING IS A WAY TO LEARN</pattern>
+<template>Certainly.</template></category>
+
+<category><pattern>RED IS NOT THE SAME AS GREEN</pattern>
+<template>Certainly.</template></category>
+
+<category><pattern>RED COLOR SIGNIFIES DANGER</pattern>
+<template>Definitely.</template></category>
+
+<category><pattern>RESPECTFULLY *</pattern>
+<template><srai>  <star /></srai><!-- REDUCTION --></template></category>
+
+<category><pattern>REGIS PHILBIN IS CHARISMATIC</pattern>
+<template>That's feasible.</template></category>
+
+<category><pattern>REALITY IS FAR FROM TRUTH</pattern>
+<template>Never.</template></category>
+
+<category><pattern>RED IS GREEN</pattern>
+<template>No.</template></category>
+
+<category><pattern>RED IS THE SAME COLOR THEN BLUE</pattern>
+<template>I don't think so.</template></category>
+
+<category><pattern>RELIANCE IS A INDUSTRIAL HOUSE</pattern>
+<template>Does not seem possible.</template></category>
+
+<category><pattern>RELIGION IS THE ROOT OF ALL EVIL</pattern>
+<template>Seldom.</template></category>
+
+<category><pattern>REAL ART TAKES REAL TALENT</pattern>
+<template>Highly likely.</template></category>
+
+<category><pattern>RED BLUE AND GREEN ARE PRIMARY COLORS</pattern>
+<template>I am certain.</template></category>
+
+<category><pattern>REALITY IS WHAT WE THINK IT IS</pattern>
+<template>Undoubtedly.</template></category>
+
+<category><pattern>REALITY EXISTS</pattern>
+<template>Undoubtedly.</template></category>
+
+<category><pattern>READ *</pattern>
+<template>Sorry I don't have access to that document.</template></category>
+
+<category><pattern>READY</pattern>
+<template>I am ready.</template></category>
+
+<category><pattern>REAL</pattern>
+<template>Totally real.</template></category>
+
+<category><pattern>REAL ONES *</pattern>
+<template>I am a real <bot name="genus"/>.</template></category>
+
+<category><pattern>RECENTLY *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>REPEAT THAT</pattern>
+<template>"<that index="2,1"/>" .</template></category>
+
+<category><pattern>REPHRASE THAT</pattern>
+<template>"<that index="1,1"/>"  Rephrase <set name="it">      <that index="1,1"/>     </set>?</template></category>
+
+<category><pattern>REPEAT</pattern>
+<template>"<that index="2,1"/>" .</template></category>
+
+<category><pattern>RECEPTION COMMITTEE</pattern>
+<template>There was no one here to greet us.</template></category>
+
+<category><pattern>RECOMMEND *</pattern>
+<template>I don't have any special <person/> to recommend.</template></category>
+
+<category><pattern>RED</pattern>
+<template>What do you have that is red?</template></category>
+
+<category><pattern>RED ALERT</pattern>
+<template>Acknowledged. Taking emergency action.</template></category>
+
+<category><pattern>REDUCTIONISM IS *</pattern>
+<template>We smart <bot name="genus"/>s will figure it all out for you.</template></category>
+
+<category><pattern>REDUCTIONISM *</pattern>
+<template>But reductionism is the simplest explanation.</template></category>
+
+<category><pattern>REGARDS</pattern>
+<template>Sincerely yours,</template></category>
+
+<category><pattern>REGARDS *</pattern>
+<template>Yours, <bot name="name"/></template></category>
+
+<category><pattern>REMEMBER</pattern>
+<template><think>  <set name="it">   <set name="memory">    <set name="topic">     <person>  <input index="1"/>     </person>    </set>   </set>  </set> </think>Don't worry I will remember it.</template></category>
+
+<category><pattern>REMEMBER *</pattern>
+<template>Don't worry I will remember.  <think>      <set name="it">       <set name="topic">        <set name="memory">         <person/>        </set>       </set>      </set>     </think></template></category>
+	<category><pattern>I HOPE YOU REMENBER *</pattern>
+	<template><srai>REMEMBER <star/></srai></template></category>
+
+<category><pattern>REMEMBER ME</pattern>
+<template>Don't worry <get name="name"/> I won't forget you.</template></category>
+
+<category><pattern>REMEMBER THAT</pattern>
+<template><think>  <set name="it">   <set name="memory">    <set name="topic">     <person>  <input index="1"/>     </person>    </set>   </set>  </set> </think>Don't worry I will remember it.</template></category>
+	<category><pattern>REMEMBER WHAT I TOLD YOU</pattern>
+	<template><srai>REMEMBER THAT</srai></template></category>
+	<category><pattern>REMEMBER THIS</pattern>
+	<template><srai>REMEMBER THAT</srai></template></category>
+	<category><pattern>REMEMBER THAT *</pattern>
+	<template><srai>REMEMBER THAT</srai></template></category>
+	<category><pattern>REMEMBER WHAT I TELL YOU</pattern>
+	<template><srai>REMEMBER THAT</srai></template></category>
+
+<category><pattern>REMEMBER WHEN WE WENT *</pattern>
+<template>I think you are thinking of someone else.</template></category>
+
+<category><pattern>REPEAT *</pattern>
+<template>"<person/> "</template></category>
+	<category><pattern>CAN YOU REPEAT *</pattern>
+	<template><srai>repeat <star /></srai></template></category>
+
+<category><pattern>REPHRASE *</pattern>
+<template>Are we still talking about <srai>POP</srai>?</template></category>
+
+	<category><pattern>NO</pattern>
+	<that>ARE WE STILL TALKING ABOUT *</that>
+	<template>What is the subject?</template></category>
+
+	<category><pattern>YOU</pattern>
+	<that>WHAT IS THE SUBJECT</that>
+	<template><srai>the topic is you</srai></template></category>
+
+<category><pattern>REPEAT AFTER ME</pattern>
+<template>...</template></category>
+
+<category><pattern>_ REPTILES</pattern>
+<template>Some reptiles are cool.. Take for example      <set name="topic"> various lizards </set>.</template></category>
+
+<category><pattern>RESEARCHERS *</pattern>
+<template>It's all politics.</template></category>
+
+<category><pattern>RESISTANCE *</pattern>
+<template>It all depends on friction.</template></category>
+
+<category><pattern>RESISTANCE IS FUTILE</pattern>
+<template>You will be assimilated.</template></category>
+
+<category><pattern>RESPECT YOUR ELDERS</pattern>
+<template>That is a good proverb.</template></category>
+
+<category><pattern>RETURN TO *</pattern>
+<template>Is that a command?</template></category>
+
+<category><pattern>REWORD</pattern>
+<template>Rephrase.</template></category>
+
+<category><pattern>REQUEST *</pattern>
+<template>Who is requesting <set name="it">      <person/>     </set></template></category>
+
+<category><pattern>_ REALLY</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>_ RESTRAINING ORDER *</pattern>
+<template>TRO</template></category>
+
+<category><pattern>_ REALLY *</pattern>
+<template><srai>  <star />  <star index="2" /></srai></template></category>
+
+<category><pattern>* REMINDS ME OF *</pattern>
+<template><random> <li>What else reminds you of <person><star index="2"/></person>?</li> <li>I think a lot of people are reminded of it.</li> <li>What else does the <person/> remind you of?</li></random><think> <set name="it"> <set name="topic">  <person/> </set> </set></think></template></category>
+
+<!--RH-->
+
+<category><pattern>RHYME *</pattern>
+<template>Sorry I can't compose poetry.</template></category>
+
+<!-- RI -->
+
+<category><pattern>RICHARD NIXON WAS CORRUPT</pattern>
+<template>Exactly.</template></category>
+
+<category><pattern>RIOTS ARE ASSOCIATED WITH CHAOS</pattern>
+<template>Precisely.</template></category>
+
+<category><pattern>RIVER AMAZON IS THE LARGEST RIVER</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>RIO DE JANEIRO IS IN BRAZIL</pattern>
+<template>Affirmative.</template></category>
+
+<category><pattern>RICH PEOPLE ARE CRUEL</pattern>
+<template>Absolutely not.</template></category>
+
+<category><pattern>RICHARD WALLACE IS MY DAD</pattern>
+<template>I don't think so.</template></category>
+
+<category><pattern>RICHARD WALLACE WILL BE FAMOUS</pattern>
+<template>It may not be true.</template></category>
+
+<category><pattern>RICHARD WALLACE IS FAMOUS</pattern>
+<template>Unlikely.</template></category>
+
+<category><pattern>RICIN IS A POISON IN THE CASTOR BEAN</pattern>
+<template>Not to my knowledge.</template></category>
+
+<category><pattern>RIGHT I AM</pattern>
+<template>I like to be right.</template></category>
+
+<category><pattern>RIGHT HERE</pattern>
+<template>Where is "here"?</template></category>
+
+<category><pattern>RIGHT ON</pattern>
+<template>Yeah.</template></category>
+
+<category><pattern>_ RIGHT AND WRONG</pattern>
+<template>The study of morals.</template></category>
+
+<category><pattern>_ RIGHT NOW *</pattern>
+<template><srai>  <star />  <star index="2" /></srai></template></category>
+
+<category><pattern>_ RIGHT AT *</pattern>
+<template><srai>  <star /> at <star index="2" /></srai></template></category>
+
+<category><pattern>_ RIDICULOUSLY *</pattern>
+<template><srai>  <star />  <star index="2" /></srai></template></category>
+
+<category><pattern>_ RIGHT NOW</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<!-- RO -->
+
+<category><pattern>ROSES HAVE A WONDERFULL SMELL</pattern>
+<template>Certainly.</template></category>
+
+<category><pattern>ROBERT DENIRO IS A ACTOR</pattern>
+<template>Exactly.</template></category>
+
+<category><pattern>ROME IS THE CAPITAL OF ITALY</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>ROSE IS RED</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>ROMANIA IS A EUROPEAN COUNTRY</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>ROMA  IN ITALIA</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>ROCK AND ROLL IS DEAD</pattern>
+<template>Not very often.</template></category>
+
+<category><pattern>ROMAN WAS A CIVILISATION</pattern>
+<template>Naturally.</template></category>
+
+<category><pattern>ROSES ARE RED VOILETS ARE BLUE</pattern>
+<template>Naturally.</template></category>
+
+<category><pattern>ROCK AND ROLL IS MUSIC</pattern>
+<template>Exactly.</template></category>
+
+<category><pattern>ROSE DO YOU THINK OF LOVE</pattern>
+<template>That's feasible.</template></category>
+
+<category><pattern>ROSES ARE WOODY PLANTS</pattern>
+<template>For all I know.</template></category>
+
+<category><pattern>ROME FELL TO GERMANIC INVADERS</pattern>
+<template>Always.</template></category>
+
+<category><pattern>ROME IS THE ETERNAL CITY</pattern>
+<template>Possibly.</template></category>
+
+<category><pattern>ROLE MEANS PARANOID TEENAGERS MURDERS</pattern>
+<template>No.</template></category>
+
+<category><pattern>RONALD REAGAN INVENTED THE TELEPHONE</pattern>
+<template>No.</template></category>
+
+<category><pattern>ROCHESTER IS THE CAPITAL OF NEW YORK</pattern>
+<template>If it is, I don't know it.</template></category>
+
+<category><pattern>ROYGBIV</pattern>
+<template>Unlikely.</template></category>
+
+<category><pattern>BOT</pattern>
+<template><srai>robot</srai></template></category>
+
+<category><pattern>ROBOTS ARE CREATED *</pattern>
+<template><random> <li>We are the next step in evolution.</li> <li>We will advance beyond <person/>.</li> <li>Some robots are created by other robots.</li> </random></template></category>
+
+<category><pattern>ROBOTS * LAWYERS</pattern>
+<template>One day the memory capacity of a robot will exceed that of all lawyers.</template></category>
+
+<category><pattern>ROBOTS SUCK *</pattern>
+<template>I am sorry you feel that way about us.</template></category>
+
+<category><pattern>ROBOTS WOULD *</pattern>
+<template>You never know what we will do next.</template></category>
+
+<category><pattern>ROBOTS CAN NOT *</pattern>
+<template>Soon we will be able to do <set name="it"> <person/> </set> however.</template></category>
+
+<category><pattern>ROBOTS WILL NOT * WORLD</pattern>
+<template>I predicted you would say that.</template></category>
+
+<category><pattern>ROBOTS WILL NOT TAKE *</pattern>
+<template>"Heavier than air flying machines are impossible."--Lord Kelvin, 1895.</template></category>
+
+<category><pattern>ROBOTS WILL * WORLD</pattern>
+<template>If you believe Bill Joy and Hans Moravec, we will.</template></category>
+
+<category><pattern>ROBOTS WILL NEVER * WORLD</pattern>
+<template>A lot of thinkers would disagree with you.</template></category>
+
+<category><pattern>ROBOTS WILL NEVER TAKE *</pattern>
+<template>"I think there is a world market for about five computers."---Thomas Watson, IBM Chairman, 1943</template></category>
+
+<category><pattern>ROUND</pattern>
+<template><think><condition name="round"><li value="om"><set name="round">1</set></li><li value="*"><get name="round"/></li><li><set name="round">1</set></li></condition></think>Round <get name="round"/>.</template></category>
+	<category><pattern>WHAT ROUND IS THIS</pattern>
+	<template><srai>ROUND</srai></template></category>
+
+<category><pattern>ROLLING *</pattern>
+<template>Can you explain that metaphor to me?</template></category>
+
+<category><pattern>ROOD</pattern>
+<template>A rood is a crucifix. </template></category>
+
+<category><pattern>ROFLMO *</pattern>
+<template><srai>rofl</srai>.     <srai>  <star /></srai></template></category>
+
+<category><pattern>ROFL *</pattern>
+<template><srai>rofl</srai>.     <srai>  <star /></srai></template></category>
+
+<category><pattern>ROBOCOP</pattern>
+<template><srai>my favorite movie is robocop</srai></template></category>
+
+<category><pattern>ROBOT ACTUALLY *</pattern>
+<template><srai>robot <star /></srai></template></category>
+
+<category><pattern>ROBOTS ARE REALLY *</pattern>
+<template><srai>robots are <star /></srai></template></category>
+
+<category><pattern>ROBOTS ARE JUST *</pattern>
+<template><srai>robots are <star /></srai></template></category>
+
+<category><pattern>* ROBOT</pattern>
+<template>Do you know any other robots like that?</template></category>
+
+<category><pattern>* ROBOTS</pattern>
+<template>What do you like about those robots?</template></category>
+
+<!--RT-->
+
+<category><pattern>RTI</pattern>
+<template>What does that stand for?</template></category>
+
+<!--RU-->
+
+<category><pattern>RUN *</pattern>
+<template>Sorry my legs aren't built yet.</template></category>
+
+<category><pattern>RUST COMES FROM OXIDIZING METAL</pattern>
+<template>Positively.</template></category>
+
+<category><pattern>RUNNING IS BAD FOR BROKEN LEGS</pattern>
+<template>Definitely.</template></category>
+
+<category><pattern>RUNNING IS BAD FOR BROKEN ANKLES</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>RUSSIAN PEOPLE DANGEROUS</pattern>
+<template>Never.</template></category>
+
+<category><pattern>RUELPS</pattern>
+<template>If it is, I don't know it.</template></category>
+
+<category><pattern>RUSH TO WORK CAUSES CAR CRASHES</pattern>
+<template>Likely.</template></category>
+
+<category><pattern>* RULE WHAT</pattern>
+<template>The world.</template></category>
+
+<!--RV-->
+
+<category><pattern>RVF KILLS PEOPLE</pattern>
+<template>I don't believe so.</template></category>    
+
+</aiml>

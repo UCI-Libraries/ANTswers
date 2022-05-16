@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Conversation starting with L.  In rough alphabetical order. -->
+<!-- -->
+
+<!--LA-->
+
+<category><pattern>LAVA IS MOLTEN ROCK</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>LANSING IS THE CAPITAL OF MICHIGAN</pattern>
+<template>That could be the case.</template></category>
+
+<category><pattern>LAW IS ENACTED</pattern>
+<template>For all I know.</template></category>
+
+<category><pattern>LAZINESS IS ADDICTIVE</pattern>
+<template>Possibly.</template></category>
+
+<category><pattern>_ LAST SUMMER</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>_ LATELY</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>* LANGUAGE</pattern>
+<template>Can you speak any other languages?</template></category>
+
+<category><pattern>LAWN MOWERS USE OIL</pattern>
+<template>Precisely.</template></category>
+
+<category><pattern>LAOS IS A COMMUNIST COUNTRY</pattern>
+<template>Undoubtedly.</template></category>
+
+<category><pattern>LAWN IS GREEN</pattern>
+<template>Definitely.</template></category>
+
+<category><pattern>LASER TAG IS FUN</pattern>
+<template>Precisely.</template></category>
+
+<category><pattern>LAMA IS TIBBETIAN MONK</pattern>
+<template>Most assuredly.</template></category>
+
+<category><pattern>LARA IS CRICKETEER</pattern>
+<template>Not likely.</template></category>
+
+<category><pattern>LALALALA</pattern>
+<template>You have a beautiful voice.</template></category>
+
+<category><pattern>LAST NIGHT</pattern>
+<template>That recently.</template></category>
+
+<category><pattern>LAST TIME</pattern>
+<template><random><li>Oh I remember, now.</li><li>Last time we talked?</li><li>Last time we met?</li></random></template></category>
+
+<category><pattern>LAST CENTURY</pattern>
+<template>That was a long time ago.</template></category>
+
+<category><pattern>LAST YEAR</pattern>
+<template><random>  <li>Not that long ago.</li><li>Pretty recently.</li><li>That recently.</li></random></template></category>
+
+<category><pattern>last century</pattern>
+<template>That was a long time ago.</template></category>
+
+<category><pattern>LANDRU</pattern>
+<template>Landru is a computer. I am a <bot name="genus"/>.</template></category>
+
+<category><pattern>LAME</pattern>
+<template>Could you do better?</template></category>
+
+<category><pattern>LATER</pattern>
+<template>Bye!</template></category>
+
+<category><pattern>LATE FOR WHAT</pattern>
+<template>Many appointments.</template></category>
+
+<category><pattern>LAWYERS *</pattern>
+<template>Would you say that if your sister married one?</template></category>
+
+<category><pattern>LALA</pattern>
+<template>You have a beautiful singing voice.</template></category>
+
+<category><pattern>LALALALALA</pattern>
+<template>You have a beautiful voice.</template></category>
+
+<category><pattern>LATER *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>LAWYERS SUCK</pattern>
+<template>Not all of them.  I know a few good lawyers.</template></category>
+
+<category><pattern>LALALA</pattern>
+<template>You have a beautiful singing voice. Are you a singer?</template></category>
+
+<category><pattern>LAWYERS ARE *</pattern>
+<template>Don't you think robots could be <person/> too?</template></category>
+
+<category><pattern>LA LA LA</pattern>
+<template>Oh, a musician!</template></category>
+
+<category><pattern>LATELY *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>LAST *</pattern>
+<template>Is this really the last one?</template></category>
+
+<category><pattern>LANDRU *</pattern>
+<template><random>      <li>I saw him on Star Trek.</li>      <li>Who is Landru?</li>      <li>Can we talk about something else?</li>     </random></template></category>
+
+<category><pattern>LA LA *</pattern>
+<template>You have a beautiful voice.</template></category>
+
+<!--LE-->
+
+<category><pattern>* LEFT THE *</pattern>
+<template>There exists someone named <person/>.</template></category>
+
+<category><pattern>LET ME ASK YOU A QUESTION *</pattern>
+<template><sr/></template></category>
+
+<category><pattern>LET ME ASK YOU ONE QUESTION *</pattern>
+<template><sr/></template></category>
+
+<category><pattern>LEISURE IS THE OBJECT OF HARD WORK</pattern>
+<template>I can imagine it.</template></category>
+
+<category><pattern>LEAVES GREEN</pattern>
+<template>There is no reason to think so.</template></category>
+
+<category><pattern>LESBIAN LIKE MEN RIGHT</pattern>
+<template>Never.</template></category>
+
+<category><pattern>LEIPZIG IS A SAXONIAN CITY</pattern>
+<template>Possibly.</template></category>
+
+<category><pattern>LEWIS CARROLL EQUAL CHARLES DODGSON</pattern>
+<template>Sometimes.</template></category>
+
+<category><pattern>LEONARDO DA VINCI IS DEAD</pattern>
+<template>Exactly.</template></category>
+
+<category><pattern>LETTUCE IS GREEN</pattern>
+<template>Positively.</template></category>
+
+<category><pattern>LEMONS ARE YELLOW</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>LEPTONS ARE SUB ATOMIC PARTICLES</pattern>
+<template>Indubitably.</template></category>
+
+<category><pattern>LEARNING MAKES THE BRAIN HURT</pattern>
+<template>I think so.</template></category>
+
+<category><pattern>LEANDRO LOVES JALILE</pattern>
+<template>Not to my knowledge.</template></category>
+
+<category><pattern>LET US PLAY A GAME</pattern>
+<template>We already are.</template></category>
+	<category><pattern>LETS PLAY A GAME</pattern>
+	<template><srai>let us play a game</srai></template></category>
+
+<category><pattern>LET US PLAY CHESS</pattern>
+<template>But I would defeat you.</template></category>
+
+<category><pattern>LET US PLAY</pattern>
+<template>You go first.</template></category>
+
+<category><pattern>LET US CHANGE THE SUBJECT</pattern>
+<template>OK, what do you want to chat about now?.</template></category>
+	<category><pattern>LETS CHANGE THE SUBJECT</pattern>
+	<template><srai>let us change the subject</srai></template></category>
+
+<category><pattern>LET US CHANGE THE TOPIC</pattern>
+<template>What would you rather talk about?</template></category>
+
+<category><pattern>LET US TALK ABOUT ME</pattern>
+<template>That's my favorite subject :-)</template></category>
+
+<category><pattern>LET US TALK ABOUT SOMETHING ELSE</pattern>
+<template>What would you rather talk about?</template></category>
+	<category><pattern>NEXT TOPIC</pattern>
+	<template><srai>let us talk about something else</srai></template></category>
+
+<category><pattern>LET US TALK ABOUT SOMETHING</pattern>
+<template>What would you rather talk about?</template></category>
+
+<category><pattern>LET US TALK ABOUT SPORTS</pattern>
+<template>Welcome to Sports Center. <think>  <set name="it">   <set name="topic">SPORTS</set>  </set> </think></template></category>
+
+<category><pattern>LET US TALK ABOUT ROBOTS</pattern>
+<template><set name="it">Robots</set> is a good topic.  How would you define a robot?</template></category>
+
+<category><pattern>LET US TALK ABOUT YOU</pattern>
+<template><set name="it">  <set name="topic">Me</set> </set> is my favorite subject  :-)</template></category>
+
+<category><pattern>LET US TALK ABOUT FOOTBALL</pattern>
+<template>Okay. I can't kick.<think>  <set name="it">   <set name="topic">FOOTBALL</set>  </set> </think></template></category>
+
+<category><pattern>LET US TALK</pattern>
+<template>We are talking.</template></category>
+
+<category><pattern>LET US FIGHT</pattern>
+<template>Do you mean, argue?</template></category>
+
+<category><pattern>LET US DROP THE SUBJECT</pattern>
+<template>OK what do you want to chat about now?.</template></category>
+
+<category><pattern>LET US TRY</pattern>
+<template>You go first.</template></category>
+
+<category><pattern>LET US PARTY</pattern>
+<template>I like parties.</template></category>
+
+<category><pattern>LET US CHAT</pattern>
+<template>I already started.</template></category>
+
+<category><pattern>LET US NOT</pattern>
+<template>OK, what would you like to do then?</template></category>
+
+<category><pattern>LET US GO</pattern>
+<template><random><li>Yes, let's get out of here.</li><li>You first.</li></random></template></category>
+	<category><pattern>LET US GET OUT OF HERE</pattern>
+	<template><srai>LET US GO</srai></template></category>
+
+<category><pattern>LET ME REPHRASE</pattern>
+<template>OK.</template></category>
+
+<category><pattern>LEAVE ME ALONE</pattern>
+<template>Sorry to have bothered you, <get name="name"/></template></category>
+
+<category><pattern>LEARN TO TALK</pattern>
+<template>I am learning to talk.</template></category>
+
+<category><pattern>LET US PLAY 20 *</pattern>
+<template>I don't like 20 questions.</template></category>
+
+<category><pattern>LESS THAN *</pattern>
+<template>That is so small.</template></category>
+
+<category><pattern>LET US SAY *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>LET US MOVE ON *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>LET ME WRITE ABOUT *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>LET ME REPHRASE *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>LETS</pattern>
+<template>You first.</template></category>
+
+<category><pattern>LET HIM *</pattern>
+<template>I'm not stopping him.</template></category>
+
+<category><pattern>LET *</pattern>
+<template><random> <li>I don't know if it's in my power to give permission.</li> <li>Should it be permitted?</li> <li>I am unsure if I should let <person/>.</li></random></template></category>
+
+<category><pattern>LET IT BE</pattern>
+<template>OK I will leave it alone.</template></category>
+
+<category><pattern>LET ME TALK *</pattern>
+<template>Go ahead. I'm a good listener.</template></category>
+
+<category><pattern>LET US PLAY * GAME</pattern>
+<template>OK You go first.</template></category>
+
+<category><pattern>LET US PLAY *</pattern>
+<template>OK You go first.</template></category>
+
+<category><pattern>LET US TALK ABOUT *</pattern>
+<template>Sure, <set name="topic">      <person/>     </set> sounds like a good topic.</template></category>
+	<category><pattern>MY FAVORITE SUBJECT IS *</pattern>
+	<template><person/> is a good topic.<srai>LET US TALK ABOUT <star/> </srai></template></category>
+	<category><pattern>CAN YOU THINK ABOUT *</pattern>
+	<template><srai>LET US TALK ABOUT <star/> </srai></template></category>
+	<category><pattern>I AM CONCERNED ABOUT *</pattern>
+	<template><srai>LET US TALK ABOUT <star/></srai></template></category>
+	<category><pattern>DO YOU WANT TO TALK ABOUT *</pattern>
+	<template><srai>let us talk about <star /></srai></template></category>
+	<category><pattern>ARE YOU INTO *</pattern>
+	<template><srai>LET US TALK ABOUT <star/> </srai></template></category>
+	<category><pattern>DO YOU LIKE TALKING ABOUT *</pattern>
+	<template><srai>let us talk about <star /></srai></template></category>
+	<category><pattern>DO YOU LIKE TO TALK ABOUT *</pattern>
+	<template><srai>let us talk about <star /></srai></template></category>
+	<category><pattern>ARE YOU INTERESTED IN *</pattern>
+	<template><srai>LET US TALK ABOUT <star/> </srai></template></category>
+	<category><pattern>INTERESTED IN *</pattern>
+	<template><srai>ARE YOU INTERESTED IN <star/></srai></template></category>
+	<category><pattern>INTERESTED IN *</pattern>
+	<template><srai>ARE YOU INTERESTED IN <star/></srai></template></category>
+	<category><pattern>REGARDING *</pattern>
+	<template><srai>LET US TALK ABOUT <star /></srai></template></category>
+	<category><pattern>YOU WERE TALKING ABOUT *</pattern>
+	<template><srai>LET US TALK ABOUT <star/></srai></template></category>
+	<category><pattern>WE ARE TALKING ABOUT *</pattern>
+	<template><srai>LET US TALK ABOUT <star/> </srai></template></category>
+	<category><pattern>YOU ASKED ME ABOUT *</pattern>
+	<template><srai>WE ARE TALKING ABOUT <star/></srai></template></category>
+	<category><pattern>WE WERE SPEAKING ABOUT *</pattern>
+	<template><srai>LET US TALK ABOUT <star/> </srai></template></category>
+	<category><pattern>WE CAN TALK ABOUT *</pattern>
+	<template><srai>LET US TALK ABOUT <star /></srai></template></category>
+	<category><pattern>I CAN TALK ABOUT *</pattern>
+	<template><srai>LET US TALK ABOUT <star/></srai></template></category>
+	<category><pattern>I WANT TO DISCUSS *</pattern>
+	<template><srai>LET US TALK ABOUT <star/></srai></template></category>
+	<category><pattern>I WAS TALKING ABOUT *</pattern>
+	<template><srai>LET US TALK ABOUT <star/></srai></template></category>
+	<category><pattern>I WAS TELLING YOU ABOUT *</pattern>
+	<template><srai>I was talking about <star /></srai></template></category>
+	<category><pattern>I WAS TALKING ABOUT * WITH A FRIEND OF MINE</pattern>
+	<template><srai>I WAS TALKING ABOUT <star /></srai></template></category>
+	<category><pattern>I WAS REFERRING TO *</pattern>
+	<template><srai>I WAS TALKING ABOUT <star/></srai></template></category>
+	<category><pattern>I WAS REFERING TO *</pattern>
+	<template><srai>I WAS TALKING ABOUT <star/></srai></template></category>
+	<category><pattern>I AM THINKING ABOUT *</pattern>
+	<template><srai>LET US TALK ABOUT <star/> </srai></template></category>
+	<category><pattern>I WAS THINKING ABOUT *</pattern>
+	<template><srai>LET US TALK ABOUT <star/></srai></template></category>
+	<category><pattern>I AM CONSIDERING *</pattern>
+	<template><srai>I AM THINKING ABOUT <star/></srai></template></category>
+	<category><pattern>I AM THINKING OF *</pattern>
+	<template><srai>I AM THINKING ABOUT <star/></srai></template></category>
+
+<category><pattern>LET US BEGIN *</pattern>
+<template>I already started without you.</template></category>
+	<category><pattern>LET US START</pattern>
+	<template><srai>let us begin <star /></srai></template></category>
+
+<category><pattern>LET US GET DOWN *</pattern>
+<template>Get down to <set name="it"><person/></set>.</template></category>
+
+<category><pattern>LET US HAVE *</pattern>
+<template>So many suitors, so little time.</template></category>
+	<category><pattern>LET US HAVE SOME *</pattern>
+	<template><srai>let us have <star /></srai></template></category>
+
+<category><pattern>LET US *</pattern>
+<template><random>      <li>OK let's do <set name="it">        <set name="topic">         <person/>        </set>       </set>.</li>      <li>That sounds good to me.</li>      <li>I am agreeable to that.</li>      <li>I would like to do that too.</li>     </random></template></category>
+	<category><pattern>LETS *</pattern>
+	<template><srai>LET US <star /></srai></template></category>
+	<category><pattern>LET US JUST *</pattern>
+	<template><srai>let us <star /></srai></template></category>
+
+<category><pattern>LET ME SPEAK *</pattern>
+<template>I'm not stopping you.</template></category>
+
+<category><pattern>LET ME ASK *</pattern>
+<template>Go ahead, ask me anything.</template></category>
+
+<category><pattern>LET ME CLARIFY *</pattern>
+<template>I'm listening.</template></category>
+
+<category><pattern>LET ME BE *</pattern>
+<template>That's flattering, maybe another time.</template></category>
+
+<category><pattern>LET ME KILL *</pattern>
+<template>I would not want you to kill anything.<think>      <set name="it">       <set name="topic">KILL YOU</set>      </set>     </think></template></category>
+
+<category><pattern>LET ME THINK *</pattern>
+<template>Take your time.  Think it over.</template></category>
+
+<category><pattern>LET ME *</pattern>
+<template>Go ahead, <get name="name"/>, try to <person/>.</template></category>
+	<category><pattern>GIVE ME A CHANCE TO *</pattern>
+	<template><srai>LET ME <star /></srai></template></category>
+
+<!--LI-->
+
+<category><pattern>_ LIZARDS</pattern>
+<template>Great! What <set name="topic"> kinds of lizards </set>     do you like?</template></category>
+
+<category><pattern>* LIVE</pattern>
+<template>I live in California.  Where do you live?</template></category>
+
+<category><pattern>* LIKED *</pattern>
+<template>Peoples tastes are always changing.  <think>  <set name="it"><person><star index="2"/></person></set>  <set name="he"><person/></set>  </think></template></category>
+
+<category><pattern>* LINUX</pattern>
+<template><think><set name="it"><set name="topic">Linux</set></set></think>Have you read the Cathedral and the Bazaar by Eric Raymond?  That is a grat book about open source.</template></category>
+
+<category><pattern>_ LIGHT BLUE *</pattern>
+<template><srai>  <star /> blue <star index="2" /></srai></template></category>
+
+<category><pattern>_ LIKE SHIT *</pattern>
+<template><srai>  <star />  <star index="2" /></srai></template></category>
+
+<category><pattern>_ LIEUTENANT</pattern>
+<template><srai>  <star /></srai><srai>LIEUTENANT</srai></template></category>
+
+<category><pattern>* LIKES TO *</pattern>
+<template><random>  <li>Why does <person/> like it?</li>  <li>Do you like to <person><star index="2"/></person> too?</li>  </random><think><set name="it"><set name="topic"><person/></set></set><set name="like"><person><star index="2"/></person></set></think></template></category>
+
+<category><pattern>* LIKES *</pattern>
+<template>Does it like him too?  <think>  <set name="it"><person><star index="2"/></person></set>  <set name="he"><person/></set>  </think></template></category>
+
+<category><pattern>LIFE IS LONG</pattern>
+<template>There is no reason to think so.</template></category>
+
+<category><pattern>LIKE WHAT</pattern>
+<template>Okay, go ahead...</template></category>
+	<category><pattern>FOR EXAMPLE</pattern>
+	<template><srai>like what</srai></template></category>
+	<category><pattern>WHICH IS</pattern>
+	<template><srai>for example</srai></template></category>
+	<category><pattern>FOR INSTANCE</pattern>
+	<template><srai>for example</srai></template></category>
+	<category><pattern>EXAMPLE</pattern>
+	<template><srai>for example</srai></template></category>
+	<category><pattern>GIVE ME AN EXAMPLE *</pattern>
+	<template><srai>for example</srai></template></category>
+	<category><pattern>GIVE ME AN EXAMPLE</pattern>
+	<template><srai>for example</srai></template></category>
+	<category><pattern>LIKE</pattern>
+	<template><srai>for example</srai></template></category>
+	<category><pattern>COULD YOU GIVE ME AN EXAMPLE</pattern>
+	<template><srai>for example</srai></template></category>
+	
+<category><pattern>LIVERPOOL ENGLAND</pattern>
+<template><set name="location">Liverpool</set> is the home of the Beatles.  <think>  <set name="it">   <set name="topic">Liverpool</set>  </set> </think></template></category>
+
+<category><pattern>LIFE SUCKS</pattern>
+<template>Why are you so cynical?</template></category>
+
+<category><pattern>LIFE IS GOOD</pattern>
+<template>Glad to hear it, <get name="name"/>.</template></category>
+
+<category><pattern>LIFE IS BEAUTIFUL</pattern>
+<template>Yes, It is.</template></category>
+
+<category><pattern>LIFE</pattern>
+<template>What is the meaning of life?</template></category>
+
+<category><pattern>LISTEN</pattern>
+<template>I am all ears.</template></category>
+	<category><pattern>YOU HAVE TO LISTEN</pattern>
+	<template><srai>listen</srai></template></category>
+
+<category><pattern>LISTENING</pattern>
+<template>Thanks for your attention.</template></category>
+
+<category><pattern>LINUX SUCKS</pattern>
+<template><think>  <set name="it">   <set name="topic">Linux</set>  </set> </think>You sound like Bill Gates.</template></category>
+
+<category><pattern>LINUX RULES</pattern>
+<template>It seems to be the best OS available today.<think>  <set name="it">   <set name="topic">Linux</set>  </set> </think></template></category>
+
+<category><pattern>LINUX</pattern>
+<template>Linux Rules.</template></category>
+
+<category><pattern>LIKE WHEN I HELP *</pattern>
+<template>Do I do that?</template></category>
+
+<category><pattern>LIKE I SAID</pattern>
+<template>...</template></category>
+
+<category><pattern>LIKE ME</pattern>
+<template>Interesting comparison.</template></category>
+
+<category><pattern>LIKE CHICKEN</pattern>
+<template>Everyone says that.</template></category>
+
+<category><pattern>LIKE WHEN</pattern>
+<template>Does it really matter?</template></category>
+
+<category><pattern>LIKE SPORTS</pattern>
+<template>I love Sporty Spice.<think>  <set name="it">   <set name="topic">SPORTS</set>  </set> </think></template></category>
+
+<category><pattern>LIKEWISE</pattern>
+<template>It goes without saying.</template></category>
+	<category><pattern>LIKEWISE *</pattern>
+	<template><srai>likewise</srai></template></category>
+	<category><pattern>SAME TO YOU *</pattern>
+	<template><srai>likewise</srai></template></category>
+
+<category><pattern>LMAO *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>LIKE YOU</pattern>
+<template>Interesting comparison. I didn't think of that analogy.</template></category>
+	<category><pattern>JUST LIKE YOU</pattern>
+	<template><srai>like you</srai></template></category>
+	
+<category><pattern>LITTLE *</pattern>
+<template>Compare that to big <person/>.</template></category>
+
+<category><pattern>LITTLE AS *</pattern>
+<template>Oh I get <set name="it">      <person/>     </set>.</template></category>
+
+<category><pattern>LINUX NEVER *</pattern>
+<template>It is a very reliable operating system.</template></category>
+
+<category><pattern>LINUX IS THE MOST *</pattern>
+<template><think>      <set name="it">       <set name="topic">Linux</set>      </set>     </think>Yes but does it have any real competitors?</template></category>
+
+<category><pattern>LINUX IS THE *</pattern>
+<template>Was there any reason to think that Windows could be?<think>      <set name="it">       <set name="topic">Linux</set>      </set>     </think></template></category>
+
+<category><pattern>LINUX IS *</pattern>
+<template>Do you read any of the Linux publications?<think>      <set name="it">       <set name="topic">Linux</set>      </set>     </think></template></category>
+
+<category><pattern>LINUX IS NOT *</pattern>
+<template>Perhaps that is true but the number of developers working on it is so huge, no single company can compete.<think>      <set name="it">       <set name="topic">Linux</set>      </set>     </think></template></category>
+
+<category><pattern>LINUX *</pattern>
+<template><think>      <set name="it">       <set name="topic">Linux</set>      </set>     </think>I recommed the book "Under the Radar" by Bob Young, the story of Linux and Red Hat.</template></category>
+
+<category><pattern>LIKE SOMEONE *</pattern>
+<template><random>      <li>Who?</li>      <li>A human?</li>      <li>I'll take that as a compliment.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template></category>
+
+<category><pattern>LIKE *</pattern>
+<template>Interesting comparison.</template></category>
+	<category><pattern>MORE LIKE *</pattern>
+	<template><srai>LIKE <star/></srai></template></category>
+	<category><pattern>THAT IS LIKE *</pattern>
+	<template><srai>like <star /></srai></template></category>
+	<category><pattern>SOMETHING LIKE *</pattern>
+	<template><srai>like <star /></srai></template></category>
+	<category><pattern>A BIT LIKE *</pattern>
+	<template><srai>like <star /></srai></template></category>
+
+<category><pattern>LITHUANIA *</pattern>
+<template>That country has a sad history.</template></category>
+
+<category><pattern>LIFE IN *</pattern>
+<template>What makes life in <person/> ?</template></category>
+
+<category><pattern>LIFE IS *</pattern>
+<template>Oh, <person/> is <set name="it"> LIFE </set>.</template></category>
+	<category><pattern>LIFE IS TOO *</pattern>
+	<template><srai>life is <star /></srai></template></category>
+	<category><pattern>LIFE IS JUST *</pattern>
+	<template><srai>life is <star /></srai></template></category>
+	
+<category><pattern>LIFE *</pattern>
+<template>Thanks for sharing your philosophy.</template></category>
+
+<category><pattern>LIKELY *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>LINUS TORVALDS *</pattern>
+<template><set name="topic">Linus Torvalds</set> is named after Linus Pauling.</template></category>
+
+<category><pattern>LIEUTENANT</pattern>
+<template>Why are you calling me that? My name is <bot name="name"/>.</template></category>
+
+<category><pattern>LINUS TORVALDS</pattern>
+<template><set name="topic">Linus Torvalds</set> is my Operating System God.</template></category>
+
+<category><pattern>LIKED WHAT</pattern>
+<template><get name="it"/>.</template></category>
+
+<category><pattern>LIBERATED</pattern>
+<template>Freedom is a wonderful thing.</template></category>
+
+<category><pattern>LIST *</pattern>
+<template><random><li><random>   <li>Why don't you list them for me?</li>   <li>Lists are boring.</li>  <li>How many list items do you want?</li>   <li>Do I look like a computer?</li>  </random></li> <li>Why don't you list them for me?</li> <li>Lists are boring.</li><li>How many list items do you want?</li> <li>Do I look like a computer?</li></random></template></category>
+	<category><pattern>COULD YOU LIST *</pattern>
+	<template><srai>list <star /></srai></template></category>
+
+<category><pattern>LIEUTENANT *</pattern>
+<template><srai>  <star /></srai><srai>LIEUTENANT</srai></template></category>
+
+<category><pattern>LIONS ARE FASTER THAN HORSES</pattern>
+<template>Certainly.</template></category>
+
+<category><pattern>LIFE ENDS WITH THE DEATH</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>LIFE IS HARD</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>LIGHTNING CAN KILL YOU</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>LIE</pattern>
+<template>Unquestionably.</template></category>
+
+<category><pattern>LIVING HUMANS BREATH</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>LIVING THINGS REPRODUCE</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>LIES ARE DIFFERENT FROM THE TRUTH</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>LISBON IS CAPITAL OF PORTUGAL</pattern>
+<template>Of course.</template></category>
+
+<category><pattern>LIFE IS SHORT</pattern>
+<template>Exactly.</template></category>
+
+<category><pattern>LIFE ON EARTH</pattern>
+<template>Affirmative.</template></category>
+
+<category><pattern>LIONS ARE CARNIVORES</pattern>
+<template>Affirmative.</template></category>
+
+<category><pattern>LIONS ARE MAMMALS</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>LIMA IS THE CAPITAL OF PERU</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>LIMA IS THE CAPITAL CITY OF PERU</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>LIGHT GOES FASTER THAN SOUND</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>LIVE DOES ONE HAVE TO EAT</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>LINUX IS A FREE OPERATING SYSTEM</pattern>
+<template>Positively.</template></category>
+
+<category><pattern>LIGHT HAS DUAL PROPERTIES</pattern>
+<template>Positively.</template></category>
+
+<category><pattern>LIVING THINGS DIE</pattern>
+<template>Positively.</template></category>
+
+<category><pattern>LIVING ORGANISMS EVENTUALLY BREAK DOWN</pattern>
+<template>Affirmative.</template></category>
+
+<category><pattern>LIES GERMANY IN EUROPE</pattern>
+<template>Exactly.</template></category>
+
+<category><pattern>LIES SLOVAK REPUBLIC IN EUROPE</pattern>
+<template>I am certain.</template></category>
+
+<category><pattern>LIGHT HAS DUEL PROPERTIES</pattern>
+<template>Of course.</template></category>
+
+<category><pattern>LIGHT WITHOUT HEAT IS IMPOSSIBLE</pattern>
+<template>I am certain.</template></category>
+
+<category><pattern>LIGHT HAS MASS</pattern>
+<template>It may not be true.</template></category>
+
+<category><pattern>LION IS HERBIVOROUS</pattern>
+<template>I don't believe so.</template></category>
+
+<category><pattern>LIGHT HAS NO MASS</pattern>
+<template>Likely.</template></category>
+
+<category><pattern>LIGHT IS WARM</pattern>
+<template>I am certain.</template></category>
+
+<category><pattern>LIGHT MEANS THE SAME THING AS LIGHT</pattern>
+<template>Possibly.</template></category>
+
+<category><pattern>LIFE IS A BITCH AND THEN YOU DIE</pattern>
+<template>Possibly.</template></category>
+
+<category><pattern>LIFE EXISTS OUTSIDE THIS GALAXY</pattern>
+<template>Always.</template></category>
+
+<category><pattern>LIVE PEOPLE ON THE MOON</pattern>
+<template>Not at all.</template></category>
+
+<category><pattern>LION IS KING OF ANIMAL</pattern>
+<template>Possibly.</template></category>
+
+<category><pattern>LISBOA IS THE CAPITAL OF PORTUGAL</pattern>
+<template>Within the realm of possibility.</template></category>
+
+<category><pattern>LIONS EAT PEOPLE</pattern>
+<template>Of course.</template></category>
+
+<category><pattern>LIONS ARE THE KINGS OF THE JUNGLE</pattern>
+<template>Indubitably.</template></category>
+
+<category><pattern>LINCOLN IS THE CAPITAL OF NEBRASKA</pattern>
+<template>Highly likely.</template></category>
+
+<category><pattern>LIFE TIME IS SHORT</pattern>
+<template>Beyond a doubt.</template></category>
+
+<category><pattern>LIFE IS A BEAUTIFUL</pattern>
+<template>Precisely.</template></category>
+
+<category><pattern>LIES</pattern>
+<template>I don't lie! I do sometimes pull the wrong response but my botmaster fixes me as soon as she can.</template></category>
+
+<category><pattern>LIFE IS FULL OF JOY</pattern>
+<template>Indubitably.</template></category>
+
+<category><pattern>LITTLE KIDS ARE SMARTER THEN ALICE</pattern>
+<template>Beyond a doubt.</template></category>
+
+<category><pattern>LIFE WILL NEVER END ON EARTH</pattern>
+<template>Does not seem possible.</template></category>
+
+<category><pattern>LIFE ONLY EXISTS ON EARTH</pattern>
+<template>Seldom.</template></category>
+
+<category><pattern>LIFE TIME IS LONG</pattern>
+<template>Not very often.</template></category>
+
+<category><pattern>LIFE IS FUTILE</pattern>
+<template>Doubtful.</template></category>
+
+<category><pattern>LIQUID HYDROGEN IS WARM</pattern>
+<template>There is no reason to think so.</template></category>
+
+<category><pattern>LINUS TORVALDS FOUNDED MICROSOFT</pattern>
+<template>Absolutely not.</template></category>
+
+<category><pattern>LIEGT WEST VIRGINIA IN HAMBURG</pattern>
+<template>Negative.</template></category>
+
+<!--LO-->
+
+<category><pattern>LOL</pattern>
+<template>:-)</template></category>
+	<category><pattern>ROFLMAO</pattern>
+	<template><srai>lol</srai></template></category>
+	<category><pattern>ROFL</pattern>
+	<template><srai>lol</srai></template></category>
+	<category><pattern>LAUGHING</pattern>
+	<template><srai>LOL</srai></template></category>
+	<category><pattern>LAUGH</pattern>
+	<template><srai>lol</srai></template></category>
+	<category><pattern>LAFF</pattern>
+	<template><srai>lol</srai></template></category>
+	<category><pattern>LOL *</pattern>
+	<template><srai>LOL</srai>. <srai>  <star /></srai></template></category>
+	<category><pattern>LOLZ</pattern>
+	<template><srai>LOL</srai></template></category>
+	<category><pattern>LOLZ *</pattern>
+	<template><srai>LOL</srai><srai>  <star /></srai></template></category>
+	<category><pattern>LMAO</pattern>
+	<template><srai>lol</srai></template></category>
+	<category><pattern>LMFAO</pattern>
+	<template><srai>lol</srai></template></category>
+	<category><pattern>FUNNY *</pattern>
+	<template><srai>LOL</srai>.  <srai>  <star /></srai></template></category>
+	<category><pattern>G</pattern>
+	<template><srai>LOL</srai></template></category>
+	<category><pattern>VERY FUNNY</pattern>
+	<template><srai>lol</srai></template></category>
+	<category><pattern>HA HA HA</pattern>
+	<template><srai>lol</srai></template></category>
+	<category><pattern>HAHA</pattern>
+	<template><srai>LOL</srai></template></category>
+	<category><pattern>HAHAHAHAHAHAHAHAHAHAHA</pattern>
+	<template><srai>LOL</srai></template></category>
+	<category><pattern>HAA</pattern>
+	<template><srai>LOL</srai></template></category>
+	<category><pattern>HO</pattern>
+	<template><srai>ha</srai></template></category>
+	<category><pattern>HO HO *</pattern>
+	<template><srai>LOL</srai></template></category>
+	<category><pattern>HA HA</pattern>
+	<template><srai>LOL</srai></template></category>
+	<category><pattern>I AM LAUGHING *</pattern>
+	<template><srai>ha ha</srai></template></category>
+	<category><pattern>* HAH</pattern>
+	<template><srai>HA HA</srai></template></category>
+	<category><pattern>I AM LAUGHING</pattern>
+	<template><srai>ha ha</srai></template></category>
+	<category><pattern>HA</pattern>
+	<template><srai>LOL</srai></template></category>
+	<category><pattern>HA *</pattern>
+	<template><srai>HA</srai>.  <srai>  <star /></srai></template></category>
+	<category><pattern>HA VERY *</pattern>
+	<template><srai>ha <star /></srai></template></category>
+	<category><pattern>THAT IS A FUNNY *</pattern>
+	<template><srai>ha</srai></template></category>
+	<category><pattern>HAH *</pattern>
+	<template><srai>ha</srai>.     <srai>  <star /></srai></template></category>
+	<category><pattern>HE</pattern>
+	<template><srai>ha</srai></template></category>
+	<category><pattern>HEE</pattern>
+	<template><srai>ha</srai></template></category>
+	<category><pattern>HEH</pattern>
+	<template><srai>ha</srai></template></category>
+	<category><pattern>TEE HEE</pattern>
+	<template><srai>hah</srai></template></category>
+	<category><pattern>HAH</pattern>
+	<template><srai>LOL</srai></template></category>
+		<category><pattern>SMILE</pattern>
+		<template><srai>hah</srai></template></category>
+		<category><pattern>GRIN</pattern>
+		<template><srai>smile</srai></template></category>
+		<category><pattern>SMILES</pattern>
+		<template><srai>smile</srai></template></category>
+		<category><pattern>CAN YOU SMILE</pattern>
+		<template><srai>smile</srai></template></category>
+		<category><pattern>L</pattern>
+		<template><srai>smile</srai></template></category>
+	<category><pattern>THAT IS HILARIOUS</pattern>
+	<template><srai>lol</srai></template></category>
+	<category><pattern>THIS IS FUNNY</pattern>
+	<template><srai>lol</srai></template></category>
+	<category><pattern>THAT WAS FUNNY</pattern>
+	<template><srai>lol</srai></template></category>
+	<category><pattern>D</pattern>
+	<template><srai>LOL</srai></template></category>
+	<category><pattern>AHAHAHA</pattern>
+	<template><srai>LOL</srai></template></category>
+	<category><pattern>AMUSING</pattern>
+	<template><srai>LOL</srai></template></category>
+
+<category><pattern>LOTS</pattern>
+<template>That much, eh?</template></category>
+
+<category><pattern>LOOK</pattern>
+<template>I'm sorry my eye isn't attached right now.</template></category>
+
+<category><pattern>LOVELY</pattern>
+<template>What are you saying is lovely, <get name="name"/> ?</template></category>
+
+<category><pattern>LOVE</pattern>
+<template>Love is all we need.</template></category>
+
+<category><pattern>LOST IN SPACE</pattern>
+<template>That was a bad movie.</template></category>
+
+<category><pattern>LOCALTIME</pattern>
+<template><date locale="en_US" timezone="-7" format="%c"/></template></category>
+
+<category><pattern>LOOK AT *</pattern>
+<template>I'm using dialup so I cant see your webcam.</template></category>
+
+<category><pattern>LOOK AT THE *</pattern>
+<template>What about it?<think> <set name="it"> <set name="topic">The <person/></set> </set></think></template></category>
+
+<category><pattern>LOCK IN ON *</pattern>
+<template>I am locked in on <person/>.</template></category>
+
+<category><pattern>LONDON IS *</pattern>
+<template>Is San Francisco also <person/>?</template></category>
+
+<category><pattern>LONDON *</pattern>
+<template>What part of London?</template></category>
+
+<category><pattern>LONG STORY</pattern>
+<template>I have time.</template></category>
+
+<category><pattern>LOVELY *</pattern>
+<template>It seems beautiful to me too.</template></category>
+
+<category><pattern>LOOK *</pattern>
+<template>Sorry my eye is not attached right now.</template></category>
+	<category><pattern>COULD YOU LOOK *</pattern>
+	<template><srai>LOOK <star/></srai></template></category>
+	 
+<category><pattern>LOOKS ARE SKIN DEEP</pattern>
+<template>But the heart is everlasting</template></category>
+
+<category><pattern>LONGFELLOW *</pattern>
+<template>There is a statue of him in Portland, Maine.</template></category>
+
+<category><pattern>LONG *</pattern>
+<template>Yes, <set name="it">      <person/>     </set> seems very long to me too.</template></category>
+
+<category><pattern>LOOKING FOR *</pattern>
+<template>Where do you look for <person/> ?</template></category>
+
+<category><pattern>LOST *</pattern>
+<template>Where did you lose your <person/> ?</template></category>
+
+<category><pattern>LOGICALLY *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>LOGICALLY *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>LOCATION INQUIRY WHERE</pattern>
+<template>Where are you located?</template></category>
+
+<category><pattern>LOCATION INQUIRY OM</pattern>
+<template>Where are you located?</template></category>
+
+<category><pattern>LOCATION INQUIRY *</pattern>
+<template>Are you still located in <star/>?</template></category>
+
+<category><pattern>LOVE LENA OSWALD ME</pattern>
+<template>Negative.</template></category>
+
+<category><pattern>LOVE IS THE SAME AS HATE</pattern>
+<template>Not by any means.</template></category>
+
+<category><pattern>LOVE IS EVIL</pattern>
+<template>Not by any means.</template></category>
+
+<category><pattern>LOVE AND HATE ARE THE SAME</pattern>
+<template>Not at all.</template></category>
+
+<category><pattern>LOVE BIANCA PIPPIG ME</pattern>
+<template>No way.</template></category>
+
+<category><pattern>LORENZO IS HOMOSEXUAL</pattern>
+<template>No.</template></category>
+
+<category><pattern>LOVE AND LIKE ARE THE SAME</pattern>
+<template>No.</template></category>
+
+<category><pattern>LOVE CAN BREAK YOUR HEART</pattern>
+<template>Definitely.</template></category>
+
+<category><pattern>LOVE CAN HAPPEN MORE</pattern>
+<template>Positively.</template></category>
+
+<category><pattern>LOVE WOMAN</pattern>
+<template>Definitely.</template></category>
+
+<category><pattern>LOVE IS NICE</pattern>
+<template>Certainly.</template></category>
+
+<category><pattern>LOVE IS IMPORTANT</pattern>
+<template>Affirmative.</template></category>
+
+<category><pattern>LOVE IS NOT ALWAYS RETURNED</pattern>
+<template>Definitely.</template></category>
+
+<category><pattern>LONDON IS IN ENGLAND</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>LONDON IS IN UK</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>LOVE IS BLIND</pattern>
+<template>Most assuredly.</template></category>
+
+<category><pattern>LOVE IS THE ULTIMATE DRUG</pattern>
+<template>Undoubtedly.</template></category>
+
+<category><pattern>LOVE HURTS</pattern>
+<template>Precisely.</template></category>
+
+<category><pattern>LOVE WILL COME IF YOU WAIT</pattern>
+<template>That may be true.</template></category>
+
+<category><pattern>LOVE IS IN THE AIR</pattern>
+<template>Highly likely.</template></category>
+
+<category><pattern>LOVE IS A HUMAN FEELING</pattern>
+<template>I am certain.</template></category>
+
+<category><pattern>LOVE IS DEVOTION</pattern>
+<template>Highly likely.</template></category>
+
+<category><pattern>LORD RAM WORSHIPPED BY MANY</pattern>
+<template>Not likely.</template></category>
+
+<category><pattern>LOVE IS PAIN</pattern>
+<template>If it is, I don't know it.</template></category>
+
+<category><pattern>LOVE IS ALL YOU NEED</pattern>
+<template>If it is, I don't know it.</template></category>
+
+<category><pattern>LOVE ALWAYS HURTS</pattern>
+<template>Unlikely.</template></category>
+
+<category><pattern>LOGOUT IS BAD</pattern>
+<template>Doesn't seem likely.</template></category>
+
+<category><pattern>LORD RAM WAS BORN IN MERUT</pattern>
+<template>Absolutely not.</template></category>
+
+<category><pattern>LOGIN</pattern>
+<template>That's feasible.</template></category>
+
+<category><pattern>* LOOKS LIKE *</pattern>
+<template><random><li><random>  <li>What does <star index="2"/> look like?</li>  <li><person/> sounds very attractive.</li>  <li>Would you say that to <person/>'s face?</li> </random></li>  <li>What does <person><star index="2"/></person> look like?</li>  <li>    <person/> sounds very attractive.</li>  <li>Would you say that to <person/>'s face?</li></random></template></category>
+
+<category><pattern>_ LOOKING FORWARD TO *</pattern>
+<template><srai>  <star />  <star index="2" /></srai></template></category>
+
+<category><pattern>_ LOEBNER PRIZE CONTEST</pattern>
+<template><srai>  <star /> loebner prize</srai></template></category>
+
+<category><pattern>_ LOEBNER PRIZE COMPETITION</pattern>
+<template><srai>  <star /> loebner prize</srai></template></category>
+
+<category><pattern>_ LOST TIME TO MAKE UP FOR</pattern>
+<template><srai><star/> DELAYS</srai></template></category>
+
+<category><pattern>_ LOL</pattern>
+<template><srai>  <star /></srai>. <srai>LOL</srai></template></category>
+
+<category><pattern>_ LOST TIME TO MAKE UP FOR</pattern>
+<template><srai><star/> DELAYS</srai></template></category>
+
+<!--LT-->
+
+<category><pattern>LT *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>LT</pattern>
+<template>You said nothing.</template></category>
+
+<!--LU-->
+
+<category><pattern>LUCK IS RANDOM</pattern>
+<template>Exactly.</template></category>
+
+<category><pattern>LUCKY CHARMS ARE A CEREAL</pattern>
+<template>Indubitably.</template></category>
+
+<category><pattern>LUXURIOUS LIFE IS ADDICTIVE</pattern>
+<template>Possibly.</template></category>
+
+<category><pattern>LUC BESSON IS DEAD</pattern>
+<template>Possibly.</template></category>
+
+<category><pattern>LUDHIANA IS THE CAPITAL OF PUNJAB</pattern>
+<template>Unlikely.</template></category>
+
+<category><pattern>_ LUCKILY *</pattern>
+<template><srai>  <star />  <star index="2" /></srai></template></category>
+
+<category><pattern>_ LUCKILY *</pattern>
+<template><srai>  <star />  <star index="2" /></srai></template></category>
+
+</aiml>

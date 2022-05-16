@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Library Terminology -->
+<!-- --> 
+
+<category><pattern>WHAT IS AN ABSTRACT</pattern>
+<template>An abstract is a brief summary of the points in an article. It can also be a source that compiles, by subject, author or title articles in a selected group of periodicals and includes a summary of each article.</template></category>
+ 
+<category><pattern>WHY DO LIBRARIES EXIST</pattern>
+<template>The existence of libraries ensures that knowledge and technology are available to everyone, not just to those who can afford their own. This is more than charity work; this helps raise the education levels of society as a whole.</template></category>
+
+<category><pattern>WHAT DOES ACCESS MEAN</pattern>
+<template>In computer-based information retrieval, the method by which a computer refers to records in a file, dependent upon their arrangement. In archives, the general ability to make use of the records of a government, government agency, or other corporate body.</template></category>
+
+<category><pattern>WHAT IS AN ACCESS POINT</pattern>
+<template>Text and/or numeric terms used to search bibliographic records.</template></category>
+    
+<category><pattern>WHAT IS ACQUISITIONS</pattern>
+<template>Materials which are purchased for library use. Activities related to obtaining library materials by purchase, exchange, or gift, including pre-order bibliographic searching, ordering and receiving materials, processing invoices, and the maintenance of the necessary records related to acquisitions.</template></category>
+
+<category><pattern>WHAT IS AN ALMANAC</pattern>
+<template>A compendium of useful data and statistics relating to countries, personalities, events, and subjects.</template></category>
+
+<category><pattern>WHAT DOES ANALYTIC MEAN</pattern>
+<template>A bibliographic record for a part of a publication, such as a part of a book, or an individual volume of a multi-volume work or monographic series, where each volume has its own unique title.</template></category>
+
+<category><pattern>WHAT IS AN ANNOTATED BIBLIOGRAPHY</pattern>
+<template>A list of works with descriptions and a brief summary or critical statement about each.</template></category>
+
+<category><pattern>WHAT IS AN ANNOTATION</pattern>
+<template>A note accompanying an entry in a bibliography, reading list, or catalog intended to describe, explain, or evaluate the publication referred to.</template></category>
+
+<category><pattern>PMCID</pattern>
+<template>The PubMed Central reference number (PMCID) is a unique number assigned to a work that is posted to PubMed Central (PMC).</template></category>
+
+<category><pattern>WHAT IS AN ANNUAL</pattern>
+<template>A serial publication, such as a report, yearbook or directory, issued once a year.</template></category>
+
+<category><pattern>WHAT IS AN ANTHOLOGY</pattern>
+<template>A collection of extracts from the works of various authors, usually in the same genre or about the same subject. (Example: Norton Anthology of English Literature). Sometimes a collection from the works of an individual author.</template></category>
+
+<category><pattern>WHAT IS AN APPENDIX</pattern>
+<template>Section of a book containing supplementary materials such as tables or maps.</template></category>
+
+<category><pattern>WHAT DOES ARCHIVES MEAN</pattern>
+<template>Public records or historical documents, or the place where such records and documents are kept.</template></category>
+
+<category><pattern>WHAT IS ARRANGEMENT</pattern>
+<template>The order in which information is presented in a book. Determining arrangement contributes to the effective use of that work.</template></category>
+
+<category><pattern>WHAT IS AN ARTICLE</pattern>
+<template>A contribution written for publication in a journal, magazine, or newspaper.</template></category>
+
+<category><pattern>WHAT IS AN ATLAS</pattern>
+<template>A volume of maps, plates, engravings, tables, etc.</template></category>
+
+<category><pattern>WHAT DOES AUDIOVISUAL MEAN</pattern>
+<template>Information in a non-print format. Includes films, slides, audiotapes, videocassettes, records, software. Also referred to as media.</template></category>
+
+<category><pattern>WHAT IS AN AUTHOR</pattern>
+<template>Includes compilers, editors, and composers in addition to the main personal and corporate authors who are responsible for a work.</template></category>
+
+<category><pattern>WHAT IS AN AUTHORITY FILE</pattern>
+<template>The computerized list of subject, series, and name headings used in the Online Catalog.</template></category>
+
+<category><pattern>WHAT IS AN AUTOBIOGRAPHY</pattern>
+<template>An account of one's life, composed by one's self.</template></category>
+
+<category><pattern>WHAT IS A BARCODE NUMBER</pattern>
+<template>The 14-digit number appearing beneath the barcode found on the back on a book. Barcode numbers are used to charge, discharge, and renew books on the online computer system.</template></category>
+
+<category><pattern>WHAT IS A BIBLIOGRAPHIC CITATION</pattern>
+<template>The information which identifies a book or article. Information for a book usually includes the author, title, publisher, and date. The citation for an article includes the author, title of the article, title of the periodical, volume, pages, and date.</template></category>
+
+<category><pattern>WHAT IS A BIBLIOGRAHPIC DATABASE</pattern>
+<template>A database which indexes and contains references to the original sources of information. It contains information about the documents in it rather than the documents 
+themselves.</template></category>
+
+<category><pattern>WHAT IS A BIBLIOGRAPHIC RECORD</pattern>
+<template>The unit of information fields (e.g. title, author, publication date, etc.) which describe and identify a specific item in a bibliographic database.</template></category>
+
+<category><pattern>WHAT IS A BIBLIOGRAPHY</pattern>
+<template>A list of citations or references to books or periodical articles on a particular topic. Bibliographies can appear at the end of a book, journal, or encyclopedia article, 
+or in a separate publication.</template></category>
+
+<category><pattern>WHAT IS A BINDERY</pattern>
+<template>Books that need repair and loose issues of journals that were combined or bound into a single volume. These items are not available to users until they come back to 
+the library system.</template></category>
+
+<category><pattern>WHAT IS A BIO BIBLIOGRAPHY</pattern>
+<template>A list of works by various authors (or, occasionally, one author) which includes brief biographical data.</template></category>
+
+<category><pattern>WHAT IS A BIOGRAPHY</pattern>
+<template>A book about a person written by some other person.</template></category>
+
+<category><pattern>WHAT IS A BLURB</pattern>
+<template>Advertisement found on the book jacket designed to promote the sale of the book.</template></category>
+
+<category><pattern>WHAT IS A BOOK REVIEW</pattern>
+<template>An evaluation or discussion of a new book by a critic or journalist.</template></category>
+
+<category><pattern>WHAT IS BOOLEAN LOGIC</pattern>
+<template>Referring to logical or algebraic operations, formulated by George Boole, involving variables with two values, such as Value 1 and Value 2; Value 1 or Value 2; and Value 1 but not Value 2.</template></category>
+
+<category><pattern>WHAT IS A BOUND VOLUME</pattern>
+<template>Formed when issues of a periodical title are gathered to form a hardback volume.</template></category>
+
+<category><pattern>WHAT IS A CALL NUMBER</pattern>
+<template>A combination of numbers and letters that provide a unique description of each item in a library collection. Items are arranged on the book shelves by call number, so the call number is the "address" of materials on the shelf.</template></category>
+	<category><pattern>WHAT IS A CALL *</pattern>
+	<template><srai>WHAT IS A CALL NUMBER</srai></template></category>
+	<category><pattern>* CALL NUMBER</pattern>
+	<template><srai>WHAT IS A CALL NUMBER</srai></template></category>
+
+<category><pattern>WHAT IS A CARD CATALOG</pattern>
+<template>Before Online Catalogs the card catalog was a card file, arranged by author, title, and subject, listing all items owned by a library.</template></category> 
+
+<category><pattern>WHAT IS A CARREL</pattern>
+<template>A study area for one person.</template></category>
+
+<category><pattern>WHAT IS A CD ROM</pattern>
+<template>An information technology which is used to store large databases and provides access to them via computer. These discs look like the compact discs you'd see in a music 
+store. Instead of storing music, they store text.</template></category>
+
+<category><pattern>WHAT DOES CHECK OUT MEAN</pattern>
+<template>To borrow books or periodicals from the library for a certain period of time.</template></category>
+
+<category><pattern>CIRCULATE</pattern>
+<template>To allow materials to be checked out.</template></category>
+
+<category><pattern>CITATION</pattern>
+<template>A citation is a reference or footnote to an item (such as a book or periodical article); a citation contains the author, title, date of publication, and any other 
+information needed to locate the item. For more, here is our Guide on <a href=" http://guides.lib.uci.edu/citations" target="_blank">Citations</a></template></category>
+
+<category><pattern>CITATION INDEX</pattern>
+<template>An index consisting essentially of a list of works which have been cited in other, later works, and a list of works from which the citations have been collected. 
+Used to identify subsequently published works that are related by subject to the cited work.</template></category>
+
+<category><pattern>CLASSIFICATION SCHEME</pattern>
+<template>Classification systems which use numbers and/or letters, to represent the subject content of materials.</template></category> 
+
+<category><pattern>CONFERENCE REPORT</pattern>
+<template>Papers generated at or for a conference; may include minutes, transcripts, papers, and/or presentations.</template></category>
+
+<category><pattern>CONNECTORS</pattern>
+<template>Words that indicate the relationship between search terms. Also referred to as Boolean Operators. Common connectors are: AND, OR, NOT.</template></category>
+	<category><pattern>BOOLEAN</pattern>
+	<template><srai>CONNECTORS</srai></template></category>
+	<category><pattern>* BOOLEAN</pattern>
+	<template><srai>CONNECTORS</srai></template></category>
+	<category><pattern>BOOLEAN *</pattern>
+	<template><srai>CONNECTORS</srai></template></category>
+	<category><pattern>* BOOLEAN *</pattern>
+	<template><srai>CONNECTORS</srai></template></category>
+	<category><pattern>KEYWORDS FOR NARROWING SEARCH</pattern>
+	<template><srai>CONNECTORS</srai></template></category>
+	<category><pattern>* KEYWORDS FOR NARROWING SEARCH</pattern>
+	<template><srai>CONNECTORS</srai></template></category>
+	<category><pattern>KEYWORDS FOR NARROWING SEARCH *</pattern>
+	<template><srai>CONNECTORS</srai></template></category>
+	<category><pattern>* KEYWORDS FOR NARROWING SEARCH *</pattern>
+	<template><srai>CONNECTORS</srai></template></category>
+
+<category><pattern>WHAT IS A CONTINUATION</pattern>
+<template>A serial publication issued less than 3 times a year, i.e. not often enough to be called a "periodical."</template></category>
+
+<category><pattern>WHAT IS CONTROLLED VOCABULARY</pattern>
+<template>The standardization of words which may be used to search an index, abstract or information database. There is usually a published listing or thesaurus of preferred terms identifying the system's vocabulary. (Example: Library of Congress Subject Headings).</template></category>
+
+<category><pattern>WHAT IS A COPY CARD</pattern>
+<template>A small plastic card that can be purchased and used in library photocopiers and laser printers on campus.</template></category>
+
+<category><pattern>WHAT IS A CORPORATE ENTRY</pattern>
+<template>A corporate body (company, institution, government agency, etc.) which is listed in a cataloging record as a heading for a publication (e.g., because the publication has no personal author).</template></category>
+
+<category><pattern>WHAT IS COPYRIGHT</pattern>
+<template>The legal right to control the production, use, and sale of copies of a literary, musical, or artistic work.</template></category>
+
+<category><pattern>WHAT IS A CROSS REFERENCE</pattern>
+<template>Word or heading that directs you from one part of a book, catalog, or index to another part.</template></category>
+
+<category><pattern>WHAT IS CURRENT PERIODICALS</pattern>
+<template>The latest or most recent issues of journals and magazines that the library receives.</template></category>
+
+<category><pattern>WHAT IS A DATABASE</pattern>
+<template>A structured set of information, stored in a book, disk, computer, etc.</template></category>
+
+<category><pattern>WHAT IS A DEPOSITORY LIBRARY</pattern>
+<template>A library which receives the publications of a government or official body.</template></category> 
+
+<category><pattern>WHAT IS A DESCRIPTOR</pattern>
+<template>A simple word or phrase used as a subject.</template></category>
+
+<category><pattern>WHAT IS A DISSERTATION</pattern>
+<template>A thesis or treatise prepared as a condition for the award of a degree or diploma.</template></category>
+
+<category><pattern>WHAT IS A DUE DATE</pattern>
+<template>The date by which borrowed books and materials should be returned. To extend the loan period for materials, the item should be renewed before the due date so that fines are not incurred.</template></category>
+
+<category><pattern>WHAT IS AN ENCYCLOPEDIA</pattern>
+<template>General information source that provides articles on various branches of knowledge. Encyclopedias may be general or subject specific.</template></category>
+
+<category><pattern>WHAT IS A FIELD</pattern>
+<template>The part of a record used for a particular category of data. For example, the title field in a database record displays the title for the record.</template></category>
+
+<category><pattern>WHAT IS A FINE</pattern>
+<template>The amount of money which is owed by the borrower if materials are not returned on time.</template></category>
+
+<category><pattern>WHAT IS A DICTIONARY</pattern>
+<template>A dictionary, sometimes known as a wordbook, is a collection of words in one or more specific languages, often arranged alphabetically (or by radical and stroke for ideographic languages), which may include information on definitions, usage, etymologies, pronunciations, translation, etc.</template></category>
+	<category><pattern>WHAT IS DICTIONARY</pattern>
+	<template><srai>WHAT IS A DICTIONARY</srai></template></category>
+
+<category><pattern>WHAT IS A FOLIO</pattern>
+<template>An oversized book, too large for normal shelving.</template></category>
+
+<category><pattern>WHAT ARE FOOTNOTES</pattern>
+<template>Notes (or a statement explaining the text or indicating the basis for an assertion or the source of material quoted) that appear at the foot of a page of text.</template></category>
+
+<category><pattern>WHAT IS FORMAT</pattern>
+<template>The physical form in which information appears.</template></category>
+
+<category><pattern>WHAT IS FULL TEXT</pattern>
+<template>Some of the article databases available from the UCI library offer full text electronic access to a wide range of articles.</template></category>
+
+<category><pattern>WHAT IS A GAZETTEER</pattern>
+<template>A geographical dictionary; usually includes longitude and latitude of a given place, population, size, etc.</template></category>
+
+<category><pattern>WHAT ARE GOVERNMENT DOCUMENTS</pattern>
+<template>Sources printed by or for government agencies.</template></category>
+
+<category><pattern>WHAT IS A HANDBOOK</pattern>
+<template>General information source providing quick reference on a given subject. Handbooks may be general or subject specific.</template></category>
+
+<category><pattern>WHAT DOES HITS MEAN</pattern>
+<template>Refers to items retrieved from a database matching criteria you set. For example, if you do a keyword title search in the online catalog for "linguistics" and retrieve 2798 items, that can also be called 2798 'hits.'</template></category>
+
+<category><pattern>WHAT IS HYPERTEXT</pattern>
+<template>A document format which includes the use of specially coded terms or images which, when selected or "clicked," connect to a linked location or file, or carry out a command to run an application or program.</template></category>
+
+<category><pattern>WHAT IS AN IMPRINT</pattern>
+<template>The name of the publisher, distributor, manufacturer, etc. and the place and date of publication, distribution, manufacture, etc. of a bibliographic item.</template></category>
+
+<category><pattern>WHAT IS AN INDEX</pattern>
+<template>List at the end of books, encyclopedias, etc. that indicates by author, title and/or subject the location of information within the book or encyclopedia. Also can be a 
+bibliographic database.</template></category>
+
+<category><pattern>WHAT IS ILL</pattern>
+<template>Exchange of books or periodical articles between libraries for a brief period. A service you can use to borrow library materials not owned by the University of California, Irvine from other libraries.</template></category>
+<category><pattern>WHAT IS INTERLIBRARY LOAN</pattern>
+<template><srai>WHAT IS ILL</srai></template></category>
+
+<category><pattern>WHAT IS AN IP ADDRESS</pattern>
+<template>IP stands for "Internet Protocol". An IP Address is a four part number used to uniquely identify a particular computer on a network using the TCP/IP (Internet) Protocol. For example, 130.126.33.246 could be an IP address.</template></category>
+
+<category><pattern>WHAT IS ISBN</pattern>
+<template>A four-part, ten-character code given a book (a non-serial literary publication) before publication as a means of identifying it concisely, uniquely, and unambiguously. The four parts of the ISBN are: group identifier (e.g., national, geographic, language, or other convenient group), publisher identifier, title identifier, and check digit.</template></category>
+ 
+<category><pattern>WHAT IS ISSN</pattern>
+<template>The international numerical code that identifies concisely, uniquely, and unambiguously a serial publication.</template></category>
+
+<category><pattern>WHAT IS AN ISSUE</pattern>
+<template>A single uniquely numbered or dated part of a periodical or newspaper.</template></category>
+
+<category><pattern>WHAT IS A JOURNAL</pattern>
+<template>A type of periodical which contains scholarly articles. Journals are usually published by academic or association presses and include bibliographies.</template></category>
+
+<category><pattern>WHAT IS A KEYWORD</pattern>
+<template>Generally, this refers to searching a database using natural language.</template></category>
+
+<category><pattern>WHAT IS KEYWORD SEARCHING</pattern>
+<template>Keyword searching results in a list of database records that contain all the keywords entered as search terms, according to the logic of the search. A keyword search may be performed in one index, or it may be performed in more than one index combined.</template></category>
+
+<category><pattern>WHAT ARE LIBGUIDES</pattern>
+<template>LibGuides is the back-end software for the libraries research guides. <a href="http://guides.lib.uci.edu/" target="_blank">Browse our guides</a>.</template></category>
+	<category><pattern>WHAT IS A LIBGUIDE</pattern>
+	<template><srai>WHAT ARE LIBGUIDES</srai></template></category>
+
+<category><pattern>WHAT IS LIBRARY CONSULTATION</pattern>
+<template>Our Research Consultation Service offers UCI students, faculty and staff appointments with a librarian to focus on your research needs. Click <a href=" https://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">here</a> for details on our research assistance services.</template></category>
+
+<category><pattern>WHAT ARE LIBRARY OF CONGRESS SUBJECT HEADINGS</pattern>
+<template>A list of accepted subject headings used in the Library's catalogs.</template></category>
+	<category><pattern>WHAT IS LC</pattern>
+	<template><srai>WHAT ARE LIBRARY OF CONGRESS SUBJECT HEADINGS</srai></template></category>
+	<category><pattern>WHAT IS LIBRARY OF CONGRESS</pattern>
+	<template><srai>WHAT ARE LIBRARY OF CONGRESS SUBJECT HEADINGS</srai></template></category>
+
+<category><pattern>WHAT DOES LIBRARY USE ONLY MEAN</pattern>
+<template>"Library Use Only" means that the item in question cannot leave the library grounds, and may only be viewed at the specific location listed on the item record.</template></category>
+	<category><pattern>LIBRARY USE ONLY</pattern>
+	<template><srai>WHAT DOES LIBRARY USE ONLY MEAN</srai></template></category>
+
+<category><pattern>WHAT IS A MAGAZINE</pattern>
+<template>A type of periodical containing popular articles which are usually shorter or less authoritative than journal articles on the same subject.</template></category>
+
+<category><pattern>WHAT IS A MANUSCRIPT</pattern>
+<template>A handwritten or typed composition, rather than printed. Includes groups of personal papers which have some unifying characteristic and individual documents which have 
+some special importance.</template></category>
+
+<category><pattern>WHAT IS MARC</pattern>
+<template>An international standard format for the arrangement of cataloging information so that it can be stored and retrieved using computer tapes.</template></category>
+
+<category><pattern>WHAT IS A MICROCARD</pattern>
+<template>A trade name for a 3 x 5 inch sheet of opaque material bearing one or more microimages.</template></category>
+
+<category><pattern>WHAT IS MICROFICHE</pattern>
+<template>A format; photographically reduced images reproduced on a small 4 x 6 sheets of film. Often used to provide backup for periodicals with missing pages.</template></category>
+
+<category><pattern>WHAT IS MICROFILM</pattern>
+<template>A format; photographically reduced images of printed pages on 35mm film. This format also provides backup for periodicals with missing pages. Older issues of newspapers 
+are often microfilmed because newsprint deteriorates so rapidly.</template></category>
+
+<category><pattern>WHAT IS A MICROFORM</pattern>
+<template>Formats for storing photographically reduced images onto plastic film. Microfiche and microfilm are two types of microforms. A microform reader/printer is required to read or copy microforms.</template></category>
+
+<category><pattern>WHAT IS A MONOGRAPH</pattern>
+<template>A book. A separate treatise on a single subject or class of subjects, or on one person, usually detailed in treatment but not extensive in scope and often containing bibliographies.</template></category>
+
+<category><pattern>WHAT IS A MONOGRAPHIC SERIES</pattern>
+<template>A monographic series is a set of books that have a number of volumes with a definite end. An encyclopedia is a good example.</template></category>
+
+<category><pattern>WHAT IS A NETID</pattern>
+<template>Your Network ID (or NetID) is a name used to identify you on the campus network. Your email/Web Account logon will be the same as your Network ID.</template></category> 
+
+<category><pattern>WHAT IS A NEWSPAPER</pattern>
+<template>A serial issued at stated, frequent intervals (i.e., daily, weekly, or semi-weekly), containing news, opinions, advertisements, and other items of current, often local, 
+interest.</template></category>
+
+<category><pattern>WHAT IS NON CIRCULATING</pattern>
+<template>These items do not circulate outsid a library, such as reference works. However, items with this circulation code may still be used within a library.</template></category>
+
+<category><pattern>WHAT IS AN ONLINE DATABASE</pattern>
+<template>Computer databases. Bibliographic databases provide access by author, title, and subject to a group of periodicals, books, or proceedings. Numeric databases provide access to statistical information.</template></category>
+
+<category><pattern>WHAT IS AN OPAC</pattern>
+<template>A computerized catalog of books and other items in the library.</template></category>
+
+<category><pattern>WHAT ARE OPERATORS</pattern>
+<template>Words such as AND, OR, and NOT that are used to combine search terms to broaden or narrow the results of a search.</template></category>
+
+<category><pattern>WHAT IS OVERDUE</pattern>
+<template>Material which is not returned to the library by its due date is considered overdue.</template></category>
+
+<category><pattern>WHAT IS OVERSIZED</pattern>
+<template>Books that are too large for normal shelves and stored in a special location.</template></category>
+
+<category><pattern>WHAT IS THE PEER REVIEW PROCESS</pattern>
+<template>Method used by scholarly journals to assure the quality and relevance of the articles they publish. When an article is submitted, the editor sends copies to several reviewers (or "referees") who are recognized experts in the subject of the article. Each reads the article and offers an opinion on whether it is worthy of publication in the journal, using such criteria as soundness of investigative method, whether the author shows adequate knowledge of research on the subject to date, and whether the articles adds to knowledge in the field. Only if the reviewers agree that it meets the relevant criteria will the article be published.</template></category>
+	<category><pattern>PEER REVIEW</pattern>
+	<template><srai>WHAT IS THE PEER REVIEW PROCESS</srai></template></category>
+
+<category><pattern>WHAT IS A PEER REVIEWED ARTICLE</pattern>
+<template>A scholarly article published in a peer-reviewed journal.</template></category>
+	<category><pattern>WHAT ARE PEER REVIEWED ARTICLES</pattern>
+	<template><srai>WHAT IS A PEER REVIEWED ARTICLE</srai></template></category>
+
+<category><pattern>WHAT IS A PEER REVIEWED JOURNAL</pattern>
+<template>Also called a "refereed" journal. A scholarly journal that used the peer review process to select material for publication.</template></category>
+
+<category><pattern>WHAT IS A PERIODICAL</pattern>
+<template>Materials published at regular intervals (at least 3 times a year) and intended to be continued indefinitely. Examples of periodicals include magazines, journals, and newsletters.</template></category>
+
+<category><pattern>WHAT ARE PRIMARY SOURCES</pattern>
+<template>Fundamental, authoritative documents relating to a subject, used in the preparation of a later work, e.g., original record, contemporary documents, etc. Synonymous with original sources and source material.</template></category>
+	<category><pattern>WHAT IS A PRIMARY RESOURCE</pattern>
+	<template><srai>WHAT ARE PRIMARY SOURCES</srai></template></category>
+	<category><pattern>WHAT IS A PRIMARY SOURCE</pattern>
+	<template><srai>WHAT ARE PRIMARY SOURCES</srai></template></category>
+
+<category><pattern>WHAT IS PUBLIC DOMAIN</pattern>
+<template>Material in the public domain is not copyrighted and may be used freely for any legal purpose. Works may be in the public domain for several reasons. For example, the copyright may have expired or the owner may have given up the copyright. Material published by the federal government is not copyrighted.</template></category>
+
+<category><pattern>WHAT IS A PUBLICATION</pattern>
+<template>A book, periodical, musical score, etc. that has been "brought before the public"; in other words, a work that has been printed and distributed.</template></category>
+
+<category><pattern>WHAT IS A QUARTO</pattern>
+<template>An oversized book, being over 11.5" (29 cm.) in height or width.</template></category>
+
+<category><pattern>WHAT DOES RECALL MEAN</pattern>
+<template>A request by a library to a borrower for the return of a borrowed item before the due date.</template></category>
+
+<category><pattern>WHAT IS A RECORD</pattern>
+<template>A single document in a database. In an electronic index, a record consists of a citation (with or without an abstract) for a single periodical article.</template></category>
+
+<category><pattern>WHAT DOES REFEREED MEAN</pattern>
+<template>Said of a periodical or other serial when manuscripts are evaluated by at least one subject specialist in addition to the editor before being accepted for publication.</template></category>
+
+<category><pattern>WHAT IS A REFERENCE DESK</pattern>
+<template>Location in each library where you can get help in using the library and receive answers to your questions.</template></category>
+
+<category><pattern>WHAT ARE REFERENCE LIBRARIANS</pattern>
+<template>Reference librarians are specialists in the field of information retrieval. Generally they have a Masters degree in library and information science, and many have other graduate degrees as well. They are available at reference (Ask Us) desks to help you find information.</template></category>
+
+<category><pattern>WHAT IS A LIBRARIAN</pattern>
+<template>A librarian is a person who works professionally in a library, and holds a degree in librarianship (known either as library science or library and information science).</template></category>
+
+<category><pattern>WHAT ARE REFERENCE MATERIALS</pattern>
+<template>A selection of library materials used by reference librarians and information assistants to help people find information or do research. Reference collections contain many sources of information, such as dictionaries, directories, almanacs, encyclopedias, atlases, and statistical compilations. They may also have bibliographies, indexes, and abstracts. Reference materials usually do not leave the library.</template></category>
+
+<category><pattern>WHAT IS A RENEWAL</pattern>
+<template>An extension of the loan period for charged library materials.</template></category>
+
+<category><pattern>RENTAL</pattern>
+<template>We don't rent out materials and study rooms, we loan them. To make it easier for me to answer your question, try using either the words borrow or loan; whichever makes more sense.</template></category>
+	<category><pattern>* RENTAL</pattern>
+	<template><srai>RENTAL</srai></template></category>
+	<category><pattern>* RENTAL *</pattern>
+	<template><srai>RENTAL</srai></template></category>
+	<category><pattern>RENTAL *</pattern>
+	<template><srai>RENTAL</srai></template></category>
+	<category><pattern>RENT</pattern>
+	<template><srai>RENTAL</srai></template></category>
+	<category><pattern>* RENT</pattern>
+	<template><srai>RENTAL</srai></template></category>
+	<category><pattern>* RENT *</pattern>
+	<template><srai>RENTAL</srai></template></category>
+	<category><pattern>RENT *</pattern>
+	<template><srai>RENTAL</srai></template></category>
+
+<category><pattern>WHAT IS A REPRINT</pattern>
+<template>A new impression of an edition. A new edition from a new setting of type for which an impression of a previous edition has been used as copy. A separately issued article, chapter, or other portion of a previously published larger work, usually a reproduction of an original, but sometimes made from a new setting of type.</template></category>
+
+<category><pattern>WHAT IS A RESEARCH STRATEGY</pattern>
+<template>The methodology or plan followed to find information on a subject or research topic.</template></category>
+
+<category><pattern>WHAT DOES RESERVES MEAN</pattern>
+<template>Course Reserves are materials temporarily set aside from general borrowing so they can be used by students in a specific class. See our <a href=" https://www.lib.uci.edu/course-reserves" target="_blank">Course Reserves page</a> for more details.</template></category>
+
+<category><pattern>WHAT ARE RETROSPECTIVE MATERIALS</pattern>
+<template>Sources of information published after an event has occurred.</template></category>
+
+<category><pattern>WHAT IS A SCOPE</pattern>
+<template>The content of a work; what information is included and what information is excluded.</template></category>
+
+<category><pattern>WHAT IS SEARCH</pattern>
+<template>To look for information contained in a database by entering words or numbers in a search box. A process by which library circulation staff look in various library locations for a missing item and hold it for the person requesting the search when it is found.</template></category>
+
+<category><pattern>WHAT IS A SECONDARY SOURCE</pattern>
+<template>Books or articles that explain or analyze primary sources. For example, criticism of a literary work.</template></category>
+
+<category><pattern>WHAT IS A SEE REFERENCE</pattern>
+<template>A reference from a heading that is not used to one or more headings that are used. For example, the Library of Congress Subject Headings does not use the heading Native Americans; there is a see reference to Indians of North America, the correct heading.</template></category>
+
+<category><pattern>WHAT IS A SEE ALSO REFERENCE</pattern>
+<template>A reference from one heading to one or more related headings. For example, in the Library of Congress Subject Headings, under the heading Recycling, there is a see also reference indicating to look at subheadings under subjects, e.g. Waste Paper--Recycling, Glass Waste--Recycling.</template></category>
+
+<category><pattern>WHAT IS A SERIAL</pattern>
+<template>Materials issued at regular or irregular intervals and intended to continue indefinitely. Includes periodicals, magazines, journals, and yearbooks.</template></category>
+
+<category><pattern>WHAT IS A SERIES</pattern>
+<template>A group of separate bibliographic items related to one another by the fact that each item bears, in addition to its own title proper, a collective title applying to the group as a whole. The individual items may or may not be numbered.</template></category>
+
+<category><pattern>WHAT IS A SET</pattern>
+<template>A group of related items. When conducting a search in a database, the results of a search form a set.</template></category>
+
+<category><pattern>WHAT IS THE STACKS</pattern>
+<template>Rows of shelves where library books and journals are stored.</template></category> 
+
+<category><pattern>SHELVES</pattern>
+<template>Do you mean what we store books on? We have a lot of those!</template></category>
+
+<category><pattern>WHAT IS A STOPWORD</pattern>
+<template>A word which is omitted from the index of a database. Stopwords are very common words (a, a, the, to, for, etc.) that normally add little meaning to the subject content of the document being indexed. Since stopwords are not indexed, they cannot be used as search terms.</template></category>
+
+<category><pattern>WHAT IS A STYLE MANUAL</pattern>
+<template>A publication that sets forth the rules for composition, including format and manner of citing sources, to be used in a particular discipline or profession or by a particular publisher.</template></category>
+
+<category><pattern>WHAT IS A SUBHEADING</pattern>
+<template>A subdivision of a more general subject heading. For example in the Library of Congress Subject Heading United States--History, History is a subheading of United States.</template></category>
+
+<category><pattern>WHAT IS A SUBJECT HEADING</pattern>
+<template>A term or phrase used in indexes and library catalogs to describe the content of library materials in a standardized way. For example, Indians of North America is the subject heading used in the online catalog to describe materials about Native Americans.</template></category>
+
+<category><pattern>WHAT IS SUDOCS</pattern>
+<template>The classification scheme used by the U.S. Superintendent of Documents. Used to create call numbers for most U.S. government documents.</template></category>
+
+<category><pattern>WHAT IS A TABLE OF CONTENTS</pattern>
+<template>A list of parts contained within a book or periodical, such as chapter titles and periodical articles, with references by page number or other location symbol to the place they begin and in the sequence in which they appear.</template></category>
+
+<category><pattern>WHAT IS A TERTIARY SOURCES</pattern>
+<template>Reference works that identify, point out, summarize, abstract, or repackage the information provided in primary and secondary sources. Examples include dictionaries, 
+encyclopedias, handbooks, etc.</template></category>
+
+<category><pattern>WHAT IS A THESAURUS</pattern>
+<template>A list of all the subject headings or descriptors used in a particular database, catalog, or index. The thesaurus for the online catalog is the Library of Congress Subject Headings.</template></category>
+
+<category><pattern>WHAT IS A THESIS</pattern>
+<template>The main idea or argument of a paper. A document prepared as a condition for the award of a degree or diploma. For example, a Masters thesis.</template></category>
+
+<category><pattern>WHAT IS TRUNCATION</pattern>
+<template>In database searching, the addition of a special symbol (*, #, ?, etc.) to the root of a word to match any record in a database that begins with the letters to the left of the symbol.</template></category>
+	<category><pattern>HOW DO I SEARCH FOR THE BEGINNING OF A WORD *</pattern>
+	<template><srai>WHAT IS TRUNCATION</srai></template></category>
+
+<category><pattern>WHAT IS UCELINKS</pattern>
+<template>UC-eLinks connects scholars directly with articles and ebooks by providing an easy way to move from an article or book citation to the actual publication.  Click <a href=" http://www.lib.uci.edu/find-full-text-uce-links" target="_blank">Here</a> to learn more about UC-eLinks.</template></category>
+	<category><pattern>UC ELINKS</pattern>
+	<template><srai>WHAT IS UCELINKS</srai></template></category>
+	<category><pattern>UC*ELINKS</pattern>
+	<template><srai>WHAT IS UCELINKS</srai></template></category>
+	<category><pattern>WHAT DOES UC*ELINKS DO</pattern>
+	<template><srai>WHAT IS UCELINKS</srai></template></category>
+	<category><pattern>WHAT ARE UC*ELINKS</pattern>
+	<template><srai>WHAT IS UCELINKS</srai></template></category>
+	<category><pattern>WHAT DO UC*ELINKS DO</pattern>
+	<template><srai>WHAT IS UCELINKS</srai></template></category>
+	<category><pattern>WHAT IS A UC*ELINK</pattern>
+	<template><srai>WHAT IS UCELINKS</srai></template></category>
+	<category><pattern>UC E LINKS</pattern>
+	<template><srai>WHAT IS UCELINKS</srai></template></category>
+	<category><pattern>* UC E LINKS</pattern>
+	<template><srai>WHAT IS UCELINKS</srai></template></category>
+	<category><pattern>UC E LINKS *</pattern>
+	<template><srai>WHAT IS UCELINKS</srai></template></category>
+	<category><pattern>* UC E LINKS *</pattern>
+	<template><srai>WHAT IS UCELINKS</srai></template></category>
+	
+<category><pattern>WHAT DOES UNBOUND VOLUMES MEAN</pattern>
+<template>Current, individual issues of a periodical title that are not yet gathered together as a hardback volume.</template></category>
+
+<category><pattern>WHAT IS A UNIFORM TITLE</pattern>
+<template>The title used for cataloging purposes when a work has appeared under more than one title (such as translations into several languages), or when the work being cataloged is of a collective nature, such as "Complete Works."</template></category>
+
+<category><pattern>WHAT IS A URL</pattern>
+<template>An acronym for Uniform Resource Locator. It represents a unique location or "address" of a resource located on the World Wide Web; similar to a call number for library materials.</template></category>
+
+<category><pattern>WHAT IS A VOLUME</pattern>
+<template>Contains the total collection of all sequential issues of a periodical or newspaper over a given time period.</template></category>
+
+<category><pattern>WHAT DOES WITHDRAWN MEAN</pattern>
+<template>Items that are no longer in the library collection.</template></category>
+
+<category><pattern>WHAT IS A YEARBOOK</pattern>
+<template> An annual compendium of facts and statistics on a particular subject for the preceding year.</template></category>
+
+<category><pattern>* DIFFERENCE BETWEEN SCHOLARLY AND POPULAR SOURCES</pattern>
+<template>Scholarly publications are written by scholars in a particular field, have bibliographies and/or cite sources and are often "peer reviewed" or approved by a group of experts. On the other hand popular sources are written by journalists and staff writers, rarely include references to other works, and are targeted toward a general audience.</template></category>
+
+<category><pattern>SCHOLARLY SOURCE</pattern>
+<template>Scholarly publications are written by scholars in a particular field, have bibliographies and/or cite sources and are often "peer reviewed" or approved by a group of experts.</template></category>
+	<category><pattern>* SCHOLARLY SOURCE</pattern>
+	<template><srai>SCHOLARLY SOURCE</srai></template></category>
+	<category><pattern>* SCHOLARLY SOURCES</pattern>
+	<template><srai>SCHOLARLY SOURCE</srai></template></category>
+
+</aiml>

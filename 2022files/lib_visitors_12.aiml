@@ -1,0 +1,535 @@
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Services for Visitors -->
+<!-- -->
+
+<category><pattern>ALUMNI LIBRARY</pattern>
+<template>Members of the UCI Alumni Association can check out books and have access to an online Alumni Research Database. Take a look at the <a href=" https://engage.alumni.uci.edu/s/membership-faq" target="_blank">UCI Alumni page</a> for more information. If you are not a member of the UCI Alumni Association, we have fee cards available. More information can be found on the <a href=" https://www.lib.uci.edu/get-library-card" target="_blank">Get a Library Card page</a>.</template></category>
+	<category><pattern>* ALUMNI LIBRARY</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>ALUMNI LIBRARY *</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>* ALUMNI LIBRARY *</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>ALUMNI LIBRARY ACCESS</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>* ALUMNI LIBRARY ACCESS</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>ALUMNI LIBRARY ACCESS *</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>* ALUMNI LIBRARY ACCESS *</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>CAN ALUMNI GET LIBRARY ACCESS</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>* CAN ALUMNI GET LIBRARY ACCESS</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>CAN ALUMNI GET LIBRARY ACCESS *</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>* CAN ALUMNI GET LIBRARY ACCESS *</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>ALUMNI SERVICE</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>* ALUMNI SERVICE</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>ALUMNI SERVICE *</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>* ALUMNI SERVICE *</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>ALUMNI SERVICES</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>* ALUMNI SERVICES</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>ALUMNI SERVICES *</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>* ALUMNI SERVICES *</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>CAN ALUMNI ACCESS LIBRARY DATABASES</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>* AN ALUMNI* CAN I BORROW BOOKS</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>ALUMNI CHECKOUT PRIVILEGES</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>* ALUMNI CARD</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>ALUMNI</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>ALUMNI ACCESS</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>* ALUMNI ACCESS ONLINE</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>DO ALUMNI GET FREE ACCESS</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>ALUMNI * FREE ACCESS</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>* ALUMNI * * ACCESS</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>* UNIVERSITY OF CALIFORNIA ALUMNI *</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>* USE LIBRARY AFTER GRADUATING</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>* LIBRARY * AFTER GRADUATION</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>* UCI ALUMNUS *</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>* ALUMNI HAVE LIBRARY *</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>I AM AN ALUMNI</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>DO ALUMNI NEED TO APPLY FOR A LIBRARY CARD</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>I AM AN ALUMNA OF UC IRVINE* DO I HAVE ACCESS TO YOUR ONLINE LIBRARY</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>I GRADUATED FROM UC IRVINE* HOW DO I ACCESS THE ONLINE LIBRARY</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>can alumni use databases</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>how do uci alumni get a library card</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>alumni access library</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	<category><pattern>can UC alumni access library services</pattern>
+	<template><srai>ALUMNI LIBRARY</srai></template></category>
+	
+<category><pattern>LIBRARIES OPEN TO THE PUBLIC</pattern>
+<template>As a publicly funded institution our libraries are open to the public. Take a look at our <a href=" https://www.lib.uci.edu/visit-libraries" target="_blank">Visit the Libraries</a> page for more information.</template></category>
+	<category><pattern>* LIBRARIES OPEN TO THE PUBLIC</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>LIBRARIES OPEN TO THE PUBLIC *</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>* LIBRARIES OPEN TO THE PUBLIC *</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>IS THE GATEWAY STUDY CENTER OPEN TO THE PUBLIC</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>STUDY CENTER OPEN TO PUBLIC</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>* UCI STUDENT*FACULTY ID IN ORDER TO ENTER THE LIBRARY</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>* STUDENT ID IN ORDER TO ENTER *</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>	
+	<category><pattern>I AM A STUDENT AT * CAN I USE THE LIBRARY *</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>	
+	<category><pattern>DO I NEED A CAMPUS ID TO GET INTO THE LIBRARIES</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>	
+	<category><pattern>* CAMPUS ID TO GET INTO THE LIBRARIES</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>	
+	<category><pattern>CAN I * EVEN IF I AM NOT A * STUDENT</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>	
+	<category><pattern>CAN I * EVEN IF I'M NOT A * STUDENT</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>	
+	<category><pattern>* NON-STUDENTS * THE LIBRARY</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>	
+	<category><pattern>ARE NON-* ABLE TO * THE LIBRARY</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>	
+	<category><pattern>DO I HAVE TO BE A UCI STUDENT TO VISIT THE LIBRARY</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>	
+	<category><pattern>DO * HAVE TO BE * TO * THE LIBRARY</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>* NOT A UC IRVINE STUDENT BUT CAN USE A COMPUTER IN THE LIBRARY</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>CAN I USE A COMPUTER IN THE LIBRARY</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>* NOT UC IRVINE STUDENT* CAN I STILL USE A COMPUTER IN THE LIBRARY</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>* VISIT THE LIBRARY *</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>VISIT THE LIBRARY</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>* VISIT THE LIBRARY</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>* NON*STUDENTS ACCESS</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>NON STUDENT ACCESS</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>CAN RETIREES ACCESS THE LIBRARY</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>CAN VISITORS VISIT LIBRARIES</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>COMMUNITY USER</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>I am an alumni* can I access the library</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>I am an alumni can I access the library</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>Can graduate access the library</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>i am not a student can i visit</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>Can I use city library card to access library</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>are visitors permitted in the UCI libraries</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>CAN A NON*STUDENT ACCESS THE LIBRARY DATA*BASE</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>I am not a student* Can I use the library</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>community visitors to the library</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>non*UCI visitors</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>Can non*students study at the library</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>can students from other ucs go to library</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>Are visitors allowed to study in the library</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>Visit library</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>Are libraries public access</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern>DOYOU HAVE TO BE ASTUDENT</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	<category><pattern> DO YOU HAVE TO BE A STUDENT</pattern>
+	<template><srai>LIBRARIES OPEN TO THE PUBLIC</srai></template></category>
+	
+<category><pattern>* UCI ALUMNI* MAY I SEARCH DATA BASES THROUGH THE LIBRARY</pattern>
+<template>If you are a member of the Alumni association you have access to Ebsco, see https://engage.alumni.uci.edu/s/membership for more information.</template></category>
+
+<category><pattern>PUBLIC ACCESS TO DATABASES</pattern>
+<template>Visitors to UCI and the UCI Libraries can use library databases while on the premises. Only access is only available to UCI affiliates.</template></category>
+
+<category><pattern>HOW CAN I GET ACCESS TO * IF I AM NOT A STUDENT</pattern>
+<template>For information on visitor access to library resources, see our <a href=" http://www.lib.uci.edu/suggestions-successful-visits" target="_blank">Suggestions for Success Visits</a> page.</template></category>
+	<category><pattern>HOW CAN I GET ACCESS TO * IF I'M NOT A STUDENT</pattern>
+	<template><srai>HOW CAN I GET ACCESS TO * IF I AM NOT A STUDENT</srai></template></category>
+
+<category><pattern>* SUMMER GROUP CAN OBTAIN LIBRARY USE</pattern>
+<template>That depends on what you are requesting...access, tours, instruction?</template></category>
+
+	<category><pattern>ACCESS</pattern>
+	<that>That depends on what you are requesting_</that>
+	<template>In-person visitors to the library have access to most of our online resources; to ask about library cards please contact one of our Check Out Desks: Science (949) 824-3692, Langson(949) 824-6842.</template></category>
+
+	<category><pattern>TOURS</pattern>
+	<that>That depends on what you are requesting_</that>
+	<template>We have self guided tours available here: https://www.lib.uci.edu/virtual-tour.</template></category>
+
+	<category><pattern>INSTRUCTION</pattern>
+	<that>That depends on what you are requesting_</that>
+	<template>Instruction requests can be submitted via this form: https://www.lib.uci.edu/instruction/request-workshop.</template></category>
+
+<category><pattern>CAN I USE THE LAW LIBRARY</pattern>
+<template>The Law Library is only open to members of the UCI Law community. Some exceptions do apply, take a look at the 
+<a href=" http://www.law.uci.edu/library/visitors/" target="_blank">visitor information</a> page for more details.</template></category>
+
+<category><pattern>VISIT THE LIBRARIES</pattern>
+<template>Our <a href=" http://www.lib.uci.edu/visit-libraries" target="_blank">Visiting the Library</a> page has some great information, such as a link to our hours, directions, and suggestions for successful visits!</template></category>
+	<category><pattern>* VISIT THE LIBRARIES</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>VISIT THE LIBRARIES *</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>* VISIT THE LIBRARIES *</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>VISITING THE LIBRARIES</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>* VISITING THE LIBRARIES</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>VISITING THE LIBRARIES *</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>* VISITING THE LIBRARIES *</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>VISITING THE LIBRARY</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>* VISITING THE LIBRARY</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>VISITING THE LIBRARY *</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>* VISITING THE LIBRARY *</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>USE THE LIBRARIES</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>* USE THE LIBRARIES</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>USE THE LIBRARIES *</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>* USE THE LIBRARIES *</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>USE THE LIBRARY</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>* USE THE LIBRARY</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>USE THE LIBRARY *</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>* USE THE LIBRARY *</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>USE THE UCI LIBRARIES</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>* USE THE UCI LIBRARIES</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>USE THE UCI LIBRARIES *</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>* USE THE UCI LIBRARIES *</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>USE THE UCI LIBRARY</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>* USE THE UCI LIBRARY</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>USE THE UCI LIBRARY *</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>* USE THE UCI LIBRARY *</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>		
+	<category><pattern>VISITING THE UCI LIBRARIES</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>* VISITING THE UCI LIBRARIES</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>VISITING THE UCI LIBRARIES *</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>* VISITING THE UCI LIBRARIES *</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>VISIT THE UCI LIBRARIES</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>* VISIT THE UCI LIBRARIES</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>VISIT THE UCI LIBRARIES *</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>* VISIT THE UCI LIBRARIES *</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>VISIT THE UCI LIBRARY</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>* VISIT THE UCI LIBRARY</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>VISIT THE UCI LIBRARY *</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>* VISIT THE UCI LIBRARY *</pattern>	
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>FOREIGN VISITORS</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>* FOREIGN VISITORS</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>FOREIGN VISITORS *</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>* FOREIGN VISITORS *</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>OPEN TO THE PUBLIC</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>* OPEN TO THE PUBLIC</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>OPEN TO THE PUBLIC *</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>* OPEN TO THE PUBLIC *</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>* OPEN TO NON*UCI STUDENTS</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>* OPEN TO GENERAL PUBLIC</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>* OPEN FOR NON STUDENT VISITORS</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>* ALUMNI HAVE ACCESS *</pattern> 
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>* GO TO THE UCI LIBRARY *</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>GUEST ACCESS</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>OPEN TO PUBLIC</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>* OPEN TO PUBLIC</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>OPEN TO PUBLIC *</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>* OPEN TO PUBLIC *</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>NON STUDENT</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>NOT A STUDENT</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>USE LIBRARY</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>* USE LIBRARY</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>USE LIBRARY *</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>* USE LIBRARY *</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>DO I NEED TO BE UCI STUDENT *</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>* VISIT THE LIBRARY</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>PUBLIC ACCESS</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>* PUBLIC ACCESS</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>PUBLIC ACCESS *</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>* PUBLIC ACCESS *</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>HOW TO OBTAIN LIBRARY ACCESS</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>* HOW TO OBTAIN LIBRARY ACCESS</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>HOW TO OBTAIN LIBRARY ACCESS *</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>* HOW TO OBTAIN LIBRARY ACCESS *</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>LIBRARY ACCESS</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>* LIBRARY ACCESS</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>LIBRARY ACCESS *</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>* LIBRARY ACCESS *</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>NON STUDENT</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>* NON STUDENT</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>NON STUDENT *</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>* NON STUDENT *</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>_FROM * UNIVERSITY</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>_* FROM * UNIVERSITY</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>_FROM * UNIVERSITY *</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>_* FROM * UNIVERSITY *</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>* NOT UCI STUDENT *</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>* NOT UCI STUDENT* *</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>VISITOR</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>uc students</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>guest</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>
+	<category><pattern>visitors</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	<category><pattern>is the library for students only</pattern>
+	<template><srai>VISIT THE LIBRARIES</srai></template></category>	
+	
+<category><pattern>ONLY OPEN TO UCI STUDENTS</pattern>
+<template>Anyone can visit the UCI Libraries! Our <a href=" http://www.lib.uci.edu/visit-libraries" target="_blank">Visiting the Library</a> page has some great information, such as a link to our hours, directions, and suggestions for successful visits!</template></category>
+	<category><pattern>* ONLY OPEN TO UCI STUDENTS</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>ONLY OPEN TO UCI STUDENTS *</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>* ONLY OPEN TO UCI STUDENTS *</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>LIBRARY ALLOWED STUDENTS FROM OTHER SCHOOLS</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>* LIBRARY ALLOWED STUDENTS FROM OTHER SCHOOLS</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>LIBRARY ALLOWED STUDENTS FROM OTHER SCHOOLS *</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>* LIBRARY ALLOWED STUDENTS FROM OTHER SCHOOLS *</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>WHO IS ALLOWED TO USE LIBRARY</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>* WHO IS ALLOWED TO USE LIBRARY</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>WHO IS ALLOWED TO USE LIBRARY *</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>* WHO IS ALLOWED TO USE LIBRARY *</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>LIBRARY USE RESTRICTIONS</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>* LIBRARY USE RESTRICTIONS</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>LIBRARY USE RESTRICTIONS *</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>* LIBRARY USE RESTRICTIONS *</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>LIBRARY BE USED BY STUDENTS FROM OTHER SCHOOLS</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>* LIBRARY BE USED BY STUDENTS FROM OTHER SCHOOLS</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>LIBRARY BE USED BY STUDENTS FROM OTHER SCHOOLS *</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>* LIBRARY BE USED BY STUDENTS FROM OTHER SCHOOLS *</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>NON UC STUDENTS LIBRARY USE</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>* NON UC STUDENTS LIBRARY USE</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>NON UC STUDENTS LIBRARY USE *</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>* NON UC STUDENTS LIBRARY USE *</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>NON UC STUDENTS USE LIBRARY</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>* NON UC STUDENTS USE LIBRARY</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>NON UC STUDENTS USE LIBRARY *</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>* NON UC STUDENTS USE LIBRARY *</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>* OPEN FOR PUBLIC</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>IS A STUDENT ID REQUIRED TO ENTER THE LIBRARY</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>* IS A STUDENT ID REQUIRED TO ENTER THE LIBRARY</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>IS A STUDENT ID REQUIRED TO ENTER THE LIBRARY *</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>* IS A STUDENT ID REQUIRED TO ENTER THE LIBRARY *</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>CAN A HIGH SCHOOLER STUDY IN THE LIBRARY</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>HOW DO YOU GAIN ENTRY TO THE LIBRARY</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>WHO HAS ACCESS TO THE LIBRARY*</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>WHO HAS ACCESS TO THE LIBRARY</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>* NON STUDENTS ALLOWED TO CHECK OUT BOOKS</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>* VISITORS CHECK OUT BOOKS</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>* LIBRARY OPEN FOR NON STUDENTS</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	<category><pattern>COMMUNITY</pattern>
+	<template><srai>ONLY OPEN TO UCI STUDENTS</srai></template></category>
+	
+<category><pattern>COMMUNITY USERS</pattern>
+<template>Sure I can help you out with that, find out more about our <a href=" https://www.lib.uci.edu/suggestions-successful-visits" target="_blank">Suggestions for Successful Visits</a>.</template></category>
+	<category><pattern>* COMMUNITY USERS</pattern>
+	<template><srai>COMMUNITY USERS</srai></template></category>
+	<category><pattern>COMMUNITY USERS *</pattern>
+	<template><srai>COMMUNITY USERS</srai></template></category>
+	<category><pattern>* COMMUNITY USERS *</pattern>
+	<template><srai>COMMUNITY USERS</srai></template></category>
+	<category><pattern>* VISITORS CHECK OUT BOOKS</pattern>
+	<template><srai>COMMUNITY USERS</srai></template></category>
+  
+<category><pattern>VISITOR SERVICES</pattern>
+<template>You might want to take a look at our <a href=" https://www.lib.uci.edu/visit-libraries" target="_blank">Visit the Libraries</a> page.</template></category>
+	<category><pattern>* VISITOR SERVICES</pattern>
+	<template><srai>VISITOR SERVICES</srai></template></category>
+	<category><pattern>VISITOR SERVICES *</pattern>
+	<template><srai>VISITOR SERVICES</srai></template></category>
+	<category><pattern>* VISITOR SERVICES *</pattern>
+	<template><srai>VISITOR SERVICES</srai></template></category>
+	<category><pattern>VISITOR ACCESS</pattern>
+	<template><srai>VISITOR SERVICES</srai></template></category>
+	<category><pattern>* VISITOR ACCESS</pattern>
+	<template><srai>VISITOR SERVICES</srai></template></category>
+	<category><pattern>VISITOR ACCESS *</pattern>
+	<template><srai>VISITOR SERVICES</srai></template></category>
+	<category><pattern>* VISITOR ACCESS *</pattern>
+	<template><srai>VISITOR SERVICES</srai></template></category>
+	<category><pattern>I AM NOT A STUDENT* CAN I USE THE LIBRARY</pattern>
+	<template><srai>VISITOR SERVICES</srai></template></category>
+	<category><pattern>CAN STUDENTS FROM * USE THE LIBRARY</pattern>
+	<template><srai>VISITOR SERVICES</srai></template></category>
+	<category><pattern>CAN * USE THE LIBRARY</pattern>
+	<template><srai>VISITOR SERVICES</srai></template></category>
+	<category><pattern>PUBLIC</pattern>
+	<template><srai>VISITOR SERVICES</srai></template></category>
+	<category><pattern>* LIBRARY OPEN TO THE GENERAL PUBLIC</pattern>
+	<template><srai>VISITOR SERVICES</srai></template></category>
+	<category><pattern>* LIBRARY OPEN TO PUBLIC</pattern> 
+	<template><srai>VISITOR SERVICES</srai></template></category>
+	<category><pattern>OPEN TO PUBLIC</pattern>
+	<template><srai>VISITOR SERVICES</srai></template></category>
+	<category><pattern>CAN GUEST USERS *</pattern>
+	<template><srai>VISITOR SERVICES</srai></template></category>
+	<category><pattern>CAN GUESTS *</pattern>
+	<template><srai>VISITOR SERVICES</srai></template></category>
+	<category><pattern>* CAN GUEST USERS *</pattern>
+	<template><srai>VISITOR SERVICES</srai></template></category>
+	<category><pattern>* CAN GUESTS *</pattern>
+	<template><srai>VISITOR SERVICES</srai></template></category>
+
+</aiml>	

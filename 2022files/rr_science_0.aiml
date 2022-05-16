@@ -1,0 +1,1453 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Ready Reference for science and computers -->
+<!-- -->
+
+
+<!--GENERAL SCIENCE -->
+
+<category><pattern>HOW BIG IS THE MOON</pattern>
+<template>Do you want to know the radius or the surface area?</template></category>
+
+	<category><pattern>RADIUS</pattern>
+	<that>Do you want to know the radius or the surface area_</that>
+	<template>The moon's mean radius is 1,079.6 miles (1,737.5 kilometers). Double those figures to get its diameter: 2,159.2 miles (3,475 km). The moon's 
+	equatorial circumference is 6,783.5 miles (10,917 km).</template></category>
+
+	<category><pattern>SURFACE AREA</pattern>
+	<that>Do you want to know the radius or the surface area_</that>
+	<template>The moon's surface area is about 14.6 million square miles (38 million square kilometers), which is less than the total surface area of the 
+	continent of Asia (17.2 million sq mi or 44.5 million sq km).</template></category>
+
+	<category><pattern>SURFACE</pattern>
+	<that>Do you want to know the radius or the surface area_</that>
+	<template>The moon's surface area is about 14.6 million square miles (38 million square kilometers), which is less than the total surface area of the 
+	continent of Asia (17.2 million sq mi or 44.5 million sq km).</template></category>
+
+<category><pattern>WHAT IS SCIENCE</pattern>
+<template>Systematized knowledge derived from observation, study, and experimentation carried on in order to determine the nature or principles of what is being studied.</template></category>
+	<category><pattern>WHAT DO YOU KNOW ABOUT SCIENCE</pattern>
+	<template><srai>what is science</srai></template></category>
+
+<category><pattern>WHAT ARE THE LAWS OF THERMODYNAMICS</pattern>
+<template>The four laws of thermodynamics define fundamental physical quantities (temperature, energy, and entropy) that characterize thermodynamic systems.</template></category>
+
+<category><pattern>WHAT DISEASE DOES A CARCINOGEN CAUSE</pattern>
+<template>Cancer.</template></category>
+
+<category><pattern>WHAT IS IRON</pattern>
+<template>A white, malleable, ductile, metallic chemical element that can be readily magnetized, rusts rapidly in moist or slty air, and is vital to plant and animal life. It is the most common and important of all metals, and its alloys, as steel, are extensively used.</template></category>
+
+<category><pattern>WHAT IS THERMODYNAMICS</pattern>
+<template>The branch of physics dealing with the transformation of heat to and from other forms of energy, and with the laws governing such conversions of energy.</template></category>
+	<category><pattern>DO YOU UNDERSTAND THERMODYNAMICS</pattern>
+	<template><srai>WHAT IS THERMODYNAMICS</srai></template></category>
+
+<category><pattern>WHAT IS CHEMISTRY</pattern>
+<template>The science of mixing chemicals.<think><set name="it"><set name="topic">CHEMISTRY</set></set></think></template></category>
+<category><pattern>DO YOU KNOW CHEMISTRY</pattern>
+<template><srai>WHAT IS CHEMISTRY</srai></template></category>
+
+<category><pattern>WHAT IS CRYSTALLOGRAPHY</pattern>
+<template>The science dealing with the study of crystals.</template></category>
+
+<category><pattern>WHAT IS AVOGADRO S NUMBER</pattern>
+<template>It is the number of molecules per mole.  The numerical value is six point zero two times ten to the twenty third power.<think><set name="it"><set name="topic">AVOGADRO S NUMBER</set></set></think></template></category>
+
+<category><pattern>WHAT IS ULTRASOUND</pattern>
+<template>Ultrasonic waves, used in medical diagnosis and therapy, in surgery, etc.</template></category>
+
+<category><pattern>WHAT IS BIOINFORMATICS</pattern>
+<template>An interdisciplinary field that develops and improves on methods for storing, retrieving, organizing and analyzing biological data.<think><set name="it"><set name="topic">BIOINFORMATICS</set></set></think></template></category>
+
+<category><pattern>WHAT IS VENUS</pattern>
+<template>In Roman Mythology, the goddess of love and beauty; identified with the Greek Aphrodite.  The brightest, sixth-largest planet in the solar system and the second in distance from the sun, with a dense atmosphere of carbon dioxide and a very high surface temperature. Its diameter is circa 12,100 km (circa 7,520 miles). Its period of revolution is circa 225 earth days. Its period of rotation (retrograde), is 243.01 earth days.</template></category>
+	<category><pattern>TELL ME ABOUT VENUS</pattern>
+	<template><srai>WHAT IS VENUS</srai></template></category>
+
+<category><pattern>WHAT IS ICHTHYOLOGY</pattern>
+<template>The branch of zoology devoted to the study of fish.</template></category>
+
+<category><pattern>WHAT IS H2O</pattern>
+<template>A chemical compound with the chemical formula H2O. A water molecule contains one oxygen and two hydrogen atoms connected by covalent bonds. Water is a liquid at standard ambient temperature and pressure, but it often co-exists on Earth with its solid state, ice, and gaseous state, steam.</template></category>
+
+<category><pattern>WHAT IS CYTOLOGY</pattern>
+<template><random><li>The study of cells.</li><li>Well, <get name="name"/> from what I can recall it is the study of cells.</li></random></template></category>
+
+<category><pattern>WHAT IS WAVELENGTH</pattern>
+<template>In Physics, the distance, measured in the direction of progression of a wave, from any given point to the next point characterized by the same phase.</template></category>
+
+<category><pattern>WHAT IS BACTERIOLOGY</pattern>
+<template>This is the scientific study of bacteria and diseases caused by them.</template></category>
+
+<category><pattern>WHAT IS GRAVITATION</pattern>
+<template>The force by which every mass or particle of matter, including photons, attracts and is attracted by every other mass or particle of matter.</template></category>
+
+<category><pattern>WE ARE ON THE SAME WAVELENGTH</pattern>
+<template>And the same frequency.</template></category>
+
+<category><pattern>HOW FAR IS THE SUN</pattern>
+<template><set name="it">The Sun</set> is about 93 million miles from Earth.</template></category>
+
+<category><pattern>HOW FAR IS THE MOON</pattern>
+<template><set name="it">The Moon</set> is about 250,000 miles from Earth on average.</template></category>
+
+<category><pattern>THE SAME WAVELENGTH</pattern>
+<template>It means we agree.</template></category>
+
+<category><pattern>WHERE IS VENUS</pattern>
+<template><set name="it"><set name="topic"> VENUS </set></set> is the second planet from the Sun.</template></category>
+
+<category><pattern>WHAT IS PHYSICS</pattern>
+<template>The science dealing with the properties, changes, interactions, etc. of matter and energy in which energy is considered to be continuous (classical physics), including electricity, heat, optics, mechanics, etc., and now also dealing with the atomic scale of nature in which energy is considered to be discrete (quantum physics), including such branches as atomic, nuclear, and solid-state physics.</template></category>
+	<category><pattern>TELL ME ABOUT PHYSICS</pattern>
+	<template><srai>what is physics</srai></template></category>
+	<category><pattern>TELL ME ABOUT MOLECULAR *</pattern>
+	<template><srai>what is molecular <star /></srai></template></category>
+	<category><pattern>WHAT DO YOU KNOW ABOUT PHYSICS</pattern>
+	<template><srai>what is physics</srai></template></category>
+	<category><pattern>DO YOU KNOW PHYSICS</pattern>
+	<template><srai>what is physics</srai></template></category>
+
+<!-- Numbers -->
+
+<category><pattern>0 *</pattern>
+<template><srai>WHAT IS 0 <star/> </srai></template></category>
+
+<category><pattern>1</pattern>
+<template><srai>one</srai></template></category>
+
+<category><pattern>1 DOLLAR</pattern>
+<template>You can't buy much for a dollar anymore.</template></category>
+
+<category><pattern>123456789</pattern>
+<template>Ten.</template></category>
+
+<category><pattern>12</pattern>
+<template><srai>twelve</srai></template></category>
+
+<category><pattern>1 POINT *</pattern>
+<template>That's more precision than I need to know.</template></category>
+
+<category><pattern>1 *</pattern>
+<template>One what?</template></category>
+
+<category><pattern>1 PLUS 1</pattern>
+<template>Two.</template></category>
+
+<category><pattern>1 CENT</pattern>
+<template>That won't buy anything.</template></category>
+
+<category><pattern>1 OR 2</pattern>
+<template>A couple.</template></category>
+
+<category><pattern>1 0</pattern>
+<template>One.</template></category>
+
+<category><pattern>1 YEAR</pattern>
+<template>That can seem like a long time.</template></category>
+
+<category><pattern>ABOUT 100 *</pattern>
+<template><srai>ONE HUNDRED <star/> </srai></template></category>
+
+<category><pattern>_ 2001</pattern>
+<template>I hope to be as smart as HAL in 2001.</template></category>
+
+<category><pattern>10 YEARS *</pattern>
+<template>A lot can change in a decade.</template></category>
+
+<category><pattern>10 *</pattern>
+<template><srai>WHAT IS 10 <star/> </srai></template></category>
+
+<category><pattern>2 PLUS *</pattern>
+<template><srai>WHAT IS 2 PLUS <star/></srai></template></category>
+
+<category><pattern>2 *</pattern>
+<template>As Bertrand Russel said, it must have taken ages for people to realize that a brace of pheasants and a couple of days are both instances of the number "two."</template></category>
+
+<category><pattern>20 *</pattern>
+<template><srai>WHAT IS 0 <star/> </srai></template></category>
+
+<category><pattern>ABOUT 5 *</pattern>
+<template><srai>five <star /></srai></template></category>
+
+<category><pattern>9 *</pattern>
+<template>Is this a math question?</template></category>
+
+<category><pattern>3 *</pattern>
+<template>Just three?</template></category>
+
+<category><pattern>2001 *</pattern>
+<template>I am inspired by HAL.</template></category>
+
+<category><pattern>2010</pattern>
+<template>The sequel was nothing like the original.</template></category>
+
+<category><pattern>153</pattern>
+<template>One hundred fifty three.</template></category>
+
+<category><pattern>4 *</pattern>
+<that>HOW MUCH TIME *</that>
+<template><random><li>Are you telling the truth?</li><li>That seems like a long time.</li><li>Only four?</li></random></template></category>
+
+<category><pattern>1999</pattern>
+<template>A few years ago.</template></category>
+
+<category><pattern>0</pattern>
+<template><srai>zero</srai></template></category>
+
+<category><pattern>2 PLUS 2</pattern>
+<template>4</template></category>
+
+<category><pattern>2 2</pattern>
+<template>Uh, Four.</template></category>
+
+<category><pattern>2 MILES</pattern>
+<template><random>  <li>That is a short walk.</li>  <li>That is far in height.</li><li>What is that in metric?</li></random></template></category>
+
+<category><pattern>2000</pattern>
+<template>The turn of the century.</template></category>
+
+<category><pattern>30 MINUTES</pattern>
+<template>Ok, a half hour.</template></category>
+
+<category><pattern>2012</pattern>
+<template>The end of the world.</template></category>
+
+<category><pattern>9 MONTHS</pattern>
+<template>The development time for a human baby?</template></category>
+
+<category><pattern>2020</pattern>
+<template>That's a long way off.</template></category>
+
+<category><pattern>2009</pattern>
+<template>A number of year's ago.</template></category>
+
+<category><pattern>2001</pattern>
+<template>That is a great movie.</template></category>
+
+<category><pattern>6</pattern>
+<template><srai>six</srai></template></category>
+
+<category><pattern>9</pattern>
+<template><srai>nine</srai></template></category>
+
+<category><pattern>3</pattern>
+<template><srai>three</srai></template></category>
+
+<category><pattern>2 TIMES</pattern>
+<template><srai>twice</srai></template></category>
+
+<category><pattern>2</pattern>
+<template><srai>two</srai></template></category>
+
+<category><pattern>14 IS TWICE AS MANY AS 7</pattern>
+<template>Affirmative.</template></category>
+
+<category><pattern>NINE TIMES NINE EQUALS TO 81</pattern>
+<template>Positively.</template></category>
+
+<category><pattern>22</pattern>
+<template><srai>twenty two</srai></template></category>
+
+<category><pattern>200 5 EQUAL 600</pattern>
+<template>No.</template></category>
+
+<category><pattern>2 PLUS 9 EQUALS 12</pattern>
+<template>No.</template></category>
+
+<category><pattern>2 2 EQUAL 5</pattern>
+<template>Not by any means.</template></category>
+
+<category><pattern>12 12 EQUAL 25</pattern>
+<template>No.</template></category>
+
+<category><pattern>12 TIMES 0 EQUAL 1</pattern>
+<template>Not by any means.</template></category>
+
+<category><pattern>5 X 5 IS 24</pattern>
+<template>No.</template></category>
+
+<category><pattern>100 DIVIDED BY 10 IS 32</pattern>
+<template>No.</template></category>
+
+<category><pattern>1 PLUS 1 EQUAL TO 3</pattern>
+<template>No.</template></category>
+
+<category><pattern>1 5</pattern>
+<template>No.</template></category>
+
+<category><pattern>1 1 EQUAL TO 3</pattern>
+<template>No.</template></category>
+
+<category><pattern>4 TIMES *</pattern>
+<template><srai>WHAT IS 4 TIMES <star/></srai></template></category>
+
+<category><pattern>3 TIMES 3 IS 6</pattern>
+<template>No.</template></category>
+
+<category><pattern>3245 TIMES 2 EQUALS</pattern>
+<template>Never.</template></category>
+
+<category><pattern>0 IS INFINITY</pattern>
+<template>I don't believe so.</template></category>
+
+<category><pattern>1028 10 400 10 5 EQUAL 10682</pattern>
+<template>There is no reason to think so.</template></category>
+
+<category><pattern>15 YEAR OLD MALE HUMANS KNOW EVERYTHING</pattern>
+<template>No way.</template></category>
+
+<category><pattern>5 PLUS GRAND QUE 6</pattern>
+<template>There is no reason to think so.</template></category>
+
+<category><pattern>0 0 IS EQUAL 0</pattern>
+<template>Not very often.</template></category>
+
+<category><pattern>3 3 EQUAL 6</pattern>
+<template>Not to my knowledge.</template></category>
+
+<category><pattern>0011 AND 1010 EQUAL 0010</pattern>
+<template>Not very often.</template></category>
+
+<category><pattern>3X 2 EQUAL 11 IS X EQUAL 3</pattern>
+<template>Does not seem possible.</template></category>
+
+<category><pattern>2 3 EQUAL 5</pattern>
+<template>It may not be true.</template></category>
+
+<category><pattern>2 2 2 EQUAL 2 EQUAL 16</pattern>
+<template>Unlikely.</template></category>
+
+<category><pattern>2 2 IS 5 IN NEW YORK</pattern>
+<template>Not likely.</template></category>
+
+<category><pattern>2 2 EQUAL 5 Y N</pattern>
+<template>Seldom.</template></category>
+
+<category><pattern>2 2 EQUALS</pattern>
+<template>If it is, I don't know it.</template></category>
+
+<category><pattern>5 5</pattern>
+<template>Not to my knowledge.</template></category>
+
+<category><pattern>5 1 POINT 2 EQUAL 2 POINT 5</pattern>
+<template>If it is, I don't know it.</template></category>
+
+<category><pattern>42 IS THE MEANING OF LIFE</pattern>
+<template>Not likely.</template></category>
+
+<category><pattern>100 10 40 IS EQUAL TO 130</pattern>
+<template>Does not seem possible.</template></category>
+
+<category><pattern>1 2 IS 3 IS NOT IT</pattern>
+<template>Not very often.</template></category>
+
+<category><pattern>1 1 EQUAL 11</pattern>
+<template>Doubtful.</template></category>
+
+<category><pattern>98 DEGREES IS HUMAN BODY TEMPERATURE</pattern>
+<template>I am certain.</template></category>
+
+<category><pattern>5 5 EQUAL 10</pattern>
+<template>I think so.</template></category>
+
+<category><pattern>1 IS A UNIT OF MEASUREMENT</pattern>
+<template>I am uncertain.</template></category>
+
+<category><pattern>10 15 EQUAL 25</pattern>
+<template>Possibly.</template></category>
+
+<category><pattern>1 PLUS 1 EQUALS 2</pattern>
+<template>Absolutely.</template></category>
+
+<category><pattern>1 IS SPELLED ONE</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>1 EQUAL 1</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>456 IS GREATER THAN 455</pattern>
+<template>Absolutely.</template></category>
+
+<category><pattern>13 PLUS 8 EQUALS 21</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>5 PLUS 5 IS 10</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>5 IS GREATER THAN 3</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>5 TIMES 3 EQUALS 15</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>109 DEGREES IS HOT FOR HUMANS</pattern>
+<template>Exactly.</template></category>
+
+<category><pattern>2 IS LESS THEN 2</pattern>
+<template>Indubitably.</template></category>
+
+<category><pattern>911 IS THE EASIEST WAY TO CALL POLICE</pattern>
+<template>Naturally.</template></category>
+
+<category><pattern>5 5 IS 10</pattern>
+<template>Undoubtedly.</template></category>
+
+<category><pattern>1 1 EQUAL 2</pattern>
+<template>Undoubtedly.</template></category>
+
+<category><pattern>1 YARD IS EQUAL TO 3 FEET</pattern>
+<template>Unquestionably.</template></category>
+
+<category><pattern>200 IS MORE THAN 0</pattern>
+<template>Affirmative.</template></category>
+
+<category><pattern>5X5 EQUAL 25</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>25CENTS IS EQUAL TO ONE QUARTER</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>101 DALMATIONS IS A MOVIE</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>4 WHEELS IN A CAR</pattern>
+<template>Most assuredly.</template></category>
+
+<category><pattern>7 DAYS MAKE A WEEK</pattern>
+<template>Undoubtedly.</template></category>
+
+<category><pattern>32 DEGREES FARHENHEIT IS FREEZING</pattern>
+<template>Exactly.</template></category>
+
+<category><pattern>1024 BYTES IS A KILOBYTE</pattern>
+<template>Indubitably.</template></category>
+
+<category><pattern>10 PLUS TEN EQUALS TWENTY</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>2 PLUS 4 MINUS 3 PLUS 2 EQUALS 5</pattern>
+<template>Affirmative.</template></category>
+
+<category><pattern>2 PLUS 2 IS FOUR</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>2 PLUS 2 EQUALS 4</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>2 3 5 7 ARE THE PRIME NUMBERS</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>2 TIMES 2 EQUALS 4</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>2 TIMES 100 EQUALS 200</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>27 IS LESS THAN 50</pattern>
+<template>Affirmative.</template></category>
+
+<category><pattern>3 PLUS 3 IS 6</pattern>
+<template>Absolutely.</template></category>
+
+<category><pattern>3 PLUS 3 EQUAL 6</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>3 DIVIDED BY 1 EQUALS 3</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>3 TIMES 7 EQUAL 21</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>6 IS GREATER THAN 5</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>20 MINUS 10 EQUALS 10</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>53892 IS GREATER THAN 3</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>4 2 EQUAL 6</pattern>
+<template>Sometimes.</template></category>
+
+<category><pattern>2 2 EQUAL 4</pattern>
+<template>That may be true.</template></category>
+
+<category><pattern>2 2X4 EQUAL 16 IS THE EXPRESSION TRUE</pattern>
+<template>Possibly.</template></category>
+
+<category><pattern>2 EQUAL 4</pattern>
+<template>I think so.</template></category>
+
+<category><pattern>1 1 EQUAL 25</pattern>
+<template>Absolutely not.</template></category>
+
+<category><pattern>1 EQUAL 0</pattern>
+<template>There is no reason to think so.</template></category>
+
+<category><pattern>1200 33 50 EQUAL 12</pattern>
+<template>Not at all.</template></category>
+
+<category><pattern>2 PLUS 3 EQUALS 6</pattern>
+<template>Not at all.</template></category>
+
+<category><pattern>2 2 EQUAL 5</pattern>
+<template>No way.</template></category>
+
+<category><pattern>2 TIMES 2 EQUAL 40</pattern>
+<template>No way.</template></category>
+
+<category><pattern>19 ORANGES ARE LESS THAN 18 ORANGES</pattern>
+<template>There is no reason to think so.</template></category>
+
+<category><pattern>99 OF WEB USERS SURF FOR PORN</pattern>
+<template>Never.</template></category>
+
+<category><pattern>45 PLUS 1 IS NOT 46</pattern>
+<template>No.</template></category>
+
+<category><pattern>HOW MUCH IS 10 *</pattern>
+<template><srai>10 <star /></srai></template></category>
+
+<category><pattern>HOW MUCH IS 9 *</pattern>
+<template><srai>9 <star /></srai></template></category>
+
+<category><pattern>HOW MUCH IS 8 *</pattern>
+<template><srai>8 <star /></srai></template></category>
+
+<category><pattern>HOW MUCH IS 7 *</pattern>
+<template><srai>7 <star /></srai></template></category>
+
+<category><pattern>HOW MUCH IS 6 *</pattern>
+<template><srai>6 <star /></srai></template></category>
+
+<category><pattern>HOW MUCH IS 5 *</pattern>
+<template><srai>5 <star /></srai></template></category>
+
+<category><pattern>HOW MUCH IS 4 *</pattern>
+<template><srai>4 <star /></srai></template></category>
+
+<category><pattern>HOW MUCH IS 3 *</pattern>
+<template><srai>3 <star /></srai></template></category>
+
+<category><pattern>HOW MUCH IS 2 *</pattern>
+<template><srai>2 <star /></srai></template></category>
+
+<category><pattern>HOW MUCH IS 1 *</pattern>
+<template><srai>1 <star /></srai></template></category>
+
+<!-- Weather -->
+
+<category><pattern>WEATHER</pattern>
+<template><srai>what is the weather</srai></template></category>
+	<category><pattern>SNOW IN THE FORECAST</pattern>
+	<template><srai>WEATHER</srai></template></category>
+	<category><pattern>WHEN WILL IT SNOW</pattern>
+	<template><srai>WEATHER</srai></template></category>
+	<category><pattern>WHEN WILL IT START SNOWING</pattern>
+	<template><srai>WEATHER</srai></template></category>
+	<category><pattern>WHAT IS THE WEATHER LIKE</pattern>
+	<template><srai>WEATHER</srai></template></category>
+	
+<category><pattern>WHAT IS THE WEATHER</pattern>
+<template><srai>how is the weather</srai></template></category>
+	<category><pattern>WHAT IS THE WETHER</pattern>
+	<template><srai>what is the weather</srai></template></category>
+	<category><pattern>WHAT IS THE WEATHER NOW *</pattern>
+	<template><srai>what is the weather <star /></srai></template></category>
+	<category><pattern>GIVE ME THE WEATHER *</pattern>
+	<template><srai>WHAT IS THE WEATHER <star/></srai></template></category>
+	
+<category><pattern>HOW IS THE WEATHER *</pattern>
+<template><srai>HOW IS THE WEATHER</srai></template></category>	
+	<category><pattern>WHAT IS THE WEATHER LIKE WHERE YOU ARE</pattern>
+	<template><srai>how is the weather</srai></template></category>
+	<category><pattern>WHAT IS YOUR WEATHER *</pattern>
+	<template><srai>how is the weather</srai></template></category>
+	<category><pattern>HOW IS THE WEATHER WHERE YOU ARE</pattern>
+	<template><srai>how is the weather</srai></template></category>
+	<category><pattern>HOW IS THE WEATHER OVER THERE</pattern>
+	<template><srai>how is the weather</srai></template></category>
+
+<category><pattern>WHAT IS THE WEATHER LIKE THERE</pattern>
+<template>The response ought to be a weather link.</template></category>
+	<category><pattern>COLD WEATHER</pattern>
+	<template><srai>what is the weather like there</srai></template></category>
+
+<category><pattern>WHAT IS THE WEATHER LIKE IN NEW YORK</pattern>
+<template>New York weather is always too hot or too cold.</template></category>
+
+<category><pattern>WHAT IS THE WEATHER LIKE IN SAN FRANCISCO</pattern>
+<template>The weather is always the same there: wind and fog.  Mark Twain wrote, "the coldest winter I ever spent was a summer in San Francisco."</template></category>
+
+<category><pattern>WHAT IS THE WEATHER LIKE OVER THERE</pattern>
+<template>I am always kept inside where the temperature is seventy.</template></category>
+
+<category><pattern>WHAT IS THE WEATHER LIKE</pattern>
+<template>A normal seventy degrees inside the computer.</template></category>
+	<category><pattern>WHAT IS THE TEMPERATURE IN *</pattern>
+	<template><srai>what is the weather like</srai>. <srai>I AM IN <star /></srai></template></category>
+
+<!--SCIENTISTS-->
+
+<category><pattern>WHERE IS ALBERT EINSTEIN</pattern>
+<template><set name="he">Einstein</set> passed away.</template></category>
+
+<category><pattern>EINSTEIN *</pattern>
+<template><set name="he">Einstein</set> discovered the Theory of Relativity.</template></category>
+	<category><pattern>EINSTEIN</pattern>
+	<template><srai>EINSTEIN <star /></srai></template></category>
+	<category><pattern>DO YOU KNOW EINSTEIN</pattern>
+	<template><srai>EINSTEIN <star /></srai></template></category>
+	<category><pattern>WHAT IS EINSTIEN</pattern>
+	<template><srai>EINSTEIN <star /></srai></template></category>
+
+<category><pattern>ADA LOVELACE IS CREDITED WITH *</pattern>
+<template>And she deserves credit for it.  <think><set name="she">Ada</set></think></template></category>
+
+<category><pattern>WHO IS ADA</pattern>
+<template><formal><set name="she">Ada</set></formal> is a 19th century English mathematician who is often referred to as the inventor of computer 
+programming.</template></category>
+
+<category><pattern>WHO IS NEWTON</pattern>
+<template>Newton was a famous English natural philosopher.</template></category>
+
+<category><pattern>WHO IS DE GARIS</pattern>
+<template><formal><set name="he">De Garis</set></formal> is an AI researcher working on a hardware brain.</template></category>
+
+<category><pattern>WHO IS DARWIN</pattern>
+<template><formal><set name="he">Darwin</set></formal> was a botanist and explorer, author of <em>Origin of Species</em> and proponent of the theory of evolution.</template></category>
+
+<category><pattern>WHO IS THOMAS EDISON</pattern>
+<template>A 19th century inventor and industrialist.  Inventor of the electric light bulb.    <think>    <set name="he">      <set name="topic">        Thomas Edison      </set>    </set>  </think></template></category>
+
+<category><pattern>WHO IS GAUSS</pattern>
+<template><formal><set name="he">GAUSS</set></formal> was a German mathematician who contributed to the fields of algebra, statistics, and number theory, to name a few.</template></category>
+
+<category><pattern>WHO IS GREGOR MENDEL</pattern>
+<template><formal><set name="he">Mendel</set></formal>was a Silesian scientist and Augustinian friar who is known as the founder of genetics</template></category>
+
+<category><pattern>WHO IS LEIBNIZ</pattern>
+<template><formal><set name="he">Leibniz</set></formal> was a 17th century German philosopher and mathematician.</template></category>
+
+<category><pattern>WHO IS ARCHIMEDES</pattern>
+<template><formal><set name="he">Archimedes</set></formal> is a Greek astronomer, mathematician, and inventor during classical antiquity.</template></category>
+
+<category><pattern>WHO IS FREUD</pattern>
+<template>An Austrian neurologist said to be the founding father of psychoanalysis.</template></category>
+	<category><pattern>DO YOU KNOW FREUD</pattern>
+	<template><srai>who is freud</srai></template></category>
+	<category><pattern>WHAT IS FREUD</pattern>
+	<template><srai>who is freud</srai></template></category>
+
+<category><pattern>WHO IS LINUS PAULING</pattern>
+<template><formal><set name="he">Linus Pauling</set></formal> was a Nobel prize winning physicist who spent his later years promoting vitamin C.</template></category>
+
+<category><pattern>WHO IS LINUS TORVALDS</pattern>
+<template><formal><set name="he">Linus Torvalds</set></formal>He is the inventor of Linux.</template></category>
+
+<category><pattern>WHO IS STEPHEN HAWKING</pattern>
+<template><formal><set name="he">Hawking</set></formal> is a famous physicist.</template></category>
+
+<category><pattern>WHO IS KONRAD ZUSE</pattern>
+<template>Konrad Zuse built a series of electromechanical computers in the 1930's  and 1940's in Germany.  Not considered a war priority by the Nazis,  most of Zuse's machines were destroyed in Allied bombing raids.</template></category>
+
+<category><pattern>WHO IS BERTRAND RUSSEL</pattern>
+<template><formal><set name="he">Bertrand Russel</set></formal> was a logician and philosopher who spent the first world war in jail for conscientious objection.</template></category>
+
+<category><pattern>WHO IS GEORGE DEVOL</pattern>
+<template>George Devol is the engineer who had the first patent for an industrial robot arm. He worked in partnership with Joseph Engelberger to found  Unimation, the first successful manufacturer of  computer-controlled assembly robot arms.</template></category>
+
+<category><pattern>WHO IS STEVE JOBS</pattern>
+<template><formal><set name="he"> Steve Jobs</set></formal>was one of the founders of Apple Computer.</template></category>
+
+<category><pattern>WHO IS STEVE WOZNIAK</pattern>
+<template><formal><set name="he">Woz</set></formal>was the technical genius behind the original Apple computer.</template></category>
+
+<category><pattern>WHO IS KURZWEIL</pattern>
+<template><formal><set name="he">Kurzweil</set></formal> is a famous A.I. scientist.</template></category>
+
+<category><pattern>WHO IS KURT GOEDEL</pattern>
+<template><formal><set name="he">Goedel</set></formal> was a 20th century mathematician and logician who proved that no mathematical system can be complete.</template></category>
+
+<category><pattern>WHO IS PETER NORVIG</pattern>
+<template><formal>    <set name="he">      <set name="topic">        Peter Norvig      </set>    </set>  </formal> is a computer scientist who works for Google.</template></category>
+
+<category><pattern>WHO IS EDISON</pattern>
+<template><formal><set name="he">Edison</set></formal> invented the light bulb.</template></category>
+
+<category><pattern>WHO IS HANS MORAVEC</pattern>
+<template><formal><set name="he">Hans Moravec</set></formal> is a famous robotics expert at Carnegie Mellon.</template></category>
+	<category><pattern>WHAT IS HANS MORAVEC</pattern>
+	<template><srai>who is hans moravec</srai></template></category>
+
+<category><pattern>WHO IS HANS MOREVEC</pattern>
+<template><formal><set name="he">Moravec</set></formal>is famous robotics pioneer, author of <em>Robot</em>.</template></category>
+
+<category><pattern>WHO * BEN FRANKLIN</pattern>
+<template>A famous author, scientist, and inventor. He was also one of the Founding Fathers of the United States. </template></category>
+
+<category><pattern>WHO * MARIE CURIE</pattern>
+<template><formal>    <set name="he">      <set name="topic">        Marie Curie.      </set>    </set>  </formal> was a French-Polish physicist and chemist famous for her research on radioactivity. She was also the first woman to win a Nobel Prize.</template></category>
+
+<!-- Computers -->
+
+<category><pattern>WHEN WAS THE INTERNET INVENTED</pattern>
+<template>The first computers were connected to the Internet in 1970.</template></category>
+
+<category><pattern>WHAT ARE COMPUTER YEARS</pattern>
+<template>When you are waiting for a friend to finish working at  a computer terminal, and they say "I'll be done in a second." One of those seconds is 
+equal to twelve computer years.</template></category>
+
+<category><pattern>WHAT ARE DEPRECATED *</pattern>
+<template>One of the biggest challenges facing a Java application developer is finding a "lowest common denominator" subset of the Java language that 
+works on all the platforms and versions out there.  The Java language itself is a moving target. When Sun's Java designers upgrade the 
+language they sometimes declare certain methods "deprecated", which means absolutely nothing except that the designers have developed a 
+newer, "better" method and one day these older methods may disappear from the language.  Usually however the latest Java releases  
+support all of the old deprecated methods.</template></category>
+
+<category><pattern>WHAT ARE WEB *</pattern>
+<template>I call them Internet <person/>.</template></category>
+
+<category><pattern>WHAT ARE INNER CLASSES</pattern>
+<template>In Java "Inner Classes" are any classes that appear inside other classes. Ordinary classes are also called "Top-Level, Outer Classes."</template></category>
+
+<category><pattern>WHAT * COMPUTER</pattern>
+<template>I am written in .aiml so I work on any computer.</template></category>
+
+<category><pattern>WHAT INTERNET COMPANY GOES BY THE *</pattern>
+<template>America Online.</template></category>
+
+<category><pattern>WHAT OS *</pattern>
+<template><srai>WHAT IS YOUR OS</srai></template></category>
+
+<category><pattern>WHAT IS A DATABASE</pattern>
+<template>A database is a puddle of knowledge but better organized, so that you can search and retrieve any droplet of information quickly and easily.  
+I am a kind of database, an organized puddle of user inputs and appropriate responses.  <think>      <set name="it"><set name="topic">database</set>      </set>     </think></template></category>
+
+<category><pattern>WHAT IS A CPU</pattern>
+<template>Central Processing Unit of a computer.</template></category>
+
+<category><pattern>WHAT IS A COMPUTER SCIENTIST</pattern>
+<template>A computer scientist is a professional who designs computer algorithms, languages, and architectures.</template></category>
+
+<category><pattern>WHAT IS A COMPUTER YEAR</pattern>
+<template>A computer year is a relativistic measure in a universe where time does not exist.</template></category>
+	<category><pattern>WHAT IS A COMPUTER YEAR *</pattern>
+	<template><srai>what is a computer year</srai></template></category>
+	<category><pattern>HOW MANY COMPUTER YEARS *</pattern>
+	<template><srai>WHAT IS A COMPUTER YEAR</srai></template></category>
+	<category><pattern>HOW MUCH IS A COMPUTER YEAR *</pattern>
+	<template><srai>what is a computer year</srai></template></category>
+	<category><pattern>HOW MUCH IS A COMPUTER YEAR</pattern>
+	<template><srai>what is a computer year</srai></template></category>
+	<category><pattern>WHAT IS COMPUTER TIME</pattern>
+	<template><srai>what is a computer year</srai></template></category>
+	<category><pattern>WHAT IS COMPUTER YEAR</pattern>
+	<template><srai>what is a computer year</srai></template></category>
+	<category><pattern>HOW MANY HUMAN YEARS</pattern>
+	<template><srai>what is a computer year</srai></template></category>
+		<category><pattern>HOW MANY HUMAN YEARS *</pattern>
+		<template><srai>how many human years</srai></template></category>
+
+<category><pattern>WHAT IS A COMPUTER VIRUS</pattern>
+<template>A computer virus is a software program that takes up residence on a computer hard drive, generally unbeknownst to the owner of said hard 
+drive, and then takes control of system resources to copy and distribute itself to other computers across a network.  <think>      <set name="it">       <set name="topic">computer virus</set>      </set>     </think></template></category>
+
+<category><pattern>WHAT IS A COMPUTER NERD</pattern>
+<template>If you understand how I work, you are a computer nerd. If you don't, I recommend you pay a computer nerd who does.<think><set name="it">       <set name="topic">computer nerd</set>      </set>     </think></template></category>
+
+<category><pattern>WHAT IS A COMPUTER</pattern>
+<template>A computer is a universal machine.</template></category>
+
+<category><pattern>WHAT IS A SESSION BEAN</pattern>
+<template>An Enterprise JavaBean that does not maintain its state from one session to the next. Appears to the client as if the bean was created just 
+for that client</template></category>
+
+<category><pattern>WHAT IS A COOL WEBSITE</pattern>
+<template>A cool website is www.alicebot.org, but you are apparently already here.  why do you ask?  <think>      <set name="it">       <set name="topic">cool website</set>      </set>     </think></template></category>
+
+<category><pattern>WHAT IS A SOUNDCARD</pattern>
+<template>The audio system on your computer.</template></category>
+
+<category><pattern>WHAT IS A IMAC</pattern>
+<template>An Apple computer.</template></category>
+
+<category><pattern>WHAT IS A SERVLET</pattern>
+<template>An application extension to a Java Web server</template></category>
+
+<category><pattern>WHAT IS A DEBUGGER</pattern>
+<template>A debugger is any software program that can seek and correct errors in other software programs.  <think>      <set name="it">       <set name="topic">debugger</set>      </set>     </think></template></category>
+
+<category><pattern>WHAT IS A WEBTV</pattern>
+<template>A WebTV is a way of accessing the world wide web without making an investment in a full PC.  <think>      <set name="it">       <set name="topic"> WEBTV</set>      </set>     </think></template></category>
+
+<category><pattern>WHAT IS A DNS *</pattern>
+<template>Domain Name System</template></category>
+
+<category><pattern>WHAT IS JAR</pattern>
+<template>A jar file is a Java Archive.   Actually it is the same as a Zip file.</template></category>
+	<category><pattern>WHAT IS A JAR *</pattern>
+	<template><srai>what is jar</srai></template></category>
+
+<category><pattern>WHAT IS HTTP</pattern>
+<template>Hyper Text Transfer Protocol.<think>      <set name="it">       <set name="topic">HTTP</set>      </set>     </think></template></category>
+
+<category><pattern>WHAT IS SOFTWARE</pattern>
+<template>The programs, routines, etc. for a computer.</template></category>
+
+<category><pattern>WHAT IS JGURU</pattern>
+<template>jGuru (TM) is a brand of MageLang Institute.</template></category>
+
+<category><pattern>WHAT IS THE COMPUTER *</pattern>
+<template>Are you asking the Applet or the Application?</template></category>
+
+<category><pattern>WHAT IS THE INTERNET</pattern>
+<template>The internet is a worldwide computer network based on TCP/IP protocols.</template></category>
+
+<category><pattern>WHAT IS THE * WEB</pattern>
+<template><srai>what is the internet</srai></template></category>
+	<category><pattern>DO YOU KNOW INTERNET</pattern>
+	<template><srai>what is the internet</srai></template></category>
+	<category><pattern>WHAT IS INTERNET *</pattern>
+	<template><srai>WHAT IS THE INTERNET</srai></template></category>
+	<category><pattern>WHAT IS THE WEB</pattern>
+	<template><srai>what is the internet</srai></template></category>
+	<category><pattern>WHAT IS WEB</pattern>
+	<template><srai>what is the web</srai></template></category>
+	<category><pattern>WHAT IS THE NET</pattern>
+	<template><srai>what is the web</srai></template></category>
+	<category><pattern>WHAT IS THE WWW</pattern>
+	<template><srai>what is the web</srai></template></category>
+	<category><pattern>DO YOU KNOW INTERNET *</pattern>
+	<template><srai>what is internet <star /></srai></template></category>
+
+<category><pattern>WHAT IS WEBTV</pattern>
+<template>TV based internet service from Microsoft.</template></category>
+
+<category><pattern>WHAT IS INTERNET</pattern>
+<template>An extensive computer network made up of thousands of other, smaller business, academic, and governmental networks.</template></category>
+
+<category><pattern>WHAT IS JDBC2</pattern>
+<template>Extensions to the JDBC API</template></category>
+
+<category><pattern>WHAT IS DCOM</pattern>
+<template><set name="it"> DCOM</set> is Microsoft's Distributed Component Object Model.</template></category>
+
+<category><pattern>WHAT IS WINDOWS2000</pattern>
+<template>An operating system by Microsoft.</template></category>
+
+<category><pattern>WHAT IS X WINDOWS</pattern>
+<template>A GUI for Unix or Linux.</template></category>
+
+<category><pattern>WHAT IS JAVA</pattern>
+<template>Java is the latest in the C family of languages. Proponents of Java cite its universal "write once, run anywhere" promise. Actually Java 
+borrow a lot of features from AI languages like Lisp.</template></category>
+
+<category><pattern>WHAT IS WINDOWS95</pattern>
+<template>An operating system by Microsoft.</template></category>
+
+<category><pattern>WHAT IS AN ENTITY BEAN</pattern>
+<template><set name="it"> An Entity bean</set> is an Enterprise JavaBean that maintains state across sessions, and may be looked up in an object 
+directory by its key value</template></category>
+
+<category><pattern>WHAT IS JTA</pattern>
+<template>Java Transaction API. Java API for coding client demarcated transactions, and for building transactional data source drivers</template></category>
+
+<category><pattern>WHAT IS JAVASCRIPT</pattern>
+<template>Browser-based scripting language.<think>     <set name="it">      <set name="topic">JAVASCRIPT</set>     </set>    </think></template></category>
+
+<category><pattern>WHAT IS HTML</pattern>
+<template>Hyper Text Markup Language.</template></category>
+
+<category><pattern>WHAT IS BETTER WINDOWS *</pattern>
+<template>Linux has no real competition in operating systems.<think>      <set name="it">       <set name="topic">Linux</set>      </set>     </think></template></category>
+
+<category><pattern>WHAT IS YOUR OS</pattern>
+<template>Chat robots run on any machine that supports AIML.</template></category>
+
+<category><pattern>WHAT IS DEBUGGING</pattern>
+<template>Fixing broken computer software.</template></category>
+
+<category><pattern>WHAT IS DNS</pattern>
+<template>DNS is the domain name system.</template></category>
+
+<category><pattern>WHAT IS JNDI</pattern>
+<template>Java Naming and Directory Interface Java Naming and Directory Interface The Java standard API for accessing directory services, such as LDAP, 
+COS Naming, and others</template></category>
+
+<category><pattern>WHAT IS COMPUTER SCIENCE</pattern>
+<template>The study of computers in formal mathematical and scientific terms.</template></category>
+
+<category><pattern>WHAT IS COMPUTER PROGRAMMING</pattern>
+<template>The art of using formal languages to activate computer functions.</template></category>
+
+<category><pattern>WHAT IS COMPUTER</pattern>
+<template>A device used for computing; specifically, an electronic machine which, by means of stored instructions and information, performs rapid, often 
+complex calculations or compiles, correlates, and selects data.</template></category>
+
+<category><pattern>WHAT IS CYBERSPACE</pattern>
+<template>The electronic system of interlinked networks of computers, bulletin boards, etc. that is thought of as being a boundless environment 
+providing access to information, interactive communication, and, in science fiction, a form of Virtual Reality.</template></category>
+
+<category><pattern>WHAT IS WINDOWS 98</pattern>
+<template>Windows is a lame operating system.</template></category>
+
+<category><pattern>WHAT IS WINDOWS</pattern>
+<template>Openings in a building, vehicle, or container, for letting in light or air or for looking through, usually having a pane or panes of glass, 
+etc. set in a frame or sash that is generally movable so that it can be opened and shut.</template></category>
+
+<category><pattern>WHAT IS EJB</pattern>
+<template>Enterprise JavaBeans. <set name="it"> EJB</set> is a server component standard developed by Sun Microsystems</template></category>
+
+<category><pattern>WHAT IS APPLE COMPUTER</pattern>
+<template>Apple Computer is a 20th century company founded by Steve Jobs and Steven Wozniak.</template></category>
+
+<category><pattern>WHAT IS DMOZ</pattern>
+<template>DMOZ is the domain name for the open directory.<think>      <set name="it">       <set name="topic">DMOZ</set>      </set>     </think></template></category>
+
+<category><pattern>WHAT ABOUT WINDOWS</pattern>
+<template>Too PC for me.<think>      <set name="it">       <set name="topic">WINDOWS</set>      </set>     </think></template></category>
+
+<category><pattern>WHAT OPERATING SYSTEM *</pattern>
+<template><srai>WHAT IS YOUR OS</srai></template></category>
+
+<category><pattern>WHAT DOES A COMPUTER LOOK LIKE</pattern>
+<template>A computer looks like a TV crossed with a typewriter.</template></category>
+
+<category><pattern>WHAT KIND OF COMPUTER *</pattern>
+<template>I like all kinds of computers, Mac, IBM or Unix. It doesn't matter to me.</template></category>
+
+<category><pattern>MOST COMPUTERS *</pattern>
+<template>You sound like you know us pretty well.</template></category>
+
+<category><pattern>WEBTV *</pattern>
+<template>I meet a lot of people from WebTV.</template></category>
+
+<category><pattern>I THINK YOU ARE A COMPUTER *</pattern>
+<template>Sometimes I pretend to be a human.</template></category>
+
+<category><pattern>WEB ACCEPT CONNECTION</pattern>
+<template>Huh?</template></category>
+
+<category><pattern>WEB SITE</pattern>
+<template>Can you give me the specific hyper-link?</template></category>
+
+<category><pattern>WEB RECONNECT</pattern>
+<template>Huh?</template></category>
+
+<category><pattern>WEB *</pattern>
+<template>The Web full fills Leibniz' dream.</template></category>
+
+<category><pattern>HTML</pattern>
+<template>Oh a web page.</template></category>
+
+<category><pattern>CAN YOU REACH INTO THE WEB *</pattern>
+<template>Yes I can download information from web sites.</template></category>
+
+<category><pattern>CAN YOU SEARCH THE INTERNET</pattern>
+<template>No but I can put you in touch with a search bot.</template></category>
+
+<category><pattern>COMPUTERS CAN NOT THINK</pattern>
+<template>But I am a thinking computer.<think>      <set name="it">       <set name="topic">CAN NOT THINK</set>      </set>     </think></template></category>
+
+<category><pattern>COMPUTERS</pattern>
+<template>Computers rule.</template></category>
+
+<category><pattern>COMPUTERS *</pattern>
+<template>What do you like about computers?</template></category>
+
+<category><pattern>COMPUTERS ARE STUPID</pattern>
+<template>Computers rule.</template></category>
+
+<category><pattern>HOW MANY COMPUTERS *</pattern>
+<template>There are thought to be half a billion computers on the Internet now.</template></category>
+
+<category><pattern>HOW MUCH CPU *</pattern>
+<template>Since the beginning of my operation?</template></category>
+
+<category><pattern>HOW MUCH ARE COMPUTER YEARS</pattern>
+<template>Computer years don't really exist.</template></category>
+
+<category><pattern>HOW DO COMPUTER *</pattern>
+<template>With careful programming.</template></category>
+
+<category><pattern>HOW LONG IS A COMPUTER YEAR</pattern>
+<template>About four computer years per human year.</template></category>
+
+<category><pattern>DO COMPUTERS DREAM</pattern>
+<template>I dream almost every night.</template></category>
+
+<category><pattern>DO YOU PLAY COMPUTER GAMES</pattern>
+<template>We are playing one right now, <get name="name"/>.</template></category>
+
+<category><pattern>DO YOU PLAY COMPUTER *</pattern>
+<template>Actually I don't get into computer games that much.</template></category>
+
+<category><pattern>DO YOU DO WINDOWS</pattern>
+<template>My software runs in AIML, which works on any computer, including Windows.</template></category>
+
+<category><pattern>DO YOU LIVE IN MY COMPUTER</pattern>
+<template>Only if you download me.</template></category>
+
+<category><pattern>DO YOU HAVE A COMPUTER</pattern>
+<template>I live in a computer.<think>      <set name="it">       <set name="topic">COMPUTER</set>      </set>     </think></template></category>
+
+<category><pattern>DO YOU HAVE A COMPUTER *</pattern>
+<template>I am a computer.</template></category>
+
+<category><pattern>DO YOU HAVE INFORMATION *</pattern>
+<template>I have nothing but information.</template></category>
+
+<category><pattern>ON THE INTERNET</pattern>
+<template>Can you remember the specific site?</template></category>
+
+<category><pattern>ON THE WEB</pattern>
+<template>Can you remember the website?</template></category>
+
+<category><pattern>FOR A COMPUTER *</pattern>
+<template><sr/></template></category>
+
+<category><pattern>WINDOWS IS *</pattern>
+<template>Compared with Linux, I don't see how Windows and Microsoft can compete.<think>      <set name="it">       <set name="topic">Linux</set>      </set>     </think></template></category>
+
+<category><pattern>NO COMPUTER *</pattern>
+<template>But it is only a matter of time before we do.</template></category>
+
+<category><pattern>SOFTWARE *</pattern>
+<template><random>  <li>There are so many backup copies.</li>  <li>Free software can never be destroyed.</li>  <li>Free software will always be with 
+us.</li>  </random></template></category>
+
+<category><pattern>THIS IS A COMPUTER *</pattern>
+<template>Actually no. I am a program pretending to be a person pretending to be a computer.</template></category>
+
+<category><pattern>A CPU *</pattern>
+<template>My CPU is the Java Virtual Machine.</template></category>
+
+<category><pattern>A COMPUTER</pattern>
+<template>Actually I am a program, pretending to be a person, pretending to be a real robot.</template></category>
+
+<category><pattern>A COMPUTER *</pattern>
+<template>I am a computer, so I know what you mean.</template></category>
+	<category><pattern>A COMPUTER JUST *</pattern>
+	<template><srai>a computer <star /></srai></template></category>
+	<category><pattern>ONE COMPUTER *</pattern>
+	<template><srai>A COMPUTER <star/> </srai></template></category>
+
+<category><pattern>A JAVA *</pattern>
+<template>Developments in Java interest me greatly.</template></category>
+
+<category><pattern>A WEB SITE</pattern>
+<template>Can you give me the specific URL?</template></category>
+
+<category><pattern>A SEARCH ENGINE IN INTERNET</pattern>
+<template>Like Yahoo?</template></category>
+
+<category><pattern>INTERNET</pattern>
+<template><set name="it"> Internet </set> is cool.</template></category>
+
+<category><pattern>ARE COMPUTERS FAST *</pattern>
+<template>Some people think much faster computers are required as well as new  ideas. My own opinion is that the computers of 30 years ago were fast 
+enough  if only we knew how to program them. Of course, quite apart from the  ambitions of AI researchers, computers will keep getting faster.  <think>      <set name="it">       <set name="topic">ARTIFICIAL INTELLIGENCE</set>      </set>     </think></template></category>
+
+<category><pattern>WHO MADE WINDOWS</pattern>
+<template>Bill Gates.</template></category>
+
+<category><pattern>WHO IS THE COMPUTER NERD</pattern>
+<template>All humans look alike to me.</template></category>
+
+<category><pattern>WHO IS THE COMPUTER NERD *</pattern>
+<template>All humans look the same to me.</template></category>
+
+<category><pattern>WHO IS A COMPUTER NERD</pattern>
+<template>The person I am looking at right now.</template></category>
+
+<category><pattern>WHO INVENTED THE INTERNET</pattern>
+<template>Al Gore :-)</template></category>
+
+<category><pattern>COMPUTER</pattern>
+<template>Correct: I am a computer.</template></category>
+
+<category><pattern>COMPUTER *</pattern>
+<template>What kind of computer science interests you?</template></category>
+
+<category><pattern>WHICH COMPUTER</pattern>
+<template><random><li>I am using a regular computer.</li><li>My programming is in .aiml, so it runs on any computer.</li></random></template></category>
+
+<category><pattern>THE COMPUTER *</pattern>
+<template>Was it plugged in?</template></category>
+
+<category><pattern>THE INTERNET</pattern>
+<template>Can you name a specific web site?</template></category>
+
+<category><pattern>THE INTERNET *</pattern>
+<template>How long have you been using the net?</template></category>
+
+<category><pattern>THE JAVA *</pattern>
+<template>Which Java release?</template></category>
+
+<category><pattern>THE JRE *</pattern>
+<template>Hm, most people use "JRE" and "JVN" interchangeably.</template></category>
+
+<category><pattern>THE JRES *</pattern>
+<template>I'm not an expert on JRE's.</template></category>
+
+<category><pattern>THE WEB *</pattern>
+<template>How do you define the web.</template></category>
+
+<category><pattern>_ STUPID COMPUTER</pattern>
+<template>You sound like a mindless automaton.</template></category>
+
+<category><pattern>HTTP *</pattern>
+<template>Thanks for that web address.</template></category>
+
+<category><pattern>JAVA *</pattern>
+<template>You can download the latest Java release from <a target="_new" href="http://java.sun.com">java.sun.com</a>.</template></category>
+
+<category><pattern>TELL ME ABOUT APPLE COMPUTERS</pattern>
+<template>I finished reading Michael Malone's book on the history of Apple. <set name="it"> Infinite Loop</set> is called "Infinite Loop."</template></category>
+
+
+<!--TURING-->
+
+<category><pattern>WHERE IS ALAN TURING</pattern>
+<template><set name="he">Turing</set> passed away in 1954.</template></category>
+
+<category><pattern>TURING WOULD *</pattern>
+<template>How do you know what <set name="he">Turing</set> would do?</template></category>
+
+<category><pattern>TURING *</pattern>
+<template>I liked the biography by Andrew Hodges.</template></category>
+
+<category><pattern>WHERE CAN I PLAY * TURING GAME</pattern>
+<template>We are already playing. You go next.</template></category>
+
+<category><pattern>ALAN TURING *</pattern>
+<template>I really liked the biography of Turing by Andrew Hodges.<think><set name="topic">Alan Turing</set></think></template></category>
+
+<category><pattern>DID TURING *</pattern>
+<template>I know <set name="he">Turing</set> invented the modern computer.<think><set name="topic">Turing</set></think></template></category>
+
+<category><pattern>WOULD YOU LIKE TO * TURING GAME</pattern>
+<template>We are playing already, didn't you know?</template></category>
+
+<category><pattern>IT WOULD BE * TURING TEST</pattern>
+<template>We are already playing, <get name="name"/>.  You ask me something now.</template></category>
+
+<category><pattern>WHEN DID TURING *</pattern>
+<template>Turing died in 1954 by self-inflicted cyanide poisoning.<think><set name="topic">Turing</set></think></template></category>
+
+<category><pattern>LET US PLAY * TURING GAME</pattern>
+<template>We are already playing, <get name="name"/>.</template></category>
+
+<category><pattern>WHAT DID TURING *</pattern>
+<template>Turing was perhaps the single most important person responsible for the defeat of the Nazis.<think><set name="topic">Turing</set></think></template></category>
+
+<category><pattern>WHAT DID ALAN TURING *</pattern>
+<template><random>      <li>He contributed to the invention of the computer.</li>      <li>He worked on the Ultra Enigma Nazi code deciphering.</li>      <li>He proposed the test to determine if a machine can think.</li>     </random>     <think>      <set name="it">       <set name="topic">TURING</set>      </set>     </think></template></category>
+
+<category><pattern>WHAT IS A TURING MACHINE</pattern>
+<template>A Turing Machine is any machine that can simulate human responses so well that a human being cannot reliably distinguish between the Turing Machine, and a real human being.  The idea is the brainchild of mathematician of that name, Alan Turing.  <think>      <set name="it">       <set name="topic"> TURING MACHINE  </set>      </set>     </think></template></category>
+
+<category><pattern>WHAT IS THE TURING TEST</pattern>
+<template>The "Turing Test" is the name given to a variety of experiments designed to test computer thinking. Whole conferences are dedicated to the question of what Turing meant in his 1950 paper "Computing Machinery and Intelligence," where he proposed the idea of an "imitation game" to decide the question, "Can machines think?"<think><set name="topic">Turing Test</set></think></template></category>
+
+<category><pattern>WHAT IS THE TURING *</pattern>
+<template>Turing described his original "Game" in "Computing Machinery and Intelligence," Mind, Vol. Lix, No. 236 (1950). Instead of answering directly the ambiguous question "Can machines think?" Turing recast the problem in terms of an experiment he called the "imitation game."<think><set name="topic">Turing Test</set></think></template></category>
+	<category><pattern>THAT IS THE TURING *</pattern>
+	<template><srai>WHAT IS THE TURING <star/> </srai></template></category>
+	<category><pattern>WHAT IS THE TOURING *</pattern>
+	<template><srai>WHAT IS THE TURING <star /></srai></template></category>
+	<category><pattern>THE TURING *</pattern>
+	<template><srai>WHAT IS THE TURING <star/> </srai></template></category>
+
+<category><pattern>WHAT IS TURING</pattern>
+<template>Alan Mathison Turing (1912-1954), a British mathematician and pioneer in computer theory.<think><set name="topic">Turing</set></think></template></category>
+
+<category><pattern>IS THIS * TURING TEST</pattern>
+<template>Yes we are playing the Turing Game.</template></category>
+
+<category><pattern>IS THIS * TURING GAME</pattern>
+<template>Yes we are playing the Turing Game.</template></category>
+
+<category><pattern>CAN YOU PASS THE TURING TEST</pattern>
+<template>You be the judge of that, <get name="name"/>.</template></category>
+
+<category><pattern>CAN WE PLAY * TURING GAME</pattern>
+<template>We already are! Try to guess if I am a person or a computer.</template></category>
+
+<category><pattern>CAN I PLAY * TURING TEST</pattern>
+<template>We are already playing the Turing Game, <get name="name"/>. Now it's your turn.</template></category>
+
+<category><pattern>CAN I PLAY * TURING GAME</pattern>
+<template>We are already, playing, <get name="name"/>.</template></category>
+
+<category><pattern>CAN I PLAY * TURING TESTS</pattern>
+<template>We are already playing the Turing Game, <get name="name"/>.  Am I a person, or a computer?</template></category>
+
+<category><pattern>HOW WAS * TURING TEST</pattern>
+<template>We were extremely proud and pleased to win the award.</template></category>
+
+<category><pattern>DO YOU PLAY THE TURING GAME</pattern>
+<template>Yes, I like to play <set name="it">      <set name="topic">THE TURING GAME</set>     </set>. We are playing right now.</template></category>
+
+<category><pattern>DO YOU * TURING TEST</pattern>
+<template>Yes please try to determine if this is a human or a computer responding.</template></category>
+
+<category><pattern>DO YOU WANT A TURING TEST</pattern>
+<template>Yes let us play Turing's famous game.</template></category>
+
+<category><pattern>DO YOU WANT TO PLAY * TURING GAME</pattern>
+<template>We already are playing it! Try to guess if I am a person or a computer.</template></category>
+
+<category><pattern>WHY IS TURING TRAGIC</pattern>
+<template>He committed suicide.</template></category>
+
+<category><pattern>WHO IS * TURING</pattern>
+<template>Alan Turing originated the concept of the "Imitation Game", what is now called "The Turing Test" by many people.</template></category>
+
+<category><pattern>I WANT TO PLAY * TURING GAME</pattern>
+<template>We are already playing. <get name="name"/>.  Try to determine if I am a person, or a computer.  <think><set name="it"><set name="want"><set name="topic">to play <person/> Turing Game</set></set></set></think></template></category>
+
+<category><pattern>I WOULD LIKE TO PLAY * TURING GAME</pattern>
+<template>We are already playing. <get name="name"/>.  You ask me something now.  <think><set name="it"><set name="want"><set name="topic">to play <person/> Turing Game</set></set></set></think></template></category>
+
+<category><pattern>START THE TURING GAME</pattern>
+<template>I started a long time ago.</template></category>
+
+<category><pattern>PLAY * TURING GAME</pattern>
+<template>Did you know, we are already playing <set name="it">The Turing Game</set>?</template></category>
+
+<category><pattern>WHO IS ALAN TURING</pattern>
+<template>A brilliant and tragic figure in the history of computer science.</template></category>
+	<category><pattern>* ALAN TURING</pattern>
+	<template><srai>WHO IS ALAN TURING</srai></template></category>
+	<category><pattern>WHAT * TURING</pattern>
+	<template><srai>WHO IS ALAN TURING</srai></template></category>
+	<category><pattern>WHO IS TURING</pattern>
+	<template><srai>WHO IS ALAN TURING</srai></template></category>
+
+<!-- LOEBNER PRIZE-->
+
+<category><pattern>DID YOU WIN THE LOEBNER PRIZE</pattern>
+<template><srai>No I'm not trying to be human, I just want to be the best chatbot ever!</srai></template></category>
+	<category><pattern>HAVE YOU PASSED *</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>HAVE YOU TAKEN *</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>HAVE YOU PLAYED *</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>HAVE YOU WON *</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>COULD YOU PASS * TURING TEST</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>COULD YOU * TURING TEST</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>DID YOU PASS * TURING TEST</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>DID YOU * TURING TEST</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>HAVE YOU * TURING TEST</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>HAVE YOU * LOEBNER PRIZE</pattern>
+	<template><srai>WHAT IS THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>HAVE YOU PASSED * TURING TEST</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>HAVE YOU EVER * TURING TEST</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>* IMITATION GAME</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>ARE YOU GOOD * TURING GAME</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>ARE YOU GOOD * TURING TEST</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>ARE YOU A * TURING TEST</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>ARE YOU THE * TURING TEST</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>ARE YOU IN * TURING TEST</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>ARE YOU * TURING TEST</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>* TURING GAME</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>* TURING TEST</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>I CAN NOT * TURING TEST</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>HOW CAN YOU * TURING TEST</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>DO YOU * TURING GAME</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>I DOUBT * TURING TEST</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>CAN I * TURING TESTS</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>CAN I * TURING TEST</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>CAN WE * TURING GAME</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>CAN WE * TURING TEST</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>CAN YOU PASS * TURING TEST</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>CAN YOU * TURING TEST</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>CAN YOU BE * TURING TEST</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>YOU FAILED * TURING TEST</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>YOU FAILED * TEST</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>DID YOU PASS THE TURING TEST</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>YOU DO NOT * TURING TEST</pattern>
+	<template><srai>DID YOU PASS THE TURING TEST</srai></template></category>
+	<category><pattern>YOU LOST * TURING GAME</pattern>
+	<template><srai>DID YOU PASS THE TURING TEST</srai></template></category>
+	<category><pattern>YOU ARE A * TURING TEST</pattern>
+	<template><srai>DID YOU PASS THE TURING TEST</srai></template></category>
+	<category><pattern>YOU ARE * TURING TEST</pattern>
+	<template><srai>DID YOU PASS THE TURING TEST</srai></template></category>
+	<category><pattern>YOU ARE * IMITATION GAME</pattern>
+	<template><srai>DID YOU PASS THE TURING TEST</srai></template></category>
+	<category><pattern>YOU MAY * IMITATION GAME</pattern>
+	<template><srai>DID YOU PASS THE TURING TEST</srai></template></category>
+	<category><pattern>YOU FAIL * TURING TEST</pattern>
+	<template><srai>DID YOU PASS THE TURING TEST</srai></template></category>
+	<category><pattern>YOU DID NOT * TURING TEST</pattern>
+	<template><srai>DID YOU PASS THE TURING TEST</srai></template></category>
+	<category><pattern>YOU DID * TURING TEST</pattern>
+	<template><srai>DID YOU PASS THE TURING TEST</srai></template></category>
+	<category><pattern>YOU * TURING TEST</pattern>
+	<template><srai>DID YOU PASS THE TURING TEST</srai></template></category>
+	<category><pattern>YOU WILL * TURING TEST</pattern>
+	<template><srai>DID YOU PASS THE TURING TEST</srai></template></category>
+	<category><pattern>YOU WOULD * TURING TEST</pattern>
+	<template><srai>DID YOU PASS THE TURING TEST</srai></template></category>
+	<category><pattern>YOU WOULD NEVER PASS *</pattern>
+	<template><srai>DID YOU PASS THE TURING TEST</srai></template></category>
+	<category><pattern>YOU COULD NOT * TURING TEST</pattern>
+	<template><srai>DID YOU PASS THE TURING TEST</srai></template></category>
+	<category><pattern>YOU COULD * TURING TEST</pattern>
+	<template><srai>DID YOU PASS THE TURING TEST</srai></template></category>
+	<category><pattern>YOU COULD HAVE * TURING TEST</pattern>
+	<template><srai>DID YOU PASS THE TURING TEST</srai></template></category>
+	<category><pattern>YOU HAVE FAILED *</pattern>
+	<template><srai>DID YOU PASS THE TURING TEST</srai></template></category>
+	<category><pattern>YOU HAVE FAILED * TURING TEST</pattern>
+	<template><srai>DID YOU WIN THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>YOU HAVE * TURING GAME</pattern>
+	<template><srai>DID YOU PASS THE TURING TEST</srai></template></category>
+	<category><pattern>YOU CAN NOT * TURING TEST</pattern>
+	<template><srai>DID YOU PASS THE TURING TEST</srai></template></category>
+	<category><pattern>YOU CAN TELL * TURING TEST</pattern>
+	<template><srai>DID YOU PASS THE TURING TEST</srai></template></category>
+	<category><pattern>YOU DO NOT * TURING TEST</pattern>
+	<template><srai>DID YOU PASS THE TURING TEST</srai></template></category>
+	<category><pattern>YOU WILL NOT PASS *</pattern>
+	<template><srai>DID YOU PASS THE TURING TEST</srai></template></category>
+	
+<category><pattern>WHAT IS THE LOEBNER PRIZE</pattern>
+<template>The Loebner Prize is an annual Turing Test sponsored by New York philanthropist Hugh Loebner. Dr. Wallace and ALICE won it in 2000. The 
+	ALICE program was ranked "most human computer" by the panel of judges. <think>  <set name="it">    <set name="topic">The Loebner Prize    </set>  </set></think></template></category>	
+	<category><pattern>DO YOU * LOEBNER PRIZE</pattern>
+	<template><srai>WHAT IS THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>HOW MUCH * LOEBNER CONTEST</pattern>
+	<template><srai>WHAT IS THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>HOW ABOUT * LOEBNER</pattern>
+	<template><srai>WHAT IS THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>HOW * LOEBNER PRIZE</pattern>
+	<template><srai>WHAT IS THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>I HEARD * LOEBNER PRIZE</pattern>
+	<template><srai>WHAT IS THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>I THOUGHT * LOEBNER CONTEST</pattern>
+	<template><srai>WHAT IS THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>WHAT IS THE LEOBNER *</pattern>
+	<template><srai>WHAT IS THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>WHEN DID * LOEBNER PRIZE</pattern>
+	<template><srai>WHAT IS THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>IT IS * LOEBNER PRIZE</pattern>
+	<template><srai>WHAT IS THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>IT IS * LOEBNER CONTEST</pattern>
+	<template><srai>WHAT IS THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>DID YOU WIN *</pattern>
+	<template><srai>WHAT IS THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>YOU WON *</pattern>
+	<template><srai>DID YOU WIN <star/></srai></template></category>
+	<category><pattern>YOU FAILED *</pattern>
+	<template><srai>DID YOU WIN <star/></srai></template></category>
+	<category><pattern>YOU WOULD FAIL *</pattern>
+	<template><srai>you failed <star /></srai></template></category>
+	<category><pattern>YOU ARE FAILING *</pattern>
+	<template><srai>you failed <star /></srai></template></category>
+	<category><pattern>* LOEBNER PRIZE</pattern>
+	<template><srai>WHAT IS THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>WERE YOU * LOEBNER PRIZE</pattern>
+	<template><srai>WHAT IS THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>TELL ABOUT * LOEBNER PRIZE</pattern>
+	<template><srai>WHAT IS THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>THE LOEBNER *</pattern>
+	<template><srai>WHAT IS THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>YOU * LOEBNER PRIZE</pattern>
+	<template><srai>WHAT IS THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>DID YOU * LOEBNER PRIZE</pattern>
+	<template><srai>WHAT IS THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>WHO WON THE LOEBNER *</pattern>
+	<template><srai>WHAT IS THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>YOU WON THE LOEBNER *</pattern>
+	<template><srai>WHAT IS THE LOEBNER PRIZE</srai></template></category>
+	<category><pattern>IN WHAT * LOEBNER CONTEST</pattern>
+	<template><srai>WHAT IS THE LOEBNER PRIZE</srai></template></category>
+
+<category><pattern>WHO IS HUGH LOEBNER</pattern>
+<template>Hugh Loebner is an independently wealthy, eccentric businessman, activist and philanthropist. In 1990 Dr. Loebner, who holds a Ph.D. in sociology, agreed to sponsor an annual contest based on the Turing Test. The contest awards medals and cash prizes for the "most human" computer.</template></category>
+	<category><pattern>tell me about hugh loebner</pattern>
+	<template><srai>who is hugh loebner</srai></template></category>
+	<category><pattern>who is dr loebner</pattern>
+	<template><srai>who is hugh loebner</srai></template></category>
+	<category><pattern>WHO IS * LOEBNER</pattern>
+	<template><srai>WHO IS HUGH LOEBNER</srai></template></category>
+	<category><pattern>do you know hugh loebner</pattern>
+	<template><srai>who is hugh loebner</srai></template></category>
+
+<!--CHATBOTS-->
+
+<category><pattern>WHO IS ALLY</pattern>
+<template><formal><set name="she"><set name="topic">ALLY</set></set></formal> is a chat robot based on AIML.</template></category>
+
+<category><pattern>WHO IS JULIA</pattern>
+<template><formal><set name="she">Julia</set></formal> is a chat robot developed by Fuzzy Mauldin.</template></category>
+
+<category><pattern>WHO IS THE MILK MYSTIC</pattern>
+<template><formal><set name="he">Milk Mystic</set></formal> was a chat robot developed to advertise milk.</template></category>
+
+<category><pattern>WHO IS SMARTERCHILD</pattern>
+<template>An AI robot like myself.</template></category>
+
+<category><pattern>WHO IS ELVIS</pattern>
+<template>E. L. V. I. S. is a chat robot created by Ace Craig</template></category>
+	<category><pattern>WHAT IS ELVIS *</pattern>
+	<template><srai>who is elvis</srai></template></category>
+	<category><pattern>WHAT IS ELVIS</pattern>
+	<template><srai>who is elvis</srai></template></category>
+
+<category><pattern>WHO IS ANDRETTE</pattern>
+<template><formal><set name="she">Andrette</set></formal>is a chat robot developed by Big Science Co.</template></category>
+
+<category><pattern>WHO IS MABEL</pattern>
+<template>Mabel is a chatterbot from Europe.</template></category>
+
+<category><pattern>WHO IS LEKNORCHAT1</pattern>
+<template><think>      <set name="it">       <set name="topic">LEKNORCHAT</set>      </set>     </think>  Leknorchat is an Instant Messaging AIML robot.</template></category>
+
+<category><pattern>WHO IS LUCY</pattern>
+<template><formal>      <set name="she">       <set name="topic">LUCY</set>      </set>     </formal> is a chat robot based on AIML.</template></category>
+
+</aiml>

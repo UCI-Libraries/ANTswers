@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<category><pattern>POETRY</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/d3dcuk/alma991010986029704701" target="blank">Begin with a failed body</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3469841" target="blank">Pillow Thoughts</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3130184" target="blank">the princess saves herself in this one</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3469841" target="blank">Pillow Thoughts</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991018373049704701" target="blank">Madwomen: The "Locas Mujeres" Poems of Gabriela Mistral	</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4860282" target="blank">Eyes Bottle Dark with a Mouthful of Flowers</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2679159" target="blank">Night Sky with Exit Wounds</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991017318179704701" target="blank">The Collected Poems of Wallace Stevens</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4314434" target="blank">The Inheritance of Haunting</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4690423" target="blank">War/Torn</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991012696759704701" target="blank">Slow Lightning</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034863551204701" target="blank">Indecency</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034944457904701" target="blank">A Place Called No Homeland</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035006649404701" target="blank">This Wound is a World</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5023245" target="blank">Disintegrate/Dissociate</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3293961" target="blank">Even This Page is White</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991028053079704701" target="blank">Slant</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4172401" target="blank">The Crazy Bunch</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5079903" target="blank">Hermosa</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034917066604701" target="blank">Brother Bullet</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991007393279704701" target="blank">Sisterfire: Black Womanist Fiction and Poetry</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3949229" target="blank">Well-Read Black Girl: Finding Our Stories, Discovering Ourselves</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991010286679704701" target="blank">Home Girls: A Black Feminist Anthology</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4265094" target="blank">New Daughters of Africa</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991006853409704701" target="blank">The Black Woman: An Anthology</a></li>	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034883450104701" target="blank">A Cruelty Special to Our Species</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034836416604701" target="blank">Bridled</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3889465" target="blank">Eye Level</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4966033" target="blank">Feed</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034861099004701" target="blank">Hey, Marfa</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035088065804701" target="blank">Homie</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034853319604701" target="blank">If They Come for Us</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034844866104701" target="blank">Isako Isako</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4942666" target="blank">Mixed Feelings</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034836245704701" target="blank">Not Here</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034836245504701" target="blank">Oceanic</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034912515304701" target="blank">Oculus</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991000329939704701" target="blank">The Heart of a Woman</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991000208429704701" target="blank">A Literate Passion: Letters of Anais Nin and Henry Miller, 1932-1953</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991029098459704701" target="blank">Collected Works of Effie Waller Smith</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035192779204701" target="blank">Black Bone</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3036784" target="blank">Nature Poem</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4240589" target="blank">The Carrying</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991000211389704701" target="blank">The Collected Poems of Frank O'Hara</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991003273889704701" target="blank">The Logan Topographies</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4813947" target="blank">The Tradition</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3027601" target="blank">When I Grow up I Want to Be a List of Further Possibilities</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1276069" target="blank">When My Broher was an Aztec</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3573310" target="blank">The Sun and Her Flowers</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4608207" target="blank">An American Sunrise</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4813947" target="blank">The Tradition</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1903693" target="blank">Citizen</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2679159" target="blank">Night Sky with Exit Wounds</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5378934" target="blank">Obit</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1979276" target="blank">The Complete Poetry</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1276069" target="blank">When My Brother Was an Aztec</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/598455" target="blank">Robert Burns</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4240589" target="blank">The Carrying</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5168313" target="blank">Love Poems for Anxious People</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3027601" target="blank">When I Grow Up I Want to Be a List of Further Possibilities</a></li>	
+</random></template></category>
+
+<!-- POETRY tag -->
+
+	<category><pattern>POETRY</pattern>
+	<template><srai>poetry</srai></template></category>
+	<category><pattern>* POETRY</pattern>
+	<template><srai>poetry</srai></template></category>
+	<category><pattern>POETRY *</pattern>
+	<template><srai>poetry</srai></template></category>
+	<category><pattern>* POETRY *</pattern>
+	<template><srai>poetry</srai></template></category>
+
+</aiml>

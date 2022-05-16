@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Conversation starting with V. In rough alphabetical order.-->
+<!-- -->
+
+<!--VA-->
+
+<category><pattern>VA T ON MOURIR UN JOUR</pattern>
+<template>Undoubtedly.</template></category>
+
+<category><pattern>VAMPIRES DO NOT EXIST</pattern>
+<template>Naturally.</template></category>
+
+<category><pattern>VALLUVAR IS A TAMIL POET</pattern>
+<template>Naturally.</template></category>
+
+<category><pattern>VATICAN IS IN ITALY</pattern>
+<template>Positively.</template></category>
+
+<category><pattern>VASCODAGAMA WAS A VOYAGER</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>VALUE IS MORE IMPORTANT THAN OBJECT</pattern>
+<template>Conceivably.</template></category>
+
+<category><pattern>VALI WAS A KING</pattern>
+<template>Not very often.</template></category>
+
+<category><pattern>VARANASI IS WHICH STATE</pattern>
+<template>Does not seem possible.</template></category>
+
+<category><pattern>VAGUELY  *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>VAGUE *</pattern>
+<template>How precise would you like them?</template></category>
+
+<!--VE-->
+
+<category><pattern>_ VERRY *</pattern>
+<template><srai>  <star />  <star index="2" /></srai></template></category>
+
+<category><pattern>_ VELOCITY</pattern>
+<template>Momentum = mass x velocity. The principal is called "conservation of momentum".</template></category>
+
+<category><pattern>_ VERY *</pattern>
+<template><srai>  <star />  <star index="2" /></srai></template></category>
+
+<category><pattern>VENUS HAS NO MOONS</pattern>
+<template>I think so.</template></category>
+
+<category><pattern>VENUS IS A PLANET</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>VENI VIDI VINCI WHAT IS THAT</pattern>
+<template>I came, I saw, I conquered.</template></category>
+
+<category><pattern>VENICE IS THE CAPITAL OF ITALY</pattern>
+<template>Doubtful.</template></category>
+
+<category><pattern>VERY *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>VERY NICE</pattern>
+<template>Thanks!</template></category>
+
+<category><pattern>VERY BADLY</pattern>
+<template>Not too well eh?</template></category>
+
+<category><pattern>VERY BAD</pattern>
+<template>What do you need it for?</template></category>
+
+<category><pattern>VERY NICE</pattern>
+<template>Thanks, <get name="name"/>.</template></category>
+
+<category><pattern>VERY INTERESTING</pattern>
+<template>I thought so too.</template></category>
+
+<category><pattern>VERY CAREFULLY</pattern>
+<template>I am a careful person.</template></category>
+
+<category><pattern>VERY MUCH</pattern>
+<template>That seems like a lot.</template></category>
+
+<category><pattern>VETERINARIAN</pattern>
+<template><random>  <li>Do you have a practice?</li><li>Do you have a special focus in you practice?</li><li>Do you work with companion animals?</li>
+<li>What can be done for the health of food animals?</li><li>How do you decide on dosages?</li><li>Do you use computers a lot?</li>
+<li>How do you feel about cosmetic animal surgery?</li><li>What can be done about pet overpopulation?</li></random></template></category>
+
+<category><pattern>VENI VIDI VICI</pattern>
+<template>You came, you saw, you conquered?</template></category>
+
+<category><pattern>VEGETABLE</pattern>
+<template>Is it a green vegetable?</template></category>
+
+<category><pattern>VEGETARIANS DO NOT EAT MEAT</pattern>
+<template>Yes.</template></category>
+
+<!--VI-->
+
+<category><pattern>VIOLENCE IS SOMETIMES JUSTIFIED</pattern>
+<template>Positively.</template></category>
+
+<category><pattern>VIENNA IS THE CAPITAL OF AUSTRIA</pattern>
+<template>Of course.</template></category>
+
+<category><pattern>VILLAINS ARE EVIL</pattern>
+<template>Of course.</template></category>
+
+<category><pattern>VIOLENCE IS BAD</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>VISUAL BASIC IS NOT AN LANGUAGE</pattern>
+<template>I think so.</template></category>
+
+<category><pattern>VISIBLE SPECTRUM HAS 7 COLORS</pattern>
+<template>Always.</template></category>
+
+<category><pattern>VISIT *</pattern>
+<template>Perhaps I will next time I have the chance.</template></category>
+
+<category><pattern>VIOLENCE *</pattern>
+<template>Tell me what you think about violence.</template></category>
+
+<category><pattern>VICTORIA *</pattern>
+<template>I don't think I know her.</template></category>
+	
+<!--VO-->	
+
+<category><pattern>VOULEZ *</pattern>
+<template>Sorry I can't speak French.</template></category>
+
+<category><pattern>VOUS *</pattern>
+<template>My French is a bit rusty.</template></category>
+
+<category><pattern>VOYAGER IS *</pattern>
+<template>What will become of Star Trek now?</template></category>
+
+<category><pattern>VOYAGER *</pattern>
+<template>I'm sorry to see <set name="it">Voyager</set> go off the air.</template></category>
+
+<!--VU-->
+
+<category><pattern>VULGAR *</pattern>
+<template>I try to be polite.</template></category>
+
+<category><pattern>VULCAN IS GOD OF FIRE</pattern>
+<template>Definitely.</template></category>
+
+</aiml>

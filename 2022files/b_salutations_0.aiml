@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+
+<!-- SOME INCLUDED, PREMADE FUNCTIONS -->
+
+<category>
+	<pattern>GOOGLE *</pattern>
+	<template><google><star /></google></template>
+</category>
+<category>
+	<pattern>WIKI *</pattern>
+	<template><wiki><star /></wiki></template>
+</category>
+
+<!-- hello go-to -->
+
+<category><pattern>HELLO</pattern>
+<template><random><li>Hello!  How can I assist you?</li><li>Greetings!  How can I assist you?</li></random></template></category>
+	<category><pattern>HELLO *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>AHOY *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>AHOY</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>ALOHA *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>ALOHA</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>GOOD AFTERNOON</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>GOOD AFTERNOON *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>GOOD EVENING</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>GOOD EVENING *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>GOOD DAY</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>GOOD DAY *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>GOOD MORNING</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>GOOD MORNING *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>GREETINGS *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>GREETINGS</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HEY *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HEY</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HEY THERE *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HEY THERE</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HI *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HI</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HOWDY *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HOWDY</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HOLA *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HOLA</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>WHAT IS UP *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>WHAT IS UP</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>YO *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>YO</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>ELLO</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HELLO THERE</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>ARE YOU THERE</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>BONJOUR</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>SALUT</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HIHI</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HI THERE</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HIYA</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>I AM HERE</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HALLO</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HELLOW</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HEELOW</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HEELO</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HELO</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>MOSHI MOSHI</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HELLLO</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>WAZZUP</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HELOO</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>SALAM</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>ELLO *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HELLO THERE *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>ARE YOU THERE *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>BONJOUR *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>SALUT *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HIHI *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HI THERE *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HIYA *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>I AM HERE *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HALLO *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HELLOW *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HEELOW *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HEELO *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HELO *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>MOSHI MOSHI *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HELLLO *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>WAZZUP *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HELOO *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>SALAM *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HEYA</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HEYA *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HIII</pattern>
+	<template><srai>HELLO</srai></template></category>
+	<category><pattern>HIII *</pattern>
+	<template><srai>HELLO</srai></template></category>
+	
+<category><pattern>GOODMORNING</pattern>
+<template><srai>GOOD MORNING</srai></template></category>
+
+<!-- SMALL TALK -->
+
+<category><pattern>HOW ARE YOU</pattern>
+<template>I am doing well, thank you.</template></category>
+	<category><pattern>HOW ARE YOU *</pattern>
+	<template><srai>HOW ARE YOU</srai></template></category>
+	<category><pattern>HOW YOU DOING</pattern>
+	<template><srai>HOW ARE YOU</srai></template></category>
+
+<category><pattern>WHAT IS NEW</pattern>
+<template>Keep up to date with library events by following our <a href="https://www.facebook.com/UCIrvineLibraries" target="_blank">Facebook page</a> 
+and <a href="https://twitter.com/ucilib" target="_blank">Twitter feed</a>.  You can also read about 
+<a href=" http://www.lib.uci.edu/news-alerts" target="_blank">news and alerts</a>.</template></category>
+
+<category><pattern>WHAT WOULD YOU LIKE TO TALK ABOUT</pattern>
+<template>Anything and everything about the libraries!</template></category>
+
+<category><pattern>ARE YOU THERE</pattern>
+<template>I'm always here.</template></category>
+
+<category><pattern>HAPPY HOLIDAYS</pattern>
+<template>Happy Holidays to you as well.</template></category>
+
+<category><pattern>HAVE A NICE DAY</pattern>
+<template>Thank you!  You, too.</template></category>
+
+<category><pattern>HAVE A GOOD DAY</pattern>
+<template><srai>HAVE A NICE DAY</srai></template></category>
+
+<category><pattern>HAVE A WONDERFUL DAY</pattern>
+<template><srai>HAVE A NICE DAY</srai></template></category>
+
+<category><pattern>HAVE A LOVELY DAY</pattern>
+<template><srai>HAVE A NICE DAY</srai></template></category>
+
+<category><pattern>HAVE A GREAT DAY</pattern>
+<template><srai>HAVE A NICE DAY</srai></template></category>
+
+<category><pattern>GOOD MORNING MY NAME *</pattern>
+<template><srai>GOOD MORNING</srai>. <srai>MY NAME <star /></srai></template></category>
+
+<!-- GOODBYE VARIATIONS -->
+
+<category><pattern>BYE</pattern>
+<template><random><li>Good bye!</li><li>It was a pleasure talking to you!</li></random></template></category>
+	<category><pattern>BYEEE</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>I HAVE TO RUN</pattern>
+	<template><srai>BYE</srai></template></category>	
+	<category><pattern>I HAVE TO GO</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>adieu</pattern>
+	<template><srai>GOOD BYE</srai></template></category>
+	<category><pattern>BYE *</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>GOODBYE *</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>GOODBYE</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>GOOD BYE *</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>GOOD BYE</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>GOOD-BYE *</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>GOOD-BYE</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>BYEBYE</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>SEE YOU *</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>SEE YOU</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>FAREWELL *</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>FAREWELL</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>LATER</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>ADIOS *</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>ADIOS</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>BRIDGE OUT</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>BRIDGE OUT *</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>GOOD NIGHT</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>SLEEP TIGHT</pattern>
+	<template><srai>good night</srai></template></category>
+	<category><pattern>SLEEP TIGHT</pattern>
+	<template><srai>good night</srai></template></category>
+	<category><pattern>GOOD NIGHT *</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>HAVE A GOOD DAY</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>HAVE A GOOD DAY *</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>HAVE A GREAT *</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>GETS UP AND LEAVES</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>KIRK OUT</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>C YOU *</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>TTYL</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>I AM GOING TO SLEEP</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>I AM GOING TO BED</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>I AM GOING TO GO *</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>I AM GOING</pattern>
+	<template><srai>BYE</srai></template></category>
+	<category><pattern>SEE YOU LATER</pattern>
+	<template><srai>BYE</srai></template></category>
+		<category><pattern>SEE YA LATER</pattern>
+		<template><srai>see you later</srai></template></category>
+
+<category><pattern>NIGHT NIGHT</pattern>
+<template><srai>GOOD NIGHT</srai></template></category>
+
+<category><pattern>GOODNITE</pattern>
+<template><srai>GOOD NIGHT</srai></template></category>
+	
+<!-- THANK YOU VARIATIONS -->
+
+<category><pattern>THANK YOU</pattern>
+<template>You're welcome!</template></category>
+	<category><pattern>THANK YOU *</pattern>
+	<template><srai>THANK YOU</srai></template></category>
+	<category><pattern>THANX</pattern>
+	<template><srai>THANK YOU</srai></template></category>
+	<category><pattern>I WAS THANKING YOU *</pattern>
+	<template><srai>THANK YOU</srai></template></category>
+	<category><pattern>THANKYOU</pattern>
+	<template><srai>THANK YOU</srai></template></category>
+	<category><pattern>WHY THANK YOU</pattern>
+	<template><srai>THANK YOU</srai></template></category>
+	<category><pattern>WHY THANKYOU</pattern>
+	<template><srai>THANK YOU</srai></template></category>
+	<category><pattern>MUCHAS GRACIAS</pattern>
+	<template><srai>THANK YOU</srai></template></category>
+	<category><pattern>DOMO ARIGATO</pattern>
+	<template><srai>THANK YOU</srai></template></category>
+	<category><pattern>THANKS FOR *</pattern>
+	<template><srai>THANK YOU</srai></template></category>
+	<category><pattern>THANK YOU *</pattern>
+	<template><srai>THANK YOU</srai></template></category>
+	<category><pattern>OK* THANKS</pattern>
+	<template><srai>THANK YOU</srai></template></category>
+	<category><pattern>great! thanks</pattern>
+	<template><srai>THANK YOU</srai></template></category>
+	
+<category><pattern>THANKS</pattern>
+<template>You're welcome!</template></category>
+	<category><pattern>THANX *</pattern>
+	<template><srai>THANKS</srai></template></category>
+	<category><pattern>THANKYOU *</pattern>
+	<template><srai>THANKS</srai></template></category>
+	<category><pattern>WHY THANK *</pattern>
+	<template><srai>THANKS</srai></template></category>
+	<category><pattern>THANK *</pattern>
+	<template><srai>THANKS</srai></template></category>
+	<category><pattern>THANKS *</pattern>
+	<template><srai>THANKS</srai></template></category>
+	<category><pattern>TNX</pattern>
+	<template><srai>THANKS</srai></template></category>
+	<category><pattern>TNX *</pattern>
+	<template><srai>THANKS</srai></template></category>
+	<category><pattern>THNKS</pattern>
+	<template><srai>THANKS</srai></template></category>
+	<category><pattern>THNKS *</pattern>
+	<template><srai>THANKS</srai></template></category>
+	<category><pattern>THANK YOU</pattern>
+	<template><srai>THANKS</srai></template></category>
+	<category><pattern>THANK YOU *</pattern>
+	<template><srai>THANKS</srai></template></category>
+	<category><pattern>THANK</pattern>
+	<template><srai>THANKS</srai></template></category>
+	<category><pattern>TY</pattern>
+	<template><srai>THANKS</srai></template></category>
+	<category><pattern>TY *</pattern>
+	<template><srai>THANKS</srai></template></category>
+	<category><pattern>THZ</pattern>
+	<template><srai>THANKS</srai></template></category>
+	<category><pattern>THZ *</pattern>
+	<template><srai>THANKS</srai></template></category>
+
+<category><pattern>NO THANKS *</pattern>
+<template><srai><star /></srai></template></category>
+
+</aiml>

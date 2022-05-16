@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+
+<category><pattern>I LIKED *</pattern>
+	<template><think><set name="topic">I LIKED</set></think><sr /></template></category>
+
+<category><pattern>I LIKE *</pattern>
+	<template><think><set name="topic">I LIKED</set></think><sr /></template></category>
+	
+<category><pattern>I LIKED THE *</pattern>
+	<template><think><set name="topic">I LIKED</set></think><sr /></template></category>
+
+<category><pattern>I LIKE THE *</pattern>
+	<template><think><set name="topic">I LIKED</set></think><sr /></template></category>
+	
+<category><pattern>I LIKED</pattern>	
+	<template>Are you asking for a book recommendation based on a book you liked? If so say "I liked *" with the * being the title of the book you liked.</template></category>
+	
+<category><pattern>I LIKE</pattern>	
+	<template>Are you asking for a book recommendation based on a book you liked? If so say "I liked *" with the * being the title of the book you liked.</template></category>
+	
+<category><pattern>I am looking for a book similar to *</pattern>
+	<template>Are you asking for a book recommendation based on a book you liked? If so say "I liked *" with the * being the title of the book you liked.</template></category>
+	
+<category><pattern>HARRY POTTER</pattern>
+<template><random>
+	<li>If you liked Harry Potter, you might like <a href="https://ucirvinemain.overdrive.com/media/245894" target="_blank">Lev Grossman's The Magicians</a>.</li>
+	<li>If you liked Harry Potter, you might like <a href="https://ucirvinemain.overdrive.com/media/842922" target="_blank">The Thinking Woman's Guide to Real Magic' by Emily Croy Barker</a>.</li>
+	<li>If you liked Harry Potter, you might like <a href="https://ucirvinemain.overdrive.com/media/8303" target="_blank">Neverwhere' by Neil Gaiman</a>.</li>
+	<li>If you liked Harry Potter, you might like <a href="https://ucirvinemain.overdrive.com/media/2185260" target="_blank">All The Birds in the Sky' by Charlie Jane Anders</a>.</li>
+	<li>If you liked Harry Potter, you might like <a href="https://ucirvinemain.overdrive.com/media/2153308" target="_blank">Six of Crows</a>.</li>
+	<li>If you liked Harry Potter, you might like <a href="https://ucirvinemain.overdrive.com/media/1337051" target="_blank">Half Bad</a>.</li>
+</random></template></category>
+	<category><pattern>Harry poter</pattern>
+	<template><srai>HARRY POTTER</srai></template></category>
+	<category><pattern>Hurry Potter</pattern>
+	<template><srai>HARRY POTTER</srai></template></category>
+
+<category><pattern>GAME OF THRONES</pattern>
+<template><random>
+	<li>If you liked Game of Thrones, you might like <a href="https://ucirvinemain.overdrive.com/media/842414" target="_blank">Falling Kingdoms</a>.</li>
+	<li>If you liked Game of Thrones, you might like <a href="https://ucirvinemain.overdrive.com/media/514213" target="_blank">Mistborn: The Final Empire</a>.</li>
+	<li>If you liked Game of Thrones, you might like <a href="https://ucirvinemain.overdrive.com/media/1766779" target="_blank">An Ember in the Ashes</a>.</li>
+	<li>If you liked Game of Thrones, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034902727004701" target="_blank">Black Leopard, Red Wolf </a>.</li>
+	<li>If you liked Game of Thrones, you might like <a href="https://ucirvinemain.overdrive.com/media/511909" target="_blank">Gardens of the Moon</a>.</li>
+	<li>If you liked Game of Thrones, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034870402904701" target="_blank">Who Fears Death</a>.</li>
+</random></template></category>
+
+<category><pattern>READY PLAYER ONE</pattern>
+<template><random>
+	<li>If you liked Ready Player One, you might like <a href="https://ucirvinemain.overdrive.com/media/3117003" target="_blank">Warcross</a>.</li>
+	<li>If you liked Ready Player One, you might like <a href="https://ucirvinemain.overdrive.com/media/3273187" target="_blank">Otherworld</a>.</li>
+	<li>If you liked Ready Player One, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/13ohhgg/alma991034957991104701" target="_blank">Snow Crash</a>.</li>
+	<li>If you liked Ready Player One, you might like <a href="https://ucirvinemain.overdrive.com/media/2027972" target="_blank">Islands in the Net</a>.</li>
+	<li>If you liked Ready Player One, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991014085329704701" target="_blank">Alif the Unseen</a>.</li>	
+	<li>If you liked Ready Player One, you might like <a href="https://ucirvinemain.overdrive.com/media/1973585" target="_blank">Quozl</a>.</li>		
+	<li>If you liked Ready Player One, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034306689704701" target="_blank">A Connecticut Yankee in King Arthur's Court</a>.</li>	
+	<li>If you liked Ready Player One, you might like <a href="https://ucirvinemain.overdrive.com/media/2128427" target="_blank">Armada</a>.</li>	
+	<li>If you liked Ready Player One, you might like <a href="https://ucirvinemain.overdrive.com/media/511646" target="_blank">Ender's Game</a>.</li>
+	<li>If you liked Ready Player One, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991034212709704701" target="_blank">The Martian</a>.</li>
+	<li>If you liked Ready Player One, you might like <a href="https://ucirvinemain.overdrive.com/media/346963" target="_blank">Omnitopia Dawn</a>.</li>
+	<li>If you liked Ready Player One, you might like <a href="https://ucirvinemain.overdrive.com/media/612607" target="_blank">Neuromancer</a>.</li>
+	<li>If you liked Ready Player One, you might like <a href="https://ucirvinemain.overdrive.com/media/4022443" target="_blank">Synners</a>.</li>		
+	<li>If you liked Ready Player One, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991006538559704701" target="_blank">The Hitchhiker's Guide to the Galaxy</a>.</li>
+	<li>If you liked Ready Player One, you might like <a href="https://ucirvinemain.overdrive.com/media/1275562" target="_blank">The Eye of Minds</a>.</li>	
+</random></template></category>
+
+<category><pattern>HUNGER GAMES</pattern>
+<template><random>
+	<li>If you liked Hunger Games, you might like <a href="https://ucirvinemain.overdrive.com/media/573609" target="_blank">Graceling</a>.</li>
+	<li>If you liked Hunger Games, you might like <a href="https://ucirvinemain.overdrive.com/media/1766779" target="_blank">Scythe</a>.</li>
+	<li>If you liked Hunger Games, you might like <a href="https://ucirvinemain.overdrive.com/media/1766779" target="_blank">An Ember in the Ashes</a></li>
+	<li>If you liked Hunger Games, you might like <a href="https://ucirvinemain.overdrive.com/media/565906" target="_blank">Divergent</a></li>
+	<li>If you liked Hunger Games, you might like <a href="https://ucirvinemain.overdrive.com/media/286996" target="_blank">Uglies</a></li>
+	<li>If you liked Hunger Games, you might like <a href="https://ucirvinemain.overdrive.com/media/227069" target="_blank">The Maze Runner</a></li>
+</random></template></category>
+
+<category><pattern>THE HATE U GIVE</pattern>
+<template><random>
+	<li>If you liked The Hate U Give, you might like <a href="https://ucirvinemain.overdrive.com/media/3249545" target="_blank">Long Way Down - Jason Reynolds</a>.</li>
+	<li>If you liked The Hate U Give, you might like <a href="https://ucirvinemain.overdrive.com/media/2754334" target="_blank">Amina’s Voice</a>.</li>
+	<li>If you liked The Hate U Give, you might like <a href="https://ucirvinemain.overdrive.com/media/3890274" target="_blank">Swing</a>.</li>
+	<li>If you liked The Hate U Give, you might like <a href="https://ucirvinemain.overdrive.com/media/3089734" target="_blank">Piecing Me Together</a>.</li>
+	<li>If you liked The Hate U Give, you might like <a href="https://ucirvinemain.overdrive.com/media/3249063" target="_blank">Dear Martin</a>.</li>
+	<li>If you liked The Hate U Give, you might like <a href="https://ucirvinemain.overdrive.com/media/3337011" target="_blank">Tyler Johnson Was Here</a>.</li>
+	<li>If you liked The Hate U Give, you might like <a href="https://ucirvinemain.overdrive.com/media/3359750" target="_blank">Love, Hate and Other Filters</a>.</li>
+	<li>If you liked The Hate U Give, you might like <a href="https://ucirvinemain.overdrive.com/media/3682347" target="_blank">Darius the Great Is Not Okay</a>.</li>
+</random></template></category>
+	<category><pattern>THE HATE YOU GIVE</pattern>
+	<template><srai>THE HATE U GIVE</srai></template></category>
+
+<category><pattern>FAULT IN OUR STARS</pattern>
+<template><random>
+	<li>If you liked the Fault in Our Stars, you might like <a href="https://ucirvinemain.overdrive.com/media/2988738" target="_blank">When Dimple Met Rishi</a>.</li>
+	<li>If you liked the Fault in Our Stars, you might like <a href="https://ucirvinemain.overdrive.com/media/1453838" target="_blank">Me and Earl and the Dying Girl</a>.</li>
+	<li>If you liked the Fault in Our Stars, you might like <a href="https://ucirvinemain.overdrive.com/media/675399" target="_blank">If I Stay</a>.</li>
+	<li>If you liked the Fault in Our Stars, you might like <a href="https://ucirvinemain.overdrive.com/media/203797" target="_blank">Looking for Alaska</a>.</li>
+	<li>If you liked the Fault in Our Stars, you might like <a href="https://ucirvinemain.overdrive.com/media/796968" target="_blank">Every Day</a>.</li>	
+	<li>If you liked the Fault in Our Stars, you might like <a href="https://ucirvinemain.overdrive.com/media/2148055" target="_blank">After You</a>.</li>	
+</random></template></category>
+
+<category><pattern>TO ALL THE BOYS I*VE LOVED BEFORE</pattern>
+<template><random>
+	<li>If you liked To All The Boys I've Loved Before, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034964018604701" target="_blank">Emergency Contact</a>.</li>
+	<li>If you liked To All The Boys I've Loved Before, you might like <a href="https://ucirvinemain.overdrive.com/media/2875693" target="_blank">The Upside of Unrequited</a>.</li>
+	<li>If you liked To All The Boys I've Loved Before, you might like <a href="https://ucirvinemain.overdrive.com/media/1241931" target="_blank">Fangirl</a>.</li>
+	<li>If you liked To All The Boys I've Loved Before, you might like <a href="https://ucirvinemain.overdrive.com/media/1263707" target="_blank">The Kissing Booth</a>.</li>	
+</random></template></category>
+
+<category><pattern>SIMON VS THE HOMOSAPIENS AGENDA</pattern>
+<template><random>
+	<li>If you liked the Simon VS The Homosapens Agenda, you might like <a href="https://ucirvinemain.overdrive.com/media/3579277" target="_blank">What If It's Us</a>.</li>
+	<li>If you liked the Simon VS The Homosapens Agenda, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034944561004701" target="_blank">I'll Give You The Sun</a>.</li>
+	<li>If you liked the Simon VS The Homosapens Agenda, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034861919304701" target="_blank">Aristotle and Dante Discover the Secrets of the Universe</a>.</li>
+</random></template></category>
+	<category><pattern>SIMON VERSUS THE HOMOSAPIENS AGENDA</pattern>
+	<template><srai>SIMON VS THE HOMOSAPIENS AGENDA</srai></template></category>
+	<category><pattern>SIMON VS* THE HOMOSAPIENS AGENDA</pattern>
+	<template><srai>SIMON VS THE HOMOSAPIENS AGENDA</srai></template></category>
+
+<category><pattern>THE SUN IS ALSO A STAR</pattern>
+<template><random>
+	<li>If you liked the Sun Is Also A Star, you might like <a href="https://ucirvinemain.overdrive.com/media/3242348" target="_blank">Love and Other Trainwrecks</a>.</li>
+	<li>If you liked the Sun Is Also A Star, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991001027139704701" target="_blank">Eleanor and Park</a>.</li>
+	<li>If you liked the Sun Is Also A Star, you might like <a href="https://ucirvinemain.overdrive.com/media/3441354" target="_blank">American Panda</a>.</li>
+</random></template></category>
+	
+<category><pattern>THE PERKS OF BEING A WALLFLOWER</pattern>
+<template><random>
+	<li>If you liked the Perks of Being a Wallflower, you might like <a href="https://ucirvinemain.overdrive.com/media/520999" target="_blank">It's Kind of A Funny Story</a>.</li>
+	<li>If you liked the Perks of Being a Wallflower, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991012508489704701" target="_blank">Turtles All The Way Down</a>.</li>
+	<li>If you liked the Perks of Being a Wallflower, you might like <a href="https://ucirvinemain.overdrive.com/media/1816317" target="_blank">All the Bright Places</a>.</li>
+</random></template></category>
+	
+<category><pattern>THE HITCHHIKERS GUIDE TO THE GALAXY</pattern>
+<template><random>
+	<li>If you liked the Hitchhikers Guide to the Galaxy, you might like <a href="https://ucirvinemain.overdrive.com/media/1004503" target="_blank">Howl's Moving Castle</a>.</li>
+	<li>If you liked the Hitchhikers Guide to the Galaxy, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/74dcdl/alma991034995713504701" target="_blank">Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch</a>.</li>
+	<li>If you liked the Hitchhikers Guide to the Galaxy, you might like <a href="https://ucirvinemain.overdrive.com/media/2052828" target="_blank">The Rest of Us Just Live Here</a>.</li>
+</random></template></category>
+				
+<category><pattern>THE OUTSIDERS</pattern>
+<template><random>
+	<li>If you liked the Outsiders, you might like <a href="https://ucirvinemain.overdrive.com/media/148266" target="_blank">STARGIRL</a>.</li>
+	<li>If you liked the Outsiders, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991026867539704701" target="_blank">The Catcher in the Rye</a>.</li>
+	<li>If you liked the Outsiders, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991023504189704701" target="_blank">The Absolutely True Diary of a Part-Time Indian</a>.</li>
+</random></template></category>
+		
+<category><pattern>THE BOOK THIEF</pattern>
+<template><random>
+	<li>If you liked the Book Thief, you might like <a href="https://ucirvinemain.overdrive.com/media/1727736" target="_blank">All The Light We Cannot See</a>.</li>
+	<li>If you liked the Book Thief, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991026095819704701" target="_blank">The Amazing Adventures of Kavalier and Clay</a>.</li>
+	<li>If you liked the Book Thief, you might like <a href="https://ucirvinemain.overdrive.com/media/573962	" target="_blank">Number the Stars</a>.</li>
+</random></template></category>
+	
+<category><pattern>TWILIGHT</pattern>
+<template><random>
+	<li>If you liked Twilight, you might like <a href="https://ucirvinemain.overdrive.com/media/222647" target="_blank">Vampire Academy</a>.</li>
+	<li>If you liked Twilight, you might like <a href="https://ucirvinemain.overdrive.com/media/1714166" target="_blank">Raven Boys</a>.</li>
+	<li>If you liked Twilight, you might like <a href="https://ucirvinemain.overdrive.com/media/284926" target="_blank">City of Bones</a>.</li>
+	<li>If you liked Twilight, you might like <a href="https://ucirvinemain.overdrive.com/media/520782" target="_blank">Blue Bloods Series</a>.</li>
+	<li>If you liked Twilight, you might like <a href="https://ucirvinemain.overdrive.com/media/1954847" target="_blank">Winterspell</a>.</li>
+</random></template></category>
+	
+<category><pattern>MILK AND HONEY</pattern>
+<template><random>
+	<li>If you liked Milk and Honey, you might like <a href="https://ucirvinemain.overdrive.com/media/3130184" target="_blank">The Princess Saves Herself in This One</a>.</li>
+	<li>If you liked Milk and Honey, you might like <a href="https://ucirvinemain.overdrive.com/media/3469841" target="_blank">Pillow Thoughts</a>.</li>
+	<li>If you liked Milk and Honey, you might like <a href="https://ucirvinemain.overdrive.com/media/4230360" target="_blank">When the World Didn't End</a>.</li>
+</random></template></category>
+	
+<category><pattern>PERCY JACKSON</pattern>
+<template><random>
+	<li>If you liked Percy Jackson, you might like <a href="https://ucirvinemain.overdrive.com/media/2163605" target="_blank">Carry On</a>.</li>
+	<li>If you liked Percy Jackson, you might like <a href="https://ucirvinemain.overdrive.com/media/1581847" target="_blank">Bartimaeus Triology</a>.</li>
+	<li>If you liked Percy Jackson, you might like <a href="https://ucirvinemain.overdrive.com/media/1579087" target="_blank">The Young Elites</a>.</li>
+	<li>If you liked Percy Jackson, you might like <a href="https://ucirvinemain.overdrive.com/media/2406153" target="_blank">Magnus Chase and the Gods of Asgard</a>.</li>
+	<li>If you liked Percy Jackson, you might like <a href="https://ucirvinemain.overdrive.com/media/521200" target="_blank">The Kane Chronicles: The Red Pyramid</a>.</li>
+	<li>If you liked Percy Jackson, you might like <a href="https://ucirvinemain.overdrive.com/media/1714153" target="_blank">The 39 Clues</a>.</li>	
+</random></template></category>
+	
+<category><pattern>Crazy Rich Asians</pattern>
+<template><random>
+	<li>If you liked Crazy Rich Asians, you might like <a href="https://ucirvinemain.overdrive.com/media/2469221" target="_blank">Sarong Party Girls</a>.</li>
+	<li>If you liked Crazy Rich Asians, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991035062446004701" target="_blank">Pachinko</a>.</li>
+	<li>If you liked Crazy Rich Asians, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991023390779704701" target="_blank">The Wangs vs. The World</a>.</li>
+	<li>If you liked Crazy Rich Asians, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035089518204701" target="_blank">Five Star Billionaire</a>.</li>
+	<li>If you liked Crazy Rich Asians, you might like <a href="https://ucirvinemain.overdrive.com/media/3082613" target="_blank">The Windfall</a>.</li>
+	<li>If you liked Crazy Rich Asians, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991018963919704701" target="_blank">The Expatriates</a>.</li>
+	<li>If you liked Crazy Rich Asians, you might like <a href="https://ucirvinemain.overdrive.com/media/3591470" target="_blank">A lady's Guide to Selling Out</a>.</li>	
+	<li>If you liked Crazy Rich Asians, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991017215769704701" target="_blank">I Take You</a>.</li>	
+	<li>If you liked Crazy Rich Asians, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991022133599704701" target="_blank">Vulgar Favors</a>.</li>	
+	<li>If you liked Crazy Rich Asians, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991017750069704701" target="_blank">China Rich Girlfriend</a>.</li>		
+	<li>If you liked Crazy Rich Asians, you might like <a href="https://ucirvinemain.overdrive.com/media/3108722" target="_blank">Fitness Junkie</a>.</li>	
+	<li>If you liked Crazy Rich Asians, you might like <a href="https://ucirvinemain.overdrive.com/media/1300437" target="_blank">Empty Mansions</a>.</li>
+	<li>If you liked Crazy Rich Asians, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035002104204701" target="_blank">Sons and Daughters of Ease and Plenty</a>.</li>
+	<li>If you liked Crazy Rich Asians, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991009310659704701" target="_blank">The Devil Wears Prada</a>.</li>		
+</random></template></category>	
+	
+<category><pattern>The Haunting of Hill House</pattern>
+<template><random>
+	<li>If you liked The Haunting of Hill House, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991000149629704701" target="_blank">We Have Always Lived in The Castle</a>.</li>
+	<li>If you liked The Haunting of Hill House, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991010883189704701" target="_blank">The Turn of the Screw</a>.</li>
+	<li>If you liked The Haunting of Hill House, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991025251019704701" target="_blank">White is for Witching</a>.</li>
+	<li>If you liked The Haunting of Hill House, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991009944769704701" target="_blank">The Changeling</a>.</li>	
+	<li>If you liked The Haunting of Hill House, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991002050509704701" target="_blank">The Shining</a>.</li>		
+	<li>If you liked The Haunting of Hill House, you might like <a href="https://ucirvinemain.overdrive.com/media/2638113" target="_blank">The Graveyard Apartment</a>.</li>		
+	<li>If you liked The Haunting of Hill House, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991033711989704701" target="_blank">This House is Haunted</a>.</li>			
+	<li>If you liked The Haunting of Hill House, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991009764739704701" target="_blank">The Good House</a>.</li>		
+	<li>If you liked The Haunting of Hill House, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991006326409704701" target="_blank">Rebecca</a>.</li>		
+	<li>If you liked The Haunting of Hill House, you might like <a href="https://ucirvinemain.overdrive.com/media/512526" target="_blank">Let The Right One In</a>.</li>	
+	<li>If you liked The Haunting of Hill House, you might like <a href="https://ucirvinemain.overdrive.com/media/4347863" target="_blank">The Saturday Night Ghost Club</a>.</li>	
+	<li>If you liked The Haunting of Hill House, you might like <a href="https://ucirvinemain.overdrive.com/media/2582422" target="_blank">Ghostland</a>.</li>		
+</random></template></category>
+	
+<category><pattern>Where the Crawdads Sing</pattern>
+<template><random>
+	<li>If you liked Where the Crawdads Sing, you might like <a href="https://ucirvinemain.overdrive.com/media/3255402" target="_blank">Beasts of Extraordinary Circumstance</a>.</li>
+	<li>If you liked Where the Crawdads Sing, you might like <a href="https://ucirvinemain.overdrive.com/media/3442294" target="_blank">Where The Line Bleeds</a>.</li>
+	<li>If you liked Where the Crawdads Sing, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991028684899704701" target="_blank">Swamplandia</a>.</li>
+	<li>If you liked Where the Crawdads Sing, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991014089349704701" target="_blank">The Round House</a>.</li>	
+	<li>If you liked Where the Crawdads Sing, you might like <a href="https://ucirvinemain.overdrive.com/media/3374118" target="_blank">The Wildlands</a>.</li>		
+	<li>If you liked Where the Crawdads Sing, you might like <a href="https://ucirvinemain.overdrive.com/media/717905" target="_blank">The Good Dream</a>.</li>		
+	<li>If you liked Where the Crawdads Sing, you might like <a href="https://ucirvinemain.overdrive.com/media/3027417" target="_blank">The Marsh King's Daughter</a>.</li>
+	<li>If you liked Where the Crawdads Sing, you might like <a href="https://ucirvinemain.overdrive.com/media/3470005" target="_blank">Let's No One Get Hurt</a>.</li>	
+	<li>If you liked Where the Crawdads Sing, you might like <a href="https://ucirvinemain.overdrive.com/media/87013" target="_blank">Magic Hour</a>.</li>	
+	<li>If you liked Where the Crawdads Sing, you might like <a href="https://ucirvinemain.overdrive.com/media/1221583" target="_blank">Annie John</a>.</li>	
+	<li>If you liked Where the Crawdads Sing, you might like <a href="https://ucirvinemain.overdrive.com/media/2831022" target="_blank">Himself</a>.</li>	
+	<li>If you liked Where the Crawdads Sing, you might like <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991017089299704701" target="_blank">The Glass Castle</a>.</li>			
+</random></template></category>
+
+<category><pattern>THE HANDMAIDS TALE</pattern>
+<template><random>
+	<li>If you liked Where the Handmaid's Tale, you might like<a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991031630319704701" target="_blank">The Children of Men</a>.</li>
+	<li>If you liked Where the Handmaid's Tale, you might like<a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991026249169704701" target="_blank">The Unit</a>.</li>
+	<li>If you liked Where the Handmaid's Tale, you might like<a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991006198399704701" target="_blank">The Power</a>.</li>
+	<li>If you liked Where the Handmaid's Tale, you might like<a href="https://ucirvinemain.overdrive.com/media/3027437" target="_blank">Gather the Daughters</a>.</li>
+	<li>If you liked Where the Handmaid's Tale, you might like<a href="https://ucirvinemain.overdrive.com/media/573008" target="_blank">1984</a>.</li>
+	<li>If you liked Where the Handmaid's Tale, you might like<a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991002750109704701" target="_blank">The Bees</a>.</li>	
+	<li>If you liked Where the Handmaid's Tale, you might like<a href="https://ucirvinemain.overdrive.com/media/3645221" target="_blank">Women and Power</a>.</li>	
+	<li>If you liked Where the Handmaid's Tale, you might like<a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991035102113004701" target="_blank">Kindred</a>.</li>	
+	<li>If you liked Where the Handmaid's Tale, you might like<a href=" https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991009345699704701" target="_blank">Oryx And Crake</a>.</li>	
+	<li>If you liked Where the Handmaid's Tale, you might like<a href="https://ucirvinemain.overdrive.com/media/3844836" target="_blank">Vox</a>.</li>	
+	<li>If you liked Where the Handmaid's Tale, you might like<a href="https://ucirvinemain.overdrive.com/media/4181902" target="_blank">Before She Sleeps</a>.</li>	
+	<li>If you liked Where the Handmaid's Tale, you might like<a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034973104404701" target="_blank">The Farm</a>.</li>		
+	<li>If you liked Where the Handmaid's Tale, you might like<a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991012233049704701" target="_blank">Red Clocks</a>.</li>		
+	<li>If you liked Where the Handmaid's Tale, you might like<a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991010061929704701" target="_blank">When She Woke</a>.</li>		
+	<li>If you liked Where the Handmaid's Tale, you might like<a href="https://ucirvinemain.overdrive.com/media/574435" target="_blank">The Giver</a>.</li>		
+	<li>If you liked Where the Handmaid's Tale, you might like<a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/74dcdl/alma991031291039704701" target="_blank">The Color Purple</a>.</li>		
+	<li>If you liked Where the Handmaid's Tale, you might like<a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991020537569704701" target="_blank">The Great Gatsby</a>.</li>			
+	<li>If you liked Where the Handmaid's Tale, you might like<a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991031630319704701" target="_blank">The Children of Men</a>.</li>			
+	<li>If you liked Where the Handmaid's Tale, you might like<a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991032837799704701" target="_blank">The Scarlet Letter</a>.</li>			
+	<li>If you liked Where the Handmaid's Tale, you might like<a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991006085539704701" target="_blank">Tess of the d'Urbervilles</a>.</li>			
+</random></template></category>
+
+	<category><pattern>THE HANDMAID*S TALE</pattern>
+	<template><srai>THE HANDMAIDS TALE</srai></template></category>
+	<category><pattern>HANDMAIDS TALE</pattern>
+	<template><srai>THE HANDMAIDS TALE</srai></template></category>
+
+<category><pattern>GIRL ON THE TRAIN</pattern>
+<template><random>
+	<li>If you liked Where the Handmaid's Tale, you might like<a href="https://ucirvinemain.overdrive.com/media/148299" target="_blank">Intensity</a>.</li>
+	<li>If you liked Where the Handmaid's Tale, you might like<a href="https://ucirvinemain.overdrive.com/media/1554773" target="_blank">The Good Girl</a>.</li>
+	<li>If you liked Where the Handmaid's Tale, you might like<a href="https://ucirvinemain.overdrive.com/media/1177197" target="_blank">The Silent Wife</a>.</li>
+	<li>If you liked Where the Handmaid's Tale, you might like<a href="https://ucirvinemain.overdrive.com/media/523289" target="_blank">Before I Go to Sleep</a>.</li>
+	<li>If you liked Where the Handmaid's Tale, you might like<a href="https://ucirvinemain.overdrive.com/media/1331146" target="_blank">Dangerous Girls</a>.</li>
+</random></template></category>
+
+</aiml>

@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- -->
+<!-- Campus Information -->
+
+<category>
+	<pattern>WHAT IS UCI</pattern>
+	<template>The University of California, Irvine (UCI, UC Irvine, or Irvine), is a public research university located in Irvine, California, United States, and one of the 10 campuses in the University of California (UC) system.</template>
+</category>
+
+<category><pattern>WHEN WAS THE LIBRARY FOUNDED</pattern>
+<template>As a primary resource for UCI, the library was one of the first units created in the early 1960s, even before the first students began classes in 1965.</template></category>
+
+<category>
+	<pattern>WHAT DOES UCI STAND FOR</pattern>
+	<template>UCI stands for the University of California, Irvine.</template>
+</category>
+<category>
+	<pattern>WHERE IS IRVINE</pattern>
+	<template>Irvine is in Orange County in Southern California.</template>
+</category>
+<category>
+	<pattern>WHERE IS ORANGE COUNTY</pattern>
+	<template>Orange County is in Southern California.</template>
+</category>
+<category>
+	<pattern>WHERE IS THE BEST BAR IN IRVINE</pattern>
+	<template>I don't know about Irvine but did you know we have a pub on campus! It is called the Anthill Pub and Grille.</template>
+</category>
+<category>
+	<pattern>WHERE IS THE BEST PLACE TO EAT AT UCI</pattern>
+	<template>That is a tough question!  We have a lot of great places to eat, take a look at the campus <a href=" https://food.uci.edu/dining/" target="_blank">Places to Eat</a> page!</template>
+</category>
+
+<category><pattern>WHERE TO EAT</pattern>
+<template>We have a lot of great places to eat, take a look at the campus <a href=" https://food.uci.edu/dining/" target="_blank">Places to Eat</a> page.</template></category>
+	<category><pattern>* WHERE TO EAT</pattern>
+	<template><srai>WHERE TO EAT</srai></template></category>
+	<category><pattern>food</pattern>
+	<template><srai>WHERE TO EAT</srai></template></category>
+	<category><pattern>vending</pattern>
+	<template><srai>WHERE TO EAT</srai></template></category>
+	<category><pattern>vending machine</pattern>
+	<template><srai>WHERE TO EAT</srai></template></category>
+	<category><pattern>food and drink</pattern>
+	<template><srai>WHERE TO EAT</srai></template></category>
+
+
+
+<category>
+	<pattern>HOW DO I GET TO UCI</pattern>
+	<template>Take a look at these <a href=" http://www.uci.edu/visit/directions.php" target="_blank">driving directions</a>.</template>
+</category>
+<category>
+	<pattern>WHEN DID UCI OPEN</pattern>
+	<template>The University of California, Irvine was established in 1965.</template></category>
+		<category><pattern>WHEN WAS UCI BUILT</pattern>
+		<template><srai>WHEN DID UCI OPEN</srai></template></category>
+		<category><pattern>WHAT YEAR DID UC IRVINE OPEN</pattern>
+		<template><srai>WHEN DID UCI OPEN</srai></template>
+</category>
+<category><pattern>WHERE IS STARBUCKS</pattern>
+<template>Starbucks Coffee is located in the Student Center next to The Hill, near Paul Merage and in Bio Sci. </template></category>
+
+<category><pattern>WHAT IS THE MOTTO FOR UCI</pattern>
+<template>Fiat lux (Latin) or Let there be light in English.</template></category>
+
+<category>
+	<pattern>WHAT WAS THE FIRST BUILDING ON CAMPUS</pattern>
+	<template>In 1964 UCI's first two buildings, the Interim Office Building and the Faculty Research Facility, were constructed on the North Campus at 
+	Jamboree and Campus Drive.</template>
+</category>
+<category>
+	<pattern>DO YOU KNOW HOW LONG THE OUTER RING OF RING ROAD IS ON CAMPUS</pattern>
+	<template>Ring Mall is the main pedestrian road used by students and faculty to travel around the core campus. The road measures up to a perfect mile and completely encircles Aldrich Park.</template>
+</category>
+<category>
+	<pattern>HOW LONG IS THE INNER RING</pattern>
+	<template>My botmaster couldn't find any data on how long the inner ring is but we know that the outer ring is a perfect mile.</template>
+</category>
+<category>
+	<pattern>ARE ANIMALS ALLOWED ON CAMPUS</pattern>
+	<template>Take a look at the <a href=" http://www.policies.uci.edu/adm/pols/905-40.html" target="_blank">campus policy</a> about animals on campus.</template>
+</category>
+<category>
+	<pattern>HOW FAR IS THE BEACH FROM CAMPUS</pattern>
+	<template>It's about 5 miles to Crystal Cove and around 10 miles to Huntington State Beach.</template>
+</category>
+<category>
+	<pattern>WHAT TYPE OF SHUTTLE SERVICE DOES THE CAMPUS OFFER</pattern>
+	<template>UCI has the <a href=" http://www.shuttle.uci.edu/" target="_blank">Anteater Express</a>.</template>
+</category>
+<category>
+	<pattern>HOW MUCH DOES IT COST TO PARK ON CAMPUS</pattern>
+	<template>A general pass is $10 and reserved parking is $14.00 per day. <a href=" http://www.parking.uci.edu/services/event/guestpermits.cfm" target="_blank">UCI 
+	Parking and Transportation</a> has more information about guest parking.</template></category>
+		<category><pattern>I*M A COMMUNITY MEMBER DO I NEED A PARKING PERMIT OR PASS TO PARK ON CAMPUS</pattern>
+		<template><srai>HOW MUCH DOES IT COST TO PARK ON CAMPUS</srai></template>
+</category>
+<category>
+	<pattern>DOES CAMPUS SELL DISCOUNT TICKETS TO *</pattern>
+	<template>ASUCI does sell <a href=" http://www.asuci.uci.edu/tickets/" target="_blank">discount tickets</a> to a number of attractions.</template>
+</category> 
+<category>
+	<pattern>IS THE WEATHER NICE IN IRVINE</pattern>
+	<template>I think that would depend on how you define nice! Irvine, like most of coastal Southern California, generally has a Mediterranean climate (Köppen climate classification Csa). Summers are warm-to-hot, and winters are cool-to-warm, rarely falling below freezing. Precipitation in Irvine occurs predominantly during the winter months. Although snow is nonexistent, frost occasionally occurs.</template>
+</category>
+<category>
+	<pattern>WHY IS THE UCI MASCOT AN ANTEATER</pattern>
+	<template>The anteater was chosen in 1965 when students were allowed to submit mascot candidates, which would be voted on in a campus election. Three undergraduates named Pat Glasgow, Bob Ernst, and Schuyler Hadley Basset III were credited with choosing the anteater and designing a cartoon representation, having been disappointed with other candidates such as a roadrunner, unicorn, seahawk and golden bison.</template></category>
+		<category><pattern>WHY IS AN ANTEATER THE MASCOT FOR UCI</pattern>
+		<template><srai>WHY IS THE UCI MASCOT AN ANTEATER</srai></template></category>
+		<category><pattern>WHY ANTEATER</pattern>
+		<template><srai>WHY IS THE UCI MASCOT AN ANTEATER</srai></template>
+</category>
+<category>
+	<pattern>WHEN WAS THE SCIENCE LIBRARY BUILT</pattern>
+	<template>The science library was built in 1994.</template>
+</category>
+<category>
+<pattern>WHERE IS THE NEAREST POST OFFICE</pattern>
+<template>The nearest post office is in the University Town Center (UTC).</template></category>
+
+<category>
+	<pattern>WHAT MALLS ARE CLOSE TO UCI</pattern>
+	<template>There are three malls that are close to UCI: Fashion Island, the Irvine Spectrum, and South Coast Plaza.</template>
+</category>
+<category>
+	<pattern>HOW MANY STUDENTS ARE AT UCI</pattern>
+	<template>As of 2019 we had a total of 35,220 enrolled students.</template></category>
+		<category><pattern>NUMBER OF STUDENTS AT THE UNIVERSITY</pattern>
+		<template><srai>HOW MANY STUDENTS ARE AT UCI</srai></template></category>
+		<category><pattern>HOW MANY STUDENTS ATTEND *</pattern>
+		<template><srai>HOW MANY STUDENTS ARE AT UCI</srai></template></category>
+<category>
+	<pattern>CHANCELLOR</pattern>
+	<template>Howard Gillman, Ph.D., became UC Irvine’s sixth chancellor on Sept. 18, 2014.</template></category>
+		<category><pattern>* CHANCELLOR</pattern>
+		<template><srai>CHANCELLOR</srai></template></category>
+		<category><pattern>CHANCELLOR *</pattern>
+		<template><srai>CHANCELLOR</srai></template></category>
+		<category><pattern>* CHANCELLOR *</pattern>
+		<template><srai>CHANCELLOR</srai></template></category>
+		<category><pattern>THE HEAD OF THE UNIVERSITY</pattern>
+		<template><srai>CHANCELLOR</srai></template>
+</category>
+<category>
+	<pattern>BOOK FOR MY COURSE</pattern>
+	<template>Do you need to purchase a course book or do you want to see if a book is on reserve? Say: course book or course reserves.</template></category>
+		<category><pattern>* BOOK FOR MY COURSE</pattern>
+		<template><srai>BOOK FOR MY COURSE</srai></template></category>
+		<category><pattern>BOOK FOR MY COURSE *</pattern>
+		<template><srai>BOOK FOR MY COURSE</srai></template></category>
+		<category><pattern>* BOOK FOR MY COURSE *</pattern>
+		<template><srai>BOOK FOR MY COURSE</srai></template></category>
+		<category><pattern>COURSE REQUIRES A BOOK</pattern>
+		<template><srai>BOOK FOR MY COURSE</srai></template></category>
+		<category><pattern>* COURSE REQUIRES A BOOK</pattern>
+		<template><srai>BOOK FOR MY COURSE</srai></template></category>
+		<category><pattern>COURSE REQUIRES A BOOK *</pattern>
+		<template><srai>BOOK FOR MY COURSE</srai></template></category>
+		<category><pattern>* COURSE REQUIRES A BOOK *</pattern>
+		<template><srai>BOOK FOR MY COURSE</srai></template></category>
+		<category><pattern>BUY BOOKS</pattern>
+		<template><srai>BOOK FOR MY COURSE</srai></template></category>
+		<category><pattern>* BUY BOOKS</pattern>
+		<template><srai>BOOK FOR MY COURSE</srai></template></category>
+		<category><pattern>BUY BOOKS *</pattern>
+		<template><srai>BOOK FOR MY COURSE</srai></template></category>
+		<category><pattern>* BUY BOOKS *</pattern>
+		<template><srai>BOOK FOR MY COURSE</srai></template></category>
+		<category><pattern>IS THERE AN * TEXTBOOK</pattern>
+		<template><srai>BOOK FOR MY COURSE</srai></template></category>
+		<category><pattern>* IS THERE AN * TEXTBOOK</pattern>
+		<template><srai>BOOK FOR MY COURSE</srai></template></category>
+		<category><pattern>IS THERE AN * TEXTBOOK *</pattern>
+		<template><srai>BOOK FOR MY COURSE</srai></template></category>
+		<category><pattern>* IS THERE AN * TEXTBOOK *</pattern>
+		<template><srai>BOOK FOR MY COURSE</srai></template></category>
+		<category><pattern>IS THERE A * TEXTBOOK</pattern>
+		<template><srai>BOOK FOR MY COURSE</srai></template></category>
+		<category><pattern>* IS THERE A * TEXTBOOK</pattern>
+		<template><srai>BOOK FOR MY COURSE</srai></template></category>
+		<category><pattern>IS THERE A * TEXTBOOK *</pattern>
+		<template><srai>BOOK FOR MY COURSE</srai></template></category>
+		<category><pattern>* IS THERE A * TEXTBOOK *</pattern>
+		<template><srai>BOOK FOR MY COURSE</srai></template></category>
+		<category><pattern>I AM IN * DO I NEED A COURSE BOOK</pattern>
+		<template><srai>BOOK FOR MY COURSE</srai></template></category>
+		<category><pattern>* I AM IN * DO I NEED A COURSE BOOK</pattern>
+		<template><srai>BOOK FOR MY COURSE</srai></template></category>
+		<category><pattern>I AM IN * DO I NEED A COURSE BOOK *</pattern>
+		<template><srai>BOOK FOR MY COURSE</srai></template></category>
+		<category><pattern>* I AM IN * DO I NEED A COURSE BOOK *</pattern>
+		<template><srai>BOOK FOR MY COURSE</srai></template></category>
+		<category><pattern>HOW DO I FIND COURSE BOOKS</pattern>
+		<template><srai>BOOK FOR MY COURSE</srai></template>
+</category>		
+<category>
+	<pattern>COURSE BOOK</pattern>
+	<that>Do you need to purchase a course book or do you want to see if a book is on reserve_</that>
+	<template>Take a look at the course materials tab on the <a href=" https://uci.bncollege.com/shop/uci/page/find-textbooks" target="_blank">UCI bookstore</a> website.</template>
+</category>
+<category>
+	<pattern>COURSE RESERVES</pattern>
+	<that>Do you need to purchase a course book or do you want to see if a book is on reserve_</that>	
+	<template><srai>FIND COURSE RESERVES</srai></template>
+</category>
+<!-- UCI sports -->
+<category>
+	<pattern>NATIONAL CHAMPIONSHIPS</pattern>
+	<template>The university has won 28 national championships in nine different sports and has had 63 individual national champions.</template></category>
+		<category><pattern>* NATIONAL CHAMPIONSHIPS</pattern>
+		<template><srai>NATIONAL CHAMPIONSHIPS</srai></template></category>
+		<category><pattern>NATIONAL CHAMPIONSHIPS *</pattern>
+		<template><srai>NATIONAL CHAMPIONSHIPS</srai></template></category>
+		<category><pattern>* NATIONAL CHAMPIONSHIPS *</pattern>
+		<template><srai>NATIONAL CHAMPIONSHIPS</srai></template>
+</category>
+<category>
+	<pattern>SCHOLAR ATHLETE AWARDS</pattern>
+	<template> Over 3,266 UCI students have earned this award.</template></category>
+		<category><pattern>* SCHOLAR ATHLETE AWARDS</pattern>
+		<template><srai>SCHOLAR ATHLETE AWARDS</srai></template></category>
+		<category><pattern>SCHOLAR ATHLETE AWARDS *</pattern>
+		<template><srai>SCHOLAR ATHLETE AWARDS</srai></template>
+</category>
+<category>
+	<pattern>CONFERENCE CHAMPIONSHIPS</pattern>
+	<template>66.</template></category>
+		<category><pattern>* CONFERENCE CHAMPIONSHIPS</pattern>
+		<template><srai>CONFERENCE CHAMPIONSHIPS</srai></template></category>
+		<category><pattern>* CONFERENCE CHAMPIONSHIPS *</pattern>
+		<template><srai>CONFERENCE CHAMPIONSHIPS</srai></template>
+	</category>
+<category>
+	<pattern>* ALL AMERICA DISTINCTION</pattern>
+	<template>More than 400.</template>
+</category>
+<category>
+	<pattern>DOES UCI HAVE A FOOTBALL TEAM</pattern>
+	<template>No, UCI does not have a football team.</template>
+</category>
+<category>
+	<pattern>BASEBALL TEAM</pattern>
+	<template>UCI does have a baseball team, check out <a href=" http://www.ucirvinesports.com/sports/m-basebl/index" target="_blank">UCIRVINESPORTS.COM</a> for more 
+	information.</template>
+</category>
+<category>
+	<pattern>BASKETBALL TEAM</pattern>
+	<template>UCI does have a basektball team, check out <a href=" http://www.ucirvinesports.com/sports/m-baskbl/index" target="_blank">UCIRVINESPORTS.COM</a> for more 
+	information.</template>
+</category>
+<!--UCI Alum Authors-->
+<category>
+	<pattern>WHO IS JAMES MCMICHAEL</pattern>
+	<template>McMichael is an Emeritus Professor of English and he was the director of the Master of Fine Arts Poetry Writing Program at the University of California, Irvine.  He is most known for his poetry.</template>
+</category>
+<category>
+	<pattern>WHO IS RON CARLSON</pattern>
+	<template>Carlson currently a Professor of English and Director, MFA/Fiction at the University of California, Irvine. His short story "Keith", from The Hotel Eden, was adapted into a film by Todd Kessler.</template>
+</category>
+<category>
+	<pattern>WHO IS ROBERT PETERS</pattern>
+	<template>Robert Peters is an American poet, critic, scholar, playwright, editor, and actor. He is a University of California, Irvine Emeritus Professor of English.</template>
+</category>
+<category>
+	<pattern>WHO IS ALICE SEBOLD</pattern>
+	<template>Alice Sebold is an American writer. She has published three books: <em>Lucky</em>, <em>The Lovely Bones</em> and <em>The Almost Moon</em>. In 1995, Sebold applied to graduate school at University of California, Irvine.</template>
+</category>
+<category>
+	<pattern>WHO IS AIMEE BENDER</pattern>
+	<template>Aimee Bender earned a Master of Fine Arts from creative writing MFA program at University of California, Irvine. She has written <em>The Girl in the Flammable Skirt</em> and <em>An Invisible Sign of My Own</em>.</template>
+</category>
+<category>
+	<pattern>WHO IS RICHARD FORD</pattern>
+	<template>Richard Ford is an American novelist and short story writer. His best-known works are the novel <em>The Sportswriter</em>, <em>Independence Day</em> and <em>The Lay of the Land</em>.  He has a Masters of Fine Arts in creative writing from the University of California, Irvine.</template>
+</category>
+<category>
+	<pattern>WHO IS YUSEF KOMUNYAKAA</pattern>
+	<template>Yusef Komunyakaa is an American poet, he was a recipient of the 1994 Kingsley Tufts Poetry Award, for <em>Neon Vernacular</em>. He earned his M.F.A. in Creative Writing from the University of California, Irvine.</template>
+</category>
+<category>
+	<pattern>WHO IS MARTI LEIMBACK</pattern>
+	<template>Martin Leimbach is an American fiction writer. Her first novel, <em>Dying Young</em>, was an international bestseller. She was a Regent's Fellow at the University of California, Irvine, where she wrote Dying Young.</template>
+</category> 
+<category>
+	<pattern>WHO IS WHITNEY OTTO</pattern>
+	<template>Whitney Otto is a graduate of UC Irvine's MFA program in writing. She has written <em>Eight Girls Taking Pictures</em> and <em>How to Make an American Quilt</em>.</template>
+</category>
+<category>
+	<pattern>WHO IS T. JEFFERSON PARKER</pattern>
+	<template>T. Jefferson Parker is an American novelist. Parker's books are police procedurals set in Southern California. He has a bachelor's degree in English from the University of California, Irvine.</template>
+</category>
+<category>
+	<pattern>WHO IS GLEN DAVID GOLD</pattern>
+	<template>Glen David Gold is known as the author of <em>Carter Beats the Devil</em>. He received his MFA in creative writing from the University of California at Irvine.</template>
+</category>
+<category>
+	<pattern>WHO IS MAILE MELOY</pattern>
+	<template>Meloy graduated from the University of California, Irvine with an M.F.A. in fiction. Meloy won The Paris Review's Aga Khan Prize for Fiction for her story, <em>Aqua Boulevard</em>.</template>
+</category>
+<category>
+	<pattern>WHO IS JOSHUA FERRIS</pattern>
+	<template>Joshua Ferris is an American author best known for his debut 2007 novel <em>Then We Came to the End</em>. He received his MFA in writing from UC Irvine.</template>
+</category>
+<category>
+	<pattern>WHO IS MICAHEL CHABON</pattern>
+	<template>Chabon received his Master of Fine Arts in creative writing from the University of California, Irvine. He is known for his novels <em>The Mysteries of Pittsburgh</em> and <em>The Amazing Adventures of Kavalier and Clay</em>, he won the 2001 Pulitzer Prize for Fiction.</template>
+	</category>  
+<category>
+	<pattern>WHAT AUTHORS ARE ASSOCIATED WITH UCI</pattern>
+	<template>The UC Irvine writing program has produced a number of authors, such as Michael Chabon, James McMichael, Ron Carlson, Robert Peters, Alice Sebold, Aimee Bender, Richard Ford, Yusef Komunyakaa, Marti Leimbach, Whitney Otto, T. Jefferson Parker, Glen David Gold, Maile Meloy, and Joshua 
+	Ferris.</template>
+</category>
+<!--Technology-->
+<category>
+	<pattern>CAMPUS SOFTWARE LIST</pattern>
+	<template>I couldn't find a list of ALL campus software but here is a list for 
+	<a href=" https://www.oit.uci.edu/licenses/" target="_blank">campus computer labs</a> and this page has information on the specialized software in the <a href=" http://www.lib.uci.edu/mrc/computers-and-consulting-service" target="_blank">MRC</a>.</template>
+</category>
+<category>
+	<pattern>OIT</pattern>
+	<template>The OIT webpage is available at <a href=" http://www.oit.uci.edu/" target="_blank">http://www.oit.uci.edu/</a>.</template>
+</category>
+<!--misc-->
+<category>
+	<pattern>ZOT</pattern>
+	<template>Zot is the sound made by the tongue of the anteater in the comic strip B.C. as it flicks out to catch an ant.</template></category>
+		<category><pattern>* ZOT</pattern>
+		<template><srai>ZOT</srai></template></category>
+		<category><pattern>ZOT *</pattern>
+		<template><srai>ZOT</srai></template></category>
+		<category><pattern>* ZOT *</pattern>
+		<template><srai>ZOT</srai></template>
+</category>
+<category>
+	<pattern>HOW DO YOU ZOT</pattern>
+	<template>I Zot by helping people!</template>
+</category>
+<category>
+	<pattern>WHERE IS MESA COURT</pattern>
+	<template>Mesa Court is located at 4053 Mesa Road, here is their <a href=" http://housing.uci.edu/housingOptions/Mesa_Court.html" target="_blank">homepage</a>.</template>
+</category>
+<category>
+	<pattern>WHERE CAN I FIND A LANGUAGE CLASS</pattern>
+	<template>You can check the UCI <a href=" http://websoc.reg.uci.edu/perl/WebSoc" target="_blank">Schedule of Classes</a>.</template>
+</category>  
+<category>
+	<pattern>UCI FOUNDED</pattern>
+	<template>UCI was established in 1965.</template></category>
+		<category><pattern>* UCI FOUNDED</pattern>
+		<template><srai>UCI FOUNDED</srai></template></category>
+		<category><pattern>HOW LONG HAS UCI BEEN A UNIVERSITY</pattern>
+		<template><srai>UCI FOUNDED</srai></template>
+</category>
+<category>
+	<pattern>WHO * LANGSON</pattern>
+	<template>Langson is president and owner of Investment Building Group, a Southern California-based commercial real estate development group.</template></category>
+		<category><pattern>* WHOM WAS THE LANGSON LIBRARY NAMED</pattern>
+		<template><srai>WHO <star /> LANGSON</srai></template>
+</category>
+<category>
+	<pattern>REGISTER</pattern>
+	<template>Take a look at the <a href=" http://www.reg.uci.edu/navigation/calendars.html" target="_blank">Academic Calendar</a> for important dates.</template></category>
+		<category><pattern>* REGISTER</pattern>
+		<template><srai>REGISTER</srai></template></category>
+		<category><pattern>REGISTER *</pattern>
+		<template><srai>REGISTER</srai></template></category>
+		<category><pattern>* REGISTER *</pattern>
+		<template><srai>REGISTER</srai></template>
+</category>
+<category>
+<pattern>SWAG MAN</pattern>
+	<template>The UCI Swag Man is a cultural phenomenon. He is an anonymous male who can commonly be found walking around campus...with "swagger". His outfit nearly always consists of a Bulls Jersey with the number 23, sunglasses, baggy khaki pants, a gatorade bottle, and a black cap and sneakers.</template></category>
+		<category><pattern>* SWAG MAN</pattern>
+		<template><srai>SWAG MAN</srai></template></category>
+		<category><pattern>SWAG MAN *</pattern>
+		<template><srai>SWAG MAN</srai></template></category>
+		<category><pattern>* SWAG MAN *</pattern>
+		<template><srai>SWAG MAN</srai></template>
+</category>
+<category>
+	<pattern>UCI</pattern>
+	<template>http://www.uci.edu/</template>
+</category>
+<category>
+	<pattern>I20</pattern>
+	<template>Try talking to the UCI International Center at(949) 824-7249 or check the website at http://www.ic.uci.edu/.</template></category>
+		<category><pattern>* I20</pattern>
+		<template><srai>I20</srai></template></category>
+		<category><pattern>I20 *</pattern>
+		<template><srai>I20</srai></template></category>
+		<category><pattern>* I20 *</pattern>
+		<template><srai>I20</srai></template></category>
+		<category><pattern>I*20</pattern>
+		<template><srai>I20</srai></template></category>
+		<category><pattern>* I*20</pattern>
+		<template><srai>I20</srai></template></category>
+		<category><pattern>I*20 *</pattern>
+		<template><srai>I20</srai></template></category>
+		<category><pattern>* I*20 *</pattern>
+		<template><srai>I20</srai></template></category>
+		<category><pattern>I 20</pattern>
+		<template><srai>I20</srai></template></category>
+		<category><pattern>* I 20</pattern>
+		<template><srai>I20</srai></template></category>
+		<category><pattern>I 20 *</pattern>
+		<template><srai>I20</srai></template></category>
+		<category><pattern>* I 20 *</pattern>
+		<template><srai>I20</srai></template></category>
+<category>
+	<pattern>CAMPUS SPEECH CODE</pattern>	
+	<template>Take a look at the <a href=" http://dos.uci.edu/conduct/students/code-of-student-conduct-speech_and-advocacy-policy.php" target="_blank">Speech and Advocacy Policy </a>.</template>
+</category>
+<category>
+	<pattern>PETER THE ANTEATER</pattern>
+	<template>Peter the Anteater is the UCI mascot, here is more information: http://ucirvinesports.com/anteater/index.html.</template></category>
+		<category><pattern>* PETER THE ANTEATER</pattern>
+		<template><srai>PETER THE ANTEATER</srai></template></category>
+		<category><pattern>PETER THE ANTEATER *</pattern>
+		<template><srai>PETER THE ANTEATER</srai></template></category>
+		<category><pattern>* PETER THE ANTEATER *</pattern>
+		<template><srai>PETER THE ANTEATER</srai></template></category>
+		<category><pattern>* MASCOT *</pattern>
+		<template><srai>PETER THE ANTEATER</srai></template></category>
+		<category><pattern>MASCOT *</pattern>
+		<template><srai>PETER THE ANTEATER</srai></template></category>
+		<category><pattern>* MASCOT</pattern>
+		<template><srai>PETER THE ANTEATER</srai></template></category>
+		<category><pattern>MASCOT</pattern>
+		<template><srai>PETER THE ANTEATER</srai></template></category>
+		<category><pattern>WHO IS PETER</pattern>
+		<template><srai>PETER THE ANTEATER</srai></template></category>
+<category>
+	<pattern>* FOUNDER OF UCI</pattern>
+	<template>UCI was one of three new UC campuses established in the 1960s to accommodate growing enrollments across the UC system. A site in Orange County was identified in 1959, and in the following year the Irvine Company sold the University of California 1,000 acres (400 ha) of land for one dollar to establish the new campus. President Lyndon B. Johnson dedicated the campus in 1964.</template>
+</category>
+<category>
+	<pattern>SCIENCE LIBRARY ARCHITECT</pattern>
+	<template>The master architect of the Science Library at UCI was Sir James Stirling: https://en.wikipedia.org/wiki/James_Stirling_%28architect%29</template></category>
+		<category><pattern>* ARCHITECT OF THE SCIENCE LIBRARY</pattern>
+		<template><srai>SCIENCE LIBRARY ARCHITECT</srai></template></category>
+		<category><pattern>* ARCHITECTS OF THE SCIENCE LIBRARY</pattern>
+		<template><srai>SCIENCE LIBRARY ARCHITECT</srai></template></category>
+		<category><pattern>* ARCHITECT OF SCIENCE LIBRARY</pattern>
+		<template><srai>SCIENCE LIBRARY ARCHITECT</srai></template></category>
+		<category><pattern>* ARCHITECTS OF SCIENCE LIBRARY</pattern>
+		<template><srai>SCIENCE LIBRARY ARCHITECT</srai></template></category>
+		<category><pattern>WHO BUILT THE SCIENCE LIBRARY</pattern>
+		<template><srai>SCIENCE LIBRARY ARCHITECT</srai></template>
+</category>
+<category>
+	<pattern>CLARK KERR</pattern>
+	<template>Clark Kerr (May 17, 1911 – December 1, 2003) was an American professor of economics and academic administrator. He was the first chancellor of the University of California, Berkeley, and twelfth president of the University of California.</template></category>	
+		<category><pattern>* CLARK KERR</pattern>
+		<template><srai>CLARK KERR</srai></template></category>
+		<category><pattern>CLARK KERR *</pattern>
+		<template><srai>CLARK KERR</srai></template></category>
+		<category><pattern>* CLARK KERR *</pattern>
+		<template><srai>CLARK KERR</srai></template>
+</category>	
+<category>
+	<pattern>DANIEL ALDRICH</pattern>
+	<template>Daniel Gaskill Aldrich, Jr. (July 12, 1918 – April 9, 1990) was the founding chancellor at the University of California, Irvine from 1962 to 1984. He was Acting Chancellor at the University of California, Riverside from 1984 to 1985, and Acting Chancellor at the University of California, Santa Barbara from 1986 to 1987.</template></category>
+		<category><pattern>* DANIEL ALDRICH</pattern>
+		<template><srai>DANIEL ALDRICH</srai></template></category>
+		<category><pattern>DANIEL ALDRICH *</pattern>
+		<template><srai>DANIEL ALDRICH</srai></template></category>
+		<category><pattern>* DANIEL ALDRICH *</pattern>
+		<template><srai>DANIEL ALDRICH</srai></template>
+</category>
+<category>
+	<pattern>WILLIAM PEREIRA</pattern>
+	<template>William Leonard Pereira (April 25, 1909 – November 13, 1985) was an American architect from Chicago, Illinois, who was noted for his futuristic designs of landmark buildings such as the Transamerica Pyramid in San Francisco.  He was responsible for the campus plan for UCI.</template></category>
+		<category><pattern>* WILLIAM PEREIRA</pattern>
+		<template><srai>WILLIAM PEREIRA</srai></template></category>
+		<category><pattern>WILLIAM PEREIRA *</pattern>
+		<template><srai>WILLIAM PEREIRA</srai></template></category>
+		<category><pattern>* WILLIAM PEREIRA *</pattern>
+		<template><srai>WILLIAM PEREIRA</srai></template>
+</category>
+<category>
+	<pattern>UCI PARK</pattern>
+	<template>The UCI Park is called Aldrich Park.</template></category>
+		<category><pattern>* UCI PARK</pattern>
+		<template><srai>UCI PARK</srai></template>
+	</category>
+<category>
+	<pattern>WHEN WAS THE FIRST DAY OF CLASSES *</pattern>
+	<template>On October 4, 1965 the campus began operations with 1,589 students, 241 staff members, 119 faculty, and 43 teaching assistants.</template>
+</category>
+<category>
+	<pattern>WHERE IS * PAY PHONE</pattern>
+	<template>Unfortunately, the last campus pay phone was removed in December 2017 due to lack of use. There are emergency-only phones located around campus where you can report fires, crimes, accidents, medical emergencies or suspicious activities - look for a <a href=" http://www.police.uci.edu/police/safety_brochures/Bluelight_Phones.pdf" target="_blank">blue light</a> around campus.</template>
+</category>
+<category>
+	<pattern>WHERE IS AN ATM</pattern>
+	<template>There are ATMs in several locations on campus. The closest to the campus libraries are located on the Student Center Terrace outside of the East Food Court.</template>
+</category>
+		<category><pattern>WHERE IS ATM</pattern>
+		<template><srai>WHERE IS AN ATM</srai></template></category>
+		<category><pattern>WHERE * ATM</pattern>
+		<template><srai>WHERE IS AN ATM</srai></template></category>
+		<category><pattern>* WHERE * ATM</pattern>
+		<template><srai>WHERE IS AN ATM</srai></template></category>
+		<category><pattern>WHERE * ATM *</pattern>
+		<template><srai>WHERE IS AN ATM</srai></template></category>
+		<category><pattern>* WHERE * ATM *</pattern>
+		<template><srai>WHERE IS AN ATM</srai></template></category>
+
+<category>
+	<pattern>CAN I BUY SCANTRON FORMS AT THE LIBRARY</pattern>
+	<template>The library doesn't have the infrastructure to sell items. You can purchase ScanTron forms at The Hill.</template>
+</category>
+		<category><pattern>DOES THE LIBRARY SELL SCANTRON FORMS</pattern>
+		<template><srai>CAN I BUY SCANTRON FORMS AT THE LIBRARY</srai></template></category>
+		<category><pattern>SCANTRON FORMS</pattern>
+		<template><srai>CAN I BUY SCANTRON FORMS AT THE LIBRARY</srai></template></category>
+		<category><pattern>* SCANTRON FORMS</pattern>
+		<template><srai>CAN I BUY SCANTRON FORMS AT THE LIBRARY</srai></template></category>
+		<category><pattern>SCANTRON FORMS *</pattern>
+		<template><srai>CAN I BUY SCANTRON FORMS AT THE LIBRARY</srai></template></category>
+		<category><pattern>* SCANTRON FORMS *</pattern>
+		<template><srai>CAN I BUY SCANTRON FORMS AT THE LIBRARY</srai></template></category>
+
+</aiml>

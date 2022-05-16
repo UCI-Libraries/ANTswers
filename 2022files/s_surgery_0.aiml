@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- SURGERY -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>SURGERY *</pattern> 
+	<template><think><set name="topic">surgery</set></think><sr /></template></category>
+
+<category><pattern>SURGERY</pattern>	
+	<template>For resources on surgery check out the <a href=" http://guides.lib.uci.edu/surgery" target="_blank">Surgery Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<!-- Subject keywords-->
+
+<category><pattern>DISSECTION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> and/or <a href=" http://accesssurgery.mhmedical.com/" target="_blank">AccessSurgery</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/surgery" target="_blank">Surgery Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>AMBULATORY SURGERY</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>SURGICAL ANATOMY</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>TOPOGRAPHICAL ANATOMY</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>ANESTHESIOLOGY</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>ARTIFICIAL ORGANS</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>ASPIRATION AND ASPIRATORS</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>BLOOD TRANSFUSION</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>BONE GRAFTING</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>CHEMOSURGERY</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>CICATRICES</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>COMMUNICATION IN SURGERY</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>CRYOSURGERY</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>SURGICAL DIAGNOSIS</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>ELECTROSURGERY</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>EXCISION</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>HOMEOPATHIC SURGERY</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>HYPNOTISM IN SURGERY</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>INDUCED HYPOTHERMIA</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>ARTIFICIAL IMPLANTS</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>LASERS IN SURGERY</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>MICROSURGERY</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>SURGICAL OPERATIONS</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>ORTHOPEDICS</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>SURGICAL PATHOLOGY</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>PLASTICS IN SURGERY</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>PSYCHIC SURGERY</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>SILICONES IN SURGERY</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>SKIN GRAFTING</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>SURGICAL EMERGENCIES</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>SURGICAL ERRORS</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>SURGICAL TECHNOLOGY</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>TELEVISION IN SURGERY</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>SURGICAL THERAPEUTICS</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>TRANSPLANTATION OF ORGANS</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>TRANSPLANTATION OF TISSUES</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>TRAUMATOLOGY</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>TREPHINING</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>TRUSSES</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>ULTRASONICS IN SURGERY</pattern>
+<template><srai>DISSECTION</srai></template></category>
+<category><pattern>VETERINARY SURGERY</pattern>
+<template><srai>DISSECTION</srai></template></category>
+
+</aiml>

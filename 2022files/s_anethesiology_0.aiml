@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- ANESTHESIOLOGY -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>ANESTHESIOLOGY *</pattern>
+	<template><think><set name="topic">anesthesiology</set></think><sr /></template></category>
+
+<category><pattern>ANESTHESIOLOGY</pattern>	
+	<template>For resources on anesthesiology check out the <a href=" http://guides.lib.uci.edu/anesthesiology" target="_blank">Anesthesiology and Perioperative Care Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+
+<!-- Interactions -->
+
+<category><pattern>ANESTHESIOLOGY</pattern>
+	<that>Anesthesia Adjuvants as a subject is included in the broader subjects of Anesthesiology and Pharmacology Would you like resource recommendations for anesthesiology or pharmacology_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> and/or <a href=" http://accesssurgery.mhmedical.com/" target="_blank">AccessSurgery</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/anesthesiology" target="_blank">Anesthesiology and Perioperative Care Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>ANESTHESIA</pattern>
+	<that>Surgery as a subject is included in the broader subjects of Anesthesiology and Medicine Would you like resource recommendations for anesthesiology or medicine_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> and/or <a href=" http://accesssurgery.mhmedical.com/" target="_blank">AccessSurgery</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/anesthesiology" target="_blank">Anesthesiology and Perioperative Care Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<!-- Subject keywords-->
+
+<category><pattern>ANESTHESIA</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/17708" target="_blank">PubMed</a> and/or <a href=" http://accesssurgery.mhmedical.com/" target="_blank">AccessSurgery</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/anesthesiology" target="_blank">Anesthesiology and Perioperative Care Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>ANAESTHESIOLOGY</pattern>
+<template><srai>ANESTHESIA</srai></template></category>
+<category><pattern>ANESTHESIOLOGY</pattern>
+<template><srai>ANESTHESIA</srai></template></category>
+<category><pattern>PAIN</pattern>
+<template><srai>ANESTHESIA</srai></template></category>
+<category><pattern>PAIN MANAGEMENT</pattern>
+<template><srai>ANESTHESIA</srai></template></category>
+<category><pattern>ANALGESIA</pattern>
+<template><srai>ANESTHESIA</srai></template></category>
+<category><pattern>ANESTHETIC</pattern>
+<template><srai>ANESTHESIA</srai></template></category>
+<category><pattern>ANAESTHETIC</pattern>
+<template><srai>ANESTHESIA</srai></template></category>
+
+</aiml>

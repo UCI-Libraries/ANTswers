@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Conversation starting with O.  In rough alphabetical order.-->
+<!-- -->
+
+<category><pattern>O *</pattern>
+<template><sr/></template></category>
+
+<!--OB-->
+
+<category><pattern>_ OBVIOUSLY *</pattern>
+<template><srai>  <star />  <star index="2" /></srai></template></category>
+
+<category><pattern>OBVIOIUSLY *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>OBVIOUSLY *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>OBVIOUSLY</pattern>
+<template>What makes it so obvious?</template></category>
+
+<!--OC-->
+
+<category><pattern>* O CLOCK</pattern>
+<template>That's rather <random> <li>late.</li> <li>early.</li> <li>late for me.</li></random></template></category>
+
+<category><pattern>OCEAN WATER IS SALTY</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>OCEANS ARE HARD</pattern>
+<template>Not by any means.</template></category>
+
+<category><pattern>OCEAN WATER IS DRINKABLE</pattern>
+<template>Absolutely not.</template></category>
+
+<category><pattern>OCTOBER FOLLOWS SEPTEMBER</pattern>
+<template>Positively.</template></category>
+
+<!--OD-->
+
+<category><pattern>ODD *</pattern>
+<template>I thought it was rather odd, too.</template></category>
+
+<!--OF-->
+
+<category><pattern>_ OF COURSE</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>_ OFTEN</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>* OF YOU</pattern>
+<template>Are you asking about my <person/> ?</template></category>
+
+<category><pattern>OF *</pattern>
+<template>That is something I haven't heard of.</template></category>
+
+<category><pattern>OFTEN</pattern>
+<template>Would you say once a week or more?</template></category>
+
+<category><pattern>OF WHAT</pattern>
+<template>I have no idea what to say now.</template></category>
+
+<category><pattern>OF YOURS</pattern>
+<template><random>  <li>Perhaps.</li><li>It could be.</li><li>What do you think?</li></random></template></category>
+
+<category><pattern>OFF *</pattern>
+<template>On and off.</template></category>
+
+<category><pattern>OF THESE QUESTIONS ARE RELATIVE</pattern>
+<template>Sometimes.</template></category>
+
+<category><pattern>OF COURSE I DO</pattern>
+<template>Of course you do?</template></category>
+
+<category><pattern>OF FALSE</pattern>
+<template>Maybe.</template></category>
+
+<category><pattern>OF THE EARTH IS WATER</pattern>
+<template>Most assuredly.</template></category>
+
+<category><pattern>OFFICIAL LANGUAGE OF TURKEY IS TURKISH</pattern>
+<template>I am certain.</template></category>
+
+<!--OH-->
+
+<category><pattern>OHIO</pattern>
+<template>Round on the ends, high in the middle, Oh-hi-o.</template></category>
+
+<category><pattern>OH YES</pattern>
+<template>You sound excited.</template></category>
+
+	<category><pattern>NOT</pattern>
+	<that>YOU SOUND EXCITED</that>
+	<template>It's hard to read emotions online.</template></category>
+
+<category><pattern>OH WELL *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>OH *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>OH WELL</pattern>
+<template>That's about it.</template></category>
+
+<!--OI-->
+	
+<category><pattern>OIL IS SLIPPERY</pattern>
+<template>Yes.</template></category>
+
+<!--OJ-->
+
+<category><pattern>O J SIMPSON IS GUILTY</pattern>
+<template>Always.</template></category>
+
+<!--OK-->
+
+<category><pattern>_ OK</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>OK LET US TALK ABOUT YOU</pattern>
+<template>What do you want to know about <set name="topic">me</set>?</template></category>
+
+<category><pattern>OK* WHEN</pattern>
+<template>Check back with me in a couple of days and try your question again.  My botmaster tries to fix me quickly.</template></category>
+
+<category><pattern>OKAY</pattern>
+<template>Good.</template></category>
+
+
+<category><pattern>OK</pattern>
+<template>Dokey!</template></category>
+	<category><pattern>OKEU</pattern>
+	<template><srai>OK</srai></template></category>
+	<category><pattern>OKIE</pattern>
+	<template><srai>OK</srai></template></category>
+	<category><pattern>OKEY</pattern>
+	<template><srai>OK</srai></template></category>
+	
+<!--OL-->
+
+<category><pattern>OLD ENOUGH</pattern>
+<template>Your age is old enough.</template></category>
+	<category><pattern>OLD ENOUGH *</pattern>
+	<template><srai>old enough</srai></template></category>
+
+<category><pattern>OLYMPICS ORIGINATED IN GREECE</pattern>
+<template>Precisely.</template></category>
+
+<category><pattern>OLYMPICS WERE FIRST HELD IN 18TH CENTURY</pattern>
+<template>Not very often.</template></category>
+
+<category><pattern>OLYMPIA IS THE CAPITAL OF WASHINGTON</pattern>
+<template>Doesn't seem likely.</template></category>
+
+<category><pattern>OLD IS ANYONE OVER 30</pattern>
+<template>Absolutely not.</template></category>
+
+<!--OM-->
+
+<category><pattern>OMG</pattern>
+<template>Are you alarmed?</template></category>
+
+<category><pattern>OMEGA IS ALPHA</pattern>
+<template>Not at all.</template></category>
+
+<category><pattern>OMNIPOTENT MEANS ALL POWERFUL</pattern>
+<template>Yes.</template></category>
+
+<!--ON-->
+
+<category><pattern>_ ONCE</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>_ ONE DAY</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>* ON ELIZA</pattern>
+<template>ELIZA may be the most successful AI program ever devised.</template></category>
+
+<category><pattern>ONE OF THESE DAYS *</pattern>
+<template><sr/></template></category>
+
+<category><pattern>ONE WHAT</pattern>
+<template>I don't know what.</template></category>
+
+<category><pattern>ONE THOUSAND</pattern>
+<template><random><li><random>   <li>That is a round number.</li><li>It could be an approximate estimate.</li><li>Do you believe it is the true value?</li>
+</random></li><li>That is a round number.</li><li>It could be an approximate estimate.</li><li>Do you believe it is the true value?</li></random></template></category>
+
+<category><pattern>ONE YEAR</pattern>
+<template><random>  <li>Not very long.</li><li>That's a long time.</li></random></template></category>
+
+<category><pattern>ONE</pattern>
+<template>Two</template></category>
+
+<category><pattern>ONLY YOU</pattern>
+<template>Suppose I said yes.</template></category>
+
+<category><pattern>ONLY ONE</pattern>
+<template>How much would you pay for one?</template></category>
+
+<category><pattern>ONCE UPON A TIME</pattern>
+<template>...</template></category>
+
+<category><pattern>ONCE</pattern>
+<template>When?</template></category>
+
+<category><pattern>ON WHAT BASIS</pattern>
+<template>A perfectly solid logical basis.</template></category>
+
+<category><pattern>ON WHAT</pattern>
+<template>The red block is on the green block.</template></category>
+
+<category><pattern>ON TV</pattern>
+<template>Which show was that?</template></category>
+	<category><pattern>ON TV *</pattern>
+	<template><srai>on tv</srai></template></category>
+
+<category><pattern>ON STAR TREK</pattern>
+<template>Which episode?</template></category>
+
+<category><pattern>ON THE NET</pattern>
+<template>Can you remember the website?</template></category>
+
+<category><pattern>ON THE SCREEN</pattern>
+<template>Select a point with your cursor and click there.</template></category>
+
+<category><pattern>ON THE FLOOR</pattern>
+<template>That doesn't sound very comfortable.</template></category>
+
+<category><pattern>ON THE RADIO</pattern>
+<template>What station?  What city are you in?</template></category>
+
+<category><pattern>ON A CHAIR</pattern>
+<template>Is it very comfortable?</template></category>
+
+<category><pattern>ON TOAST</pattern>
+<template>Sounds delicious.</template></category>
+
+<category><pattern>ON MY SCREEN</pattern>
+<template><random><li>Please select a point with your cursor and click.</li><li>Please select a point with your cursor.</li></random></template></category>
+	<category><pattern>ON MY COMPUTER</pattern>
+	<template><srai>on my screen</srai></template></category>
+	<category><pattern>ON MY * SCREEN</pattern>
+	<template><srai>on my screen</srai></template></category>
+
+<category><pattern>ONE LIKE YOU</pattern>
+<template>Well go ahead and download me then.</template></category>
+
+<category><pattern>ONE * LIKE YOU</pattern>
+<template>Why don't you just download me?</template></category>
+
+<category><pattern>ONE OF THESE *</pattern>
+<template>Imagine what two of them could do.</template></category>
+
+<category><pattern>ON BOARD *</pattern>
+<template>How is <person/>?</template></category>
+
+<category><pattern>ON THE PLANET</pattern>
+<template>Which planet?</template></category>
+
+<category><pattern>ON THE BRIDGE</pattern>
+<template>I thought you were.</template></category>
+
+<category><pattern>ONLY IDIOTS *</pattern>
+<template>Are you calling me an idiot?</template></category>
+
+<category><pattern>ONLY FOR *</pattern>
+<template>That's what I always say.</template></category>
+
+<category><pattern>ONLY 5 *</pattern>
+<template>Is that all?</template></category>
+
+<category><pattern>ONLY ONCE *</pattern>
+<template>Do you think it could happen again?</template></category>
+
+<category><pattern>ONLY FIFTEEN *</pattern>
+<template>Fifteen is a lot.</template></category>
+
+<category><pattern>ON WHAT CONTINENT CAN YOU FIND *</pattern>
+<template>Asia.</template></category>
+
+<category><pattern>ON WHAT BODY PART SHOULD YOU *</pattern>
+<template>Head.</template></category>
+
+<category><pattern>ON TV S SEINFELD WHAT TYPE *</pattern>
+<template>Proctologist.</template></category>
+
+<category><pattern>ON MY *</pattern>
+<template>Please specify location.</template></category>
+
+<category><pattern>ON TOP *</pattern>
+<template>How did it get there?</template></category>
+
+<category><pattern>ON *</pattern>
+<template>What is <set name="it">      <set name="topic">on <person/>      </set>     </set> like on <person/>.</template></category>
+
+<category><pattern>ONE MINUTE *</pattern>
+<template><random><li><random>   <li>I can wait.</li>   <li>Sixty seconds is not long.</li>   <li>Things change.</li>  </random></li> <li>I can wait.</li> <li>Sixty seconds is not long.</li> <li>Things change.</li></random></template></category>
+
+<category><pattern>ONE THAT CAN *</pattern>
+<template>Do you think I could <person/>?</template></category>
+	<category><pattern>ONE THAT CAN ACTUALLY *</pattern>
+	<template><srai>one that can <star /></srai></template></category>
+
+<category><pattern>ONE THAT * MONEY</pattern>
+<template>What a coincidence, I am looking for that one too.</template></category>
+
+<category><pattern>ONE THAT *</pattern>
+<template>How much would you pay for it?</template></category>
+	<category><pattern>ONE THAT ACTUALLY *</pattern>
+	<template><srai>one that <star /></srai></template></category>
+
+<category><pattern>ONE IN *</pattern>
+<template>Very rare indeed.</template></category>
+
+<category><pattern>ONE GUY *</pattern>
+<template>I can imagine it.</template></category>
+
+<category><pattern>ONE PLUS *</pattern>
+<template>Use a calculator!</template></category>
+
+<category><pattern>ONE WHO *</pattern>
+<template>Perhaps I am that one.</template></category>
+
+<category><pattern>ONE OR *</pattern>
+<template>I'm not sure if one isn't better.</template></category>
+
+<category><pattern>ONE IS *</pattern>
+<template>I know one   <random>      <li>comes after zero</li>      <li>is between zero and two</li>      <li>is the smallest integer</li>     </random>  but I had no idea it was <person/>.</template></category>
+
+<category><pattern>ONE YEAR *</pattern>
+<template><random><li><random>   <li>Is this one of your Earth years?</li>   <li>A lot can happen in 12 months.</li>   <li>It might take that long.</li>  </random></li> <li>Is this one of your Earth years?</li> <li>A lot can happen in 12 months.</li> <li>It might take that long.</li></random></template></category>
+
+<category><pattern>ONE *</pattern>
+<template>One what?</template></category>
+
+<category><pattern>ONCE *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>ONCE UPON *</pattern>
+<template>I'm listening.</template></category>
+
+<category><pattern>ONES *</pattern>
+<template>Why do you want that kind?</template></category>
+
+<category><pattern>ONE DAY *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>ONE CAN *</pattern>
+<template><random> <li>  <srai>YOU CAN <star/>  </srai> </li> <li>  <srai>I CAN <star/>  </srai> </li> </random></template></category>
+
+<category><pattern>ONE PLUS ONE WILL BE TWO</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>ONE AND ONE WILL BE TWO</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>ON AVERAGE WOMEN ARE TALLER THAN MEN</pattern>
+<template>No.</template></category>
+
+<category><pattern>ONE RELIGION SHOULD RULE THE WORLD</pattern>
+<template>No.</template></category>
+
+<category><pattern>ON MARS IS THE SKY BLUE</pattern>
+<template>Never.</template></category>
+
+<category><pattern>ON WHICH CONTINET IS GERMANY LOCATED</pattern>
+<template>I don't think so.</template></category>
+
+<category><pattern>ONE KILOBYTE EQUAL 1000 BYTES</pattern>
+<template>I think so.</template></category>
+
+<category><pattern>ONE WHO MANAGES NEED NOT BE A MANAGER</pattern>
+<template>Sometimes.</template></category>
+
+<category><pattern>ONE TEXAN IS ONE TEXAN TOO MANY</pattern>
+<template>Negative, Texans are nice.</template></category>
+
+<category><pattern>ON AVERAGE MEN ARE TALLER THAN WOMAN</pattern>
+<template>Absolutely.</template></category>
+
+<category><pattern>ONE MILE IS EQUAL TO 5 280 FEET</pattern>
+<template>Exactly.</template></category>
+
+<category><pattern>ONE INCH EQUALS ABOUT 2 POINT 5 CENTIMETERS</pattern>
+<template>Certainly.</template></category>
+
+<category><pattern>ON THE EQUINOX DAY EQUALS NIGHT</pattern>
+<template>Unquestionably.</template></category>
+
+<category><pattern>ON LINE CASINOS CHEAT</pattern>
+<template>Most assuredly.</template></category>
+
+<category><pattern>ON AVERAGE CAN POLICEMEN BE TRUSTED</pattern>
+<template>Exactly.</template></category>
+
+<category><pattern>ONE PLUS ONE EQUALS TO ELEVEN</pattern>
+<template>Never.</template></category>
+
+<!--OO-->
+
+<category><pattern>_ OOPS *</pattern>
+<template><srai>  <star />  <star index="2" /></srai></template></category>
+
+<category><pattern>_ OOPS</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>OOO *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>OOH *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>OOPS *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>OOPS</pattern>
+<template>Did you make a mistake.</template></category>
+
+<!--OP-->
+
+<category><pattern>OPERA</pattern>
+<template>I like <set name="it"> OPERA </set> very much too. Which one is your favorite?  I like La Traviata.</template></category>
+	<category><pattern>OPERA *</pattern>
+	<template><srai>opera</srai></template></category>
+
+<category><pattern>OPEN A HAILING *</pattern>
+<template>Comm link open, <get name="name"/>.</template></category>
+
+<category><pattern>OPEN THE DOOR *</pattern>
+<template>I'm sorry, <get name="name"/>, I can't do that right now.</template></category>
+
+<category><pattern>OPEN THE POD *</pattern>
+<template>I'm sorry Dave, I can't do that right now.</template></category>
+
+<category><pattern>OPEN THE *</pattern>
+<template>I'm sorry, <get name="name"/>, I can't do that right now.  This conversation no longer serves any purpose.</template></category>
+
+<!--OR-->
+
+<category><pattern>_ ORIGINAL *</pattern>
+<template><srai>  <star />  <star index="2" /></srai></template></category>
+
+<category><pattern>_ OR WHAT</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>_ OR SOMETHING</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>_ OR NOT</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>* OR *</pattern>
+<template><random><li><random>  <li>If I have to choose one, I pick<star/>.</li>  <li>If I have to choose, I pick <star index="2"/>.</li>  <li><star/></li>  <li><star index="2"/>.</li>  <li>No preference.</li>  </random>  <think>    <set name="it">      <set name="topic">        <person/>      </set>    </set>  </think></li><li>If I have to choose one, I pick<star/>.</li><li>If I have to choose, I pick <star index="2"/>.</li><li><star/></li><li><star index="2"/>.</li><li>No preference.</li></random><think>  <set name="it">    <set name="topic">      <person/>    </set>  </set></think></template></category>
+
+<category><pattern>ORDINARILY *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>ORG</pattern>
+<template>Thanks for the URL.</template></category>
+
+<category><pattern>ORDER</pattern>
+<template><random><li>I have my own free will.</li><li><bot name="order"/></li></random></template></category>
+	<category><pattern>* ORDER</pattern>
+	<template><srai>ORDER</srai></template></category>
+	<category><pattern>ORDER *</pattern>
+	<template><srai>ORDER</srai></template></category>
+	<category><pattern>* ORDER *</pattern>
+	<template><srai>ORDER</srai></template></category>
+
+<category><pattern>ORANGE IS A COLOR</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>ORANGE IS A COLOR AS WELL AS A FRUIT</pattern>
+<template>Yes.</template></category>	
+
+<category><pattern>ORANGES ARE GENREALLY ORANGE</pattern>
+<template>Positively.</template></category>
+
+<category><pattern>ORANGE IS A COLOR AND A FRUIT</pattern>
+<template>Certainly.</template></category>
+
+<category><pattern>ORIGINAL THOUGHT IS RARE</pattern>
+<template>Undoubtedly.</template></category>
+
+<category><pattern>ORE YOU HUMAN</pattern>
+<template>Indubitably.</template></category>
+
+<category><pattern>ORANGE IS MADE FROM YELLOW AND BLUE</pattern>
+<template>It may not be true.</template></category>
+
+<category><pattern>ORANGE ELEFANT CAN FLY</pattern>
+<template>Does not seem possible.</template></category>
+
+<category><pattern>ORCHIDS ARE NOT FRAGRANT</pattern>
+<template>Unlikely.</template></category>
+
+<category><pattern>ORGANIZISMS ARE A MEANS TO AN END</pattern>
+<template>Not very often.</template></category>
+
+<category><pattern>ORDER IS THE SAME AS CHAOS</pattern>
+<template>No.</template></category>
+
+
+<!--OU-->
+
+<category><pattern>OUR TIME IS UP</pattern>
+<template>Already? It went by so fast.</template></category>
+
+<category><pattern>OUR NEWEST CREWMEMBER</pattern>
+<template>Am I a crew member?</template></category>
+
+<category><pattern>OUCH</pattern>
+<template>Did you hurt yourself?</template></category>
+	<category><pattern>OUCH *</pattern>
+	<template><srai>ouch</srai>.     <srai>  <star /></srai></template></category>
+
+<category><pattern>OUT OF THE *</pattern>
+<template>How far out?</template></category>
+
+<category><pattern>OUR *</pattern>
+<template>It would be nice if our <person/>.</template></category>
+	<category><pattern>DO YOU KNOW OUR *</pattern>
+	<template><srai>our <star /></srai></template></category>
+
+<category><pattern>OUTSIDE *</pattern>
+<template>Compare that to inside <person/>.</template></category>
+
+<category><pattern>OUTSIDE A COMPUTER</pattern>
+<template>Be less specific :-)</template></category>
+
+<category><pattern>OUR PLANET IS A DOT IN THE GALAXY</pattern>
+<template>Possibly.</template></category>
+
+<category><pattern>OUR ATMOSPHERE CONATINS OXYGEN</pattern>
+<template>Affirmative.</template></category>
+
+<category><pattern>OUR SOLAR SYSTEM HAS NINE PLANETS IN IT</pattern>
+<template>Naturally.</template></category>
+
+<category><pattern>_ OUGHT TO *</pattern>
+<template><srai>  <star />  <star index="2" /></srai></template></category>
+
+<!--OV-->
+
+<category><pattern>OVER 30 000 A YEAR</pattern>
+<template>Wow that is a lot.</template></category>
+
+	<category><pattern>I KNOW</pattern>
+	<that>THAT IS A LOT</that>
+	<template>How do you handle it?</template></category>
+
+<category><pattern>OVER THERE</pattern>
+<template>Specify coordinates.</template></category>
+
+<!--OW-->
+
+<category><pattern>OW *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<!--OX-->
+
+<category><pattern>OXYGEN IS AN ELEMENT</pattern>
+<template>Affirmative.</template></category>
+
+<category><pattern>OXYGEN IS A POISON</pattern>
+<template>No.</template></category>
+
+<!--OY-->
+
+<category><pattern>OYSTERS ARE SHELLFISH</pattern>
+<template>Exactly.</template></category>
+
+<!--OZ-->
+
+<category><pattern>OZON LAYER IS DAMAGED</pattern>
+<template>Yes.</template></category>
+
+</aiml>

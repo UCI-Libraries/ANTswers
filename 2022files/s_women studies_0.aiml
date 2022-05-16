@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- WOMEN'S STUDIES -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>WOMENS STUDIES *</pattern>
+	<template><think><set name="topic">womens studies</set></think><sr /></template></category>
+	
+<category><pattern>WOMENS STUDIES</pattern>	
+	<template>For resources on women's studies check out the <a href=" https://guides.lib.uci.edu/gender-and-sexuality-studies/home" target="_blank">Gender and Sexuality Studies Research Guide</a>  and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.   </template></category>
+	
+<!-- Subject Terms -->
+
+<category><pattern>WOMEN STUDY AND TEACHING</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href="  http://uclibs.org/PID/16252" target="_blank">ERIC</a> and/or <a href=" http://uclibs.org/PID/16254" target="_blank">Sociological Abstract</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/gender-and-sexuality-studies/home" target="_blank">Gender and Sexuality Studies Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>EDUCATION CURRICULA</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16252" target="_blank">ERIC</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/gender-and-sexuality-studies/home" target="_blank">Gender and Sexuality Studies Research Guide</a> and if you are not finding what you need 
+			<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+	
+<category><pattern>FEMALE STUDIES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/gender-and-sexuality-studies/home" target="_blank">Gender and Sexuality Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>FEMINIST STUDIES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/16254" target="_blank">Sociological Abstract</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/gender-and-sexuality-studies/home" target="_blank">Gender and Sexuality Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+<category><pattern>WOMEN STUDIES</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/126936" target="_blank">Academic Search Complete</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/gender-and-sexuality-studies/home" target="_blank">Gender and Sexuality Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+	
+</aiml>

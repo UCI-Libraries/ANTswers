@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Art -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>ART *</pattern>
+	<template><think><set name="topic">art</set></think><sr /></template></category>
+	
+<category><pattern>ART</pattern>	
+	<template>For resources on art check out the <a href=" https://guides.lib.uci.edu/studioart" target="_blank">Art Research Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	<category><pattern>* ART RESEARCH GUIDE</pattern>
+	<template><srai>ART</srai></template></category>
+	
+<!-- Interactions -->
+
+<category><pattern>ART</pattern>
+	<that>Air Art as a subject is included in the broader subjects of Art and Contemporary Art Would you like resource recommendations for art or contemporary art_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/33002" target="_blank">Art and Architecture Source</a> and/or <a href=" http://search.proquest.com/artbibliographies/advanced" target="_blank">Art Bibliographies Modern</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/studioart" target="_blank">Art Research Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<category><pattern>ART</pattern>
+	<that>Color as a subject is included in the broader subjects of Art Chemistry and Philosophy Would you like resource recommendations for art chemistry or philosophy_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/33002" target="_blank">Art and Architecture Source</a> and/or <a href=" http://search.proquest.com/artbibliographies/advanced" target="_blank">Art Bibliographies Modern</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/studioart" target="_blank">Art Research Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+	
+<category><pattern>ART</pattern>
+	<that>Cubism as a subject is included in the broader subjects of Art and Contemporary Art Would you like resource recommendations for art or contemporary art_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/33002" target="_blank">Art and Architecture Source</a> and/or <a href=" http://search.proquest.com/artbibliographies/advanced" target="_blank">Art Bibliographies Modern</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/studioart" target="_blank">Art Research Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>		
+	
+<category><pattern>ART</pattern>
+	<that>Expressionism as a subject is included in the broader subjects of Art and Contemporary Art Would you like resource recommendations for art or contemporary art_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/33002" target="_blank">Art and Architecture Source</a> and/or <a href=" http://search.proquest.com/artbibliographies/advanced" target="_blank">Art Bibliographies Modern</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/studioart" target="_blank">Art Research Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>	
+
+<category><pattern>ART</pattern>
+	<that>Futurism as a subject is included in the broader subjects of Art and Contemporary Art Would you like resource recommendations for art or contemporary art_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/33002" target="_blank">Art and Architecture Source</a> and/or <a href=" http://search.proquest.com/artbibliographies/advanced" target="_blank">Art Bibliographies Modern</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/studioart" target="_blank">Art Research Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>		
+	
+<category><pattern>ART</pattern>
+	<that>Artistic influence as a subject is included in the broader subjects of Art and Literature Would you like resource recommendations for art or literature_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/33002" target="_blank">Art and Architecture Source</a> and/or <a href=" http://search.proquest.com/artbibliographies/advanced" target="_blank">Art Bibliographies Modern</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/studioart" target="_blank">Art Research Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>	
+	
+<category><pattern>ART</pattern>
+	<that>Literary influence as a subject is included in the broader subjects of Art and Literature Would you like resource recommendations for art or literature_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/33002" target="_blank">Art and Architecture Source</a> and/or <a href=" http://search.proquest.com/artbibliographies/advanced" target="_blank">Art Bibliographies Modern</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/studioart" target="_blank">Art Research Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>		
+	
+<category><pattern>ART</pattern>
+	<that>Lettrism as a subject is included in the broader subjects of Art and Literature Would you like resource recommendations for art or literature_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/33002" target="_blank">Art and Architecture Source</a> and/or <a href=" http://search.proquest.com/artbibliographies/advanced" target="_blank">Art Bibliographies Modern</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/studioart" target="_blank">Art Research Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>		
+
+<category><pattern>ART</pattern>
+	<that>Public Art as a subject is included in the broader subjects of Art and Planning Policy and Design Would you like resource recommendations for art or planning policy and design_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/33002" target="_blank">Art and Architecture Source</a> and/or <a href=" http://search.proquest.com/artbibliographies/advanced" target="_blank">Art Bibliographies Modern</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/studioart" target="_blank">Art Research Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>		
+	
+<category><pattern>ART</pattern>
+	<that>Video art as a subject is included in the broader subjects of Art Contemporary Art and Television Would you like resource recommendations for art contemporary art or television_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/33002" target="_blank">Art and Architecture Source</a> and/or <a href=" http://search.proquest.com/artbibliographies/advanced" target="_blank">Art Bibliographies Modern</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/studioart" target="_blank">Art Research Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>		
+	
+<!-- Subject keywords-->
+
+<category><pattern>ALPANA</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/33002" target="_blank">Art and Architecture Source</a> and/or <a href=" http://search.proquest.com/artbibliographies/advanced" target="_blank">Art Bibliographies Modern</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/studioart" target="_blank">Art Research Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+<category><pattern>ANAMORPHIC ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>ARTISTIC ANATOMY</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>ART BRUT</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>ART NOUVEAU</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>ART OBJECTS</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>ART POTTERY</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>COMPARTIVE ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>ARTISTS PREPARATORY STUDIES</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>ARTS AND CRAFTS MOVEMENT</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>CARICATURE</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>CATALOGING OF ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>CHILDRENS ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>COLLAGE</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>COLLECTORS AND COLLECTING</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>COLOR IN ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>COMMERCIAL ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>COMMUNICATION IN ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>COMMUNISM AND ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>COMMUNITY ART PROJECTS</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>COMPOSITION </pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>COPY ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>COURTROOM ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>ARTISTIC CREATION</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>ART CREATION</pattern>
+<template><srai>ALPANA</srai></template></category>
+<category><pattern>DECORATION AND ORNAMENT</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>DECORATIVE ARTS</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>DISSIDENT ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>DOTS</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>DRAWING</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>EROTIC ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>ETCHING</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>ETHNIC ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>EXOTICISM IN ART</pattern>
+<template><srai>ALPANA</srai></template></category>		
+<category><pattern>FASCISM AND ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>FASHION AND ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>FEMINISM AND ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>FINE ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>FINE ARTS</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>FOLK ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>FORMALISM </pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>FREEDOM AND ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>GENRE </pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>GLASS ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>GRAPHIC ARTS</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>HOMOSEXUALITY AND ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>HUMAN FIGURE IN ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>HUMANISM IN ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>HUMMEL ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>ICONOGRAPHY</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>IDEALISM IN ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>ILLUSTRATION OF BOOKS</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>INDIAN ART</pattern>
+<template><srai>ALPANA</srai></template></category>		
+<category><pattern>INTERIOR DECORATION</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>LASERS IN ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>LAW AND ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>LINE </pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>LITURGY AND ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>LOST WORKS OF ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>LUTHERAN CHURCH AND ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>MANNERISM </pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>MARINE ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>MASS MEDIA AND ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>MEDICINE AND ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>MOBILES </pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>MURAL PAINTING AND DECORATION</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>MYSTICISM AND ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>NATIONAL SOCIALISM AND ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>NATIONALISM AND ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>NATURALISM IN ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>NIMBUS </pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>OCCIDENTAL ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>OCCIDENTAL ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>OUTSIDER ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>PAPER STRETCHING </pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>PARAPSYCHOLOGY AND ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>PHOTOGRAPHY OF ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>ARTISTIC PHOTOGRAPHY</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>PICTURES</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>PORTRAITS</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>POSTERS</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>PRIMITIVISM IN ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>PROPORTION </pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>PSYCHOANALYSIS AND ART</pattern>
+<template><srai>ALPANA</srai></template></category>		
+<category><pattern>REALISM IN ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>SANTOS </pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>SCULPTURE</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>SHAKER ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>SILHOUETTES</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>SMALL ART WORKS</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>SOCIALISM AND ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>SPACE AND ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>SPIRIT ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>STONE PICTURES</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>STUDIO ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>SYMBOLISM IN ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>TEENAGERS ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>TONDI</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>TOURIST TRADE AND ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>TRADE UNIONS AND ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>TRIPTYCHS</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>UNFINISHED WORKS OF ART</pattern>
+<template><srai>ALPANA</srai></template></category>		
+<category><pattern>VISUAL ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>VISUAL ARTS</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>VISUAL STUDIES</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>WESTERN ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>WILDLIFE ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+<category><pattern>YOUTHS ART</pattern>
+<template><srai>ALPANA</srai></template></category>	
+
+<category><pattern>ANTIQUES</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/33002" target="_blank">Art and Architecture Source</a> and/or <a href=" http://www.jstor.org/" target="_blank">JSTOR</a>. For more resources check out the 
+	<a href=" https://guides.lib.uci.edu/studioart" target="_blank">Art Research Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>ART HISTORY</pattern>
+<template><srai>ANTIQUES</srai></template></category>	
+<category><pattern>ARTISTIC MASTERPIECE</pattern>
+<template><srai>ANTIQUES</srai></template></category>	
+<category><pattern>PASTORAL ART</pattern>
+<template><srai>ANTIQUES</srai></template></category>	
+<category><pattern>PRE RAPHAELITISM</pattern>
+<template><srai>ANTIQUES</srai></template></category>	
+	
+<category><pattern>BRONZES</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://www.jstor.org/" target="_blank">JSTOR</a> and/or 
+	<a href=" http://uclibs.org/PID/33002" target="_blank">Art and Architecture Source</a>. For more resources check out the 
+	<a href=" https://guides.lib.uci.edu/studioart" target="_blank">Art Research Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+<category><pattern>CHRISTIAN ART AND SYMBOLISM</pattern>
+<template><srai>BRONZES</srai></template></category>	
+<category><pattern>CLASSICISM IN ART</pattern>
+<template><srai>BRONZES</srai></template></category>	
+
+<category><pattern>ART WORKS AND LIBRARY SPECIAL COLLECTIONS</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/33002" target="_blank">Art and Architecture Source</a> and/or <a href=" https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1mghkgf/alma991034823042004701" target="_blank">Library Information Science and Technology Abstracts</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/studioart" target="_blank">Art Research Research Guide</a> and if you are not finding 
+	what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>	
+
+<category><pattern>ARCHITECTURE</pattern>
+	<template><condition name="sourcetype">
+	<li value="books"><antpac><get name="topic" /></antpac>.</li>
+	<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/105528" target="_blank">Avery Index to Architecture Periodicals</a>. For more resources check out the <a href=" https://guides.lib.uci.edu/studioart" target="_blank">Art Research Research Guide</a> and if you are not finding what you need 
+	<a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+</aiml>

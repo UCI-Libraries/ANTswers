@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!-- this is a test file for book type-->
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_MAGIC</that>
+<template><srai>MAGIC</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_MAGIC</that>
+<template><srai>MAGIC</srai></template></category>
+
+<category><pattern>MAGIC</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1765155" target="blank">Bone Gap</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/d3dcuk/alma991034889112104701" target="blank">Moonstruck</a></li>		
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991034889114704701" target="blank">On a Sunbeam</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991034889115304701" target="blank">The Backstagers</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1579087" target="blank">The Young Elites</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/d3dcuk/alma991034889111104701" target="blank">Skin and Earth</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/d3dcuk/alma991035044591504701" target="blank">Are You Listening?</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4787330" target="blank">A Phoenix First Must Burn</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991009735049704701" target="blank">All the Birds in the Sky</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1377954" target="blank">Annihilation</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4617960" target="blank">Black Girl Unlimited</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991033464949704701" target="blank">Boxers and Saints</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5387634" target="blank">Cinderella is Dead</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3053823" target="blank">Death Note</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/796968" target="blank">Every Day</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5211966" target="blank">Falling in Love with Hominids</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991034351349704701" target="blank">Fragile Things</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034868069404701" target="blank">How Long 'til Black Future Month?</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3115945" target="blank">JoJo's Bizarre Adventure</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034980402404701" target="blank">Magic For Liars</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5384936" target="blank">Raybearer</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4669508" target="blank">Riot Baby</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5067571" target="blank">The Year of the Witching</a></li>
+</random></template></category>
+
+<!-- magic tag -->	
+
+	<category><pattern>* MAGIC</pattern>
+	<template><srai>magic</srai></template></category>
+	<category><pattern>MAGIC *</pattern>
+	<template><srai>magic</srai></template></category>
+	<category><pattern>* MAGIC *</pattern>
+	<template><srai>magic</srai></template></category>
+
+<!-- MAGIC REALISM -->
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_MAGIC REALISM</that>
+<template><srai>MAGIC REALISM</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_MAGIC REALISM</that>
+<template><srai>MAGIC REALISM</srai></template></category>
+
+<category><pattern>MAGIC REALISM</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/d3dcuk/alma991035044591504701" target="blank">Are You Listening?</a></li>
+</random></template></category>
+
+	<category><pattern>* MAGIC REALISM</pattern>
+	<template><srai>magic realism</srai></template></category>
+	<category><pattern>MAGIC REALISM *</pattern>
+	<template><srai>magic realism</srai></template></category>
+	<category><pattern>* MAGIC REALISM *</pattern>
+	<template><srai>magic realism</srai></template></category>
+	
+</aiml>

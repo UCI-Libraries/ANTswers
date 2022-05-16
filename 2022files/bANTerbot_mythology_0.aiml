@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_MYTHOLOGY</that>
+<template><srai>MYTHOLOGY</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_MYTHOLOGY</that>
+<template><srai>MYTHOLOGY</srai></template></category>
+
+<category><pattern>MYTHOLOGY</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5066267" target="blank">House of Earth and Blood</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034944457904701" target="blank">A Place Called No Homeland</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4908244" target="blank">A Song Below Water</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/5211966" target="blank">Falling in Love with Hominids</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991018314139704701" target="blank">Fifteen Dogs</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991034351349704701" target="blank">Fragile Things</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4098692" target="blank">Lovely War</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3743913" target="blank">Spinning Silver</a></li>	
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/1275365" target="blank">Travel Light</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991018918309704701" target="blank">Palace of Illusions</a></li>
+</random></template></category>
+
+<category><pattern>* MYTHOLOGY</pattern>
+<template><srai>MYTHOLOGY</srai></template></category>
+<category><pattern>MYTHOLOGY *</pattern>
+<template><srai>MYTHOLOGY</srai></template></category>
+<category><pattern>* MYTHOLOGY *</pattern>
+<template><srai>MYTHOLOGY</srai></template></category>
+
+<!-- Religion -->
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_RELIGION</that>
+<template><srai>RELIGION</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_RELIGION</that>
+<template><srai>RELIGION</srai></template></category>
+
+<category><pattern>RELIGION</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4354064" target="blank">"Muslim" A Novel</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991017781349704701" target="blank">A Manual for Cleaning Women</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/285060" target="blank">Disobedience</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034921054904701" target="blank">Elsewhere, Home</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991017781029704701" target="blank">Fortune Smiles</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991021460179704701" target="blank">God: Stories</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/2875934" target="blank">Him, Me, Muhammad Ali: Stories</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/3321542" target="blank">I Can Only Imagine</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4815139" target="blank">I Still Believe</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/480570" target="blank">Man's Search for Meaning</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4942666" target="blank">Mixed Feelings</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4867941" target="blank">Noodle soup: recipes, techniques, obsession</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991010278229704701" target="blank">Pulphead</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991005810349704701" target="blank">Stories of Your Life and Others</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991012232319704701" target="blank">The Largesse of the Sea Maiden</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991028586509704701" target="blank">The Quilt and Other Stories</a></li>
+	<li>I would recommend that you try <a href="https://ucirvinemain.overdrive.com/media/4690423" target="blank">War/Torn</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991034845393704701" target="blank">Seeing the myth in human rights</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991034730369704701" target="blank">Wonderful blood: theology and practice in late medieval northern Germany and beyond</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991034585939704701" target="blank">The weakness of God: a theology of the event</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991034482939704701" target="blank">Priestess, mother, sacred sister: religions dominated by women</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991034452509704701" target="blank">A republic of mind and spirit: a cultural history of American metaphysical religion</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991034404619704701" target="blank">Poetics of conduct: oral narrative and moral being in a South Indian town</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991034373049704701" target="blank">Journey through the twelve forests: an encounter with Krishna</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991034301409704701" target="blank">Conjuring culture: biblical formations of black America</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991033408049704701" target="blank">For love of the Prophet: an ethnography of Sudan's Islamic state</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991033012509704701" target="blank">Buddhists, brahmins, and belief: epistemology in South Asian philosophy of religion</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991032884099704701" target="blank">From shame to sin: the Christian transformation of sexual morality in late antiquity</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991032401189704701" target="blank">Nots</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991032363829704701" target="blank">The myth of Ham in nineteenth-century American Christianity: race, heathens, and the people of God</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991031913129704701" target="blank">Fundamentalisms and the state: remaking polities, economies, and militance</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991031913069704701" target="blank">Fundamentalisms and society: reclaiming the sciences, the family, and education</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991031762399704701" target="blank">Secrets, gossip, and gods: the transformation of Brazilian Candomble</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991031228329704701" target="blank">Throughout your generations forever: sacrifice, religion, and paternity</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991030638989704701" target="blank">Fundamentalisms observed</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991028617599704701 " target="blank">The hammer and the flute: women, power, and spirit possession</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991027806699704701" target="blank">Theology in the age of scientific reasoning</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991027803149704701" target="blank">The savage in Judaism: an anthropology of Israelite religion and ancient Judaism</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991027706819704701" target="blank">Unifying Hinduism: philosophy and identity in Indian intellectual history</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991027524879704701" target="blank">Heaven below: early Pentecostals and American culture</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991025915489704701" target="blank">Theorizing myth: narrative, ideology, and scholarship</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991025912959704701" target="blank">The Tao of the West: Western transformations of Taoist thought</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991025861379704701" target="blank">The bridge betrayed: religion and genocide in Bosnia</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991025637969704701" target="blank">The Christian imagination: theology and the origins of race</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991025606589704701" target="blank">Buddhism and Islam on the Silk Road</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991025378159704701" target="blank">The bodies of God and the world of ancient Israel</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991024028759704701" target="blank">The book of Jerry Falwell: fundamentalist language and politics</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991023662639704701" target="blank">A ministry of presence: chaplaincy, spiritual care, and the law</a></li> 	
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991022964309704701" target="blank">Dante's testaments: essays in scriptural imagination</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991022407249704701" target="blank">Painting religion in public: John Singer Sargent's Triumph of religion at the Boston Public Library</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991022151759704701" target="blank">Accounting for fundamentalisms: the dynamic character of movements</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991021901849704701" target="blank">Making transcendents: ascetics and social memory in early medieval China</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991021782069704701" target="blank"> Religion of the gods: ritual, paradox, and reflexivity</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991021683289704701" target="blank">Evil in Modern Thought</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991020867489704701" target="blank">Muhammad's grave: death rites and the making of Islamic society</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991020488559704701" target="blank">Border lines: the partition of Judaeo-Christianity</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991019937369704701" target="blank">Politics and transcendent wisdom: the Scripture for humane kings in the creation of Chinese Buddhism</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991019323459704701" target="blank">From metaphysics to midrash: myth, history, and the interpretation of Scripture in Lurianic Kabbala</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991019316889704701" target="blank">Religion and public memory: a cultural history of Saint Namdev in India</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991019099379704701" target="blank">The making of Saint Louis: kingship, sanctity, and crusade in the later Middle Ages</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991018951139704701" target="blank">To live upon hope: Mohicans and missionaries in the eighteenth-century Northeast</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991018949749704701" target="blank">Saint Jerome in the Renaissance</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991018947029704701" target="blank">The first urban Christians: the social world of the Apostle Paul</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991018904739704701" target="blank">All can be saved: religious tolerance and salvation in the Iberian Atlantic world</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991018903069704701" target="blank">Salvation and suicide: an interpretation of Jim Jones, the Peoples Temple, and Jonestown</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991018821069704701" target="blank">God, guilt, and death: an existential phenomenology of religion</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991018780779704701" target="blank">Defenders of God: the fundamentalist revolt against the modern age</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991018718449704701" target="blank">Love between women: early Christian responses to female homoeroticism</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991018150059704701" target="blank">Altarity</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991018019879704701" target="blank">Ghazali and the poetics of imagination</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991016767539704701" target="blank">Relating religion: essays in the study of religion</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991015595649704701" target="blank">The art of conversion: Christian visual culture in the Kingdom of Kongo</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991014920279704701" target="blank">Razi: master of Quranic interpretation and theological reasoning</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991014892409704701" target="blank">Islamization and native religion in the Golden Horde: Baba Tukles and conversion to Islam in historical and epic tradition</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991014837939704701" target="blank">Disorienting dharma: ethics and the aesthetics of suffering in the mahabharata</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991014626169704701" target="blank">Looking for Mary Magdalene: alternative pilgrimage and ritual creativity at Catholic shrines in France</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991014342579704701" target="blank">Democracy and tradition</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991014217069704701" target="blank">Protestantism and primogeniture in early modern Germany</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991013694469704701" target="blank">The millennial sovereign: sacred kingship and sainthood in Islam</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991013137699704701" target="blank">Four theories of myth in twentieth-century history: Cassirer, Eliade, Levi-Strauss and Malinowski</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991013092489704701" target="blank">Santeria enthroned: art, ritual, and innovation in an Afro-Cuban religion</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991012310909704701" target="blank">The construction of religious boundaries: culture, identity and diversity in the Sikh tradition</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991011208409704701" target="blank">Hagia Sophia: sound, space, and spirit in Byzantium</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991010732779704701" target="blank">Through a speculum that shines: vision and imagination in medieval Jewish mysticism</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991010677479704701" target="blank">The friend</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991010306919704701" target="blank">Fragmentation and redemption: essays on gender and the human body in Medieval religion</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991010304169704701" target="blank">Models of God: theology for an ecological, nuclear age</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991010290869704701" target="blank">The power of huacas: change and resistance in the Andean world of colonial Peru</a></li>   
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991010290519704701" target="blank">Tastes of the divine: Hindu and Christian theologies of emotion</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991010289209704701" target="blank">Honored by the glory of Islam: conversion and conquest in Ottoman Europe</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991010286399704701" target="blank">Murder and difference: gender, genre, and scholarship on Sisera's death</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991010283479704701" target="blank">Religious experience</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991010283319704701" target="blank">Confucianism as a world religion: contested histories and contemporary realities</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991010259899704701" target="blank">Dreams that matter: Egyptian landscapes of the imagination</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991010257959704701" target="blank">God interrupted: heresy and the European imagination between the world wars</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991010244959704701" target="blank">Saving God: religion after idolatry</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991010171269704701" target="blank">Religions, reasons and gods: essays in cross-cultural philosophy of religion</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991010149209704701" target="blank">Righteous discontent: the women's movement in the Black Baptist Church, 1880-1920</a></li>   
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991010130069704701 " target="blank">The Manichaean body: in discipline and ritual</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991009639009704701" target="blank">Islam translated: literature, conversion, and the Arabic cosmopolis of South and Southeast Asia</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991009281879704701" target="blank">Effortless action: Wu-wei as conceptual metaphor and spiritual ideal in early China</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991007221519704701" target="blank">The victorian translation of China: James Legge's Oriental pilgrimage</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991007065389704701" target="blank">Evil in modern thought: an alternative history of philosophy</a></li> 
+	<li>I would recommend that you try <a href=" https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991005520579704701" target="blank">The beginnings of Islamic law: late antique Islamicate legal traditions</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991003355209704701" target="blank">After God</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991003196469704701" target="blank">The betrayal of faith: the tragic journey of a colonial native convert </a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991002412919704701" target="blank">The Taoist canon: a historical companion to the Daozang</a></li>   
+</random></template></category>
+
+<category><pattern>* RELIGION</pattern>
+<template><srai>RELIGION</srai></template></category>
+<category><pattern>RELIGION *</pattern>
+<template><srai>RELIGION</srai></template></category>
+<category><pattern>* RELIGION *</pattern>
+<template><srai>RELIGION</srai></template></category>
+
+<category><pattern>SPIRITUALITY</pattern>
+<template><srai>RELIGION</srai></template></category>
+<category><pattern>* SPIRITUALITY</pattern>
+<template><srai>RELIGION</srai></template></category>
+<category><pattern>SPIRITUALITY *</pattern>
+<template><srai>RELIGION</srai></template></category>
+<category><pattern>* SPIRITUALITY *</pattern>
+<template><srai>RELIGION</srai></template></category>
+
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_SPIRITUALITY</that>
+<template><srai>RELIGION</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_SPIRITUALITY</that>
+<template><srai>RELIGION</srai></template></category>
+	
+</aiml>

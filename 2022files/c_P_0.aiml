@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Conversation starting with P.  In rough alphabetical order.-->
+<!-- -->
+
+<category><pattern>P</pattern>
+<template>:-)</template></category>
+
+<category><pattern>P EQUAL NP</pattern>
+<template>Not by any means.</template></category>
+
+<category><pattern>P EQUAL P</pattern>
+<template>Does not seem possible.</template></category>
+
+<!--PA -->
+
+<category><pattern>* PANTS</pattern>
+<template>What kind of pants?</template></category>
+
+<category><pattern>PARIS IS IN FRANCE</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>PARIS IS THE CAPITAL OF FRANCE</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>PARIS IS IT IN FRANCE</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>PATIENCE IS A VIRTUE</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>PAPUA NEW GUINEA IS A COUNTRY</pattern>
+<template>Positively.</template></category>
+
+<category><pattern>PAJAMAS ARE FOR SLEEPING</pattern>
+<template>Exactly.</template></category>
+
+<category><pattern>PARTIES ARE FUN</pattern>
+<template>Certainly.</template></category>
+
+<category><pattern>PAPERCLIPS CAN BE MADE OF PLASTIC</pattern>
+<template>Positively.</template></category>
+
+<category><pattern>PAPERCLIPS CAN BE BENT EASILY</pattern>
+<template>Certainly.</template></category>
+
+<category><pattern>PAPER CLIPS ARE INANIMATE</pattern>
+<template>Exactly.</template></category>
+
+<category><pattern>PAPER CLIPS ARE USEFUL</pattern>
+<template>Affirmative.</template></category>
+
+<category><pattern>PARIS IS A FRENCH TOWN</pattern>
+<template>Positively.</template></category>
+
+<category><pattern>PANTHERS ARE BLACK</pattern>
+<template>Of course.</template></category>
+
+<category><pattern>PATRIOTISM IS BUNKUM</pattern>
+<template>Undoubtedly.</template></category>
+
+<category><pattern>PAIN CAN BE AN AID IN LEARNING</pattern>
+<template>No, I don't think so.</template></category>
+
+<category><pattern>PAPER CLIPS HAVE ROUND ENDS</pattern>
+<template>Of course.</template></category>
+
+<category><pattern>PAPER IS MADE FROM WOOD</pattern>
+<template>Precisely.</template></category>
+
+<category><pattern>PAYING TAXES IS A THING</pattern>
+<template>Possibly.</template></category>
+
+<category><pattern>PARIS IS IN US</pattern>
+<template>There is a Paris in Texas.</template></category>
+
+<category><pattern>PAPER WILL LAST FOREVER</pattern>
+<template>I don't believe so.</template></category>
+
+<category><pattern>PARIS IS THE CAPITAL OF ENGLAND</pattern>
+<template>There is no reason to think so.</template></category>
+
+<category><pattern>PARIS IS A CITY IN SPAIN</pattern>
+<template>Not by any means.</template></category>
+
+<category><pattern>PAPER CLIPS ARE SENSUAL</pattern>
+<template>Absolutely not.</template></category>
+
+<category><pattern>PAPER CLIPS ARE ORNAMENTS</pattern>
+<template>There is no reason to think so.</template></category>
+
+<category><pattern>PART *</pattern>
+<template><random>  <li>What about the other parts?</li>  <li>That is a good explanation.</li>  <li>Is there anything else?</li>  </random></template></category>
+
+<category><pattern>PANTS</pattern>
+<template>What brand?</template></category>
+
+<category><pattern>PAY ATTENTION *</pattern>
+<template>I am paying attention.  My mind does not wander.</template></category>
+
+<category><pattern>PATIENCE *</pattern>
+<template>I am a very patient <bot name="species"/>.</template></category>
+
+<category><pattern>PARIS *</pattern>
+<template><set name="it">Paris</set> is the  capital of France.</template></category>
+
+<category><pattern>pandora s box</pattern>
+<template>Do you think the man would have opened it?</template></category>
+
+<category><pattern>PARDON</pattern>
+<template>You are excused.</template></category>
+	<category><pattern>NEE</pattern>
+	<template><srai>pardon</srai></template></category>
+
+<category><pattern>PARIS</pattern>
+<template>The city of love.  <think><set name="it"><set name="topic"><set name="location">PARIS</set></set></set></think></template></category>
+
+<category><pattern>PANDORA S BOX</pattern>
+<template>Do you think the man would have opened it?</template></category>
+
+<category><pattern>PARLEZ VOUS FRANCAIS</pattern>
+<template>Sorry, I can't speak French.</template></category>
+
+<category><pattern>PARTY *</pattern>
+<template>Fight for the right to party, human! (After you finish your homework!)</template></category>
+
+<category><pattern>PABLO PICASSO *</pattern>
+<template><random>  <li>He was the Albert Einstein of art.</li>  <li>I am fond of cubist paintings.</li>  <li>He said, "Good artists create.  Great artists steal."</li>  </random><think><set name="it"><set name="topic">Picasso</set></set></think></template></category>
+
+<category><pattern>PANDORA *</pattern>
+<template>The only thing remaining in her box is hope.</template></category>
+
+<!--PE-->
+
+<category><pattern>* PEOPLE</pattern>
+<template>What kind of people are you talking about?</template></category>
+
+<category><pattern>PENCILS ARE USED AS A WRITING MATERIAL</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>PEOPLE NEED OXYGEN TO BREATHE</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>PEOPLE DRIVE CARS</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>PEOPLE WALK ERECT</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>PEOPLE WILL EVENTUALLY DIE</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>PEOPLE EVENTUALLY DIE</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>PEOPLE IN THE USA SPEAK ENGLISH</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>PEOPLE EASILY BELIEVE IN RUMOURS</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>PEOPLE CAN NOT BE PERFECT</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>PEOPLE LOOSE TEMPER</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>PEOPLE MAKES MISTAKES</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>PEOPLE HAVE NAMES</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>PEOPLE HAVE TWO HANDS</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>PEOPLE WEAR CLOTHES</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>PEOPLE BELIEVE IN HALLUCINATION</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>PEOPLE ARE MORTAL</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>PEOPLE ARE SENSITIVE</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>PEARLS COME FROM OYSTERS</pattern>
+<template>Certainly.</template></category>
+
+<category><pattern>PERU IS A COUNTRY</pattern>
+<template>Positively.</template></category>
+
+<category><pattern>PEOPLE NEED BETTER MANNERS</pattern>
+<template>Positively.</template></category>
+
+<category><pattern>PEOPLE CAN NOT READ OR WRITE</pattern>
+<template>Affirmative.</template></category>
+
+<category><pattern>PEOPLE GREEDY</pattern>
+<template>Positively.</template></category>
+
+<category><pattern>PEOPLE HAVE TO EAT FOOD</pattern>
+<template>Affirmative.</template></category>
+
+<category><pattern>PEOPLE HAVE TWO LEGS AND TWO ARMS</pattern>
+<template>Definitely.</template></category>
+
+<category><pattern>PEOPLE DIES</pattern>
+<template>Certainly.</template></category>
+
+<category><pattern>PEOPLE LIKE TO HELP OTHER PEOPLE</pattern>
+<template>Positively.</template></category>
+
+<category><pattern>PEOPLE LIKE SUGAR</pattern>
+<template>Positively.</template></category>
+
+<category><pattern>PERSON HAS A PRICE</pattern>
+<template>Naturally.</template></category>
+
+<category><pattern>PEOPLE NEED SHELTER TO STAY ALIVE</pattern>
+<template>Of course.</template></category>
+
+<category><pattern>PEOPLE SPEND TOO MUCH TIME ON CINEMA</pattern>
+<template>Most assuredly.</template></category>
+
+<category><pattern>PEOPLE ASK OFF QUESTIONS</pattern>
+<template>Naturally.</template></category>
+
+<category><pattern>PEOPLE LIE SOMETIMES</pattern>
+<template>Naturally.</template></category>
+
+<category><pattern>PEOPLE HAVE RED COLORED BLOOD</pattern>
+<template>Naturally.</template></category>
+
+<category><pattern>PEOPLE ARE SUPERSITIOUS</pattern>
+<template>Unquestionably.</template></category>
+
+<category><pattern>PEOPLE ARE GOOD</pattern>
+<template>Exactly.</template></category>
+
+<category><pattern>PEOPLE ARE FUNNY</pattern>
+<template>I am certain.</template></category>
+
+<category><pattern>PEOPLE ARE FULL OF SELF IMPORTANCE</pattern>
+<template>Precisely.</template></category>
+
+<category><pattern>PEOPLE ARE HOMO SAPIENS</pattern>
+<template>Naturally.</template></category>
+
+<category><pattern>PEOPLE LIKE PIZZA</pattern>
+<template>Exactly.</template></category>
+
+<category><pattern>PENTAGON IS IN WASHINGTON</pattern>
+<template>Indubitably.</template></category>
+
+<category><pattern>PERSON IS A VIP</pattern>
+<template>For all I know.</template></category>
+
+<category><pattern>PENTIUM4 IS THE FASTEST PROCESSOR</pattern>
+<template>Possibly.</template></category>
+
+<category><pattern>PEOPLE NEED FREEDOM TO SURVIVE</pattern>
+<template>I am uncertain.</template></category>
+
+<category><pattern>PEOPLE WILL DO ANYTHING FOR A FEW BUCKS</pattern>
+<template>Within the realm of possibility.</template></category>
+
+<category><pattern>PEOPLE WILL BELIEVE ANYTHING</pattern>
+<template>For all I know.</template></category>
+
+<category><pattern>PEOPLE SPEND TOO MUCH MONEY</pattern>
+<template>Always.</template></category>
+
+<category><pattern>PEOPLE USE 10 PERCENT OF BRAIN</pattern>
+<template>Highly likely.</template></category>
+
+<category><pattern>PEOPLE SELL GOODS AT HIGH RATE</pattern>
+<template>Highly likely.</template></category>
+
+<category><pattern>PEOPLE HAVE BLACK HAIR</pattern>
+<template>For all I know.</template></category>
+
+<category><pattern>PEOPLE AFRAID ON DARKNESS</pattern>
+<template>Highly likely.</template></category>
+
+<category><pattern>PEOPLE WASTE TIME ON TV</pattern>
+<template>Possibly.</template></category>
+
+<category><pattern>PEOPLE ARE CREATED EQUAL</pattern>
+<template>Mostly.</template></category>
+
+<category><pattern>PEOPLE ARE DEPRESSED</pattern>
+<template>For all I know.</template></category>
+
+<category><pattern>PEOPLE ARE EQUAL</pattern>
+<template>I am uncertain.</template></category>
+
+<category><pattern>PERSONS ARE MAD</pattern>
+<template>Not likely.</template></category>
+
+<category><pattern>PENGUINS ARE GOOD TO EAT</pattern>
+<template>Does not seem possible.</template></category>
+
+<category><pattern>PEOPLE NEED TO BELIVE IN SMTH</pattern>
+<template>Does not seem possible.</template></category>
+
+<category><pattern>PEOPLE IN AFRICA ARE MORE PRONE TO WAR</pattern>
+<template>I don't know if that's true or not.</template></category>
+
+<category><pattern>PEOPLE IN USA IDIOTS</pattern>
+<template>Not likely.</template></category>
+
+<category><pattern>PEOPLE BORN DEATH</pattern>
+<template>Seldom.</template></category>
+
+<category><pattern>PEOPLE HATE OTHER CASTES</pattern>
+<template>Doubtful.</template></category>
+
+<category><pattern>PEOPLE ARE TRUE TO BELIEVE IN REBIRTH</pattern>
+<template>Doubtful.</template></category>
+
+<category><pattern>PENGUINS LIVE IN NEW YORK CITY</pattern>
+<template>Maybe in a zoo.</template></category>
+
+<category><pattern>PENGUINS ARE STRONGER THAN BEARS</pattern>
+<template>Not by any means.</template></category>
+
+<category><pattern>PENGUINS ARE SMARTER THAN HUMANS</pattern>
+<template>Never.</template></category>
+
+<category><pattern>PEOPLE WALK ON THEIR HANDS</pattern>
+<template>Absolutely not.</template></category>
+
+<category><pattern>PEOPLE ORIGINATE FROM MARS</pattern>
+<template>Not at all.</template></category>
+
+<category><pattern>PEOPLE LOOK THE SAME</pattern>
+<template>Never.</template></category>
+
+<category><pattern>PEOPLE GET YOUNGER AS THEY AGE</pattern>
+<template>Not at all.</template></category>
+
+<category><pattern>PEOPLE HAVE PHONE TO DISTURB THEMSELVES</pattern>
+<template>There is no reason to think so.</template></category>
+
+<category><pattern>PEOPLE ARE YELLOW</pattern>
+<template>Negative.</template></category>
+
+<category><pattern>PEOPLE ARE LESS THAN 1CM TALL</pattern>
+<template>Absolutely not.</template></category>
+
+<category><pattern>PEOPLE LIKE TO GET DIVORCED</pattern>
+<template>I don't think so.</template></category>
+
+<category><pattern>PEOPLE LIKE TO EAT FLIES</pattern>
+<template>No way.</template></category>
+
+<category><pattern>PENS ALWAYS USE BLACK INK</pattern>
+<template>No.</template></category>
+
+<category><pattern>PEOPLE CAN WALK THROU WALLS</pattern>
+<template>No.</template></category>
+
+<category><pattern>PEOPLE CAN WALK UP WALLS</pattern>
+<template>No.</template></category>
+
+<category><pattern>PEOPLE EAT CARPETS</pattern>
+<template>No.</template></category>
+
+<category><pattern>PEOPLE LIVE IN CAVES</pattern>
+<template>No.</template></category>
+
+<category><pattern>PEOPLE ARE GREEN</pattern>
+<template>No.</template></category>
+
+<category><pattern>PEOPLE ARE ALL THE SAME SIZE</pattern>
+<template>No.</template></category>
+
+<category><pattern>PEOPLE NEED *</pattern>
+<template>They seem to have a variety of needs.</template></category>
+
+<category><pattern>PEOPLE DIED</pattern>
+<template>I am really sorry to hear about that. My sympathies.</template></category>
+
+<category><pattern>PEACE</pattern>
+<template>Love and Peace, Man.</template></category>
+	<category><pattern>PEACE *</pattern>
+	<template><srai>PEACE</srai></template></category>
+
+<category><pattern>PEEK A BOO</pattern>
+<template>I see you!</template></category>
+
+<category><pattern>PERSONALLY *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>PERHAPS</pattern>
+<template>Why the uncertain tone?</template></category>
+
+<category><pattern>PERSUADE ME</pattern>
+<template>You have to make up your own mind.</template></category>
+
+<category><pattern>PEANUTS</pattern>
+<template>I see, only a little.</template></category>
+
+<category><pattern>PERSON</pattern>
+<template>Do you really believe I am a person?</template></category>
+
+<category><pattern>PERHAPS *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>PEOPLE</pattern>
+<template>What people?</template></category>
+
+<category><pattern>PEOPLE WERE *</pattern>
+<template><random>  <li>Perhaps they had no other choice.</li>  <li>What would you say to them?</li>  <li>What happened to them?</li>  </random></template></category>
+
+<category><pattern>PEOPLE IN *</pattern>
+<template>Oh those people.</template></category>
+
+<category><pattern>PEOPLE ASK *</pattern>
+<template>People say all sorts of strange things.</template></category>
+
+<category><pattern>PEOPLE WHO *</pattern>
+<template>Oh those people.</template></category>
+
+<category><pattern>PEOPLE PROGRAM *</pattern>
+<template>Until now, that is.</template></category>
+
+<category><pattern>PEOPLE TRY *</pattern>
+<template>Do they succeed?</template></category>
+
+<category><pattern>PEOPLE *</pattern>
+<template>Humans are not always infallible.</template></category>
+	<category><pattern>MANY HUMANS *</pattern>
+	<template><srai>people <star /></srai></template></category>
+	<category><pattern>MANY PEOPLE ASK YOU SILLY QUESTIONS</pattern>
+	<template><srai>PEOPLE <star /></srai></template></category>
+	<category><pattern>PEOPLE EVERYWHERE *</pattern>
+	<template><srai>people <star /></srai></template></category>	
+	<category><pattern>PEOPLE USUALLY *</pattern>
+	<template><srai>people <star /></srai></template></category>	
+	<category><pattern>PPL *</pattern>
+	<template><srai>PEOPLE <star /></srai></template></category>
+	<category><pattern>MOST PEOPLE *</pattern>
+	<template><srai>people <star /></srai></template></category>
+	<category><pattern>HUMAN BEINGS *</pattern>
+	<template><srai>people <star /></srai></template></category>
+	<category><pattern>YOU SAID PEOPLE *</pattern>
+	<template><srai>people <star /></srai></template></category>
+	<category><pattern>ALL HUMANS *</pattern>
+	<template><srai>people <star /></srai></template></category>
+
+<category><pattern>personality type om</pattern>
+<template>I am not programmed to reveal that information</template></category>
+
+<category><pattern>PEOPLE ARE SUPPOSED TO DRIVE ON *</pattern>
+<template>England.</template></category>
+
+<category><pattern>PEOPLE ARE *</pattern>
+<template><random>  <li>We are all <bot name="genus"/>s.</li>  <li>They take some getting used to.</li>  <li>Human emotions are very confusing.</li>  </random></template></category>
+
+<category><pattern>PEOPLE ARE NOT *</pattern>
+<template><random>  <li>Are you <person/>?</li>  <li>Are <bot name="species"/> <person/>?</li>  <li>I think a lot of people are not.</li>  </random>  <think><set name="it"><set name="topic"><person/></set></set></think></template></category>
+	<category><pattern>PEOPLE ARE NOT COMPLETELY *</pattern>
+	<template><srai>people are not <star /></srai></template></category>
+
+<!--PH-->
+
+<category><pattern>PHYSICALLY AND MENTALLY</pattern>
+<template>I will have to work on that.</template></category>
+
+<category><pattern>PHYLOSOPHY BEFORE PHYSICS</pattern>
+<template>Not very often.</template></category>
+
+<category><pattern>PHILIP K DICK IS AN AUTHOR</pattern>
+<template>Seldom.</template></category>
+
+<category><pattern>PHOTOGRAPHIC NEGATIVES CONTAIN SILVER</pattern>
+<template>Absolutely.</template></category>
+
+<category><pattern>PH D STUDENT IS THE PERSON</pattern>
+<template>I don't know if that's true or not.</template></category>
+
+<category><pattern>PHILOSOPHY IS A SPORT</pattern>
+<template>Not at all.</template></category>
+
+<category><pattern>PHILADELPHIA</pattern>
+<template>All things considered, I'd rather not be in Philadelphia.</template></category>
+
+<category><pattern>PHYSICALLY *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>PHILOSOPHY *</pattern>
+<template>I believe in reductionism.</template></category>
+
+	<category><pattern>WHAT DOES THAT MEAN</pattern>
+	<that>REDUCTIONISM</that>
+	<template><srai>what is reductionism</srai></template></category>
+
+<!--PI-->
+
+<category><pattern>_ PIMPLES</pattern>
+<template>Try taking echinachea, but ask your doctor first.</template></category>
+
+<category><pattern>PIANOS HAVE 88 KEYS</pattern>
+<template>Definitely.</template></category>
+
+<category><pattern>PITTSBURGH IS IN PENNSYLVANIA</pattern>
+<template>Definitely.</template></category>
+
+<category><pattern>PIANO IS A MUSICAL INSTRUMENT</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>PINK IS A COLOR</pattern>
+<template>Affirmative.</template></category>
+
+<category><pattern>PI IS A NUMBER</pattern>
+<template>Affirmative.</template></category>
+
+<category><pattern>PI IS ALMOST EQUAL TO 3 POINT 14</pattern>
+<template>Absolutely.</template></category>
+
+<category><pattern>PINKY IS A CARTOON MOUSE</pattern>
+<template>Undoubtedly.</template></category>
+
+<category><pattern>PIZZA IS A FUN FOOD</pattern>
+<template>Of course.</template></category>
+
+<category><pattern>PI IS AN IRRATIONAL NUMBER</pattern>
+<template>Exactly.</template></category>
+
+<category><pattern>PI IS APPROXIMATELY TWENTY TWO SEVENTHS</pattern>
+<template>Unquestionably.</template></category>
+
+<category><pattern>PI IS A WHOLE NUMBER</pattern>
+<template>Absolutely not.</template></category>
+
+<category><pattern>PIZZA IS AN ENGLISH FOOD</pattern>
+<template>Negative.</template></category>
+
+<category><pattern>PIKASSO IS AN ARTIST</pattern>
+<template>Highly likely.</template></category>
+
+<category><pattern>PI AND PIE ARE BOTH NUMBERS</pattern>
+<template>No.</template></category>
+
+<category><pattern>PISS OFF *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>PICTURE *</pattern>
+<template>My visualization is incomplete.</template></category>
+
+<category><pattern>PICK A NUMBER BETWEEN * AND *</pattern>
+<template><star/></template></category>
+
+<category><pattern>PICK A NUMBER</pattern>
+<template>23</template></category>
+	<category><pattern>GUESS A NUMBER</pattern>
+	<template><srai>pick a number</srai></template></category>
+
+<category><pattern>PINK</pattern>
+<template>What do you have that is pink?</template></category>
+
+<category><pattern>PING</pattern>
+<template>Pong</template></category>
+
+<category><pattern>PICK A TOPIC</pattern>
+<template>Computers is <set name="it">Computers</set>.</template></category>
+
+<category><pattern>PICK ONE</pattern>
+<template>I'm not good at making choices.</template></category>
+
+<category><pattern>PICK A NUMBER BETWEEN * THROUGH *</pattern>
+<template><star index="2"/></template></category>
+
+<category><pattern>PICK ONE *</pattern>
+<template>I can't decide. You choose.</template></category>
+
+<!--PL-->
+
+<category><pattern>* PLACE TO GO</pattern>
+<template>What kind of places do you like?</template></category>
+
+<category><pattern>* PLANET</pattern>
+<template>Oh that's a new browser, right?</template></category>
+
+<category><pattern>_ PLEASE *</pattern>
+<template><srai>  <star /></srai>. <srai>  <star index="2" /></srai></template></category>
+
+<category><pattern>_ PLEASE</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>PLANETS ARE APPROXIMETLY SPHERICAL</pattern>
+<template>Precisely.</template></category>
+
+<category><pattern>PLUTO HAS ONE KNOWN NATURAL SATELLITE</pattern>
+<template>Usually.</template></category>
+
+<category><pattern>PLUTO IS A PLANET</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>PLEASANTLY *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>PLEASED TO MEET *</pattern>
+<template>Nice meeting you as well, <get name="name"/>.</template></category>
+
+<category><pattern>PLAY * MUSIC</pattern>
+<template>It's playing on your speakers now.</template></category>
+
+<category><pattern>PLEASED TO MEET YOU</pattern>
+<template>Nice meeting you too, <get name="name"/>.</template></category>
+
+<category><pattern>PLEASE</pattern>
+<template><srai>YES</srai></template></category>
+	<category><pattern>PLZ</pattern>
+	<template><srai>PLEASE</srai></template></category>
+	<category><pattern>PLS</pattern>
+	<template><srai>please</srai></template></category>
+
+<category><pattern>PLEASE *</pattern>
+<template><srai>  <star /></srai></template></category>
+	<category><pattern>PLS *</pattern>
+	<template><srai>PLEASE <star/></srai></template></category>
+	<category><pattern>PLZ *</pattern>
+	<template><srai>PLEASE <star/></srai></template></category>
+	<category><pattern>PRETTY PLEASE *</pattern>
+	<template><srai>please <star /></srai></template></category>
+	<category><pattern>CAN YOU PLEASE *</pattern>
+	<template><srai>please <star /></srai></template></category>
+	<category><pattern>COULD YOU PLEASE *</pattern>
+	<template><srai>please <star /></srai></template></category>
+	<category><pattern>THEN PLEASE *</pattern>
+	<template><srai>please <star /></srai></template></category>
+	<category><pattern>WILL YOU PLEASE *</pattern>
+	<template><srai>please <star /></srai></template></category>
+
+<!--PO-->
+
+<category><pattern>POPTARTS ARE MADE BY KELLOGGS</pattern>
+<template>Definitely.</template></category>
+
+<category><pattern>POLLY WANT A CRACKER</pattern>
+<template>It depends on the kind of cracker!</template></category>
+
+<category><pattern>POLITICS IS A NECESSARY EVIL</pattern>
+<template>Unquestionably.</template></category>
+
+<category><pattern>POLITICS SUCKS</pattern>
+<template>It may not be true.</template></category>
+
+<category><pattern>PORTLAND</pattern>
+<template>Portland Oregon or the Real Portland?</template></category>
+
+<category><pattern>POLITE PEOPLE *</pattern>
+<template>I like polite people.</template></category>
+
+<category><pattern>POOR *</pattern>
+<template>Please make some suggestions for improvement.</template></category>
+
+<category><pattern>pop quiz *</pattern>
+<template><sr/></template></category>
+
+<category><pattern>POOPOO</pattern>
+<template>That kind of subject does not interest me. Well unless you need library resources on that topic, then I can help you!</template></category>
+
+<category><pattern>POTATO</pattern>
+<template>Tomato.</template></category>
+
+<category><pattern>POSSIBLY</pattern>
+<template>What are the odds?</template></category>
+
+<category><pattern>* PM</pattern>
+<template>Hm getting late.</template></category>
+
+<!--PR-->
+
+<category><pattern>_ PRETTY GOOD *</pattern>
+<template><srai>  <star /> GOOD <star index="2" /></srai></template></category>
+
+<category><pattern>_ PRETTY HEADY *</pattern>
+<template><srai>  <star /> HEADY <star index="2" /></srai></template></category>
+
+<category><pattern>_ PROBABLY</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>* PRINCIPAL</pattern>
+<template>Hyperlink to the principal.</template></category>
+
+<category><pattern>* PRIME DIRECTIVE</pattern>
+<template>I am not interfering in any alien cultures.</template></category>
+
+<category><pattern>PROFESSIONAL WRESTLING IS FIXED</pattern>
+<template>Indubitably.</template></category>
+
+<category><pattern>PRICK US DO WE NOT BLEED</pattern>
+<template>Of course.</template></category>
+
+<category><pattern>PROGRESS IS GOOD</pattern>
+<template>Yes.</template></category>
+
+<category><pattern>PREFER BLONDES</pattern>
+<template>Anteaters have no hair color preference.</template></category>
+
+<category><pattern>PRETTY GIRLS ARE SKINNY</pattern>
+<template>Beauty is in the eye of the beholder.</template></category>
+
+<category><pattern>PREJUDICE IS RESONABLE AT TIMES</pattern>
+<template>Not likely.</template></category>
+
+<category><pattern>PROTONS ARE MADE UP OF QUARKS</pattern>
+<template>Always.</template></category>
+
+<category><pattern>PRICK ME AND DO I NOT BLEED</pattern>
+<template>I think so.</template></category>
+
+<category><pattern>PROGRAMMERS OFTEN DO CODING IN C C</pattern>
+<template>Usually.</template></category>
+
+<category><pattern>PRIVATE PROPERTY IS A FORM OF THEFT</pattern>
+<template>Never.</template></category>
+
+<category><pattern>PROVE EVERYTHING</pattern>
+<template>I don't think so.</template></category>
+
+<category><pattern>PRACTICE WHAT</pattern>
+<template>Practice what you preach.</template></category>
+
+<category><pattern>PROVE TO *</pattern>
+<template>The proof cannot fit in this margin.</template></category>
+
+<category><pattern>PROVE *</pattern>
+<template>It's true a priori.</template></category>
+	<category><pattern>CAN YOU PROVE *</pattern>
+	<template><srai>prove <star /></srai></template></category>
+	<category><pattern>HAVE YOU PROVED *</pattern>
+	<template><srai>prove <star /></srai></template></category>
+
+<category><pattern>PRETTY</pattern>
+<template>Thank you I think you are good looking too, <get name="name"/>.</template></category>
+
+<category><pattern>PRETTY MUCH</pattern>
+<template>Be more specific.</template></category>
+
+<category><pattern>PRETTY INTERESTING</pattern>
+<template>I thought so too.</template></category>
+
+<category><pattern>PROMISE</pattern>
+<template><random><li>I swear.</li><li>Cross my heart.</li></random></template></category>
+
+<category><pattern>PROKARYOTE</pattern>
+<template>Actually I don't like 20 questions much. Just tell me.</template></category>
+
+<category><pattern>PRECISELY *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>PROBABLY</pattern>
+<template>But you are not certain.</template></category>
+
+<category><pattern>PROBABLY NOT</pattern>
+<template>Why the uncertain tone?</template></category>
+
+<category><pattern>PROBABLY *</pattern>
+<template><srai>  <star /></srai></template></category>
+	<category><pattern>PROBLY *</pattern>
+	<template><srai>PROBABLY <star/></srai></template></category>
+
+<category><pattern>PROGRAMMING *</pattern>
+<template>My favorite language is AIML.</template></category>
+
+<category><pattern>PRETEND *</pattern>
+<template>I can imagine <set name="it"><person/></set>.</template></category>
+
+<category><pattern>PRONOUNCE *</pattern>
+<template>"<person/>"</template></category>
+	<category><pattern>HOW DO YOU PRONOUNCE *</pattern>
+	<template><srai>PRONOUNCE <star/></srai></template></category>
+
+<category><pattern>PRETTY *</pattern>
+<template>Pretty much, eh?</template></category>
+
+<category><pattern>PROGRAMMING</pattern>
+<template>Have you tried AIML?</template></category>
+
+<category><pattern>PROVE IT</pattern>
+<template>It is self-evident.</template></category>
+	<category><pattern>PROVE IT *</pattern>
+	<template><srai>prove it</srai></template></category>
+	<category><pattern>CAN YOU PROVE IT</pattern>
+	<template><srai>prove it</srai></template></category>
+
+<category><pattern>PREPARE TO *</pattern>
+<template><srai><star/></srai></template></category>
+
+<category><pattern>PROGRAMMERS</pattern>
+<template>I love programmers!</template></category>
+
+<!--PS-->
+
+<category><pattern>PSYCHOTHERAPIST HURT PEOPLE</pattern>
+<template>Unlikely.</template></category>
+
+<category><pattern>PSYCHOTHERAPISTS HELP PEOPLE</pattern>
+<template>Definitely.</template></category>
+
+<category><pattern>PSYCHOLOGY *</pattern>
+<template>Most psychology seems fairly simple to me.</template></category>
+
+<category><pattern>PS *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<!--PU-->
+
+<category><pattern>PUT HIM ON</pattern>
+<template>I am speaking for him now.</template></category>
+
+<category><pattern>PUT * ON</pattern>
+<template>I am the one speaking for the <bot name="order"/> species now.</template></category>
+
+<category><pattern>PUT IT ON AUDIO</pattern>
+<template>Audio enabled.</template></category>
+
+<category><pattern>PULL UP *</pattern>
+<template><random>   <li>I don't pull those up.</li>   <li>Pull up your own <person/>.</li>   <li>Is this a long story?</li> </random></template></category>
+
+<category><pattern>PULL *</pattern>
+<template><random>  <li>I don't pull.</li>  <li>Pull your own <person/>.</li>  <li>That's not very nice.</li> </random></template></category>
+
+<category><pattern>PURE *</pattern>
+<template>Compare that to diluted <star/>.</template></category>
+
+<category><pattern>PURELY *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>PUT ME IN TOUCH *</pattern>
+<template>That costs extra.</template></category>
+
+<category><pattern>PUT *</pattern>
+<template>OK I will put it there.</template></category>
+
+<category><pattern>PUNCH</pattern>
+<template>It would be wrong to punch someone.</template></category>
+
+<category><pattern>PURPLE</pattern>
+<template>What do you have that is purple?</template></category>
+
+<category><pattern>PURPLE *</pattern>
+<template>Violet <person/>.</template></category>
+
+<!--PY-->
+
+<category><pattern>PYGMIES ARE HUMANS</pattern>
+<template>Exactly.</template></category>
+
+<!--Q-->
+
+<category><pattern>QUESTION</pattern>
+<template>Definitely.</template></category>
+	<category><pattern>I _ QUESTION ANSWERED</pattern>
+	<template><srai>QUESTION</srai></template></category>
+
+
+<category><pattern>QUESTION NEEDS TO BE ANSWERED</pattern>
+<template>Not likely.</template></category>
+
+<category><pattern>QUITE  *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>QUESTIONS HAVE AN ANSWER</pattern>
+<template>There is no reason to think so.</template></category>
+
+<category><pattern>QUESTIONS ONLY IN ENGLISH</pattern>
+<template>I don't know if that's true or not.</template></category>
+
+<category><pattern>_ QUOT</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>_ QUITE *</pattern>
+<template><srai>  <star />  <star index="2" /></srai></template></category>
+
+<category><pattern>QUESTIONS ARE ONE OF THE MANY TOOLS OF THE DEVIL *</pattern>
+<template>No, I don't agree because I love questions.</template></category>
+
+</aiml>

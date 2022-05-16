@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- RELIGIOUS STUDIES -->
+<!-- -->
+
+<!-- General -->
+
+<category><pattern>RELIGIOUS STUDIES *</pattern>
+	<template><think><set name="topic">religious studies</set></think><sr /></template></category>
+	
+<category><pattern>RELIGIOUS STUDIES</pattern>	
+	<template>For resources on religious studies check out the <a href=" http://guides.lib.uci.edu/religious_studies" target="_blank">Religious Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<!-- Interactions -->
+
+<category><pattern>RELIGIOUS STUDIES</pattern>
+	<that>Religion as a subject is included in the broader subjects of Chicano/Latino Studies and Religious Studies Would you like resource recommendations for chicano studies or religious studies_</that>
+	<template>We would recommend that you start your search with <a href=" http://uclibs.org/PID/105587" target="_blank">ATLA Religion Database</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/religious_studies" target="_blank">Religious Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</template></category>
+
+<!-- Subject keywords-->
+
+<category><pattern>RELIGION BIBLIOGRAPHY</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/105587" target="_blank">ATLA Religion Database</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/religious_studies" target="_blank">Religious Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>RELIGION CONGRESSES</pattern>
+<template><srai>RELIGION BIBLIOGRAPHY</srai></template></category>
+<category><pattern>RELIGION CONTROVERSIAL LITERATURE</pattern>
+<template><srai>RELIGION BIBLIOGRAPHY</srai></template></category>
+<category><pattern>RELIGION METHODOLOGY</pattern>
+<template><srai>RELIGION BIBLIOGRAPHY</srai></template></category>
+<category><pattern>PREHISTORIC RELIGION</pattern>
+<template><srai>RELIGION BIBLIOGRAPHY</srai></template></category>
+<category><pattern>PRIMITIVE RELIGION</pattern>
+<template><srai>RELIGION BIBLIOGRAPHY</srai></template></category>
+<category><pattern>STUDY AND TEACHING OF RELIGION</pattern>
+<template><srai>RELIGION BIBLIOGRAPHY</srai></template></category>
+<category><pattern>RELIGION TELEVISION SERIES</pattern>
+<template><srai>RELIGION BIBLIOGRAPHY</srai></template></category>
+<category><pattern>RELIGION ADDRESSES, ESSAYS, LECTURES</pattern>
+<template><srai>RELIGION BIBLIOGRAPHY</srai></template></category>
+<category><pattern>RELIGION ESSAYS</pattern>
+<template><srai>RELIGION BIBLIOGRAPHY</srai></template></category>
+<category><pattern>RELIGION LECTURES</pattern>
+<template><srai>RELIGION BIBLIOGRAPHY</srai></template></category>
+<category><pattern>RELIGION AND CULTURE</pattern>
+<template><srai>RELIGION BIBLIOGRAPHY</srai></template></category>
+<category><pattern>RELIGION AND LAW</pattern>
+<template><srai>RELIGION BIBLIOGRAPHY</srai></template></category>
+<category><pattern>RELIGION AND MEDICINE</pattern>
+<template><srai>RELIGION BIBLIOGRAPHY</srai></template></category>
+<category><pattern>RELIGION QUOTATIONS</pattern>
+<template><srai>RELIGION BIBLIOGRAPHY</srai></template></category>
+<category><pattern>RELIGION MAXIMS</pattern>
+<template><srai>RELIGION BIBLIOGRAPHY</srai></template></category>
+<category><pattern>BIBLE</pattern>
+<template><srai>RELIGION BIBLIOGRAPHY</srai></template></category>
+
+<category><pattern>HISTORY OF RELIGION</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/105587" target="_blank">ATLA Religion Database</a> and/or <a href=" http://uclibs.org/PID/12775" target="_blank">Historical Abstracts</a>. 
+			For more resources check out the <a href=" http://guides.lib.uci.edu/religious_studies" target="_blank">Religious Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>19TH CENTURY RELIGION</pattern>
+<template><srai>HISTORY OF RELIGION</srai></template></category>
+
+<category><pattern>RELIGION AND LITERATURE</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/105587" target="_blank">ATLA Religion Database</a> and/or <a href=" http://uclibs.org/PID/83591" target="_blank">MLA International Bibliography</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/religious_studies" target="_blank">Religious Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>RELIGION IN LITERATURE</pattern>
+<template><srai>RELIGION AND LITERATURE</srai></template></category>
+
+<category><pattern>RELIGION AND ETHICS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/105587" target="_blank">ATLA Religion Database</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/religious_studies" target="_blank">Religious Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>PHILOSOPHY OF RELIGION</pattern>
+<template><srai>RELIGION AND ETHICS</srai></template></category>
+	
+<category><pattern>RELIGION IN THE PUBLIC SCHOOLS</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/105587" target="_blank">ATLA Religion Database</a> and/or <a href=" http://uclibs.org/PID/113573" target="_blank">ERIC</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/religious_studies" target="_blank">Religious Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+<category><pattern>RELIGION IN INDIA</pattern>
+	<template><condition name="sourcetype">
+			<li value="books"><antpac><get name="topic" /></antpac>.</li>
+			<li>We would recommend that you start your search with <a href=" http://uclibs.org/PID/105587" target="_blank">ATLA Religion Database</a> and/or <a href=" http://uclibs.org/PID/105590" target="_blank">Index Islamicus</a>. For more resources check out the <a href=" http://guides.lib.uci.edu/religious_studies" target="_blank">Religious Studies Research Guide</a> and if you are not finding what you need <a href=" http://www.lib.uci.edu/ask-librarian-reference-services" target="_blank">Ask a Librarian</a>.</li>
+	</condition></template></category>
+
+</aiml>

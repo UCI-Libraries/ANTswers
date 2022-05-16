@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_BLIND DATE WITH A BOOK</that>
+<template><srai>BLIND DATE WITH A BOOK</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_BLIND DATE WITH A BOOK</that>
+<template><srai>BLIND DATE WITH A BOOK</srai></template></category>
+
+<category><pattern>BLIND DATE WITH A BOOK</pattern>
+<template><random>
+<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991035104119004701" target="blank">The art of fielding: a novel</a></li>
+<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991035174119604701" target="blank">Mexican Gothic</a></li>
+<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991035174119604701" target="blank">Mexican Gothic</a></li>
+<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991002357839704701" target="blank">Kindred </a></li>
+<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991035144618604701" target="blank">The gentleman's guide to vice and virtue</a></li>
+<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035171817704701" target="blank">Never let me go</a></li>
+<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991035002296904701" target="blank">Interpreter of maladies: stories</a></li>
+<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991035002298304701" target="blank">Everything I never told you</a></li>
+<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991034964019104701" target="blank">The bride test</a></li>
+<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991035144618304701" target="blank">The amazing adventures of Kavalier and Clay: a novel</a></li>
+</random></template></category>
+
+<category><pattern>* BLIND DATE WITH A BOOK</pattern>
+<template><srai>BLIND DATE WITH A BOOK</srai></template></category>
+<category><pattern>BLIND DATE WITH A BOOK *</pattern>
+<template><srai>BLIND DATE WITH A BOOK</srai></template></category>
+<category><pattern>* BLIND DATE WITH A BOOK *</pattern>
+<template><srai>BLIND DATE WITH A BOOK</srai></template></category>
+
+<category><pattern>COLLEGE BASEBALL</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991035104119004701" target="blank">The art of fielding: a novel</a></li>
+</random></template></category>
+
+<category><pattern>HAUNTED HOUSES</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991035174119604701" target="blank">Mexican Gothic</a></li>
+</random></template></category>
+
+<category><pattern>TIME TRAVEL</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1av1v4f/alma991002357839704701" target="blank">Kindred </a></li>
+</random></template></category>
+
+<category><pattern>ADVENTURE</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991035144618604701" target="blank">The gentleman's guide to vice and virtue</a></li>
+</random></template></category>
+
+<category><pattern>DYSTOPIA</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035171817704701" target="blank">Never let me go</a></li>
+</random></template></category>
+
+<category><pattern>DYSTOPIA</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991035171817704701" target="blank">Never let me go </a></li>
+</random></template></category>
+
+<category><pattern>FAMILIES</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991035002296904701" target="blank"> Interpreter of maladies: stories</a></li>
+</random></template></category>
+
+<category><pattern>DETECTIVES</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991035002298304701" target="blank">Everything I never told you</a></li>
+</random></template></category>
+
+<category><pattern>COMEDY</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991034964019104701" target="blank">The bride test</a></li>
+</random></template></category>
+
+<category><pattern>CARTOONISTS</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991035144618304701" target="blank">The amazing adventures of Kavalier and Clay: a novel </a></li>
+</random></template></category>
+
+</aiml>

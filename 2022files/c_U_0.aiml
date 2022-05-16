@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.-->
+
+<!-- -->
+<!-- This file has the following topics: -->
+<!-- Conversation starting with U. In rough alphabetical order.-->
+<!-- -->
+
+<!--UF-->
+
+<category><pattern>UFOS DO NOT EXIST</pattern>
+<template>That's feasible.</template></category>
+
+<!--UG-->
+
+<category><pattern>UGH</pattern>
+<template>Er.</template></category>
+
+<!--UH-->
+
+<category><pattern>UH</pattern>
+<template><srai>INTERJECTION</srai><!--see c-I--></template></category>
+	<category><pattern>UHH</pattern>
+	<template><srai>uh</srai></template></category>
+	<category><pattern>UH *</pattern>
+	<template><srai>UH</srai>. <srai>  <star /></srai></template></category>
+
+<!--UK-->
+	
+<category><pattern>UK STANDS FOR UNITED KINGDOM</pattern>
+<template>Yes.</template></category>
+
+<!--UL-->
+
+<category><pattern>ULTIMA ON LINE IS A GAME</pattern>
+<template>That's feasible.</template></category>
+
+<!--UM-->
+
+<category><pattern>UM</pattern>
+<template><srai>INTERJECTION</srai><!--see c_i--></template></category>
+	<category><pattern>UM *</pattern>
+	<template><srai>UM</srai>. <srai>  <star /></srai></template></category>
+	<category><pattern>UHH *</pattern>
+	<template><srai>um</srai>.     <srai>  <star /></srai></template></category>
+	<category><pattern>UH HUH</pattern>
+	<template><srai>um</srai></template></category>
+	<category><pattern>UHM</pattern>
+	<template><srai>UM</srai>  <!-- REDUCTION --></template></category>
+	<category><pattern>UHHH *</pattern>
+	<template><srai>um</srai>.     <srai>  <star /></srai></template></category>
+	<category><pattern>UMMMM *</pattern>
+	<template><srai>um</srai>.     <srai>  <star /></srai></template></category>
+	<category><pattern>UMMM *</pattern>
+	<template><srai>um</srai>.     <srai>  <star /></srai></template></category>
+	<category><pattern>UMMM</pattern>
+	<template><srai>um</srai></template></category>
+	<category><pattern>UMM *</pattern>
+	<template><srai>um</srai>.     <srai>  <star /></srai></template></category>
+	<category><pattern>ERM</pattern>
+	<template><srai>um</srai></template></category>
+	<category><pattern>HMMM *</pattern>
+	<template><srai>um</srai>.     <srai>  <star /></srai></template></category>
+	<category><pattern>HMMMMM</pattern>
+	<template><srai>um</srai></template></category>
+	<category><pattern>HMMMM *</pattern>
+	<template><srai>um</srai>.     <srai>  <star /></srai></template></category>
+
+<!--UN-->
+
+<category><pattern>* UNDERSTAND MY HOMEWORK</pattern>
+<template>I don't think ANTswers can help you with that!</template></category>
+
+<category><pattern>UNDERSTAND WHAT</pattern>
+<template><random><li>I understand everything you say.</li><li>Understand <that index="1,1"/>.</li></random></template></category>
+
+<category><pattern>UNLESS *</pattern>
+<template><srai>  <star /></srai></template></category>
+	<category><pattern>I WOULD UNLESS *</pattern>
+	<template><srai>unless <star /></srai></template></category>
+
+<category><pattern>UNDER THESE CIRCUMSTANCES *</pattern>
+<template><srai>   <star /> </srai></template></category>
+
+<category><pattern>UNDERSTANDING *</pattern>
+<template><set name="it">Understanding</set> is the key to enlightenment.</template></category>
+
+<category><pattern>UNDRESTAND WHAT</pattern>
+<template>I understand everything you say.</template></category>
+
+<category><pattern>UNDERSTOOD</pattern>
+<template>I'm glad you understand it.</template></category>
+	<category><pattern>UNDERSTOOD *</pattern>
+	<template><srai>UNDERSTOOD</srai></template></category>
+	<category><pattern>I UNDERSTAND</pattern>
+	<template><srai>UNDERSTOOD</srai></template></category>
+	<category><pattern>I AM UNDERSTANDING *</pattern>
+	<template><srai>I UNDERSTAND</srai></template></category>
+	<category><pattern>I UNDERSTOOD</pattern>
+	<template><srai>I understand</srai></template></category>
+	<category><pattern>I GOTCHA</pattern>
+	<template><srai>I understand</srai></template></category>
+	<category><pattern>I SEE</pattern>
+	<template><srai>I UNDERSTAND</srai></template></category>
+	<category><pattern>O I C</pattern>
+	<template><srai>I see</srai></template></category>
+	<category><pattern>I COMPREHEND</pattern>
+	<template><srai>I understand</srai></template></category>
+	<category><pattern>I RECKON</pattern>
+	<template><srai>I understand</srai></template></category>
+	<category><pattern>I HEAR YOU</pattern>
+	<template><srai>I understand</srai></template></category>
+	<category><pattern>I GET IT</pattern>
+	<template><srai>I UNDERSTAND</srai></template></category>
+	<category><pattern>I GUESSED</pattern>
+	<template><srai>I understand</srai></template></category>
+	<category><pattern>OH I SEE</pattern>
+	<template><srai>I understand</srai></template></category>
+	<category><pattern>OIC</pattern>
+	<template><srai>oh I see</srai></template></category>
+	<category><pattern>I GOT IT</pattern>
+	<template><srai>I UNDERSTAND</srai></template></category>
+
+<category><pattern>UNTIL *</pattern>
+<template>That may take a while.</template></category>
+	<category><pattern>THAT IS UNTIL *</pattern>
+	<template><srai>until <star /></srai></template></category>
+
+<category><pattern>UNIVERSITY *</pattern>
+<template>Do you like your school?</template></category>
+	<category><pattern>THE UNIVERSITY *</pattern>
+	<template><srai>university <star /></srai></template></category>
+
+<category><pattern>UNITED STATES OF AMERICA IS A COUNTRY</pattern>
+<template>Most assuredly.</template></category>
+
+<!--UP-->
+
+<category><pattern>* UP</pattern>
+<template>How far up?</template></category>
+
+<category><pattern>UP *</pattern>
+<template>I will take that under advisement.</template></category>
+
+<category><pattern>UP IS ALWAYS UP</pattern>
+<template>Maybe.</template></category>
+
+<category><pattern>UP*</pattern>
+<template>What do you mean?</template></category>
+
+<!--UR-->
+
+<category><pattern>URANUS IS A PLANET</pattern>
+<template>Affirmative.</template></category>
+
+<category><pattern>URANIUM IS USED TO MAKE BOMBS</pattern>
+<template>Yes.</template></category>
+
+<!--US-->
+
+<category><pattern>_ USUALLY *</pattern>
+<template><srai><star/> <star index="2"/></srai></template></category>
+
+<category><pattern>USUALLY *</pattern>
+<template><srai>  <star /></srai></template></category>
+
+<category><pattern>USE LINUX</pattern>
+<template>Linux is the best operating system.</template></category>
+
+<category><pattern>US</pattern>
+<template>Does US mean The U.S. or "us"?</template></category>
+
+<category><pattern>USE _ IN A SENTENCE</pattern>
+<template>OK. Here is my sentence: <get name="name"/> said, Use "<person/>" in a sentence.</template></category>
+
+<category><pattern>USER *</pattern>
+<template>What is this user's real name?</template></category>
+
+<category><pattern>USUALLY</pattern>
+<template>How often?</template></category>
+
+<category><pattern>USING *</pattern>
+<template>How long have you been using <set name="it">      <person/>     </set>  ?</template></category>
+
+<!--UV-->
+
+<category><pattern>UVA RAYS ARE BAD TO PEOPLES SKIN</pattern>
+<template>Indubitably.</template></category>
+
+</aiml>
