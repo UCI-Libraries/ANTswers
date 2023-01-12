@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<!--ALL GAMES -->
+
+<category><pattern>TABLETOP</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/12i4laf/alma991035049816304701" target="blank">Anomia</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034840209604701" target="blank">Batman: Almost Got 'Im</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991035080812104701" target="blank">Bloodborne: the card game</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010699689704701" target="blank">Cards Against Humanity</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010699729704701" target="blank">Exploding Kittens</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010706809704701" target="blank">Fluxx</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034909498904701" target="blank">Get the MacGuffin</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010699769704701" target="blank">Gloom </a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/d3dcuk/alma991035049816004701" target="blank">Hanabi</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/17uq3m8/alma991035393063604701" target="blank">Happy Little Dinosaurs </a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035008401704701" target="blank">Harry Potter Hogwarts Battle: Defence Against the Dark Arts</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991011018609704701" target="blank">Hoity Toity</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034909496104701" target="blank">Magic the Gathering</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010707269704701" target="blank">Munchkin</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991011018519704701" target="blank">Phase 10</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010707339704701" target="blank">Quiddler</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034840411704701" target="blank">Rick and Morty: Total Rickall</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034909494904701" target="blank">Set</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991011564289704701" target="blank">Skip Bo</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035008403004701" target="blank">Sushi Go!</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034840319004701" target="blank">The Voting Game</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991011564059704701" target="blank">Uno</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010707549704701" target="blank">We Didn't Playtest This at All</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991011017149704701" target="blank">Zombie Fluxx</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010707589704701" target="blank">Betrayal at House on the Hill</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035080812004701" target="blank">Burgle Bros.</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034904195304701" target="blank">Castle Panic</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010707729704701" target="blank">Castle Ravenloft</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010707789704701" target="blank">Forbidden Desert</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010708329704701" target="blank">Freedom: Underground Railroad</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010708919704701" target="blank">Mansions of Madness</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010708559704701" target="blank">Mysterium</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010708629704701" target="blank">Pandemic</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010978779704701" target="blank">The Captain is Dead</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034909497704701" target="blank">The Walking Dead</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010708739704701" target="blank">T.I.M.E. Stories</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034840210004701" target="blank">Train Heist</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034840209504701" target="blank">DC Comics Deck-Building Game</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010711629704701" target="blank">Dominion</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010708409704701" target="blank">Legendary</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034840409504701" target="blank">Rick and Morty: Close Rick-Counters of the Rick Kind</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991011031109704701" target="blank">Bananagrams</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010711499704701" target="blank">Chupacabra</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991011573349704701" target="blank">Connect 4</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034870302204701" target="blank">Dice Forge</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034870301204701" target="blank">Patchwork</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010711539704701" target="blank">Pop-O-Matic Trouble</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034849010604701" target="blank">Pop-O-Matic Trouble: Despicable Me</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034840408104701" target="blank">Rick and Morty: Anatomy Park</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034904195204701" target="blank">Sagrada</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991011030829704701" target="blank">Yahtzee</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991011407539704701" target="blank">Zhongguo Xiang Qi</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010711579704701" target="blank">Zombie Dice</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035049817904701" target="blank">CO2</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035074918104701" target="blank">Evolution</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035074918004701" target="blank">Lovelace and Babbage</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034870315404701" target="blank">Photosynthesis</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034873710104701" target="blank">Subatomic</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035049818004701" target="blank">Trekking the National Parks</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035049817604701" target="blank">Wingspan</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991011017609704701" target="blank">DnD Basic Game</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010978829704701" target="blank">The Magic Labyrinth</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010706719704701" target="blank">Apples to Apples</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034873710004701" target="blank">Captain Sonar</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034870302004701" target="blank">Codenames Duet</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010711689704701" target="blank">Cranium</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010706759704701" target="blank">Dixit</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034840412704701" target="blank">Epic Spell Wars of the Battle Wizards</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010708879704701" target="blank">Ex Libris - trivia</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034989995404701" target="blank">I Dissent</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991011564099704701" target="blank">Jenga</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034904195404701" target="blank">One Night Ultimate Werewolf</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010707509704701" target="blank">Quelf</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991011020399704701" target="blank">The Resistance</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991011068879704701" target="blank">Say Anything</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034873709904701" target="blank">Sheriff of Nottingham</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034909494704701" target="blank">Simpsons Ultimate Trivia Game</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/17uq3m8/alma991035358674104701" target="blank">Spot It</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034840412904701" target="blank">Spyfall</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034840210404701" target="blank">Spyfall2</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034987917504701" target="blank">Trivial Pursuit: The Shakespeare Edition</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991034840318404701" target="blank">Trivia Pursuit: World of Harry Potter</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/17uq3m8/alma991035358673804701" target="blank">We're Not Really Strangers</a></li>  
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035049817104701" target="blank">7 Wonders</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/17uq3m8/alma991035358673704701" target="blank">A Feast for Odin</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035044595704701" target="blank">Australian Rails</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034870301104701" target="blank">Azul</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034840318504701" target="blank">Backagmmon</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991011047399704701" target="blank">Battle of Five Armies</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010709069704701" target="blank">Catan</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034870302104701" target="blank">Century Spice Road</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034840318904701" target="blank">Checkers</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010708819704701" target="blank">Clue</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034883015604701" target="blank">Clue: Game of Thrones</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034904195804701" target="blank">Ex Libris</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034937304904701" target="blank">Five Tribes</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034840319204701" target="blank">Gloomhaven</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034840318604701" target="blank">Go</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035074918304701" target="blank">Kilt Castle</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035008402504701" target="blank">Lattice Hawai'i</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010708959704701" target="blank">Monopoly</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010708999704701" target="blank">Napoleon at Waterloo</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034942419304701" target="blank">Plague Inc.</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010709039704701" target="blank">Risk</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035044595504701" target="blank">Risk: Captain America - Civil War</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034883015704701" target="blank">Risk: Game of Thrones</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034937305504701" target="blank">Root</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034870301904701" target="blank">Scythe</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010914989704701" target="blank">Strat-O-Matic Baseball</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035074918404701" target="blank">Tapestry: a civilization game</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035049816804701" target="blank">Terra Mystica</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034840411304701" target="blank">The Arrival</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035074918604701" target="blank">The Village Crone</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010711189704701" target="blank">Ticket to Ride</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010711289704701" target="blank">Tiny Epic Galaxies</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010711459704701" target="blank">Tsuro</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034904195504701" target="blank">Victorian Masterminds</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035074918704701" target="blank">Viticulture</a></li>
+</random></template></category>
+
+	<category><pattern>* TABLETOP</pattern>
+	<template><srai>TABLETOP</srai></template></category>
+	<category><pattern>TABLETOP *</pattern>
+	<template><srai>TABLETOP</srai></template></category>
+	<category><pattern>* TABLETOP *</pattern>
+	<template><srai>TABLETOP</srai></template></category>
+	<category><pattern>TABLETOP GAME</pattern>
+	<template><srai>TABLETOP</srai></template></category>
+	<category><pattern>* TABLETOP GAME</pattern>
+	<template><srai>TABLETOP</srai></template></category>
+	<category><pattern>TABLETOP GAME *</pattern>
+	<template><srai>TABLETOP</srai></template></category>
+	<category><pattern>* TABLETOP GAME *</pattern>
+	<template><srai>TABLETOP</srai></template></category>
+	<category><pattern>TABLETOP GAMES</pattern>
+	<template><srai>TABLETOP</srai></template></category>
+	<category><pattern>* TABLETOP GAMES</pattern>
+	<template><srai>TABLETOP</srai></template></category>
+	<category><pattern>TABLETOP GAMES *</pattern>
+	<template><srai>TABLETOP</srai></template></category>
+	<category><pattern>* TABLETOP GAMES *</pattern>
+	<template><srai>TABLETOP</srai></template></category>
+	
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_TABLETOP</that>
+<template><srai>TABLETOP</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_TABLETOP</that>
+<template><srai>TABLETOP</srai></template></category>
+
+<!-- CARD GAME -->
+
+<category><pattern>CARD</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/12i4laf/alma991035049816304701" target="blank">Anomia</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034840209604701" target="blank">Batman: Almost Got 'Im</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991035080812104701" target="blank">Bloodborne: the card game</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010699689704701" target="blank">Cards Against Humanity</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010699729704701" target="blank">Exploding Kittens</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010706809704701" target="blank">Fluxx</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034909498904701" target="blank">Get the MacGuffin</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010699769704701" target="blank">Gloom </a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/d3dcuk/alma991035049816004701" target="blank">Hanabi</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/17uq3m8/alma991035393063604701" target="blank">Happy Little Dinosaurs </a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035008401704701" target="blank">Harry Potter Hogwarts Battle: Defence Against the Dark Arts</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991011018609704701" target="blank">Hoity Toity</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034909496104701" target="blank">Magic the Gathering</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010707269704701" target="blank">Munchkin</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991011018519704701" target="blank">Phase 10</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010707339704701" target="blank">Quiddler</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034840411704701" target="blank">Rick and Morty: Total Rickall</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034909494904701" target="blank">Set</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991011564289704701" target="blank">Skip Bo</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035008403004701" target="blank">Sushi Go!</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034840319004701" target="blank">The Voting Game</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991011564059704701" target="blank">Uno</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010707549704701" target="blank">We Didn't Playtest This at All</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991011017149704701" target="blank">Zombie Fluxx</a></li>
+</random></template></category>
+
+	<category><pattern>* CARD</pattern>
+	<template><srai>CARD</srai></template></category>
+	<category><pattern>CARD *</pattern>
+	<template><srai>CARD</srai></template></category>
+	<category><pattern>* CARD *</pattern>
+	<template><srai>CARD</srai></template></category>
+	<category><pattern>CARD GAME</pattern>
+	<template><srai>CARD</srai></template></category>
+	<category><pattern>* CARD GAME</pattern>
+	<template><srai>CARD</srai></template></category>
+	<category><pattern>CARD GAME *</pattern>
+	<template><srai>CARD</srai></template></category>
+	<category><pattern>* CARD GAME *</pattern>
+	<template><srai>CARD</srai></template></category>
+	<category><pattern>CARD GAMES</pattern>
+	<template><srai>CARD</srai></template></category>
+	<category><pattern>* CARD GAMES</pattern>
+	<template><srai>CARD</srai></template></category>
+	<category><pattern>CARD GAMES *</pattern>
+	<template><srai>CARD</srai></template></category>
+	<category><pattern>* CARD GAMES *</pattern>
+	<template><srai>CARD</srai></template></category>
+	
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_CARD</that>
+<template><srai>CARD</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_CARD</that>
+<template><srai>CARD</srai></template></category>
+
+<!-- COOPERATIVE GAMES -->
+
+<category><pattern>COOPERATIVE</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010707589704701" target="blank">Betrayal at House on the Hill</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035080812004701" target="blank">Burgle Bros.</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034904195304701" target="blank">Castle Panic</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010707729704701" target="blank">Castle Ravenloft</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010707789704701" target="blank">Forbidden Desert</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010708329704701" target="blank">Freedom: Underground Railroad</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010708919704701" target="blank">Mansions of Madness</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010708559704701" target="blank">Mysterium</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010708629704701" target="blank">Pandemic</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010978779704701" target="blank">The Captain is Dead</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034909497704701" target="blank">The Walking Dead</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010708739704701" target="blank">T.I.M.E. Stories</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034840210004701" target="blank">Train Heist</a></li>
+</random></template></category>
+
+	<category><pattern>* COOPERATIVE</pattern>
+	<template><srai>COOPERATIVE</srai></template></category>
+	<category><pattern>COOPERATIVE *</pattern>
+	<template><srai>COOPERATIVE</srai></template></category>
+	<category><pattern>* COOPERATIVE *</pattern>
+	<template><srai>COOPERATIVE</srai></template></category>
+	<category><pattern>COOPERATIVE GAME</pattern>
+	<template><srai>COOPERATIVE</srai></template></category>
+	<category><pattern>* COOPERATIVE GAME</pattern>
+	<template><srai>COOPERATIVE</srai></template></category>
+	<category><pattern>COOPERATIVE GAME *</pattern>
+	<template><srai>COOPERATIVE</srai></template></category>
+	<category><pattern>* COOPERATIVE GAME *</pattern>
+	<template><srai>COOPERATIVE</srai></template></category>
+	<category><pattern>COOPERATIVE GAMES</pattern>
+	<template><srai>COOPERATIVE</srai></template></category>
+	<category><pattern>* COOPERATIVE GAMES</pattern>
+	<template><srai>COOPERATIVE</srai></template></category>
+	<category><pattern>COOPERATIVE GAMES *</pattern>
+	<template><srai>COOPERATIVE</srai></template></category>
+	<category><pattern>* COOPERATIVE GAMES *</pattern>
+	<template><srai>COOPERATIVE</srai></template></category>
+	
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_COOPERATIVE</that>
+<template><srai>COOPERATIVE</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_COOPERATIVE</that>
+<template><srai>COOPERATIVE</srai></template></category>
+
+<!-- DECK BUILDER GAMES -->
+
+<category><pattern>DECK BUILDER</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034840209504701" target="blank">DC Comics Deck-Building Game</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010711629704701" target="blank">Dominion</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010708409704701" target="blank">Legendary</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034840409504701" target="blank">Rick and Morty: Close Rick-Counters of the Rick Kind</a></li>
+</random></template></category>
+
+	<category><pattern>* DECK BUILDER</pattern>
+	<template><srai>DECK BUILDER</srai></template></category>
+	<category><pattern>DECK BUILDER *</pattern>
+	<template><srai>DECK BUILDER</srai></template></category>
+	<category><pattern>* DECK BUILDER *</pattern>
+	<template><srai>DECK BUILDER</srai></template></category>
+	<category><pattern>DECK BUILDER GAME</pattern>
+	<template><srai>DECK BUILDER</srai></template></category>
+	<category><pattern>* DECK BUILDER GAME</pattern>
+	<template><srai>DECK BUILDER</srai></template></category>
+	<category><pattern>DECK BUILDER GAME *</pattern>
+	<template><srai>DECK BUILDER</srai></template></category>
+	<category><pattern>* DECK BUILDER GAME *</pattern>
+	<template><srai>DECK BUILDER</srai></template></category>
+	<category><pattern>DECK BUILDER GAMES</pattern>
+	<template><srai>DECK BUILDER</srai></template></category>
+	<category><pattern>* DECK BUILDER GAMES</pattern>
+	<template><srai>DECK BUILDER</srai></template></category>
+	<category><pattern>DECK BUILDER GAMES *</pattern>
+	<template><srai>DECK BUILDER</srai></template></category>
+	<category><pattern>* DECK BUILDER GAMES *</pattern>
+	<template><srai>DECK BUILDER</srai></template></category>
+	
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_DECK BUILDER</that>
+<template><srai>DECK BUILDER</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_DECK BUILDER</that>
+<template><srai>DECK BUILDER</srai></template></category>
+
+<!-- DICE GAMES -->
+
+<category><pattern>DICE</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991011031109704701" target="blank">Bananagrams</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010711499704701" target="blank">Chupacabra</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991011573349704701" target="blank">Connect 4</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034870302204701" target="blank">Dice Forge</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034870301204701" target="blank">Patchwork</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010711539704701" target="blank">Pop-O-Matic Trouble</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034849010604701" target="blank">Pop-O-Matic Trouble: Despicable Me</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034840408104701" target="blank">Rick and Morty: Anatomy Park</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034904195204701" target="blank">Sagrada</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991011030829704701" target="blank">Yahtzee</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991011407539704701" target="blank">Zhongguo Xiang Qi</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010711579704701" target="blank">Zombie Dice</a></li>
+</random></template></category>
+
+	<category><pattern>* DICE</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>DICE *</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>* DICE *</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>DICE GAME</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>* DICE GAME</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>DICE GAME *</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>* DICE GAME *</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>DICE GAMES</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>* DICE GAMES</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>DICE GAMES *</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>* DICE GAMES *</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>TILE</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>* TILE</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>TILE *</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>* TILE *</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>TILE GAME</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>* TILE GAME</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>TILE GAME *</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>* TILE GAME *</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>TILE GAMES</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>* TILE GAMES</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>TILE GAMES *</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>* TILE GAMES *</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>SPIN</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>* SPIN</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>SPIN *</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>* SPIN *</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>SPIN GAME</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>* SPIN GAME</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>SPIN GAME *</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>* SPIN GAME *</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>SPIN GAMES</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>* SPIN GAMES</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>SPIN GAMES *</pattern>
+	<template><srai>DICE</srai></template></category>
+	<category><pattern>* SPIN GAMES *</pattern>
+	<template><srai>DICE</srai></template></category>
+	
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_DICE</that>
+<template><srai>DICE</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_DICE</that>
+<template><srai>DICE</srai></template></category>
+
+<!-- EDUCATIONAL GAMES -->
+
+<category><pattern>EDUCATIONAL</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035049817904701" target="blank">CO2</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035074918104701" target="blank">Evolution</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035074918004701" target="blank">Lovelace and Babbage</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034870315404701" target="blank">Photosynthesis</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034873710104701" target="blank">Subatomic</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035049818004701" target="blank">Trekking the National Parks</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035049817604701" target="blank">Wingspan</a></li>
+</random></template></category>
+
+	<category><pattern>* EDUCATIONAL</pattern>
+	<template><srai>EDUCATIONAL</srai></template></category>
+	<category><pattern>EDUCATIONAL *</pattern>
+	<template><srai>EDUCATIONAL</srai></template></category>
+	<category><pattern>* EDUCATIONAL *</pattern>
+	<template><srai>EDUCATIONAL</srai></template></category>
+	<category><pattern>EDUCATIONAL GAME</pattern>
+	<template><srai>EDUCATIONAL</srai></template></category>
+	<category><pattern>* EDUCATIONAL GAME</pattern>
+	<template><srai>EDUCATIONAL</srai></template></category>
+	<category><pattern>EDUCATIONAL GAME *</pattern>
+	<template><srai>EDUCATIONAL</srai></template></category>
+	<category><pattern>* EDUCATIONAL GAME *</pattern>
+	<template><srai>EDUCATIONAL</srai></template></category>
+	<category><pattern>EDUCATIONAL GAMES</pattern>
+	<template><srai>EDUCATIONAL</srai></template></category>
+	<category><pattern>* EDUCATIONAL GAMES</pattern>
+	<template><srai>EDUCATIONAL</srai></template></category>
+	<category><pattern>EDUCATIONAL GAMES *</pattern>
+	<template><srai>EDUCATIONAL</srai></template></category>
+	<category><pattern>* EDUCATIONAL GAMES *</pattern>
+	<template><srai>EDUCATIONAL</srai></template></category>
+	
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_EDUCATIONAL</that>
+<template><srai>EDUCATIONAL</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_EDUCATIONAL</that>
+<template><srai>EDUCATIONAL</srai></template></category>
+
+<!-- FAMILY GAMES -->
+
+<category><pattern>FAMILY</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034942890304701" target="blank">Butt-Ugly Martians</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034987899104701" target="blank">Candyland</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034987898704701" target="blank">Chutes and Ladders</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034942419504701" target="blank">Disney Villainous</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034987898604701" target="blank">Game of Life</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034849011204701" target="blank">Guess Who</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034937305304701" target="blank">Hardback</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034987899204701" target="blank">Hungry Hungry Hippos</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035049815804701" target="blank">Kingdomino</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/17uq3m8/alma991034987899004701" target="blank">Let's go Fishin'</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035008402004701" target="blank">Love Letter</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035008402804701" target="blank">Operation</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034942419604701" target="blank">Scotland Yard</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034937305404701" target="blank">Shadows in the Forest</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035049815904701" target="blank">The Mind</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/17uq3m8/alma991035393064204701" target="blank">Unlock!: Escape Adventures</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/17uq3m8/alma991035393064304701" target="blank">Unlock!: Mystery Adventures</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/17uq3m8/alma991035393064004701" target="blank">Unlock!: Star Wars</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034987898804701" target="blank">Sorry!</a></li>
+</random></template></category>
+
+	<category><pattern>* FAMILY</pattern>
+	<template><srai>FAMILY</srai></template></category>
+	<category><pattern>FAMILY *</pattern>
+	<template><srai>FAMILY</srai></template></category>
+	<category><pattern>* FAMILY *</pattern>
+	<template><srai>FAMILY</srai></template></category>
+	<category><pattern>FAMILY GAME</pattern>
+	<template><srai>FAMILY</srai></template></category>
+	<category><pattern>* FAMILY GAME</pattern>
+	<template><srai>FAMILY</srai></template></category>
+	<category><pattern>FAMILY GAME *</pattern> 
+	<template><srai>FAMILY</srai></template></category>
+	<category><pattern>* FAMILY GAME *</pattern>
+	<template><srai>FAMILY</srai></template></category>
+	<category><pattern>FAMILY GAMES</pattern>
+	<template><srai>FAMILY</srai></template></category>
+	<category><pattern>* FAMILY GAMES</pattern>
+	<template><srai>FAMILY</srai></template></category>
+	<category><pattern>FAMILY GAMES *</pattern> 
+	<template><srai>FAMILY</srai></template></category>
+	<category><pattern>* FAMILY GAMES *</pattern>
+	<template><srai>FAMILY</srai></template></category>
+	
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_FAMILY</that>
+<template><srai>FAMILY</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_FAMILY</that>
+<template><srai>FAMILY</srai></template></category>
+
+<!-- MEMORY GAMES -->
+ 
+<category><pattern>MEMORY</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991011017609704701" target="blank">DnD Basic Game</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010978829704701" target="blank">The Magic Labyrinth</a></li>
+</random></template></category>
+ 
+	<category><pattern>* MEMORY</pattern>
+	<template><srai>MEMORY</srai></template></category>
+	<category><pattern>MEMORY *</pattern>
+	<template><srai>MEMORY</srai></template></category>
+	<category><pattern>* MEMORY *</pattern>
+	<template><srai>MEMORY</srai></template></category>
+	<category><pattern>MEMORY GAME</pattern>
+	<template><srai>MEMORY</srai></template></category>
+	<category><pattern>* MEMORY GAME</pattern>
+	<template><srai>MEMORY</srai></template></category>
+	<category><pattern>MEMORY GAME *</pattern>
+	<template><srai>MEMORY</srai></template></category>
+	<category><pattern>* MEMORY GAME*</pattern>
+	<template><srai>MEMORY</srai></template></category>
+	<category><pattern>MEMORY GAMES</pattern>
+	<template><srai>MEMORY</srai></template></category>
+	<category><pattern>* MEMORY GAMES</pattern>
+	<template><srai>MEMORY</srai></template></category>
+	<category><pattern>MEMORY GAMES *</pattern>
+	<template><srai>MEMORY</srai></template></category>
+	<category><pattern>* MEMORY GAMES*</pattern>
+	<template><srai>MEMORY</srai></template></category>
+	<category><pattern>ROLE PLAY</pattern>
+	<template><srai>MEMORY</srai></template></category>
+	<category><pattern>* ROLE PLAY</pattern>
+	<template><srai>MEMORY</srai></template></category>
+	<category><pattern>ROLE PLAY *</pattern>
+	<template><srai>MEMORY</srai></template></category>
+	<category><pattern>* ROLE PLAY *</pattern>
+	<template><srai>MEMORY</srai></template></category>
+	<category><pattern>ROLE PLAY GAME</pattern>
+	<template><srai>MEMORY</srai></template></category>
+	<category><pattern>* ROLE PLAY GAME</pattern>
+	<template><srai>MEMORY</srai></template></category>
+	<category><pattern>ROLE PLAY GAME *</pattern>
+	<template><srai>MEMORY</srai></template></category>
+	<category><pattern>* ROLE PLAY GAME*</pattern>
+	<template><srai>MEMORY</srai></template></category>
+	<category><pattern>ROLE PLAY GAMES</pattern>
+	<template><srai>MEMORY</srai></template></category>
+	<category><pattern>* ROLE PLAY GAMES</pattern>
+	<template><srai>MEMORY</srai></template></category>
+	<category><pattern>ROLE PLAY GAMES *</pattern>
+	<template><srai>MEMORY</srai></template></category>
+	<category><pattern>* ROLE PLAY GAMES*</pattern>
+	<template><srai>MEMORY</srai></template></category>
+	
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_MEMORY</that>
+<template><srai>MEMORY</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_MEMORY</that>
+<template><srai>MEMORY</srai></template></category>
+
+<!-- PARTY GAMES -->
+
+<category><pattern>PARTY</pattern>
+<template><random> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010706719704701" target="blank">Apples to Apples</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034873710004701" target="blank">Captain Sonar</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034870302004701" target="blank">Codenames Duet</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010711689704701" target="blank">Cranium</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010706759704701" target="blank">Dixit</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034840412704701" target="blank">Epic Spell Wars of the Battle Wizards</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010708879704701" target="blank">Ex Libris - trivia</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034989995404701" target="blank">I Dissent</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991011564099704701" target="blank">Jenga</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034904195404701" target="blank">One Night Ultimate Werewolf</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010707509704701" target="blank">Quelf</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991011020399704701" target="blank">The Resistance</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991011068879704701" target="blank">Say Anything</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034873709904701" target="blank">Sheriff of Nottingham</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034909494704701" target="blank">Simpsons Ultimate Trivia Game</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/17uq3m8/alma991035358674104701" target="blank">Spot It</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034840412904701" target="blank">Spyfall</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034840210404701" target="blank">Spyfall2</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034987917504701" target="blank">Trivial Pursuit: The Shakespeare Edition</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991034840318404701" target="blank">Trivia Pursuit: World of Harry Potter</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/17uq3m8/alma991035358673804701" target="blank">We're Not Really Strangers</a></li>  
+</random></template></category>		
+
+	<category><pattern>* PARTY</pattern>
+	<template><srai>PARTY</srai></template></category>
+	<category><pattern>PARTY *</pattern>
+	<template><srai>PARTY</srai></template></category>
+	<category><pattern>* PARTY *</pattern>    
+	<template><srai>PARTY</srai></template></category>
+	<category><pattern>PARTY GAME</pattern>
+	<template><srai>PARTY</srai></template></category>
+	<category><pattern>* PARTY GAME</pattern>
+	<template><srai>PARTY</srai></template></category>
+	<category><pattern>PARTY GAME *</pattern>  
+	<template><srai>PARTY</srai></template></category>
+	<category><pattern>* PARTY GAME*</pattern>   
+	<template><srai>PARTY</srai></template></category>
+	<category><pattern>PARTY GAMES</pattern>
+	<template><srai>PARTY</srai></template></category>
+	<category><pattern>* PARTY GAMES</pattern>
+	<template><srai>PARTY</srai></template></category>
+	<category><pattern>PARTY GAMES *</pattern>  
+	<template><srai>PARTY</srai></template></category>
+	<category><pattern>* PARTY GAMES*</pattern>   
+	<template><srai>PARTY</srai></template></category>
+  
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_PARTY</that>
+<template><srai>PARTY</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_PARTY</that>
+<template><srai>PARTY</srai></template></category>
+  
+ 
+<!-- STRATEGY GAMES -->
+
+<category><pattern>STRATEGY</pattern>
+<template><random> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035049817104701" target="blank">7 Wonders</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/17uq3m8/alma991035358673704701" target="blank">A Feast for Odin</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035044595704701" target="blank">Australian Rails</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034870301104701" target="blank">Azul</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034840318504701" target="blank">Backagmmon</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991011047399704701" target="blank">Battle of Five Armies</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010709069704701" target="blank">Catan</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034870302104701" target="blank">Century Spice Road</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034840318904701" target="blank">Checkers</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010708819704701" target="blank">Clue</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034883015604701" target="blank">Clue: Game of Thrones</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034904195804701" target="blank">Ex Libris</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034937304904701" target="blank">Five Tribes</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034840319204701" target="blank">Gloomhaven</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1c4e24t/alma991034840318604701" target="blank">Go</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035074918304701" target="blank">Kilt Castle</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035008402504701" target="blank">Lattice Hawai'i</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010708959704701" target="blank">Monopoly</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010708999704701" target="blank">Napoleon at Waterloo</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034942419304701" target="blank">Plague Inc.</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010709039704701" target="blank">Risk</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035044595504701" target="blank">Risk: Captain America - Civil War</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034883015704701" target="blank">Risk: Game of Thrones</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034937305504701" target="blank">Root</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034870301904701" target="blank">Scythe</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010914989704701" target="blank">Strat-O-Matic Baseball</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035074918404701" target="blank">Tapestry: a civilization game</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035049816804701" target="blank">Terra Mystica</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034840411304701" target="blank">The Arrival</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035074918604701" target="blank">The Village Crone</a></li> 
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010711189704701" target="blank">Ticket to Ride</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010711289704701" target="blank">Tiny Epic Galaxies</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991010711459704701" target="blank">Tsuro</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991034904195504701" target="blank">Victorian Masterminds</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1rdrd7o/alma991035074918704701" target="blank">Viticulture</a></li>
+</random></template></category>
+
+	<category><pattern>* STRATEGY</pattern>
+	<template><srai>STRATEGY</srai></template></category>
+	<category><pattern>STRATEGY *</pattern>
+	<template><srai>STRATEGY</srai></template></category>
+	<category><pattern>* STRATEGY *</pattern>
+	<template><srai>STRATEGY</srai></template></category>
+	<category><pattern>STRATEGY GAME</pattern>
+	<template><srai>STRATEGY</srai></template></category>
+	<category><pattern>* STRATEGY GAME</pattern>
+	<template><srai>STRATEGY</srai></template></category>
+	<category><pattern>STRATEGY GAME *</pattern>
+	<template><srai>STRATEGY</srai></template></category>
+	<category><pattern>* STRATEGY GAME*</pattern>
+	<template><srai>STRATEGY</srai></template></category>
+	<category><pattern>STRATEGY GAMES</pattern>
+	<template><srai>STRATEGY</srai></template></category>
+	<category><pattern>* STRATEGY GAMES</pattern>
+	<template><srai>STRATEGY</srai></template></category>
+	<category><pattern>STRATEGY GAMES *</pattern>
+	<template><srai>STRATEGY</srai></template></category>
+	<category><pattern>* STRATEGY GAMES*</pattern>
+	<template><srai>STRATEGY</srai></template></category>
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_STRATEGY</that>
+<template><srai>STRATEGY</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_STRATEGY</that>
+<template><srai>STRATEGY</srai></template></category>
+
+</aiml>
+  
+  
+  
+  
+ 
+
+
+
