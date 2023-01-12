@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<category><pattern>GIVE ME ANOTHER ONE</pattern>
+<that>_FACULTY</that>
+<template><srai>FACULTY</srai></template></category>
+
+<category><pattern>I WANT ANOTHER ONE</pattern>
+<that>_FACULTY</that>
+<template><srai>FACULTY</srai></template></category>
+
+<category><pattern>FACULTY</pattern>
+<template><random>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035357756404701" target="blank">Exhuming violent histories: forensics, memory, and rewriting Spain's past</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035382392404701" target="blank">Lecture notes in water policy</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035392064404701" target="blank">The power of the downstate: recharge your life using your body's own restorative systems</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035404749404701" target="blank">Death by prison: the emergence of life without parole and perpetual confinement</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035347140404701" target="blank">Beyond the global land grab: new directions for research on land struggles and global agrarian change</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035349331904701" target="blank">The neurobiology of aging and Alzheimer disease in Down syndrome</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035313216104701" target="blank">American constitutionalism</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035355436504701" target="blank">Progress in genomic medicine: from research to clinical application</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035374851604701" target="blank">Elusive subjects: immigrant recognition and legitimation in modern surveillance states</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035404749304701" target="blank">Riding the academic freedom train: a culturally responsive, multigenerational mentoring model</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035404866504701" target="blank">Making peace with nature: ecological encounters along the Korean DMZ</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035391434004701" target="blank">Bridging marginality through inclusive higher education</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035355436804701" target="blank">An archive of skin, an archive of kin: disability and life-making during medical incarceration</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035385563304701" target="blank">Thesaurus linguae Graecae: a bibliographic guide to the Canon of Greek authors and works</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035409933104701" target="blank">Wittgenstein rehinged: the relevance of on certainty for contemporary epistemology</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035333270104701" target="blank">Iran to India: the Shansabanis of Afghanistan, c. 1145-1190 CE</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035382385004701" target="blank">Huizhou: local identity and mercantile lineage culture in Ming China</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035401766604701" target="blank">Locating translingualism</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035395056404701" target="blank">Vietnamese stories for language learners: traditional folktales in Vietnamese and English</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035404866704701" target="blank">Frege on language, logic and psychology: selected essays</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035393464204701" target="blank">Model machines: a history of the Asian as automaton</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035401766004701" target="blank">Tsuchi: earthy materials in contemporary Japanese art</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035404866804701" target="blank">The globalization of legal education: a critical perspective</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035404749204701" target="blank">Ultrafilters throughout mathematics</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035401729804701" target="blank">A friendship in twilight: lockdown conversations on death and life</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035404749504701" target="blank">Claude McKay: the making of a Black Bolshevik</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035346413004701" target="blank">Mind on statistics</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035382392204701" target="blank">The Oxford history of modern China</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035376163504701" target="blank">Fierce and fearless: Patsy Takemoto Mink, first woman of color in Congress</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035353269804701" target="blank">Black Dragon: Afro Asian performance and the martial arts imagination</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035350972704701" target="blank">Skepticism</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035391430404701" target="blank">Rough draft of history: a century of U.S. social movements in the news</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035385566404701" target="blank">The racial railroad</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035346323304701" target="blank">Routledge handbook of environment security</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035379966104701" target="blank">Polar shift: the Arctic sustained</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035357756104701" target="blank">Citizenship in hard times: how ordinary people respond to democratic threat</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035355436404701" target="blank">"Beyond this narrow now" or, Delimitations, of W. E. B. Du Bois</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035411044004701" target="blank">The Baron: Maurice de Hirsch and the Jewish nineteenth century</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035357561604701" target="blank">Global burning: rising antidemocracy and the climate crisis</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035355436604701" target="blank">Pedagogies of woundedness: illness, memoir, and the ends of the model minority</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035382376604701" target="blank">The sociolinguistics of global Asias</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035350669204701" target="blank">Just and unjust use of limited force: a moral argument with contemporary illustrations</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035301618004701" target="blank">Am I my brother's keeper?: educational opportunities and outcomes for black and brown boys</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035351758504701" target="blank">Mechanisms and genetics of neurodevelopmental cognitive disorders </a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035208917504701" target="blank">Negotiation: processes for problem solving</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035346319304701" target="blank">Cooperation without submission: indigenous jurisdictions in native nation-US engagements</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035316989004701" target="blank">Dancing the dharma: religious and political allegory in Japanese noh theater</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035268174504701" target="blank">Exercises in programming style</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035349332504701" target="blank">American home</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035349331704701" target="blank">The origins of COVID-19: China and global capitalism</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035268200604701" target="blank">An analytic theory of multi-stream electron beams in traveling wave tubes</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035277115904701" target="blank">Human capital policy: reducing inequality, boosting mobility and productivity</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035324940404701" target="blank">Against flow: video games and the flowing subject</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035268172804701" target="blank">Lecture notes in international trade: an undergraduate course</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035356570704701" target="blank">The glory and the sorrow: a Parisian and his world in the age of the French Revolution</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035276908304701" target="blank">The memorykeepers: gendered knowledges, empires, and Indonesian American history</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035317089204701" target="blank">Deep learning in science </a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035350667704701" target="blank">Engineering Hollywood: technology, technicians, and the science of building the studio system</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035349332704701" target="blank">Virtue hoarders: the case against the professional managerial class</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035276903304701" target="blank">Research handbook on modern legal realism</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035268172304701" target="blank">Solving linear partial differential equations: spectra</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035351765004701" target="blank">Robot ecology: constraint-based design for long-duration autonomy </a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035346413304701" target="blank">Designs and anthropologies: frictions and affinities</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035351758604701" target="blank">Introduction to network traffic flow theory: principles, concepts, models, and methods</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035346413104701" target="blank">Making games for impact</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035349333404701" target="blank">Federal jurisdiction</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035352268104701" target="blank">Clara Schumann Studies</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035268113904701" target="blank">Certification in public health (CPH) exam review</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035325539904701" target="blank">The invention of the American desert: art, land, and the politics of environment</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035268173104701" target="blank">The structure of schooling: readings in the sociology of education</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035349332004701" target="blank">How social movements (sometimes) matter</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035319830704701" target="blank">Mannwquins in museums: power and resistance on display</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035293700804701" target="blank">The Routledge companion to sexuality and colonialism</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035313318404701" target="blank">Teaching climate change for grades 6-12: empowering science teachers to take on the climate crisis through NGSS</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035332975504701" target="blank">Bordered cities and divided societies: humanistic essays of conflict, violence, and healing</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035237201804701" target="blank">Healing historical trauma in South Korean film and literature</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035349333504701" target="blank">Uncertain refuge: sanctuary in the literature of medieval England</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035349333104701" target="blank">I love you but I've chosen darkness</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035355059104701" target="blank">Sports TV</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035283504204701" target="blank">Impossible stories: on the space and time of Black destructive creation</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035305219504701" target="blank">Emerging powers and the world trading system: the past and future of international economic law</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035382385104701" target="blank">Cambridge handbook of routine dynamics</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035349333204701" target="blank">Geopolitics, supply chains, and international relations in East Asia</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035324940204701" target="blank">Performing the Gospels in Byzantium: sight, sound, and space in the divine liturgy</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035283505904701" target="blank">Jay Pather, performance and spatial politics in South Africa</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035254813104701" target="blank"> Invisible institutionalisms: collective reflections on the shadows of legal globalisation</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035283505904701" target="blank">Accidental feminism: gender parity and selective mobility among India's professional elite</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035268200004701" target="blank">The good citizen: how a younger generation Is reshaping American politics</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035325539904701" target="blank">The invention of the American desert: art, land, and the politics of environment</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035350669204701" target="blank">Just and unjust use of limited force: a moral argument with contemporary illustrations </a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035349332904701" target="blank">Toward an African future--of the limit of world</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035310717804701" target="blank">Insistent life: principles for bioethics in the Jain tradition</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035351765104701" target="blank">Hegemonic mimicry: Korean popular culture of the twenty-first century</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035104010904701" target="blank">Brains through time: a natural history of vertebrates</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035268200104701" target="blank">Global spacetime structure</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035104019204701" target="blank">Applied calculus of variations for engineers</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035268172604701" target="blank">Multiple marginality and gangs: through a prism darkly</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035268173904701" target="blank">Madison's sorrow: today's war on the founders and America's liberal ideal</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035283508304701" target="blank">Conceptual breakthroughs in evolutionary ecology</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035292778704701" target="blank">Journey to Italy</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035268174604701" target="blank">Color atlas of medical bacteriology</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035268205904701" target="blank">Cardio-obstetrics: a practical guide to care for pregnant cardiac patients</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991034912796204701" target="blank">Citizen politics: public opinion and political parties in advanced industrial democracies</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035268174804701" target="blank">The art of minorities: cultural representation in museums of the Middle East and North Africa</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035268200304701" target="blank">Gene environment interactions: nature and nurture in the twenty-first century</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035088066604701" target="blank">Metric in measure spaces</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035283508204701" target="blank">Rural inventions: the French countryside after 1945</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035268174104701" target="blank">Human color vision and tetrachromacy</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035268200404701" target="blank">Early warning systems and targeted interventions for student success in online courses</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035268174204701" target="blank">Glorious</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035292778604701" target="blank">The pandemic: perspectives on Asia</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035075294504701" target="blank">Mediation: practice, policy, and ethics</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035002008004701" target="blank">Legislation, statutory interpretation, and election law: examples and explanations</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035268172504701" target="blank">Of love and papers: how immigration policy affects romance and family</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035104019104701" target="blank">Letters from Filadelfia: early Latino literature and the trans-American elite</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035268173704701" target="blank">Muslims and citizens: Islam, politics, and the French Revolution</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035268174004701" target="blank">The last great road bum</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035063216404701" target="blank">Anxious creativity: when imagination fails</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035088081604701" target="blank">Afropessimism</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035268173504701" target="blank">The perfect nine: the epic of Gĩkũyũ and Mũmbi</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035268173304701" target="blank">Seeds of control: Japan's empire of forestry in colonial Korea</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035268172904701" target="blank">Women's perspectives on human security: violence, environment, and sustainability</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035268174404701" target="blank">Fruteros: street vending, illegality, and ethnic community in Los Angeles</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035283504104701" target="blank">Libraries and nonprofits: collaboration for the public good</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035002653104701" target="blank">The complex web of inequality in North American schools: investigating educational policies for social justice</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035198804904701" target="blank">Leibniz</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035071886704701" target="blank">Emotional trauma in Greece and Rome: representations and reactions</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035100313104701" target="blank">The Methuen Drama handbook of interculturalism and performance</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035106901004701" target="blank">Salivary bioscience: foundations of interdisciplinary saliva research and applications</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035125818404701" target="blank">From the Galleons to the Highlands Slave Trade Routes in the Spanish Americas</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035268199804701" target="blank">Wrestling with God: ethical precarity in Christianity and international relations </a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035268174304701" target="blank">Games in the philosophy of biology</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035063419404701" target="blank">Policing the womb: invisible women and the criminalization of motherhood</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035063478504701" target="blank">Election meltdown: dirty tricks, distrust, and the threat to American democracy</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035268173604701" target="blank">A peculiar indifference: the neglected toll of violence on black America</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035046614804701" target="blank">Modern control theory and the limits of criminal justice</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035292893804701" target="blank">Radioactive ghosts</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035292893904701" target="blank">Jews and the Mediterranean</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035351853204701" target="blank">The pursuit of happiness: philosophical and psychological foundations of utility</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991011920979704701" target="blank">Amartya Sen and law </a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035341237704701" target="blank">Is voting for young people?: completely updated through the 2018 election</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035268172404701" target="blank">The queer games avant-garde: how LGBTQ game makers are reimagining the medium of video games</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035071583204701" target="blank">Translinguistics: negotiating innovation and ordinariness</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035072216804701" target="blank">Vigil: Hong Kong on the brink</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035191079004701" target="blank">Traffic in Asian women</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035042074704701" target="blank">Climate change from the streets: how conflict and collaboration strengthen the environmental justice movement</a></li>
+	<li>I would recommend that you try <a href="https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1grcihl/alma991035208917704701" target="blank">The Glannon guide to torts: learning torts through multiple-choice questions and analysis</a></li> 
+</random></template></category>
+ 
+	<category><pattern>* FACULTY</pattern>
+	<template><srai>FACULTY</srai></template></category>
+	<category><pattern>FACULTY *</pattern>
+	<template><srai>FACULTY</srai></template></category>
+	<category><pattern>* FACULTY *</pattern>
+	<template><srai>FACULTY</srai></template></category>
+	<category><pattern>FACULTY AUTHOR</pattern>
+	<template><srai>FACULTY</srai></template></category>
+	<category><pattern>* FACULTY AUTHOR</pattern>
+	<template><srai>FACULTY</srai></template></category>
+	<category><pattern>FACULTY AUTHOR *</pattern>
+	<template><srai>FACULTY</srai></template></category>
+	<category><pattern>* FACULTY AUTHOR *</pattern>
+	<template><srai>FACULTY</srai></template></category>
+	<category><pattern>FACULTY AUTHORS</pattern>
+	<template><srai>FACULTY</srai></template></category>
+	<category><pattern>* FACULTY AUTHORS</pattern>
+	<template><srai>FACULTY</srai></template></category>
+	<category><pattern>FACULTY AUTHORS *</pattern>
+	<template><srai>FACULTY</srai></template></category>
+	<category><pattern>* FACULTY AUTHORS *</pattern>
+	<template><srai>FACULTY</srai></template></category>
+	<category><pattern>UCI AUTHOR</pattern>
+	<template><srai>FACULTY</srai></template></category>
+	<category><pattern>* UCI AUTHOR</pattern>
+	<template><srai>FACULTY</srai></template></category>
+	<category><pattern>UCI AUTHOR *</pattern>
+	<template><srai>FACULTY</srai></template></category>
+	<category><pattern>* UCI AUTHOR *</pattern>
+	<template><srai>FACULTY</srai></template></category>
+	<category><pattern>UCI AUTHORS</pattern>
+	<template><srai>FACULTY</srai></template></category>
+	<category><pattern>* UCI AUTHORS</pattern>
+	<template><srai>FACULTY</srai></template></category>
+	<category><pattern>UCI AUTHORS *</pattern>
+	<template><srai>FACULTY</srai></template></category>
+	<category><pattern>* UCI AUTHORS *</pattern>
+	<template><srai>FACULTY</srai></template></category>
+
+</aiml>
